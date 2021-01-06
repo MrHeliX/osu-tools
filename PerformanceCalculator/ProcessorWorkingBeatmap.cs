@@ -42,7 +42,7 @@ namespace PerformanceCalculator
         {
             using (var stream = File.OpenRead(filename))
             using (var reader = new LineBufferedReader(stream))
-                return Decoder.GetDecoder<Beatmap>(reader).Decode(reader);
+                return Decoder.GetDecoder<Beatmap>(reader, filename).Decode(reader);
         }
 
         protected override IBeatmap GetBeatmap() => beatmap;
