@@ -1,0 +1,98 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 67
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 28285,38571
+DistanceSpacing: 1.5
+BeatDivisor: 1
+GridSize: 32
+TimelineZoom: 1
+
+[Metadata]
+Title:e
+TitleUnicode:e
+Artist:tatatat
+ArtistUnicode:tatatat
+Creator:tatatat
+Version:9k beginner
+Source:
+Tags:music box mathematical constant Leonhard Euler
+BeatmapID:1766064
+BeatmapSetID:844183
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:9
+OverallDifficulty:7
+ApproachRate:10
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"thelettere.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+67,857.142857142857,6,2,0,40,1,0
+
+
+[HitObjects]
+142,192,67,5,0,0:0:0:70:2.wav
+426,192,924,1,0,0:0:0:70:7.wav
+85,192,1781,1,0,0:0:0:70:1.wav
+483,192,2638,1,0,0:0:0:70:8.wav
+142,192,3495,128,0,5209:0:0:0:70:2.wav
+483,192,5209,1,0,0:0:0:70:8.wav
+85,192,6066,1,0,0:0:0:70:1.wav
+483,192,6924,1,0,0:0:0:70:8.wav
+142,192,7781,1,0,0:0:0:70:2.wav
+483,192,8638,128,0,10352:0:0:0:70:8.wav
+256,192,10352,1,0,0:0:0:70:4.wav
+312,192,11209,1,0,0:0:0:70:5.wav
+483,192,12066,1,0,0:0:0:70:9.wav
+28,192,12924,1,0,0:0:0:70:0.wav
+256,192,13781,1,0,0:0:0:70:4.wav
+312,192,14638,1,0,0:0:0:70:5.wav
+142,192,15495,1,0,0:0:0:70:2.wav
+199,192,16352,1,0,0:0:0:70:3.wav
+312,192,17209,1,0,0:0:0:70:5.wav
+199,192,18066,1,0,0:0:0:70:3.wav
+369,192,18924,128,0,20638:0:0:0:70:6.wav
+28,192,20638,1,0,0:0:0:70:0.wav
+142,192,21495,1,0,0:0:0:70:2.wav
+483,192,22352,1,0,0:0:0:70:8.wav
+426,192,23209,1,0,0:0:0:70:7.wav
+199,192,24066,128,0,25781:0:0:0:70:4.wav
+426,192,25781,1,0,0:0:0:70:7.wav
+85,192,26638,1,0,0:0:0:70:1.wav
+199,192,27495,1,0,0:0:0:70:3.wav
+256,192,28352,1,0,0:0:0:70:4.wav
+142,192,29209,128,0,30924:0:0:0:70:2.wav
+312,192,30924,1,0,0:0:0:70:5.wav
+312,192,31781,1,0,0:0:0:70:5.wav
+142,192,32638,1,0,0:0:0:70:2.wav
+483,192,33495,1,0,0:0:0:70:9.wav
+426,192,34352,1,0,0:0:0:70:7.wav
+426,192,35209,1,0,0:0:0:70:7.wav
+312,192,36066,1,0,0:0:0:70:5.wav
+426,192,36924,1,0,0:0:0:70:7.wav
+142,192,37781,1,0,0:0:0:70:2.wav
+256,192,38638,1,0,0:0:0:70:4.wav
+426,192,39495,128,0,41209:0:0:0:70:7.wav

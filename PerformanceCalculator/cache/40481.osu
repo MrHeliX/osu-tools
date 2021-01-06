@@ -1,0 +1,3947 @@
+osu file format v6
+
+[General]
+AudioFilename: Nintendo_DS_-_PictoChat.mp3
+AudioLeadIn: 1985
+PreviewTime: 869
+Countdown: 1
+SampleSet: Soft
+StackLeniency: 0.6
+Mode: 0
+LetterboxInBreaks: 0
+SkinPreference:Default
+
+[Editor]
+DistanceSpacing: 0.800000011920929
+BeatDivisor: 6
+GridSize: 8
+
+[Metadata]
+Title:PictoChat
+Artist:Shogo Sakai
+Creator:NoHItter
+Version:Hard
+Source:Super Smash Bros Brawl
+Tags:SSBB Nintendo wii DS
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:5
+OverallDifficulty:6
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg.jpg"
+//Break Periods
+2,16578,18154
+2,57230,64241
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"sb\c2",88,393
+ R,0,0,,6.002787
+ F,0,743,943,0,1
+ F,0,1088,3088,1,0
+Sprite,Foreground,Centre,"sb\c4",108,392
+ R,0,0,,2.059056
+ F,0,815,1015,0,1
+ F,0,1088,3088,1,0
+Sprite,Foreground,Centre,"sb\c2",124,393
+ R,0,0,,2.109443
+ F,0,888,1088,0,1
+ F,0,1088,3088,1,0
+Sprite,Foreground,Centre,"sb\c3",126,390
+ R,0,0,,3.783828
+ F,0,888,1088,0,1
+ F,0,1305,3305,1,0
+Sprite,Foreground,Centre,"sb\c2",148,392
+ R,0,0,,4.23184
+ F,0,942,1142,0,1
+ F,0,1305,3305,1,0
+Sprite,Foreground,Centre,"sb\c4",160,396
+ R,0,0,,4.668767
+ F,0,996,1196,0,1
+ F,0,1305,3305,1,0
+Sprite,Foreground,Centre,"sb\c1",179,396
+ R,0,0,,5.525452
+ F,0,1050,1250,0,1
+ F,0,1305,3305,1,0
+Sprite,Foreground,Centre,"sb\c4",191,393
+ R,0,0,,5.351789
+ F,0,1105,1305,0,1
+ F,0,1305,3305,1,0
+Sprite,Foreground,Centre,"sb\c3",192,390
+ R,0,0,,5.602044
+ F,0,1105,1305,0,1
+ F,0,1523,3523,1,0
+Sprite,Foreground,Centre,"sb\c3",205,390
+ R,0,0,,4.480594
+ F,0,1159,1359,0,1
+ F,0,1523,3523,1,0
+Sprite,Foreground,Centre,"sb\c3",225,396
+ R,0,0,,4.2146
+ F,0,1214,1414,0,1
+ F,0,1523,3523,1,0
+Sprite,Foreground,Centre,"sb\c4",239,396
+ R,0,0,,3.001318
+ F,0,1268,1468,0,1
+ F,0,1523,3523,1,0
+Sprite,Foreground,Centre,"sb\c2",260,391
+ R,0,0,,4.161065
+ F,0,1323,1523,0,1
+ F,0,1523,3523,1,0
+Sprite,Foreground,Centre,"sb\c4",257,392
+ R,0,0,,2.995363
+ F,0,1323,1523,0,1
+ F,0,1740,3740,1,0
+Sprite,Foreground,Centre,"sb\c1",275,393
+ R,0,0,,3.678897
+ F,0,1377,1577,0,1
+ F,0,1740,3740,1,0
+Sprite,Foreground,Centre,"sb\c4",287,388
+ R,0,0,,2.720765
+ F,0,1431,1631,0,1
+ F,0,1740,3740,1,0
+Sprite,Foreground,Centre,"sb\c4",306,392
+ R,0,0,,0.1733616
+ F,0,1485,1685,0,1
+ F,0,1740,3740,1,0
+Sprite,Foreground,Centre,"sb\c2",320,393
+ R,0,0,,4.416101
+ F,0,1540,1740,0,1
+ F,0,1740,3740,1,0
+Sprite,Foreground,Centre,"sb\c1",324,392
+ R,0,0,,3.899112
+ F,0,1540,1740,0,1
+ F,0,2030,4030,1,0
+Sprite,Foreground,Centre,"sb\c2",334,389
+ R,0,0,,5.410951
+ F,0,1598,1798,0,1
+ F,0,2030,4030,1,0
+Sprite,Foreground,Centre,"sb\c4",356,393
+ R,0,0,,6.06146
+ F,0,1656,1856,0,1
+ F,0,2030,4030,1,0
+Sprite,Foreground,Centre,"sb\c1",366,390
+ R,0,0,,0.6051171
+ F,0,1714,1914,0,1
+ F,0,2030,4030,1,0
+Sprite,Foreground,Centre,"sb\c1",383,390
+ R,0,0,,3.662572
+ F,0,1772,1972,0,1
+ F,0,2030,4030,1,0
+Sprite,Foreground,Centre,"sb\c2",396,396
+ R,0,0,,3.662761
+ F,0,1830,2030,0,1
+ F,0,2030,4030,1,0
+Sprite,Foreground,Centre,"sb\c4",460,390
+ R,0,0,,5.353395
+ F,0,2047,2247,0,1
+ F,0,2465,4465,1,0
+Sprite,Foreground,Centre,"sb\c4",467,396
+ R,0,0,,2.224134
+ F,0,2101,2301,0,1
+ F,0,2465,4465,1,0
+Sprite,Foreground,Centre,"sb\c3",488,393
+ R,0,0,,0.3935814
+ F,0,2156,2356,0,1
+ F,0,2465,4465,1,0
+Sprite,Foreground,Centre,"sb\c1",498,390
+ R,0,0,,3.949499
+ F,0,2210,2410,0,1
+ F,0,2465,4465,1,0
+Sprite,Foreground,Centre,"sb\c3",510,390
+ R,0,0,,4.396422
+ F,0,2265,2465,0,1
+ F,0,2465,4465,1,0
+Sprite,Foreground,Centre,"sb\c1",509,388
+ R,0,0,,3.017838
+ F,0,2265,2465,0,1
+ F,0,2682,4682,1,0
+Sprite,Foreground,Centre,"sb\c3",516,381
+ R,0,0,,2.197863
+ F,0,2319,2519,0,1
+ F,0,2682,4682,1,0
+Sprite,Foreground,Centre,"sb\c3",524,371
+ R,0,0,,0.233919
+ F,0,2373,2573,0,1
+ F,0,2682,4682,1,0
+Sprite,Foreground,Centre,"sb\c3",528,356
+ R,0,0,,6.168063
+ F,0,2427,2627,0,1
+ F,0,2682,4682,1,0
+Sprite,Foreground,Centre,"sb\c3",534,344
+ R,0,0,,0.3959202
+ F,0,2482,2682,0,1
+ F,0,2682,4682,1,0
+Sprite,Foreground,Centre,"sb\c4",538,344
+ R,0,0,,3.746989
+ F,0,2482,2682,0,1
+ F,0,3117,5117,1,0
+Sprite,Foreground,Centre,"sb\c3",536,327
+ R,0,0,,0.4202174
+ F,0,2536,2736,0,1
+ F,0,3117,5117,1,0
+Sprite,Foreground,Centre,"sb\c2",540,316
+ R,0,0,,5.084421
+ F,0,2590,2790,0,1
+ F,0,3117,5117,1,0
+Sprite,Foreground,Centre,"sb\c2",535,303
+ R,0,0,,6.091192
+ F,0,2645,2845,0,1
+ F,0,3117,5117,1,0
+Sprite,Foreground,Centre,"sb\c3",532,288
+ R,0,0,,3.288025
+ F,0,2699,2899,0,1
+ F,0,3117,5117,1,0
+Sprite,Foreground,Centre,"sb\c4",534,274
+ R,0,0,,0.8905885
+ F,0,2753,2953,0,1
+ F,0,3117,5117,1,0
+Sprite,Foreground,Centre,"sb\c4",532,261
+ R,0,0,,5.937537
+ F,0,2808,3008,0,1
+ F,0,3117,5117,1,0
+Sprite,Foreground,Centre,"sb\c2",537,244
+ R,0,0,,4.145061
+ F,0,2862,3062,0,1
+ F,0,3117,5117,1,0
+Sprite,Foreground,Centre,"sb\c4",537,232
+ R,0,0,,3.831538
+ F,0,2917,3117,0,1
+ F,0,3117,5117,1,0
+Sprite,Foreground,Centre,"sb\c4",532,232
+ R,0,0,,0.5814955
+ F,0,2917,3117,0,1
+ F,0,3552,5552,1,0
+Sprite,Foreground,Centre,"sb\c2",540,219
+ R,0,0,,0.7021004
+ F,0,2971,3171,0,1
+ F,0,3552,5552,1,0
+Sprite,Foreground,Centre,"sb\c3",536,207
+ R,0,0,,3.893208
+ F,0,3025,3225,0,1
+ F,0,3552,5552,1,0
+Sprite,Foreground,Centre,"sb\c4",532,191
+ R,0,0,,5.051209
+ F,0,3080,3280,0,1
+ F,0,3552,5552,1,0
+Sprite,Foreground,Centre,"sb\c4",540,173
+ R,0,0,,1.519934
+ F,0,3134,3334,0,1
+ F,0,3552,5552,1,0
+Sprite,Foreground,Centre,"sb\c3",538,165
+ R,0,0,,5.92829
+ F,0,3188,3388,0,1
+ F,0,3552,5552,1,0
+Sprite,Foreground,Centre,"sb\c2",535,150
+ R,0,0,,4.63296
+ F,0,3243,3443,0,1
+ F,0,3552,5552,1,0
+Sprite,Foreground,Centre,"sb\c1",532,136
+ R,0,0,,4.951687
+ F,0,3297,3497,0,1
+ F,0,3552,5552,1,0
+Sprite,Foreground,Centre,"sb\c4",538,123
+ R,0,0,,3.2623
+ F,0,3352,3552,0,1
+ F,0,3552,5552,1,0
+Sprite,Foreground,Centre,"sb\c3",352,176
+ R,0,0,,3.747545
+ F,0,3895,4095,0,1
+ F,0,4421,6421,1,0
+Sprite,Foreground,Centre,"sb\c3",343,177
+ R,0,0,,1.416089
+ F,0,3949,4149,0,1
+ F,0,4421,6421,1,0
+Sprite,Foreground,Centre,"sb\c4",344,174
+ R,0,0,,5.987792
+ F,0,4003,4203,0,1
+ F,0,4421,6421,1,0
+Sprite,Foreground,Centre,"sb\c3",333,176
+ R,0,0,,2.896288
+ F,0,4058,4258,0,1
+ F,0,4421,6421,1,0
+Sprite,Foreground,Centre,"sb\c4",330,177
+ R,0,0,,1.064561
+ F,0,4112,4312,0,1
+ F,0,4421,6421,1,0
+Sprite,Foreground,Centre,"sb\c3",318,180
+ R,0,0,,1.618102
+ F,0,4166,4366,0,1
+ F,0,4421,6421,1,0
+Sprite,Foreground,Centre,"sb\c1",314,177
+ R,0,0,,4.636635
+ F,0,4221,4421,0,1
+ F,0,4421,6421,1,0
+Sprite,Foreground,Centre,"sb\c4",318,180
+ R,0,0,,1.302923
+ F,0,4221,4421,0,1
+ F,0,4856,6856,1,0
+Sprite,Foreground,Centre,"sb\c2",310,186
+ R,0,0,,2.874155
+ F,0,4275,4475,0,1
+ F,0,4856,6856,1,0
+Sprite,Foreground,Centre,"sb\c1",300,196
+ R,0,0,,0.3668019
+ F,0,4329,4529,0,1
+ F,0,4856,6856,1,0
+Sprite,Foreground,Centre,"sb\c1",288,208
+ R,0,0,,0.8842721
+ F,0,4384,4584,0,1
+ F,0,4856,6856,1,0
+Sprite,Foreground,Centre,"sb\c2",285,220
+ R,0,0,,3.171815
+ F,0,4438,4638,0,1
+ F,0,4856,6856,1,0
+Sprite,Foreground,Centre,"sb\c1",269,233
+ R,0,0,,0.3032824
+ F,0,4492,4692,0,1
+ F,0,4856,6856,1,0
+Sprite,Foreground,Centre,"sb\c3",269,244
+ R,0,0,,3.765907
+ F,0,4547,4747,0,1
+ F,0,4856,6856,1,0
+Sprite,Foreground,Centre,"sb\c2",258,251
+ R,0,0,,3.590909
+ F,0,4601,4801,0,1
+ F,0,4856,6856,1,0
+Sprite,Foreground,Centre,"sb\c3",249,268
+ R,0,0,,0.166472
+ F,0,4656,4856,0,1
+ F,0,4856,6856,1,0
+Sprite,Foreground,Centre,"sb\c1",94,394
+ R,0,0,,6.233464
+ F,0,5091,5291,0,1
+ F,0,5653,7653,1,0
+Sprite,Foreground,Centre,"sb\c4",108,390
+ R,0,0,,2.886904
+ F,0,5142,5342,0,1
+ F,0,5653,7653,1,0
+Sprite,Foreground,Centre,"sb\c1",124,395
+ R,0,0,,4.33012
+ F,0,5194,5394,0,1
+ F,0,5653,7653,1,0
+Sprite,Foreground,Centre,"sb\c2",141,393
+ R,0,0,,4.376884
+ F,0,5246,5446,0,1
+ F,0,5653,7653,1,0
+Sprite,Foreground,Centre,"sb\c3",148,392
+ R,0,0,,5.432524
+ F,0,5297,5497,0,1
+ F,0,5653,7653,1,0
+Sprite,Foreground,Centre,"sb\c1",167,395
+ R,0,0,,5.90562
+ F,0,5349,5549,0,1
+ F,0,5653,7653,1,0
+Sprite,Foreground,Centre,"sb\c3",181,393
+ R,0,0,,2.123889
+ F,0,5401,5601,0,1
+ F,0,5653,7653,1,0
+Sprite,Foreground,Centre,"sb\c2",195,392
+ R,0,0,,1.344131
+ F,0,5453,5653,0,1
+ F,0,5653,7653,1,0
+Sprite,Foreground,Centre,"sb\c4",194,396
+ R,0,0,,0.762019
+ F,0,5453,5653,0,1
+ F,0,5943,7943,1,0
+Sprite,Foreground,Centre,"sb\c1",190,391
+ R,0,0,,4.815516
+ F,0,5511,5711,0,1
+ F,0,5943,7943,1,0
+Sprite,Foreground,Centre,"sb\c2",195,393
+ R,0,0,,0.9344832
+ F,0,5569,5769,0,1
+ F,0,5943,7943,1,0
+Sprite,Foreground,Centre,"sb\c3",194,395
+ R,0,0,,0.9027487
+ F,0,5627,5827,0,1
+ F,0,5943,7943,1,0
+Sprite,Foreground,Centre,"sb\c2",195,394
+ R,0,0,,0.7081527
+ F,0,5685,5885,0,1
+ F,0,5943,7943,1,0
+Sprite,Foreground,Centre,"sb\c1",190,394
+ R,0,0,,2.756936
+ F,0,5743,5943,0,1
+ F,0,5943,7943,1,0
+Sprite,Foreground,Centre,"sb\c1",192,390
+ R,0,0,,4.197741
+ F,0,5743,5943,0,1
+ F,0,6160,8160,1,0
+Sprite,Foreground,Centre,"sb\c3",192,392
+ R,0,0,,0.8655447
+ F,0,5797,5997,0,1
+ F,0,6160,8160,1,0
+Sprite,Foreground,Centre,"sb\c4",191,394
+ R,0,0,,6.101863
+ F,0,5851,6051,0,1
+ F,0,6160,8160,1,0
+Sprite,Foreground,Centre,"sb\c2",194,391
+ R,0,0,,5.437021
+ F,0,5905,6105,0,1
+ F,0,6160,8160,1,0
+Sprite,Foreground,Centre,"sb\c4",191,396
+ R,0,0,,1.30299
+ F,0,5960,6160,0,1
+ F,0,6160,8160,1,0
+Sprite,Foreground,Centre,"sb\c1",192,388
+ R,0,0,,0.3630139
+ F,0,5960,6160,0,1
+ F,0,6595,8595,1,0
+Sprite,Foreground,Centre,"sb\c2",202,392
+ R,0,0,,0.7380837
+ F,0,6014,6214,0,1
+ F,0,6595,8595,1,0
+Sprite,Foreground,Centre,"sb\c4",217,391
+ R,0,0,,6.051394
+ F,0,6068,6268,0,1
+ F,0,6595,8595,1,0
+Sprite,Foreground,Centre,"sb\c3",236,392
+ R,0,0,,6.065287
+ F,0,6123,6323,0,1
+ F,0,6595,8595,1,0
+Sprite,Foreground,Centre,"sb\c1",246,392
+ R,0,0,,2.412131
+ F,0,6177,6377,0,1
+ F,0,6595,8595,1,0
+Sprite,Foreground,Centre,"sb\c4",266,390
+ R,0,0,,6.167759
+ F,0,6231,6431,0,1
+ F,0,6595,8595,1,0
+Sprite,Foreground,Centre,"sb\c2",279,393
+ R,0,0,,3.319918
+ F,0,6286,6486,0,1
+ F,0,6595,8595,1,0
+Sprite,Foreground,Centre,"sb\c4",288,392
+ R,0,0,,1.667297
+ F,0,6340,6540,0,1
+ F,0,6595,8595,1,0
+Sprite,Foreground,Centre,"sb\c1",306,396
+ R,0,0,,2.228009
+ F,0,6395,6595,0,1
+ F,0,6595,8595,1,0
+Sprite,Foreground,Centre,"sb\c3",301,388
+ R,0,0,,6.136036
+ F,0,6395,6595,0,1
+ F,0,7030,9030,1,0
+Sprite,Foreground,Centre,"sb\c4",300,392
+ R,0,0,,0.6088209
+ F,0,6449,6649,0,1
+ F,0,7030,9030,1,0
+Sprite,Foreground,Centre,"sb\c1",307,388
+ R,0,0,,2.254996
+ F,0,6503,6703,0,1
+ F,0,7030,9030,1,0
+Sprite,Foreground,Centre,"sb\c3",305,392
+ R,0,0,,5.210788
+ F,0,6558,6758,0,1
+ F,0,7030,9030,1,0
+Sprite,Foreground,Centre,"sb\c1",306,392
+ R,0,0,,0.8202584
+ F,0,6612,6812,0,1
+ F,0,7030,9030,1,0
+Sprite,Foreground,Centre,"sb\c1",303,389
+ R,0,0,,2.024838
+ F,0,6666,6866,0,1
+ F,0,7030,9030,1,0
+Sprite,Foreground,Centre,"sb\c4",301,396
+ R,0,0,,4.363244
+ F,0,6721,6921,0,1
+ F,0,7030,9030,1,0
+Sprite,Foreground,Centre,"sb\c1",304,394
+ R,0,0,,4.981478
+ F,0,6775,6975,0,1
+ F,0,7030,9030,1,0
+Sprite,Foreground,Centre,"sb\c4",303,391
+ R,0,0,,1.227752
+ F,0,6830,7030,0,1
+ F,0,7030,9030,1,0
+Sprite,Foreground,Centre,"sb\c2",547,390
+ R,0,0,,3.069724
+ F,0,7410,7610,0,1
+ F,0,7900,9900,1,0
+Sprite,Foreground,Centre,"sb\c1",531,383
+ R,0,0,,5.178452
+ F,0,7468,7668,0,1
+ F,0,7900,9900,1,0
+Sprite,Foreground,Centre,"sb\c4",521,368
+ R,0,0,,5.031336
+ F,0,7526,7726,0,1
+ F,0,7900,9900,1,0
+Sprite,Foreground,Centre,"sb\c3",513,367
+ R,0,0,,1.235922
+ F,0,7584,7784,0,1
+ F,0,7900,9900,1,0
+Sprite,Foreground,Centre,"sb\c1",501,356
+ R,0,0,,5.92307
+ F,0,7642,7842,0,1
+ F,0,7900,9900,1,0
+Sprite,Foreground,Centre,"sb\c4",491,343
+ R,0,0,,0.2785504
+ F,0,7700,7900,0,1
+ F,0,7900,9900,1,0
+Sprite,Foreground,Centre,"sb\c3",193,182
+ R,0,0,,0.4903007
+ F,0,9004,9204,0,1
+ F,0,9421,11421,1,0
+Sprite,Foreground,Centre,"sb\c4",187,195
+ R,0,0,,2.091562
+ F,0,9058,9258,0,1
+ F,0,9421,11421,1,0
+Sprite,Foreground,Centre,"sb\c4",177,208
+ R,0,0,,3.027078
+ F,0,9112,9312,0,1
+ F,0,9421,11421,1,0
+Sprite,Foreground,Centre,"sb\c4",166,222
+ R,0,0,,4.357665
+ F,0,9166,9366,0,1
+ F,0,9421,11421,1,0
+Sprite,Foreground,Centre,"sb\c4",156,231
+ R,0,0,,1.016217
+ F,0,9221,9421,0,1
+ F,0,9421,11421,1,0
+Sprite,Foreground,Centre,"sb\c4",156,228
+ R,0,0,,3.758027
+ F,0,9221,9421,0,1
+ F,0,9639,11639,1,0
+Sprite,Foreground,Centre,"sb\c1",149,224
+ R,0,0,,3.197873
+ F,0,9275,9475,0,1
+ F,0,9639,11639,1,0
+Sprite,Foreground,Centre,"sb\c2",143,211
+ R,0,0,,3.178219
+ F,0,9330,9530,0,1
+ F,0,9639,11639,1,0
+Sprite,Foreground,Centre,"sb\c4",136,195
+ R,0,0,,0.1305699
+ F,0,9384,9584,0,1
+ F,0,9639,11639,1,0
+Sprite,Foreground,Centre,"sb\c4",124,181
+ R,0,0,,0.5847889
+ F,0,9439,9639,0,1
+ F,0,9639,11639,1,0
+Sprite,Foreground,Centre,"sb\c1",292,336
+ R,0,0,,2.784873
+ F,0,9874,10074,0,1
+ F,0,10291,12291,1,0
+Sprite,Foreground,Centre,"sb\c4",307,344
+ R,0,0,,0.3558748
+ F,0,9928,10128,0,1
+ F,0,10291,12291,1,0
+Sprite,Foreground,Centre,"sb\c4",306,359
+ R,0,0,,2.803735
+ F,0,9982,10182,0,1
+ F,0,10291,12291,1,0
+Sprite,Foreground,Centre,"sb\c4",317,373
+ R,0,0,,3.931955
+ F,0,10036,10236,0,1
+ F,0,10291,12291,1,0
+Sprite,Foreground,Centre,"sb\c4",324,388
+ R,0,0,,5.317001
+ F,0,10091,10291,0,1
+ F,0,10291,12291,1,0
+Sprite,Foreground,Centre,"sb\c1",323,384
+ R,0,0,,4.643675
+ F,0,10091,10291,0,1
+ F,0,10508,12508,1,0
+Sprite,Foreground,Centre,"sb\c1",327,372
+ R,0,0,,5.587552
+ F,0,10145,10345,0,1
+ F,0,10508,12508,1,0
+Sprite,Foreground,Centre,"sb\c3",342,362
+ R,0,0,,5.680628
+ F,0,10199,10399,0,1
+ F,0,10508,12508,1,0
+Sprite,Foreground,Centre,"sb\c1",345,350
+ R,0,0,,3.365699
+ F,0,10253,10453,0,1
+ F,0,10508,12508,1,0
+Sprite,Foreground,Centre,"sb\c3",355,335
+ R,0,0,,0.8762484
+ F,0,10308,10508,0,1
+ F,0,10508,12508,1,0
+Sprite,Foreground,Centre,"sb\c2",348,340
+ R,0,0,,6.239675
+ F,0,10308,10508,0,1
+ F,0,10617,12617,1,0
+Sprite,Foreground,Centre,"sb\c4",368,340
+ R,0,0,,5.181551
+ F,0,10362,10562,0,1
+ F,0,10617,12617,1,0
+Sprite,Foreground,Centre,"sb\c3",375,333
+ R,0,0,,0.8044647
+ F,0,10417,10617,0,1
+ F,0,10617,12617,1,0
+Sprite,Foreground,Centre,"sb\c3",374,333
+ R,0,0,,3.741437
+ F,0,10417,10617,0,1
+ F,0,10726,12726,1,0
+Sprite,Foreground,Centre,"sb\c2",388,336
+ R,0,0,,3.046156
+ F,0,10471,10671,0,1
+ F,0,10726,12726,1,0
+Sprite,Foreground,Centre,"sb\c1",396,332
+ R,0,0,,1.656984
+ F,0,10526,10726,0,1
+ F,0,10726,12726,1,0
+Sprite,Foreground,Centre,"sb\c1",402,332
+ R,0,0,,4.852859
+ F,0,10526,10726,0,1
+ F,0,10834,12834,1,0
+Sprite,Foreground,Centre,"sb\c3",412,336
+ R,0,0,,0.3209352
+ F,0,10580,10780,0,1
+ F,0,10834,12834,1,0
+Sprite,Foreground,Centre,"sb\c4",423,338
+ R,0,0,,2.667533
+ F,0,10634,10834,0,1
+ F,0,10834,12834,1,0
+Sprite,Foreground,Centre,"sb\c4",420,332
+ R,0,0,,0.955029
+ F,0,10634,10834,0,1
+ F,0,10943,12943,1,0
+Sprite,Foreground,Centre,"sb\c3",436,334
+ R,0,0,,4.423039
+ F,0,10688,10888,0,1
+ F,0,10943,12943,1,0
+Sprite,Foreground,Centre,"sb\c3",446,336
+ R,0,0,,1.613653
+ F,0,10743,10943,0,1
+ F,0,10943,12943,1,0
+Sprite,Foreground,Centre,"sb\c1",484,296
+ R,0,0,,2.826575
+ F,0,10960,11160,0,1
+ F,0,11378,13378,1,0
+Sprite,Foreground,Centre,"sb\c1",474,283
+ R,0,0,,5.721071
+ F,0,11014,11214,0,1
+ F,0,11378,13378,1,0
+Sprite,Foreground,Centre,"sb\c2",471,273
+ R,0,0,,5.81033
+ F,0,11069,11269,0,1
+ F,0,11378,13378,1,0
+Sprite,Foreground,Centre,"sb\c2",461,264
+ R,0,0,,5.937767
+ F,0,11123,11323,0,1
+ F,0,11378,13378,1,0
+Sprite,Foreground,Centre,"sb\c4",448,256
+ R,0,0,,2.931976
+ F,0,11178,11378,0,1
+ F,0,11378,13378,1,0
+Sprite,Foreground,Centre,"sb\c3",447,254
+ R,0,0,,3.075357
+ F,0,11178,11378,0,1
+ F,0,11487,13487,1,0
+Sprite,Foreground,Centre,"sb\c1",437,254
+ R,0,0,,5.189058
+ F,0,11232,11432,0,1
+ F,0,11487,13487,1,0
+Sprite,Foreground,Centre,"sb\c1",424,256
+ R,0,0,,1.497809
+ F,0,11287,11487,0,1
+ F,0,11487,13487,1,0
+Sprite,Foreground,Centre,"sb\c3",423,258
+ R,0,0,,0.07298665
+ F,0,11287,11487,0,1
+ F,0,11595,13595,1,0
+Sprite,Foreground,Centre,"sb\c1",412,255
+ R,0,0,,1.057177
+ F,0,11341,11541,0,1
+ F,0,11595,13595,1,0
+Sprite,Foreground,Centre,"sb\c3",401,260
+ R,0,0,,5.213273
+ F,0,11395,11595,0,1
+ F,0,11595,13595,1,0
+Sprite,Foreground,Centre,"sb\c2",402,259
+ R,0,0,,1.618842
+ F,0,11395,11595,0,1
+ F,0,11704,13704,1,0
+Sprite,Foreground,Centre,"sb\c2",391,256
+ R,0,0,,4.438161
+ F,0,11449,11649,0,1
+ F,0,11704,13704,1,0
+Sprite,Foreground,Centre,"sb\c4",377,254
+ R,0,0,,4.664874
+ F,0,11504,11704,0,1
+ F,0,11704,13704,1,0
+Sprite,Foreground,Centre,"sb\c4",380,256
+ R,0,0,,4.896445
+ F,0,11504,11704,0,1
+ F,0,11813,13813,1,0
+Sprite,Foreground,Centre,"sb\c2",361,254
+ R,0,0,,2.188916
+ F,0,11558,11758,0,1
+ F,0,11813,13813,1,0
+Sprite,Foreground,Centre,"sb\c3",349,252
+ R,0,0,,0.4894894
+ F,0,11613,11813,0,1
+ F,0,11813,13813,1,0
+Sprite,Foreground,Centre,"sb\c3",96,174
+ R,0,0,,0.9177487
+ F,0,12047,12247,0,1
+ F,0,12900,14900,1,0
+Sprite,Foreground,Centre,"sb\c4",96,192
+ R,0,0,,2.331411
+ F,0,12097,12297,0,1
+ F,0,12900,14900,1,0
+Sprite,Foreground,Centre,"sb\c3",97,208
+ R,0,0,,4.96304
+ F,0,12147,12347,0,1
+ F,0,12900,14900,1,0
+Sprite,Foreground,Centre,"sb\c4",100,224
+ R,0,0,,6.245106
+ F,0,12197,12397,0,1
+ F,0,12900,14900,1,0
+Sprite,Foreground,Centre,"sb\c3",93,236
+ R,0,0,,0.754633
+ F,0,12247,12447,0,1
+ F,0,12900,14900,1,0
+Sprite,Foreground,Centre,"sb\c1",99,248
+ R,0,0,,5.576349
+ F,0,12298,12498,0,1
+ F,0,12900,14900,1,0
+Sprite,Foreground,Centre,"sb\c1",96,266
+ R,0,0,,2.181871
+ F,0,12348,12548,0,1
+ F,0,12900,14900,1,0
+Sprite,Foreground,Centre,"sb\c3",96,281
+ R,0,0,,4.456758
+ F,0,12398,12598,0,1
+ F,0,12900,14900,1,0
+Sprite,Foreground,Centre,"sb\c4",94,297
+ R,0,0,,3.838149
+ F,0,12448,12648,0,1
+ F,0,12900,14900,1,0
+Sprite,Foreground,Centre,"sb\c1",92,311
+ R,0,0,,0.208005
+ F,0,12499,12699,0,1
+ F,0,12900,14900,1,0
+Sprite,Foreground,Centre,"sb\c1",95,329
+ R,0,0,,1.103215
+ F,0,12549,12749,0,1
+ F,0,12900,14900,1,0
+Sprite,Foreground,Centre,"sb\c4",98,341
+ R,0,0,,2.5246
+ F,0,12599,12799,0,1
+ F,0,12900,14900,1,0
+Sprite,Foreground,Centre,"sb\c1",95,359
+ R,0,0,,5.125326
+ F,0,12649,12849,0,1
+ F,0,12900,14900,1,0
+Sprite,Foreground,Centre,"sb\c1",96,376
+ R,0,0,,2.995367
+ F,0,12700,12900,0,1
+ F,0,12900,14900,1,0
+Sprite,Foreground,Centre,"sb\c3",94,377
+ R,0,0,,1.401506
+ F,0,12700,12900,0,1
+ F,0,13117,15117,1,0
+Sprite,Foreground,Centre,"sb\c4",111,376
+ R,0,0,,2.43582
+ F,0,12754,12954,0,1
+ F,0,13117,15117,1,0
+Sprite,Foreground,Centre,"sb\c3",120,372
+ R,0,0,,4.613268
+ F,0,12808,13008,0,1
+ F,0,13117,15117,1,0
+Sprite,Foreground,Centre,"sb\c4",142,375
+ R,0,0,,0.5221986
+ F,0,12862,13062,0,1
+ F,0,13117,15117,1,0
+Sprite,Foreground,Centre,"sb\c3",149,376
+ R,0,0,,1.574057
+ F,0,12917,13117,0,1
+ F,0,13117,15117,1,0
+Sprite,Foreground,Centre,"sb\c1",156,380
+ R,0,0,,3.024592
+ F,0,12917,13117,0,1
+ F,0,13769,15769,1,0
+Sprite,Foreground,Centre,"sb\c4",167,377
+ R,0,0,,1.551531
+ F,0,12967,13167,0,1
+ F,0,13769,15769,1,0
+Sprite,Foreground,Centre,"sb\c1",179,379
+ R,0,0,,5.112385
+ F,0,13017,13217,0,1
+ F,0,13769,15769,1,0
+Sprite,Foreground,Centre,"sb\c2",202,375
+ R,0,0,,2.480198
+ F,0,13067,13267,0,1
+ F,0,13769,15769,1,0
+Sprite,Foreground,Centre,"sb\c2",213,372
+ R,0,0,,5.69378
+ F,0,13117,13317,0,1
+ F,0,13769,15769,1,0
+Sprite,Foreground,Centre,"sb\c1",231,377
+ R,0,0,,4.763163
+ F,0,13167,13367,0,1
+ F,0,13769,15769,1,0
+Sprite,Foreground,Centre,"sb\c2",244,373
+ R,0,0,,0.2896999
+ F,0,13217,13417,0,1
+ F,0,13769,15769,1,0
+Sprite,Foreground,Centre,"sb\c3",258,372
+ R,0,0,,5.890455
+ F,0,13268,13468,0,1
+ F,0,13769,15769,1,0
+Sprite,Foreground,Centre,"sb\c3",277,380
+ R,0,0,,1.882762
+ F,0,13318,13518,0,1
+ F,0,13769,15769,1,0
+Sprite,Foreground,Centre,"sb\c4",290,373
+ R,0,0,,0.006112733
+ F,0,13368,13568,0,1
+ F,0,13769,15769,1,0
+Sprite,Foreground,Centre,"sb\c2",305,376
+ R,0,0,,1.267206
+ F,0,13418,13618,0,1
+ F,0,13769,15769,1,0
+Sprite,Foreground,Centre,"sb\c4",323,378
+ R,0,0,,4.179833
+ F,0,13468,13668,0,1
+ F,0,13769,15769,1,0
+Sprite,Foreground,Centre,"sb\c3",340,376
+ R,0,0,,0.6604595
+ F,0,13518,13718,0,1
+ F,0,13769,15769,1,0
+Sprite,Foreground,Centre,"sb\c2",349,379
+ R,0,0,,1.442459
+ F,0,13569,13769,0,1
+ F,0,13769,15769,1,0
+Sprite,Foreground,Centre,"sb\c4",531,295
+ R,0,0,,2.038571
+ F,0,14656,14856,0,1
+ F,0,15001,17001,1,0
+Sprite,Foreground,Centre,"sb\c4",505,300
+ R,0,0,,0.3217041
+ F,0,14728,14928,0,1
+ F,0,15001,17001,1,0
+Sprite,Foreground,Centre,"sb\c1",485,294
+ R,0,0,,6.09696
+ F,0,14801,15001,0,1
+ F,0,15001,17001,1,0
+Sprite,Foreground,Centre,"sb\c4",490,293
+ R,0,0,,1.838187
+ F,0,14801,15001,0,1
+ F,0,15218,17218,1,0
+Sprite,Foreground,Centre,"sb\c2",470,296
+ R,0,0,,1.712337
+ F,0,14855,15055,0,1
+ F,0,15218,17218,1,0
+Sprite,Foreground,Centre,"sb\c4",456,300
+ R,0,0,,5.010922
+ F,0,14909,15109,0,1
+ F,0,15218,17218,1,0
+Sprite,Foreground,Centre,"sb\c1",439,298
+ R,0,0,,5.257437
+ F,0,14963,15163,0,1
+ F,0,15218,17218,1,0
+Sprite,Foreground,Centre,"sb\c4",424,297
+ R,0,0,,5.714301
+ F,0,15018,15218,0,1
+ F,0,15218,17218,1,0
+Sprite,Foreground,Centre,"sb\c2",424,295
+ R,0,0,,1.268308
+ F,0,15018,15218,0,1
+ F,0,15436,17436,1,0
+Sprite,Foreground,Centre,"sb\c4",405,296
+ R,0,0,,3.512112
+ F,0,15072,15272,0,1
+ F,0,15436,17436,1,0
+Sprite,Foreground,Centre,"sb\c1",393,294
+ R,0,0,,3.104416
+ F,0,15127,15327,0,1
+ F,0,15436,17436,1,0
+Sprite,Foreground,Centre,"sb\c4",377,298
+ R,0,0,,5.06514
+ F,0,15181,15381,0,1
+ F,0,15436,17436,1,0
+Sprite,Foreground,Centre,"sb\c4",362,295
+ R,0,0,,4.4366
+ F,0,15236,15436,0,1
+ F,0,15436,17436,1,0
+Sprite,Foreground,Centre,"sb\c4",360,293
+ R,0,0,,5.635582
+ F,0,15236,15436,0,1
+ F,0,15653,17653,1,0
+Sprite,Foreground,Centre,"sb\c4",343,293
+ R,0,0,,2.606262
+ F,0,15290,15490,0,1
+ F,0,15653,17653,1,0
+Sprite,Foreground,Centre,"sb\c3",331,292
+ R,0,0,,3.480938
+ F,0,15344,15544,0,1
+ F,0,15653,17653,1,0
+Sprite,Foreground,Centre,"sb\c2",312,293
+ R,0,0,,2.652842
+ F,0,15398,15598,0,1
+ F,0,15653,17653,1,0
+Sprite,Foreground,Centre,"sb\c1",297,297
+ R,0,0,,4.579199
+ F,0,15453,15653,0,1
+ F,0,15653,17653,1,0
+Sprite,Foreground,Centre,"sb\c3",296,299
+ R,0,0,,1.325988
+ F,0,15453,15653,0,1
+ F,0,15871,17871,1,0
+Sprite,Foreground,Centre,"sb\c1",283,295
+ R,0,0,,3.346421
+ F,0,15507,15707,0,1
+ F,0,15871,17871,1,0
+Sprite,Foreground,Centre,"sb\c1",267,293
+ R,0,0,,0.7519037
+ F,0,15562,15762,0,1
+ F,0,15871,17871,1,0
+Sprite,Foreground,Centre,"sb\c2",250,290
+ R,0,0,,2.349589
+ F,0,15616,15816,0,1
+ F,0,15871,17871,1,0
+Sprite,Foreground,Centre,"sb\c4",233,294
+ R,0,0,,0.01202697
+ F,0,15671,15871,0,1
+ F,0,15871,17871,1,0
+Sprite,Foreground,Centre,"sb\c4",233,293
+ R,0,0,,4.159964
+ F,0,15671,15871,0,1
+ F,0,16016,18016,1,0
+Sprite,Foreground,Centre,"sb\c1",212,285
+ R,0,0,,2.814692
+ F,0,15743,15943,0,1
+ F,0,16016,18016,1,0
+Sprite,Foreground,Centre,"sb\c1",188,277
+ R,0,0,,0.380952
+ F,0,15816,16016,0,1
+ F,0,16016,18016,1,0
+Sprite,Foreground,Centre,"sb\c1",187,274
+ R,0,0,,3.563594
+ F,0,15816,16016,0,1
+ F,0,16160,18160,1,0
+Sprite,Foreground,Centre,"sb\c1",175,258
+ R,0,0,,5.691632
+ F,0,15888,16088,0,1
+ F,0,16160,18160,1,0
+Sprite,Foreground,Centre,"sb\c3",158,240
+ R,0,0,,2.987405
+ F,0,15960,16160,0,1
+ F,0,16160,18160,1,0
+Sprite,Foreground,Centre,"sb\c4",165,240
+ R,0,0,,2.328395
+ F,0,15960,16160,0,1
+ F,0,16305,18305,1,0
+Sprite,Foreground,Centre,"sb\c4",158,215
+ R,0,0,,0.02787591
+ F,0,16032,16232,0,1
+ F,0,16305,18305,1,0
+Sprite,Foreground,Centre,"sb\c1",156,195
+ R,0,0,,1.216245
+ F,0,16105,16305,0,1
+ F,0,16305,18305,1,0
+Sprite,Foreground,Centre,"sb\c3",149,202
+ R,0,0,,2.335809
+ F,0,16105,16305,0,1
+ F,0,15726,17726,1,0
+Sprite,Foreground,Centre,"sb\c1",474,186
+ R,0,0,,2.234864
+ F,0,20363,20563,0,1
+ F,0,20943,22943,1,0
+Sprite,Foreground,Centre,"sb\c4",454,180
+ R,0,0,,3.320129
+ F,0,20417,20617,0,1
+ F,0,20943,22943,1,0
+Sprite,Foreground,Centre,"sb\c4",437,188
+ R,0,0,,5.838989
+ F,0,20471,20671,0,1
+ F,0,20943,22943,1,0
+Sprite,Foreground,Centre,"sb\c4",425,188
+ R,0,0,,0.1262898
+ F,0,20525,20725,0,1
+ F,0,20943,22943,1,0
+Sprite,Foreground,Centre,"sb\c4",411,182
+ R,0,0,,0.814624
+ F,0,20580,20780,0,1
+ F,0,20943,22943,1,0
+Sprite,Foreground,Centre,"sb\c4",393,185
+ R,0,0,,2.061826
+ F,0,20634,20834,0,1
+ F,0,20943,22943,1,0
+Sprite,Foreground,Centre,"sb\c1",376,181
+ R,0,0,,0.7489521
+ F,0,20688,20888,0,1
+ F,0,20943,22943,1,0
+Sprite,Foreground,Centre,"sb\c2",364,188
+ R,0,0,,4.070387
+ F,0,20743,20943,0,1
+ F,0,20943,22943,1,0
+Sprite,Foreground,Centre,"sb\c2",364,185
+ R,0,0,,1.745541
+ F,0,20743,20943,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c2",359,182
+ R,0,0,,5.14812
+ F,0,20794,20994,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c2",360,183
+ R,0,0,,4.719811
+ F,0,20845,21045,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c2",358,188
+ R,0,0,,5.685814
+ F,0,20896,21096,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c2",357,182
+ R,0,0,,5.121372
+ F,0,20947,21147,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c3",357,184
+ R,0,0,,5.132058
+ F,0,20998,21198,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c4",364,187
+ R,0,0,,5.865235
+ F,0,21050,21250,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c3",363,186
+ R,0,0,,0.5366521
+ F,0,21101,21301,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c4",360,181
+ R,0,0,,5.663852
+ F,0,21152,21352,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c3",360,186
+ R,0,0,,3.964322
+ F,0,21203,21403,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c3",364,188
+ R,0,0,,1.970883
+ F,0,21254,21454,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c1",358,180
+ R,0,0,,3.920456
+ F,0,21305,21505,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c1",362,183
+ R,0,0,,4.382564
+ F,0,21357,21557,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c2",360,185
+ R,0,0,,3.299035
+ F,0,21408,21608,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c2",364,185
+ R,0,0,,2.993319
+ F,0,21459,21659,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c4",360,184
+ R,0,0,,5.083152
+ F,0,21510,21710,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c2",362,182
+ R,0,0,,0.6794136
+ F,0,21561,21761,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c2",356,184
+ R,0,0,,2.466469
+ F,0,21613,21813,0,1
+ F,0,21813,23813,1,0
+Sprite,Foreground,Centre,"sb\c4",360,186
+ R,0,0,,1.270955
+ F,0,21613,21813,0,1
+ F,0,22247,24247,1,0
+Sprite,Foreground,Centre,"sb\c3",350,184
+ R,0,0,,5.911367
+ F,0,21667,21867,0,1
+ F,0,22247,24247,1,0
+Sprite,Foreground,Centre,"sb\c1",334,181
+ R,0,0,,3.13044
+ F,0,21721,21921,0,1
+ F,0,22247,24247,1,0
+Sprite,Foreground,Centre,"sb\c3",320,188
+ R,0,0,,4.99845
+ F,0,21775,21975,0,1
+ F,0,22247,24247,1,0
+Sprite,Foreground,Centre,"sb\c4",305,184
+ R,0,0,,5.287057
+ F,0,21830,22030,0,1
+ F,0,22247,24247,1,0
+Sprite,Foreground,Centre,"sb\c1",289,182
+ R,0,0,,3.265087
+ F,0,21884,22084,0,1
+ F,0,22247,24247,1,0
+Sprite,Foreground,Centre,"sb\c3",280,186
+ R,0,0,,6.214266
+ F,0,21938,22138,0,1
+ F,0,22247,24247,1,0
+Sprite,Foreground,Centre,"sb\c3",264,188
+ R,0,0,,1.379161
+ F,0,21992,22192,0,1
+ F,0,22247,24247,1,0
+Sprite,Foreground,Centre,"sb\c1",251,185
+ R,0,0,,5.265401
+ F,0,22047,22247,0,1
+ F,0,22247,24247,1,0
+Sprite,Foreground,Centre,"sb\c3",98,382
+ R,0,0,,3.197169
+ F,0,22482,22682,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c3",94,383
+ R,0,0,,1.951915
+ F,0,22532,22732,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c1",99,384
+ R,0,0,,5.122447
+ F,0,22582,22782,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c2",106,384
+ R,0,0,,3.929888
+ F,0,22632,22832,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c4",106,384
+ R,0,0,,1.715666
+ F,0,22682,22882,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c1",109,383
+ R,0,0,,1.201658
+ F,0,22732,22932,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c1",115,384
+ R,0,0,,4.953928
+ F,0,22783,22983,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c3",114,388
+ R,0,0,,0.9434919
+ F,0,22833,23033,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c1",119,385
+ R,0,0,,2.311386
+ F,0,22883,23083,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c4",123,384
+ R,0,0,,0.1327865
+ F,0,22933,23133,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c2",122,387
+ R,0,0,,2.992105
+ F,0,22983,23183,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c1",126,386
+ R,0,0,,1.377345
+ F,0,23034,23234,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c3",128,388
+ R,0,0,,1.929307
+ F,0,23084,23284,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c2",132,388
+ R,0,0,,2.592602
+ F,0,23134,23334,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c3",129,384
+ R,0,0,,3.338465
+ F,0,23184,23384,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c4",133,388
+ R,0,0,,1.753676
+ F,0,23234,23434,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c1",142,387
+ R,0,0,,0.4650825
+ F,0,23285,23485,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c4",141,380
+ R,0,0,,0.6454805
+ F,0,23335,23535,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c4",147,388
+ R,0,0,,4.191889
+ F,0,23385,23585,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c2",143,386
+ R,0,0,,0.3146075
+ F,0,23435,23635,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c2",148,380
+ R,0,0,,3.680152
+ F,0,23485,23685,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c3",151,382
+ R,0,0,,5.077441
+ F,0,23536,23736,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c2",154,385
+ R,0,0,,2.529384
+ F,0,23586,23786,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c4",159,382
+ R,0,0,,3.664639
+ F,0,23636,23836,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c3",157,380
+ R,0,0,,5.035274
+ F,0,23686,23886,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c3",164,381
+ R,0,0,,2.695989
+ F,0,23736,23936,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c2",163,384
+ R,0,0,,4.086839
+ F,0,23787,23987,0,1
+ F,0,23987,25987,1,0
+Sprite,Foreground,Centre,"sb\c2",163,385
+ R,0,0,,1.840336
+ F,0,23787,23987,0,1
+ F,0,24421,26421,1,0
+Sprite,Foreground,Centre,"sb\c1",185,385
+ R,0,0,,0.9890542
+ F,0,23841,24041,0,1
+ F,0,24421,26421,1,0
+Sprite,Foreground,Centre,"sb\c4",197,381
+ R,0,0,,3.764286
+ F,0,23895,24095,0,1
+ F,0,24421,26421,1,0
+Sprite,Foreground,Centre,"sb\c3",210,382
+ R,0,0,,5.495685
+ F,0,23949,24149,0,1
+ F,0,24421,26421,1,0
+Sprite,Foreground,Centre,"sb\c2",229,384
+ R,0,0,,3.849808
+ F,0,24004,24204,0,1
+ F,0,24421,26421,1,0
+Sprite,Foreground,Centre,"sb\c3",239,381
+ R,0,0,,0.4724007
+ F,0,24058,24258,0,1
+ F,0,24421,26421,1,0
+Sprite,Foreground,Centre,"sb\c2",254,385
+ R,0,0,,1.0725
+ F,0,24112,24312,0,1
+ F,0,24421,26421,1,0
+Sprite,Foreground,Centre,"sb\c2",270,387
+ R,0,0,,4.725568
+ F,0,24166,24366,0,1
+ F,0,24421,26421,1,0
+Sprite,Foreground,Centre,"sb\c3",291,387
+ R,0,0,,4.756465
+ F,0,24221,24421,0,1
+ F,0,24421,26421,1,0
+Sprite,Foreground,Centre,"sb\c2",286,380
+ R,0,0,,0.9483135
+ F,0,24221,24421,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c4",284,386
+ R,0,0,,5.870263
+ F,0,24272,24472,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c2",284,388
+ R,0,0,,2.486683
+ F,0,24323,24523,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c3",288,387
+ R,0,0,,4.624384
+ F,0,24374,24574,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c3",286,387
+ R,0,0,,6.178436
+ F,0,24425,24625,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c1",284,382
+ R,0,0,,1.336272
+ F,0,24476,24676,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c4",286,380
+ R,0,0,,5.107757
+ F,0,24528,24728,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c4",290,382
+ R,0,0,,3.06689
+ F,0,24579,24779,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c3",289,388
+ R,0,0,,4.688808
+ F,0,24630,24830,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c3",292,381
+ R,0,0,,2.536086
+ F,0,24681,24881,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c1",286,385
+ R,0,0,,1.184988
+ F,0,24732,24932,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c3",286,388
+ R,0,0,,2.517568
+ F,0,24783,24983,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c3",285,386
+ R,0,0,,6.057548
+ F,0,24835,25035,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c3",287,385
+ R,0,0,,0.1023543
+ F,0,24886,25086,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c4",292,382
+ R,0,0,,6.179483
+ F,0,24937,25137,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c1",291,381
+ R,0,0,,5.056039
+ F,0,24988,25188,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c4",286,388
+ R,0,0,,3.391792
+ F,0,25039,25239,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c4",286,388
+ R,0,0,,0.3792585
+ F,0,25091,25291,0,1
+ F,0,25291,27291,1,0
+Sprite,Foreground,Centre,"sb\c3",286,381
+ R,0,0,,2.841402
+ F,0,25091,25291,0,1
+ F,0,25726,27726,1,0
+Sprite,Foreground,Centre,"sb\c4",299,388
+ R,0,0,,1.834664
+ F,0,25145,25345,0,1
+ F,0,25726,27726,1,0
+Sprite,Foreground,Centre,"sb\c3",313,384
+ R,0,0,,0.233875
+ F,0,25199,25399,0,1
+ F,0,25726,27726,1,0
+Sprite,Foreground,Centre,"sb\c1",329,387
+ R,0,0,,6.071285
+ F,0,25254,25454,0,1
+ F,0,25726,27726,1,0
+Sprite,Foreground,Centre,"sb\c4",338,384
+ R,0,0,,4.015993
+ F,0,25308,25508,0,1
+ F,0,25726,27726,1,0
+Sprite,Foreground,Centre,"sb\c3",351,385
+ R,0,0,,0.8598194
+ F,0,25362,25562,0,1
+ F,0,25726,27726,1,0
+Sprite,Foreground,Centre,"sb\c4",366,382
+ R,0,0,,1.957061
+ F,0,25417,25617,0,1
+ F,0,25726,27726,1,0
+Sprite,Foreground,Centre,"sb\c1",377,381
+ R,0,0,,1.707252
+ F,0,25471,25671,0,1
+ F,0,25726,27726,1,0
+Sprite,Foreground,Centre,"sb\c3",395,384
+ R,0,0,,1.245624
+ F,0,25526,25726,0,1
+ F,0,25726,27726,1,0
+Sprite,Foreground,Centre,"sb\c4",548,182
+ R,0,0,,6.122102
+ F,0,25960,26160,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c3",540,184
+ R,0,0,,1.999206
+ F,0,26010,26210,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c1",538,181
+ R,0,0,,2.483432
+ F,0,26060,26260,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c2",537,186
+ R,0,0,,4.259656
+ F,0,26110,26310,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c4",529,181
+ R,0,0,,4.09973
+ F,0,26160,26360,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c1",530,184
+ R,0,0,,6.089508
+ F,0,26210,26410,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c1",531,185
+ R,0,0,,1.075585
+ F,0,26261,26461,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c1",524,183
+ R,0,0,,1.511163
+ F,0,26311,26511,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c1",519,188
+ R,0,0,,0.1013184
+ F,0,26361,26561,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c2",521,187
+ R,0,0,,4.318057
+ F,0,26411,26611,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c3",521,182
+ R,0,0,,1.686947
+ F,0,26461,26661,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c3",511,184
+ R,0,0,,2.615196
+ F,0,26512,26712,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c1",514,184
+ R,0,0,,4.444702
+ F,0,26562,26762,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c3",510,180
+ R,0,0,,2.10832
+ F,0,26612,26812,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c1",504,187
+ R,0,0,,4.314712
+ F,0,26662,26862,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c4",503,184
+ R,0,0,,0.8088625
+ F,0,26712,26912,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c2",496,187
+ R,0,0,,5.289246
+ F,0,26763,26963,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c4",500,182
+ R,0,0,,1.283157
+ F,0,26813,27013,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c3",498,180
+ R,0,0,,1.706526
+ F,0,26863,27063,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c4",496,186
+ R,0,0,,2.292886
+ F,0,26913,27113,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c2",487,185
+ R,0,0,,5.618925
+ F,0,26963,27163,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c3",484,184
+ R,0,0,,0.4036282
+ F,0,27014,27214,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c4",483,185
+ R,0,0,,5.92606
+ F,0,27064,27264,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c1",485,185
+ R,0,0,,3.023992
+ F,0,27114,27314,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c2",478,184
+ R,0,0,,1.74087
+ F,0,27164,27364,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c3",475,185
+ R,0,0,,3.716121
+ F,0,27214,27414,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c4",474,188
+ R,0,0,,3.726798
+ F,0,27265,27465,0,1
+ F,0,27465,29465,1,0
+Sprite,Foreground,Centre,"sb\c2",473,183
+ R,0,0,,2.81406
+ F,0,27265,27465,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c3",465,185
+ R,0,0,,5.335136
+ F,0,27315,27515,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c4",462,180
+ R,0,0,,3.524987
+ F,0,27365,27565,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c3",459,182
+ R,0,0,,0.4079185
+ F,0,27415,27615,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c2",456,188
+ R,0,0,,1.51596
+ F,0,27465,27665,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c4",456,182
+ R,0,0,,2.649632
+ F,0,27515,27715,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c1",447,184
+ R,0,0,,2.840898
+ F,0,27565,27765,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c2",439,186
+ R,0,0,,1.006146
+ F,0,27616,27816,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c3",439,188
+ R,0,0,,5.781424
+ F,0,27666,27866,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c4",433,183
+ R,0,0,,1.152297
+ F,0,27716,27916,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c2",426,183
+ R,0,0,,1.517453
+ F,0,27766,27966,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c4",425,186
+ R,0,0,,0.525156
+ F,0,27816,28016,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c1",418,184
+ R,0,0,,3.807927
+ F,0,27866,28066,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c3",418,185
+ R,0,0,,0.9142122
+ F,0,27917,28117,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c4",412,188
+ R,0,0,,2.847641
+ F,0,27967,28167,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c4",408,181
+ R,0,0,,2.924882
+ F,0,28017,28217,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c4",405,187
+ R,0,0,,2.146925
+ F,0,28067,28267,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c4",399,185
+ R,0,0,,0.6445073
+ F,0,28117,28317,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c1",391,181
+ R,0,0,,3.728479
+ F,0,28167,28367,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c4",394,186
+ R,0,0,,4.982072
+ F,0,28217,28417,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c2",386,188
+ R,0,0,,2.647767
+ F,0,28268,28468,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c3",381,186
+ R,0,0,,0.02183233
+ F,0,28318,28518,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c2",375,184
+ R,0,0,,2.128406
+ F,0,28368,28568,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c3",373,184
+ R,0,0,,5.999251
+ F,0,28418,28618,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c3",368,187
+ R,0,0,,4.63669
+ F,0,28468,28668,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c3",366,185
+ R,0,0,,3.222769
+ F,0,28518,28718,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c3",363,180
+ R,0,0,,2.869516
+ F,0,28569,28769,0,1
+ F,0,28769,30769,1,0
+Sprite,Foreground,Centre,"sb\c1",360,180
+ R,0,0,,4.401874
+ F,0,28569,28769,0,1
+ F,0,27900,29900,1,0
+Sprite,Foreground,Centre,"sb\c4",356,181
+ R,0,0,,3.880426
+ F,0,27700,27900,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c4",357,184
+ R,0,0,,0.06285823
+ F,0,27750,27950,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c1",349,188
+ R,0,0,,5.956537
+ F,0,27800,28000,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c3",344,184
+ R,0,0,,3.359384
+ F,0,27850,28050,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c1",342,182
+ R,0,0,,0.4205904
+ F,0,27900,28100,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c1",336,181
+ R,0,0,,5.976263
+ F,0,27950,28150,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c3",334,187
+ R,0,0,,3.535611
+ F,0,28000,28200,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c3",326,180
+ R,0,0,,1.292162
+ F,0,28051,28251,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c1",324,186
+ R,0,0,,1.567419
+ F,0,28101,28301,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c1",322,188
+ R,0,0,,0.4314974
+ F,0,28151,28351,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c2",320,184
+ R,0,0,,4.96426
+ F,0,28201,28401,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c2",312,185
+ R,0,0,,2.590703
+ F,0,28251,28451,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c4",307,180
+ R,0,0,,1.255282
+ F,0,28301,28501,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c2",308,181
+ R,0,0,,6.060213
+ F,0,28352,28552,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c1",296,188
+ R,0,0,,6.181606
+ F,0,28402,28602,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c4",298,183
+ R,0,0,,1.371011
+ F,0,28452,28652,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c3",290,187
+ R,0,0,,2.016217
+ F,0,28502,28702,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c4",283,184
+ R,0,0,,3.909665
+ F,0,28552,28752,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c1",278,180
+ R,0,0,,4.520874
+ F,0,28602,28802,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c2",279,182
+ R,0,0,,4.907939
+ F,0,28652,28852,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c1",273,181
+ R,0,0,,0.5415303
+ F,0,28703,28903,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c1",267,183
+ R,0,0,,0.9462634
+ F,0,28753,28953,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c1",264,182
+ R,0,0,,4.341098
+ F,0,28803,29003,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c1",262,181
+ R,0,0,,4.034363
+ F,0,28853,29053,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c2",257,182
+ R,0,0,,4.575388
+ F,0,28903,29103,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c1",248,180
+ R,0,0,,5.574043
+ F,0,28953,29153,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c1",245,182
+ R,0,0,,5.877667
+ F,0,29004,29204,0,1
+ F,0,29204,31204,1,0
+Sprite,Foreground,Centre,"sb\c2",244,274
+ R,0,0,,5.35883
+ F,0,32047,32247,0,1
+ F,0,32465,34465,1,0
+Sprite,Foreground,Centre,"sb\c3",262,272
+ R,0,0,,4.080254
+ F,0,32101,32301,0,1
+ F,0,32465,34465,1,0
+Sprite,Foreground,Centre,"sb\c1",272,274
+ R,0,0,,6.232156
+ F,0,32156,32356,0,1
+ F,0,32465,34465,1,0
+Sprite,Foreground,Centre,"sb\c1",291,272
+ R,0,0,,5.661215
+ F,0,32210,32410,0,1
+ F,0,32465,34465,1,0
+Sprite,Foreground,Centre,"sb\c4",303,270
+ R,0,0,,5.508955
+ F,0,32265,32465,0,1
+ F,0,32465,34465,1,0
+Sprite,Foreground,Centre,"sb\c1",306,272
+ R,0,0,,2.824934
+ F,0,32265,32465,0,1
+ F,0,32682,34682,1,0
+Sprite,Foreground,Centre,"sb\c4",321,273
+ R,0,0,,2.146752
+ F,0,32319,32519,0,1
+ F,0,32682,34682,1,0
+Sprite,Foreground,Centre,"sb\c4",336,271
+ R,0,0,,6.033359
+ F,0,32373,32573,0,1
+ F,0,32682,34682,1,0
+Sprite,Foreground,Centre,"sb\c1",344,270
+ R,0,0,,3.436002
+ F,0,32427,32627,0,1
+ F,0,32682,34682,1,0
+Sprite,Foreground,Centre,"sb\c1",364,270
+ R,0,0,,2.056305
+ F,0,32482,32682,0,1
+ F,0,32682,34682,1,0
+Sprite,Foreground,Centre,"sb\c3",361,272
+ R,0,0,,5.272882
+ F,0,32482,32682,0,1
+ F,0,32900,34900,1,0
+Sprite,Foreground,Centre,"sb\c1",372,272
+ R,0,0,,3.303685
+ F,0,32536,32736,0,1
+ F,0,32900,34900,1,0
+Sprite,Foreground,Centre,"sb\c3",384,271
+ R,0,0,,5.642696
+ F,0,32591,32791,0,1
+ F,0,32900,34900,1,0
+Sprite,Foreground,Centre,"sb\c1",401,270
+ R,0,0,,3.764966
+ F,0,32645,32845,0,1
+ F,0,32900,34900,1,0
+Sprite,Foreground,Centre,"sb\c1",417,275
+ R,0,0,,5.650758
+ F,0,32700,32900,0,1
+ F,0,32900,34900,1,0
+Sprite,Foreground,Centre,"sb\c3",417,270
+ R,0,0,,4.646291
+ F,0,32700,32900,0,1
+ F,0,33117,35117,1,0
+Sprite,Foreground,Centre,"sb\c4",433,268
+ R,0,0,,2.018928
+ F,0,32754,32954,0,1
+ F,0,33117,35117,1,0
+Sprite,Foreground,Centre,"sb\c4",443,272
+ R,0,0,,0.128232
+ F,0,32808,33008,0,1
+ F,0,33117,35117,1,0
+Sprite,Foreground,Centre,"sb\c2",454,272
+ R,0,0,,1.289108
+ F,0,32862,33062,0,1
+ F,0,33117,35117,1,0
+Sprite,Foreground,Centre,"sb\c1",476,270
+ R,0,0,,2.617247
+ F,0,32917,33117,0,1
+ F,0,33117,35117,1,0
+Sprite,Foreground,Centre,"sb\c2",248,270
+ R,0,0,,3.830358
+ F,0,33787,33987,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c3",263,268
+ R,0,0,,6.120192
+ F,0,33838,34038,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c4",271,272
+ R,0,0,,1.015965
+ F,0,33889,34089,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c3",285,270
+ R,0,0,,2.399667
+ F,0,33940,34140,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c1",303,275
+ R,0,0,,1.026513
+ F,0,33991,34191,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c1",314,274
+ R,0,0,,3.792215
+ F,0,34042,34242,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c4",327,272
+ R,0,0,,5.285083
+ F,0,34093,34293,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c3",344,276
+ R,0,0,,2.605798
+ F,0,34144,34344,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c2",354,272
+ R,0,0,,2.476149
+ F,0,34195,34395,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c4",370,268
+ R,0,0,,4.841031
+ F,0,34247,34447,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c1",379,274
+ R,0,0,,5.667052
+ F,0,34298,34498,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c3",392,274
+ R,0,0,,5.287488
+ F,0,34349,34549,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c2",409,275
+ R,0,0,,0.5680493
+ F,0,34400,34600,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c3",417,268
+ R,0,0,,4.684456
+ F,0,34451,34651,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c1",429,273
+ R,0,0,,1.269813
+ F,0,34502,34702,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c4",443,274
+ R,0,0,,1.412197
+ F,0,34553,34753,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c3",460,272
+ R,0,0,,4.267176
+ F,0,34604,34804,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c2",475,270
+ R,0,0,,4.95954
+ F,0,34656,34856,0,1
+ F,0,34856,36856,1,0
+Sprite,Foreground,Centre,"sb\c3",107,182
+ R,0,0,,5.61662
+ F,0,36395,36595,0,1
+ F,0,36813,38813,1,0
+Sprite,Foreground,Centre,"sb\c1",117,190
+ R,0,0,,4.28558
+ F,0,36449,36649,0,1
+ F,0,36813,38813,1,0
+Sprite,Foreground,Centre,"sb\c4",131,204
+ R,0,0,,0.7216023
+ F,0,36504,36704,0,1
+ F,0,36813,38813,1,0
+Sprite,Foreground,Centre,"sb\c1",141,209
+ R,0,0,,3.346518
+ F,0,36558,36758,0,1
+ F,0,36813,38813,1,0
+Sprite,Foreground,Centre,"sb\c2",155,217
+ R,0,0,,1.743029
+ F,0,36613,36813,0,1
+ F,0,36813,38813,1,0
+Sprite,Foreground,Centre,"sb\c3",156,218
+ R,0,0,,4.600992
+ F,0,36613,36813,0,1
+ F,0,37465,39465,1,0
+Sprite,Foreground,Centre,"sb\c1",167,217
+ R,0,0,,0.7772938
+ F,0,36663,36863,0,1
+ F,0,37465,39465,1,0
+Sprite,Foreground,Centre,"sb\c4",174,207
+ R,0,0,,3.616241
+ F,0,36713,36913,0,1
+ F,0,37465,39465,1,0
+Sprite,Foreground,Centre,"sb\c1",190,208
+ R,0,0,,0.03508134
+ F,0,36763,36963,0,1
+ F,0,37465,39465,1,0
+Sprite,Foreground,Centre,"sb\c1",202,209
+ R,0,0,,5.545521
+ F,0,36813,37013,0,1
+ F,0,37465,39465,1,0
+Sprite,Foreground,Centre,"sb\c2",217,203
+ R,0,0,,1.744521
+ F,0,36863,37063,0,1
+ F,0,37465,39465,1,0
+Sprite,Foreground,Centre,"sb\c3",231,204
+ R,0,0,,1.225764
+ F,0,36913,37113,0,1
+ F,0,37465,39465,1,0
+Sprite,Foreground,Centre,"sb\c4",240,194
+ R,0,0,,1.654423
+ F,0,36964,37164,0,1
+ F,0,37465,39465,1,0
+Sprite,Foreground,Centre,"sb\c4",251,193
+ R,0,0,,0.4269623
+ F,0,37014,37214,0,1
+ F,0,37465,39465,1,0
+Sprite,Foreground,Centre,"sb\c1",270,197
+ R,0,0,,4.318149
+ F,0,37064,37264,0,1
+ F,0,37465,39465,1,0
+Sprite,Foreground,Centre,"sb\c2",278,194
+ R,0,0,,4.695034
+ F,0,37114,37314,0,1
+ F,0,37465,39465,1,0
+Sprite,Foreground,Centre,"sb\c3",290,188
+ R,0,0,,0.5267728
+ F,0,37164,37364,0,1
+ F,0,37465,39465,1,0
+Sprite,Foreground,Centre,"sb\c1",306,183
+ R,0,0,,0.00289156
+ F,0,37214,37414,0,1
+ F,0,37465,39465,1,0
+Sprite,Foreground,Centre,"sb\c3",320,183
+ R,0,0,,2.597199
+ F,0,37265,37465,0,1
+ F,0,37465,39465,1,0
+Sprite,Foreground,Centre,"sb\c4",319,182
+ R,0,0,,5.927669
+ F,0,37265,37465,0,1
+ F,0,37900,39900,1,0
+Sprite,Foreground,Centre,"sb\c4",311,200
+ R,0,0,,0.9806913
+ F,0,37319,37519,0,1
+ F,0,37900,39900,1,0
+Sprite,Foreground,Centre,"sb\c3",302,209
+ R,0,0,,1.887314
+ F,0,37373,37573,0,1
+ F,0,37900,39900,1,0
+Sprite,Foreground,Centre,"sb\c2",297,217
+ R,0,0,,2.63578
+ F,0,37428,37628,0,1
+ F,0,37900,39900,1,0
+Sprite,Foreground,Centre,"sb\c4",290,232
+ R,0,0,,4.776236
+ F,0,37482,37682,0,1
+ F,0,37900,39900,1,0
+Sprite,Foreground,Centre,"sb\c2",276,245
+ R,0,0,,2.215729
+ F,0,37536,37736,0,1
+ F,0,37900,39900,1,0
+Sprite,Foreground,Centre,"sb\c4",269,256
+ R,0,0,,0.8083141
+ F,0,37591,37791,0,1
+ F,0,37900,39900,1,0
+Sprite,Foreground,Centre,"sb\c4",267,271
+ R,0,0,,3.858885
+ F,0,37645,37845,0,1
+ F,0,37900,39900,1,0
+Sprite,Foreground,Centre,"sb\c3",256,280
+ R,0,0,,2.95987
+ F,0,37700,37900,0,1
+ F,0,37900,39900,1,0
+Sprite,Foreground,Centre,"sb\c2",260,277
+ R,0,0,,1.368511
+ F,0,37700,37900,0,1
+ F,0,38334,40334,1,0
+Sprite,Foreground,Centre,"sb\c3",244,290
+ R,0,0,,1.966688
+ F,0,37754,37954,0,1
+ F,0,38334,40334,1,0
+Sprite,Foreground,Centre,"sb\c2",243,301
+ R,0,0,,1.07688
+ F,0,37808,38008,0,1
+ F,0,38334,40334,1,0
+Sprite,Foreground,Centre,"sb\c1",235,315
+ R,0,0,,0.420219
+ F,0,37862,38062,0,1
+ F,0,38334,40334,1,0
+Sprite,Foreground,Centre,"sb\c2",225,327
+ R,0,0,,4.689931
+ F,0,37917,38117,0,1
+ F,0,38334,40334,1,0
+Sprite,Foreground,Centre,"sb\c3",220,336
+ R,0,0,,5.030515
+ F,0,37971,38171,0,1
+ F,0,38334,40334,1,0
+Sprite,Foreground,Centre,"sb\c2",204,348
+ R,0,0,,2.581434
+ F,0,38025,38225,0,1
+ F,0,38334,40334,1,0
+Sprite,Foreground,Centre,"sb\c4",204,361
+ R,0,0,,1.20932
+ F,0,38079,38279,0,1
+ F,0,38334,40334,1,0
+Sprite,Foreground,Centre,"sb\c2",192,371
+ R,0,0,,3.850873
+ F,0,38134,38334,0,1
+ F,0,38334,40334,1,0
+Sprite,Foreground,Centre,"sb\c3",188,368
+ R,0,0,,4.152462
+ F,0,38134,38334,0,1
+ F,0,38769,40769,1,0
+Sprite,Foreground,Centre,"sb\c3",203,372
+ R,0,0,,5.265381
+ F,0,38188,38388,0,1
+ F,0,38769,40769,1,0
+Sprite,Foreground,Centre,"sb\c2",216,369
+ R,0,0,,0.866833
+ F,0,38242,38442,0,1
+ F,0,38769,40769,1,0
+Sprite,Foreground,Centre,"sb\c4",234,369
+ R,0,0,,4.20273
+ F,0,38297,38497,0,1
+ F,0,38769,40769,1,0
+Sprite,Foreground,Centre,"sb\c2",244,372
+ R,0,0,,2.287318
+ F,0,38351,38551,0,1
+ F,0,38769,40769,1,0
+Sprite,Foreground,Centre,"sb\c1",262,368
+ R,0,0,,2.264587
+ F,0,38405,38605,0,1
+ F,0,38769,40769,1,0
+Sprite,Foreground,Centre,"sb\c2",272,364
+ R,0,0,,5.558742
+ F,0,38460,38660,0,1
+ F,0,38769,40769,1,0
+Sprite,Foreground,Centre,"sb\c3",290,366
+ R,0,0,,0.3575062
+ F,0,38514,38714,0,1
+ F,0,38769,40769,1,0
+Sprite,Foreground,Centre,"sb\c4",303,369
+ R,0,0,,0.6548806
+ F,0,38569,38769,0,1
+ F,0,38769,40769,1,0
+Sprite,Foreground,Centre,"sb\c3",301,370
+ R,0,0,,0.1418988
+ F,0,38569,38769,0,1
+ F,0,39204,41204,1,0
+Sprite,Foreground,Centre,"sb\c3",315,372
+ R,0,0,,2.490794
+ F,0,38623,38823,0,1
+ F,0,39204,41204,1,0
+Sprite,Foreground,Centre,"sb\c4",332,365
+ R,0,0,,1.475272
+ F,0,38677,38877,0,1
+ F,0,39204,41204,1,0
+Sprite,Foreground,Centre,"sb\c1",350,365
+ R,0,0,,3.545028
+ F,0,38732,38932,0,1
+ F,0,39204,41204,1,0
+Sprite,Foreground,Centre,"sb\c1",359,364
+ R,0,0,,3.229302
+ F,0,38786,38986,0,1
+ F,0,39204,41204,1,0
+Sprite,Foreground,Centre,"sb\c3",373,367
+ R,0,0,,0.2160225
+ F,0,38840,39040,0,1
+ F,0,39204,41204,1,0
+Sprite,Foreground,Centre,"sb\c1",388,369
+ R,0,0,,5.409733
+ F,0,38895,39095,0,1
+ F,0,39204,41204,1,0
+Sprite,Foreground,Centre,"sb\c4",406,365
+ R,0,0,,6.029686
+ F,0,38949,39149,0,1
+ F,0,39204,41204,1,0
+Sprite,Foreground,Centre,"sb\c3",418,371
+ R,0,0,,1.894976
+ F,0,39004,39204,0,1
+ F,0,39204,41204,1,0
+Sprite,Foreground,Centre,"sb\c2",415,144
+ R,0,0,,3.115764
+ F,0,39874,40074,0,1
+ F,0,40508,42508,1,0
+Sprite,Foreground,Centre,"sb\c4",411,157
+ R,0,0,,5.743885
+ F,0,39928,40128,0,1
+ F,0,40508,42508,1,0
+Sprite,Foreground,Centre,"sb\c4",398,163
+ R,0,0,,3.084757
+ F,0,39982,40182,0,1
+ F,0,40508,42508,1,0
+Sprite,Foreground,Centre,"sb\c3",388,174
+ R,0,0,,1.445488
+ F,0,40036,40236,0,1
+ F,0,40508,42508,1,0
+Sprite,Foreground,Centre,"sb\c3",384,188
+ R,0,0,,5.208499
+ F,0,40091,40291,0,1
+ F,0,40508,42508,1,0
+Sprite,Foreground,Centre,"sb\c2",373,199
+ R,0,0,,2.996676
+ F,0,40145,40345,0,1
+ F,0,40508,42508,1,0
+Sprite,Foreground,Centre,"sb\c2",369,213
+ R,0,0,,1.582365
+ F,0,40199,40399,0,1
+ F,0,40508,42508,1,0
+Sprite,Foreground,Centre,"sb\c3",359,224
+ R,0,0,,0.6883204
+ F,0,40253,40453,0,1
+ F,0,40508,42508,1,0
+Sprite,Foreground,Centre,"sb\c1",352,235
+ R,0,0,,5.362266
+ F,0,40308,40508,0,1
+ F,0,40508,42508,1,0
+Sprite,Foreground,Centre,"sb\c3",355,234
+ R,0,0,,3.976185
+ F,0,40308,40508,0,1
+ F,0,40943,42943,1,0
+Sprite,Foreground,Centre,"sb\c4",343,222
+ R,0,0,,2.69128
+ F,0,40362,40562,0,1
+ F,0,40943,42943,1,0
+Sprite,Foreground,Centre,"sb\c4",336,212
+ R,0,0,,5.601555
+ F,0,40416,40616,0,1
+ F,0,40943,42943,1,0
+Sprite,Foreground,Centre,"sb\c3",325,200
+ R,0,0,,1.401637
+ F,0,40471,40671,0,1
+ F,0,40943,42943,1,0
+Sprite,Foreground,Centre,"sb\c1",313,189
+ R,0,0,,4.650591
+ F,0,40525,40725,0,1
+ F,0,40943,42943,1,0
+Sprite,Foreground,Centre,"sb\c4",303,179
+ R,0,0,,0.08942109
+ F,0,40579,40779,0,1
+ F,0,40943,42943,1,0
+Sprite,Foreground,Centre,"sb\c3",297,167
+ R,0,0,,2.577799
+ F,0,40634,40834,0,1
+ F,0,40943,42943,1,0
+Sprite,Foreground,Centre,"sb\c4",290,157
+ R,0,0,,1.610166
+ F,0,40688,40888,0,1
+ F,0,40943,42943,1,0
+Sprite,Foreground,Centre,"sb\c2",283,147
+ R,0,0,,4.415104
+ F,0,40743,40943,0,1
+ F,0,40943,42943,1,0
+Sprite,Foreground,Centre,"sb\c2",283,140
+ R,0,0,,2.891476
+ F,0,40743,40943,0,1
+ F,0,41378,43378,1,0
+Sprite,Foreground,Centre,"sb\c4",274,151
+ R,0,0,,5.682483
+ F,0,40797,40997,0,1
+ F,0,41378,43378,1,0
+Sprite,Foreground,Centre,"sb\c4",258,166
+ R,0,0,,4.400204
+ F,0,40851,41051,0,1
+ F,0,41378,43378,1,0
+Sprite,Foreground,Centre,"sb\c4",252,176
+ R,0,0,,5.795175
+ F,0,40906,41106,0,1
+ F,0,41378,43378,1,0
+Sprite,Foreground,Centre,"sb\c4",245,188
+ R,0,0,,0.2043056
+ F,0,40960,41160,0,1
+ F,0,41378,43378,1,0
+Sprite,Foreground,Centre,"sb\c2",238,200
+ R,0,0,,4.808298
+ F,0,41014,41214,0,1
+ F,0,41378,43378,1,0
+Sprite,Foreground,Centre,"sb\c4",222,209
+ R,0,0,,5.835264
+ F,0,41069,41269,0,1
+ F,0,41378,43378,1,0
+Sprite,Foreground,Centre,"sb\c1",220,221
+ R,0,0,,3.677737
+ F,0,41123,41323,0,1
+ F,0,41378,43378,1,0
+Sprite,Foreground,Centre,"sb\c2",205,235
+ R,0,0,,0.4177527
+ F,0,41178,41378,0,1
+ F,0,41378,43378,1,0
+Sprite,Foreground,Centre,"sb\c4",206,233
+ R,0,0,,0.01637739
+ F,0,41178,41378,0,1
+ F,0,41813,43813,1,0
+Sprite,Foreground,Centre,"sb\c4",195,225
+ R,0,0,,5.346602
+ F,0,41232,41432,0,1
+ F,0,41813,43813,1,0
+Sprite,Foreground,Centre,"sb\c1",193,214
+ R,0,0,,1.922756
+ F,0,41286,41486,0,1
+ F,0,41813,43813,1,0
+Sprite,Foreground,Centre,"sb\c3",184,203
+ R,0,0,,2.265114
+ F,0,41341,41541,0,1
+ F,0,41813,43813,1,0
+Sprite,Foreground,Centre,"sb\c4",168,187
+ R,0,0,,1.121675
+ F,0,41395,41595,0,1
+ F,0,41813,43813,1,0
+Sprite,Foreground,Centre,"sb\c2",166,178
+ R,0,0,,2.951754
+ F,0,41449,41649,0,1
+ F,0,41813,43813,1,0
+Sprite,Foreground,Centre,"sb\c1",152,169
+ R,0,0,,3.566496
+ F,0,41504,41704,0,1
+ F,0,41813,43813,1,0
+Sprite,Foreground,Centre,"sb\c3",145,153
+ R,0,0,,3.02669
+ F,0,41558,41758,0,1
+ F,0,41813,43813,1,0
+Sprite,Foreground,Centre,"sb\c3",140,147
+ R,0,0,,6.234857
+ F,0,41613,41813,0,1
+ F,0,41813,43813,1,0
+Sprite,Foreground,Centre,"sb\c1",128,403
+ R,0,0,,5.951211
+ F,0,43352,43552,0,1
+ F,0,43987,45987,1,0
+Sprite,Foreground,Centre,"sb\c4",144,400
+ R,0,0,,1.09821
+ F,0,43406,43606,0,1
+ F,0,43987,45987,1,0
+Sprite,Foreground,Centre,"sb\c1",154,400
+ R,0,0,,5.591391
+ F,0,43460,43660,0,1
+ F,0,43987,45987,1,0
+Sprite,Foreground,Centre,"sb\c3",174,401
+ R,0,0,,5.063186
+ F,0,43515,43715,0,1
+ F,0,43987,45987,1,0
+Sprite,Foreground,Centre,"sb\c2",180,398
+ R,0,0,,3.969332
+ F,0,43569,43769,0,1
+ F,0,43987,45987,1,0
+Sprite,Foreground,Centre,"sb\c4",197,400
+ R,0,0,,1.282822
+ F,0,43623,43823,0,1
+ F,0,43987,45987,1,0
+Sprite,Foreground,Centre,"sb\c2",215,399
+ R,0,0,,4.21152
+ F,0,43678,43878,0,1
+ F,0,43987,45987,1,0
+Sprite,Foreground,Centre,"sb\c2",225,401
+ R,0,0,,5.947966
+ F,0,43732,43932,0,1
+ F,0,43987,45987,1,0
+Sprite,Foreground,Centre,"sb\c4",239,400
+ R,0,0,,1.382659
+ F,0,43787,43987,0,1
+ F,0,43987,45987,1,0
+Sprite,Foreground,Centre,"sb\c2",239,403
+ R,0,0,,2.408162
+ F,0,43787,43987,0,1
+ F,0,44421,46421,1,0
+Sprite,Foreground,Centre,"sb\c1",256,398
+ R,0,0,,4.387026
+ F,0,43841,44041,0,1
+ F,0,44421,46421,1,0
+Sprite,Foreground,Centre,"sb\c3",270,397
+ R,0,0,,5.096951
+ F,0,43895,44095,0,1
+ F,0,44421,46421,1,0
+Sprite,Foreground,Centre,"sb\c2",283,402
+ R,0,0,,4.305838
+ F,0,43949,44149,0,1
+ F,0,44421,46421,1,0
+Sprite,Foreground,Centre,"sb\c3",297,396
+ R,0,0,,0.8347409
+ F,0,44004,44204,0,1
+ F,0,44421,46421,1,0
+Sprite,Foreground,Centre,"sb\c1",306,403
+ R,0,0,,2.111258
+ F,0,44058,44258,0,1
+ F,0,44421,46421,1,0
+Sprite,Foreground,Centre,"sb\c4",320,398
+ R,0,0,,4.109472
+ F,0,44112,44312,0,1
+ F,0,44421,46421,1,0
+Sprite,Foreground,Centre,"sb\c3",335,397
+ R,0,0,,2.264119
+ F,0,44166,44366,0,1
+ F,0,44421,46421,1,0
+Sprite,Foreground,Centre,"sb\c2",355,399
+ R,0,0,,0.8723966
+ F,0,44221,44421,0,1
+ F,0,44421,46421,1,0
+Sprite,Foreground,Centre,"sb\c4",354,403
+ R,0,0,,0.6916565
+ F,0,44221,44421,0,1
+ F,0,44856,46856,1,0
+Sprite,Foreground,Centre,"sb\c2",336,396
+ R,0,0,,4.622995
+ F,0,44275,44475,0,1
+ F,0,44856,46856,1,0
+Sprite,Foreground,Centre,"sb\c1",326,400
+ R,0,0,,4.348323
+ F,0,44329,44529,0,1
+ F,0,44856,46856,1,0
+Sprite,Foreground,Centre,"sb\c2",307,402
+ R,0,0,,1.883979
+ F,0,44384,44584,0,1
+ F,0,44856,46856,1,0
+Sprite,Foreground,Centre,"sb\c1",300,401
+ R,0,0,,3.641832
+ F,0,44438,44638,0,1
+ F,0,44856,46856,1,0
+Sprite,Foreground,Centre,"sb\c2",285,397
+ R,0,0,,3.286983
+ F,0,44492,44692,0,1
+ F,0,44856,46856,1,0
+Sprite,Foreground,Centre,"sb\c3",268,400
+ R,0,0,,3.700169
+ F,0,44547,44747,0,1
+ F,0,44856,46856,1,0
+Sprite,Foreground,Centre,"sb\c4",254,398
+ R,0,0,,2.186728
+ F,0,44601,44801,0,1
+ F,0,44856,46856,1,0
+Sprite,Foreground,Centre,"sb\c4",238,399
+ R,0,0,,4.770216
+ F,0,44656,44856,0,1
+ F,0,44856,46856,1,0
+Sprite,Foreground,Centre,"sb\c4",237,400
+ R,0,0,,5.864867
+ F,0,44656,44856,0,1
+ F,0,45291,47291,1,0
+Sprite,Foreground,Centre,"sb\c3",239,385
+ R,0,0,,3.084936
+ F,0,44710,44910,0,1
+ F,0,45291,47291,1,0
+Sprite,Foreground,Centre,"sb\c3",238,368
+ R,0,0,,2.490256
+ F,0,44764,44964,0,1
+ F,0,45291,47291,1,0
+Sprite,Foreground,Centre,"sb\c2",243,356
+ R,0,0,,1.542013
+ F,0,44819,45019,0,1
+ F,0,45291,47291,1,0
+Sprite,Foreground,Centre,"sb\c2",237,347
+ R,0,0,,3.854144
+ F,0,44873,45073,0,1
+ F,0,45291,47291,1,0
+Sprite,Foreground,Centre,"sb\c3",240,329
+ R,0,0,,4.319016
+ F,0,44927,45127,0,1
+ F,0,45291,47291,1,0
+Sprite,Foreground,Centre,"sb\c1",240,319
+ R,0,0,,2.966375
+ F,0,44982,45182,0,1
+ F,0,45291,47291,1,0
+Sprite,Foreground,Centre,"sb\c2",241,303
+ R,0,0,,5.114178
+ F,0,45036,45236,0,1
+ F,0,45291,47291,1,0
+Sprite,Foreground,Centre,"sb\c1",242,288
+ R,0,0,,2.088584
+ F,0,45091,45291,0,1
+ F,0,45291,47291,1,0
+Sprite,Foreground,Centre,"sb\c2",538,102
+ R,0,0,,3.114412
+ F,0,46830,47030,0,1
+ F,0,47465,49465,1,0
+Sprite,Foreground,Centre,"sb\c2",524,114
+ R,0,0,,2.132097
+ F,0,46884,47084,0,1
+ F,0,47465,49465,1,0
+Sprite,Foreground,Centre,"sb\c4",508,115
+ R,0,0,,1.965101
+ F,0,46938,47138,0,1
+ F,0,47465,49465,1,0
+Sprite,Foreground,Centre,"sb\c1",503,126
+ R,0,0,,2.714672
+ F,0,46993,47193,0,1
+ F,0,47465,49465,1,0
+Sprite,Foreground,Centre,"sb\c1",484,131
+ R,0,0,,4.846663
+ F,0,47047,47247,0,1
+ F,0,47465,49465,1,0
+Sprite,Foreground,Centre,"sb\c2",479,137
+ R,0,0,,2.808572
+ F,0,47101,47301,0,1
+ F,0,47465,49465,1,0
+Sprite,Foreground,Centre,"sb\c4",461,143
+ R,0,0,,3.519386
+ F,0,47156,47356,0,1
+ F,0,47465,49465,1,0
+Sprite,Foreground,Centre,"sb\c3",453,154
+ R,0,0,,1.742043
+ F,0,47210,47410,0,1
+ F,0,47465,49465,1,0
+Sprite,Foreground,Centre,"sb\c2",437,157
+ R,0,0,,5.48981
+ F,0,47265,47465,0,1
+ F,0,47465,49465,1,0
+Sprite,Foreground,Centre,"sb\c1",440,163
+ R,0,0,,4.424397
+ F,0,47265,47465,0,1
+ F,0,47900,49900,1,0
+Sprite,Foreground,Centre,"sb\c3",421,159
+ R,0,0,,1.992503
+ F,0,47319,47519,0,1
+ F,0,47900,49900,1,0
+Sprite,Foreground,Centre,"sb\c3",407,163
+ R,0,0,,6.057637
+ F,0,47373,47573,0,1
+ F,0,47900,49900,1,0
+Sprite,Foreground,Centre,"sb\c4",395,164
+ R,0,0,,2.862804
+ F,0,47428,47628,0,1
+ F,0,47900,49900,1,0
+Sprite,Foreground,Centre,"sb\c2",379,159
+ R,0,0,,3.45471
+ F,0,47482,47682,0,1
+ F,0,47900,49900,1,0
+Sprite,Foreground,Centre,"sb\c2",368,163
+ R,0,0,,2.628457
+ F,0,47536,47736,0,1
+ F,0,47900,49900,1,0
+Sprite,Foreground,Centre,"sb\c3",354,162
+ R,0,0,,2.153011
+ F,0,47591,47791,0,1
+ F,0,47900,49900,1,0
+Sprite,Foreground,Centre,"sb\c1",335,160
+ R,0,0,,4.278717
+ F,0,47645,47845,0,1
+ F,0,47900,49900,1,0
+Sprite,Foreground,Centre,"sb\c4",317,159
+ R,0,0,,1.142933
+ F,0,47700,47900,0,1
+ F,0,47900,49900,1,0
+Sprite,Foreground,Centre,"sb\c3",318,160
+ R,0,0,,3.384102
+ F,0,47700,47900,0,1
+ F,0,48334,50334,1,0
+Sprite,Foreground,Centre,"sb\c2",305,157
+ R,0,0,,2.071825
+ F,0,47754,47954,0,1
+ F,0,48334,50334,1,0
+Sprite,Foreground,Centre,"sb\c1",290,163
+ R,0,0,,4.341985
+ F,0,47808,48008,0,1
+ F,0,48334,50334,1,0
+Sprite,Foreground,Centre,"sb\c4",278,157
+ R,0,0,,4.461817
+ F,0,47862,48062,0,1
+ F,0,48334,50334,1,0
+Sprite,Foreground,Centre,"sb\c1",261,164
+ R,0,0,,4.979204
+ F,0,47917,48117,0,1
+ F,0,48334,50334,1,0
+Sprite,Foreground,Centre,"sb\c3",245,161
+ R,0,0,,1.95663
+ F,0,47971,48171,0,1
+ F,0,48334,50334,1,0
+Sprite,Foreground,Centre,"sb\c3",231,159
+ R,0,0,,4.045573
+ F,0,48025,48225,0,1
+ F,0,48334,50334,1,0
+Sprite,Foreground,Centre,"sb\c4",216,164
+ R,0,0,,0.5793598
+ F,0,48079,48279,0,1
+ F,0,48334,50334,1,0
+Sprite,Foreground,Centre,"sb\c1",197,161
+ R,0,0,,5.19733
+ F,0,48134,48334,0,1
+ F,0,48334,50334,1,0
+Sprite,Foreground,Centre,"sb\c4",201,164
+ R,0,0,,4.550684
+ F,0,48134,48334,0,1
+ F,0,48769,50769,1,0
+Sprite,Foreground,Centre,"sb\c4",188,157
+ R,0,0,,0.641678
+ F,0,48188,48388,0,1
+ F,0,48769,50769,1,0
+Sprite,Foreground,Centre,"sb\c2",177,150
+ R,0,0,,2.580653
+ F,0,48242,48442,0,1
+ F,0,48769,50769,1,0
+Sprite,Foreground,Centre,"sb\c1",164,139
+ R,0,0,,1.519303
+ F,0,48297,48497,0,1
+ F,0,48769,50769,1,0
+Sprite,Foreground,Centre,"sb\c3",151,128
+ R,0,0,,3.74617
+ F,0,48351,48551,0,1
+ F,0,48769,50769,1,0
+Sprite,Foreground,Centre,"sb\c4",142,125
+ R,0,0,,1.600078
+ F,0,48405,48605,0,1
+ F,0,48769,50769,1,0
+Sprite,Foreground,Centre,"sb\c3",127,119
+ R,0,0,,2.997795
+ F,0,48460,48660,0,1
+ F,0,48769,50769,1,0
+Sprite,Foreground,Centre,"sb\c3",113,107
+ R,0,0,,1.67377
+ F,0,48514,48714,0,1
+ F,0,48769,50769,1,0
+Sprite,Foreground,Centre,"sb\c1",108,101
+ R,0,0,,4.829074
+ F,0,48569,48769,0,1
+ F,0,48769,50769,1,0
+Sprite,Foreground,Centre,"sb\c2",436,407
+ R,0,0,,3.159667
+ F,0,50308,50508,0,1
+ F,0,50726,52726,1,0
+Sprite,Foreground,Centre,"sb\c3",433,395
+ R,0,0,,4.415751
+ F,0,50362,50562,0,1
+ F,0,50726,52726,1,0
+Sprite,Foreground,Centre,"sb\c1",435,379
+ R,0,0,,0.8395644
+ F,0,50417,50617,0,1
+ F,0,50726,52726,1,0
+Sprite,Foreground,Centre,"sb\c4",436,366
+ R,0,0,,0.6394711
+ F,0,50471,50671,0,1
+ F,0,50726,52726,1,0
+Sprite,Foreground,Centre,"sb\c1",436,353
+ R,0,0,,1.740759
+ F,0,50526,50726,0,1
+ F,0,50726,52726,1,0
+Sprite,Foreground,Centre,"sb\c2",428,354
+ R,0,0,,5.039831
+ F,0,50526,50726,0,1
+ F,0,51378,53378,1,0
+Sprite,Foreground,Centre,"sb\c4",417,356
+ R,0,0,,3.727905
+ F,0,50576,50776,0,1
+ F,0,51378,53378,1,0
+Sprite,Foreground,Centre,"sb\c2",407,357
+ R,0,0,,2.702259
+ F,0,50626,50826,0,1
+ F,0,51378,53378,1,0
+Sprite,Foreground,Centre,"sb\c2",395,362
+ R,0,0,,6.185911
+ F,0,50676,50876,0,1
+ F,0,51378,53378,1,0
+Sprite,Foreground,Centre,"sb\c4",384,366
+ R,0,0,,1.147901
+ F,0,50726,50926,0,1
+ F,0,51378,53378,1,0
+Sprite,Foreground,Centre,"sb\c2",372,370
+ R,0,0,,0.1933556
+ F,0,50776,50976,0,1
+ F,0,51378,53378,1,0
+Sprite,Foreground,Centre,"sb\c2",358,377
+ R,0,0,,3.571025
+ F,0,50826,51026,0,1
+ F,0,51378,53378,1,0
+Sprite,Foreground,Centre,"sb\c2",343,382
+ R,0,0,,2.186107
+ F,0,50877,51077,0,1
+ F,0,51378,53378,1,0
+Sprite,Foreground,Centre,"sb\c3",329,388
+ R,0,0,,1.336689
+ F,0,50927,51127,0,1
+ F,0,51378,53378,1,0
+Sprite,Foreground,Centre,"sb\c1",325,390
+ R,0,0,,1.340376
+ F,0,50977,51177,0,1
+ F,0,51378,53378,1,0
+Sprite,Foreground,Centre,"sb\c2",309,391
+ R,0,0,,4.194763
+ F,0,51027,51227,0,1
+ F,0,51378,53378,1,0
+Sprite,Foreground,Centre,"sb\c3",299,400
+ R,0,0,,4.691925
+ F,0,51077,51277,0,1
+ F,0,51378,53378,1,0
+Sprite,Foreground,Centre,"sb\c2",282,406
+ R,0,0,,4.789955
+ F,0,51127,51327,0,1
+ F,0,51378,53378,1,0
+Sprite,Foreground,Centre,"sb\c3",274,411
+ R,0,0,,5.608065
+ F,0,51178,51378,0,1
+ F,0,51378,53378,1,0
+Sprite,Foreground,Centre,"sb\c1",271,407
+ R,0,0,,4.610796
+ F,0,51178,51378,0,1
+ F,0,51813,53813,1,0
+Sprite,Foreground,Centre,"sb\c2",276,394
+ R,0,0,,6.196637
+ F,0,51232,51432,0,1
+ F,0,51813,53813,1,0
+Sprite,Foreground,Centre,"sb\c2",275,377
+ R,0,0,,4.492277
+ F,0,51286,51486,0,1
+ F,0,51813,53813,1,0
+Sprite,Foreground,Centre,"sb\c1",272,362
+ R,0,0,,1.398316
+ F,0,51341,51541,0,1
+ F,0,51813,53813,1,0
+Sprite,Foreground,Centre,"sb\c3",276,353
+ R,0,0,,3.896593
+ F,0,51395,51595,0,1
+ F,0,51813,53813,1,0
+Sprite,Foreground,Centre,"sb\c1",275,340
+ R,0,0,,5.683025
+ F,0,51449,51649,0,1
+ F,0,51813,53813,1,0
+Sprite,Foreground,Centre,"sb\c2",275,326
+ R,0,0,,2.7399
+ F,0,51504,51704,0,1
+ F,0,51813,53813,1,0
+Sprite,Foreground,Centre,"sb\c3",268,310
+ R,0,0,,1.456405
+ F,0,51558,51758,0,1
+ F,0,51813,53813,1,0
+Sprite,Foreground,Centre,"sb\c4",269,299
+ R,0,0,,3.942688
+ F,0,51613,51813,0,1
+ F,0,51813,53813,1,0
+Sprite,Foreground,Centre,"sb\c1",270,296
+ R,0,0,,1.197247
+ F,0,51613,51813,0,1
+ F,0,52247,54247,1,0
+Sprite,Foreground,Centre,"sb\c4",260,294
+ R,0,0,,4.862306
+ F,0,51667,51867,0,1
+ F,0,52247,54247,1,0
+Sprite,Foreground,Centre,"sb\c1",243,300
+ R,0,0,,1.053724
+ F,0,51721,51921,0,1
+ F,0,52247,54247,1,0
+Sprite,Foreground,Centre,"sb\c4",232,293
+ R,0,0,,0.1274512
+ F,0,51775,51975,0,1
+ F,0,52247,54247,1,0
+Sprite,Foreground,Centre,"sb\c1",214,300
+ R,0,0,,3.770153
+ F,0,51830,52030,0,1
+ F,0,52247,54247,1,0
+Sprite,Foreground,Centre,"sb\c4",199,295
+ R,0,0,,1.47524
+ F,0,51884,52084,0,1
+ F,0,52247,54247,1,0
+Sprite,Foreground,Centre,"sb\c4",185,300
+ R,0,0,,1.878174
+ F,0,51938,52138,0,1
+ F,0,52247,54247,1,0
+Sprite,Foreground,Centre,"sb\c3",174,293
+ R,0,0,,4.32917
+ F,0,51992,52192,0,1
+ F,0,52247,54247,1,0
+Sprite,Foreground,Centre,"sb\c4",158,295
+ R,0,0,,3.169478
+ F,0,52047,52247,0,1
+ F,0,52247,54247,1,0
+Sprite,Foreground,Centre,"sb\c4",160,295
+ R,0,0,,3.758085
+ F,0,52047,52247,0,1
+ F,0,52682,54682,1,0
+Sprite,Foreground,Centre,"sb\c3",164,281
+ R,0,0,,5.957362
+ F,0,52101,52301,0,1
+ F,0,52682,54682,1,0
+Sprite,Foreground,Centre,"sb\c3",160,265
+ R,0,0,,5.824087
+ F,0,52155,52355,0,1
+ F,0,52682,54682,1,0
+Sprite,Foreground,Centre,"sb\c4",162,255
+ R,0,0,,1.564063
+ F,0,52210,52410,0,1
+ F,0,52682,54682,1,0
+Sprite,Foreground,Centre,"sb\c2",163,238
+ R,0,0,,6.05004
+ F,0,52264,52464,0,1
+ F,0,52682,54682,1,0
+Sprite,Foreground,Centre,"sb\c1",161,230
+ R,0,0,,5.188456
+ F,0,52318,52518,0,1
+ F,0,52682,54682,1,0
+Sprite,Foreground,Centre,"sb\c2",159,212
+ R,0,0,,1.284631
+ F,0,52373,52573,0,1
+ F,0,52682,54682,1,0
+Sprite,Foreground,Centre,"sb\c4",160,198
+ R,0,0,,2.377292
+ F,0,52427,52627,0,1
+ F,0,52682,54682,1,0
+Sprite,Foreground,Centre,"sb\c3",158,182
+ R,0,0,,5.712379
+ F,0,52482,52682,0,1
+ F,0,52682,54682,1,0
+Sprite,Foreground,Centre,"sb\c3",156,184
+ R,0,0,,5.032581
+ F,0,52482,52682,0,1
+ F,0,53117,55117,1,0
+Sprite,Foreground,Centre,"sb\c3",162,201
+ R,0,0,,5.977894
+ F,0,52536,52736,0,1
+ F,0,53117,55117,1,0
+Sprite,Foreground,Centre,"sb\c3",158,216
+ R,0,0,,5.317122
+ F,0,52590,52790,0,1
+ F,0,53117,55117,1,0
+Sprite,Foreground,Centre,"sb\c4",157,224
+ R,0,0,,5.801276
+ F,0,52645,52845,0,1
+ F,0,53117,55117,1,0
+Sprite,Foreground,Centre,"sb\c4",164,244
+ R,0,0,,2.926406
+ F,0,52699,52899,0,1
+ F,0,53117,55117,1,0
+Sprite,Foreground,Centre,"sb\c1",158,250
+ R,0,0,,2.636976
+ F,0,52753,52953,0,1
+ F,0,53117,55117,1,0
+Sprite,Foreground,Centre,"sb\c3",156,267
+ R,0,0,,6.129925
+ F,0,52808,53008,0,1
+ F,0,53117,55117,1,0
+Sprite,Foreground,Centre,"sb\c3",157,280
+ R,0,0,,3.091667
+ F,0,52862,53062,0,1
+ F,0,53117,55117,1,0
+Sprite,Foreground,Centre,"sb\c1",156,292
+ R,0,0,,2.565903
+ F,0,52917,53117,0,1
+ F,0,53117,55117,1,0
+Sprite,Foreground,Centre,"sb\c1",529,385
+ R,0,0,,4.705301
+ F,0,53787,53987,0,1
+ F,0,54421,56421,1,0
+Sprite,Foreground,Centre,"sb\c3",526,367
+ R,0,0,,2.445431
+ F,0,53841,54041,0,1
+ F,0,54421,56421,1,0
+Sprite,Foreground,Centre,"sb\c1",532,356
+ R,0,0,,0.9515461
+ F,0,53895,54095,0,1
+ F,0,54421,56421,1,0
+Sprite,Foreground,Centre,"sb\c2",529,338
+ R,0,0,,1.463261
+ F,0,53949,54149,0,1
+ F,0,54421,56421,1,0
+Sprite,Foreground,Centre,"sb\c3",528,324
+ R,0,0,,0.07458173
+ F,0,54004,54204,0,1
+ F,0,54421,56421,1,0
+Sprite,Foreground,Centre,"sb\c3",525,312
+ R,0,0,,2.270144
+ F,0,54058,54258,0,1
+ F,0,54421,56421,1,0
+Sprite,Foreground,Centre,"sb\c4",527,302
+ R,0,0,,6.14657
+ F,0,54112,54312,0,1
+ F,0,54421,56421,1,0
+Sprite,Foreground,Centre,"sb\c4",526,282
+ R,0,0,,0.8209651
+ F,0,54166,54366,0,1
+ F,0,54421,56421,1,0
+Sprite,Foreground,Centre,"sb\c2",524,272
+ R,0,0,,1.9012
+ F,0,54221,54421,0,1
+ F,0,54421,56421,1,0
+Sprite,Foreground,Centre,"sb\c1",530,269
+ R,0,0,,0.9777918
+ F,0,54221,54421,0,1
+ F,0,54856,56856,1,0
+Sprite,Foreground,Centre,"sb\c2",528,261
+ R,0,0,,3.817295
+ F,0,54275,54475,0,1
+ F,0,54856,56856,1,0
+Sprite,Foreground,Centre,"sb\c2",527,243
+ R,0,0,,0.9053413
+ F,0,54329,54529,0,1
+ F,0,54856,56856,1,0
+Sprite,Foreground,Centre,"sb\c1",531,230
+ R,0,0,,6.053875
+ F,0,54384,54584,0,1
+ F,0,54856,56856,1,0
+Sprite,Foreground,Centre,"sb\c1",528,213
+ R,0,0,,2.218225
+ F,0,54438,54638,0,1
+ F,0,54856,56856,1,0
+Sprite,Foreground,Centre,"sb\c2",532,205
+ R,0,0,,3.370098
+ F,0,54492,54692,0,1
+ F,0,54856,56856,1,0
+Sprite,Foreground,Centre,"sb\c1",527,188
+ R,0,0,,5.979106
+ F,0,54547,54747,0,1
+ F,0,54856,56856,1,0
+Sprite,Foreground,Centre,"sb\c1",529,178
+ R,0,0,,1.315337
+ F,0,54601,54801,0,1
+ F,0,54856,56856,1,0
+Sprite,Foreground,Centre,"sb\c2",530,157
+ R,0,0,,1.848466
+ F,0,54656,54856,0,1
+ F,0,54856,56856,1,0
+Sprite,Foreground,Centre,"sb\c3",532,160
+ R,0,0,,2.208869
+ F,0,54656,54856,0,1
+ F,0,55291,57291,1,0
+Sprite,Foreground,Centre,"sb\c1",519,164
+ R,0,0,,6.253119
+ F,0,54710,54910,0,1
+ F,0,55291,57291,1,0
+Sprite,Foreground,Centre,"sb\c1",504,175
+ R,0,0,,4.909512
+ F,0,54764,54964,0,1
+ F,0,55291,57291,1,0
+Sprite,Foreground,Centre,"sb\c3",496,184
+ R,0,0,,5.763102
+ F,0,54819,55019,0,1
+ F,0,55291,57291,1,0
+Sprite,Foreground,Centre,"sb\c2",478,192
+ R,0,0,,5.586556
+ F,0,54873,55073,0,1
+ F,0,55291,57291,1,0
+Sprite,Foreground,Centre,"sb\c4",470,196
+ R,0,0,,5.624989
+ F,0,54927,55127,0,1
+ F,0,55291,57291,1,0
+Sprite,Foreground,Centre,"sb\c4",458,202
+ R,0,0,,2.757239
+ F,0,54982,55182,0,1
+ F,0,55291,57291,1,0
+Sprite,Foreground,Centre,"sb\c2",443,205
+ R,0,0,,4.566923
+ F,0,55036,55236,0,1
+ F,0,55291,57291,1,0
+Sprite,Foreground,Centre,"sb\c1",428,218
+ R,0,0,,6.000505
+ F,0,55091,55291,0,1
+ F,0,55291,57291,1,0
+Sprite,Foreground,Centre,"sb\c3",433,219
+ R,0,0,,4.979387
+ F,0,55091,55291,0,1
+ F,0,55726,57726,1,0
+Sprite,Foreground,Centre,"sb\c1",423,222
+ R,0,0,,4.711004
+ F,0,55145,55345,0,1
+ F,0,55726,57726,1,0
+Sprite,Foreground,Centre,"sb\c4",408,229
+ R,0,0,,5.341532
+ F,0,55199,55399,0,1
+ F,0,55726,57726,1,0
+Sprite,Foreground,Centre,"sb\c4",393,234
+ R,0,0,,4.780836
+ F,0,55254,55454,0,1
+ F,0,55726,57726,1,0
+Sprite,Foreground,Centre,"sb\c3",386,244
+ R,0,0,,1.598468
+ F,0,55308,55508,0,1
+ F,0,55726,57726,1,0
+Sprite,Foreground,Centre,"sb\c3",373,252
+ R,0,0,,2.088794
+ F,0,55362,55562,0,1
+ F,0,55726,57726,1,0
+Sprite,Foreground,Centre,"sb\c3",357,258
+ R,0,0,,2.153052
+ F,0,55417,55617,0,1
+ F,0,55726,57726,1,0
+Sprite,Foreground,Centre,"sb\c4",346,264
+ R,0,0,,1.069508
+ F,0,55471,55671,0,1
+ F,0,55726,57726,1,0
+Sprite,Foreground,Centre,"sb\c2",338,274
+ R,0,0,,2.321049
+ F,0,55526,55726,0,1
+ F,0,55726,57726,1,0
+Sprite,Foreground,Centre,"sb\c1",104,120
+ R,0,0,,2.186151
+ F,0,56613,56813,0,1
+ F,0,57030,59030,1,0
+Sprite,Foreground,Centre,"sb\c2",104,116
+ R,0,0,,2.332123
+ F,0,56667,56867,0,1
+ F,0,57030,59030,1,0
+Sprite,Foreground,Centre,"sb\c1",104,116
+ R,0,0,,1.036429
+ F,0,56721,56921,0,1
+ F,0,57030,59030,1,0
+Sprite,Foreground,Centre,"sb\c4",101,121
+ R,0,0,,2.590827
+ F,0,56775,56975,0,1
+ F,0,57030,59030,1,0
+Sprite,Foreground,Centre,"sb\c2",102,123
+ R,0,0,,0.08595934
+ F,0,56830,57030,0,1
+ F,0,57030,59030,1,0
+Sprite,Foreground,Centre,"sb\c3",350,334
+ R,0,0,,1.662976
+ F,0,65091,65291,0,1
+ F,0,65436,67436,1,0
+Sprite,Foreground,Centre,"sb\c3",334,338
+ R,0,0,,0.4011942
+ F,0,65163,65363,0,1
+ F,0,65436,67436,1,0
+Sprite,Foreground,Centre,"sb\c1",312,339
+ R,0,0,,2.740804
+ F,0,65236,65436,0,1
+ F,0,65436,67436,1,0
+Sprite,Foreground,Centre,"sb\c2",315,336
+ R,0,0,,0.9139718
+ F,0,65236,65436,0,1
+ F,0,65653,67653,1,0
+Sprite,Foreground,Centre,"sb\c3",296,334
+ R,0,0,,4.034693
+ F,0,65290,65490,0,1
+ F,0,65653,67653,1,0
+Sprite,Foreground,Centre,"sb\c4",277,334
+ R,0,0,,0.6757778
+ F,0,65344,65544,0,1
+ F,0,65653,67653,1,0
+Sprite,Foreground,Centre,"sb\c1",263,336
+ R,0,0,,3.416789
+ F,0,65398,65598,0,1
+ F,0,65653,67653,1,0
+Sprite,Foreground,Centre,"sb\c4",248,335
+ R,0,0,,6.061203
+ F,0,65453,65653,0,1
+ F,0,65653,67653,1,0
+Sprite,Foreground,Centre,"sb\c1",248,334
+ R,0,0,,1.410042
+ F,0,65453,65653,0,1
+ F,0,65871,67871,1,0
+Sprite,Foreground,Centre,"sb\c3",236,338
+ R,0,0,,5.003152
+ F,0,65507,65707,0,1
+ F,0,65871,67871,1,0
+Sprite,Foreground,Centre,"sb\c4",216,335
+ R,0,0,,4.143841
+ F,0,65562,65762,0,1
+ F,0,65871,67871,1,0
+Sprite,Foreground,Centre,"sb\c2",196,339
+ R,0,0,,3.301806
+ F,0,65616,65816,0,1
+ F,0,65871,67871,1,0
+Sprite,Foreground,Centre,"sb\c4",183,339
+ R,0,0,,0.1001717
+ F,0,65671,65871,0,1
+ F,0,65871,67871,1,0
+Sprite,Foreground,Centre,"sb\c4",181,337
+ R,0,0,,6.051532
+ F,0,65671,65871,0,1
+ F,0,66160,68160,1,0
+Sprite,Foreground,Centre,"sb\c4",167,336
+ R,0,0,,1.135325
+ F,0,65728,65928,0,1
+ F,0,66160,68160,1,0
+Sprite,Foreground,Centre,"sb\c3",152,332
+ R,0,0,,1.252039
+ F,0,65786,65986,0,1
+ F,0,66160,68160,1,0
+Sprite,Foreground,Centre,"sb\c4",139,333
+ R,0,0,,3.861994
+ F,0,65844,66044,0,1
+ F,0,66160,68160,1,0
+Sprite,Foreground,Centre,"sb\c1",120,333
+ R,0,0,,4.818489
+ F,0,65902,66102,0,1
+ F,0,66160,68160,1,0
+Sprite,Foreground,Centre,"sb\c1",104,340
+ R,0,0,,5.226018
+ F,0,65960,66160,0,1
+ F,0,66160,68160,1,0
+Sprite,Foreground,Centre,"sb\c1",104,333
+ R,0,0,,3.288662
+ F,0,65960,66160,0,1
+ F,0,66088,68088,1,0
+Sprite,Foreground,Centre,"sb\c1",126,337
+ R,0,0,,3.57699
+ F,0,65888,66088,0,1
+ F,0,66378,68378,1,0
+Sprite,Foreground,Centre,"sb\c4",121,328
+ R,0,0,,5.310066
+ F,0,65946,66146,0,1
+ F,0,66378,68378,1,0
+Sprite,Foreground,Centre,"sb\c4",115,310
+ R,0,0,,3.126415
+ F,0,66004,66204,0,1
+ F,0,66378,68378,1,0
+Sprite,Foreground,Centre,"sb\c2",111,302
+ R,0,0,,3.036075
+ F,0,66062,66262,0,1
+ F,0,66378,68378,1,0
+Sprite,Foreground,Centre,"sb\c4",104,292
+ R,0,0,,5.541473
+ F,0,66120,66320,0,1
+ F,0,66378,68378,1,0
+Sprite,Foreground,Centre,"sb\c1",99,281
+ R,0,0,,1.362845
+ F,0,66178,66378,0,1
+ F,0,66378,68378,1,0
+Sprite,Foreground,Centre,"sb\c2",97,220
+ R,0,0,,1.230069
+ F,0,66395,66595,0,1
+ F,0,67030,69030,1,0
+Sprite,Foreground,Centre,"sb\c3",111,228
+ R,0,0,,1.081223
+ F,0,66449,66649,0,1
+ F,0,67030,69030,1,0
+Sprite,Foreground,Centre,"sb\c4",126,224
+ R,0,0,,5.323637
+ F,0,66503,66703,0,1
+ F,0,67030,69030,1,0
+Sprite,Foreground,Centre,"sb\c3",145,220
+ R,0,0,,5.998452
+ F,0,66558,66758,0,1
+ F,0,67030,69030,1,0
+Sprite,Foreground,Centre,"sb\c1",157,221
+ R,0,0,,1.802081
+ F,0,66612,66812,0,1
+ F,0,67030,69030,1,0
+Sprite,Foreground,Centre,"sb\c4",172,225
+ R,0,0,,0.6212677
+ F,0,66666,66866,0,1
+ F,0,67030,69030,1,0
+Sprite,Foreground,Centre,"sb\c1",191,225
+ R,0,0,,5.359999
+ F,0,66721,66921,0,1
+ F,0,67030,69030,1,0
+Sprite,Foreground,Centre,"sb\c3",206,222
+ R,0,0,,3.462245
+ F,0,66775,66975,0,1
+ F,0,67030,69030,1,0
+Sprite,Foreground,Centre,"sb\c4",223,220
+ R,0,0,,2.520206
+ F,0,66830,67030,0,1
+ F,0,67030,69030,1,0
+Sprite,Foreground,Centre,"sb\c2",222,225
+ R,0,0,,2.903736
+ F,0,66830,67030,0,1
+ F,0,66813,68813,1,0
+Sprite,Foreground,Centre,"sb\c1",153,225
+ R,0,0,,2.771173
+ F,0,66613,66813,0,1
+ F,0,67465,69465,1,0
+Sprite,Foreground,Centre,"sb\c3",166,224
+ R,0,0,,3.977035
+ F,0,66663,66863,0,1
+ F,0,67465,69465,1,0
+Sprite,Foreground,Centre,"sb\c3",184,227
+ R,0,0,,4.662647
+ F,0,66713,66913,0,1
+ F,0,67465,69465,1,0
+Sprite,Foreground,Centre,"sb\c4",194,226
+ R,0,0,,0.2049037
+ F,0,66763,66963,0,1
+ F,0,67465,69465,1,0
+Sprite,Foreground,Centre,"sb\c3",205,223
+ R,0,0,,5.083466
+ F,0,66813,67013,0,1
+ F,0,67465,69465,1,0
+Sprite,Foreground,Centre,"sb\c4",225,225
+ R,0,0,,1.014834
+ F,0,66863,67063,0,1
+ F,0,67465,69465,1,0
+Sprite,Foreground,Centre,"sb\c1",238,224
+ R,0,0,,4.925865
+ F,0,66913,67113,0,1
+ F,0,67465,69465,1,0
+Sprite,Foreground,Centre,"sb\c2",249,222
+ R,0,0,,3.686447
+ F,0,66964,67164,0,1
+ F,0,67465,69465,1,0
+Sprite,Foreground,Centre,"sb\c3",267,226
+ R,0,0,,3.44246
+ F,0,67014,67214,0,1
+ F,0,67465,69465,1,0
+Sprite,Foreground,Centre,"sb\c3",279,224
+ R,0,0,,1.497697
+ F,0,67064,67264,0,1
+ F,0,67465,69465,1,0
+Sprite,Foreground,Centre,"sb\c4",297,224
+ R,0,0,,3.693349
+ F,0,67114,67314,0,1
+ F,0,67465,69465,1,0
+Sprite,Foreground,Centre,"sb\c1",307,228
+ R,0,0,,5.348013
+ F,0,67164,67364,0,1
+ F,0,67465,69465,1,0
+Sprite,Foreground,Centre,"sb\c1",317,227
+ R,0,0,,0.7760314
+ F,0,67214,67414,0,1
+ F,0,67465,69465,1,0
+Sprite,Foreground,Centre,"sb\c3",333,224
+ R,0,0,,0.1492505
+ F,0,67265,67465,0,1
+ F,0,67465,69465,1,0
+Sprite,Foreground,Centre,"sb\c3",340,228
+ R,0,0,,0.7073469
+ F,0,67265,67465,0,1
+ F,0,67682,69682,1,0
+Sprite,Foreground,Centre,"sb\c2",347,228
+ R,0,0,,3.829074
+ F,0,67319,67519,0,1
+ F,0,67682,69682,1,0
+Sprite,Foreground,Centre,"sb\c4",363,220
+ R,0,0,,5.019462
+ F,0,67373,67573,0,1
+ F,0,67682,69682,1,0
+Sprite,Foreground,Centre,"sb\c2",375,224
+ R,0,0,,4.420112
+ F,0,67427,67627,0,1
+ F,0,67682,69682,1,0
+Sprite,Foreground,Centre,"sb\c4",394,223
+ R,0,0,,2.408523
+ F,0,67482,67682,0,1
+ F,0,67682,69682,1,0
+Sprite,Foreground,Centre,"sb\c3",394,221
+ R,0,0,,5.089928
+ F,0,67482,67682,0,1
+ F,0,67900,69900,1,0
+Sprite,Foreground,Centre,"sb\c4",405,223
+ R,0,0,,2.226183
+ F,0,67536,67736,0,1
+ F,0,67900,69900,1,0
+Sprite,Foreground,Centre,"sb\c2",416,223
+ R,0,0,,1.197765
+ F,0,67591,67791,0,1
+ F,0,67900,69900,1,0
+Sprite,Foreground,Centre,"sb\c3",431,224
+ R,0,0,,3.746061
+ F,0,67645,67845,0,1
+ F,0,67900,69900,1,0
+Sprite,Foreground,Centre,"sb\c1",450,224
+ R,0,0,,0.3792763
+ F,0,67700,67900,0,1
+ F,0,67900,69900,1,0
+Sprite,Foreground,Centre,"sb\c1",540,391
+ R,0,0,,3.502266
+ F,0,68243,68443,0,1
+ F,0,68552,70552,1,0
+Sprite,Foreground,Centre,"sb\c3",536,390
+ R,0,0,,3.769107
+ F,0,68297,68497,0,1
+ F,0,68552,70552,1,0
+Sprite,Foreground,Centre,"sb\c2",519,392
+ R,0,0,,5.095871
+ F,0,68352,68552,0,1
+ F,0,68552,70552,1,0
+Sprite,Foreground,Centre,"sb\c2",522,390
+ R,0,0,,4.75658
+ F,0,68352,68552,0,1
+ F,0,68660,70660,1,0
+Sprite,Foreground,Centre,"sb\c4",507,395
+ R,0,0,,5.168919
+ F,0,68406,68606,0,1
+ F,0,68660,70660,1,0
+Sprite,Foreground,Centre,"sb\c3",493,388
+ R,0,0,,6.213568
+ F,0,68460,68660,0,1
+ F,0,68660,70660,1,0
+Sprite,Foreground,Centre,"sb\c3",496,395
+ R,0,0,,3.598354
+ F,0,68460,68660,0,1
+ F,0,68769,70769,1,0
+Sprite,Foreground,Centre,"sb\c4",487,395
+ R,0,0,,1.850735
+ F,0,68514,68714,0,1
+ F,0,68769,70769,1,0
+Sprite,Foreground,Centre,"sb\c2",470,394
+ R,0,0,,2.315848
+ F,0,68569,68769,0,1
+ F,0,68769,70769,1,0
+Sprite,Foreground,Centre,"sb\c4",476,388
+ R,0,0,,0.7047181
+ F,0,68569,68769,0,1
+ F,0,69204,71204,1,0
+Sprite,Foreground,Centre,"sb\c4",459,389
+ R,0,0,,3.523452
+ F,0,68623,68823,0,1
+ F,0,69204,71204,1,0
+Sprite,Foreground,Centre,"sb\c2",448,393
+ R,0,0,,5.653434
+ F,0,68677,68877,0,1
+ F,0,69204,71204,1,0
+Sprite,Foreground,Centre,"sb\c1",428,395
+ R,0,0,,5.53419
+ F,0,68732,68932,0,1
+ F,0,69204,71204,1,0
+Sprite,Foreground,Centre,"sb\c4",418,390
+ R,0,0,,6.131712
+ F,0,68786,68986,0,1
+ F,0,69204,71204,1,0
+Sprite,Foreground,Centre,"sb\c4",405,390
+ R,0,0,,0.7996947
+ F,0,68840,69040,0,1
+ F,0,69204,71204,1,0
+Sprite,Foreground,Centre,"sb\c4",388,389
+ R,0,0,,2.951477
+ F,0,68895,69095,0,1
+ F,0,69204,71204,1,0
+Sprite,Foreground,Centre,"sb\c3",374,388
+ R,0,0,,5.941634
+ F,0,68949,69149,0,1
+ F,0,69204,71204,1,0
+Sprite,Foreground,Centre,"sb\c4",363,396
+ R,0,0,,2.385165
+ F,0,69004,69204,0,1
+ F,0,69204,71204,1,0
+Sprite,Foreground,Centre,"sb\c1",100,393
+ R,0,0,,6.277928
+ F,0,69439,69639,0,1
+ F,0,70074,72074,1,0
+Sprite,Foreground,Centre,"sb\c4",100,382
+ R,0,0,,5.772916
+ F,0,69493,69693,0,1
+ F,0,70074,72074,1,0
+Sprite,Foreground,Centre,"sb\c2",103,366
+ R,0,0,,5.979187
+ F,0,69547,69747,0,1
+ F,0,70074,72074,1,0
+Sprite,Foreground,Centre,"sb\c3",105,346
+ R,0,0,,0.2291039
+ F,0,69602,69802,0,1
+ F,0,70074,72074,1,0
+Sprite,Foreground,Centre,"sb\c3",107,335
+ R,0,0,,4.242116
+ F,0,69656,69856,0,1
+ F,0,70074,72074,1,0
+Sprite,Foreground,Centre,"sb\c3",100,324
+ R,0,0,,3.545413
+ F,0,69710,69910,0,1
+ F,0,70074,72074,1,0
+Sprite,Foreground,Centre,"sb\c4",103,308
+ R,0,0,,5.88845
+ F,0,69765,69965,0,1
+ F,0,70074,72074,1,0
+Sprite,Foreground,Centre,"sb\c1",101,294
+ R,0,0,,2.0077
+ F,0,69819,70019,0,1
+ F,0,70074,72074,1,0
+Sprite,Foreground,Centre,"sb\c4",100,283
+ R,0,0,,0.4650398
+ F,0,69874,70074,0,1
+ F,0,70074,72074,1,0
+Sprite,Foreground,Centre,"sb\c4",100,284
+ R,0,0,,5.236866
+ F,0,69874,70074,0,1
+ F,0,70291,72291,1,0
+Sprite,Foreground,Centre,"sb\c4",102,262
+ R,0,0,,4.849114
+ F,0,69928,70128,0,1
+ F,0,70291,72291,1,0
+Sprite,Foreground,Centre,"sb\c4",107,255
+ R,0,0,,3.384582
+ F,0,69982,70182,0,1
+ F,0,70291,72291,1,0
+Sprite,Foreground,Centre,"sb\c1",104,238
+ R,0,0,,3.306885
+ F,0,70036,70236,0,1
+ F,0,70291,72291,1,0
+Sprite,Foreground,Centre,"sb\c2",103,221
+ R,0,0,,1.662642
+ F,0,70091,70291,0,1
+ F,0,70291,72291,1,0
+Sprite,Foreground,Centre,"sb\c3",100,224
+ R,0,0,,3.512382
+ F,0,70091,70291,0,1
+ F,0,70508,72508,1,0
+Sprite,Foreground,Centre,"sb\c4",108,206
+ R,0,0,,5.092391
+ F,0,70145,70345,0,1
+ F,0,70508,72508,1,0
+Sprite,Foreground,Centre,"sb\c4",106,200
+ R,0,0,,5.33828
+ F,0,70199,70399,0,1
+ F,0,70508,72508,1,0
+Sprite,Foreground,Centre,"sb\c4",101,182
+ R,0,0,,6.069924
+ F,0,70253,70453,0,1
+ F,0,70508,72508,1,0
+Sprite,Foreground,Centre,"sb\c2",104,170
+ R,0,0,,6.022102
+ F,0,70308,70508,0,1
+ F,0,70508,72508,1,0
+Sprite,Foreground,Centre,"sb\c4",108,170
+ R,0,0,,3.334416
+ F,0,70308,70508,0,1
+ F,0,70943,72943,1,0
+Sprite,Foreground,Centre,"sb\c2",120,168
+ R,0,0,,3.724993
+ F,0,70362,70562,0,1
+ F,0,70943,72943,1,0
+Sprite,Foreground,Centre,"sb\c4",132,168
+ R,0,0,,5.53636
+ F,0,70416,70616,0,1
+ F,0,70943,72943,1,0
+Sprite,Foreground,Centre,"sb\c4",146,169
+ R,0,0,,3.16405
+ F,0,70471,70671,0,1
+ F,0,70943,72943,1,0
+Sprite,Foreground,Centre,"sb\c4",158,167
+ R,0,0,,1.331613
+ F,0,70525,70725,0,1
+ F,0,70943,72943,1,0
+Sprite,Foreground,Centre,"sb\c1",172,172
+ R,0,0,,5.22052
+ F,0,70579,70779,0,1
+ F,0,70943,72943,1,0
+Sprite,Foreground,Centre,"sb\c2",192,172
+ R,0,0,,6.164824
+ F,0,70634,70834,0,1
+ F,0,70943,72943,1,0
+Sprite,Foreground,Centre,"sb\c1",202,165
+ R,0,0,,4.119324
+ F,0,70688,70888,0,1
+ F,0,70943,72943,1,0
+Sprite,Foreground,Centre,"sb\c2",218,167
+ R,0,0,,1.933268
+ F,0,70743,70943,0,1
+ F,0,70943,72943,1,0
+Sprite,Foreground,Centre,"sb\c4",219,165
+ R,0,0,,3.536611
+ F,0,70743,70943,0,1
+ F,0,71160,73160,1,0
+Sprite,Foreground,Centre,"sb\c2",231,166
+ R,0,0,,1.737339
+ F,0,70797,70997,0,1
+ F,0,71160,73160,1,0
+Sprite,Foreground,Centre,"sb\c2",240,164
+ R,0,0,,3.658498
+ F,0,70851,71051,0,1
+ F,0,71160,73160,1,0
+Sprite,Foreground,Centre,"sb\c3",258,168
+ R,0,0,,0.8045149
+ F,0,70905,71105,0,1
+ F,0,71160,73160,1,0
+Sprite,Foreground,Centre,"sb\c3",275,165
+ R,0,0,,6.134297
+ F,0,70960,71160,0,1
+ F,0,71160,73160,1,0
+Sprite,Foreground,Centre,"sb\c3",274,172
+ R,0,0,,4.994855
+ F,0,70960,71160,0,1
+ F,0,71378,73378,1,0
+Sprite,Foreground,Centre,"sb\c1",282,168
+ R,0,0,,2.142706
+ F,0,71014,71214,0,1
+ F,0,71378,73378,1,0
+Sprite,Foreground,Centre,"sb\c1",300,166
+ R,0,0,,0.47669
+ F,0,71069,71269,0,1
+ F,0,71378,73378,1,0
+Sprite,Foreground,Centre,"sb\c3",312,169
+ R,0,0,,1.08995
+ F,0,71123,71323,0,1
+ F,0,71378,73378,1,0
+Sprite,Foreground,Centre,"sb\c3",328,166
+ R,0,0,,0.1978536
+ F,0,71178,71378,0,1
+ F,0,71378,73378,1,0
+Sprite,Foreground,Centre,"sb\c4",441,146
+ R,0,0,,5.532516
+ F,0,71613,71813,0,1
+ F,0,72247,74247,1,0
+Sprite,Foreground,Centre,"sb\c2",440,160
+ R,0,0,,0.6789568
+ F,0,71667,71867,0,1
+ F,0,72247,74247,1,0
+Sprite,Foreground,Centre,"sb\c4",440,176
+ R,0,0,,3.412446
+ F,0,71721,71921,0,1
+ F,0,72247,74247,1,0
+Sprite,Foreground,Centre,"sb\c3",441,185
+ R,0,0,,5.703793
+ F,0,71775,71975,0,1
+ F,0,72247,74247,1,0
+Sprite,Foreground,Centre,"sb\c2",440,196
+ R,0,0,,0.8075603
+ F,0,71830,72030,0,1
+ F,0,72247,74247,1,0
+Sprite,Foreground,Centre,"sb\c4",437,210
+ R,0,0,,4.852521
+ F,0,71884,72084,0,1
+ F,0,72247,74247,1,0
+Sprite,Foreground,Centre,"sb\c2",443,226
+ R,0,0,,5.291183
+ F,0,71938,72138,0,1
+ F,0,72247,74247,1,0
+Sprite,Foreground,Centre,"sb\c3",442,242
+ R,0,0,,3.906583
+ F,0,71992,72192,0,1
+ F,0,72247,74247,1,0
+Sprite,Foreground,Centre,"sb\c2",440,257
+ R,0,0,,0.3256106
+ F,0,72047,72247,0,1
+ F,0,72247,74247,1,0
+Sprite,Foreground,Centre,"sb\c1",437,258
+ R,0,0,,1.922664
+ F,0,72047,72247,0,1
+ F,0,72465,74465,1,0
+Sprite,Foreground,Centre,"sb\c4",436,274
+ R,0,0,,3.088912
+ F,0,72101,72301,0,1
+ F,0,72465,74465,1,0
+Sprite,Foreground,Centre,"sb\c2",440,284
+ R,0,0,,6.059824
+ F,0,72156,72356,0,1
+ F,0,72465,74465,1,0
+Sprite,Foreground,Centre,"sb\c3",437,300
+ R,0,0,,3.016802
+ F,0,72210,72410,0,1
+ F,0,72465,74465,1,0
+Sprite,Foreground,Centre,"sb\c4",442,312
+ R,0,0,,3.778358
+ F,0,72265,72465,0,1
+ F,0,72465,74465,1,0
+Sprite,Foreground,Centre,"sb\c4",443,308
+ R,0,0,,1.662376
+ F,0,72265,72465,0,1
+ F,0,72610,74610,1,0
+Sprite,Foreground,Centre,"sb\c2",440,333
+ R,0,0,,5.640164
+ F,0,72337,72537,0,1
+ F,0,72610,74610,1,0
+Sprite,Foreground,Centre,"sb\c4",439,349
+ R,0,0,,0.1002115
+ F,0,72410,72610,0,1
+ F,0,72610,74610,1,0
+Sprite,Foreground,Centre,"sb\c4",444,352
+ R,0,0,,4.752121
+ F,0,72410,72610,0,1
+ F,0,72827,74827,1,0
+Sprite,Foreground,Centre,"sb\c1",442,365
+ R,0,0,,1.633179
+ F,0,72464,72664,0,1
+ F,0,72827,74827,1,0
+Sprite,Foreground,Centre,"sb\c2",436,383
+ R,0,0,,1.893398
+ F,0,72518,72718,0,1
+ F,0,72827,74827,1,0
+Sprite,Foreground,Centre,"sb\c3",444,399
+ R,0,0,,0.04315479
+ F,0,72572,72772,0,1
+ F,0,72827,74827,1,0
+Sprite,Foreground,Centre,"sb\c4",443,413
+ R,0,0,,0.6491463
+ F,0,72627,72827,0,1
+ F,0,72827,74827,1,0
+Sprite,Foreground,Centre,"sb\c1",323,410
+ R,0,0,,0.81542
+ F,0,72917,73117,0,1
+ F,0,73552,75552,1,0
+Sprite,Foreground,Centre,"sb\c4",313,401
+ R,0,0,,2.444625
+ F,0,72971,73171,0,1
+ F,0,73552,75552,1,0
+Sprite,Foreground,Centre,"sb\c1",302,382
+ R,0,0,,2.373329
+ F,0,73025,73225,0,1
+ F,0,73552,75552,1,0
+Sprite,Foreground,Centre,"sb\c4",294,374
+ R,0,0,,4.212222
+ F,0,73080,73280,0,1
+ F,0,73552,75552,1,0
+Sprite,Foreground,Centre,"sb\c3",288,368
+ R,0,0,,3.843621
+ F,0,73134,73334,0,1
+ F,0,73552,75552,1,0
+Sprite,Foreground,Centre,"sb\c3",274,353
+ R,0,0,,3.273069
+ F,0,73188,73388,0,1
+ F,0,73552,75552,1,0
+Sprite,Foreground,Centre,"sb\c2",268,343
+ R,0,0,,1.019124
+ F,0,73243,73443,0,1
+ F,0,73552,75552,1,0
+Sprite,Foreground,Centre,"sb\c1",261,330
+ R,0,0,,1.127574
+ F,0,73297,73497,0,1
+ F,0,73552,75552,1,0
+Sprite,Foreground,Centre,"sb\c1",247,323
+ R,0,0,,1.38902
+ F,0,73352,73552,0,1
+ F,0,73552,75552,1,0
+Sprite,Foreground,Centre,"sb\c1",247,321
+ R,0,0,,5.230577
+ F,0,73352,73552,0,1
+ F,0,73769,75769,1,0
+Sprite,Foreground,Centre,"sb\c3",239,310
+ R,0,0,,0.4287612
+ F,0,73406,73606,0,1
+ F,0,73769,75769,1,0
+Sprite,Foreground,Centre,"sb\c3",229,299
+ R,0,0,,3.434089
+ F,0,73460,73660,0,1
+ F,0,73769,75769,1,0
+Sprite,Foreground,Centre,"sb\c1",223,280
+ R,0,0,,5.681849
+ F,0,73514,73714,0,1
+ F,0,73769,75769,1,0
+Sprite,Foreground,Centre,"sb\c3",216,270
+ R,0,0,,1.534904
+ F,0,73569,73769,0,1
+ F,0,73769,75769,1,0
+Sprite,Foreground,Centre,"sb\c2",214,273
+ R,0,0,,0.4282556
+ F,0,73569,73769,0,1
+ F,0,73987,75987,1,0
+Sprite,Foreground,Centre,"sb\c2",209,261
+ R,0,0,,1.674868
+ F,0,73623,73823,0,1
+ F,0,73987,75987,1,0
+Sprite,Foreground,Centre,"sb\c1",204,252
+ R,0,0,,4.943677
+ F,0,73678,73878,0,1
+ F,0,73987,75987,1,0
+Sprite,Foreground,Centre,"sb\c2",189,238
+ R,0,0,,2.259939
+ F,0,73732,73932,0,1
+ F,0,73987,75987,1,0
+Sprite,Foreground,Centre,"sb\c2",188,227
+ R,0,0,,3.982624
+ F,0,73787,73987,0,1
+ F,0,73987,75987,1,0
+Sprite,Foreground,Centre,"sb\c2",308,224
+ R,0,0,,5.500066
+ F,0,74221,74421,0,1
+ F,0,74639,76639,1,0
+Sprite,Foreground,Centre,"sb\c4",294,239
+ R,0,0,,5.665295
+ F,0,74275,74475,0,1
+ F,0,74639,76639,1,0
+Sprite,Foreground,Centre,"sb\c3",291,245
+ R,0,0,,0.5407549
+ F,0,74330,74530,0,1
+ F,0,74639,76639,1,0
+Sprite,Foreground,Centre,"sb\c4",283,264
+ R,0,0,,4.08805
+ F,0,74384,74584,0,1
+ F,0,74639,76639,1,0
+Sprite,Foreground,Centre,"sb\c1",278,276
+ R,0,0,,4.390749
+ F,0,74439,74639,0,1
+ F,0,74639,76639,1,0
+Sprite,Foreground,Centre,"sb\c1",278,272
+ R,0,0,,1.186407
+ F,0,74439,74639,0,1
+ F,0,74856,76856,1,0
+Sprite,Foreground,Centre,"sb\c2",275,287
+ R,0,0,,3.551626
+ F,0,74493,74693,0,1
+ F,0,74856,76856,1,0
+Sprite,Foreground,Centre,"sb\c4",265,297
+ R,0,0,,3.819272
+ F,0,74547,74747,0,1
+ F,0,74856,76856,1,0
+Sprite,Foreground,Centre,"sb\c2",260,305
+ R,0,0,,5.087778
+ F,0,74601,74801,0,1
+ F,0,74856,76856,1,0
+Sprite,Foreground,Centre,"sb\c1",247,320
+ R,0,0,,5.11332
+ F,0,74656,74856,0,1
+ F,0,74856,76856,1,0
+Sprite,Foreground,Centre,"sb\c4",251,320
+ R,0,0,,5.043181
+ F,0,74656,74856,0,1
+ F,0,74965,76965,1,0
+Sprite,Foreground,Centre,"sb\c3",238,336
+ R,0,0,,1.512472
+ F,0,74710,74910,0,1
+ F,0,74965,76965,1,0
+Sprite,Foreground,Centre,"sb\c1",234,346
+ R,0,0,,6.177321
+ F,0,74765,74965,0,1
+ F,0,74965,76965,1,0
+Sprite,Foreground,Centre,"sb\c2",233,344
+ R,0,0,,3.254905
+ F,0,74765,74965,0,1
+ F,0,75074,77074,1,0
+Sprite,Foreground,Centre,"sb\c1",223,353
+ R,0,0,,0.9139482
+ F,0,74819,75019,0,1
+ F,0,75074,77074,1,0
+Sprite,Foreground,Centre,"sb\c1",216,366
+ R,0,0,,4.210795
+ F,0,74874,75074,0,1
+ F,0,75074,77074,1,0
+Sprite,Foreground,Centre,"sb\c1",213,365
+ R,0,0,,0.05329854
+ F,0,74874,75074,0,1
+ F,0,75182,77182,1,0
+Sprite,Foreground,Centre,"sb\c2",209,377
+ R,0,0,,4.78573
+ F,0,74928,75128,0,1
+ F,0,75182,77182,1,0
+Sprite,Foreground,Centre,"sb\c4",203,392
+ R,0,0,,4.430614
+ F,0,74982,75182,0,1
+ F,0,75182,77182,1,0
+Sprite,Foreground,Centre,"sb\c4",200,391
+ R,0,0,,5.163465
+ F,0,74982,75182,0,1
+ F,0,75291,77291,1,0
+Sprite,Foreground,Centre,"sb\c4",190,401
+ R,0,0,,5.9117
+ F,0,75036,75236,0,1
+ F,0,75291,77291,1,0
+Sprite,Foreground,Centre,"sb\c4",184,420
+ R,0,0,,2.577657
+ F,0,75091,75291,0,1
+ F,0,75291,77291,1,0
+Sprite,Foreground,Centre,"sb\c2",138,387
+ R,0,0,,1.044947
+ F,0,75308,75508,0,1
+ F,0,75726,77726,1,0
+Sprite,Foreground,Centre,"sb\c2",126,378
+ R,0,0,,3.5604
+ F,0,75362,75562,0,1
+ F,0,75726,77726,1,0
+Sprite,Foreground,Centre,"sb\c3",115,362
+ R,0,0,,0.9865826
+ F,0,75417,75617,0,1
+ F,0,75726,77726,1,0
+Sprite,Foreground,Centre,"sb\c3",109,355
+ R,0,0,,3.967353
+ F,0,75471,75671,0,1
+ F,0,75726,77726,1,0
+Sprite,Foreground,Centre,"sb\c1",95,343
+ R,0,0,,1.453415
+ F,0,75526,75726,0,1
+ F,0,75726,77726,1,0
+Sprite,Foreground,Centre,"sb\c1",97,345
+ R,0,0,,0.1846413
+ F,0,75526,75726,0,1
+ F,0,75834,77834,1,0
+Sprite,Foreground,Centre,"sb\c4",102,330
+ R,0,0,,1.982429
+ F,0,75580,75780,0,1
+ F,0,75834,77834,1,0
+Sprite,Foreground,Centre,"sb\c1",112,319
+ R,0,0,,1.122343
+ F,0,75634,75834,0,1
+ F,0,75834,77834,1,0
+Sprite,Foreground,Centre,"sb\c2",109,322
+ R,0,0,,5.078724
+ F,0,75634,75834,0,1
+ F,0,75943,77943,1,0
+Sprite,Foreground,Centre,"sb\c2",121,305
+ R,0,0,,6.206503
+ F,0,75688,75888,0,1
+ F,0,75943,77943,1,0
+Sprite,Foreground,Centre,"sb\c2",124,295
+ R,0,0,,1.095359
+ F,0,75743,75943,0,1
+ F,0,75943,77943,1,0
+Sprite,Foreground,Centre,"sb\c4",129,298
+ R,0,0,,3.375405
+ F,0,75743,75943,0,1
+ F,0,76052,78052,1,0
+Sprite,Foreground,Centre,"sb\c3",136,281
+ R,0,0,,1.357979
+ F,0,75797,75997,0,1
+ F,0,76052,78052,1,0
+Sprite,Foreground,Centre,"sb\c3",148,274
+ R,0,0,,0.480957
+ F,0,75852,76052,0,1
+ F,0,76052,78052,1,0
+Sprite,Foreground,Centre,"sb\c4",146,272
+ R,0,0,,1.167704
+ F,0,75852,76052,0,1
+ F,0,76160,78160,1,0
+Sprite,Foreground,Centre,"sb\c1",156,256
+ R,0,0,,0.08516566
+ F,0,75906,76106,0,1
+ F,0,76160,78160,1,0
+Sprite,Foreground,Centre,"sb\c1",157,248
+ R,0,0,,0.9748751
+ F,0,75960,76160,0,1
+ F,0,76160,78160,1,0
+Sprite,Foreground,Centre,"sb\c4",527,411
+ R,0,0,,1.329877
+ F,0,76395,76595,0,1
+ F,0,76958,78958,1,0
+Sprite,Foreground,Centre,"sb\c1",524,391
+ R,0,0,,2.41617
+ F,0,76446,76646,0,1
+ F,0,76958,78958,1,0
+Sprite,Foreground,Centre,"sb\c2",526,383
+ R,0,0,,2.96452
+ F,0,76498,76698,0,1
+ F,0,76958,78958,1,0
+Sprite,Foreground,Centre,"sb\c4",526,366
+ R,0,0,,2.225919
+ F,0,76550,76750,0,1
+ F,0,76958,78958,1,0
+Sprite,Foreground,Centre,"sb\c2",530,357
+ R,0,0,,2.493552
+ F,0,76602,76802,0,1
+ F,0,76958,78958,1,0
+Sprite,Foreground,Centre,"sb\c1",532,336
+ R,0,0,,1.496753
+ F,0,76654,76854,0,1
+ F,0,76958,78958,1,0
+Sprite,Foreground,Centre,"sb\c1",526,322
+ R,0,0,,6.079237
+ F,0,76706,76906,0,1
+ F,0,76958,78958,1,0
+Sprite,Foreground,Centre,"sb\c1",526,311
+ R,0,0,,1.456145
+ F,0,76758,76958,0,1
+ F,0,76958,78958,1,0
+Sprite,Foreground,Centre,"sb\c1",530,315
+ R,0,0,,4.286745
+ F,0,76758,76958,0,1
+ F,0,77247,79247,1,0
+Sprite,Foreground,Centre,"sb\c1",525,296
+ R,0,0,,5.037992
+ F,0,76815,77015,0,1
+ F,0,77247,79247,1,0
+Sprite,Foreground,Centre,"sb\c4",528,282
+ R,0,0,,5.344764
+ F,0,76873,77073,0,1
+ F,0,77247,79247,1,0
+Sprite,Foreground,Centre,"sb\c4",524,268
+ R,0,0,,3.469974
+ F,0,76931,77131,0,1
+ F,0,77247,79247,1,0
+Sprite,Foreground,Centre,"sb\c2",526,256
+ R,0,0,,1.61147
+ F,0,76989,77189,0,1
+ F,0,77247,79247,1,0
+Sprite,Foreground,Centre,"sb\c1",525,241
+ R,0,0,,1.261782
+ F,0,77047,77247,0,1
+ F,0,77247,79247,1,0
+Sprite,Foreground,Centre,"sb\c4",530,242
+ R,0,0,,5.421703
+ F,0,77047,77247,0,1
+ F,0,77465,79465,1,0
+Sprite,Foreground,Centre,"sb\c1",524,224
+ R,0,0,,5.651538
+ F,0,77101,77301,0,1
+ F,0,77465,79465,1,0
+Sprite,Foreground,Centre,"sb\c3",531,209
+ R,0,0,,3.067854
+ F,0,77156,77356,0,1
+ F,0,77465,79465,1,0
+Sprite,Foreground,Centre,"sb\c1",526,195
+ R,0,0,,2.48286
+ F,0,77210,77410,0,1
+ F,0,77465,79465,1,0
+Sprite,Foreground,Centre,"sb\c4",529,184
+ R,0,0,,4.068438
+ F,0,77265,77465,0,1
+ F,0,77465,79465,1,0
+Sprite,Foreground,Centre,"sb\c1",527,182
+ R,0,0,,4.850721
+ F,0,77265,77465,0,1
+ F,0,77682,79682,1,0
+Sprite,Foreground,Centre,"sb\c3",516,176
+ R,0,0,,3.200006
+ F,0,77319,77519,0,1
+ F,0,77682,79682,1,0
+Sprite,Foreground,Centre,"sb\c1",505,170
+ R,0,0,,0.7737667
+ F,0,77373,77573,0,1
+ F,0,77682,79682,1,0
+Sprite,Foreground,Centre,"sb\c4",499,164
+ R,0,0,,3.057451
+ F,0,77427,77627,0,1
+ F,0,77682,79682,1,0
+Sprite,Foreground,Centre,"sb\c3",487,151
+ R,0,0,,1.898474
+ F,0,77482,77682,0,1
+ F,0,77682,79682,1,0
+Sprite,Foreground,Centre,"sb\c4",485,156
+ R,0,0,,6.139159
+ F,0,77482,77682,0,1
+ F,0,77900,79900,1,0
+Sprite,Foreground,Centre,"sb\c2",476,152
+ R,0,0,,0.678371
+ F,0,77536,77736,0,1
+ F,0,77900,79900,1,0
+Sprite,Foreground,Centre,"sb\c3",460,155
+ R,0,0,,4.423287
+ F,0,77591,77791,0,1
+ F,0,77900,79900,1,0
+Sprite,Foreground,Centre,"sb\c4",448,152
+ R,0,0,,3.358116
+ F,0,77645,77845,0,1
+ F,0,77900,79900,1,0
+Sprite,Foreground,Centre,"sb\c3",432,150
+ R,0,0,,3.765407
+ F,0,77700,77900,0,1
+ F,0,77900,79900,1,0
+Sprite,Foreground,Centre,"sb\c4",432,153
+ R,0,0,,0.7384315
+ F,0,77700,77900,0,1
+ F,0,78117,80117,1,0
+Sprite,Foreground,Centre,"sb\c4",414,153
+ R,0,0,,2.021307
+ F,0,77754,77954,0,1
+ F,0,78117,80117,1,0
+Sprite,Foreground,Centre,"sb\c1",402,153
+ R,0,0,,2.171398
+ F,0,77808,78008,0,1
+ F,0,78117,80117,1,0
+Sprite,Foreground,Centre,"sb\c2",392,152
+ R,0,0,,3.064195
+ F,0,77862,78062,0,1
+ F,0,78117,80117,1,0
+Sprite,Foreground,Centre,"sb\c1",374,149
+ R,0,0,,5.275748
+ F,0,77917,78117,0,1
+ F,0,78117,80117,1,0
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+74,434.782608695652,4,2,0,51,1,0
+16276,-100,4,2,0,20,0,0
+16490,-200,4,2,0,51,0,0
+64316,-100,4,2,0,51,0,0
+79967,-100,4,2,0,51,0,0
+
+[Colours]
+Combo1 : 143,143,143
+Combo2 : 244,244,244
+
+[HitObjects]
+24,328,943,1,2
+64,328,1088,2,0,B|104:328,1,23.3333333333333
+128,328,1305,2,0,B|160:328,1,23.3333333333333
+192,328,1523,2,0,B|224:328,1,23.3333333333333
+256,328,1740,2,0,B|288:328,1,23.3333333333333
+336,328,2030,1,0
+392,328,2247,5,0
+448,328,2465,1,0
+472,280,2682,1,0
+472,168,3117,1,0
+472,56,3552,1,0
+288,112,4095,6,0,B|240:112,3,35
+184,200,4856,1,2
+32,328,5291,5,0
+128,328,5653,1,0
+128,328,5943,1,0
+128,328,6160,1,0
+240,328,6595,1,0
+240,328,7030,1,0
+480,328,7610,5,0
+424,280,7900,2,0,B|392:256,6,35
+480,120,8769,5,4
+128,120,9204,5,0
+96,168,9421,1,0
+64,120,9639,1,2
+232,272,10074,5,0
+260,320,10291,1,0
+288,272,10508,1,0
+312,272,10617,1,0
+336,272,10726,1,0
+360,272,10834,1,0
+384,272,10943,1,8
+424,232,11160,5,0
+384,192,11378,1,0
+360,192,11487,1,0
+336,192,11595,1,0
+312,192,11704,1,0
+288,192,11813,1,8
+32,112,12247,6,0,B|32:256,1,140,0|0
+32,312,12900,1,2
+88,312,13117,2,0,B|232:312,1,140
+288,312,13769,2,8,B|360:312,1,70,8|0
+464,232,14856,5,2
+424,232,15001,2,0,B|384:232,1,23.3333333333333
+360,232,15218,2,0,B|320:232,1,23.3333333333333
+296,232,15436,2,0,B|272:232,1,23.3333333333333
+232,232,15653,1,0
+216,232,15726,2,0,B|144:232|88:224|88:104,1,210,8|4
+480,120,19204,6,0,B|400:120,3,70
+296,120,20943,2,0,B|208:120,2,70,0|0|0
+184,120,22247,1,2
+32,320,22682,6,0,B|120:320,3,70
+224,320,24421,2,0,B|312:320,2,70
+328,320,25726,1,8
+480,120,26160,6,0,B|384:120,3,70
+296,120,27900,2,0,B|224:120,2,70,0|0|0
+184,120,29204,1,4
+184,336,29639,6,0,B|136:336,2,35,0|0|8
+272,264,30508,6,0,B|320:264,2,35,0|0|8
+184,208,31378,6,8,B|144:208,3,35,0|0|8|0
+184,208,32247,5,0
+240,208,32465,1,0
+296,208,32682,1,8
+352,208,32900,1,0
+408,208,33117,1,0
+184,208,33987,5,0
+408,208,34856,1,2
+40,120,36595,5,0
+88,152,36813,1,0
+256,120,37465,1,0
+192,216,37900,1,8
+128,304,38334,1,0
+240,304,38769,1,0
+352,304,39204,1,0
+352,80,40074,5,8
+288,168,40508,1,0
+216,80,40943,1,0
+144,168,41378,1,8
+72,80,41813,1,0
+64,336,43552,5,0
+176,336,43987,1,0
+288,336,44421,1,2
+176,336,44856,1,0
+176,224,45291,1,0
+472,40,47030,5,0
+376,96,47465,1,2
+256,96,47900,1,0
+136,96,48334,1,0
+40,40,48769,1,0
+368,344,50508,5,0
+368,288,50726,1,0
+208,344,51378,1,0
+208,232,51813,1,8
+96,232,52247,1,0
+96,120,52682,1,0
+96,232,53117,1,0
+464,320,53987,5,8
+464,208,54421,1,0
+464,96,54856,1,0
+368,152,55291,1,8
+272,208,55726,1,0
+40,56,56813,5,2
+40,56,57030,1,2
+288,272,65291,5,2
+248,272,65436,2,0,B|208:272,1,23.3333333333333
+184,272,65653,2,0,B|152:272,1,23.3333333333333
+120,272,65871,2,0,B|96:272,1,23.3333333333333
+64,272,66088,2,0,B|24:272,1,23.3333333333333
+32,216,66378,1,0
+32,160,66595,5,0
+88,160,66813,2,0,B|184:160,1,70,0|0
+272,160,67465,1,8
+328,160,67682,1,0
+384,160,67900,1,0
+480,328,68443,5,0
+456,328,68552,1,0
+432,328,68660,1,0
+408,328,68769,1,0
+296,328,69204,1,0
+40,328,69639,5,0
+40,216,70074,1,0
+40,160,70291,1,2
+40,104,70508,1,0
+152,104,70943,1,0
+208,104,71160,1,2
+264,104,71378,1,0
+376,80,71813,5,0
+376,192,72247,1,0
+376,248,72465,1,0
+376,288,72610,2,0,B|376:328,1,23.3333333333333
+376,352,72827,2,0,B|376:392,1,23.3333333333333
+256,344,73117,5,4
+184,256,73552,1,0
+152,208,73769,1,0
+120,160,73987,1,2
+240,160,74421,5,0
+216,208,74639,1,0
+184,256,74856,1,0
+168,280,74965,1,0
+152,304,75074,1,0
+136,328,75182,1,0
+120,352,75291,1,8
+72,320,75508,5,0
+32,280,75726,1,0
+48,256,75834,1,0
+64,232,75943,1,0
+80,208,76052,1,0
+96,184,76160,1,8
+464,344,76595,5,4
+464,248,76958,1,0
+464,176,77247,1,0
+464,120,77465,1,0
+424,88,77682,1,0
+368,88,77900,1,2
+312,88,78117,1,0
+256,208,78443,12,6,80074

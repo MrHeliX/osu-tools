@@ -1,0 +1,106 @@
+osu file format v6
+
+[General]
+AudioFilename: VS Misaka Mikototo.mp3
+AudioLeadIn: 0
+PreviewTime: 15590
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.4
+Mode: 0
+LetterboxInBreaks: 0
+
+[Editor]
+Bookmarks: 10790,15590,21990,28390,34790,41190
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 32
+
+[Metadata]
+Title:VS Misaka Mikototo
+Artist:Nico Nico Douga
+Creator:DJPop
+Version:Easy
+Source:To Aru Majutsu no Index
+Tags:to aru kagaku no railgun mad kirby king dedede misaka mikoto kamijo touma shirai kuroko
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3
+OverallDifficulty:2
+SliderMultiplier:1.28
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"VS Misaka Mikototo.png"
+Video,70,"VS Misaka Mikototo.avi"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,0,0,0
+
+[TimingPoints]
+10790,400,4,1,2,70,1,0
+12190,-100,4,1,0,40,0,0
+12790,-100,4,1,0,45,0,0
+13190,-100,4,1,0,50,0,0
+13590,-100,4,1,0,55,0,0
+13990,-100,4,1,0,60,0,0
+14390,-100,4,1,0,65,0,0
+22290,-100,4,1,2,65,0,0
+22490,-100,4,1,0,65,0,0
+22690,-100,4,1,2,65,0,0
+22890,-100,4,1,0,65,0,0
+23890,-100,4,1,2,65,0,0
+24090,-100,4,1,0,65,0,0
+24290,-100,4,1,2,65,0,0
+24490,-100,4,1,0,65,0,0
+25490,-100,4,1,2,65,0,0
+25690,-100,4,1,0,65,0,0
+25890,-100,4,1,2,65,0,0
+26090,-100,4,1,0,65,0,0
+27090,-100,4,1,2,65,0,0
+27290,-100,4,1,0,65,0,0
+27490,-100,4,1,2,65,0,0
+27690,-100,4,1,0,65,0,0
+36690,-100,4,1,2,65,0,0
+37287,-100,4,1,0,65,0,0
+
+[Colours]
+Combo1 : 110,100,120
+Combo2 : 150,95,85
+Combo3 : 220,220,220
+Combo4 : 210,190,180
+
+[HitObjects]
+256,128,10790,6,0,C|256:32,4,96,8|8|8|8|8
+256,224,12390,6,0,C|256:352,6,128,0|0|0|0|0|0|2
+64,64,15590,5,4
+256,64,16190,1,4
+448,64,16790,1,4
+448,192,17190,5,4
+256,192,17790,1,4
+64,192,18390,1,4
+64,320,18790,5,4
+256,320,19390,1,4
+448,320,19990,1,4
+448,192,20390,6,0,C|448:96,4,96,6|6|6|6|2
+320,240,21990,6,0,C|320:48,2,192,0|0|2
+224,144,23590,2,0,C|224:336,2,192,0|0|2
+128,240,25190,6,0,C|128:48,2,192,8|0|2
+32,144,26790,2,0,C|32:336,2,192,8|0|2
+32,32,28390,5,4
+480,32,29990,5,4
+32,352,31590,5,4
+480,352,33190,5,4
+192,32,34790,6,0,C|320:32,3,128,2|2|2|2
+384,144,36390,2,2,B|320:208|256:216|192:208|128:144,1,288,2|2
+32,352,37990,6,0,C|160:352,3,128
+192,224,39590,1,0
+320,224,39990,1,0
+352,352,40390,2,0,C|448:352,2,96,12|12|12

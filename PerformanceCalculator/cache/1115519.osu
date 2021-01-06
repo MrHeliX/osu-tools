@@ -1,0 +1,69 @@
+osu file format v14
+
+[General]
+AudioFilename: 4. DJKurara - Japanese Transformation.mp3
+AudioLeadIn: 1500
+PreviewTime: 89872
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 85949,149180
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 16
+TimelineZoom: 2
+
+[Metadata]
+Title:Japanese Transformation
+TitleUnicode:Japanese Transformation
+Artist:DJKurara
+ArtistUnicode:DJKurara
+Creator:XeoStyle
+Version:Halo's Beginner
+Source:
+Tags:KyokudoCore Records KCRCD003 Tanoshi Torture J-Speedcore Happy J-Core
+BeatmapID:1115519
+BeatmapSetID:520438
+
+[Difficulty]
+HPDrainRate:6
+CircleSize:4
+OverallDifficulty:6
+ApproachRate:9
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Japanese Transformation.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+1488,230.769230769231,4,1,1,27,1,0
+31026,-100,4,1,1,27,0,1
+44872,-100,4,1,1,27,0,0
+45795,-100,4,1,1,27,0,1
+60564,-100,4,1,1,27,0,0
+90103,-100,4,1,1,27,0,1
+103949,-100,4,1,1,27,0,0
+104872,-100,4,1,1,27,0,1
+119641,-100,4,1,1,27,0,0
+178718,-100,4,1,1,27,0,1
+192564,-100,4,1,1,27,0,0
+193488,-100,4,1,1,27,0,1
+208257,-100,4,1,1,27,0,0
+
+
+[HitObjects]
+320,192,564,5,0,0:0:0:0:

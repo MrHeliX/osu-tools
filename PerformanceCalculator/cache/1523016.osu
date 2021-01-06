@@ -1,0 +1,84 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 6453
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.6
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+Bookmarks: 3210
+DistanceSpacing: 0.9
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:Goodmorningme
+TitleUnicode:Goodmorningme
+Artist:tomppabeats
+ArtistUnicode:tomppabeats
+Creator:2zz
+Version:gordon's beginner
+Source:
+Tags:harbor lp gordon123
+BeatmapID:1523016
+BeatmapSetID:-1
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:2.5
+OverallDifficulty:1.8
+ApproachRate:2
+SliderMultiplier:1.2
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"dODEJm_N93s.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+-33,810.810810810811,4,2,1,25,1,0
+
+
+[Colours]
+Combo1 : 204,197,189
+Combo2 : 162,181,200
+Combo3 : 223,197,181
+Combo4 : 214,194,156
+Combo5 : 182,205,146
+
+[HitObjects]
+92,304,3210,6,0,P|149:316|205:296,1,120,0|0,0:0|1:0,0:0:0:0:
+261,206,4831,2,8,P|319:193|375:213,1,120,8|0,0:0|1:0,0:0:0:0:
+312,300,6453,6,0,P|420:308|480:192,1,240,0|0,0:0|0:0,0:0:0:0:
+424,116,8885,1,0,1:0:0:0:
+320,88,9696,6,0,L|180:92,1,120,0|0,0:0|1:0,0:0:0:0:
+156,188,11318,2,8,L|296:184,1,120,8|0,0:0|1:0,0:0:0:0:
+380,216,12939,5,2,0:0:0:0:
+308,300,13750,2,0,B|188:320|188:264|68:300,1,240,0|0,1:0|1:0,0:0:0:0:
+8,212,16183,6,0,P|8:144|48:88,1,120,0|0,0:0|1:0,0:0:0:0:
+112,172,17804,2,8,L|240:180,1,120,8|0,0:0|1:0,0:0:0:0:
+332,224,19426,6,0,P|428:180|412:60,1,240,0|8,0:0|0:0,0:0:0:0:
+312,28,21858,1,0,1:0:0:0:
+231,100,22669,6,0,L|99:104,1,120,0|0,0:0|1:0,0:0:0:0:
+163,197,24291,2,8,L|295:193,1,120,8|0,0:0|1:0,0:0:0:0:
+390,189,25912,6,0,P|370:256|312:296,2,120,2|0|8,0:0|1:0|0:0,0:0:0:0:
+311,114,28345,1,0,1:0:0:0:
+216,167,29156,6,0,L|91:172,1,120,0|0,0:0|0:0,0:0:0:0:
+33,83,30777,2,0,L|152:78,1,120,0|0,0:0|1:0,0:0:0:0:
+260,70,32399,6,0,P|371:115|359:244,1,240,2|8,0:0|0:0,0:0:0:0:
+284,281,34831,1,0,1:0:0:0:
+182,242,35642,6,0,L|172:108,1,120,0|0,0:0|1:0,0:0:0:0:
+83,183,37264,2,0,L|93:317,1,120,8|0,0:0|1:0,0:0:0:0:

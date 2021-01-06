@@ -1,0 +1,76 @@
+osu file format v14
+
+[General]
+AudioFilename: tonkatsu.mp3
+AudioLeadIn: 0
+PreviewTime: 3380
+Countdown: 0
+SampleSet: None
+StackLeniency: 0.2
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.2
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1.700005
+
+[Metadata]
+Title:Tonkatsu wo Tsukuru niha na
+TitleUnicode:とんかつを作るにはな
+Artist:Piyo
+ArtistUnicode:ぴよっ
+Creator:alacat
+Version:340's delicious easy
+Source:
+Tags:Yakitori yakiniku Chewin rrtyui Guy iMage-- Homura- Shirakai sionKotori Sinch Karuta Haruru Gamu Poruteri 340 KaCha Oracle Appload MillhioreF Brain Power NOMA Sound Voltex II -infinite infection- sdvxii
+BeatmapID:529131
+BeatmapSetID:225050
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3
+OverallDifficulty:2
+ApproachRate:3
+SliderMultiplier:1.29999990463257
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"DSC_1026-1.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+346,346.820809248555,4,3,0,75,1,0
+346,-133.333333333333,4,3,0,75,0,0
+3380,346.820809248555,4,3,0,75,1,1
+3380,-133.333333333333,4,3,0,75,0,1
+7541,-133.333333333333,4,3,0,75,0,1
+8929,-133.333333333333,4,3,0,75,0,0
+9102,-133.333333333333,4,3,0,75,0,0
+
+
+[Colours]
+Combo1 : 128,255,255
+Combo2 : 255,128,255
+Combo3 : 255,255,128
+Combo4 : 128,255,128
+Combo5 : 255,128,128
+
+[HitObjects]
+32,220,346,6,0,B|100:199|158:242|158:242|216:285|285:264,1,268.124990558624
+356,148,1993,6,0,P|316:224|460:204,1,316.87498884201
+452,104,3380,2,0,P|408:68|264:100,1,194.999993133545
+208,152,4420,2,0,P|152:140|124:112,1,97.4999965667725
+88,28,5114,1,0,0:0:0:0:
+26,101,5460,2,0,P|34:149|62:189,1,97.4999965667725
+128,280,6154,2,0,B|148:276|172:256|172:256|236:264|288:280|288:344|188:360|172:312|224:232|224:232|268:216|292:160,1,389.99998626709
+368,116,7888,2,0,P|412:120|456:152,1,97.4999965667725
+464,252,8582,2,0,P|420:248|376:216,1,97.4999965667725

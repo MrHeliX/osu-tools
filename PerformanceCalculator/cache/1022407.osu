@@ -1,0 +1,89 @@
+osu file format v14
+
+[General]
+AudioFilename: nanahiraaa.mp3
+AudioLeadIn: 0
+PreviewTime: 18235
+Countdown: 0
+SampleSet: None
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.9
+BeatDivisor: 6
+GridSize: 8
+TimelineZoom: 4.499998
+
+[Metadata]
+Title:Shakunetsu? Candle Master? Tomosh
+TitleUnicode:灼熱?キャンドルマスター?ともしぃ
+Artist:Nanahira
+ArtistUnicode:ななひら
+Creator:My Angel RangE
+Version:Normal
+Source:
+Tags:
+BeatmapID:1022407
+BeatmapSetID:478363
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:3.5
+OverallDifficulty:4
+ApproachRate:5
+SliderMultiplier:0.9
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+15675,240,4,2,2,40,1,0
+18315,-100,4,2,2,40,0,1
+31755,-100,4,2,2,40,0,0
+64395,-100,4,2,2,40,0,1
+85515,-100,4,2,2,40,0,0
+
+
+[Colours]
+Combo1 : 255,128,64
+Combo2 : 0,255,255
+Combo3 : 0,255,0
+Combo4 : 0,128,255
+
+[HitObjects]
+242,211,15675,6,0,L|145:201,1,90
+256,192,16315,12,0,17355,0:0:0:0:
+252,316,18315,6,0,P|323:345|426:312,1,180
+411,236,19035,1,0,0:0:0:0:
+339,198,19275,2,0,P|268:169|165:202,1,180
+102,237,19995,1,0,0:0:0:0:
+41,183,20235,6,0,B|32:89|32:89|109:50,1,180
+188,63,20955,1,0,0:0:0:0:
+251,111,21195,2,0,P|286:123|389:118,2,135
+180,150,22155,6,0,P|111:203|121:295,1,180
+191,320,22875,1,0,0:0:0:0:
+271,319,23115,2,0,B|332:299|400:325|400:325|452:298,1,180
+475,228,23835,1,0,0:0:0:0:
+451,150,24075,6,0,P|460:103|445:53,1,90
+370,46,24555,2,0,P|323:42|272:45,1,90
+228,106,25035,2,0,L|223:205,2,90
+374,176,25995,6,0,P|413:249|372:340,1,180
+298,341,26715,1,0,0:0:0:0:
+219,359,26955,2,0,P|135:358|71:290,1,180
+18,230,27675,1,0,0:0:0:0:
+66,165,27915,6,0,P|69:94|166:68,1,180
+242,64,28635,1,0,0:0:0:0:
+262,142,28875,2,0,P|279:198|256:272,2,135
+184,117,29835,2,0,L|94:122,1,90
+56,321,30675,2,0,L|206:304,2,150

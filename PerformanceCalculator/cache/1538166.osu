@@ -1,0 +1,99 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 1477
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+Bookmarks: 1477,12639,23802
+DistanceSpacing: 0.9
+BeatDivisor: 4
+GridSize: 32
+TimelineZoom: 2
+
+[Metadata]
+Title:kibo refrain
+TitleUnicode:希望リフレイン
+Artist:Aoshima Moka (CV: Mimori Suzuko)
+ArtistUnicode:青島萌香 (CV: 三森すずこ)
+Creator:yuki_momoiro722
+Version:Kantan
+Source:OneRoom
+Tags:taiko tv size one room ワンルーム
+BeatmapID:1538166
+BeatmapSetID:726178
+
+[Difficulty]
+HPDrainRate:9
+CircleSize:5
+OverallDifficulty:3
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+1477,348.837209302326,4,1,0,100,1,0
+
+
+[HitObjects]
+256,192,1477,5,0,0:0:0:0:
+256,192,2174,1,0,0:0:0:0:
+256,192,2697,1,8,0:0:0:0:
+256,192,3570,1,0,0:0:0:0:
+256,192,4267,1,8,0:0:0:0:
+256,192,4965,1,0,0:0:0:0:
+256,192,5488,1,8,0:0:0:0:
+256,192,7058,1,0,0:0:0:0:
+256,192,7756,1,8,0:0:0:0:
+256,192,8453,1,0,0:0:0:0:
+256,192,9151,1,8,0:0:0:0:
+256,192,9500,1,8,0:0:0:0:
+256,192,9849,1,0,0:0:0:0:
+256,192,11244,1,0,0:0:0:0:
+256,192,11942,1,8,0:0:0:0:
+256,192,12290,1,8,0:0:0:0:
+256,192,12639,1,0,0:0:0:0:
+256,192,13337,1,0,0:0:0:0:
+256,192,13860,1,12,0:0:0:0:
+256,192,14732,1,0,0:0:0:0:
+256,192,15430,1,8,0:0:0:0:
+256,192,16128,1,8,0:0:0:0:
+256,192,16651,1,12,0:0:0:0:
+256,192,17523,1,8,0:0:0:0:
+256,192,17872,1,0,0:0:0:0:
+256,192,18221,1,0,0:0:0:0:
+256,192,18918,1,8,0:0:0:0:
+256,192,19616,1,0,0:0:0:0:
+256,192,20314,1,8,0:0:0:0:
+256,192,21011,1,0,0:0:0:0:
+256,192,22407,1,8,0:0:0:0:
+256,192,23104,1,0,0:0:0:0:
+256,192,23802,1,4,0:0:0:0:
+256,192,24500,1,8,0:0:0:0:
+256,192,25197,1,4,0:0:0:0:
+256,192,25895,1,0,0:0:0:0:
+256,192,26593,1,4,0:0:0:0:
+256,192,27988,1,4,0:0:0:0:
+256,192,28686,1,8,0:0:0:0:
+256,192,29035,1,0,0:0:0:0:
+256,192,29383,1,0,0:0:0:0:
+256,192,30081,1,8,0:0:0:0:
+256,192,30779,1,4,0:0:0:0:
+256,192,30953,12,0,36360,0:0:0:0:

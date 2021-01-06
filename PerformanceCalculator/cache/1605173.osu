@@ -1,0 +1,94 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 284
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+Bookmarks: 1341,4721,8101,11481,14862,18242,21622,25003,28383,30496
+DistanceSpacing: 0.9
+BeatDivisor: 2
+GridSize: 16
+TimelineZoom: 1
+
+[Metadata]
+Title:Harumachi Clover (TV Size)
+TitleUnicode:春待ちクローバー (TV Size)
+Artist:Hanasaka Yui (CV: M.A.O)
+ArtistUnicode:花坂結衣(CV：Ｍ・Ａ・Ｏ)
+Creator:-GN Junior
+Version:Kantan
+Source:OneRoom
+Tags:TV Size One Room カントク Kantoku Poii
+BeatmapID:1605173
+BeatmapSetID:763403
+
+[Difficulty]
+HPDrainRate:9
+CircleSize:7
+OverallDifficulty:3
+ApproachRate:10
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"AmeAgare-One-Room-02-9DE6AC5E.mkv_snapshot_02.28_2017.01.19_02.05.16.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+-349,422.535211267606,4,1,0,100,1,0
+28805,-100,4,1,0,80,0,0
+29228,-100,4,1,0,60,0,0
+29651,-100,4,1,0,40,0,0
+30073,-100,4,1,0,20,0,0
+30496,-100,4,1,0,10,0,0
+
+
+[HitObjects]
+256,192,496,5,0,0:0:0:0:
+8,96,1341,5,6,0:0:0:0:
+72,96,2186,1,0,0:0:0:0:
+136,96,3031,1,2,0:0:0:0:
+264,96,4721,1,2,0:0:0:0:
+328,96,5566,1,0,0:0:0:0:
+392,96,6411,1,2,0:0:0:0:
+456,96,7256,1,0,0:0:0:0:
+496,96,7679,1,0,0:0:0:0:
+8,160,8101,5,2,0:0:0:0:
+72,160,8946,1,0,0:0:0:0:
+136,160,9791,1,2,0:0:0:0:
+264,160,11481,1,2,0:0:0:0:
+392,160,13172,1,2,0:0:0:0:
+424,160,13594,1,0,0:0:0:0:
+456,160,14017,1,0,0:0:0:0:
+8,224,14862,5,6,0:0:0:0:
+72,224,15707,1,0,0:0:0:0:
+136,224,16552,1,2,0:0:0:0:
+264,224,18242,1,2,0:0:0:0:
+328,224,19087,1,0,0:0:0:0:
+392,224,19932,1,2,0:0:0:0:
+456,224,20777,1,0,0:0:0:0:
+424,224,21200,1,0,0:0:0:0:
+8,288,21622,5,8,0:0:0:0:
+72,288,22467,1,0,0:0:0:0:
+120,288,23101,1,6,0:0:0:0:
+200,288,24158,1,10,0:0:0:0:
+248,288,24791,1,4,0:0:0:0:
+376,288,26481,1,12,0:0:0:0:
+424,288,27115,1,0,0:0:0:0:
+488,288,27960,1,8,0:0:0:0:
+8,352,28383,5,12,0:0:0:0:
+256,192,28594,12,0,30496,0:0:0:0:

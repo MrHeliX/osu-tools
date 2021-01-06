@@ -1,0 +1,73 @@
+osu file format v14
+
+[General]
+AudioFilename: teardrops.mp3
+AudioLeadIn: 0
+PreviewTime: 2576
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 0.6
+BeatDivisor: 8
+GridSize: 32
+TimelineZoom: 0.1
+
+[Metadata]
+Title:Mugen TEARDROPS Namida no Umi de
+TitleUnicode:無限 ＴＥＡＲＤＲＯＰＳ 涙の海で
+Artist:t e l e p a t h Terepashii Nouryoku Sha
+ArtistUnicode:t e l e p a t h テレパシー能力者
+Creator:Auxent
+Version:Wafu's Beginner
+Source:
+Tags:telepath ゲートウェイ vaporwave ambient sad wafu
+BeatmapID:815293
+BeatmapSetID:371924
+
+[Difficulty]
+HPDrainRate:1.2
+CircleSize:2.2
+OverallDifficulty:1.2
+ApproachRate:1.8
+SliderMultiplier:1.2
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"background.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+2576,1165.04854368932,4,2,1,30,1,0
+52673,-100,4,2,1,5,0,0
+
+
+[Colours]
+Combo1 : 180,159,200
+Combo2 : 112,98,187
+Combo3 : 150,150,150
+
+[HitObjects]
+425,56,2576,6,0,P|445:111|431:169,2,120,2|8|2,0:0|0:0|0:0,0:0:0:0:
+299,126,7236,2,0,B|265:182|299:239|299:239|333:296|299:353,1,240,8|2,0:0|0:0,0:0:0:0:
+94,282,13061,6,0,L|89:162,2,120,8|8|4,0:0|0:0|0:0,0:0:0:0:
+148,329,16556,2,0,P|261:311|299:203,1,240,8|8,0:0|0:0,0:0:0:0:
+215,87,21216,6,0,B|167:101|167:101|97:93,2,120,8|2|8,0:0|0:0|0:0,0:0:0:0:
+344,23,25876,2,0,B|382:75|353:135|353:135|324:195|363:249,1,240,8|8,0:0|0:0,0:0:0:0:
+474,341,30537,6,0,B|372:347|372:347|309:382|240:348,1,240,8|4,0:0|0:0,0:0:0:0:
+136,247,35197,1,2,0:0:0:0:
+270,196,37527,6,0,L|275:76,1,120,2|8,0:0|0:0,0:0:0:0:
+336,38,39857,2,0,P|448:50|478:159,1,240,2|2,0:0|0:0,0:0:0:0:
+397,278,44516,6,0,L|277:288,1,120,2|8,0:0|0:0,0:0:0:0:
+134,274,48011,2,0,B|106:216|136:158|136:158|106:100|136:43,1,240,8|4,0:0|0:0,0:0:0:0:
+256,192,52673,12,2,54857,0:0:0:0:

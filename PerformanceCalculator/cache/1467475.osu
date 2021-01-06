@@ -1,0 +1,85 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 16
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.4
+Mode: 2
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+Bookmarks: 11019,16521
+DistanceSpacing: 1.5
+BeatDivisor: 16
+GridSize: 8
+TimelineZoom: 1
+
+[Metadata]
+Title:pi
+TitleUnicode:π
+Artist:Jinjin
+ArtistUnicode:Jinjin
+Creator:Hareimu
+Version:Cup
+Source:
+Tags:circumference math circles Krfawy
+BeatmapID:1467475
+BeatmapSetID:693550
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3
+OverallDifficulty:4
+ApproachRate:4
+SliderMultiplier:1.2
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"pi background.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+16,916.982516200024,3,2,1,20,1,0
+29588,-100,3,2,1,15,0,0
+30505,-100,3,2,1,10,0,0
+31422,-100,3,2,2,5,0,0
+
+
+[Colours]
+Combo1 : 177,177,177
+Combo2 : 46,134,241
+Combo3 : 159,203,255
+
+[HitObjects]
+76,192,16,6,0,L|197:192,2,120,8|2|8,0:0|0:0|0:0,0:0:0:0:
+316,192,2766,2,0,L|440:192,2,120,4|8|2,0:0|0:0|0:0,0:0:0:0:
+75,201,5517,6,0,P|65:127|96:68,1,120,4|8,0:0|0:0,0:0:0:0:
+321,87,7351,1,6,0:0:0:0:
+141,145,8268,2,0,L|261:144,1,120,4|8,0:0|0:0,0:0:0:0:
+465,162,10102,1,4,0:0:0:0:
+225,159,11019,6,0,L|95:160,1,120,10|4,0:0|0:0,0:0:0:0:
+285,160,12853,1,8,0:0:0:0:
+224,159,13312,1,2,0:0:0:0:
+344,216,13770,1,4,0:0:0:0:
+194,163,14229,1,2,0:0:0:0:
+370,163,14687,1,8,0:0:0:0:
+122,258,15604,1,2,0:0:0:0:
+301,260,16521,6,0,L|401:159,2,120,4|2|8,0:0|0:0|0:0,0:0:0:0:
+61,238,19272,2,0,L|201:238,1,120,2|8,0:0|0:0,0:0:0:0:
+421,241,21106,2,0,L|480:240,1,60,8|2,0:0|0:0,0:0:0:0:
+320,181,22023,6,0,L|256:181,1,60,4|0,0:0|0:0,0:0:0:0:
+420,123,22940,2,0,P|448:178|414:217,1,120,2|2,0:0|0:0,0:0:0:0:
+174,216,24774,1,8,0:0:0:0:
+338,216,25691,1,0,0:0:0:0:
+92,123,26837,2,0,P|64:178|129:251,1,165,8|0,0:0|0:0,0:0:0:0:
+256,192,28671,12,0,31422,0:0:0:0:

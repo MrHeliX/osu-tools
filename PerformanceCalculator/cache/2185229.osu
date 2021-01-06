@@ -1,0 +1,93 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 0
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.2
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.8
+BeatDivisor: 1
+GridSize: 32
+TimelineZoom: 0.1
+
+[Metadata]
+Title:Yume Nikki
+TitleUnicode:ゆめにっき
+Artist:Kikiyama
+ArtistUnicode:ききやま
+Creator:Axer
+Version:Kantan
+Source:ゆめにっき
+Tags:Dream Diary Playism サウンドトラック ゆめのおと 1 soundtrack ost bgm
+BeatmapID:2185229
+BeatmapSetID:1023737
+
+[Difficulty]
+HPDrainRate:10
+CircleSize:2
+OverallDifficulty:1
+ApproachRate:10
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"MallRooftop.png",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+378,1000,4,1,0,20,1,0
+378,-100,4,1,0,20,0,0
+48378,-100,4,1,0,20,0,0
+50378,-100,4,1,0,12,0,0
+52378,-100,4,1,0,5,0,0
+
+
+[HitObjects]
+256,192,378,5,8,0:0:0:0:
+256,192,2378,1,0,0:0:0:0:
+256,192,4378,1,8,0:0:0:0:
+256,192,6378,1,0,0:0:0:0:
+256,192,7378,1,0,0:0:0:0:
+256,192,8378,1,8,0:0:0:0:
+256,192,10378,1,0,0:0:0:0:
+256,192,12378,1,8,0:0:0:0:
+256,192,14378,1,8,0:0:0:0:
+256,192,15378,1,0,0:0:0:0:
+256,192,16378,1,8,0:0:0:0:
+256,192,18378,1,0,0:0:0:0:
+256,192,20378,1,8,0:0:0:0:
+256,192,22378,1,0,0:0:0:0:
+256,192,23378,1,0,0:0:0:0:
+256,192,24378,1,8,0:0:0:0:
+256,192,26378,1,0,0:0:0:0:
+256,192,28378,1,8,0:0:0:0:
+256,192,30378,1,8,0:0:0:0:
+256,192,31378,1,0,0:0:0:0:
+256,192,32378,1,8,0:0:0:0:
+256,192,34378,1,0,0:0:0:0:
+256,192,36378,1,8,0:0:0:0:
+256,192,38378,1,0,0:0:0:0:
+256,192,39378,1,0,0:0:0:0:
+256,192,40378,1,8,0:0:0:0:
+256,192,42378,1,0,0:0:0:0:
+256,192,44378,1,8,0:0:0:0:
+256,192,46378,1,8,0:0:0:0:
+256,192,47378,1,0,0:0:0:0:
+256,192,48378,1,8,0:0:0:0:
+256,192,50378,1,0,0:0:0:0:
+256,192,52378,1,8,0:0:0:0:
+256,192,52878,12,0,54378,0:0:0:0:

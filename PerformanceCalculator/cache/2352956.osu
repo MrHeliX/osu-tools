@@ -1,0 +1,98 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 67
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+Bookmarks: 45
+DistanceSpacing: 1.1
+BeatDivisor: 16
+GridSize: 32
+TimelineZoom: 1
+
+[Metadata]
+Title:Uwa!! So Holiday
+TitleUnicode:Uwa!! So Holiday♫
+Artist:toby fox
+ArtistUnicode:toby fox
+Creator:_DUSK_
+Version:Kantan!!
+Source:UNDERTALE
+Tags:video game instrumental ost original soundtrack
+BeatmapID:2352956
+BeatmapSetID:1124121
+
+[Difficulty]
+HPDrainRate:9
+CircleSize:5
+OverallDifficulty:2
+ApproachRate:9
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"frisk.jpg",0,60
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+121,857.142857142857,4,1,0,18,1,0
+26830,-100,4,1,0,15,0,0
+27366,-100,4,1,0,12,0,0
+27794,-100,4,1,0,10,0,0
+28223,-100,4,1,0,5,0,0
+
+
+[HitObjects]
+256,192,121,5,8,0:0:0:0:
+256,192,978,1,0,0:0:0:0:
+256,192,1406,1,8,0:0:0:0:
+256,192,1835,1,0,0:0:0:0:
+256,192,2692,1,0,0:0:0:0:
+256,192,3549,1,8,0:0:0:0:
+256,192,3978,1,0,0:0:0:0:
+256,192,4406,1,8,0:0:0:0:
+256,192,5263,1,0,0:0:0:0:
+256,192,6978,1,8,0:0:0:0:
+256,192,7835,1,0,0:0:0:0:
+256,192,8263,1,0,0:0:0:0:
+256,192,8692,1,0,0:0:0:0:
+256,192,9549,1,0,0:0:0:0:
+256,192,10406,1,8,0:0:0:0:
+256,192,10835,1,0,0:0:0:0:
+256,192,11263,1,0,0:0:0:0:
+256,192,12120,1,0,0:0:0:0:
+256,192,13835,1,8,0:0:0:0:
+256,192,14692,1,0,0:0:0:0:
+256,192,15120,1,8,0:0:0:0:
+256,192,15549,1,0,0:0:0:0:
+256,192,16406,1,0,0:0:0:0:
+256,192,17263,1,8,0:0:0:0:
+256,192,17692,1,0,0:0:0:0:
+256,192,18120,1,8,0:0:0:0:
+256,192,18978,1,0,0:0:0:0:
+256,192,20692,1,8,0:0:0:0:
+256,192,21549,1,0,0:0:0:0:
+256,192,21978,1,0,0:0:0:0:
+256,192,22406,1,0,0:0:0:0:
+256,192,23263,1,0,0:0:0:0:
+256,192,24120,1,8,0:0:0:0:
+256,192,24549,1,0,0:0:0:0:
+256,192,24978,1,0,0:0:0:0:
+256,192,25835,1,0,0:0:0:0:
+256,192,26692,1,8,0:0:0:0:
+256,192,27120,12,0,30121,0:0:0:0:

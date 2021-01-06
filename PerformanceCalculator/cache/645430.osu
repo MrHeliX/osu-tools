@@ -1,0 +1,448 @@
+osu file format v14
+
+[General]
+AudioFilename: Cirno Break by Sawawa.mp3
+AudioLeadIn: 0
+PreviewTime: 66026
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+EpilepsyWarning: 1
+SpecialStyle: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 2
+GridSize: 8
+TimelineZoom: 1.3
+
+[Metadata]
+Title:Cirno Break
+TitleUnicode:Cirno Break
+Artist:sawawa
+ArtistUnicode:さわわ
+Creator:Verniy_Chan
+Version:BASIC
+Source:SOUND VOLTEX II -infinite infection-
+Tags:sdvx zun touhou project eosd remix contest frim4503 MEGAtive
+BeatmapID:645430
+BeatmapSetID:285795
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:4
+OverallDifficulty:7
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"BG.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+-96,306.122448979592,4,2,1,40,1,0
+7863,306.122448979592,4,2,1,40,1,1
+27454,-100,4,2,1,40,0,0
+66638,-100,4,2,1,40,0,1
+76434,-100,4,2,1,40,0,0
+96026,-100,4,2,1,40,0,1
+115618,-100,4,2,1,40,0,0
+
+
+[HitObjects]
+64,192,516,128,0,1128:0:0:0:70:Soft Hit Normal.wav
+448,192,1128,128,0,1740:0:0:0:70:Soft Hit Normal.wav
+192,192,1740,128,0,2352:0:0:0:70:Soft Hit Normal.wav
+320,192,2352,128,0,3577:0:0:0:70:Soft Hit Normal.wav
+448,192,3577,128,0,4189:0:0:0:70:Soft Hit Normal.wav
+320,192,4189,128,0,4801:0:0:0:70:Soft Hit Normal.wav
+192,192,4801,128,0,6026:0:0:0:70:Soft Hit Normal.wav
+64,192,7863,1,0,0:0:0:40:Kick MSBT.wav
+448,192,7863,1,0,0:0:0:0:
+320,192,8169,1,0,0:0:0:50:Snare Hat.wav
+448,192,8475,1,0,0:0:0:40:Kick MSBT.wav
+192,192,8781,1,0,0:0:0:50:Snare Hat.wav
+448,192,9087,1,0,0:0:0:40:Kick MSBT.wav
+64,192,9393,1,0,0:0:0:50:Snare Hat.wav
+320,192,9699,1,0,0:0:0:40:Kick MSBT.wav
+192,192,10005,1,0,0:0:0:50:Snare Hat.wav
+448,192,10311,1,0,0:0:0:40:Kick MSBT.wav
+64,192,10618,1,0,0:0:0:50:Snare Hat.wav
+320,192,10924,1,0,0:0:0:40:Kick MSBT.wav
+448,192,11230,1,0,0:0:0:50:Snare Hat.wav
+64,192,11536,1,0,0:0:0:40:Kick MSBT.wav
+448,192,11842,1,0,0:0:0:50:Snare Hat.wav
+320,192,12148,1,0,0:0:0:40:Kick MSBT.wav
+192,192,12454,1,0,0:0:0:50:Snare Hat.wav
+64,192,12760,1,0,0:0:0:40:Kick MSBT.wav
+320,192,13067,1,0,0:0:0:50:Snare Hat.wav
+448,192,13373,1,0,0:0:0:40:Kick MSBT.wav
+192,192,13679,1,0,0:0:0:50:Snare Hat.wav
+448,192,13985,1,0,0:0:0:40:Kick MSBT.wav
+64,192,14291,1,0,0:0:0:50:Snare Hat.wav
+320,192,14597,1,0,0:0:0:40:Kick MSBT.wav
+192,192,14903,1,0,0:0:0:50:Snare Hat.wav
+448,192,15209,1,0,0:0:0:40:Kick MSBT.wav
+64,192,15516,1,0,0:0:0:50:Snare Hat.wav
+320,192,15822,1,0,0:0:0:40:Kick MSBT.wav
+192,192,16128,1,0,0:0:0:50:Snare Hat.wav
+64,192,16434,1,0,0:0:0:40:Kick MSBT.wav
+448,192,16740,1,0,0:0:0:50:Snare Hat.wav
+192,192,17046,1,0,0:0:0:40:Kick MSBT.wav
+320,192,17352,1,0,0:0:0:50:Snare Hat.wav
+192,192,17505,1,0,0:0:0:50:Snare Hat.wav
+448,192,17658,1,0,0:0:0:0:
+64,192,17658,1,0,0:0:0:40:Kick MSBT.wav
+320,192,17965,1,0,0:0:0:50:Snare Hat.wav
+448,192,18271,1,0,0:0:0:40:Kick MSBT.wav
+192,192,18577,1,0,0:0:0:50:Snare Hat.wav
+448,192,18883,1,0,0:0:0:40:Kick MSBT.wav
+64,192,19189,1,0,0:0:0:50:Snare Hat.wav
+320,192,19495,1,0,0:0:0:40:Kick MSBT.wav
+192,192,19801,1,0,0:0:0:50:Snare Hat.wav
+448,192,20107,1,0,0:0:0:40:Kick MSBT.wav
+64,192,20414,1,0,0:0:0:50:Snare Hat.wav
+320,192,20720,1,0,0:0:0:40:Kick MSBT.wav
+448,192,21026,1,0,0:0:0:50:Snare Hat.wav
+64,192,21332,1,0,0:0:0:40:Kick MSBT.wav
+320,192,21638,1,0,0:0:0:50:Snare Hat.wav
+448,192,21944,1,0,0:0:0:40:Kick MSBT.wav
+192,192,22250,1,0,0:0:0:50:Snare Hat.wav
+448,192,22556,1,0,0:0:0:40:Kick MSBT.wav
+64,192,22556,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,22863,1,0,0:0:0:50:Snare Hat.wav
+448,192,23169,1,0,0:0:0:40:Kick MSBT.wav
+192,192,23475,1,0,0:0:0:50:Snare Hat.wav
+448,192,23781,1,0,0:0:0:90:Cymbal SSF.wav
+64,192,23781,1,0,0:0:0:40:Kick MSBT.wav
+320,192,24087,1,0,0:0:0:50:Snare Hat.wav
+192,192,24393,1,0,0:0:0:40:Kick MSBT.wav
+448,192,24699,1,0,0:0:0:50:Snare Hat.wav
+64,192,25005,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,25005,1,0,0:0:0:40:Kick MSBT.wav
+64,192,25465,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,25465,1,0,0:0:0:40:Kick MSBT.wav
+192,192,25924,1,0,0:0:0:90:Cymbal SSF.wav
+448,192,26077,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,26383,1,0,0:0:0:90:Cymbal SSF.wav
+192,192,26536,1,0,0:0:0:90:Cymbal SSF.wav
+64,192,26689,1,0,0:0:0:90:Cymbal SSF.wav
+192,192,26995,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,27148,1,0,0:0:0:90:Cymbal SSF.wav
+64,192,27454,1,0,0:0:0:70:Snare Hat.wav
+448,192,27454,128,0,28679:0:0:0:70:Soft Hit Normal.wav
+320,192,28679,128,0,29291:0:0:0:70:Soft Hit Normal.wav
+64,192,29291,128,0,29903:0:0:0:70:Soft Hit Normal.wav
+448,192,29903,128,0,30516:0:0:0:70:Soft Hit Normal.wav
+320,192,30516,128,0,31128:0:0:0:70:Soft Hit Normal.wav
+192,192,31128,128,0,31893:0:0:0:70:Soft Hit Normal.wav
+448,192,31893,1,0,0:0:0:90:Cymbal SSF.wav
+64,192,32199,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,32352,1,0,0:0:0:90:Cymbal SSF.wav
+448,192,32658,1,0,0:0:0:50:Snare Hat.wav
+192,192,32965,1,0,0:0:0:50:Snare Hat.wav
+320,192,33271,1,0,0:0:0:50:Snare Hat.wav
+64,192,33577,1,0,0:0:0:50:Snare Hat.wav
+448,192,33883,1,0,0:0:0:50:Snare Hat.wav
+192,192,34189,1,0,0:0:0:50:Snare Hat.wav
+64,192,34495,1,0,0:0:0:50:Snare Hat.wav
+448,192,34648,1,0,0:0:0:50:Snare Hat.wav
+320,192,34801,1,0,0:0:0:50:Snare Hat.wav
+64,192,35107,1,0,0:0:0:50:Snare Hat.wav
+448,192,35414,1,0,0:0:0:50:Snare Hat.wav
+192,192,35720,1,0,0:0:0:50:Snare Hat.wav
+320,192,36026,128,0,36638:0:0:0:70:Snare Hat.wav
+64,192,36638,1,0,0:0:0:70:Snare Hat.wav
+64,192,36944,1,0,0:0:0:40:Kick MSBT.wav
+320,192,37097,1,0,0:0:0:40:Kick MSBT.wav
+192,192,37250,1,0,0:0:0:90:Cymbal SSF.wav
+448,192,37250,1,0,0:0:0:20:Kick MSBT.wav
+64,192,37556,1,0,0:0:0:50:Snare Hat.wav
+320,192,37863,1,0,0:0:0:40:Kick MSBT.wav
+64,192,38169,1,0,0:0:0:50:Snare Hat.wav
+448,192,38475,1,0,0:0:0:40:Kick MSBT.wav
+192,192,38781,1,0,0:0:0:50:Snare Hat.wav
+320,192,39087,1,0,0:0:0:40:Kick MSBT.wav
+64,192,39393,1,0,0:0:0:50:Snare Hat.wav
+320,192,39699,1,0,0:0:0:40:Kick MSBT.wav
+192,192,40005,1,0,0:0:0:50:Snare Hat.wav
+448,192,40311,1,0,0:0:0:40:Kick MSBT.wav
+192,192,40618,1,0,0:0:0:50:Snare Hat.wav
+320,192,40924,1,0,0:0:0:40:Kick MSBT.wav
+64,192,41230,1,0,0:0:0:50:Snare Hat.wav
+320,192,41536,1,0,0:0:0:40:Kick MSBT.wav
+192,192,41842,1,0,0:0:0:50:Snare Hat.wav
+320,192,42148,1,0,0:0:0:40:Kick MSBT.wav
+64,192,42148,1,0,0:0:0:90:Cymbal SSF.wav
+448,192,42454,1,0,0:0:0:50:Snare Hat.wav
+320,192,42760,1,0,0:0:0:40:Kick MSBT.wav
+64,192,43067,1,0,0:0:0:50:Snare Hat.wav
+192,192,43373,1,0,0:0:0:40:Kick MSBT.wav
+448,192,43373,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,43679,1,0,0:0:0:50:Snare Hat.wav
+64,192,43985,1,0,0:0:0:40:Kick MSBT.wav
+320,192,44291,1,0,0:0:0:50:Snare Hat.wav
+192,192,44597,1,0,0:0:0:90:Cymbal SSF.wav
+448,192,44597,1,0,0:0:0:40:Kick MSBT.wav
+64,192,44903,1,0,0:0:0:30:Hi Hat Normal.wav
+448,192,45209,1,0,0:0:0:40:Kick MSBT.wav
+192,192,45209,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,45516,1,0,0:0:0:30:Hi Hat Normal.wav
+64,192,45822,128,0,47046:0:0:0:40:Kick MSBT.wav
+192,192,45822,1,0,0:0:0:90:Cymbal SSF.wav
+448,192,46434,128,0,47046:0:0:0:40:Soft Hit Normal.wav
+192,192,47046,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,47046,1,0,0:0:0:40:Kick MSBT.wav
+448,192,47505,1,0,0:0:0:40:Soft Hit Normal.wav
+192,192,47658,1,0,0:0:0:40:Soft Hit Normal.wav
+320,192,47811,1,0,0:0:0:40:Soft Hit Normal.wav
+448,192,47965,128,0,48271:0:0:0:40:Soft Hit Normal.wav
+64,192,48271,1,0,0:0:0:40:Soft Hit Normal.wav
+64,192,49036,1,0,0:0:0:40:Soft Hit Normal.wav
+320,192,49189,1,0,0:0:0:40:Soft Hit Normal.wav
+192,192,49342,1,0,0:0:0:40:Soft Hit Normal.wav
+448,192,49495,1,0,0:0:0:40:Soft Hit Normal.wav
+320,192,49954,1,0,0:0:0:40:Soft Hit Normal.wav
+64,192,50107,1,0,0:0:0:40:Soft Hit Normal.wav
+448,192,50260,1,0,0:0:0:40:Soft Hit Normal.wav
+192,192,50414,128,0,50720:0:0:0:40:Soft Hit Normal.wav
+320,192,50720,1,0,0:0:0:40:Soft Hit Normal.wav
+448,192,51638,1,0,0:0:0:40:Soft Hit Normal.wav
+320,192,51944,1,0,0:0:0:40:Soft Hit Normal.wav
+64,192,52403,128,0,52863:0:0:0:40:Soft Hit Normal.wav
+320,192,52863,1,0,0:0:0:40:Soft Hit Normal.wav
+448,192,53169,128,0,53628:0:0:0:40:Soft Hit Normal.wav
+192,192,53628,128,0,54087:0:0:0:40:Soft Hit Normal.wav
+320,192,54087,1,0,0:0:0:40:Soft Hit Normal.wav
+448,192,54393,128,0,54852:0:0:0:40:Soft Hit Normal.wav
+320,192,54852,128,0,55311:0:0:0:40:Soft Hit Normal.wav
+64,192,55311,1,0,0:0:0:40:Soft Hit Normal.wav
+192,192,55618,1,0,0:0:0:40:Soft Hit Normal.wav
+448,192,56077,1,0,0:0:0:40:Soft Hit Normal.wav
+64,192,56230,1,0,0:0:0:40:Soft Hit Normal.wav
+64,192,56842,1,0,0:0:0:90:Cymbal SSF.wav
+448,192,56842,1,0,0:0:0:50:Snare Hat.wav
+320,192,57148,1,0,0:0:0:50:Snare Hat.wav
+64,192,57454,1,0,0:0:0:50:Snare Hat.wav
+448,192,57760,1,0,0:0:0:50:Snare Hat.wav
+192,192,58067,1,0,0:0:0:50:Snare Hat.wav
+320,192,58373,1,0,0:0:0:50:Snare Hat.wav
+192,192,58679,1,0,0:0:0:50:Snare Hat.wav
+64,192,58985,1,0,0:0:0:50:Snare Hat.wav
+320,192,59138,1,0,0:0:0:50:Snare Hat.wav
+192,192,59291,1,0,0:0:0:50:Snare Hat.wav
+448,192,59597,1,0,0:0:0:50:Snare Hat.wav
+320,192,59903,1,0,0:0:0:50:Snare Hat.wav
+64,192,60209,1,0,0:0:0:50:Snare Hat.wav
+320,192,60516,1,0,0:0:0:50:Snare Hat.wav
+448,192,60822,1,0,0:0:0:50:Snare Hat.wav
+192,192,61128,1,0,0:0:0:50:Snare Hat.wav
+64,192,61434,128,0,61740:0:0:0:50:Snare Hat.wav
+320,192,61740,1,0,0:0:0:90:Cymbal SSF.wav
+448,192,61740,1,0,0:0:0:50:Snare Hat.wav
+192,192,62046,1,0,0:0:0:50:Snare Hat.wav
+448,192,62352,1,0,0:0:0:50:Snare Hat.wav
+64,192,62658,1,0,0:0:0:50:Snare Hat.wav
+320,192,62965,1,0,0:0:0:50:Snare Hat.wav
+448,192,62965,1,0,0:0:0:90:Cymbal SSF.wav
+192,192,63271,1,0,0:0:0:50:Snare Hat.wav
+448,192,63577,1,0,0:0:0:50:Snare Hat.wav
+320,192,63883,1,0,0:0:0:30:Hi Hat Normal.wav
+448,192,64189,1,0,0:0:0:30:Hi Hat Normal.wav
+64,192,64189,1,0,0:0:0:50:Snare Hat.wav
+192,192,64495,1,0,0:0:0:30:Hi Hat Normal.wav
+320,192,64801,1,0,0:0:0:30:Hi Hat Normal.wav
+192,192,65107,1,0,0:0:0:30:Hi Hat Normal.wav
+448,192,65260,1,0,0:0:0:30:Hi Hat Normal.wav
+64,192,65260,1,0,0:0:0:50:Snare Hat.wav
+320,192,65567,1,0,0:0:0:40:Kick MSBT.wav
+192,192,65567,1,0,0:0:0:0:
+448,192,65873,1,0,0:0:0:40:Kick MSBT.wav
+64,192,65873,1,0,0:0:0:0:
+320,192,66638,1,0,0:0:0:90:Cymbal SSF.wav
+64,192,66638,1,0,0:0:0:40:Kick MSBT.wav
+192,192,66944,1,0,0:0:0:50:Snare Hat.wav
+448,192,67250,1,0,0:0:0:40:Kick MSBT.wav
+64,192,67556,1,0,0:0:0:50:Snare Hat.wav
+192,192,67863,1,0,0:0:0:40:Kick MSBT.wav
+320,192,68169,1,0,0:0:0:50:Snare Hat.wav
+64,192,68475,1,0,0:0:0:40:Kick MSBT.wav
+448,192,68781,1,0,0:0:0:50:Snare Hat.wav
+320,192,69087,1,0,0:0:0:40:Kick MSBT.wav
+192,192,69393,1,0,0:0:0:50:Snare Hat.wav
+448,192,69699,1,0,0:0:0:40:Kick MSBT.wav
+64,192,70005,1,0,0:0:0:50:Snare Hat.wav
+192,192,70311,1,0,0:0:0:40:Kick MSBT.wav
+320,192,70618,1,0,0:0:0:50:Snare Hat.wav
+64,192,70924,1,0,0:0:0:40:Kick MSBT.wav
+448,192,71230,1,0,0:0:0:50:Snare Hat.wav
+64,192,71383,1,0,0:0:0:50:Snare Hat.wav
+320,192,71536,1,0,0:0:0:40:Kick MSBT.wav
+192,192,71842,1,0,0:0:0:50:Snare Hat.wav
+64,192,72148,1,0,0:0:0:40:Kick MSBT.wav
+448,192,72454,1,0,0:0:0:50:Snare Hat.wav
+320,192,72760,1,0,0:0:0:40:Kick MSBT.wav
+192,192,73067,1,0,0:0:0:50:Snare Hat.wav
+448,192,73373,1,0,0:0:0:40:Kick MSBT.wav
+64,192,73679,1,0,0:0:0:50:Snare Hat.wav
+192,192,73985,1,0,0:0:0:40:Kick MSBT.wav
+320,192,74291,1,0,0:0:0:50:Snare Hat.wav
+64,192,74597,1,0,0:0:0:40:Kick MSBT.wav
+448,192,74903,1,0,0:0:0:50:Snare Hat.wav
+320,192,75209,1,0,0:0:0:40:Kick MSBT.wav
+192,192,75516,1,0,0:0:0:50:Snare Hat.wav
+448,192,75822,1,0,0:0:0:40:Kick MSBT.wav
+64,192,76128,128,0,76434:0:0:0:50:Snare Hat.wav
+320,192,76434,1,0,0:0:0:40:Kick MSBT.wav
+448,192,76434,1,0,0:0:0:90:Cymbal SSF.wav
+192,192,76740,1,0,0:0:0:50:Snare Hat.wav
+448,192,77046,1,0,0:0:0:40:Kick MSBT.wav
+64,192,77352,1,0,0:0:0:50:Snare Hat.wav
+192,192,77658,1,0,0:0:0:40:Kick MSBT.wav
+320,192,77965,1,0,0:0:0:50:Snare Hat.wav
+64,192,78271,1,0,0:0:0:40:Kick MSBT.wav
+448,192,78577,1,0,0:0:0:50:Snare Hat.wav
+320,192,78883,1,0,0:0:0:40:Kick MSBT.wav
+192,192,79189,1,0,0:0:0:50:Snare Hat.wav
+448,192,79495,1,0,0:0:0:40:Kick MSBT.wav
+64,192,79801,1,0,0:0:0:50:Snare Hat.wav
+192,192,80107,1,0,0:0:0:40:Kick MSBT.wav
+320,192,80414,1,0,0:0:0:50:Snare Hat.wav
+64,192,80720,1,0,0:0:0:40:Kick MSBT.wav
+448,192,81026,1,0,0:0:0:50:Snare Hat.wav
+64,192,81179,1,0,0:0:0:50:Snare Hat.wav
+320,192,81332,1,0,0:0:0:40:Kick MSBT.wav
+192,192,81791,1,0,0:0:0:40:Kick MSBT.wav
+320,192,82097,1,0,0:0:0:40:Kick MSBT.wav
+64,192,82250,1,0,0:0:0:50:Snare Hat.wav
+192,192,82556,1,0,0:0:0:70:Hi Hat Normal.wav
+448,192,82556,128,0,82863:0:0:0:40:Kick MSBT.wav
+320,192,82863,128,0,83169:0:0:0:40:Kick MSBT.wav
+448,192,83169,128,0,83475:0:0:0:40:Kick MSBT.wav
+192,192,83475,128,0,83781:0:0:0:40:Kick MSBT.wav
+320,192,83781,1,0,0:0:0:40:Kick MSBT.wav
+64,192,83781,128,0,84852:0:0:0:50:Snare Hat.wav
+448,192,84852,1,0,0:0:0:30:Hi Hat Normal.wav
+192,192,85158,1,0,0:0:0:0:
+320,192,85158,1,0,0:0:0:40:Kick MSBT.wav
+448,192,85465,1,0,0:0:0:0:
+192,192,85618,128,0,86230:0:0:0:0:
+64,192,86230,1,0,0:0:0:50:Snare Hat.wav
+448,192,86230,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,86536,1,0,0:0:0:50:Snare Hat.wav
+192,192,86842,1,0,0:0:0:50:Snare Hat.wav
+448,192,87148,1,0,0:0:0:50:Snare Hat.wav
+192,192,87454,1,0,0:0:0:50:Snare Hat.wav
+320,192,87760,1,0,0:0:0:50:Snare Hat.wav
+64,192,88067,1,0,0:0:0:50:Snare Hat.wav
+320,192,88373,1,0,0:0:0:90:Cymbal SSF.wav
+192,192,88373,1,0,0:0:0:50:Snare Hat.wav
+448,192,88679,1,0,0:0:0:90:Cymbal SSF.wav
+64,192,88679,1,0,0:0:0:40:Kick MSBT.wav
+192,192,88985,1,0,0:0:0:50:Snare Hat.wav
+320,192,89291,1,0,0:0:0:50:Snare Hat.wav
+64,192,89597,1,0,0:0:0:50:Snare Hat.wav
+320,192,89903,1,0,0:0:0:50:Snare Hat.wav
+192,192,90209,1,0,0:0:0:50:Snare Hat.wav
+448,192,90516,1,0,0:0:0:50:Snare Hat.wav
+64,192,90669,1,0,0:0:0:50:Snare Hat.wav
+320,192,90822,1,0,0:0:0:90:Cymbal SSF.wav
+192,192,90822,1,0,0:0:0:50:Snare Hat.wav
+64,192,91128,1,0,0:0:0:40:Kick MSBT.wav
+448,192,91128,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,91434,1,0,0:0:0:50:Snare Hat.wav
+192,192,91740,1,0,0:0:0:50:Snare Hat.wav
+320,192,92046,1,0,0:0:0:50:Snare Hat.wav
+448,192,92352,1,0,0:0:0:50:Snare Hat.wav
+64,192,92352,1,0,0:0:0:90:Cymbal SSF.wav
+192,192,92658,1,0,0:0:0:50:Snare Hat.wav
+320,192,92965,1,0,0:0:0:50:Snare Hat.wav
+192,192,93271,128,0,93577:0:0:0:70:Hi Hat Normal.wav
+64,192,93577,128,0,94189:0:0:0:70:Hi Hat Normal.wav
+448,192,93577,1,0,0:0:0:90:Cymbal SSF.wav
+448,192,94189,128,0,94801:0:0:0:70:Hi Hat Normal.wav
+192,192,94189,1,0,0:0:0:90:Cymbal SSF.wav
+64,192,94801,1,0,0:0:0:70:Hi Hat Normal.wav
+448,192,95107,1,0,0:0:0:70:Hi Hat Normal.wav
+192,192,95260,128,0,95720:0:0:0:70:Hi Hat Normal.wav
+448,192,95720,1,0,0:0:0:40:Kick MSBT.wav
+192,192,96026,1,0,0:0:0:40:Kick MSBT.wav
+64,192,96026,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,96332,1,0,0:0:0:50:Snare Hat.wav
+64,192,96638,1,0,0:0:0:40:Kick MSBT.wav
+448,192,96944,1,0,0:0:0:50:Snare Hat.wav
+320,192,97250,1,0,0:0:0:40:Kick MSBT.wav
+192,192,97556,1,0,0:0:0:50:Snare Hat.wav
+448,192,97863,1,0,0:0:0:40:Kick MSBT.wav
+64,192,98169,1,0,0:0:0:50:Snare Hat.wav
+192,192,98475,1,0,0:0:0:40:Kick MSBT.wav
+320,192,98781,1,0,0:0:0:50:Snare Hat.wav
+64,192,99087,1,0,0:0:0:40:Kick MSBT.wav
+448,192,99393,1,0,0:0:0:50:Snare Hat.wav
+320,192,99699,1,0,0:0:0:40:Kick MSBT.wav
+192,192,100005,1,0,0:0:0:50:Snare Hat.wav
+448,192,100311,1,0,0:0:0:40:Kick MSBT.wav
+64,192,100618,1,0,0:0:0:50:Snare Hat.wav
+448,192,100924,1,0,0:0:0:40:Kick MSBT.wav
+192,192,100924,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,101230,1,0,0:0:0:50:Snare Hat.wav
+192,192,101536,1,0,0:0:0:40:Kick MSBT.wav
+320,192,101842,1,0,0:0:0:50:Snare Hat.wav
+64,192,102148,1,0,0:0:0:40:Kick MSBT.wav
+192,192,102454,1,0,0:0:0:50:Snare Hat.wav
+320,192,102760,1,0,0:0:0:40:Kick MSBT.wav
+192,192,103067,1,0,0:0:0:50:Snare Hat.wav
+448,192,103373,1,0,0:0:0:40:Kick MSBT.wav
+320,192,103679,1,0,0:0:0:50:Snare Hat.wav
+192,192,103985,1,0,0:0:0:40:Kick MSBT.wav
+320,192,104291,1,0,0:0:0:50:Snare Hat.wav
+64,192,104597,1,0,0:0:0:40:Kick MSBT.wav
+448,192,104597,1,0,0:0:0:90:Cymbal SSF.wav
+192,192,104903,1,0,0:0:0:50:Snare Hat.wav
+448,192,105209,1,0,0:0:0:90:Cymbal SSF.wav
+64,192,105209,1,0,0:0:0:0:
+192,192,105516,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,105516,1,0,0:0:0:50:Snare Hat.wav
+64,192,105822,1,0,0:0:0:40:Kick MSBT.wav
+448,192,105822,1,0,0:0:0:90:Cymbal SSF.wav
+192,192,106128,1,0,0:0:0:50:Snare Hat.wav
+448,192,106434,1,0,0:0:0:40:Kick MSBT.wav
+64,192,106740,1,0,0:0:0:50:Snare Hat.wav
+320,192,107046,1,0,0:0:0:40:Kick MSBT.wav
+448,192,107352,1,0,0:0:0:50:Snare Hat.wav
+64,192,107658,1,0,0:0:0:40:Kick MSBT.wav
+320,192,107965,1,0,0:0:0:50:Snare Hat.wav
+448,192,108271,1,0,0:0:0:40:Kick MSBT.wav
+64,192,108271,1,0,0:0:0:90:Cymbal SSF.wav
+192,192,108577,1,0,0:0:0:50:Snare Hat.wav
+448,192,108883,1,0,0:0:0:40:Kick MSBT.wav
+64,192,109189,1,0,0:0:0:50:Snare Hat.wav
+192,192,109495,1,0,0:0:0:40:Kick MSBT.wav
+320,192,109801,1,0,0:0:0:50:Snare Hat.wav
+64,192,110107,1,0,0:0:0:40:Kick MSBT.wav
+448,192,110414,1,0,0:0:0:50:Snare Hat.wav
+320,192,110720,1,0,0:0:0:40:Kick MSBT.wav
+192,192,110720,128,0,111944:0:0:0:70:Snare Hat.wav
+448,192,111944,1,0,0:0:0:70:Hi Hat Normal.wav
+64,192,111944,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,112250,1,0,0:0:0:70:Hi Hat Normal.wav
+192,192,112556,1,0,0:0:0:70:Hi Hat Normal.wav
+320,192,112863,1,0,0:0:0:70:Hi Hat Normal.wav
+192,192,113169,128,0,113781:0:0:0:50:Snare Hat.wav
+448,192,113169,1,0,0:0:0:90:Cymbal SSF.wav
+64,192,113781,1,0,0:0:0:90:Cymbal SSF.wav
+320,192,113781,128,0,114393:0:0:0:50:Snare Hat.wav
+448,192,114393,128,0,115618:0:0:0:50:Snare Hat.wav
+192,192,114393,1,0,0:0:0:90:Cymbal SSF.wav
+64,192,115618,1,0,0:0:0:90:Cymbal SSF.wav
+192,192,115618,1,0,0:0:0:50:Snare Hat.wav

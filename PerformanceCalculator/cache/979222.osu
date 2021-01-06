@@ -1,0 +1,60 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 76486
+Countdown: 1
+SampleSet: None
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 6486,12886,25686,38486,51286,64086,76886,89686,102486,115286,128086,140886
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:Death by Glamour - Gooseworx Cover
+TitleUnicode:Death by Glamour - Gooseworx Cover
+Artist:Toby Fox
+ArtistUnicode:Toby Fox
+Creator:Mr HeliX
+Version:Mettaton nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+Source:Undertale
+Tags:undertale death by glamour mettaton ex toby fox gooseworx cover
+BeatmapID:979222
+BeatmapSetID:451897
+
+[Difficulty]
+HPDrainRate:6
+CircleSize:4
+OverallDifficulty:8
+ApproachRate:9
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"maxresdefault.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+86.461419300376,400,4,1,0,100,1,0
+76886,-100,4,1,0,100,0,1
+102486,-100,4,1,0,100,0,0
+128086,-100,4,1,0,100,0,1
+140886,-100,4,1,0,100,0,0
+
+
+[HitObjects]
+196,136,86,5,0,0:0:0:0:

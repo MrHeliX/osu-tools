@@ -1,0 +1,63 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 0
+SampleSet: None
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 0.5
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1.1
+
+[Metadata]
+Title:TAKECORE OF YOURSELF
+TitleUnicode:TAKECORE OF YOURSELF
+Artist:DJ Sharpnel
+ArtistUnicode:DJ Sharpnel
+Creator:Wh1teh
+Version:#Marathon
+Source:
+Tags:marathon
+BeatmapID:1625737
+BeatmapSetID:480479
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:4
+OverallDifficulty:8
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+//Break Periods
+2,208,627379
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+8,285.714285714286,4,1,0,100,1,0
+115436,-100,4,1,0,100,0,1
+133722,-100,4,1,0,100,0,0
+161150,-100,4,1,0,100,0,1
+180579,-100,4,1,0,100,0,1
+203436,-100,4,1,0,100,0,0
+229722,-100,4,1,0,100,0,1
+248008,-100,4,1,0,100,0,0
+
+
+[HitObjects]
+192,192,8,5,0,0:0:0:0:

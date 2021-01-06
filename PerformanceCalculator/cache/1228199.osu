@@ -1,0 +1,102 @@
+osu file format v14
+
+[General]
+AudioFilename: Yeah Boy - Shooting Stars.mp3
+AudioLeadIn: 0
+PreviewTime: 4940
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+Bookmarks: 9740,13580,19023,22863
+DistanceSpacing: 0.7
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:Yeah Boy - Shooting Stars
+TitleUnicode:Yeah Boy - Shooting Stars
+Artist:BaconAkin
+ArtistUnicode:BaconAkin
+Creator:Sinnoh
+Version:Kantan
+Source:
+Tags:Chromoxx Surono _Meep_ Meme boi Youtube Haiku Bag Raiders
+BeatmapID:1228199
+BeatmapSetID:576426
+
+[Difficulty]
+HPDrainRate:9
+CircleSize:3.5
+OverallDifficulty:3
+ApproachRate:8
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"taiko.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+133,480,4,1,0,10,1,0
+2533,-100,4,1,0,15,0,0
+5900,480,4,1,0,10,1,0
+5900,-100,4,1,0,70,0,0
+19023,480,4,1,0,70,1,1
+26703,-100,4,1,0,20,0,0
+27750,480,4,1,0,15,1,0
+29223,480,4,1,0,10,1,0
+
+
+[Colours]
+Combo1 : 0,91,183
+Combo2 : 79,166,246
+Combo3 : 148,236,246
+
+[HitObjects]
+296,140,133,5,0,0:0:0:0:
+248,234,613,1,8,0:0:0:0:
+239,174,1573,1,8,0:0:0:0:
+268,104,2533,1,8,0:0:0:0:
+239,174,3493,1,8,0:0:0:0:
+276,248,3973,1,0,0:0:0:0:
+269,216,5900,1,4,0:0:0:0:
+425,158,6860,1,8,0:0:0:0:
+232,117,7820,1,8,0:0:0:0:
+339,222,8780,1,0,0:0:0:0:
+344,211,9260,1,8,0:0:0:0:
+344,211,9740,1,0,0:0:0:0:
+266,172,10700,1,8,0:0:0:0:
+266,172,11660,1,0,0:0:0:0:
+223,135,12620,1,0,0:0:0:0:
+225,133,13100,1,0,0:0:0:0:
+225,133,13580,1,8,0:0:0:0:
+302,174,14540,1,8,0:0:0:0:
+253,154,15500,1,0,0:0:0:0:
+245,73,16460,1,8,0:0:0:0:
+248,92,16940,1,0,0:0:0:0:
+212,248,17420,1,12,0:0:0:0:
+215,163,19023,1,12,0:0:0:0:
+285,184,19983,1,0,0:0:0:0:
+285,184,20463,1,0,0:0:0:0:
+285,184,20943,1,8,0:0:0:0:
+249,151,21903,1,8,0:0:0:0:
+249,151,22383,1,8,0:0:0:0:
+286,185,22863,1,0,0:0:0:0:
+233,178,23823,1,8,0:0:0:0:
+232,178,24303,1,0,0:0:0:0:
+232,178,24783,1,8,0:0:0:0:
+200,95,25743,1,8,0:0:0:0:
+242,120,26223,1,8,0:0:0:0:
+256,192,26943,12,0,30663,0:0:0:0:

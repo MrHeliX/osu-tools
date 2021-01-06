@@ -1,0 +1,60 @@
+osu file format v14
+
+[General]
+AudioFilename: PSY - DADDY(feat. CL of 2NE1).mp3
+AudioLeadIn: 0
+PreviewTime: 99154
+Countdown: 1
+SampleSet: None
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1.1
+
+[Metadata]
+Title:DADDY
+TitleUnicode:DADDY
+Artist:PSY
+ArtistUnicode:PSY
+Creator:are
+Version:Normal
+Source:
+Tags:PSY's 7th Album Feat. CL of 2NE1
+BeatmapID:841358
+BeatmapSetID:385145
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3
+OverallDifficulty:3
+ApproachRate:3
+SliderMultiplier:1.8
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"PSY - DADDY.jpg",0,0
+Video,0,"PSY - DADDY(feat. CL of 2NE1).avi"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+10397,455.166135639508,4,2,0,100,1,0
+44989,-66.6666666666667,4,2,0,100,0,0
+45444,-100,4,2,0,100,0,0
+54092,-133.333333333333,4,2,0,100,0,0
+68658,-100,4,2,0,100,0,0
+
+
+[HitObjects]
+256,192,10396,1,0,0:0:0:0:

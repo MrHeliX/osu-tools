@@ -1,0 +1,630 @@
+osu file format v14
+
+[General]
+AudioFilename: Ultimate Ascension.mp3
+AudioLeadIn: 0
+PreviewTime: 58320
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 4
+GridSize: 32
+TimelineZoom: 2.2
+
+[Metadata]
+Title:Ultimate Ascension
+TitleUnicode:Ultimate Ascension
+Artist:Camellia
+ArtistUnicode:かめりあ
+Creator:Fresh Chicken
+Version:BASIC
+Source:SOUND VOLTEX III GRAVITY WARS
+Tags:東方Project Critical_Star SDVX アルティメットトゥルース Ultimate Truth 東方妖々夢 Touhou Youyoumu Remix Contest
+BeatmapID:1018070
+BeatmapSetID:476565
+
+[Difficulty]
+HPDrainRate:6
+CircleSize:4
+OverallDifficulty:7
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"havv.png",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+Sample,9758,0,"Hi Im Kick.wav",30
+Sample,9833,0,"Hi Im Kick.wav",30
+Sample,9908,0,"Hi Im Kick.wav",30
+Sample,9983,0,"Hi Im Kick.wav",30
+Sample,10358,0,"Hi Im Kick.wav",50
+Sample,15158,0,"Hello I'm Crsh.wav",30
+Sample,15308,0,"Hi Im Kick.wav",50
+Sample,15608,0,"Hi Im Kick.wav",30
+Sample,15683,0,"Hi Im Kick.wav",30
+Sample,15758,0,"Hi Im Kick.wav",30
+Sample,15908,0,"Hi Im Kick.wav",30
+Sample,16208,0,"Hi Im Kick.wav",30
+Sample,16283,0,"Hi Im Kick.wav",30
+Sample,16358,0,"Hello I'm Crsh.wav",30
+Sample,16508,0,"Hi Im Kick.wav",30
+Sample,16808,0,"Hi Im Kick.wav",30
+Sample,16883,0,"Hi Im Kick.wav",30
+Sample,16958,0,"Hi Im Kick.wav",30
+Sample,17108,0,"Hi Im Kick.wav",30
+Sample,17408,0,"Hi Im Kick.wav",30
+Sample,25583,0,"Hi Im Kick.wav",30
+Sample,25658,0,"Hi Im Kick.wav",30
+Sample,29333,0,"Hi Im Kick.wav",30
+Sample,35258,0,"Hi I'm Snare.wav",30
+Sample,35333,0,"Hi Im Kick.wav",30
+Sample,38745,0,"Hi Im Kick.wav",30
+Sample,38783,0,"Hi Im Kick.wav",30
+Sample,38820,0,"Hi Im Kick.wav",30
+Sample,40883,0,"Hi Im Kick.wav",30
+Sample,41108,0,"Hi Im Kick.wav",30
+Sample,41558,0,"Hi Im Kick.wav",30
+Sample,42083,0,"Hi Im Kick.wav",30
+Sample,42308,0,"Hi Im Kick.wav",30
+Sample,42758,0,"Hi Im Kick.wav",30
+Sample,43283,0,"Hi Im Kick.wav",30
+Sample,43508,0,"Hi Im Kick.wav",30
+Sample,43958,0,"Hi Im Kick.wav",30
+Sample,44483,0,"Hi Im Kick.wav",30
+Sample,44708,0,"Hi Im Kick.wav",30
+Sample,44933,0,"Hi I'm Snare.wav",30
+Sample,45008,0,"Hi I'm Snare.wav",30
+Sample,45083,0,"Hi I'm Snare.wav",30
+Sample,45683,0,"Hi Im Kick.wav",30
+Sample,46808,0,"Hi Im Kick.wav",30
+Sample,46883,0,"Hi Im Kick.wav",30
+Sample,49358,0,"Hi Im Kick.wav",30
+Sample,49583,0,"Hi I'm Snare.wav",30
+Sample,49958,0,"Hi Im Kick.wav",30
+Sample,50108,0,"Hi Im Kick.wav",30
+Sample,50258,0,"Hi Im Kick.wav",30
+Sample,50408,0,"Hi Im Kick.wav",30
+Sample,50708,0,"Hi Im Kick.wav",30
+Sample,50858,0,"Hi Im Kick.wav",30
+Sample,51008,0,"Hi Im Kick.wav",30
+Sample,51308,0,"Hi Im Kick.wav",30
+Sample,51458,0,"Hi Im Kick.wav",30
+Sample,51608,0,"Hi Im Kick.wav",30
+Sample,51758,0,"Hi I'm Snare.wav",30
+Sample,51983,0,"Hi I'm Snare.wav",30
+Sample,52358,0,"Hi Im Kick.wav",30
+Sample,52433,0,"Hi Im Kick.wav",30
+Sample,52508,0,"Hi Im Kick.wav",30
+Sample,52583,0,"Hi Im Kick.wav",30
+Sample,52733,0,"Hi Im Kick.wav",30
+Sample,52808,0,"Hi Im Kick.wav",30
+Sample,52883,0,"Hi Im Kick.wav",30
+Sample,52958,0,"Hi Im Kick.wav",30
+Sample,53033,0,"Hi Im Kick.wav",30
+Sample,53108,0,"Hi Im Kick.wav",30
+Sample,53183,0,"Hi Im Kick.wav",30
+Sample,53333,0,"Hi Im Kick.wav",30
+Sample,53408,0,"Hi Im Kick.wav",30
+Sample,53483,0,"Hi Im Kick.wav",30
+Sample,53558,0,"Hello I'm Crsh.wav",30
+Sample,53633,0,"Hi Im Kick.wav",30
+Sample,53708,0,"Hi Im Kick.wav",30
+Sample,53783,0,"Hi Im Kick.wav",30
+Sample,53933,0,"Hi Im Kick.wav",30
+Sample,54008,0,"Hi Im Kick.wav",30
+Sample,54083,0,"Hi Im Kick.wav",30
+Sample,54158,0,"Hi Im Kick.wav",30
+Sample,54233,0,"Hi Im Kick.wav",30
+Sample,54308,0,"Hi Im Kick.wav",30
+Sample,54383,0,"Hi Im Kick.wav",30
+Sample,54533,0,"Hi Im Kick.wav",30
+Sample,54608,0,"Hi Im Kick.wav",30
+Sample,54683,0,"Hi Im Kick.wav",30
+Sample,59258,0,"Hi Im Kick.wav",30
+Sample,59558,0,"Hi Im Kick.wav",30
+Sample,60458,0,"Hi Im Kick.wav",30
+Sample,61058,0,"Hi Im Kick.wav",30
+Sample,61358,0,"Hi Im Kick.wav",30
+Sample,61658,0,"Hi Im Kick.wav",30
+Sample,61958,0,"Hi Im Kick.wav",30
+Sample,62258,0,"Hi Im Kick.wav",30
+Sample,64058,0,"Hi Im Kick.wav",30
+Sample,64358,0,"Hi Im Kick.wav",30
+Sample,65258,0,"Hi Im Kick.wav",30
+Sample,65858,0,"Hi Im Kick.wav",30
+Sample,66158,0,"Hi Im Kick.wav",30
+Sample,66458,0,"Hi Im Kick.wav",30
+Sample,66758,0,"Hi Im Kick.wav",30
+Sample,67583,0,"Hi Im Kick.wav",30
+Sample,67658,0,"Hi Im Kick.wav",30
+Sample,67733,0,"Hi Im Kick.wav",30
+Sample,67808,0,"Hi Im Kick.wav",30
+Sample,67883,0,"Hi Im Kick.wav",30
+Sample,68558,0,"Hello I'm Crsh.wav",30
+Sample,68783,0,"Hi Im Kick.wav",30
+Sample,69008,0,"Hi Im Kick.wav",30
+Sample,69308,0,"Hello I'm Crsh.wav",30
+Sample,69458,0,"Hello I'm Crsh.wav",30
+Sample,69758,0,"Hello I'm Crsh.wav",30
+Sample,69983,0,"Hello I'm Crsh.wav",30
+Sample,70658,0,"Hi Im Kick.wav",30
+Sample,70958,0,"Hi Im Kick.wav",30
+Sample,71258,0,"Hi Im Kick.wav",30
+Sample,71558,0,"Hi Im Kick.wav",30
+Sample,71858,0,"Hi Im Kick.wav",30
+Sample,73658,0,"Hi Im Kick.wav",30
+Sample,73958,0,"Hi Im Kick.wav",30
+Sample,74858,0,"Hi Im Kick.wav",30
+Sample,77558,0,"Hi Im Kick.wav",30
+Sample,77858,0,"Hi Im Kick.wav",30
+Sample,78158,0,"Hi Im Kick.wav",30
+Sample,79058,0,"Hi Im Kick.wav",30
+Sample,79358,0,"Hi Im Kick.wav",30
+Sample,80258,0,"Hi Im Kick.wav",30
+Sample,80558,0,"Hi Im Kick.wav",30
+Sample,82658,0,"Hi Im Kick.wav",30
+Sample,82958,0,"Hi Im Kick.wav",30
+Sample,83783,0,"Hi Im Kick.wav",30
+Sample,83858,0,"Hi Im Kick.wav",30
+Sample,84083,0,"Hi Im Kick.wav",30
+Sample,84458,0,"Hi Im Kick.wav",30
+Sample,89708,0,"Hi Im Kick.wav",30
+Sample,90008,0,"Hi Im Kick.wav",30
+Sample,90308,0,"Hi Im Kick.wav",30
+Sample,90608,0,"Hi Im Kick.wav",30
+Sample,90908,0,"Hi Im Kick.wav",30
+Sample,91208,0,"Hi Im Kick.wav",30
+Sample,91508,0,"Hi Im Kick.wav",30
+Sample,91808,0,"Hi Im Kick.wav",30
+Sample,92033,0,"Hi Im Kick.wav",30
+Sample,92333,0,"Hi Im Kick.wav",30
+Sample,95558,0,"Hello I'm Crsh.wav",30
+Sample,103808,0,"Hi Im Kick.wav",30
+Sample,104033,0,"Hi Im Kick.wav",30
+Sample,104183,0,"Hello I'm Crsh.wav",30
+Sample,104408,0,"Hello I'm Crsh.wav",30
+Sample,104558,0,"Hello I'm Crsh.wav",30
+Sample,104933,0,"Hi Im Kick.wav",30
+Sample,105008,0,"Hi Im Kick.wav",30
+Sample,105083,0,"Hi Im Kick.wav",30
+Sample,109583,0,"Hi Im Kick.wav",30
+Sample,109658,0,"Hi I'm Snare.wav",30
+Sample,109733,0,"Hi Im Kick.wav",30
+Sample,109808,0,"Hi Im Kick.wav",30
+Sample,109958,0,"Hello I'm Crsh.wav",30
+Sample,110183,0,"Hello I'm Crsh.wav",30
+Sample,110408,0,"Hello I'm Crsh.wav",30
+Sample,110633,0,"Hi Im Kick.wav",30
+Sample,110858,0,"Hi Im Kick.wav",30
+Sample,111158,0,"Hi Im Kick.wav",30
+Sample,111383,0,"Hello I'm Crsh.wav",30
+Sample,111608,0,"Hello I'm Crsh.wav",30
+Sample,111833,0,"Hi Im Kick.wav",30
+Sample,112058,0,"Hello I'm Crsh.wav",30
+Sample,112358,0,"Hi Im Kick.wav",30
+Sample,112583,0,"Hello I'm Crsh.wav",30
+Sample,112808,0,"Hi Im Kick.wav",30
+Sample,113033,0,"Hi Im Kick.wav",30
+Sample,113258,0,"Hello I'm Crsh.wav",30
+Sample,113483,0,"Hi Im Kick.wav",30
+Sample,113708,0,"Hi Im Kick.wav",30
+Sample,113933,0,"Hello I'm Crsh.wav",30
+Sample,114158,0,"Hi Im Kick.wav",30
+Sample,116558,0,"Hi Im Kick.wav",30
+Sample,116783,0,"Hi Im Kick.wav",30
+Sample,117008,0,"Hello I'm Crsh.wav",30
+Sample,117158,0,"Hello I'm Crsh.wav",30
+Sample,119558,0,"Hi Im Kick.wav",30
+
+[TimingPoints]
+758,300,4,2,0,30,1,0
+58358,-100,4,2,0,30,0,1
+67958,-100,4,2,0,30,0,0
+70358,-100,4,2,0,30,0,1
+76958,-100,4,2,0,30,0,0
+77558,-100,4,2,0,30,0,1
+84758,-100,4,2,0,30,0,0
+
+
+[HitObjects]
+448,192,758,5,0,0:0:0:50:Hi Im Kick.wav
+64,192,758,1,0,0:0:0:30:Hello I'm Crsh.wav
+448,192,2558,1,0,0:0:0:50:Hi Im Kick.wav
+320,192,2783,1,0,0:0:0:50:Hi Im Kick.wav
+192,192,3008,1,0,0:0:0:50:Hi Im Kick.wav
+64,192,3158,1,0,0:0:0:50:Hi Im Kick.wav
+448,192,3158,1,0,0:0:0:0:
+64,192,4958,1,0,0:0:0:50:Hi Im Kick.wav
+448,192,5258,128,0,5558:0:0:0:50:Hi Im Kick.wav
+64,192,5558,1,0,0:0:0:50:Hi Im Kick.wav
+192,192,5558,1,0,0:0:0:0:
+64,192,7358,1,0,0:0:0:50:Hi Im Kick.wav
+320,192,7583,1,0,0:0:0:50:Hi Im Kick.wav
+192,192,7808,1,0,0:0:0:50:Hi Im Kick.wav
+320,192,7958,1,0,0:0:0:50:Hi Im Kick.wav
+448,192,7958,1,0,0:0:0:0:
+320,192,9458,128,0,10058:0:0:0:0:
+192,192,10058,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,10358,1,0,0:0:0:30:Hello I'm Crsh.wav
+448,192,10358,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,10658,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,10958,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,11258,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,11558,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,11858,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,12158,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,12758,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,13058,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,13358,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,13658,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,13958,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,14258,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,14558,128,0,14858:0:0:0:30:Hi Im Kick.wav
+320,192,14858,1,0,0:0:0:0:
+64,192,15158,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,15458,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,15758,1,0,0:0:0:30:Hello I'm Crsh.wav
+320,192,16058,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,16358,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,16658,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,16958,1,0,0:0:0:30:Hello I'm Crsh.wav
+448,192,17258,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,17558,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,17858,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,18158,1,0,0:0:0:0:
+320,192,18458,1,0,0:0:0:0:
+64,192,18758,128,0,19958:0:0:0:0:
+320,192,19958,1,0,0:0:0:30:Hello I'm Crsh.wav
+448,192,19958,1,0,0:0:0:0:
+64,192,21158,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,21458,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,21758,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,22058,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,22358,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,22658,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,22958,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,23258,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,23558,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,23858,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,24158,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,24458,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,24758,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,25058,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,25358,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,25658,1,0,0:0:0:40:Hi I'm Snare.wav
+320,192,25808,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,25958,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,26258,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,26558,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,26858,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,27158,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,27458,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,27758,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,28058,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,28358,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,28508,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,28733,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,28958,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,29183,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,29408,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,29558,128,0,30158:0:0:0:30:Hi Im Kick.wav
+64,192,30758,1,0,0:0:0:30:Hello I'm Crsh.wav
+192,192,30758,128,0,31058:0:0:0:0:
+448,192,31058,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,31358,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,31658,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,31958,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,32258,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,32558,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,32858,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,33158,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,33458,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,33758,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,34058,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,34358,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,34658,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,34958,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,35183,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,35408,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,35558,128,0,35858:0:0:0:30:Hi Im Kick.wav
+320,192,35858,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,36158,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,36458,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,36758,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,36908,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,37058,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,37208,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,37358,128,0,37658:0:0:0:0:
+448,192,37658,1,0,0:0:0:0:
+320,192,37958,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,38258,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,38558,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,38708,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,38858,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,39158,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,39383,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,39608,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,39833,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,40058,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,40358,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,40358,128,0,40658:0:0:0:0:
+320,192,40658,1,0,0:0:0:30:Hi I'm Snare.wav
+448,192,40658,1,0,0:0:0:0:
+192,192,41258,1,0,0:0:0:30:Hi I'm Snare.wav
+64,192,41258,1,0,0:0:0:0:
+192,192,41858,1,0,0:0:0:30:Hi I'm Snare.wav
+448,192,41858,1,0,0:0:0:0:
+192,192,42383,1,0,0:0:0:30:Hi I'm Snare.wav
+64,192,42383,1,0,0:0:0:0:
+320,192,42608,1,0,0:0:0:30:Hi I'm Snare.wav
+448,192,42608,1,0,0:0:0:0:
+320,192,43058,1,0,0:0:0:30:Hi I'm Snare.wav
+64,192,43058,1,0,0:0:0:0:
+192,192,43658,1,0,0:0:0:30:Hi I'm Snare.wav
+320,192,43658,1,0,0:0:0:0:
+448,192,44258,1,0,0:0:0:30:Hi I'm Snare.wav
+64,192,44258,1,0,0:0:0:0:
+320,192,44558,1,0,0:0:0:0:
+192,192,44858,128,0,45158:0:0:0:30:Hi I'm Snare.wav
+64,192,45158,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,45158,1,0,0:0:0:30:Hello I'm Crsh.wav
+320,192,45758,1,0,0:0:0:30:Hi I'm Snare.wav
+448,192,45758,128,0,46358:0:0:0:0:
+64,192,46358,128,0,46958:0:0:0:30:Hi Im Kick.wav
+192,192,46958,1,0,0:0:0:30:Hi I'm Snare.wav
+320,192,46958,1,0,0:0:0:0:
+448,192,47558,1,0,0:0:0:30:Hello I'm Crsh.wav
+448,192,48158,1,0,0:0:0:0:
+192,192,48758,1,0,0:0:0:0:
+320,192,49358,1,0,0:0:0:30:Hi I'm Snare.wav
+192,192,49583,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,49808,1,0,0:0:0:30:Hi I'm Snare.wav
+192,192,49958,1,0,0:0:0:20:Hello I'm Crsh.wav
+192,192,50558,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,51158,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,51758,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,51983,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,52208,1,0,0:0:0:30:Hi I'm Snare.wav
+64,192,52358,1,0,0:0:0:30:Hello I'm Crsh.wav
+192,192,52658,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,52958,1,0,0:0:0:30:Hello I'm Crsh.wav
+448,192,53258,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,53558,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,53858,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,54158,1,0,0:0:0:30:Hello I'm Crsh.wav
+448,192,54458,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,54758,1,0,0:0:0:0:
+192,192,55058,1,0,0:0:0:0:
+320,192,55358,1,0,0:0:0:0:
+320,192,55658,1,0,0:0:0:0:
+64,192,55958,1,0,0:0:0:0:
+64,192,56258,1,0,0:0:0:0:
+448,192,56558,1,0,0:0:0:0:
+448,192,56858,1,0,0:0:0:0:
+320,192,57158,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,57158,1,0,0:0:0:0:
+448,192,58358,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,58358,1,0,0:0:0:30:Hello I'm Crsh.wav
+320,192,58658,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,58958,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,59183,1,0,0:0:0:0:
+320,192,59408,1,0,0:0:0:0:
+448,192,59708,1,0,0:0:0:0:
+192,192,59858,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,60158,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,60383,1,0,0:0:0:0:
+192,192,60608,1,0,0:0:0:0:
+64,192,60758,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,61208,1,0,0:0:0:0:
+192,192,61508,1,0,0:0:0:0:
+448,192,61808,1,0,0:0:0:0:
+64,192,62108,1,0,0:0:0:0:
+320,192,62333,1,0,0:0:0:0:
+192,192,62558,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,62858,128,0,63158:0:0:0:30:Hi Im Kick.wav
+64,192,63158,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,63458,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,63758,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,63983,1,0,0:0:0:0:
+320,192,64208,1,0,0:0:0:0:
+192,192,64508,1,0,0:0:0:0:
+64,192,64658,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,64958,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,65183,1,0,0:0:0:0:
+448,192,65408,1,0,0:0:0:0:
+64,192,65558,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,66008,1,0,0:0:0:0:
+192,192,66308,1,0,0:0:0:0:
+448,192,66608,1,0,0:0:0:0:
+64,192,66908,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,67133,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,67358,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,67508,128,0,67958:0:0:0:30:Hi Im Kick.wav
+192,192,67958,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,67958,1,0,0:0:0:30:Hello I'm Crsh.wav
+448,192,68558,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,68783,1,0,0:0:0:30:Hello I'm Crsh.wav
+192,192,69008,1,0,0:0:0:30:Hello I'm Crsh.wav
+64,192,69308,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,69458,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,69758,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,69983,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,70358,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,70358,1,0,0:0:0:0:
+320,192,70808,1,0,0:0:0:0:
+192,192,71108,1,0,0:0:0:0:
+64,192,71408,1,0,0:0:0:0:
+448,192,71708,1,0,0:0:0:0:
+320,192,71933,1,0,0:0:0:0:
+192,192,72158,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,72458,128,0,72758:0:0:0:30:Hi Im Kick.wav
+448,192,72758,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,73058,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,73358,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,73583,1,0,0:0:0:0:
+192,192,73808,1,0,0:0:0:0:
+320,192,74108,1,0,0:0:0:0:
+64,192,74258,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,74558,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,74783,1,0,0:0:0:0:
+448,192,75008,1,0,0:0:0:0:
+64,192,75158,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,75308,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,75458,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,75758,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,75908,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,76058,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,76358,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,76358,128,0,77558:0:0:0:30:Hello I'm Crsh.wav
+448,192,77558,1,0,0:0:0:30:Hello I'm Crsh.wav
+320,192,77783,1,0,0:0:0:0:
+192,192,78008,1,0,0:0:0:0:
+320,192,78233,1,0,0:0:0:0:
+448,192,78458,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,78758,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,78983,1,0,0:0:0:0:
+320,192,79208,1,0,0:0:0:0:
+192,192,79433,1,0,0:0:0:0:
+64,192,79658,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,79958,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,80183,1,0,0:0:0:0:
+448,192,80408,1,0,0:0:0:0:
+320,192,80633,1,0,0:0:0:0:
+192,192,80858,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,81083,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,81308,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,81533,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,81758,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,81983,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,82208,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,82358,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,82583,1,0,0:0:0:0:
+64,192,82808,1,0,0:0:0:0:
+192,192,83033,1,0,0:0:0:0:
+320,192,83258,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,83558,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,83708,128,0,83858:0:0:0:30:Hi Im Kick.wav
+448,192,84008,128,0,84158:0:0:0:30:Hi Im Kick.wav
+64,192,84158,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,84383,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,84608,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,84758,1,0,0:0:0:30:Hello I'm Crsh.wav
+64,192,84758,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,85358,1,0,0:0:0:0:
+192,192,85958,1,0,0:0:0:0:
+64,192,86558,1,0,0:0:0:0:
+192,192,87158,1,0,0:0:0:0:
+320,192,87758,1,0,0:0:0:0:
+64,192,88358,1,0,0:0:0:0:
+448,192,88958,1,0,0:0:0:0:
+64,192,89558,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,89858,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,90158,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,90458,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,90758,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,91058,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,91358,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,91658,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,91958,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,92258,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,92558,1,0,0:0:0:0:
+320,192,92858,1,0,0:0:0:0:
+448,192,93158,128,0,94358:0:0:0:0:
+192,192,94358,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,94358,1,0,0:0:0:0:
+64,192,95558,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,95858,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,96158,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,96458,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,96758,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,97058,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,97358,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,97658,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,97958,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,98258,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,98558,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,98858,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,99158,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,99458,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,99758,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,99983,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,100208,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,100358,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,100658,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,100958,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,101258,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,101558,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,101858,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,102158,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,102458,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,102758,1,0,0:0:0:30:Hello I'm Crsh.wav
+448,192,102758,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,102983,128,0,103808:0:0:0:0:
+448,192,103808,1,0,0:0:0:30:Hello I'm Crsh.wav
+64,192,104033,1,0,0:0:0:30:Hello I'm Crsh.wav
+192,192,104183,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,104408,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,104558,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,104708,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,104858,128,0,105158:0:0:0:30:Hi Im Kick.wav
+448,192,105158,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,105458,1,0,0:0:0:30:Hi I'm Snare.wav
+320,192,105758,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,106058,1,0,0:0:0:30:Hi I'm Snare.wav
+320,192,106358,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,106583,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,106808,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,107033,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,107258,128,0,107558:0:0:0:0:
+448,192,107558,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,107558,1,0,0:0:0:0:
+64,192,107858,1,0,0:0:0:30:Hi I'm Snare.wav
+320,192,108158,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,108458,1,0,0:0:0:30:Hi I'm Snare.wav
+192,192,108758,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,109058,1,0,0:0:0:30:Hi I'm Snare.wav
+320,192,109358,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,109508,128,0,109808:0:0:0:30:Hi Im Kick.wav
+448,192,109958,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,110183,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,110408,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,110633,1,0,0:0:0:30:Hello I'm Crsh.wav
+448,192,110858,1,0,0:0:0:30:Hello I'm Crsh.wav
+64,192,111158,1,0,0:0:0:30:Hello I'm Crsh.wav
+320,192,111383,1,0,0:0:0:30:Hi Im Kick.wav
+192,192,111608,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,111833,1,0,0:0:0:30:Hello I'm Crsh.wav
+64,192,112058,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,112358,1,0,0:0:0:30:Hello I'm Crsh.wav
+448,192,112583,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,112808,1,0,0:0:0:30:Hello I'm Crsh.wav
+64,192,113033,1,0,0:0:0:30:Hello I'm Crsh.wav
+320,192,113258,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,113483,1,0,0:0:0:30:Hello I'm Crsh.wav
+192,192,113708,1,0,0:0:0:30:Hello I'm Crsh.wav
+192,192,113933,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,114158,128,0,114758:0:0:0:30:Hello I'm Crsh.wav
+192,192,114758,1,0,0:0:0:30:Hello I'm Crsh.wav
+64,192,114758,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,116558,1,0,0:0:0:30:Hello I'm Crsh.wav
+320,192,116783,1,0,0:0:0:30:Hello I'm Crsh.wav
+192,192,117008,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,117158,1,0,0:0:0:30:Hi Im Kick.wav
+64,192,118958,1,0,0:0:0:30:Hi Im Kick.wav
+448,192,119258,1,0,0:0:0:30:Hi Im Kick.wav
+320,192,119558,128,0,119858:0:0:0:30:Hello I'm Crsh.wav
+192,192,119558,128,0,119858:0:0:0:30:Hi I'm Snare.wav

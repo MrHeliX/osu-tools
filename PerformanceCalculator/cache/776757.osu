@@ -1,0 +1,100 @@
+﻿osu file format v14
+
+[General]
+AudioFilename: katharsis.mp3
+AudioLeadIn: 0
+PreviewTime: 11221
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 2
+GridSize: 8
+TimelineZoom: 0.5999999
+
+[Metadata]
+Title:Mousou Katharsis
+TitleUnicode:妄想Katharsis
+Artist:Orange Heart(cv:Honda Mariko) Neptune(cv:Tanaka Rie)
+ArtistUnicode:オレンジハート(cv：本多真梨子)・ネプテューヌ(cv：田中理恵)
+Creator:[Shana Lesus]
+Version:Kantan
+Source:新次元ゲイム ネプテューヌVⅡ
+Tags:Shin Jigen Game Hyperdimension Neptunia Victory 2 VII 7 Dimension H op opening 青Yりんご SHIKI Yocke game rock
+BeatmapID:776757
+BeatmapSetID:344082
+
+[Difficulty]
+HPDrainRate:9
+CircleSize:2
+OverallDifficulty:3
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"neptune.jpg",0,90
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+246,731.707317073171,4,1,0,50,1,0
+23660,-100,4,1,0,50,0,1
+35367,-100,4,1,0,50,0,0
+
+
+[HitObjects]
+248,192,246,5,4,0:0:0:0:
+248,192,3172,1,0,0:0:0:0:
+248,200,4636,1,0,0:0:0:0:
+224,160,6099,1,0,0:0:0:0:
+216,184,9026,5,0,0:0:0:0:
+256,208,10489,5,2,0:0:0:0:
+256,192,11953,5,4,0:0:0:0:
+256,192,13416,1,0,0:0:0:0:
+256,200,14148,1,2,0:0:0:0:
+248,184,14514,1,2,0:0:0:0:
+256,192,14880,1,0,0:0:0:0:
+256,192,15611,1,0,0:0:0:0:
+256,208,16343,1,2,0:0:0:0:
+256,192,17806,5,0,0:0:0:0:
+256,192,19270,1,0,0:0:0:0:
+256,192,20002,1,2,0:0:0:0:
+264,184,20367,1,2,0:0:0:0:
+256,192,20734,1,0,0:0:0:0:
+256,192,21465,1,2,0:0:0:0:
+248,192,22197,1,0,0:0:0:0:
+256,192,23660,5,4,0:0:0:0:
+264,200,25124,1,0,0:0:0:0:
+264,200,25855,1,2,0:0:0:0:
+272,208,26221,1,2,0:0:0:0:
+264,200,26587,1,0,0:0:0:0:
+264,200,27319,1,0,0:0:0:0:
+264,200,28050,1,2,0:0:0:0:
+256,192,29514,5,4,0:0:0:0:
+256,192,30977,1,0,0:0:0:0:
+256,192,31709,1,2,0:0:0:0:
+256,192,32441,1,8,0:0:0:0:
+264,184,32806,1,2,0:0:0:0:
+256,200,33172,1,0,0:0:0:0:
+264,192,33904,1,2,0:0:0:0:
+256,192,35367,5,4,0:0:0:0:
+256,192,36831,1,0,0:0:0:0:
+256,200,38294,1,0,0:0:0:0:
+256,192,39026,1,2,0:0:0:0:
+256,200,39758,1,2,0:0:0:0:
+256,192,41221,5,0,0:0:0:0:
+256,192,42685,1,0,0:0:0:0:
+256,192,44148,1,0,0:0:0:0:
+256,192,44880,1,2,0:0:0:0:
+256,200,45611,1,0,0:0:0:0:

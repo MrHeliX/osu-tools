@@ -1,0 +1,489 @@
+osu file format v13
+
+[General]
+AudioFilename: daze.mp3
+AudioLeadIn: 0
+PreviewTime: 54527
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.2
+BeatDivisor: 2
+GridSize: 4
+TimelineZoom: 1.1
+
+[Metadata]
+Title:daze (short ver.)
+TitleUnicode:daze (short ver.)
+Artist:Jin ft. MARiA from GARNiDELiA
+ArtistUnicode:じん ft. メイリア from GARNiDELiA
+Creator:Takane6
+Version:NM
+Source:メカクシティアクターズ
+Tags:Mekakucity Actors Shidu Jin 自然の敵P Shizen no Teki-P Kagerou Project opening ShikiNoHollow TV Size
+BeatmapID:450086
+BeatmapSetID:187538
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:4
+OverallDifficulty:7
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+Video,-894,"PV.avi"
+0,0,"Daze.png",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+740,303.030303030303,4,2,0,20,1,0
+55285,-100,4,2,0,20,0,1
+80739,-100,4,2,0,20,0,0
+
+
+[HitObjects]
+64,192,740,5,0,0:45:45:45:LR_Drum Finish.wav
+448,192,1043,1,0,0:45:45:45:LR_Drum Finish.wav
+64,192,1346,1,0,0:45:45:45:LR_Drum Finish.wav
+192,192,1497,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,1649,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,1800,128,0,2255:45:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,2255,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,2406,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,2558,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,2709,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,2861,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,3012,128,0,3467:45:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,3467,1,0,0:45:45:45:LR_Tom Normal.wav
+192,192,3618,1,0,0:45:45:45:LR_Tom Normal.wav
+64,192,3770,1,0,0:45:45:45:LR_Tom Hit.wav
+192,192,3921,1,0,0:45:45:45:LR_Tom Hit.wav
+320,192,4073,1,0,0:45:45:45:LR_Tom Hit.wav
+448,192,4224,128,0,4679:45:45:45:45:LR_Tom Hit.wav
+192,192,4679,1,0,0:45:45:75:LR_Drum Hit Drop High.wav
+320,192,4830,1,0,0:45:45:75:LR_Drum Hit Drop High.wav
+448,192,4982,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+192,192,5436,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+64,192,5739,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+192,192,6043,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+448,192,6194,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+448,192,6346,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+448,192,6649,1,0,0:45:45:45:LR_Drum Finish.wav
+64,192,6649,1,0,3:45:45:45:LR_Drum Finish.wav
+320,192,7103,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,7255,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,7406,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,7709,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,7709,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,8012,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,8315,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,8467,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,8618,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,8921,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,8921,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,9224,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,9527,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,9679,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,9830,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,10133,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,10133,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,10436,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,10740,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,10891,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,11043,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,11194,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,11346,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,11497,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,11497,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,11952,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,12103,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,12255,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,12558,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,12861,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,13164,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,13315,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,13467,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,13770,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,14073,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,14376,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,14527,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,14679,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,14830,1,0,0:45:45:45:LR_Tom Hit.wav
+192,192,14982,1,0,0:45:45:45:LR_Tom Normal.wav
+64,192,15133,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,15285,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,15285,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+64,192,15588,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,15588,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+320,192,16043,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,16194,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,16346,128,0,16800:45:45:45:45:LR_Drum Hit Drop High.wav
+448,192,16346,128,0,16800:45:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,16800,1,0,0:3:45:45:LR_Drum Barrel Hit.wav
+192,192,17103,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,17255,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,17558,128,0,18012:45:45:45:45:LR_Tom Normal.wav
+192,192,18012,1,0,0:3:45:45:LR_Drum Barrel Hit.wav
+320,192,18467,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,18618,1,0,0:3:45:45:LR_Drum Barrel Hit.wav
+192,192,18770,128,0,19073:45:45:45:45:LR_Tom Normal.wav
+320,192,19073,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,19224,1,0,0:45:45:45:LR_Drum Barrel Hit.wav
+320,192,19376,1,0,0:45:45:45:LR_Drum Loud Bass Drop.wav
+320,192,19679,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,19830,1,0,0:3:45:45:LR_Drum Barrel Hit.wav
+320,192,19982,128,0,20285:45:45:45:45:LR_Tom Normal.wav
+448,192,20285,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,20436,1,0,0:3:45:45:LR_Drum Barrel Hit.wav
+448,192,20588,1,0,0:45:45:45:LR_Tom Normal.wav
+320,192,20740,1,0,0:45:45:45:LR_Tom Normal.wav
+64,192,20891,1,0,0:45:45:45:LR_Tom Hit.wav
+320,192,21043,1,0,0:45:45:45:LR_Drum Barrel Hit.wav
+448,192,21194,128,0,21497:45:45:45:45:LR_Tom Normal.wav
+64,192,21649,1,0,0:45:45:45:LR_Drum Barrel Hit.wav
+64,192,21952,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,22255,1,0,0:45:45:45:LR_Drum Barrel Hit.wav
+448,192,22406,128,0,22709:45:45:45:45:LR_Tom Normal.wav
+64,192,22709,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,22861,1,0,0:45:45:45:LR_Drum Barrel Hit.wav
+64,192,23164,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,23467,1,0,0:45:45:45:LR_Drum Barrel Hit.wav
+320,192,23618,128,0,23921:45:45:45:45:LR_Tom Normal.wav
+64,192,23921,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,24073,1,0,0:45:45:45:LR_Drum Barrel Hit.wav
+64,192,24376,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,24679,1,0,0:45:45:45:LR_Drum Barrel Hit.wav
+320,192,24830,128,0,25133:45:45:45:45:LR_Tom Normal.wav
+192,192,25133,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,25285,1,0,0:45:45:45:LR_Drum Barrel Hit.wav
+448,192,25436,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,25588,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,25740,128,0,26043:45:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,26043,1,0,0:45:45:45:LR_Tom Normal.wav
+320,192,26497,1,0,0:45:45:45:LR_Drum Barrel Hit.wav
+64,192,26800,128,0,27103:45:45:45:45:LR_Kick Hard Fast.wav
+448,192,27255,128,0,27558:45:45:45:45:LR_Kick Hard Fast.wav
+64,192,27861,1,0,0:45:45:45:LR_Tom Normal.wav
+192,192,28164,1,0,0:45:45:45:LR_Tom Normal.wav
+320,192,28315,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+64,192,28315,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+448,192,28467,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+64,192,28770,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,28921,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+320,192,29073,1,0,0:45:45:45:LR_Drum Loud Bass Drop.wav
+192,192,29376,128,0,29679:45:45:45:45:LR_Kick Hard Fast.wav
+448,192,29679,1,0,0:45:45:45:LR_Tom Normal.wav
+192,192,29982,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,30285,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,30588,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,30739,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,30891,1,0,0:45:45:45:LR_Tom Normal.wav
+320,192,31194,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,31346,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,31497,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,31649,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,32103,1,0,0:45:45:45:LR_Tom Normal.wav
+192,192,32406,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,32558,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,32709,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,33012,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,33164,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,33315,1,0,0:45:45:45:LR_Tom Normal.wav
+320,192,33618,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,33770,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,33921,1,0,0:45:45:45:LR_Tom Normal.wav
+192,192,34224,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,34376,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,34527,1,0,0:45:45:45:LR_Tom Normal.wav
+64,192,34830,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,34982,1,0,0:45:45:45:LR_Tom Normal.wav
+192,192,35285,1,0,0:45:45:45:LR_Tom Normal.wav
+448,192,35436,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,35588,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,35739,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,35891,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+64,192,35891,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,36194,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+64,192,36194,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,36497,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+64,192,36497,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,36800,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,36952,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+64,192,36952,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,37255,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+192,192,37255,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,37558,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+448,192,37558,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,37861,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+64,192,38012,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+448,192,38164,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+192,192,38315,1,0,0:45:45:45:LR_Tom Normal.wav
+320,192,38315,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+64,192,38618,1,0,0:45:45:45:LR_Drum Hit Drop High.wav
+320,192,38618,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,38921,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,39073,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,39224,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,39376,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,39376,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,39679,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,39830,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,39982,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,39982,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,40285,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,40436,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,40588,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,40739,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,40739,1,0,0:45:45:45:LR_Tom Normal.wav
+320,192,41043,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,41043,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,41346,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,41649,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,41649,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,41800,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,42255,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,42255,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,42709,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,42861,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,42861,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,43012,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,43315,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,43467,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,43467,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,43618,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,43921,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,44073,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,44073,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,44224,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,44527,5,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,44679,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,44679,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,44830,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,44982,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,45133,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,45285,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,45285,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,45436,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,45588,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,45588,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,45891,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,45891,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,46194,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,46194,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,46649,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,46649,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,46952,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,46952,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,47255,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,47255,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,47406,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,47558,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,47709,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,47861,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,48012,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,48012,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,48315,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,48315,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,48618,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,48921,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,48921,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,49073,128,0,49527:45:45:45:45:LR_Kick Hard Fast.wav
+320,192,49527,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,49527,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,49830,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,50058,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,50285,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,50436,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,50436,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,50739,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,50739,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,51043,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,51346,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,51346,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,51649,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,51952,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,51952,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,52255,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,52558,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,52558,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,52861,128,0,53315:45:45:45:45:
+192,192,52861,1,0,0:45:45:45:LR_Drum Loud Bass Drop.wav
+320,192,53315,128,0,53770:45:45:45:45:
+64,192,53315,1,0,0:45:45:45:LR_Drum Loud Bass Drop.wav
+448,192,53770,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,53770,1,0,0:45:45:45:LR_Drum Loud Bass Drop.wav
+64,192,54073,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,54224,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,54376,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,54527,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,54982,1,0,0:3:45:45:LR_Drum Hit Clap Sn.wav
+448,192,54982,1,0,0:45:45:45:LR_Drum Finish.wav
+448,192,55285,5,0,0:45:45:45:LR_Drum Finish.wav
+64,192,55285,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,55588,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,55588,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,55891,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,56194,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,56194,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,56497,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,56800,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,56800,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,57103,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,57406,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,57406,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,57709,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,57709,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,58012,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,58012,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,58315,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,58618,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,58618,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,58921,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,59224,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,59224,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,59527,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,59830,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,59830,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,60133,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,60133,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,60436,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,60436,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,60739,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,61043,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,61043,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,61346,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,61649,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,61800,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,61952,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,62103,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,62255,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,62255,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,62558,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,62558,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,62861,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,62861,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,63164,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,63467,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,63467,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,63770,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,63921,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,64073,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,64224,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,64376,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,64527,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,64679,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,64830,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,64982,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,64982,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,65285,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,65588,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,65891,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,66194,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,66497,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,66800,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,67103,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,67103,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,67406,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,67406,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,67709,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,68012,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,68315,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,68618,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,68921,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,69224,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,69527,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,69830,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,69830,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,70133,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,70285,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,70739,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,71043,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,71043,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,71346,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,71497,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,71800,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,71952,1,0,0:45:45:45:LR_Drum Loud Bass Drop.wav
+320,192,72103,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,72255,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,72255,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,72558,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,72709,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,73012,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,73164,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,73467,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,73618,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,73921,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,74224,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,74376,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,74527,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,74679,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,74679,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,74982,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,75285,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,75436,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,75588,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,75891,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,76194,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,76497,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,76649,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+64,192,76800,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,77103,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,77406,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,77709,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,77861,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,78012,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,78315,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+448,192,78467,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+320,192,78618,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,78921,1,0,0:45:45:45:LR_Kick Hard Fast.wav
+192,192,79224,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,79527,1,0,0:45:45:45:LR_Drum Loud Bass Drop.wav
+64,192,79527,128,0,80133:45:45:45:45:LR_Drum Loud Bass Drop.wav
+192,192,80133,1,0,0:45:45:45:LR_Drum Loud Bass Drop.wav
+448,192,80133,128,0,80739:45:45:45:45:LR_Drum Loud Bass Drop.wav
+64,192,80739,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,80739,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,81043,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,81043,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,81497,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,81649,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,81800,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,81800,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,82255,1,0,0:45:45:45:LR_Drum Loud Bass Drop.wav
+448,192,82558,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,82861,1,0,0:45:45:45:LR_Drum Loud Bass Drop.wav
+320,192,83012,128,0,83315:45:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,83467,1,0,0:45:45:45:LR_Drum Loud Bass Drop.wav
+64,192,83770,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,84073,1,0,0:45:45:45:LR_Drum Loud Bass Drop.wav
+192,192,84224,128,0,84527:45:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,84679,1,0,0:45:45:45:LR_Drum Loud Bass Drop.wav
+64,192,84679,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,84982,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,85285,1,0,0:45:45:45:LR_Drum Loud Bass Drop.wav
+64,192,85436,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,85739,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,86043,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,86346,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+320,192,86649,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+192,192,86952,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,87255,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+64,192,87558,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav
+448,192,87861,128,0,88467:45:45:45:45:LR_Drum Finish.wav
+320,192,87861,1,0,0:45:45:45:LR_Drum Hit Clap Sn.wav

@@ -1,0 +1,586 @@
+osu file format v14
+
+[General]
+AudioFilename: Between August and December [e  OST] - Blow With The Fires.mp3
+AudioLeadIn: 2000
+PreviewTime: 38403
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.6
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1.6
+
+[Metadata]
+Title:Blow with the Fires
+TitleUnicode:Blow with the Fires
+Artist:Between August and December
+ArtistUnicode:Between August and December
+Creator:AnatOWJIya
+Version:4K Miku NM
+Source:Everlasting Summer
+Tags:Бесконечное Лето Dark Side iichan game soundtrack ost Russian bwtf instrumental metal [Shana Lesus] Kivicat Seikatu AJIekceu YellowManul Shadren Bakari OzzyOzrock
+BeatmapID:748746
+BeatmapSetID:275841
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:4
+OverallDifficulty:7
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"MikuBG.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+Sample,38003,0,"LR_Tom Normal.wav",20
+Sample,38203,0,"soft-hitclap.wav",20
+Sample,40003,0,"Crash_Short2.wav",30
+Sample,40803,0,"LR_CymbalCCR.wav",10
+Sample,41603,0,"soft-hitclap.wav",30
+Sample,42403,0,"LR_Drum Hit P.wav",25
+Sample,43203,0,"Clap_long(3)2.wav",20
+Sample,43203,0,"soft-hitclap.wav",30
+Sample,44003,0,"LR_Drum Hit P.wav",25
+Sample,44203,0,"LR_Drum Click.wav",20
+Sample,44803,0,"Crash_Short2.wav",50
+Sample,45603,0,"Crash_Short2.wav",30
+Sample,46403,0,"Clap_long(3)2.wav",20
+Sample,48003,0,"soft-hitclap.wav",30
+Sample,50803,0,"LR_Drum Click.wav",20
+Sample,51203,0,"Crash_Short2.wav",70
+Sample,52003,0,"Crash_Short2.wav",30
+Sample,56003,0,"LR_Tom Drop.wav",25
+Sample,56003,0,"LR_CymbalCCR.wav",10
+Sample,60003,0,"LR_CymbalCCR.wav",12
+Sample,60803,0,"soft-hitclap.wav",30
+Sample,62403,0,"soft-hitclap.wav",30
+Sample,62403,0,"Clap_long(3)2.wav",20
+Sample,64803,0,"Clap_long(3)2.wav",20
+Sample,65603,0,"Crash_Short2.wav",30
+Sample,67603,0,"LR_Drum Click.wav",20
+Sample,68203,0,"LR_Drum Click.wav",20
+Sample,69603,0,"LR_CymbalCCR.wav",10
+Sample,70403,0,"Crash_Short2.wav",50
+Sample,70603,0,"C6 -  - C.wav",40
+Sample,70803,0,"C5 -  - F.wav",35
+Sample,71003,0,"C6 -  - F.wav",40
+Sample,71203,0,"Crash_Short2.wav",30
+Sample,71403,0,"C5 -  - F.wav",35
+Sample,71603,0,"C6 -  - F.wav",40
+Sample,71803,0,"C6 -  - C.wav",40
+Sample,72003,0,"C5 -  - F.wav",35
+Sample,72003,0,"LR_CymbalCCR.wav",10
+Sample,72203,0,"C6 -  - F.wav",40
+Sample,72403,0,"C6 -  - C.wav",40
+Sample,72603,0,"C5 -  - F.wav",35
+Sample,72803,0,"Crash_Short2.wav",30
+Sample,73003,0,"C6 -  - C.wav",40
+Sample,73203,0,"C5 -  - F.wav",35
+Sample,73403,0,"C6 -  - F.wav",40
+Sample,73603,0,"Crash_Short2.wav",45
+Sample,73803,0,"C5 -  - F.wav",35
+Sample,73999,0,"C6 -  - F.wav",40
+Sample,74403,0,"C5 -  - F.wav",35
+Sample,74603,0,"C6 -  - F.wav",40
+Sample,74803,0,"C6 -  - C.wav",30
+Sample,75003,0,"C5 -  - F.wav",35
+Sample,75203,0,"Crash_Short2.wav",45
+Sample,75403,0,"C6 -  - D.wav",40
+Sample,75603,0,"C6 -  - D.wav",40
+Sample,75803,0,"C6 -  - G.wav",40
+Sample,76003,0,"LR_Drum Hit P.wav",25
+Sample,76003,0,"Clap_long(3)2.wav",20
+Sample,76203,0,"C6 -  - D.wav",40
+Sample,76403,0,"C6 -  - G.wav",40
+Sample,76603,0,"C6 -  - D.wav",40
+Sample,76803,0,"Crash_Short2.wav",45
+Sample,77003,0,"C6 -  - E.wav",40
+Sample,77403,0,"C6 -  - A.wav",40
+Sample,77603,0,"LR_Drum Hit P.wav",25
+Sample,77603,0,"C6 -  - E.wav",40
+Sample,78003,0,"C6 -  - A.wav",40
+Sample,78403,0,"C5 -  - A.wav",40
+Sample,78803,0,"C6 -  - E.wav",40
+Sample,79203,0,"LR_Drum Hit P.wav",25
+Sample,80003,0,"LR_CymbalCCR.wav",10
+Sample,80003,0,"C6 -  - E.wav",40
+Sample,80003,0,"soft-hitclap.wav",30
+Sample,80603,0,"C6 -  - E.wav",40
+Sample,80803,0,"LR_Drum Hit P.wav",25
+Sample,80803,0,"C5 -  - B.wav",40
+Sample,81403,0,"C5 -  - B.wav",40
+Sample,81603,0,"Crash_Short2.wav",30
+Sample,81603,0,"C6 -  - B.wav",40
+Sample,82003,0,"C5 -  - B.wav",40
+Sample,82203,0,"C6 -  - B.wav",40
+Sample,82403,0,"Crash_Short2.wav",30
+Sample,82403,0,"C6 -  - E.wav",40
+Sample,82603,0,"C5 -  - B.wav",40
+Sample,82803,0,"C6 -  - B.wav",40
+Sample,83003,0,"C6 -  - E.wav",40
+Sample,83203,0,"C6 -  - F.wav",40
+Sample,83203,0,"soft-hitclap.wav",30
+Sample,83403,0,"C6 -  - C.wav",40
+Sample,83603,0,"C5 -  - F.wav",35
+Sample,83803,0,"C6 -  - F.wav",40
+Sample,84003,0,"C6 -  - C.wav",40
+Sample,84003,0,"LR_CymbalCCR.wav",10
+Sample,84203,0,"C5 -  - F.wav",35
+Sample,84403,0,"C6 -  - F.wav",40
+Sample,84603,0,"C6 -  - C.wav",40
+Sample,84803,0,"C5 -  - F.wav",35
+Sample,85003,0,"C6 -  - F.wav",40
+Sample,85203,0,"C6 -  - C.wav",40
+Sample,85403,0,"C5 -  - F.wav",35
+Sample,85603,0,"C6 -  - F.wav",40
+Sample,85803,0,"C6 -  - C.wav",40
+Sample,86003,0,"C5 -  - F.wav",35
+Sample,86203,0,"C6 -  - F.wav",40
+Sample,86403,0,"C6 -  - C.wav",40
+Sample,88803,0,"soft-hitclap.wav",30
+Sample,88803,0,"Clap_long(3)2.wav",20
+Sample,90403,0,"LR_Drum Hit P.wav",25
+Sample,90803,0,"LR_Drum Click.wav",15
+Sample,91203,0,"soft-hitclap.wav",45
+Sample,91203,0,"Clap_long(3)2.wav",20
+Sample,92003,0,"Crash_Short2.wav",30
+Sample,92403,0,"LR_Drum Click.wav",15
+Sample,92803,0,"soft-hitclap.wav",30
+Sample,93603,0,"LR_Drum Hit P.wav",25
+Sample,93603,0,"Clap_long(3)2.wav",20
+Sample,94203,0,"soft-hitclap.wav",45
+Sample,94403,0,"soft-hitclap.wav",30
+Sample,95203,0,"Crash_Short2.wav",30
+Sample,95403,0,"LR_Drum Click.wav",15
+Sample,95403,0,"soft-hitclap.wav",70
+Sample,96803,0,"Crash_Short2.wav",30
+Sample,97403,0,"soft-hitclap.wav",30
+Sample,97603,0,"Clap_long(3)2.wav",20
+Sample,98403,0,"LR_Drum Hit P.wav",25
+Sample,99203,0,"Crash_Short2.wav",30
+Sample,100203,0,"soft-hitclap.wav",20
+Sample,100403,0,"LR_Tom Hit 3.wav",30
+Sample,100803,0,"LR_Tom Hit.wav",40
+Sample,101003,0,"soft-hitfinish.wav",30
+Sample,103203,0,"Crash_Short2.wav",30
+Sample,104803,0,"LR_Drum Hit P.wav",25
+Sample,105603,0,"Crash_Short2.wav",30
+Sample,106403,0,"LR_Drum Hit P.wav",25
+Sample,107203,0,"soft-hitclap.wav",30
+Sample,109603,0,"Crash_Short2.wav",30
+Sample,110403,0,"soft-hitclap.wav",30
+Sample,110403,0,"Clap_long(3)2.wav",20
+Sample,111203,0,"LR_Drum Hit P.wav",25
+Sample,112003,0,"LR_CymbalCCR.wav",10
+Sample,112003,0,"Clap_long(3)2.wav",20
+Sample,112803,0,"LR_Drum Hit P.wav",25
+Sample,113603,0,"LR_CymbalCCR.wav",10
+Sample,113603,0,"Clap_long(3)2.wav",20
+Sample,114403,0,"LR_Drum Hit P.wav",25
+Sample,115203,0,"soft-hitclap.wav",45
+
+[TimingPoints]
+3,800,4,2,1,40,1,0
+6403,-100,4,2,1,20,0,0
+37403,-100,4,2,1,40,0,0
+70403,-100,4,2,1,40,0,1
+115203,-100,4,2,1,40,0,0
+
+
+[HitObjects]
+64,192,6403,5,0,0:0:0:26:
+320,192,6803,1,0,0:0:0:13:
+192,192,7203,1,0,0:0:0:13:
+448,192,7603,128,0,8403:0:0:0:13:
+320,192,8003,1,0,0:0:0:26:
+64,192,8403,128,0,9603:0:0:0:13:
+192,192,9603,1,0,0:0:0:13:
+320,192,10003,1,0,0:0:0:13:
+448,192,10403,1,0,0:0:0:13:
+192,192,10803,128,0,11603:0:0:0:13:
+448,192,11203,1,0,0:0:0:26:
+320,192,11603,128,0,12803:0:0:0:13:
+64,192,12803,1,0,0:0:0:13:
+448,192,13203,1,0,0:0:0:13:
+192,192,13603,1,0,0:0:0:13:
+320,192,14003,128,0,15603:0:0:0:13:
+448,192,14403,1,0,0:0:0:0:
+64,192,15603,1,0,0:0:0:13:
+320,192,16003,1,0,0:0:0:13:
+448,192,16403,1,0,0:0:0:13:
+192,192,16803,1,0,0:0:0:13:
+64,192,17203,128,0,18003:0:0:0:13:
+320,192,17603,1,0,0:0:0:0:
+192,192,18003,128,0,19203:0:0:0:13:
+320,192,19203,1,0,0:0:0:13:
+64,192,19603,1,0,0:0:0:13:
+448,192,20003,1,0,0:0:0:13:
+192,192,20403,1,0,0:0:0:13:
+320,192,20803,1,0,0:0:0:26:
+64,192,21203,128,0,22403:0:0:0:13:
+192,192,21603,1,0,0:0:0:0:
+448,192,22403,1,0,0:0:0:13:
+192,192,22803,1,0,0:0:0:13:
+320,192,23203,1,0,0:0:0:13:
+448,192,23603,128,0,24403:0:0:0:13:
+64,192,24003,1,0,0:0:0:26:
+320,192,24403,128,0,25603:0:0:0:13:
+64,192,25603,1,0,0:0:0:13:
+448,192,26003,1,0,0:0:0:13:
+320,192,26403,1,0,0:0:0:13:
+192,192,26803,128,0,27603:0:0:0:13:
+64,192,27203,1,0,0:0:0:26:
+448,192,27603,128,0,28803:0:0:0:13:
+64,192,28003,1,0,0:0:0:26:
+320,192,28403,1,0,0:0:0:13:
+192,192,28803,1,0,0:0:0:26:
+64,192,29203,1,0,0:0:0:13:
+192,192,29603,1,0,0:0:0:26:
+320,192,30003,1,0,0:0:0:8:
+448,192,30403,128,0,32003:0:0:0:26:
+192,192,30803,1,0,0:0:0:0:
+64,192,32003,1,0,0:0:0:26:
+320,192,32403,1,0,0:0:0:13:
+192,192,32803,1,0,0:0:0:13:
+448,192,33203,128,0,34003:0:0:0:13:
+64,192,33603,1,0,0:0:0:26:
+192,192,34003,128,0,34803:0:0:0:13:
+320,192,34803,1,0,0:0:0:13:
+448,192,35203,1,0,0:0:0:26:
+64,192,35603,1,0,0:0:0:13:
+320,192,36003,1,0,0:0:0:26:
+192,192,36403,1,0,0:0:0:8:
+320,192,37403,1,0,0:0:0:40:soft-hitclap.wav
+64,192,37603,1,4,0:0:0:40:LR_Tom Hit.wav
+448,192,37603,1,0,0:0:0:0:
+192,192,37803,1,2,0:0:0:20:soft-hitclap.wav
+320,192,38003,1,0,0:0:0:20:LR_Drum Hit P.wav
+192,192,38203,1,0,0:0:0:30:soft-hitclap.wav
+448,192,38403,1,8,0:0:0:30:soft-hitclap.wav
+64,192,38403,1,0,0:0:0:30:Crash_Short2.wav
+320,192,38803,1,0,0:0:0:0:
+64,192,39203,1,4,0:0:0:25:LR_Drum Hit P.wav
+448,192,39203,1,0,0:0:0:30:Crash_Short2.wav
+192,192,39603,1,0,0:0:0:0:
+64,192,39803,1,8,0:0:0:30:soft-hitclap.wav
+320,192,40003,1,8,0:0:0:25:soft-hitclap.wav
+448,192,40403,1,8,0:0:0:30:soft-hitclap.wav
+64,192,40803,1,0,0:0:0:30:Clap_long(3)2.wav
+320,192,40803,1,4,0:0:0:25:LR_Drum Hit P.wav
+192,192,41403,1,4,0:0:0:25:LR_Drum Hit P.wav
+448,192,41603,1,0,0:0:0:30:Crash_Short2.wav
+320,192,42003,1,8,0:0:0:30:soft-hitclap.wav
+192,192,42403,1,0,0:0:0:30:Crash_Short2.wav
+64,192,42803,1,0,0:0:0:26:
+320,192,43003,1,8,0:0:0:30:soft-hitclap.wav
+448,192,43203,1,0,0:0:0:10:LR_CymbalCCR.wav
+192,192,43603,1,0,0:0:0:30:soft-hitclap.wav
+320,192,44003,1,0,0:0:0:30:Crash_Short2.wav
+64,192,44203,1,2,0:0:0:20:LR_Drum Hit P.wav
+320,192,44403,1,4,0:0:0:30:soft-hitclap.wav
+64,192,44603,1,8,0:0:0:20:LR_Drum Hit P.wav
+192,192,44803,1,0,0:0:0:20:LR_Drum Click.wav
+448,192,44803,1,2,0:0:0:30:soft-hitclap.wav
+320,192,45203,1,0,0:0:0:20:LR_Drum Click.wav
+64,192,45403,1,8,0:0:0:30:soft-hitclap.wav
+448,192,45603,1,4,0:0:0:25:LR_Drum Hit P.wav
+192,192,46003,1,8,0:0:0:20:LR_Drum Click.wav
+320,192,46203,1,8,0:0:0:30:soft-hitclap.wav
+448,192,46403,1,8,0:0:0:30:soft-hitclap.wav
+64,192,46403,1,0,0:0:0:10:LR_CymbalCCR.wav
+192,192,46803,1,8,0:0:0:30:soft-hitclap.wav
+320,192,47203,1,0,0:0:0:30:Crash_Short2.wav
+64,192,47203,1,2,0:0:0:25:LR_Drum Hit P.wav
+448,192,47603,1,8,0:0:0:30:soft-hitclap.wav
+64,192,48003,1,0,0:0:0:30:Crash_Short2.wav
+448,192,48403,1,4,0:0:0:30:LR_Tom Normal.wav
+192,192,48803,1,0,0:0:0:25:LR_Drum Hit P.wav
+64,192,49003,1,4,0:0:0:30:soft-hitclap.wav
+448,192,49003,1,0,0:0:0:0:
+320,192,49203,1,0,0:0:0:0:
+192,192,49403,1,8,0:0:0:45:soft-hitclap.wav
+64,192,49603,1,2,0:0:0:30:LR_Tom Normal.wav
+320,192,49803,1,8,0:0:0:30:LR_Tom Drop.wav
+448,192,50003,1,2,0:0:0:30:soft-hitclap.wav
+192,192,50203,1,2,0:0:0:30:LR_Tom Drop.wav
+64,192,50403,1,0,0:0:0:25:LR_Drum Hit P.wav
+320,192,50603,1,8,0:0:0:30:soft-hitclap.wav
+448,192,50803,1,8,0:0:0:30:soft-hitclap.wav
+320,192,51203,1,0,0:0:0:13:
+64,192,51203,1,4,0:0:0:30:soft-hitclap.wav
+192,192,51603,1,0,0:0:0:0:
+64,192,52003,1,0,0:0:0:17:
+448,192,52003,1,0,0:0:0:25:LR_Drum Hit P.wav
+192,192,52403,1,2,0:0:0:20:LR_Drum Click.wav
+320,192,52603,1,8,0:0:0:30:soft-hitclap.wav
+448,192,52803,1,0,0:0:0:30:Crash_Short2.wav
+64,192,52803,1,8,0:0:0:30:soft-hitclap.wav
+192,192,53203,1,8,0:0:0:30:soft-hitclap.wav
+320,192,53603,1,4,0:0:0:25:LR_Drum Hit P.wav
+448,192,53603,1,0,0:0:0:30:Crash_Short2.wav
+192,192,54203,1,8,0:0:0:30:soft-hitclap.wav
+448,192,54403,1,4,0:0:0:30:soft-hitclap.wav
+64,192,54403,1,0,0:0:0:30:Crash_Short2.wav
+320,192,54803,1,8,0:0:0:30:soft-hitclap.wav
+64,192,55203,1,4,0:0:0:25:LR_Drum Hit P.wav
+192,192,55203,1,0,0:0:0:30:Crash_Short2.wav
+320,192,55603,1,2,0:0:0:20:LR_Drum Click.wav
+192,192,55803,1,8,0:0:0:25:LR_Tom Normal.wav
+448,192,56003,1,0,0:0:0:20:Clap_long(3)2.wav
+64,192,56403,1,8,0:0:0:30:LR_Tom Hit 2.wav
+320,192,56403,1,0,0:0:0:26:
+192,192,56803,1,2,0:0:0:25:LR_Drum Hit P.wav
+64,192,57003,1,8,0:0:0:50:LR_Tom Hit 2.wav
+448,192,57203,1,8,0:0:0:50:LR_Tom Hit 3.wav
+192,192,57603,1,0,0:0:0:50:Crash_Short2.wav
+320,192,57603,1,2,0:0:0:30:soft-hitclap.wav
+64,192,58003,1,0,0:0:0:53:
+192,192,58203,1,8,0:0:0:30:soft-hitclap.wav
+448,192,58403,1,4,0:0:0:25:LR_Drum Hit P.wav
+320,192,58403,1,0,0:0:0:30:Crash_Short2.wav
+192,192,58803,1,0,0:0:0:0:
+64,192,59003,1,8,0:0:0:30:soft-hitclap.wav
+320,192,59203,1,4,0:0:0:30:soft-hitclap.wav
+448,192,59203,1,0,0:0:0:30:Crash_Short2.wav
+64,192,59603,128,8,60003:0:0:0:30:soft-hitclap.wav
+320,192,60003,1,4,0:0:0:25:LR_Drum Hit P.wav
+192,192,60403,1,8,0:0:0:30:soft-hitclap.wav
+448,192,60603,1,4,0:0:0:25:LR_Drum Hit P.wav
+320,192,60803,1,0,0:0:0:30:Crash_Short2.wav
+192,192,61203,1,8,0:0:0:30:soft-hitclap.wav
+320,192,61603,1,4,0:0:0:25:LR_Drum Hit P.wav
+448,192,61603,1,0,0:0:0:30:Crash_Short2.wav
+192,192,62003,1,0,0:0:0:0:
+64,192,62203,1,8,0:0:0:30:soft-hitclap.wav
+192,192,62403,1,0,0:0:0:10:LR_CymbalCCR.wav
+320,192,62803,1,8,0:0:0:30:soft-hitclap.wav
+192,192,63203,1,0,0:0:0:30:Crash_Short2.wav
+64,192,63203,1,4,0:0:0:25:LR_Drum Hit P.wav
+448,192,63403,1,8,0:0:0:30:soft-hitclap.wav
+320,192,63603,1,2,0:0:0:30:soft-hitclap.wav
+64,192,64003,1,0,0:0:0:60:Crash_Short2.wav
+448,192,64003,1,4,0:0:0:30:soft-hitclap.wav
+320,192,64403,1,0,0:0:0:0:
+64,192,64603,1,8,0:0:0:30:soft-hitclap.wav
+192,192,64803,1,0,0:0:0:10:LR_CymbalCCR.wav
+448,192,64803,1,4,0:0:0:25:LR_Drum Hit P.wav
+448,192,65403,1,0,0:0:0:30:soft-hitclap.wav
+320,192,65603,1,0,0:0:0:17:
+64,192,65603,1,8,0:0:0:30:soft-hitclap.wav
+192,192,66003,1,8,0:0:0:30:soft-hitclap.wav
+64,192,66403,1,4,0:0:0:25:LR_Drum Hit P.wav
+448,192,66403,1,0,0:0:0:30:Crash_Short2.wav
+192,192,66803,1,2,0:0:0:30:soft-hitclap.wav
+64,192,67003,1,2,0:0:0:30:LR_Tom Hit.wav
+448,192,67203,1,0,0:0:0:30:Crash_Short2.wav
+320,192,67203,1,4,0:0:0:30:LR_Tom Hit.wav
+192,192,67603,1,2,0:0:0:30:soft-hitclap.wav
+192,192,68003,1,4,0:0:0:50:LR_Tom Hit.wav
+448,192,68003,1,0,0:0:0:20:LR_Drum Click.wav
+64,192,68203,1,2,0:0:0:50:LR_Tom Hit.wav
+192,192,68403,1,4,0:0:0:50:LR_Tom Hit.wav
+448,192,68403,1,0,0:0:0:20:LR_Drum Click.wav
+320,192,68603,1,8,0:0:0:30:soft-hitclap.wav
+64,192,68803,1,4,0:0:0:30:soft-hitclap.wav
+448,192,68803,1,0,0:0:0:50:Crash_Short2.wav
+192,192,69603,1,0,0:0:0:20:Clap_long(3)2.wav
+64,192,70403,1,0,0:0:0:40:C6 -  - F.wav
+448,192,70403,1,8,0:0:0:30:soft-hitclap.wav
+320,192,70803,1,0,0:0:0:30:soft-hitclap.wav
+192,192,71203,1,0,0:0:0:40:C6 -  - C.wav
+448,192,71203,1,4,0:0:0:25:LR_Drum Hit P.wav
+64,192,71603,1,8,0:0:0:30:soft-hitclap.wav
+320,192,71803,1,4,0:0:0:30:soft-hitclap.wav
+192,192,72003,1,0,0:0:0:20:Clap_long(3)2.wav
+448,192,72403,1,0,0:0:0:30:soft-hitclap.wav
+192,192,72803,1,0,0:0:0:40:C6 -  - F.wav
+320,192,72803,1,4,0:0:0:25:LR_Drum Hit P.wav
+64,192,73203,1,0,0:0:0:30:soft-hitclap.wav
+320,192,73603,1,0,0:0:0:40:C6 -  - C.wav
+448,192,73603,1,4,0:0:0:30:soft-hitclap.wav
+192,192,74003,1,0,0:0:0:30:soft-hitclap.wav
+320,192,74203,1,0,0:0:0:40:C6 -  - C.wav
+64,192,74203,1,4,0:0:0:25:LR_Drum Hit P.wav
+448,192,74403,1,0,0:0:0:30:Crash_Short2.wav
+192,192,74803,1,0,0:0:0:25:LR_Drum Hit P.wav
+448,192,75203,1,0,0:0:0:30:soft-hitclap.wav
+64,192,75203,1,0,0:0:0:40:C6 -  - G.wav
+192,192,75603,1,0,0:0:0:30:soft-hitclap.wav
+64,192,76003,1,0,0:0:0:40:C6 -  - D.wav
+320,192,76003,1,0,0:0:0:10:LR_CymbalCCR.wav
+448,192,76403,1,8,0:0:0:30:soft-hitclap.wav
+192,192,76803,1,4,0:0:0:30:soft-hitclap.wav
+64,192,76803,1,0,0:0:0:40:C6 -  - A.wav
+448,192,77203,1,0,0:0:0:40:C5 -  - A.wav
+320,192,77403,1,0,0:0:0:30:soft-hitfinish.wav
+192,192,77603,1,0,0:0:0:10:LR_CymbalCCR.wav
+64,192,77803,1,0,0:0:0:40:C5 -  - A.wav
+192,192,78003,1,8,0:0:0:30:soft-hitclap.wav
+320,192,78203,1,0,0:0:0:40:C6 -  - E.wav
+192,192,78403,1,0,0:0:0:30:Crash_Short2.wav
+64,192,78603,5,0,0:0:0:40:C6 -  - A.wav
+192,192,78803,1,0,0:0:0:30:soft-hitclap.wav
+320,192,79003,5,0,0:0:0:40:C5 -  - A.wav
+64,192,79203,1,0,0:0:0:30:Crash_Short2.wav
+448,192,79203,1,0,0:0:0:40:C6 -  - A.wav
+192,192,79403,1,0,0:0:0:40:C6 -  - E.wav
+320,192,79603,5,0,0:0:0:40:C5 -  - A.wav
+192,192,79803,1,0,0:0:0:40:C6 -  - A.wav
+64,192,80003,128,0,80203:0:0:0:20:Clap_long(3)2.wav
+192,192,80203,128,0,80403:0:0:0:40:C5 -  - B.wav
+320,192,80403,128,0,80603:0:0:0:40:C6 -  - B.wav
+448,192,80603,128,0,80803:0:0:0:30:soft-hitclap.wav
+64,192,80803,128,0,81003:0:0:0:30:Crash_Short2.wav
+192,192,81003,128,0,81203:0:0:0:40:C6 -  - B.wav
+320,192,81203,128,0,81403:0:0:0:40:C6 -  - E.wav
+192,192,81403,128,0,81603:0:0:0:25:LR_Drum Hit P.wav
+64,192,81603,128,8,81803:0:0:0:30:soft-hitclap.wav
+192,192,81803,128,0,82003:0:0:0:40:C6 -  - E.wav
+320,192,82003,128,8,82203:0:0:0:30:soft-hitclap.wav
+448,192,82203,128,0,82403:0:0:0:30:soft-hitclap.wav
+320,192,82403,128,2,82603:0:0:0:25:LR_Drum Hit P.wav
+64,192,82603,128,0,82803:0:0:0:30:soft-hitclap.wav
+448,192,82803,128,0,83003:0:0:0:15:soft-hitclap.wav
+192,192,83003,128,0,83203:0:0:0:15:soft-hitclap.wav
+320,192,83203,1,0,0:0:0:45:Crash_Short2.wav
+64,192,83603,1,8,0:0:0:30:soft-hitclap.wav
+320,192,84003,1,4,0:0:0:25:LR_Drum Hit P.wav
+448,192,84403,1,4,0:0:0:30:soft-hitclap.wav
+192,192,84603,1,8,0:0:0:30:soft-hitclap.wav
+320,192,84803,1,0,0:0:0:30:Crash_Short2.wav
+64,192,85203,1,0,0:0:0:30:soft-hitclap.wav
+192,192,85603,1,0,0:0:0:30:Crash_Short2.wav
+320,192,85603,1,4,0:0:0:25:LR_Drum Hit P.wav
+448,192,86003,1,2,0:0:0:30:soft-hitclap.wav
+320,192,86403,1,0,0:0:0:45:Crash_Short2.wav
+192,192,86403,1,4,0:0:0:30:soft-hitclap.wav
+64,192,86803,1,2,0:0:0:30:soft-hitclap.wav
+192,192,87203,1,8,0:0:0:25:LR_Drum Hit P.wav
+320,192,87603,1,4,0:0:0:25:LR_Drum Hit P.wav
+448,192,87803,1,8,0:0:0:30:soft-hitclap.wav
+192,192,88003,1,0,0:0:0:45:Crash_Short2.wav
+64,192,88003,1,2,0:0:0:30:soft-hitclap.wav
+320,192,88403,1,8,0:0:0:30:soft-hitclap.wav
+64,192,88803,1,0,0:0:0:10:LR_CymbalCCR.wav
+192,192,89203,1,2,0:0:0:30:soft-hitclap.wav
+448,192,89603,1,0,0:0:0:45:Crash_Short2.wav
+320,192,89603,1,4,0:0:0:30:soft-hitclap.wav
+64,192,90003,1,0,0:0:0:53:
+448,192,90403,1,0,0:0:0:30:Crash_Short2.wav
+192,192,91003,1,8,0:0:0:30:soft-hitclap.wav
+64,192,91203,1,0,0:0:0:10:LR_CymbalCCR.wav
+320,192,91603,1,0,0:0:0:30:soft-hitclap.wav
+448,192,92003,1,4,0:0:0:25:LR_Drum Hit P.wav
+64,192,92603,1,8,0:0:0:20:LR_Drum Hit P.wav
+192,192,92803,1,0,0:0:0:30:Crash_Short2.wav
+448,192,93203,1,8,0:0:0:30:soft-hitclap.wav
+320,192,93603,1,0,0:0:0:10:LR_CymbalCCR.wav
+448,192,94003,1,2,0:0:0:15:LR_Drum Click.wav
+64,192,94203,1,8,0:0:0:30:soft-hitclap.wav
+192,192,94403,1,0,0:0:0:30:Crash_Short2.wav
+320,192,94803,1,8,0:0:0:30:soft-hitclap.wav
+192,192,95203,1,4,0:0:0:25:LR_Drum Hit P.wav
+448,192,95403,1,2,0:0:0:30:soft-hitclap.wav
+320,192,95603,1,8,0:0:0:30:soft-hitclap.wav
+192,192,95803,1,2,0:0:0:20:LR_Drum Hit P.wav
+448,192,96003,1,0,0:0:0:45:Crash_Short2.wav
+64,192,96003,1,4,0:0:0:45:soft-hitclap.wav
+192,192,96403,1,0,0:0:0:0:
+320,192,96603,1,8,0:0:0:30:soft-hitclap.wav
+64,192,96803,1,4,0:0:0:25:LR_Drum Hit P.wav
+448,192,97203,1,0,0:0:0:0:
+192,192,97403,1,0,0:0:0:30:soft-hitclap.wav
+64,192,97603,1,0,0:0:0:10:LR_CymbalCCR.wav
+320,192,97603,1,4,0:0:0:30:soft-hitclap.wav
+192,192,98003,1,8,0:0:0:30:soft-hitclap.wav
+448,192,98403,1,0,0:0:0:30:Crash_Short2.wav
+192,192,98803,1,2,0:0:0:30:soft-hitclap.wav
+64,192,99203,1,8,0:0:0:45:soft-hitclap.wav
+192,192,99603,1,0,0:0:0:30:LR_Tom Hit.wav
+320,192,100003,1,0,0:0:0:20:LR_Drum Hit P.wav
+64,192,100003,1,4,0:0:0:30:LR_Tom Hit.wav
+448,192,100203,1,8,0:0:0:30:LR_Tom Drop.wav
+192,192,100603,1,8,0:0:0:30:soft-hitclap.wav
+64,192,100803,1,0,0:0:0:15:LR_Drum Click.wav
+192,192,101003,1,8,0:0:0:20:soft-hitclap.wav
+320,192,101203,1,2,0:0:0:15:soft-hitclap.wav
+448,192,101403,1,8,0:0:0:20:LR_Tom Normal.wav
+192,192,101603,1,2,0:0:0:25:LR_Drum Hit P.wav
+320,192,101603,1,0,0:0:0:26:
+64,192,101803,1,8,0:0:0:30:soft-hitclap.wav
+448,192,101803,1,0,0:0:0:0:
+320,192,102003,1,2,0:0:0:30:soft-hitclap.wav
+192,192,102003,1,0,0:0:0:26:
+64,192,102403,1,0,0:0:0:45:Crash_Short2.wav
+448,192,102403,1,4,0:0:0:30:soft-hitclap.wav
+192,192,102803,1,0,0:0:0:0:
+448,192,103203,1,0,0:0:0:17:
+64,192,103203,1,4,0:0:0:25:LR_Drum Hit P.wav
+192,192,103603,1,0,0:0:0:0:
+448,192,103803,1,8,0:0:0:30:soft-hitclap.wav
+320,192,104003,1,4,0:0:0:30:soft-hitclap.wav
+64,192,104003,1,0,0:0:0:30:Crash_Short2.wav
+192,192,104403,1,8,0:0:0:30:soft-hitclap.wav
+448,192,104803,1,0,0:0:0:10:LR_CymbalCCR.wav
+320,192,105403,1,2,0:0:0:20:LR_Drum Hit P.wav
+64,192,105603,1,4,0:0:0:30:soft-hitclap.wav
+320,192,106003,1,0,0:0:0:30:soft-hitclap.wav
+448,192,106403,1,0,0:0:0:30:Crash_Short2.wav
+320,192,106803,1,0,0:0:0:26:
+192,192,107003,1,4,0:0:0:30:soft-hitclap.wav
+64,192,107203,1,0,0:0:0:17:
+64,192,107603,1,8,0:0:0:30:soft-hitclap.wav
+320,192,108003,1,0,0:0:0:25:LR_Drum Hit P.wav
+192,192,108203,1,8,0:0:0:30:soft-hitclap.wav
+448,192,108403,1,8,0:0:0:30:soft-hitclap.wav
+320,192,108803,1,8,0:0:0:30:soft-hitclap.wav
+64,192,108803,1,0,0:0:0:45:Crash_Short2.wav
+192,192,109203,1,0,0:0:0:0:
+64,192,109403,1,8,0:0:0:30:soft-hitclap.wav
+448,192,109403,1,0,0:0:0:0:
+320,192,109603,1,4,0:0:0:25:LR_Drum Hit P.wav
+192,192,110003,1,0,0:0:0:26:
+320,192,110203,1,4,0:0:0:30:soft-hitclap.wav
+64,192,110203,1,0,0:0:0:0:
+448,192,110403,1,0,0:0:0:10:LR_CymbalCCR.wav
+64,192,110803,1,8,0:0:0:30:soft-hitclap.wav
+192,192,111203,1,0,0:0:0:30:Crash_Short2.wav
+320,192,111603,1,8,0:0:0:30:soft-hitclap.wav
+448,192,111803,1,2,0:0:0:20:LR_Drum Hit P.wav
+320,192,112003,1,4,0:0:0:30:soft-hitclap.wav
+64,192,112403,1,2,0:0:0:15:LR_Drum Hit P.wav
+320,192,112803,1,0,0:0:0:30:Crash_Short2.wav
+192,192,113203,1,0,0:0:0:0:
+320,192,113403,1,8,0:0:0:30:soft-hitclap.wav
+448,192,113603,1,8,0:0:0:45:soft-hitclap.wav
+192,192,114003,1,8,0:0:0:30:soft-hitclap.wav
+448,192,114403,1,0,0:0:0:30:Crash_Short2.wav
+320,192,114603,1,8,0:0:0:30:soft-hitclap.wav
+64,192,114803,1,2,0:0:0:30:soft-hitclap.wav
+448,192,115203,1,0,0:0:0:50:Crash_Short2.wav
+64,192,115603,1,0,0:0:0:53:
+448,192,116003,1,0,0:0:0:53:
+192,192,116403,1,0,0:0:0:53:
+448,192,116803,1,0,0:0:0:50:Crash_Short2.wav
+64,192,116803,1,8,0:0:0:45:soft-hitclap.wav
+320,192,117203,1,0,0:0:0:53:
+448,192,118003,1,0,0:0:0:53:
+192,192,118403,128,8,120003:0:0:0:45:soft-hitclap.wav
+320,192,118403,128,0,120003:0:0:0:50:Crash_Short2.wav
+64,192,120003,128,0,123203:0:0:0:70:Crash_Short2.wav
+448,192,120003,128,8,123203:0:0:0:45:soft-hitclap.wav

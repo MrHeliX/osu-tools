@@ -1,0 +1,86 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 67
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1.5
+BeatDivisor: 16
+GridSize: 32
+TimelineZoom: 1
+
+[Metadata]
+Title:e
+TitleUnicode:e
+Artist:tatatat
+ArtistUnicode:tatatat
+Creator:tatatat
+Version:kantan
+Source:
+Tags:music box mathematical constant Leonhard Euler
+BeatmapID:1765974
+BeatmapSetID:844183
+
+[Difficulty]
+HPDrainRate:10
+CircleSize:2
+OverallDifficulty:1
+ApproachRate:10
+SliderMultiplier:1.6
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"thelettere.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+67,857.142857142857,6,1,0,100,1,0
+
+
+[HitObjects]
+256,192,66,5,0,0:0:0:0:
+256,192,923,1,8,0:0:0:0:
+256,192,1780,1,0,0:0:0:0:
+256,192,3494,1,0,0:0:0:0:
+256,192,5208,1,8,0:0:0:0:
+256,192,6923,1,8,0:0:0:0:
+256,192,8637,1,8,0:0:0:0:
+256,192,10351,1,0,0:0:0:0:
+256,192,11208,1,8,0:0:0:0:
+256,192,12065,1,8,0:0:0:0:
+256,192,13780,1,0,0:0:0:0:
+256,192,14637,1,8,0:0:0:0:
+256,192,15494,1,0,0:0:0:0:
+256,192,17208,1,8,0:0:0:0:
+256,192,18065,1,0,0:0:0:0:
+256,192,18923,1,8,0:0:0:0:
+256,192,20637,1,0,0:0:0:0:
+256,192,22351,1,8,0:0:0:0:
+256,192,23208,1,8,0:0:0:0:
+256,192,24065,1,0,0:0:0:0:
+256,192,25780,1,8,0:0:0:0:
+256,192,26637,1,0,0:0:0:0:
+256,192,27494,1,0,0:0:0:0:
+256,192,29208,1,0,0:0:0:0:
+256,192,30923,1,8,0:0:0:0:
+256,192,32637,1,0,0:0:0:0:
+256,192,33494,1,8,0:0:0:0:
+256,192,34351,1,8,0:0:0:0:
+256,192,36065,1,0,0:0:0:0:
+256,192,36923,1,8,0:0:0:0:
+256,192,37780,1,0,0:0:0:0:
+256,192,39494,1,8,0:0:0:0:

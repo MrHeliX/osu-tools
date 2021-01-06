@@ -1,0 +1,98 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 1311
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 2
+GridSize: 32
+TimelineZoom: 0.8999999
+
+[Metadata]
+Title:226 - Inoshikachoo!
+TitleUnicode:226 - ｲﾉｼｶﾁｮｰ!
+Artist:saradisk
+ArtistUnicode:saradisk
+Creator:Jaltzu
+Version:Beginner
+Source:
+Tags:japanese electronic saradisc 皿 sara anime naruto novelty ナルト
+BeatmapID:2347220
+BeatmapSetID:1123258
+
+[Difficulty]
+HPDrainRate:9.5
+CircleSize:2
+OverallDifficulty:2
+ApproachRate:0
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"168603.jpg",0,90
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+1400,352.941176470588,4,1,0,60,1,0
+11282,-100,4,1,0,40,0,0
+12694,-100,4,1,0,60,0,0
+23988,-100,4,1,0,60,0,1
+33870,-100,4,1,0,50,0,0
+
+
+[HitObjects]
+256,192,1400,5,0,0:0:0:0:
+256,192,2105,1,8,0:0:0:0:
+256,192,2811,1,0,0:0:0:0:
+256,192,3517,1,0,0:0:0:0:
+256,192,4576,1,8,0:0:0:0:
+256,192,5635,1,0,0:0:0:0:
+256,192,6341,1,8,0:0:0:0:
+256,192,7752,1,8,0:0:0:0:
+256,192,8458,1,0,0:0:0:0:
+256,192,9164,1,0,0:0:0:0:
+256,192,10223,1,8,0:0:0:0:
+256,192,11282,1,0,0:0:0:0:
+256,192,12694,5,4,0:0:0:0:
+256,192,13399,1,8,0:0:0:0:
+256,192,14105,1,0,0:0:0:0:
+256,192,15517,1,0,0:0:0:0:
+256,192,16223,1,0,0:0:0:0:
+256,192,16929,1,8,0:0:0:0:
+256,192,18341,1,0,0:0:0:0:
+256,192,19047,1,8,0:0:0:0:
+256,192,19752,1,0,0:0:0:0:
+256,192,21164,1,0,0:0:0:0:
+256,192,21870,1,8,0:0:0:0:
+256,192,22576,1,8,0:0:0:0:
+256,192,23988,5,4,0:0:0:0:
+256,192,24694,1,8,0:0:0:0:
+256,192,25399,1,0,0:0:0:0:
+256,192,25752,1,8,0:0:0:0:
+256,192,26811,1,0,0:0:0:0:
+256,192,27517,1,0,0:0:0:0:
+256,192,28223,1,8,0:0:0:0:
+256,192,29635,1,4,0:0:0:0:
+256,192,30341,1,8,0:0:0:0:
+256,192,31047,1,0,0:0:0:0:
+256,192,31399,1,8,0:0:0:0:
+256,192,32458,1,0,0:0:0:0:
+256,192,33164,1,8,0:0:0:0:
+256,192,33870,1,0,0:0:0:0:
+256,192,34576,1,8,0:0:0:0:

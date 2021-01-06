@@ -1,0 +1,66 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 1
+SampleSet: None
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 53600
+DistanceSpacing: 0.9
+BeatDivisor: 4
+GridSize: 32
+TimelineZoom: 1.4
+
+[Metadata]
+Title:Nanatsu Koyoto
+TitleUnicode:七つ紅葉灯
+Artist:A.SAKA
+ArtistUnicode:A.SAKA
+Creator:ailv
+Version:Hard
+Source:
+Tags:木製みゅーと 神楽ノ花
+BeatmapID:1769355
+BeatmapSetID:770521
+
+[Difficulty]
+HPDrainRate:5
+CircleSize:4
+OverallDifficulty:7
+ApproachRate:8
+SliderMultiplier:1.8
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Loundraw.full.214746799.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+267,333.333333333333,4,2,1,90,1,0
+21600,-83.3333333333333,4,2,1,90,0,1
+43266,-100,4,2,1,90,0,0
+53600,-111.111111111111,4,2,1,90,0,0
+138933,363.636363636364,4,2,1,90,1,0
+142205,545.454545454546,4,2,1,90,1,0
+143295,566.037735849057,4,2,1,90,1,0
+143578,588.235294117647,4,2,1,90,1,0
+143872,612.244897959184,4,2,1,90,1,0
+144178,638.297872340426,4,2,1,90,1,0
+144497,600,4,2,1,90,1,0
+
+
+[HitObjects]
+107,166,21600,6,0,L|221:156,1,107.999996704102

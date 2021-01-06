@@ -1,0 +1,165 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 1022
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 0
+SamplesMatchPlaybackRate: 1
+
+[Editor]
+DistanceSpacing: 0.9
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1
+
+[Metadata]
+Title:Jingle Bells
+TitleUnicode:Jingle Bells
+Artist:Altria Pendragon (Santa Alter) (CV : Ayako Kawasumi)
+ArtistUnicode:アルトリア・ペンドラゴン ［サンタオルタ］ (CV : 川澄 綾子)
+Creator:Julie
+Version:Alter Normal
+Source:Fate/Grand Order
+Tags:Padoru Saber Seiba セイバー Arturia Artoria Arthur King of Knights Christmas 2015 Event Re-run Takeuchi Takashi
+BeatmapID:1458876
+BeatmapSetID:689134
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:4
+OverallDifficulty:7
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"BG.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+1022,566.037735849057,4,1,1,30,1,0
+1022,-95.2380952380952,4,1,1,30,0,0
+1305,540.540540540541,4,1,1,30,1,0
+9717,612.244897959184,4,1,11,30,1,0
+9717,-88.4955752212389,4,1,11,30,0,0
+10023,517.241379310345,4,1,11,30,1,0
+10023,-105.263157894737,4,1,11,30,0,0
+18147,566.037735849057,4,1,1,30,1,0
+18147,-95.2380952380952,4,1,1,30,0,0
+18430,540.540540540541,4,1,1,30,1,0
+26842,612.244897959184,4,1,11,30,1,0
+26842,-88.4955752212389,4,1,11,30,0,0
+27148,517.241379310345,4,1,11,30,1,0
+27148,-105.263157894737,4,1,11,30,0,0
+
+
+[HitObjects]
+320,192,1022,5,0,0:0:0:30:LR_NBell_C6.wav
+64,192,1305,1,0,0:0:0:30:LR_NBell_C6.wav
+448,192,1575,1,0,0:0:0:30:LR_NBell_A6.wav
+192,192,1845,1,0,0:0:0:30:LR_NBell_G6.wav
+320,192,2115,1,0,0:0:0:30:LR_NBell_F6.wav
+64,192,2386,128,0,2926:0:0:0:30:LR_NBell_C6.wav
+320,192,3196,1,0,0:0:0:30:LR_NBell_C6.wav
+192,192,3467,1,0,0:0:0:30:LR_NBell_C6.wav
+448,192,3737,1,0,0:0:0:30:LR_NBell_A6.wav
+320,192,4007,1,0,0:0:0:30:LR_NBell_G6.wav
+64,192,4277,1,0,0:0:0:30:LR_NBell_F6.wav
+192,192,4548,128,0,5088:0:0:0:30:LR_NBell_D6.wav
+320,192,5359,1,0,0:0:0:30:LR_NBell_D6.wav
+64,192,5629,1,0,0:0:0:30:LR_NBell_D6.wav
+448,192,5899,1,0,0:0:0:30:LR_NBell_A#6.wav
+192,192,6169,1,0,0:0:0:30:LR_NBell_A6.wav
+64,192,6440,1,0,0:0:0:30:LR_NBell_G6.wav
+320,192,6710,128,0,7250:0:0:0:30:LR_NBell_E6.wav
+192,192,7521,1,0,0:0:0:30:C7.wav
+448,192,7791,1,0,0:0:0:30:C7.wav
+192,192,8061,1,0,0:0:0:30:C7.wav
+320,192,8332,1,0,0:0:0:30:LR_NBell_A#6.wav
+64,192,8602,1,0,0:0:0:30:LR_NBell_G6.wav
+320,192,8872,128,0,9413:0:0:0:30:LR_NBell_A6.wav
+192,192,9717,1,0,0:0:0:30:LR_NBell_C5.wav
+64,192,10023,1,0,0:0:0:30:LR_NBell_C5.wav
+320,192,10281,1,0,0:0:0:30:LR_NBell_A5.wav
+448,192,10540,1,0,0:0:0:30:LR_NBell_G5.wav
+320,192,10798,1,0,0:0:0:30:LR_NBell_F5.wav
+192,192,11057,128,0,11574:0:0:0:30:LR_NBell_C5.wav
+320,192,11833,1,0,0:0:0:30:LR_NBell_C5.wav
+448,192,12091,1,0,0:0:0:30:LR_NBell_C5.wav
+320,192,12350,1,0,0:0:0:30:LR_NBell_A5.wav
+192,192,12609,1,0,0:0:0:30:LR_NBell_G5.wav
+64,192,12867,1,0,0:0:0:30:LR_NBell_F5.wav
+320,192,13126,128,0,13643:0:0:0:30:LR_NBell_D5.wav
+192,192,13902,1,0,0:0:0:30:LR_NBell_D5.wav
+320,192,14160,1,0,0:0:0:30:LR_NBell_D5.wav
+448,192,14419,1,0,0:0:0:30:LR_NBell_A#5.wav
+320,192,14678,1,0,0:0:0:30:LR_NBell_A5.wav
+192,192,14936,1,0,0:0:0:30:LR_NBell_G5.wav
+64,192,15195,128,0,15712:0:0:0:30:LR_NBell_E5.wav
+448,192,15971,1,0,0:0:0:30:LR_NBell_C6.wav
+192,192,16229,1,0,0:0:0:30:LR_NBell_C6.wav
+448,192,16488,1,0,0:0:0:30:LR_NBell_C6.wav
+64,192,16747,1,0,0:0:0:30:LR_NBell_A#5.wav
+320,192,17005,1,0,0:0:0:30:LR_NBell_G5.wav
+64,192,17264,128,0,17781:0:0:0:30:LR_NBell_A5.wav
+320,192,18147,5,0,0:0:0:30:LR_NBell_C6.wav
+64,192,18430,1,0,0:0:0:30:LR_NBell_C6.wav
+448,192,18700,1,0,0:0:0:30:LR_NBell_A6.wav
+192,192,18970,1,0,0:0:0:30:LR_NBell_G6.wav
+320,192,19240,1,0,0:0:0:30:LR_NBell_F6.wav
+64,192,19511,128,0,20051:0:0:0:30:LR_NBell_C6.wav
+320,192,20321,1,0,0:0:0:30:LR_NBell_C6.wav
+192,192,20592,1,0,0:0:0:30:LR_NBell_C6.wav
+448,192,20862,1,0,0:0:0:30:LR_NBell_A6.wav
+320,192,21132,1,0,0:0:0:30:LR_NBell_G6.wav
+64,192,21402,1,0,0:0:0:30:LR_NBell_F6.wav
+192,192,21673,128,0,22213:0:0:0:30:LR_NBell_D6.wav
+320,192,22484,1,0,0:0:0:30:LR_NBell_D6.wav
+64,192,22754,1,0,0:0:0:30:LR_NBell_D6.wav
+448,192,23024,1,0,0:0:0:30:LR_NBell_A#6.wav
+192,192,23294,1,0,0:0:0:30:LR_NBell_A6.wav
+64,192,23565,1,0,0:0:0:30:LR_NBell_G6.wav
+320,192,23835,128,0,24375:0:0:0:30:LR_NBell_E6.wav
+192,192,24646,1,0,0:0:0:30:C7.wav
+448,192,24916,1,0,0:0:0:30:C7.wav
+192,192,25186,1,0,0:0:0:30:C7.wav
+320,192,25457,1,0,0:0:0:30:LR_NBell_A#6.wav
+64,192,25727,1,0,0:0:0:30:LR_NBell_G6.wav
+320,192,25997,128,0,26538:0:0:0:30:LR_NBell_A6.wav
+192,192,26842,1,0,0:0:0:30:LR_NBell_C5.wav
+64,192,27148,1,0,0:0:0:30:LR_NBell_C5.wav
+320,192,27406,1,0,0:0:0:30:LR_NBell_A5.wav
+448,192,27665,1,0,0:0:0:30:LR_NBell_G5.wav
+320,192,27923,1,0,0:0:0:30:LR_NBell_F5.wav
+192,192,28182,128,0,28699:0:0:0:30:LR_NBell_C5.wav
+320,192,28958,1,0,0:0:0:30:LR_NBell_C5.wav
+448,192,29216,1,0,0:0:0:30:LR_NBell_C5.wav
+320,192,29475,1,0,0:0:0:30:LR_NBell_A5.wav
+192,192,29734,1,0,0:0:0:30:LR_NBell_G5.wav
+64,192,29992,1,0,0:0:0:30:LR_NBell_F5.wav
+320,192,30251,128,0,30768:0:0:0:30:LR_NBell_D5.wav
+192,192,31027,1,0,0:0:0:30:LR_NBell_D5.wav
+320,192,31285,1,0,0:0:0:30:LR_NBell_D5.wav
+448,192,31544,1,0,0:0:0:30:LR_NBell_A#5.wav
+320,192,31803,1,0,0:0:0:30:LR_NBell_A5.wav
+192,192,32061,1,0,0:0:0:30:LR_NBell_G5.wav
+64,192,32320,128,0,32837:0:0:0:30:LR_NBell_E5.wav
+448,192,33096,1,0,0:0:0:30:LR_NBell_C6.wav
+192,192,33354,1,0,0:0:0:30:LR_NBell_C6.wav
+448,192,33613,1,0,0:0:0:30:LR_NBell_C6.wav
+64,192,33872,1,0,0:0:0:30:LR_NBell_A#5.wav
+320,192,34130,1,0,0:0:0:30:LR_NBell_G5.wav
+64,192,34389,128,0,34906:0:0:0:30:LR_NBell_A5.wav

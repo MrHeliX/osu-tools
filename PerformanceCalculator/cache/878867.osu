@@ -1,0 +1,78 @@
+osu file format v14
+
+[General]
+AudioFilename: Two Steps From Hell - For The Win - ( Skyworld ).mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 1
+SampleSet: None
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 8106,57977
+DistanceSpacing: 0.5
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1.5
+
+[Metadata]
+Title:For The Win
+TitleUnicode:For The Win
+Artist:Two Steps From Hell
+ArtistUnicode:Two Steps From Hell
+Creator:[-Shoga-]
+Version:Skirmish
+Source:youtube
+Tags:Two Steps From Hell
+BeatmapID:878867
+BeatmapSetID:383342
+
+[Difficulty]
+HPDrainRate:6
+CircleSize:4
+OverallDifficulty:6.5
+ApproachRate:9
+SliderMultiplier:1.6
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+0,0,"TNGwiki-tamquocchi-quanvu-00001.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+4507.13788221041,514.13881748072,4,1,0,81,1,0
+22244,-80,4,1,0,81,0,0
+35355,-100,4,1,0,81,0,0
+70316,-100,4,1,0,81,0,0
+70831,-66.6666666666667,4,1,0,81,0,0
+71345,-57.1428571428571,4,1,0,81,0,0
+71859,-50,4,1,0,81,0,0
+74944,-66.6666666666667,4,1,0,81,0,0
+79571,-66.6666666666667,4,1,0,81,0,0
+80085,-80,4,1,0,81,0,0
+80599,-100,4,1,0,81,0,0
+81113,-66.6666666666667,4,1,0,81,0,0
+83684,-76.9230769230769,4,1,0,81,0,0
+84455,-71.4285714285714,4,1,0,81,0,0
+96023,-66.6666666666667,4,1,0,81,0,0
+97052,-66.6666666666667,4,1,0,81,0,0
+106306,-58.8235294117647,4,1,0,81,0,0
+106692,-58.8235294117647,4,1,0,81,0,0
+107334,-200,4,1,0,81,0,0
+109391,-58.8235294117647,4,3,0,96,0,0
+117103,-50,4,3,0,96,0,0
+
+
+[HitObjects]
+256,192,394,12,0,4507,0:0:0:0:
+352,72,5535,6,0,P|440:100|456:188,2,160
+256,84,6820,2,0,L|88:144,1,160

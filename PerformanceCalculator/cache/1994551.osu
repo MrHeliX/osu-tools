@@ -1,0 +1,101 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 17963
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.2
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.5
+BeatDivisor: 1
+GridSize: 32
+TimelineZoom: 1.5
+
+[Metadata]
+Title:The REAL Definition of a Jerma Joke
+TitleUnicode:The REAL Definition of a Jerma Joke
+Artist:grunku
+ArtistUnicode:grunku
+Creator:Axer
+Version:Kantan
+Source:
+Tags:jerma985 STAR_ ster coffee cheetos chicken Diddy Kong Racing Ancient Lake David Wise RheesKK
+BeatmapID:1994551
+BeatmapSetID:928955
+
+[Difficulty]
+HPDrainRate:8
+CircleSize:2
+OverallDifficulty:2
+ApproachRate:10
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"CCC.jpg",0,-30
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+9393,476.190476190476,4,1,0,25,1,0
+11059,476.190476190476,4,1,0,25,1,0
+26297,-90.9090909090909,4,1,0,35,0,1
+41058,-80,4,1,0,35,0,0
+
+
+[HitObjects]
+256,192,9393,5,8,0:0:0:0:
+256,192,10583,1,0,0:0:0:0:
+256,192,11059,1,8,0:0:0:0:
+256,192,12487,1,0,0:0:0:0:
+256,192,12963,1,0,0:0:0:0:
+256,192,13916,1,0,0:0:0:0:
+256,192,14868,1,0,0:0:0:0:
+256,192,15344,1,8,0:0:0:0:
+256,192,16297,1,0,0:0:0:0:
+256,192,16773,1,8,0:0:0:0:
+256,192,17725,1,0,0:0:0:0:
+256,192,18201,1,0,0:0:0:0:
+256,192,18678,1,8,0:0:0:0:
+256,192,20106,1,0,0:0:0:0:
+256,192,20582,1,0,0:0:0:0:
+256,192,22011,1,0,0:0:0:0:
+256,192,22487,1,12,0:0:0:0:
+256,192,24392,1,8,0:0:0:0:
+256,192,24868,1,0,0:0:0:0:
+256,192,25344,1,8,0:0:0:0:
+256,192,25820,1,8,0:0:0:0:
+256,192,26297,1,0,0:0:0:0:
+256,192,27249,1,0,0:0:0:0:
+256,192,27725,1,0,0:0:0:0:
+256,192,28201,1,8,0:0:0:0:
+256,192,29154,1,0,0:0:0:0:
+256,192,29630,1,12,0:0:0:0:
+256,192,30106,1,0,0:0:0:0:
+256,192,31058,1,0,0:0:0:0:
+256,192,31535,1,8,0:0:0:0:
+256,192,32011,1,0,0:0:0:0:
+256,192,32963,1,8,0:0:0:0:
+256,192,33916,1,0,0:0:0:0:
+256,192,34868,1,8,0:0:0:0:
+256,192,35344,1,8,0:0:0:0:
+256,192,35820,1,0,0:0:0:0:
+256,192,36773,1,8,0:0:0:0:
+256,192,37725,1,0,0:0:0:0:
+256,192,38678,1,0,0:0:0:0:
+256,192,39630,1,8,0:0:0:0:
+256,192,40106,1,8,0:0:0:0:
+256,192,40582,1,0,0:0:0:0:
+256,192,41058,1,12,0:0:0:0:

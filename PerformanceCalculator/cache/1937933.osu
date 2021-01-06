@@ -1,0 +1,97 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 10247
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 32
+TimelineZoom: 1
+
+[Metadata]
+Title:Zankoku na Tenshi no These
+TitleUnicode:残酷な天使のテーゼ
+Artist:R3 Music Box
+ArtistUnicode:R3 Music Box
+Creator:-Joni-
+Version:Jorkni's Kantan
+Source:新世紀エヴァンゲリオン
+Tags:残酷な天使のテーゼ yoko takahashi bastian seija -vale neon genesis evangelion anime opening a cruel angel's thesis angel shin seiki
+BeatmapID:1937933
+BeatmapSetID:925052
+
+[Difficulty]
+HPDrainRate:9
+CircleSize:4
+OverallDifficulty:2
+ApproachRate:7.5
+SliderMultiplier:1.6
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"asuka.png",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+35,638.297872340426,4,1,0,40,1,0
+
+
+[HitObjects]
+90,199,35,5,0,0:0:0:0:
+382,129,673,1,0,0:0:0:0:
+226,168,1311,1,8,0:0:0:0:
+166,131,2588,1,8,0:0:0:0:
+305,137,3226,1,8,0:0:0:0:
+438,68,3864,1,0,0:0:0:0:
+301,99,4343,1,8,0:0:0:0:
+129,133,5141,1,8,0:0:0:0:
+383,96,5779,1,8,0:0:0:0:
+395,219,6417,1,0,0:0:0:0:
+153,77,7694,1,0,0:0:0:0:
+273,148,8332,1,0,0:0:0:0:
+152,77,8971,1,8,0:0:0:0:
+290,85,9449,1,0,0:0:0:0:
+395,215,10247,1,0,0:0:0:0:
+334,172,10886,1,0,0:0:0:0:
+153,73,11524,1,8,0:0:0:0:
+381,234,12800,1,8,0:0:0:0:
+372,44,13439,1,8,0:0:0:0:
+148,77,14077,1,0,0:0:0:0:
+264,155,14556,1,8,0:0:0:0:
+96,103,15354,1,8,0:0:0:0:
+250,199,15992,1,8,0:0:0:0:
+376,105,16630,1,0,0:0:0:0:
+106,179,17907,1,8,0:0:0:0:
+241,141,18545,1,0,0:0:0:0:
+106,179,19183,1,8,0:0:0:0:
+205,145,19662,1,8,0:0:0:0:
+380,124,20460,1,0,0:0:0:0:
+219,146,21098,1,0,0:0:0:0:
+100,112,21737,1,8,0:0:0:0:
+378,145,23013,1,8,0:0:0:0:
+167,154,23652,1,8,0:0:0:0:
+125,23,24290,1,0,0:0:0:0:
+219,68,24769,1,8,0:0:0:0:
+334,199,25566,1,8,0:0:0:0:
+301,162,26205,1,8,0:0:0:0:
+70,105,26843,1,0,0:0:0:0:
+340,175,28120,1,8,0:0:0:0:
+203,139,28758,1,0,0:0:0:0:
+272,157,29396,1,8,0:0:0:0:
+245,258,29875,1,8,0:0:0:0:
+256,192,30354,12,0,31950,0:0:0:0:

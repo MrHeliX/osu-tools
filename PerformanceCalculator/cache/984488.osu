@@ -1,0 +1,83 @@
+osu file format v14
+
+[General]
+AudioFilename: zettairyouiki.mp3
+AudioLeadIn: 0
+PreviewTime: 66160
+Countdown: 0
+SampleSet: None
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.2
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 2.299999
+
+[Metadata]
+Title:Shukusai no Elementalia
+TitleUnicode:祝祭のエルメンタルア
+Artist:Ni-Sokkususu
+ArtistUnicode:にーそっくすす
+Creator:Silynn
+Version:Hard
+Source:精霊使いの剣舞
+Tags:kneesocks claire rouge seirei tsukai no blade dance of the elementalers
+BeatmapID:984488
+BeatmapSetID:203309
+
+[Difficulty]
+HPDrainRate:6
+CircleSize:3.5
+OverallDifficulty:6
+ApproachRate:7
+SliderMultiplier:1.7
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"claire2.png",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+571,400,4,1,0,70,1,0
+66171,-100,4,1,0,70,0,1
+78971,-100,4,1,0,70,0,0
+81771,-66.6666666666667,4,1,0,70,0,0
+81971,-50,4,1,0,70,0,0
+82171,-100,4,1,0,70,0,0
+116371,-66.6666666666667,4,1,0,70,0,0
+116571,-50,4,1,0,70,0,0
+117371,-100,4,1,0,70,0,1
+130171,-100,4,1,0,70,0,0
+157174,352.941176470588,4,1,0,70,1,0
+157174,-133.333333333333,4,1,0,70,0,0
+159997,-100,4,1,0,70,0,1
+171115,-100,4,1,0,70,0,0
+171291,-80,4,1,0,70,0,1
+182585,-66.6666666666667,4,1,0,70,0,0
+
+
+[Colours]
+Combo1 : 255,169,135
+Combo2 : 255,135,248
+Combo3 : 135,183,255
+Combo4 : 135,255,172
+
+[HitObjects]
+256,192,571,12,0,2171,0:0:0:0:
+67,335,2371,5,0,0:0:0:0:
+23,242,2571,2,0,L|33:130,1,85
+128,127,2971,2,0,L|120:211,1,85
+118,249,3571,5,0,0:0:0:0:
+197,312,3771,2,0,P|238:324|307:309,1,85
+379,341,4171,2,0,P|410:312|427:271,1,85
+437,171,4571,2,0,P|419:94|369:33,2,127.5

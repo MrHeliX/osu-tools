@@ -1,0 +1,246 @@
+osu file format v7
+
+[General]
+AudioFilename: Mami Kawada - Hishoku no Sora.mp3
+AudioLeadIn: 2007
+PreviewTime: 62149
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+DistanceSpacing: 0.800000011920929
+BeatDivisor: 4
+GridSize: 16
+
+[Metadata]
+Title:Hishoku no Sora (TV Size)
+Artist:Mami Kawada
+Creator:osuplayer111
+Version:xxheroxx's Easy
+Source:Shakugan no Shana OP
+Tags:Anime H1ko orioncomet FuukoLover xxheroxx Kytoxid
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:4
+OverallDifficulty:3
+SliderMultiplier:0.7
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"xxheroxxbg.jpg"
+Video,350,"Shakugan.avi"
+//Break Periods
+2,17616,27337
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+Sample,1085,0,"soft-hitnormal.wav",70
+Sample,1085,0,"soft-hitclap.wav",70
+Sample,2505,0,"soft-hitnormal.wav",70
+Sample,2505,0,"soft-hitclap.wav",70
+Sample,6410,0,"soft-hitnormal.wav",70
+Sample,6410,0,"soft-hitclap.wav",70
+Sample,7120,0,"soft-hitnormal.wav",70
+Sample,7120,0,"soft-hitclap.wav",70
+Sample,7830,0,"soft-hitnormal.wav",70
+Sample,7830,0,"soft-hitclap.wav",70
+Sample,8540,0,"soft-hitnormal.wav",70
+Sample,8540,0,"soft-hitclap.wav",70
+Sample,9250,0,"soft-hitnormal.wav",70
+Sample,9250,0,"soft-hitclap.wav",70
+Sample,9960,0,"soft-hitnormal.wav",70
+Sample,9960,0,"soft-hitclap.wav",70
+Sample,10670,0,"soft-hitnormal.wav",70
+Sample,10670,0,"soft-hitclap.wav",70
+Sample,11380,0,"soft-hitnormal.wav",70
+Sample,11380,0,"soft-hitclap.wav",70
+Sample,14931,0,"soft-hitnormal.wav",70
+Sample,14931,0,"soft-hitclap.wav",70
+Sample,15641,0,"soft-hitnormal.wav",70
+Sample,15641,0,"soft-hitclap.wav",70
+Sample,16351,0,"soft-hitnormal.wav",70
+Sample,16351,0,"soft-hitclap.wav",70
+Sample,17061,0,"soft-hitnormal.wav",70
+Sample,17061,0,"soft-hitclap.wav",70
+Sample,37653,0,"soft-hitnormal.wav",70
+Sample,37653,0,"soft-hitclap.wav",70
+Sample,38363,0,"soft-hitnormal.wav",70
+Sample,38363,0,"soft-hitclap.wav",70
+Sample,39073,0,"soft-hitnormal.wav",70
+Sample,39073,0,"soft-hitclap.wav",70
+Sample,39783,0,"soft-hitnormal.wav",70
+Sample,39783,0,"soft-hitclap.wav",70
+Sample,51854,0,"soft-hitnormal.wav",70
+Sample,51854,0,"soft-hitclap.wav",70
+Sample,52564,0,"soft-hitnormal.wav",70
+Sample,52564,0,"soft-hitclap.wav",70
+Sample,53274,0,"soft-hitnormal.wav",70
+Sample,53274,0,"soft-hitclap.wav",70
+Sample,53984,0,"soft-hitnormal.wav",70
+Sample,53984,0,"soft-hitclap.wav",70
+Sample,54694,0,"soft-hitnormal.wav",70
+Sample,54694,0,"soft-hitclap.wav",70
+Sample,55404,0,"soft-hitnormal.wav",70
+Sample,55404,0,"soft-hitclap.wav",70
+Sample,56114,0,"soft-hitnormal.wav",70
+Sample,56114,0,"soft-hitclap.wav",70
+Sample,58244,0,"soft-hitnormal.wav",70
+Sample,58244,0,"soft-hitclap.wav",70
+Sample,60374,0,"soft-hitnormal.wav",70
+Sample,60374,0,"soft-hitclap.wav",70
+Sample,61085,0,"soft-hitnormal.wav",70
+Sample,61085,0,"soft-hitclap.wav",70
+Sample,61617,0,"soft-hitnormal.wav",70
+Sample,61617,0,"soft-hitclap.wav",70
+Sample,61795,0,"soft-hitnormal.wav",70
+Sample,61795,0,"soft-hitclap.wav",70
+Sample,61972,0,"soft-hitnormal.wav",70
+Sample,61972,0,"soft-hitclap.wav",70
+Sample,63215,0,"soft-hitnormal.wav",70
+Sample,63215,0,"soft-hitclap.wav",70
+Sample,63925,0,"soft-hitnormal.wav",70
+Sample,63925,0,"soft-hitclap.wav",70
+Sample,64635,0,"soft-hitnormal.wav",70
+Sample,64635,0,"soft-hitclap.wav",70
+Sample,66055,0,"soft-hitnormal.wav",70
+Sample,66055,0,"soft-hitclap.wav",70
+Sample,66765,0,"soft-hitnormal.wav",70
+Sample,66765,0,"soft-hitclap.wav",70
+Sample,67475,0,"soft-hitnormal.wav",70
+Sample,67475,0,"soft-hitclap.wav",70
+Sample,68185,0,"soft-hitnormal.wav",70
+Sample,68185,0,"soft-hitclap.wav",70
+Sample,68895,0,"soft-hitnormal.wav",70
+Sample,68895,0,"soft-hitclap.wav",70
+Sample,69605,0,"soft-hitnormal.wav",70
+Sample,69605,0,"soft-hitclap.wav",70
+Sample,70315,0,"soft-hitnormal.wav",70
+Sample,70315,0,"soft-hitclap.wav",70
+Sample,71025,0,"soft-hitnormal.wav",70
+Sample,71025,0,"soft-hitclap.wav",70
+Sample,71735,0,"soft-hitnormal.wav",70
+Sample,71735,0,"soft-hitclap.wav",70
+Sample,72446,0,"soft-hitnormal.wav",70
+Sample,72446,0,"soft-hitclap.wav",70
+Sample,73156,0,"soft-hitnormal.wav",70
+Sample,73156,0,"soft-hitclap.wav",70
+Sample,73866,0,"soft-hitnormal.wav",70
+Sample,73866,0,"soft-hitclap.wav",70
+Sample,74576,0,"soft-hitnormal.wav",70
+Sample,74576,0,"soft-hitclap.wav",70
+Sample,75286,0,"soft-hitnormal.wav",70
+Sample,75286,0,"soft-hitclap.wav",70
+Sample,75996,0,"soft-hitnormal.wav",70
+Sample,75996,0,"soft-hitclap.wav",70
+Sample,77416,0,"soft-hitnormal.wav",70
+Sample,77416,0,"soft-hitclap.wav",70
+Sample,78126,0,"soft-hitnormal.wav",70
+Sample,78126,0,"soft-hitclap.wav",70
+Sample,78836,0,"soft-hitnormal.wav",70
+Sample,78836,0,"soft-hitclap.wav",70
+Sample,79546,0,"soft-hitnormal.wav",70
+Sample,79546,0,"soft-hitclap.wav",70
+Sample,80256,0,"soft-hitnormal.wav",70
+Sample,80256,0,"soft-hitclap.wav",70
+Sample,80966,0,"soft-hitnormal.wav",70
+Sample,80966,0,"soft-hitclap.wav",70
+Sample,81676,0,"soft-hitnormal.wav",70
+Sample,81676,0,"soft-hitclap.wav",70
+Sample,82386,0,"soft-hitnormal.wav",70
+Sample,82386,0,"soft-hitclap.wav",70
+Sample,83096,0,"soft-hitnormal.wav",70
+Sample,83096,0,"soft-hitclap.wav",70
+Sample,83806,0,"soft-hitnormal.wav",70
+Sample,83806,0,"soft-hitclap.wav",70
+Sample,84517,0,"soft-hitnormal.wav",70
+Sample,84517,0,"soft-hitclap.wav",70
+Sample,85227,0,"soft-hitnormal.wav",70
+Sample,85227,0,"soft-hitclap.wav",70
+Sample,85937,0,"soft-hitnormal.wav",70
+Sample,85937,0,"soft-hitclap.wav",70
+Sample,86647,0,"soft-hitnormal.wav",70
+Sample,86647,0,"soft-hitclap.wav",70
+Sample,87357,0,"soft-hitnormal.wav",70
+Sample,87357,0,"soft-hitclap.wav",70
+Sample,87712,0,"soft-hitnormal.wav",70
+Sample,87712,0,"soft-hitclap.wav",70
+Sample,87889,0,"soft-hitnormal.wav",70
+Sample,87889,0,"soft-hitclap.wav",70
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+375,355.029585798817,4,2,1,80,1,0
+62860,-100,4,2,1,80,0,1
+85582,-100,4,2,1,80,0,0
+
+[Colours]
+Combo1 : 0,128,255
+Combo2 : 255,0,0
+Combo3 : 128,128,192
+Combo4 : 0,128,64
+
+[HitObjects]
+200,96,375,2,0,B|192:80|192:64|198:36|208:24|232:4|264:8|288:16|307:19|323:57|320:80|312:104|296:120|280:128|257:128|257:128|256:269|256:269|222:282|216:316|227:347|279:359|301:307,1,560,4|4
+327,213,3925,2,0,B|175:213,1,140,8|0
+256,120,5345,5,0
+336,192,6055,2,0,B|368:160|368:112|352:48|304:16|208:16|153:48|144:112|149:162|179:197,1,420,4|0
+256,272,8895,2,0,B|256:208|256:128,2,140
+336,192,11025,6,0,B|384:128|352:48|288:48|240:64,1,210,0|8
+256,59,12801,2,8,B|225:53|177:57|149:99|155:135,1,140,8|8
+256,192,14221,5,8
+224,240,14576,2,0,B|164:339|257:399|352:336|286:236,2,280,4|0|4
+215,131,28777,6,0,B|215:35|59:162|182:154|151:195|183:195|208:190|247:227|277:186|279:131|314:120|386:138|441:256|379:327|269:365|177:222|304:230,1,560,4|4
+192,256,32327,2,0,B|112:243|83:158,1,140
+112,64,33747,1,0
+208,128,34457,6,0,B|352:192|336:272|256:318|168:268|160:192|321:119,1,420,4|0
+400,64,37298,1,4
+361,169,38008,2,0,B|394:252|329:313,1,140
+256,224,39428,1,0
+170,299,40138,6,0,B|118:245|134:160|174:126|216:102|277:108,2,280,4|0|4
+256,224,43688,2,0,B|272:160|352:208|352:128,1,140
+336,256,45108,1,0
+256,336,45818,6,0,B|144:240|256:192|336:144|320:64|272:48|247:32,1,350,4|0
+192,128,48303,1,0
+256,224,49014,1,8
+320,128,49724,1,8
+256,32,50434,1,8
+192,128,51144,5,8
+176,176,51499,2,0,B|176:256|224:288|288:288|336:256|336:160,2,280,4|0|4
+186,64,55049,2,0,B|330:64,1,140
+256,144,56469,5,0
+256,192,56824,1,8
+288,224,57179,1,0
+336,240,57534,2,0,B|416:240|448:184|432:120|412:94|368:64|328:64,1,280,8|8
+283,48,59309,1,0
+229,47,59664,1,8
+180,64,60019,2,0,B|144:64|100:94|80:120|64:184|96:240|176:240,1,280
+275,166,62150,5,0
+324,200,62505,1,0
+312,256,62860,2,0,B|296:288|296:320|312:352|344:352|376:352,2,140,4|0|0
+237,166,64990,1,0
+188,200,65345,1,8
+200,256,65700,2,0,B|216:288|216:320|200:352|168:352|136:352,2,140
+144,160,67830,6,0,B|224:160|256:90|256:90|288:160|384:160,1,280
+303,250,69960,2,0,B|255:149|203:263,1,140
+256,352,71380,2,0,B|256:64,2,280,4|0|4
+336,272,74931,5,0
+368,160,75641,1,0
+311,63,76351,1,0
+256,64,76706,1,8
+201,63,77061,1,0
+144,160,77771,1,0
+176,272,78481,1,0
+256,192,79191,6,0,B|272:272|368:256,2,140
+256,192,81321,2,0,B|240:112|144:128,2,140
+192,272,83451,1,0
+256,336,84161,1,0
+336,272,84872,1,0
+256,208,85582,12,4,88423

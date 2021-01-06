@@ -1,0 +1,105 @@
+osu file format v14
+
+[General]
+AudioFilename: Kitsune2 - Rainbow Tylenol.mp3
+AudioLeadIn: 0
+PreviewTime: 14697
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.3
+Mode: 0
+LetterboxInBreaks: 0
+EpilepsyWarning: 1
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 586,107252
+DistanceSpacing: 0.9
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1.1
+
+[Metadata]
+Title:Rainbow Tylenol
+TitleUnicode:Rainbow Tylenol
+Artist:Kitsune^2
+ArtistUnicode:Kitsune²
+Creator:Gero
+Version:Easy
+Source:
+Tags:LAPFOX TRAX Electronic Hamilton Chiptune Chipcore Exile- MoodyRPG Natsu Rumia- - R u m i a - -_R_u_m_i_a_- pishifat Blue Dragon IamKwaN Charlotte xtrem3x DakeDekaane whosthebox Ascendance Xinely
+BeatmapID:862898
+BeatmapSetID:396643
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3
+OverallDifficulty:2
+ApproachRate:3
+SliderMultiplier:1.2
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+0,0,"BG.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+586,444.444444444444,4,2,0,90,1,0
+14808,-100,4,2,0,90,0,1
+29030,-100,4,2,0,90,0,0
+50363,-100,4,2,0,90,0,1
+64585,-100,4,2,0,90,0,0
+78808,-100,4,2,0,90,0,0
+85919,-100,4,2,0,90,0,1
+107252,-100,4,2,0,90,0,0
+
+
+[Colours]
+Combo1 : 143,143,143
+Combo2 : 255,108,108
+Combo3 : 98,169,255
+Combo4 : 141,194,88
+Combo5 : 230,151,72
+Combo6 : 204,113,188
+
+[HitObjects]
+200,192,586,6,0,P|256:210|312:192,1,120
+256,100,1474,2,0,P|200:82|144:100,1,120
+92,196,2363,2,0,L|72:17,2,180
+200,192,4141,2,0,L|219:370,2,180
+256,192,5919,12,0,7697,0:0:0:0:
+196,92,9474,6,0,B|196:192|316:192|316:288,1,240
+256,380,10808,1,0,0:0:0:0:
+196,288,11252,2,0,B|196:192|316:192|316:92,1,240
+392,14,12585,1,0,0:0:0:0:
+468,90,13030,5,0,0:0:0:0:
+468,90,14363,1,0,0:0:0:0:
+392,14,14808,5,0,0:0:0:0:
+316,91,15252,2,0,B|268:124|256:191|256:191|244:124|196:91,1,240
+120,14,16585,1,0,0:0:0:0:
+44,90,17030,2,0,L|113:319,1,240
+180,232,18363,6,0,B|192:168|256:148|256:148|320:168|332:232,2,240
+256,308,20585,1,0,0:0:0:0:
+332,232,21030,2,0,L|367:117,1,120
+470,72,21919,6,0,B|430:4|358:4|358:4|256:4,1,240
+168,68,23252,1,0,0:0:0:0:
+83,136,23697,2,0,P|66:192|84:248,1,120
+168,316,24585,1,0,0:0:0:0:
+256,380,25030,1,0,0:0:0:0:
+344,316,25474,6,0,B|304:256|304:256|208:256|208:256|168:316,1,240
+84,248,26808,1,0,0:0:0:0:
+152,164,27252,2,0,B|256:104|256:104|360:164,1,240
+428,248,28585,1,0,0:0:0:0:
+500,168,29030,6,0,B|338:346,1,240
+256,276,30363,1,0,0:0:0:0:
+174,346,30808,2,0,B|12:168,1,240
+88,92,32141,1,0,0:0:0:0:
+177,152,32585,2,0,P|256:189|335:152,2,180
+256,76,34363,2,0,P|335:39|414:76,2,180
+335,152,36141,6,0,B|374:192|352:256|292:268|256:237|256:237|220:268|160:256|138:192|177:152,1,360

@@ -1,0 +1,512 @@
+osu file format v14
+
+[General]
+AudioFilename: Selector Spread WIXOSS OP_Opening - worlds end, girls rondo.mp3
+AudioLeadIn: 0
+PreviewTime: 35073
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 0.9
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1.6
+
+[Metadata]
+Title:world's end, girl's rondo (Speed Up Ver.)
+TitleUnicode:world's end, girl's rondo (Speed Up Ver.)
+Artist:Wakeshima Kanon
+ArtistUnicode:Wakeshima Kanon
+Creator:Eternalie
+Version:NM
+Source:セレクター spread WIXOSS
+Tags:Violin  LordRaika Selector
+BeatmapID:516726
+BeatmapSetID:220802
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:7
+OverallDifficulty:7
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Infected Wixoss Spread.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+Sample,5977,0,"Tom Hit 2.wav",70
+
+[TimingPoints]
+400,301.507537688442,4,2,0,20,1,0
+54671,-100,4,2,0,20,0,1
+73967,-100,4,2,0,20,0,0
+
+
+[HitObjects]
+256,192,400,128,2,1003:0:0:0:0:
+182,192,1003,1,2,0:0:0:0:
+36,192,1304,1,2,0:0:0:0:
+182,192,1606,1,2,0:0:0:0:
+475,192,1907,1,2,0:0:0:0:
+329,192,2209,1,2,0:0:0:0:
+109,192,2510,1,2,0:0:0:0:
+402,192,2812,128,2,3415:0:0:0:0:
+329,192,3415,128,2,3716:0:0:0:0:
+182,192,3716,128,2,4018:0:0:0:0:
+256,192,4018,128,2,5224:0:0:0:0:
+109,192,5224,128,2,6430:0:0:0:0:
+475,192,5827,128,0,6128:0:0:0:0:
+329,192,6128,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+256,192,6279,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+182,192,6430,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,6430,1,4,0:0:0:0:
+329,192,6731,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+475,192,6731,1,0,0:0:0:0:
+36,192,7033,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,7334,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+475,192,7334,1,0,0:0:0:0:
+109,192,7636,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,7937,1,0,0:0:0:0:
+329,192,7937,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+109,192,8239,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,8540,1,0,0:0:0:0:
+329,192,8540,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+182,192,8842,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,9143,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+36,192,9143,1,0,0:0:0:0:
+329,192,9445,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,9746,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+36,192,9746,1,0,0:0:0:0:
+109,192,10048,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,10349,1,0,0:0:0:0:
+182,192,10349,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+475,192,10651,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,10952,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+36,192,10952,1,0,0:0:0:0:
+109,192,11103,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+256,192,11254,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,11555,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+109,192,11555,1,0,0:0:0:0:
+256,192,11857,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,12158,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+109,192,12158,1,0,0:0:0:0:
+182,192,12460,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,12761,1,0,0:0:0:0:
+402,192,12761,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+182,192,13063,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,13364,1,0,0:0:0:0:
+402,192,13364,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+36,192,13666,5,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,13967,1,0,0:0:0:0:
+182,192,13967,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+402,192,14269,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+256,192,14420,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+109,192,14570,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,14721,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+329,192,14721,1,0,0:0:0:0:
+475,192,15023,1,0,0:0:0:70:Tom Hit.wav
+402,192,15173,1,0,0:0:0:70:Tom Hit.wav
+329,192,15324,1,0,0:0:0:70:Tom Hit.wav
+256,192,15475,1,0,0:0:0:70:Tom Hit.wav
+182,192,15626,1,0,0:0:0:35:Tom Normal.wav
+109,192,15776,128,2,16078:0:0:0:45:Tom Normal.wav
+329,192,16078,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,16078,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,16379,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,16379,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,16681,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,16681,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,16982,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,16982,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,17284,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,17284,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,17585,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,17585,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,17887,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,17887,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,18188,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,18188,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,18490,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,18490,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,18791,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,18791,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,19093,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,19093,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,19394,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,19394,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,19696,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,19696,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,19997,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,19997,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,20299,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,20299,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,20450,1,0,0:0:0:40:LR_Drum Hit Clap Sn.wav
+109,192,20450,1,0,0:0:0:40:LR_Drum Hit Clap Sn.wav
+182,192,20601,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,20601,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,20902,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,20902,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,21204,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,21204,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,21505,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,21505,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,21807,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,21807,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,22108,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,22108,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,22410,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,22410,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,22711,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,22711,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,23013,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,23013,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,23314,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,23314,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,23616,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,23616,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,23917,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,23917,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,24068,1,0,0:0:0:70:Tom Hit.wav
+256,192,24219,1,0,0:0:0:70:Tom Hit 2.wav
+36,192,24369,128,0,24972:0:0:0:35:Tom Normal.wav
+329,192,24369,1,0,0:0:0:35:LR_Drum Hit Clap Sn.wav
+182,192,24972,128,2,25425:0:0:0:0:
+475,192,24972,1,0,0:0:0:35:LR_Drum Hit Clap Sn.wav
+329,192,25425,128,2,25726:0:0:0:0:
+109,192,25425,1,0,0:0:0:35:Tom Normal.wav
+36,192,25726,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,26028,1,0,0:0:0:0:
+475,192,26028,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+109,192,26329,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,26631,1,0,0:0:0:0:
+475,192,26631,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+36,192,26932,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,27234,1,0,0:0:0:0:
+402,192,27234,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+36,192,27535,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,27837,1,0,0:0:0:0:
+402,192,27837,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+182,192,28138,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,28440,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+402,192,28440,1,0,0:0:0:0:
+182,192,28741,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,29043,1,0,0:0:0:0:
+475,192,29043,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+36,192,29344,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,29646,1,0,0:0:0:0:
+329,192,29646,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+402,192,29947,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,30249,1,0,0:0:0:0:
+329,192,30249,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+256,192,30399,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+402,192,30550,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,30852,1,0,0:0:0:0:
+109,192,30852,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+475,192,31153,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,31455,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+256,192,31455,1,0,0:0:0:0:
+402,192,31756,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,32058,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+182,192,32058,1,0,0:0:0:0:
+402,192,32359,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,32661,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+182,192,32661,1,0,0:0:0:0:
+109,192,32962,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,33264,1,0,0:0:0:0:
+402,192,33264,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+109,192,33565,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,33867,1,0,0:0:0:0:
+402,192,33867,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+109,192,34018,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+475,192,34168,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,34319,5,0,0:0:0:70:Tom Hit.wav
+36,192,34470,1,0,0:0:0:70:Tom Hit.wav
+182,192,34621,1,0,0:0:0:70:Tom Hit 2.wav
+475,192,34771,1,0,0:0:0:70:Tom Hit 2.wav
+329,192,34922,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,35073,1,0,0:0:0:0:
+36,192,35073,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+109,192,35374,5,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,35374,1,4,0:0:0:0:Kick Dry Fast Low.wav
+182,192,35676,1,0,0:0:0:0:
+329,192,35676,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+256,192,35827,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,36128,1,0,0:0:0:0:
+329,192,36128,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+36,192,36430,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+109,192,36505,1,0,0:0:0:33:LR_Drum Rpd vFast.wav
+182,192,36580,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,36882,1,0,0:0:0:0:
+402,192,36882,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+256,192,37033,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,37334,1,0,0:0:0:0:
+402,192,37334,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+475,192,37636,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+402,192,37711,1,0,0:0:0:33:LR_Drum Rpd vFast.wav
+329,192,37786,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,38088,1,0,0:0:0:0:
+402,192,38088,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+182,192,38239,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,38540,1,0,0:0:0:0:
+402,192,38540,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+36,192,38842,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+256,192,38917,1,0,0:0:0:33:LR_Drum Rpd vFast.wav
+475,192,38992,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,39294,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+329,192,39294,1,0,0:0:0:0:
+475,192,39445,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,39746,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+329,192,39746,1,0,0:0:0:0:
+475,192,40048,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+256,192,40123,1,0,0:0:0:33:LR_Drum Rpd vFast.wav
+36,192,40198,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,40500,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+402,192,40500,1,0,0:0:0:0:
+36,192,40651,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,40952,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+402,192,40952,1,0,0:0:0:0:
+402,192,41254,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+256,192,41329,1,0,0:0:0:33:LR_Drum Rpd vFast.wav
+109,192,41405,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,41706,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+402,192,41706,1,0,0:0:0:0:
+109,192,41857,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,42158,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+402,192,42158,1,0,0:0:0:0:
+182,192,42460,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+329,192,42535,1,0,0:0:0:33:LR_Drum Rpd vFast.wav
+475,192,42611,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,42912,1,0,0:0:0:0:
+402,192,42912,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+256,192,43063,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,43364,1,0,0:0:0:0:
+329,192,43364,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+256,192,43515,1,0,0:0:0:45:Kick Dry Fast Low.wav
+402,192,43666,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+109,192,43666,1,0,0:0:0:0:
+36,192,43817,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,43967,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+402,192,44043,1,0,0:0:0:33:LR_Drum Rpd vFast.wav
+329,192,44118,1,0,0:0:0:33:LR_Drum Rpd vFast.wav
+36,192,44269,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+109,192,44344,1,0,0:0:0:33:LR_Drum Rpd vFast.wav
+182,192,44420,1,0,0:0:0:33:LR_Drum Rpd vFast.wav
+475,192,44570,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+402,192,44646,1,0,0:0:0:33:LR_Drum Rpd vFast.wav
+329,192,44721,1,0,0:0:0:70:Tom Hit.wav
+182,192,44872,1,0,0:0:0:70:Tom Hit.wav
+329,192,45023,1,4,0:0:0:0:
+36,192,45023,1,4,0:0:0:70:Kick Dry Fast Low.wav
+182,192,45324,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,45626,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,45927,1,0,0:0:0:0:
+256,192,45927,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+109,192,46229,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,46530,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,46832,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,47133,1,0,0:0:0:0:
+256,192,47133,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+402,192,47435,128,2,48038:0:0:0:0:
+36,192,47435,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,47736,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,48038,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,48339,1,0,0:0:0:0:
+182,192,48339,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+475,192,48641,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,48942,1,0,0:0:0:0:
+256,192,48942,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+475,192,49244,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,49394,1,0,0:0:0:0:
+256,192,49394,1,0,0:0:0:70:LR_Hit Snare Soft.wav
+109,192,49545,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,49696,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,49847,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,50148,1,0,0:0:0:0:
+329,192,50148,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+109,192,50450,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,50751,1,0,0:0:0:0:
+402,192,50751,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+182,192,51053,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,51354,1,0,0:0:0:0:
+475,192,51354,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+256,192,51656,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,51957,1,0,0:0:0:45:Kick Dry Fast Low.wav
+402,192,51957,1,0,0:0:0:45:Kick Dry Fast Low.wav
+182,192,52108,1,0,0:0:0:45:Kick Dry Fast Low.wav
+329,192,52108,1,0,0:0:0:45:Kick Dry Fast Low.wav
+256,192,52259,1,0,0:0:0:45:LR_Drum Hit Clap Sn.wav
+109,192,52410,128,0,53163:3:0:0:0:
+402,192,52410,128,0,53163:3:0:0:0:
+182,192,53163,1,0,0:0:0:0:
+329,192,53163,1,0,0:0:0:45:LR_Drum Hit Clap Sn.wav
+36,192,53314,128,0,54068:3:0:0:0:
+475,192,53314,128,0,54068:3:0:0:0:
+109,192,54068,1,0,0:0:0:0:
+402,192,54068,1,0,0:0:0:45:LR_Drum Hit Clap Sn.wav
+182,192,54219,128,0,54671:3:0:0:0:
+329,192,54219,128,0,54671:3:0:0:0:
+256,192,54671,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,54671,1,4,0:0:0:0:
+475,192,54822,1,2,0:0:0:0:Kick Dry Fast Low.wav
+182,192,54972,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,55123,1,2,0:0:0:0:Kick Dry Fast Low.wav
+109,192,55274,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,55425,1,2,0:0:0:0:Kick Dry Fast Low.wav
+36,192,55575,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,55726,1,2,0:0:0:0:Kick Dry Fast Low.wav
+109,192,55726,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,55877,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,56028,1,2,0:0:0:0:Kick Dry Fast Low.wav
+329,192,56178,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,56329,1,2,0:0:0:0:Kick Dry Fast Low.wav
+256,192,56480,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,56631,1,2,0:0:0:0:Kick Dry Fast Low.wav
+182,192,56781,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,56932,1,0,0:0:0:45:Kick Dry Fast Low.wav
+109,192,57083,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,57083,1,4,0:0:0:0:
+402,192,57234,1,2,0:0:0:0:Kick Dry Fast Low.wav
+182,192,57384,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,57535,1,2,0:0:0:0:
+182,192,57686,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,57837,1,2,0:0:0:0:
+109,192,57987,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,58138,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,58138,1,2,0:0:0:0:
+402,192,58289,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,58440,1,2,0:0:0:0:
+329,192,58590,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,58741,1,2,0:0:0:0:
+256,192,58892,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,59043,1,2,0:0:0:0:
+182,192,59193,1,0,0:0:0:0:
+36,192,59193,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+329,192,59344,1,0,0:0:0:0:
+475,192,59495,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,59796,1,0,0:0:0:0:
+182,192,59796,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+329,192,60098,1,0,0:0:0:45:Tom Hit.wav
+475,192,60098,1,0,0:0:0:45:Tom Hit.wav
+182,192,60249,1,0,0:0:0:45:Tom Hit.wav
+36,192,60249,1,0,0:0:0:45:Tom Hit.wav
+36,192,60550,1,0,0:0:0:45:Tom Hit 2.wav
+182,192,60550,1,0,0:0:0:45:Tom Hit 2.wav
+475,192,60701,1,0,0:0:0:45:Tom Hit 2.wav
+329,192,60701,1,0,0:0:0:45:Tom Hit 2.wav
+329,192,61003,1,0,0:0:0:35:Tom Normal.wav
+475,192,61003,1,0,0:0:0:0:
+36,192,61153,1,0,0:0:0:0:
+182,192,61153,1,0,0:0:0:35:Tom Normal.wav
+256,192,61304,1,0,0:0:0:35:Tom Normal.wav
+109,192,61455,1,0,0:0:0:0:
+402,192,61455,1,0,0:0:0:35:Tom Normal.wav
+182,192,61606,1,0,0:0:0:0:
+329,192,61606,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+475,192,61907,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,62209,1,0,0:0:0:0:
+182,192,62209,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+475,192,62510,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,62812,1,0,0:0:0:0:
+182,192,62812,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+329,192,62962,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+475,192,62962,1,0,0:0:0:70:LR_Hat Synth.wav
+475,192,63264,1,0,0:0:0:0:
+402,192,63415,1,0,0:0:0:35:LR_Drum Hit Clap Sn.wav
+329,192,63565,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,63716,1,0,0:0:0:35:LR_Drum Hit Clap Sn.wav
+182,192,63867,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,64018,1,0,0:0:0:35:LR_Hit Snare Soft.wav
+36,192,64168,1,0,0:0:0:35:LR_Hit Snare Soft.wav
+256,192,64319,1,0,0:0:0:35:Kick Dry Fast Low.wav
+109,192,64470,1,2,0:0:0:0:
+402,192,64621,1,0,0:0:0:35:LR_Drum Hit Clap Sn.wav
+256,192,64771,1,2,0:0:0:0:
+109,192,64922,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,65073,1,2,0:0:0:0:
+36,192,65224,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,65374,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,65374,1,2,0:0:0:0:
+475,192,65525,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,65676,1,2,0:0:0:0:
+36,192,65827,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,65977,1,2,0:0:0:0:
+109,192,66128,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,66279,1,2,0:0:0:0:
+182,192,66430,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,66580,1,2,0:0:0:0:
+36,192,66731,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,66731,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,66882,1,2,0:0:0:0:
+329,192,67033,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,67183,1,2,0:0:0:0:
+36,192,67334,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,67485,1,2,0:0:0:0:
+256,192,67636,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,67786,128,0,68088:0:0:0:70:LR_Drum Hit Clap Sn.wav
+329,192,68088,128,0,68389:0:0:0:70:LR_Drum Hit Clap Sn.wav
+182,192,68389,128,0,68691:0:0:0:70:LR_Drum Hit Clap Sn.wav
+256,192,68691,128,0,69143:0:0:0:70:LR_Drum Hit Clap Sn.wav
+475,192,69143,128,0,69294:0:0:0:70:Tom Hit.wav
+329,192,69294,128,0,69595:0:0:0:70:Tom Hit.wav
+36,192,69595,128,0,69746:0:0:0:70:Tom Hit 2.wav
+182,192,69746,128,0,70048:0:0:0:70:Tom Hit 2.wav
+402,192,70048,128,0,71555:0:0:0:70:LR_Drum Hit Clap Sn.wav
+109,192,70349,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,70651,1,0,0:0:0:70:Kick Dry Fast Low.wav
+109,192,70952,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,71254,1,0,0:0:0:70:Kick Dry Fast Low.wav
+36,192,71555,1,0,0:0:0:70:Kick Dry Fast Low.wav
+182,192,71706,1,2,0:0:0:0:
+329,192,71857,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,72008,1,2,0:0:0:0:
+109,192,72158,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,72309,1,2,0:0:0:70:Tom Hit.wav
+182,192,72460,1,0,0:0:0:70:Tom Hit.wav
+36,192,72611,1,0,0:0:0:0:
+475,192,72611,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+402,192,72912,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,73063,1,0,0:0:0:70:Tom Hit.wav
+182,192,73214,1,0,0:0:0:70:Tom Hit.wav
+109,192,73364,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,73515,1,0,0:0:0:70:Kick Dry Fast Low.wav
+256,192,73666,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+109,192,73817,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+36,192,73967,1,0,0:0:0:70:Kick Dry Fast Low.wav
+475,192,73967,1,4,0:0:0:0:
+329,192,74269,1,0,0:0:0:0:
+402,192,74269,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+36,192,74570,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,74872,1,0,0:0:0:0:
+402,192,74872,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+109,192,75173,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,75475,1,0,0:0:0:0:
+475,192,75475,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+109,192,75776,1,0,0:0:0:70:Kick Dry Fast Low.wav
+402,192,76078,1,0,0:0:0:0:
+475,192,76078,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+182,192,76379,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,76681,1,0,0:0:0:0:
+475,192,76681,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+182,192,76982,1,0,0:0:0:70:Kick Dry Fast Low.wav
+329,192,77284,1,0,0:0:0:0:
+475,192,77284,1,0,0:0:0:70:LR_Drum Hit Clap Sn.wav
+36,192,77435,1,0,0:0:0:35:LR_Hit Snare Soft.wav
+182,192,77435,1,0,0:0:0:35:LR_Hit Snare Soft.wav
+109,192,77736,1,0,0:0:0:70:Tom Hit.wav
+402,192,77887,1,0,0:0:0:70:Tom Hit.wav
+182,192,78038,1,0,0:0:0:70:Tom Hit.wav
+475,192,78188,1,0,0:0:0:70:Tom Hit.wav
+256,192,78339,1,0,0:0:0:35:Tom Normal.wav

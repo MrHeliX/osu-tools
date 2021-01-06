@@ -1,0 +1,3744 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 236042
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 0
+
+[Editor]
+Bookmarks: 158605,173605,223105
+DistanceSpacing: 0.8
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1.3
+
+[Metadata]
+Title:Aitakatta Sora
+TitleUnicode:会いたかった空
+Artist:Minori Chihara
+ArtistUnicode:茅原実里
+Creator:Raveille
+Version:Hopes and Wishes
+Source:劇場版 境界の彼方 -I'LL BE HERE- 未来篇
+Tags:beyond the boundary gekijouban kyoukai no kanata movie sky i wanted to meet mirai kuriyama akihito kanbara kyoto dudehacker
+BeatmapID:1356030
+BeatmapSetID:639358
+
+[Difficulty]
+HPDrainRate:8.3
+CircleSize:4
+OverallDifficulty:8
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"aitakatta.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+Sample,1095,0,"G#3S_Ab3S_s.wav",100
+Sample,1470,0,"D#4S_Eb4S_s.wav",100
+Sample,1845,0,"C5S_s.wav",100
+Sample,2220,0,"D#4S_Eb4S_s.wav",100
+Sample,2595,0,"C6S_s.wav",100
+Sample,2970,0,"D#4S_Eb4S_s.wav",100
+Sample,3720,0,"D#4S_Eb4S_s.wav",100
+Sample,6345,0,"G5S_s.wav",100
+Sample,7470,0,"G4S_s.wav",100
+Sample,7845,0,"G#5S_Ab5S_s.wav",100
+Sample,7845,0,"C5S_s.wav",100
+Sample,8220,0,"G4S_s.wav",100
+Sample,9345,0,"F5S_s.wav",100
+Sample,9345,0,"C5S_s.wav",100
+Sample,9345,0,"G#5S_Ab5S_s.wav",100
+Sample,10845,0,"F5S_s.wav",100
+Sample,10845,0,"G#5S_Ab5S_s.wav",100
+Sample,11220,0,"D#5S_Eb5S_s.wav",100
+Sample,11220,0,"G#5S_Ab5S_s.wav",100
+Sample,11970,0,"A#5S_Bb5S_s.wav",100
+Sample,12345,0,"G5S_s.wav",100
+Sample,12345,0,"C#6S_Db6S_s.wav",100
+Sample,13470,0,"C6S_s.wav",100
+Sample,14220,0,"C#6S_Db6S_s.wav",100
+Sample,14595,0,"C#5S_Db5S_s.wav",100
+Sample,14970,0,"A#5S_Bb5S_s.wav",100
+Sample,17220,0,"G#6S_Ab6S_s.wav",100
+Sample,17970,0,"E5S_s.wav",100
+Sample,18720,0,"G6S_s.wav",100
+Sample,19470,0,"G#6S_Ab6S_s.wav",100
+Sample,20970,0,"D#6S_Eb6S_s.wav",100
+Sample,21345,0,"G#5S_Ab5S_s.wav",100
+Sample,22845,0,"G#5S_Ab5S_s.wav",100
+Sample,23220,0,"G#4S_Ab4S_s.wav",100
+Sample,24345,0,"D#5S_Eb5S_s.wav",100
+Sample,25280,0,"C4S_s.wav",100
+Sample,25655,0,"G#5S_Ab5S_s.wav",100
+Sample,26780,0,"D#6S_Eb6S_s.wav",100
+Sample,26968,0,"C#6S_Db6S_s.wav",100
+Sample,27343,0,"F4S_s.wav",100
+Sample,27530,0,"C#6S_Db6S_s.wav",100
+Sample,27905,0,"A#5S_Bb5S_s.wav",100
+Sample,28280,0,"G#5S_Ab5S_s.wav",100
+Sample,28468,0,"G#5S_Ab5S_s.wav",100
+Sample,28655,0,"G#5S_Ab5S_s.wav",100
+Sample,28843,0,"G#5S_Ab5S_s.wav",100
+Sample,29218,0,"G#5S_Ab5S_s.wav",100
+Sample,29780,0,"D#4S_Eb4S_s.wav",100
+Sample,29968,0,"C#6S_Db6S_s.wav",100
+Sample,30155,0,"C6S_s.wav",100
+Sample,30343,0,"G3S_s.wav",100
+Sample,31468,0,"G#5S_Ab5S_s.wav",100
+Sample,31843,0,"G#5S_Ab5S_s.wav",100
+Sample,32218,0,"D#6S_Eb6S_s.wav",100
+Sample,32968,0,"D#6S_Eb6S_s.wav",100
+Sample,33343,0,"A#3S_Bb3S_s.wav",100
+Sample,34093,0,"G#6S_Ab6S.wav",100
+Sample,34093,0,"C#5S_Db5S_s.wav",100
+Sample,34655,0,"C#5S_Db5S_s.wav",100
+Sample,34655,0,"A#4S_Bb4S_s.wav",100
+Sample,34655,0,"F5S_s.wav",100
+Sample,34843,0,"F5S_s.wav",100
+Sample,34843,0,"C#5S_Db5S_s.wav",100
+Sample,34843,0,"A#4S_Bb4S_s.wav",100
+Sample,35405,0,"G#6S_Ab6S_s.wav",100
+Sample,35593,0,"G#6S_Ab6S_s.wav",100
+Sample,35593,0,"C#6S_Db6S_s.wav",100
+Sample,36155,0,"C#6S_Db6S_s.wav",100
+Sample,36155,0,"A#5S_Bb5S_s.wav",100
+Sample,36718,0,"A#6S_Bb6S_s.wav",100
+Sample,36718,0,"C6S_s.wav",100
+Sample,36718,0,"G#5S_Ab5S_s.wav",100
+Sample,36905,0,"C#6S_Db6S_s.wav",100
+Sample,37093,0,"A#6S_Bb6S.wav",100
+Sample,38593,0,"D#5S_Eb5S_s.wav",100
+Sample,38593,0,"G5S_s.wav",100
+Sample,39155,0,"G4S.wav",100
+Sample,39155,0,"A#4S_Bb4S.wav",100
+Sample,39155,0,"D#5S_Eb5S_s.wav",100
+Sample,39905,0,"D#3S_Eb3S_s.wav",100
+Sample,40093,0,"A#4S_Bb4S.wav",100
+Sample,40093,0,"G4S.wav",100
+Sample,40093,0,"D#5S_Eb5S.wav",100
+Sample,41593,0,"A#6S_Bb6S_s.wav",100
+Sample,41593,0,"A#6S_Bb6S_s.wav",100
+Sample,42530,0,"D#6S_Eb6S_s.wav",100
+Sample,42530,0,"D#5S_Eb5S_s.wav",100
+Sample,42905,0,"G#6S_Ab6S_s.wav",100
+Sample,42905,0,"G#5S_Ab5S_s.wav",100
+Sample,43105,0,"C#6S_Db6S_s.wav",100
+Sample,43105,0,"C#7S_Db7S_s.wav",100
+Sample,43105,0,"G#4S_Ab4S_s.wav",100
+Sample,43105,0,"C5S_s.wav",100
+Sample,43105,0,"D#4S_Eb4S_s.wav",100
+Sample,43292,0,"G#3S_Ab3S_s.wav",100
+Sample,43480,0,"C5S_s.wav",100
+Sample,43667,0,"C7S_s.wav",100
+Sample,43667,0,"C6S_s.wav",100
+Sample,43855,0,"C6S_s.wav",100
+Sample,43855,0,"C5S_s.wav",100
+Sample,43855,0,"C7S_s.wav",100
+Sample,44042,0,"G#3S_Ab3S_s.wav",100
+Sample,44230,0,"C5S_s.wav",100
+Sample,44417,0,"A#6S_Bb6S_s.wav",100
+Sample,44417,0,"A#5S_Bb5S_s.wav",100
+Sample,44605,0,"A#6S_Bb6S_s.wav",100
+Sample,44605,0,"A#5S_Bb5S_s.wav",100
+Sample,44605,0,"C5S_s.wav",100
+Sample,44792,0,"G#3S_Ab3S_s.wav",100
+Sample,44980,0,"C5S_s.wav",100
+Sample,45167,0,"G#6S_Ab6S_s.wav",100
+Sample,45167,0,"G#5S_Ab5S_s.wav",100
+Sample,45355,0,"G#5S_Ab5S_s.wav",100
+Sample,45355,0,"C5S_s.wav",100
+Sample,45355,0,"G#6S_Ab6S_s.wav",100
+Sample,45542,0,"G#3S_Ab3S_s.wav",100
+Sample,45730,0,"C5S_s.wav",100
+Sample,46105,0,"A#4S_Bb4S_s.wav",100
+Sample,46480,0,"G5S_s.wav",100
+Sample,46480,0,"A#4S_Bb4S_s.wav",100
+Sample,46480,0,"G6S_s.wav",100
+Sample,46855,0,"G#6S_Ab6S_s.wav",100
+Sample,46855,0,"G#5S_Ab5S_s.wav",100
+Sample,46855,0,"A#4S_Bb4S_s.wav",100
+Sample,47042,0,"G3S_s.wav",100
+Sample,47230,0,"A#6S_Bb6S_s.wav",100
+Sample,47230,0,"A#5S_Bb5S_s.wav",100
+Sample,47230,0,"A#4S_Bb4S_s.wav",100
+Sample,47605,0,"C6S_s.wav",100
+Sample,47605,0,"E5S_s.wav",100
+Sample,47605,0,"C7S_s.wav",100
+Sample,47792,0,"C4S_s.wav",100
+Sample,47980,0,"C#6S_Db6S_s.wav",100
+Sample,47980,0,"E5S_s.wav",100
+Sample,47980,0,"C#7S_Db7S.wav",100
+Sample,48167,0,"C7S_s.wav",100
+Sample,48167,0,"C6S.wav",100
+Sample,48355,0,"E5S_s.wav",100
+Sample,48542,0,"A#5S_Bb5S_s.wav",100
+Sample,48542,0,"C4S_s.wav",100
+Sample,48542,0,"A#6S_Bb6S_s.wav",100
+Sample,48730,0,"E5S_s.wav",100
+Sample,49105,0,"F5S_s.wav",100
+Sample,49292,0,"F4S_s.wav",100
+Sample,49480,0,"F5S_s.wav",100
+Sample,49480,0,"D#5S_Eb5S_s.wav",100
+Sample,49480,0,"D#6S_Eb6S_s.wav",100
+Sample,49855,0,"A#6S_Bb6S_s.wav",100
+Sample,49855,0,"A#5S_Bb5S_s.wav",100
+Sample,49855,0,"F5S_s.wav",100
+Sample,50042,0,"F4S_s.wav",100
+Sample,50230,0,"G#6S_Ab6S_s.wav",100
+Sample,50230,0,"G#5S_Ab5S_s.wav",100
+Sample,50230,0,"F5S_s.wav",100
+Sample,50605,0,"D#6S_Eb6S_s.wav",100
+Sample,50605,0,"D#5S_Eb5S_s.wav",100
+Sample,50792,0,"D#4S_Eb4S_s.wav",100
+Sample,50980,0,"D#6S_Eb6S_s.wav",100
+Sample,50980,0,"D#5S_Eb5S_s.wav",100
+Sample,51167,0,"F6S_s.wav",100
+Sample,51167,0,"F5S_s.wav",100
+Sample,51355,0,"F6S_s.wav",100
+Sample,51355,0,"D#5S_Eb5S_s.wav",100
+Sample,51542,0,"G#6S_Ab6S_s.wav",100
+Sample,51542,0,"G#5S_Ab5S_s.wav",100
+Sample,51542,0,"D#4S_Eb4S_s.wav",100
+Sample,51730,0,"D#5S_Eb5S_s.wav",100
+Sample,51917,0,"A#6S_Bb6S_s.wav",100
+Sample,51917,0,"A#5S_Bb5S_s.wav",100
+Sample,52105,0,"C#5S_Db5S_s.wav",100
+Sample,52292,0,"C7S_s.wav",100
+Sample,52292,0,"C6S_s.wav",100
+Sample,52480,0,"G#6S_Ab6S.wav",100
+Sample,52480,0,"G#5S_Ab5S.wav",100
+Sample,52480,0,"C#5S_Db5S_s.wav",100
+Sample,52855,0,"C#5S_Db5S_s.wav",100
+Sample,53230,0,"C#5S_Db5S_s.wav",100
+Sample,53417,0,"D#6S_Eb6S_s.wav",100
+Sample,53417,0,"D#5S_Eb5S_s.wav",100
+Sample,53605,0,"C#5S_Db5S_s.wav",100
+Sample,53605,0,"E5S_s.wav",100
+Sample,53605,0,"E6S_s.wav",100
+Sample,53980,0,"C#5S_Db5S_s.wav",100
+Sample,53980,0,"G#4S_Ab4S_s.wav",100
+Sample,53980,0,"G5S_s.wav",100
+Sample,53980,0,"G6S_s.wav",100
+Sample,54167,0,"G#6S_Ab6S_s.wav",100
+Sample,54355,0,"D#5S_Eb5S_s.wav",100
+Sample,54355,0,"G#6S_Ab6S_s.wav",100
+Sample,54542,0,"A#6S_Bb6S_s.wav",100
+Sample,54730,0,"D#5S_Eb5S_s.wav",100
+Sample,55105,0,"C#6S_Db6S_s.wav",100
+Sample,55105,0,"C#7S_Db7S_s.wav",100
+Sample,55292,0,"G#3S_Ab3S_s.wav",100
+Sample,55480,0,"C5S_s.wav",100
+Sample,55667,0,"C6S_s.wav",100
+Sample,55667,0,"C7S_s.wav",100
+Sample,55855,0,"C5S_s.wav",100
+Sample,55855,0,"C7S_s.wav",100
+Sample,55855,0,"C6S_s.wav",100
+Sample,56042,0,"G#3S_Ab3S_s.wav",100
+Sample,56230,0,"C5S_s.wav",100
+Sample,56417,0,"A#6S_Bb6S_s.wav",100
+Sample,56417,0,"A#5S_Bb5S_s.wav",100
+Sample,56605,0,"A#5S_Bb5S_s.wav",100
+Sample,56605,0,"A#6S_Bb6S_s.wav",100
+Sample,56605,0,"C5S_s.wav",100
+Sample,56792,0,"G#3S_Ab3S_s.wav",100
+Sample,56980,0,"C5S_s.wav",100
+Sample,57167,0,"G#6S_Ab6S_s.wav",100
+Sample,57167,0,"G#5S_Ab5S_s.wav",100
+Sample,57355,0,"C5S_s.wav",100
+Sample,57355,0,"G#5S_Ab5S_s.wav",100
+Sample,57355,0,"G#6S_Ab6S_s.wav",100
+Sample,57542,0,"G#3S_Ab3S_s.wav",100
+Sample,57730,0,"C5S_s.wav",100
+Sample,58105,0,"A#4S_Bb4S_s.wav",100
+Sample,58292,0,"G3S_s.wav",100
+Sample,58480,0,"G5S_s.wav",100
+Sample,58480,0,"G6S_s.wav",100
+Sample,58480,0,"A#4S_Bb4S_s.wav",100
+Sample,58855,0,"G#6S_Ab6S_s.wav",100
+Sample,58855,0,"A#4S_Bb4S_s.wav",100
+Sample,58855,0,"G#5S_Ab5S_s.wav",100
+Sample,59042,0,"G3S_s.wav",100
+Sample,59230,0,"A#4S_Bb4S_s.wav",100
+Sample,59230,0,"A#5S_Bb5S_s.wav",100
+Sample,59230,0,"A#6S_Bb6S_s.wav",100
+Sample,59605,0,"C7S_s.wav",100
+Sample,59605,0,"E5S_s.wav",100
+Sample,59605,0,"C6S_s.wav",100
+Sample,59792,0,"C4S_s.wav",100
+Sample,59980,0,"E7S_s.wav",100
+Sample,59980,0,"E5S_s.wav",100
+Sample,59980,0,"E6S_s.wav",100
+Sample,60167,0,"C7S_s.wav",100
+Sample,60167,0,"C6S_s.wav",100
+Sample,60355,0,"C7S_s.wav",100
+Sample,60355,0,"E5S_s.wav",100
+Sample,60542,0,"A#5S_Bb5S_s.wav",100
+Sample,60542,0,"A#6S_Bb6S_s.wav",100
+Sample,60542,0,"C4S_s.wav",100
+Sample,60730,0,"E5S_s.wav",100
+Sample,61292,0,"F4S_s.wav",100
+Sample,61480,0,"A#5S_Bb5S_s.wav",100
+Sample,61480,0,"A#6S_Bb6S_s.wav",100
+Sample,61480,0,"F5S_s.wav",100
+Sample,61855,0,"G#5S_Ab5S_s.wav",100
+Sample,61855,0,"F5S_s.wav",100
+Sample,61855,0,"G#6S_Ab6S_s.wav",100
+Sample,62042,0,"F4S_s.wav",100
+Sample,62230,0,"F5S_s.wav",100
+Sample,62230,0,"G6S_s.wav",100
+Sample,62230,0,"G5S_s.wav",100
+Sample,62605,0,"G6S_s.wav",100
+Sample,62605,0,"G5S_s.wav",100
+Sample,62605,0,"D#5S_Eb5S_s.wav",100
+Sample,62792,0,"D#4S_Eb4S_s.wav",100
+Sample,62980,0,"D#5S_Eb5S_s.wav",100
+Sample,62980,0,"G#6S_Ab6S_s.wav",100
+Sample,62980,0,"G#5S_Ab5S_s.wav",100
+Sample,63167,0,"G6S_s.wav",100
+Sample,63167,0,"G5S_s.wav",100
+Sample,63355,0,"D#5S_Eb5S_s.wav",100
+Sample,63355,0,"G5S_s.wav",100
+Sample,63542,0,"G#6S_Ab6S_s.wav",100
+Sample,63542,0,"D#4S_Eb4S_s.wav",100
+Sample,63542,0,"G#5S_Ab5S_s.wav",100
+Sample,63730,0,"D#5S_Eb5S_s.wav",100
+Sample,64105,0,"C#5S_Db5S_s.wav",100
+Sample,64480,0,"C#5S_Db5S_s.wav",100
+Sample,64855,0,"C#5S_Db5S_s.wav",100
+Sample,64855,0,"C#6S_Db6S_s.wav",100
+Sample,64855,0,"C#7S_Db7S_s.wav",100
+Sample,65230,0,"C#5S_Db5S_s.wav",100
+Sample,65605,0,"C7S_s.wav",100
+Sample,66355,0,"A#5S_Bb5S_s.wav",100
+Sample,66355,0,"A#6S_Bb6S_s.wav",100
+Sample,67011,0,"D#6S_Eb6S.wav",100
+Sample,67011,0,"D#5S_Eb5S.wav",100
+Sample,67105,0,"G#7S_Ab7S_s.wav",100
+Sample,67105,0,"G#6S_Ab6S_s.wav",100
+Sample,67292,0,"G#7S_Ab7S_s.wav",100
+Sample,67480,0,"G#6S_Ab6S_s.wav",100
+Sample,67480,0,"G#7S_Ab7S_s.wav",100
+Sample,67667,0,"G7S_s.wav",100
+Sample,67855,0,"G7S_s.wav",100
+Sample,68042,0,"G7S_s.wav",100
+Sample,68230,0,"F6S_s.wav",100
+Sample,68230,0,"F7S_s.wav",100
+Sample,68417,0,"F7S_s.wav",100
+Sample,68605,0,"F7S_s.wav",100
+Sample,68605,0,"F6S_s.wav",100
+Sample,68792,0,"D#7S_Eb7S_s.wav",100
+Sample,68980,0,"D#6S_Eb6S_s.wav",100
+Sample,68980,0,"D#7S_Eb7S_s.wav",100
+Sample,69167,0,"D#7S_Eb7S_s.wav",100
+Sample,69355,0,"C#7S_Db7S_s.wav",100
+Sample,69542,0,"C#7S_Db7S_s.wav",100
+Sample,69730,0,"C7S_s.wav",100
+Sample,69730,0,"C6S_s.wav",100
+Sample,69917,0,"C7S_s.wav",100
+Sample,71042,0,"G#6S_Ab6S_s.wav",100
+Sample,71230,0,"G6S_s.wav",100
+Sample,71230,0,"G5S_s.wav",100
+Sample,71417,0,"G6S_s.wav",100
+Sample,71605,0,"G5S_s.wav",100
+Sample,71605,0,"G6S_s.wav",100
+Sample,71792,0,"G#6S_Ab6S_s.wav",100
+Sample,71980,0,"G#5S_Ab5S_s.wav",100
+Sample,71980,0,"G#6S_Ab6S_s.wav",100
+Sample,72167,0,"G#6S_Ab6S_s.wav",100
+Sample,72355,0,"A#6S_Bb6S_s.wav",100
+Sample,72355,0,"A#5S_Bb5S_s.wav",100
+Sample,72542,0,"A#6S_Bb6S_s.wav",100
+Sample,72730,0,"C7S_s.wav",100
+Sample,72730,0,"C6S_s.wav",100
+Sample,72917,0,"C7S_s.wav",100
+Sample,72917,0,"C6S_s.wav",100
+Sample,73105,0,"D#7S_Eb7S_s.wav",100
+Sample,73105,0,"D#6S_Eb6S_s.wav",100
+Sample,73480,0,"D#6S_Eb6S_s.wav",100
+Sample,73480,0,"D#7S_Eb7S_s.wav",100
+Sample,73667,0,"C#6S_Db6S.wav",100
+Sample,73667,0,"C#7S_Db7S_s.wav",100
+Sample,74230,0,"A#5S_Bb5S_s.wav",100
+Sample,74230,0,"A#6S_Bb6S_s.wav",100
+Sample,74417,0,"C6S_s.wav",100
+Sample,74417,0,"C7S_s.wav",100
+Sample,74605,0,"C7S_s.wav",100
+Sample,75167,0,"C#6S_Db6S.wav",100
+Sample,75167,0,"C#7S_Db7S_s.wav",100
+Sample,76480,0,"F7S_s.wav",100
+Sample,76480,0,"F6S_s.wav",100
+Sample,76480,0,"F5S_s.wav",100
+Sample,76855,0,"F7S_s.wav",100
+Sample,77042,0,"D#7S_Eb7S_s.wav",100
+Sample,77230,0,"F5S_s.wav",100
+Sample,77605,0,"A#2S_Bb2S_s.wav",100
+Sample,77605,0,"A#3S_Bb3S_s.wav",100
+Sample,77980,0,"F6S.wav",100
+Sample,77980,0,"F7S_s.wav",100
+Sample,78542,0,"G7S_s.wav",100
+Sample,79105,0,"D#6S_Eb6S_s.wav",100
+Sample,79292,0,"F4S_s.wav",100
+Sample,79292,0,"G#5S_Ab5S_s.wav",100
+Sample,79480,0,"D#6S_Eb6S_s.wav",100
+Sample,79667,0,"G#5S_Ab5S_s.wav",100
+Sample,79667,0,"G4S_s.wav",100
+Sample,79667,0,"D#4S_Eb4S_s.wav",100
+Sample,79855,0,"D#6S_Eb6S_s.wav",100
+Sample,80042,0,"G4S_s.wav",100
+Sample,80042,0,"D#4S_Eb4S_s.wav",100
+Sample,80042,0,"G#5S_Ab5S_s.wav",100
+Sample,80230,0,"D#6S_Eb6S_s.wav",100
+Sample,80417,0,"G#5S_Ab5S_s.wav",100
+Sample,80605,0,"D#6S_Eb6S_s.wav",100
+Sample,80792,0,"G#5S_Ab5S_s.wav",100
+Sample,80980,0,"D#6S_Eb6S_s.wav",100
+Sample,81167,0,"G#5S_Ab5S_s.wav",100
+Sample,81355,0,"D#6S_Eb6S_s.wav",100
+Sample,81542,0,"G#5S_Ab5S_s.wav",100
+Sample,81730,0,"D#6S_Eb6S_s.wav",100
+Sample,81917,0,"G#5S_Ab5S_s.wav",100
+Sample,82090,0,"A#6S_Bb6S_s.wav",100
+Sample,82090,0,"D#2S_Eb2S_s.wav",100
+Sample,82090,0,"D#6S_Eb6S_s.wav",100
+Sample,82090,0,"G6S_s.wav",100
+Sample,82090,0,"D#3S_Eb3S_s.wav",100
+Sample,82090,0,"D#7S_Eb7S_s.wav",100
+Sample,82277,0,"D#3S_Eb3S_s.wav",100
+Sample,82465,0,"D#3S_Eb3S_s.wav",100
+Sample,82652,0,"A#6S_Bb6S_s.wav",100
+Sample,82652,0,"D#7S_Eb7S_s.wav",100
+Sample,82652,0,"G6S_s.wav",100
+Sample,82840,0,"D#3S_Eb3S_s.wav",100
+Sample,83027,0,"D#3S_Eb3S_s.wav",100
+Sample,83215,0,"G6S_s.wav",100
+Sample,83215,0,"D#7S_Eb7S_s.wav",100
+Sample,83215,0,"A#6S_Bb6S_s.wav",100
+Sample,83402,0,"D#7S_Eb7S_s.wav",100
+Sample,83402,0,"A#6S_Bb6S_s.wav",100
+Sample,83402,0,"G6S_s.wav",100
+Sample,83982,0,"LR_Drum Hit Echo.wav",50
+Sample,84170,0,"G4S_s.wav",100
+Sample,91667,0,"A#5S_Bb5S_s.wav",100
+Sample,92417,0,"G#5S_Ab5S.wav",100
+Sample,95417,0,"D#6S_Eb6S.wav",100
+Sample,100105,0,"A#5S_Bb5S_s.wav",100
+Sample,100105,0,"A#6S_Bb6S_s.wav",100
+Sample,100292,0,"A#6S_Bb6S_s.wav",100
+Sample,100480,0,"A#5S_Bb5S_s.wav",100
+Sample,100480,0,"A#6S_Bb6S_s.wav",100
+Sample,100667,0,"G#6S_Ab6S_s.wav",100
+Sample,100855,0,"G#6S_Ab6S_s.wav",100
+Sample,103667,0,"D#6S_Eb6S.wav",100
+Sample,105167,0,"C#6S_Db6S_s.wav",100
+Sample,107605,0,"D#6S_Eb6S_s.wav",100
+Sample,107605,0,"D#6S_Eb6S_s.wav",100
+Sample,108167,0,"G6S_s.wav",100
+Sample,109480,0,"G#5S_Ab5S_s.wav",100
+Sample,109667,0,"G#5S_Ab5S_s.wav",100
+Sample,110230,0,"G#5S_Ab5S_s.wav",100
+Sample,110792,0,"LR_Drum Hit Echo.wav",100
+Sample,110980,0,"C#6S_Db6S_s.wav",100
+Sample,111730,0,"D#6S_Eb6S_s.wav",100
+Sample,112480,0,"G#5S_Ab5S_s.wav",100
+Sample,113230,0,"G#5S_Ab5S_s.wav",100
+Sample,113980,0,"C#6S_Db6S_s.wav",100
+Sample,114542,0,"A#5S_Bb5S_s.wav",100
+Sample,115292,0,"C4S_s.wav",100
+Sample,115480,0,"G#5S_Ab5S_s.wav",100
+Sample,116980,0,"D#6S_Eb6S_s.wav",100
+Sample,118105,0,"G#6S_Ab6S.wav",100
+Sample,119230,0,"G6S_s.wav",100
+Sample,119605,0,"G#6S_Ab6S_s.wav",100
+Sample,120730,0,"A#6S_Bb6S_s.wav",100
+Sample,121105,0,"A#6S_Bb6S.wav",100
+Sample,121948,0,"D#4S_Eb4S_s.wav",100
+Sample,122136,0,"D#4S_Eb4S_s.wav",100
+Sample,122230,0,"G#6S_Ab6S_s.wav",100
+Sample,123542,0,"D#5S_Eb5S_s.wav",100
+Sample,124085,0,"C#7S_Db7S_s.wav",100
+Sample,124647,0,"C7S_s.wav",100
+Sample,124835,0,"C7S_s.wav",100
+Sample,125397,0,"A#6S_Bb6S_s.wav",100
+Sample,125585,0,"A#6S_Bb6S_s.wav",100
+Sample,125585,0,"A#5S_Bb5S_s.wav",100
+Sample,126147,0,"G#6S_Ab6S_s.wav",100
+Sample,127085,0,"G6S_s.wav",100
+Sample,127460,0,"G6S_s.wav",100
+Sample,127460,0,"G5S_s.wav",100
+Sample,127835,0,"G#6S_Ab6S_s.wav",100
+Sample,128210,0,"A#6S_Bb6S_s.wav",100
+Sample,128210,0,"A#5S_Bb5S_s.wav",100
+Sample,128585,0,"C7S_s.wav",100
+Sample,128585,0,"E5S_s.wav",100
+Sample,128585,0,"C6S_s.wav",100
+Sample,128585,0,"C5S_s.wav",100
+Sample,128960,0,"F5S_s.wav",100
+Sample,128960,0,"C#6S_Db6S_s.wav",100
+Sample,128960,0,"C#7S_Db7S_s.wav",100
+Sample,129147,0,"C7S_s.wav",100
+Sample,129335,0,"G5S_s.wav",100
+Sample,129335,0,"C5S_s.wav",100
+Sample,129335,0,"C7S_s.wav",100
+Sample,130835,0,"A#6S_Bb6S_s.wav",100
+Sample,131585,0,"D#6S_Eb6S_s.wav",100
+Sample,132522,0,"G#6S_Ab6S_s.wav",100
+Sample,132897,0,"A#5S_Bb5S_s.wav",100
+Sample,132897,0,"A#6S_Bb6S_s.wav",100
+Sample,133272,0,"C7S_s.wav",100
+Sample,133272,0,"C6S_s.wav",100
+Sample,134397,0,"D#6S_Eb6S_s.wav",100
+Sample,134397,0,"D#5S_Eb5S_s.wav",100
+Sample,134585,0,"E6S_s.wav",100
+Sample,135335,0,"A#3S_Bb3S_s.wav",100
+Sample,135335,0,"G#6S_Ab6S_s.wav",100
+Sample,135522,0,"A#6S_Bb6S_s.wav",100
+Sample,136085,0,"C#7S_Db7S_s.wav",100
+Sample,136085,0,"C#6S_Db6S_s.wav",100
+Sample,136647,0,"C7S_s.wav",100
+Sample,136835,0,"C7S_s.wav",100
+Sample,137397,0,"A#6S_Bb6S_s.wav",100
+Sample,137585,0,"A#6S_Bb6S_s.wav",100
+Sample,137585,0,"A#5S_Bb5S_s.wav",100
+Sample,138147,0,"G#6S_Ab6S_s.wav",100
+Sample,139085,0,"G6S_s.wav",100
+Sample,139460,0,"G5S_s.wav",100
+Sample,139460,0,"G6S_s.wav",100
+Sample,139835,0,"G#6S_Ab6S_s.wav",100
+Sample,140210,0,"A#5S_Bb5S_s.wav",100
+Sample,140210,0,"A#6S_Bb6S_s.wav",100
+Sample,140585,0,"E5S_s.wav",100
+Sample,140585,0,"C6S_s.wav",100
+Sample,140585,0,"C5S_s.wav",100
+Sample,140585,0,"C7S_s.wav",100
+Sample,140960,0,"E7S_s.wav",100
+Sample,140960,0,"F5S_s.wav",100
+Sample,140960,0,"E6S_s.wav",100
+Sample,141147,0,"C7S_s.wav",100
+Sample,141335,0,"G5S_s.wav",100
+Sample,141335,0,"C7S_s.wav",100
+Sample,141335,0,"C5S_s.wav",100
+Sample,142835,0,"G#6S_Ab6S_s.wav",100
+Sample,143585,0,"G6S_s.wav",100
+Sample,144147,0,"G6S_s.wav",100
+Sample,144147,0,"G5S.wav",100
+Sample,144522,0,"G#6S_Ab6S_s.wav",100
+Sample,144897,0,"D#6S_Eb6S.wav",100
+Sample,144897,0,"D#5S_Eb5S.wav",100
+Sample,145835,0,"C#7S_Db7S_s.wav",100
+Sample,146585,0,"C6S_s.wav",100
+Sample,146585,0,"C7S_s.wav",100
+Sample,147147,0,"G#5S_Ab5S_s.wav",100
+Sample,147147,0,"G#6S_Ab6S_s.wav",100
+Sample,147335,0,"G#6S_Ab6S_s.wav",100
+Sample,147335,0,"E5S_s.wav",100
+Sample,148178,0,"C4S_s.wav",100
+Sample,148366,0,"C4S_s.wav",100
+Sample,148553,0,"C4S_s.wav",100
+Sample,148741,0,"C4S_s.wav",100
+Sample,148928,0,"C4S_s.wav",100
+Sample,149116,0,"C4S_s.wav",100
+Sample,149303,0,"C4S_s.wav",100
+Sample,149491,0,"C4S_s.wav",100
+Sample,151178,0,"C4S_s.wav",100
+Sample,151366,0,"C4S_s.wav",100
+Sample,151553,0,"C4S_s.wav",100
+Sample,151741,0,"C4S_s.wav",100
+Sample,151928,0,"C4S_s.wav",100
+Sample,152116,0,"C4S_s.wav",100
+Sample,152303,0,"C4S_s.wav",100
+Sample,152397,0,"G#5S_Ab5S.wav",100
+Sample,152397,0,"G#6S_Ab6S_s.wav",100
+Sample,152491,0,"C4S_s.wav",100
+Sample,152678,0,"D4S_s.wav",100
+Sample,152866,0,"D4S_s.wav",100
+Sample,153053,0,"D4S_s.wav",100
+Sample,153147,0,"A#6S_Bb6S_s.wav",100
+Sample,153147,0,"A#5S_Bb5S_s.wav",100
+Sample,153241,0,"D4S_s.wav",100
+Sample,153428,0,"D4S_s.wav",100
+Sample,153616,0,"D4S_s.wav",100
+Sample,154085,0,"D#6S_Eb6S_s.wav",100
+Sample,154085,0,"D#5S_Eb5S_s.wav",100
+Sample,154272,0,"F4S_s.wav",100
+Sample,154460,0,"F4S_s.wav",100
+Sample,154647,0,"F4S_s.wav",100
+Sample,154835,0,"C#6S_Db6S_s.wav",100
+Sample,154835,0,"C#7S_Db7S_s.wav",100
+Sample,154835,0,"F4S_s.wav",100
+Sample,155022,0,"F4S_s.wav",100
+Sample,155210,0,"F4S_s.wav",100
+Sample,155397,0,"F4S_s.wav",100
+Sample,155585,0,"C7S_s.wav",100
+Sample,155585,0,"E5S_s.wav",100
+Sample,155585,0,"C6S_s.wav",100
+Sample,155585,0,"LR_Drum Hit Echo.wav",30
+Sample,155772,0,"E5S_s.wav",100
+Sample,155772,0,"LR_Drum Hit Echo.wav",30
+Sample,155960,0,"A#5S_Bb5S_s.wav",100
+Sample,155960,0,"E5S_s.wav",100
+Sample,155960,0,"A#6S_Bb6S_s.wav",100
+Sample,155960,0,"LR_Drum Hit Echo.wav",30
+Sample,156147,0,"E5S_s.wav",100
+Sample,156147,0,"LR_Drum Hit Echo.wav",30
+Sample,156354,0,"LR_Drum Hit Echo.wav",30
+Sample,156447,0,"LR_Drum Hit Echo.wav",30
+Sample,156541,0,"LR_Drum Hit Echo.wav",30
+Sample,156611,0,"LR_Drum Hit Echo.wav",30
+Sample,156704,0,"LR_Drum Hit Echo.wav",30
+Sample,156775,0,"LR_Drum Hit Echo.wav",30
+Sample,156868,0,"LR_Drum Hit Echo.wav",30
+Sample,156962,0,"LR_Drum Hit Echo.wav",30
+Sample,222917,0,"G#5S_Ab5S_s.wav",100
+Sample,223105,0,"C#6S_Db6S_s.wav",100
+Sample,223667,0,"C6S_s.wav",100
+Sample,223855,0,"C6S_s.wav",100
+Sample,224417,0,"A#5S_Bb5S_s.wav",100
+Sample,224605,0,"A#5S_Bb5S_s.wav",100
+Sample,225167,0,"G#5S_Ab5S_s.wav",100
+Sample,225355,0,"G#5S_Ab5S_s.wav",100
+Sample,226105,0,"A#5S_Bb5S_s.wav",100
+Sample,226480,0,"G5S_s.wav",100
+Sample,226855,0,"G#5S_Ab5S_s.wav",100
+Sample,227605,0,"C6S_s.wav",100
+Sample,227605,0,"G5S_s.wav",100
+Sample,227980,0,"C#6S_Db6S_s.wav",100
+Sample,227980,0,"F5S_s.wav",100
+Sample,228167,0,"C6S_s.wav",100
+Sample,228355,0,"E5S_s.wav",100
+Sample,228542,0,"A#5S_Bb5S_s.wav",100
+Sample,228730,0,"G5S_s.wav",100
+Sample,229480,0,"D#5S_Eb5S_s.wav",100
+Sample,229855,0,"A#5S_Bb5S_s.wav",100
+Sample,229855,0,"F4S_s.wav",100
+Sample,230230,0,"G#5S_Ab5S_s.wav",100
+Sample,230605,0,"D#5S_Eb5S_s.wav",100
+Sample,232105,0,"F5S_s.wav",100
+Sample,232105,0,"C5S.wav",100
+Sample,232667,0,"F6S_s.wav",100
+Sample,232855,0,"F6S_s.wav",100
+Sample,233605,0,"G#5S_Ab5S_s.wav",100
+Sample,233605,0,"C#6S_Db6S_s.wav",100
+Sample,233605,0,"F6S_s.wav",100
+Sample,234355,0,"G6S_s.wav",100
+Sample,236605,0,"C#6S_Db6S_s.wav",100
+Sample,236605,0,"C#7S_Db7S_s.wav",100
+Sample,237167,0,"C7S_s.wav",100
+Sample,237355,0,"C7S_s.wav",100
+Sample,237917,0,"A#6S_Bb6S_s.wav",100
+Sample,238105,0,"A#5S_Bb5S_s.wav",100
+Sample,238105,0,"A#6S_Bb6S_s.wav",100
+Sample,238667,0,"G#6S_Ab6S_s.wav",100
+Sample,240355,0,"G#6S_Ab6S_s.wav",100
+Sample,240730,0,"A#6S_Bb6S_s.wav",100
+Sample,240730,0,"A#5S_Bb5S_s.wav",100
+Sample,241105,0,"C7S_s.wav",100
+Sample,241105,0,"C5S_s.wav",100
+Sample,241105,0,"C6S_s.wav",100
+Sample,241105,0,"E5S_s.wav",100
+Sample,241480,0,"C#6S_Db6S_s.wav",100
+Sample,241480,0,"C#7S_Db7S_s.wav",100
+Sample,241480,0,"F5S_s.wav",100
+Sample,241667,0,"C7S_s.wav",100
+Sample,241855,0,"C7S_s.wav",100
+Sample,241855,0,"C5S_s.wav",100
+Sample,241855,0,"G5S_s.wav",100
+Sample,243355,0,"A#6S_Bb6S_s.wav",100
+Sample,244105,0,"D#6S_Eb6S_s.wav",100
+Sample,244667,0,"F5S.wav",100
+Sample,244667,0,"F6S.wav",100
+Sample,245042,0,"G#6S_Ab6S_s.wav",100
+Sample,245417,0,"A#6S_Bb6S_s.wav",100
+Sample,245417,0,"A#5S_Bb5S_s.wav",100
+Sample,245792,0,"C7S_s.wav",100
+Sample,245792,0,"C6S_s.wav",100
+Sample,246917,0,"D#6S_Eb6S_s.wav",100
+Sample,246917,0,"D#5S_Eb5S_s.wav",100
+Sample,247855,0,"A#3S_Bb3S_s.wav",100
+Sample,247855,0,"G#6S_Ab6S_s.wav",100
+Sample,248042,0,"A#6S_Bb6S_s.wav",100
+Sample,248605,0,"C#6S_Db6S_s.wav",100
+Sample,248605,0,"C#7S_Db7S_s.wav",100
+Sample,249167,0,"C7S_s.wav",100
+Sample,249355,0,"C7S_s.wav",100
+Sample,249917,0,"A#6S_Bb6S_s.wav",100
+Sample,250105,0,"A#6S_Bb6S_s.wav",100
+Sample,250105,0,"A#5S_Bb5S_s.wav",100
+Sample,250667,0,"G#6S_Ab6S_s.wav",100
+Sample,251605,0,"G6S_s.wav",100
+Sample,251980,0,"G6S_s.wav",100
+Sample,251980,0,"G5S_s.wav",100
+Sample,252355,0,"G#6S_Ab6S_s.wav",100
+Sample,252730,0,"G4S_s.wav",100
+Sample,252730,0,"A#6S_Bb6S_s.wav",100
+Sample,253105,0,"C6S_s.wav",100
+Sample,253105,0,"C5S_s.wav",100
+Sample,253105,0,"E5S_s.wav",100
+Sample,253105,0,"C7S_s.wav",100
+Sample,253480,0,"F5S_s.wav",100
+Sample,253480,0,"E7S_s.wav",100
+Sample,253480,0,"E6S_s.wav",100
+Sample,253667,0,"C7S_s.wav",100
+Sample,253855,0,"C5S_s.wav",100
+Sample,253855,0,"C7S_s.wav",100
+Sample,253855,0,"G5S_s.wav",100
+Sample,255355,0,"G#6S_Ab6S_s.wav",100
+Sample,256105,0,"G6S_s.wav",100
+Sample,256667,0,"G5S.wav",100
+Sample,256667,0,"G6S_s.wav",100
+Sample,257042,0,"G#6S_Ab6S_s.wav",100
+Sample,257417,0,"D#6S_Eb6S.wav",100
+Sample,257417,0,"D#5S_Eb5S.wav",100
+Sample,258355,0,"C#7S_Db7S_s.wav",100
+Sample,259105,0,"C6S_s.wav",100
+Sample,259105,0,"LR_Drum Finish.wav",100
+Sample,259105,0,"C7S_s.wav",100
+Sample,259667,0,"G#5S_Ab5S_s.wav",100
+Sample,259667,0,"G#6S_Ab6S_s.wav",100
+Sample,259855,0,"E5S_s.wav",100
+Sample,259855,0,"G#6S_Ab6S_s.wav",100
+Sample,260698,0,"C4S_s.wav",100
+Sample,260886,0,"C4S_s.wav",100
+Sample,261073,0,"C4S_s.wav",100
+Sample,261261,0,"C4S_s.wav",100
+Sample,261448,0,"C4S_s.wav",100
+Sample,261636,0,"C4S_s.wav",100
+Sample,261823,0,"C4S_s.wav",100
+Sample,262011,0,"C4S_s.wav",100
+Sample,263698,0,"C4S_s.wav",100
+Sample,263886,0,"C4S_s.wav",100
+Sample,264073,0,"C4S_s.wav",100
+Sample,264261,0,"C4S_s.wav",100
+Sample,264448,0,"C4S_s.wav",100
+Sample,264636,0,"C4S_s.wav",100
+Sample,264823,0,"C4S_s.wav",100
+Sample,264917,0,"G#5S_Ab5S.wav",100
+Sample,264917,0,"G#6S_Ab6S_s.wav",100
+Sample,265011,0,"C4S_s.wav",100
+Sample,265198,0,"D4S_s.wav",100
+Sample,265386,0,"D4S_s.wav",100
+Sample,265573,0,"D4S_s.wav",100
+Sample,265667,0,"A#5S_Bb5S_s.wav",100
+Sample,265667,0,"A#6S_Bb6S_s.wav",100
+Sample,265761,0,"D4S_s.wav",100
+Sample,265948,0,"D4S_s.wav",100
+Sample,266136,0,"D4S_s.wav",100
+Sample,266605,0,"LR_Drum Finish.wav",100
+Sample,266605,0,"D#6S_Eb6S_s.wav",100
+Sample,266792,0,"F4S_s.wav",100
+Sample,266980,0,"F4S_s.wav",100
+Sample,267167,0,"LR_Drum Finish.wav",100
+Sample,267355,0,"C#7S_Db7S_s.wav",100
+Sample,267355,0,"F4S_s.wav",100
+Sample,267355,0,"C#6S_Db6S_s.wav",100
+Sample,267542,0,"F4S_s.wav",100
+Sample,267730,0,"LR_Drum Finish.wav",100
+Sample,267917,0,"F4S_s.wav",100
+Sample,268105,0,"C6S_s.wav",100
+Sample,268105,0,"C7S_s.wav",100
+Sample,268105,0,"E5S_s.wav",100
+Sample,268292,0,"E5S_s.wav",100
+Sample,268480,0,"A#6S_Bb6S_s.wav",100
+Sample,268480,0,"A#5S_Bb5S_s.wav",100
+Sample,268480,0,"E5S_s.wav",100
+Sample,268667,0,"E5S_s.wav",100
+Sample,268855,0,"A#6S_Bb6S_s.wav",100
+Sample,268948,0,"D#5S_Eb5S_s.wav",100
+Sample,269136,0,"D#5S_Eb5S_s.wav",100
+Sample,269230,0,"C7S_s.wav",100
+Sample,272605,0,"G#6S_Ab6S_s.wav",100
+Sample,272605,0,"G#5S_Ab5S_s.wav",100
+Sample,272980,0,"G5S_s.wav",100
+Sample,272980,0,"G6S_s.wav",100
+Sample,273355,0,"G#6S_Ab6S_s.wav",100
+Sample,273730,0,"A#6S_Bb6S_s.wav",100
+Sample,273730,0,"A#5S_Bb5S_s.wav",100
+Sample,274105,0,"A#6S_Bb6S_s.wav",100
+Sample,274105,0,"A#5S_Bb5S_s.wav",100
+Sample,274292,0,"A#6S_Bb6S_s.wav",100
+Sample,274480,0,"G#6S_Ab6S_s.wav",100
+Sample,274480,0,"G#5S_Ab5S_s.wav",100
+Sample,274855,0,"G6S_s.wav",100
+Sample,275042,0,"G6S_s.wav",100
+Sample,275230,0,"G#6S_Ab6S_s.wav",100
+Sample,275230,0,"G#5S_Ab5S_s.wav",100
+Sample,275417,0,"G#6S_Ab6S_s.wav",100
+Sample,275605,0,"F6S_s.wav",100
+Sample,275605,0,"G#6S_Ab6S_s.wav",100
+Sample,275605,0,"C#7S_Db7S_s.wav",100
+Sample,276730,0,"G#6S_Ab6S_s.wav",100
+Sample,276730,0,"C#7S_Db7S_s.wav",100
+Sample,276730,0,"F6S_s.wav",100
+Sample,276730,0,"C#6S_Db6S_s.wav",100
+Sample,277105,0,"C7S_s.wav",100
+Sample,277105,0,"D#6S_Eb6S_s.wav",100
+Sample,277105,0,"C6S_s.wav",100
+Sample,277105,0,"G6S_s.wav",100
+Sample,277667,0,"D#6S_Eb6S_s.wav",100
+Sample,277667,0,"G6S_s.wav",100
+Sample,277855,0,"G6S_s.wav",100
+Sample,278230,0,"C6S_s.wav",100
+Sample,278230,0,"D#6S_Eb6S_s.wav",100
+Sample,278230,0,"G#5S_Ab5S_s.wav",100
+Sample,278230,0,"G#6S_Ab6S_s.wav",100
+Sample,278605,0,"G#5S_Ab5S_s.wav",100
+Sample,278605,0,"G#6S_Ab6S_s.wav",100
+Sample,278980,0,"G5S_s.wav",100
+Sample,278980,0,"G6S_s.wav",100
+Sample,279355,0,"G#6S_Ab6S_s.wav",100
+Sample,279730,0,"A#6S_Bb6S_s.wav",100
+Sample,279730,0,"A#5S_Bb5S_s.wav",100
+Sample,280105,0,"A#6S_Bb6S_s.wav",100
+Sample,280105,0,"LR_Drum Finish.wav",100
+Sample,280480,0,"G#6S_Ab6S_s.wav",100
+Sample,280480,0,"G#5S_Ab5S_s.wav",100
+Sample,280480,0,"F5S_s.wav",100
+Sample,280667,0,"LR_Drum Finish.wav",100
+Sample,280855,0,"G6S_s.wav",100
+Sample,280855,0,"G5S_s.wav",100
+Sample,281042,0,"D#6S_Eb6S_s.wav",100
+Sample,281230,0,"F5S_s.wav",100
+Sample,281230,0,"D#6S_Eb6S_s.wav",100
+Sample,281230,0,"D#5S_Eb5S_s.wav",100
+Sample,281605,0,"C#7S_Db7S_s.wav",100
+Sample,282167,0,"C7S_s.wav",100
+Sample,282355,0,"C7S_s.wav",100
+Sample,282917,0,"A#6S_Bb6S_s.wav",100
+Sample,283105,0,"A#6S_Bb6S_s.wav",100
+Sample,283105,0,"A#5S_Bb5S_s.wav",100
+Sample,283855,0,"G#6S_Ab6S_s.wav",100
+Sample,284605,0,"C#6S_Db6S_s.wav",100
+Sample,284605,0,"C#7S_Db7S_s.wav",100
+Sample,285167,0,"C7S_s.wav",100
+Sample,285355,0,"C7S_s.wav",100
+Sample,285917,0,"A#6S_Bb6S_s.wav",100
+Sample,286105,0,"A#6S_Bb6S_s.wav",100
+Sample,286105,0,"A#5S_Bb5S_s.wav",100
+Sample,286480,0,"LR_Drum Finish.wav",30
+Sample,286667,0,"G#6S_Ab6S_s.wav",100
+Sample,286855,0,"G#6S_Ab6S_s.wav",100
+Sample,287230,0,"D#7S_Eb7S_s.wav",100
+Sample,287230,0,"D#6S_Eb6S_s.wav",100
+Sample,287230,0,"F5S_s.wav",100
+Sample,287605,0,"G#6S_Ab6S_s.wav",100
+Sample,287980,0,"D#6S_Eb6S_s.wav",100
+Sample,287980,0,"D#7S_Eb7S_s.wav",100
+Sample,288355,0,"G#6S_Ab6S.wav",100
+Sample,290605,0,"G#5S_Ab5S_s.wav",100
+Sample,290605,0,"G#6S_Ab6S_s.wav",100
+Sample,290980,0,"G6S_s.wav",100
+Sample,290980,0,"G5S_s.wav",100
+Sample,291355,0,"G#5S_Ab5S_s.wav",100
+Sample,291355,0,"G#6S_Ab6S_s.wav",100
+Sample,291730,0,"A#5S_Bb5S_s.wav",100
+Sample,291730,0,"A#6S_Bb6S_s.wav",100
+Sample,292105,0,"G#6S_Ab6S_s.wav",100
+Sample,292105,0,"G#5S_Ab5S_s.wav",100
+Sample,292292,0,"F4S_s.wav",100
+Sample,292480,0,"F4S_s.wav",100
+Sample,292667,0,"F4S_s.wav",100
+Sample,292855,0,"G4S_s.wav",100
+Sample,292855,0,"G6S_s.wav",100
+Sample,292855,0,"G5S_s.wav",100
+Sample,296606,0,"D6S_s.wav",100
+Sample,296606,0,"A#5S_Bb5S.wav",100
+Sample,296606,0,"G6S_s.wav",100
+
+[TimingPoints]
+1095,375,4,2,1,50,1,0
+43105,375,4,2,1,50,1,0
+82090,375,4,2,1,50,1,0
+83795,375,4,2,1,50,1,0
+85105,375,4,2,1,50,1,0
+123698,375,4,2,1,50,1,0
+124085,375,4,2,1,75,1,1
+124085,-100,4,2,1,75,0,1
+148085,-100,4,2,1,50,0,0
+156354,375,4,2,1,50,1,0
+156611,375,4,2,1,50,1,0
+156704,375,4,2,1,50,1,0
+156775,375,4,2,1,50,1,0
+158605,375,4,2,1,50,1,0
+236605,-100,4,2,1,75,0,1
+260605,-100,4,2,1,50,0,0
+295147,365.853658536585,4,2,1,50,1,0
+295147,-103.092783505155,4,2,1,50,0,0
+296606,377.358490566038,4,2,1,50,1,0
+296606,-99.009900990099,4,2,1,50,0,0
+297361,352.941176470588,4,2,1,50,1,0
+297361,-106.382978723404,4,2,1,50,0,0
+298122,422.535211267606,4,2,1,50,1,0
+298122,-85.4700854700855,4,2,1,50,0,0
+298462,526.315789473684,4,2,1,50,1,0
+298462,-76.9230769230769,4,2,1,50,0,0
+298858,389.61038961039,4,2,1,50,1,0
+298858,-96.1538461538461,4,2,1,50,0,0
+299635,377.358490566038,4,2,1,50,1,0
+299635,-99.009900990099,4,2,1,50,0,0
+301148,387.096774193548,4,2,1,50,1,0
+301148,-97.0873786407767,4,2,1,50,0,0
+302309,434.782608695652,4,2,1,50,1,0
+302309,-80,4,2,1,50,0,0
+302787,571.428571428571,4,2,1,50,1,0
+302787,-66.6666666666667,4,2,1,50,0,0
+303339,645.161290322581,4,2,1,50,1,0
+303339,-59.5238095238095,4,2,1,50,0,0
+304017,857.142857142857,4,2,1,50,1,0
+304017,-46.2962962962963,4,2,1,50,0,0
+304938,1384.0830449827,4,2,1,50,1,0
+304938,-33.3333333333333,4,2,1,50,0,0
+306513,566.037735849057,4,2,1,50,1,0
+306513,-86.9565217391304,4,2,1,50,0,0
+306619,495.867768595041,4,2,1,50,1,0
+306619,-101.010101010101,4,2,1,50,0,0
+307114,468.75,4,2,1,50,1,0
+307114,-106.382978723404,4,2,1,50,0,0
+307348,405.405405405405,4,2,1,50,1,0
+307348,-128.205128205128,4,2,1,50,0,0
+307550,441.176470588235,4,2,1,50,1,0
+307550,-125,4,2,1,50,0,0
+307770,384.615384615385,4,2,1,50,1,0
+307770,-149.253731343284,4,2,1,50,0,0
+307962,500,4,2,1,50,1,0
+307962,-120.481927710843,4,2,1,50,0,0
+308212,571.428571428571,4,2,1,50,1,0
+308212,-111.111111111111,4,2,1,50,0,0
+308497,612.244897959184,4,2,1,50,1,0
+308497,-105.263157894737,4,2,1,50,0,0
+308803,882.352941176471,4,2,1,50,1,0
+308803,-76.9230769230769,4,2,1,50,0,0
+309244,1333.33333333333,4,2,1,50,1,0
+309244,-56.1797752808989,4,2,1,50,0,0
+311394,1500,4,2,1,50,1,0
+311394,-66.6666666666667,4,2,1,50,0,0
+
+
+[HitObjects]
+320,192,720,128,0,907:0:0:0:100:D#6S_Eb6S_s.wav
+64,192,907,128,0,1095:0:0:0:100:C#6S_Db6S_s.wav
+192,192,1001,1,0,0:0:0:0:
+320,192,1048,1,0,0:0:0:0:
+448,192,1095,128,0,1470:0:0:0:100:C6S_s.wav
+64,192,1470,128,0,1845:0:0:0:100:C6S_s.wav
+192,192,1845,128,0,2220:0:0:0:100:C6S_s.wav
+448,192,2220,128,0,2595:0:0:0:100:C#6S_Db6S_s.wav
+192,192,2548,1,0,0:0:0:0:
+64,192,2595,1,0,0:0:0:0:
+320,192,2595,128,0,2970:0:0:0:100:C#5S_Db5S_s.wav
+64,192,2970,128,0,3157:0:0:0:100:A#5S_Bb5S_s.wav
+192,192,3157,128,0,3345:0:0:0:100:A#5S_Bb5S_s.wav
+320,192,3345,128,0,4095:0:0:0:100:C5S_s.wav
+192,192,3720,128,0,4095:0:0:0:100:G#5S_Ab5S_s.wav
+448,192,4095,128,0,4470:0:0:0:100:A#5S_Bb5S.wav
+64,192,4095,128,0,4845:0:0:0:100:G3S_s.wav
+192,192,4470,128,0,4845:0:0:0:100:A#4S_Bb4S_s.wav
+320,192,4845,128,0,5407:0:0:0:100:F5S_s.wav
+192,192,5220,128,0,5407:0:0:0:100:C#6S_Db6S_s.wav
+448,192,5407,128,0,6345:0:0:0:100:C6S_s.wav
+192,192,5595,1,0,0:0:0:100:E5S_s.wav
+64,192,5595,128,0,6345:0:0:0:100:C4S_s.wav
+320,192,5970,1,0,0:0:0:100:G4S_s.wav
+192,192,6345,128,0,7095:0:0:0:100:E4S_s.wav
+64,192,6720,1,0,0:0:0:100:C5S_s.wav
+448,192,6720,128,0,7095:0:0:0:100:C6S_s.wav
+64,192,7095,128,0,7470:0:0:0:100:F3S_s.wav
+320,192,7095,1,0,0:0:0:100:C6S_s.wav
+192,192,7470,128,0,7657:0:0:0:100:A#5S_Bb5S_s.wav
+64,192,7657,128,0,7845:0:0:0:100:A#5S_Bb5S_s.wav
+448,192,7845,128,0,8407:0:0:0:100:F5S_s.wav
+64,192,8220,128,0,8407:0:0:0:100:G#5S_Ab5S_s.wav
+320,192,8407,128,0,8970:0:0:0:100:G#5S_Ab5S_s.wav
+192,192,8595,128,0,8970:0:0:0:100:D#3S_Eb3S_s.wav
+448,192,8595,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+64,192,8970,128,0,9345:0:0:0:100:G4S_s.wav
+448,192,9345,128,0,9720:0:0:0:100:G#5S_Ab5S_s.wav
+192,192,9720,128,0,10095:0:0:0:100:G5S_s.wav
+64,192,10095,128,0,10470:0:0:0:30:C#4S_Db4S_s.wav
+320,192,10095,128,0,10845:0:0:0:100:D#6S_Eb6S_s.wav
+448,192,10470,128,0,10845:0:0:0:100:G#4S_Ab4S_s.wav
+192,192,10845,128,0,11407:0:0:0:100:C5S_s.wav
+64,192,11220,128,0,11407:0:0:0:100:D#6S_Eb6S_s.wav
+448,192,11407,128,0,12345:0:0:0:100:D#6S_Eb6S_s.wav
+64,192,11595,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,11595,128,0,11970:0:0:0:100:D#4S_Eb4S_s.wav
+192,192,11970,128,0,12345:0:0:0:100:A#4S_Bb4S_s.wav
+64,192,12345,128,0,13095:0:0:0:100:D#5S_Eb5S_s.wav
+448,192,12720,128,0,12907:0:0:0:100:D#6S_Eb6S_s.wav
+320,192,12907,128,0,13095:0:0:0:100:C#6S_Db6S_s.wav
+448,192,13095,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+192,192,13095,128,0,13470:0:0:0:100:C6S_s.wav
+448,192,13470,128,0,13845:0:0:0:100:D#4S_Eb4S_s.wav
+320,192,13845,128,0,14220:0:0:0:100:C5S_s.wav
+64,192,13845,1,0,0:0:0:100:C6S_s.wav
+64,192,14220,128,0,14595:0:0:0:100:D#4S_Eb4S_s.wav
+192,192,14470,1,0,0:0:0:0:
+320,192,14532,1,0,0:0:0:0:
+192,192,14595,128,0,14970:0:0:0:100:C6S_s.wav
+448,192,14595,1,0,0:0:0:0:
+320,192,14970,128,0,15157:0:0:0:100:D#4S_Eb4S_s.wav
+64,192,15157,128,0,15720:0:0:0:100:A#5S_Bb5S_s.wav
+320,192,15345,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,15345,128,0,16095:0:0:0:100:C5S_s.wav
+192,192,15720,128,0,16095:0:0:0:100:G#5S_Ab5S_s.wav
+64,192,16095,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,16095,128,0,16470:0:0:0:100:G3S_s.wav
+192,192,16470,128,0,16845:0:0:0:100:A#4S_Bb4S_s.wav
+64,192,16845,1,0,0:0:0:0:
+320,192,16845,128,0,17220:0:0:0:100:G5S_s.wav
+448,192,17220,128,0,17595:0:0:0:100:F5S_s.wav
+192,192,17407,128,0,17970:0:0:0:100:G6S_s.wav
+64,192,17595,128,0,18345:0:0:0:100:C4S_s.wav
+320,192,17595,1,0,0:0:0:0:
+320,192,17970,128,0,18345:0:0:0:100:G4S_s.wav
+192,192,18345,1,0,0:0:0:100:C6S_s.wav
+448,192,18345,128,0,18720:0:0:0:100:C5S_s.wav
+64,192,18720,128,0,19095:0:0:0:100:A#5S_Bb5S_s.wav
+192,192,19095,128,0,19470:0:0:0:100:F4S_s.wav
+320,192,19095,1,0,0:0:0:100:G6S_s.wav
+448,192,19470,128,0,19657:0:0:0:100:G#4S_Ab4S_s.wav
+320,192,19657,128,0,20220:0:0:0:100:D#6S_Eb6S_s.wav
+64,192,19845,128,0,20595:0:0:0:100:C5S_s.wav
+192,192,19845,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,20220,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,20595,128,0,20970:0:0:0:100:D#4S_Eb4S_s.wav
+448,192,20595,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,20970,128,0,21157:0:0:0:100:G#4S_Ab4S_s.wav
+448,192,21157,128,0,21532:0:0:0:100:C#6S_Db6S_s.wav
+192,192,21345,1,0,0:0:0:100:C#6S_Db6S_s.wav
+64,192,21345,128,0,22095:0:0:0:100:C5S_s.wav
+320,192,21532,128,0,22095:0:0:0:100:C6S_s.wav
+192,192,21720,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,22095,128,0,22845:0:0:0:30:C#4S_Db4S_s.wav
+448,192,22095,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,22470,128,0,22845:0:0:0:100:G#4S_Ab4S_s.wav
+448,192,22845,128,0,23595:0:0:0:100:C5S_s.wav
+64,192,22845,1,0,0:0:0:100:C6S_s.wav
+192,192,23220,128,0,23595:0:0:0:100:C6S_s.wav
+320,192,23595,128,0,24345:0:0:0:100:D#4S_Eb4S_s.wav
+64,192,23595,128,0,24157:0:0:0:100:D#6S_Eb6S_s.wav
+192,192,23970,1,0,0:0:0:0:
+448,192,24157,128,0,24345:0:0:0:100:A#5S_Bb5S_s.wav
+192,192,24345,128,0,25095:0:0:0:100:G4S_s.wav
+64,192,24345,128,0,24907:0:0:0:100:A#5S_Bb5S_s.wav
+448,192,24532,1,0,0:0:0:0:
+320,192,24720,1,0,0:0:0:0:
+64,192,25095,1,0,0:0:0:100:F3S_s.wav
+448,192,25095,1,0,0:0:0:0:
+320,192,25282,128,0,25470:0:0:0:100:G#5S_Ab5S_s.wav
+448,192,25470,1,0,0:0:0:100:G4S_s.wav
+64,192,25470,128,0,25657:0:0:0:100:G#5S_Ab5S_s.wav
+192,192,25657,128,0,25845:0:0:0:100:G#5S_Ab5S_s.wav
+448,192,25845,128,0,26032:0:0:0:100:G#5S_Ab5S_s.wav
+64,192,26032,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,26220,128,0,26407:0:0:0:100:G#5S_Ab5S_s.wav
+192,192,26407,128,0,26782:0:0:0:100:D#6S_Eb6S_s.wav
+320,192,26595,1,0,0:0:0:100:C#3S_Db3S_s.wav
+448,192,26595,1,0,0:0:0:0:
+320,192,26782,128,0,26970:0:0:0:100:G#3S_Ab3S_s.wav
+64,192,26970,128,0,27157:0:0:0:100:F4S_s.wav
+192,192,27157,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,27157,128,0,27532:0:0:0:100:C6S_s.wav
+64,192,27532,128,0,27720:0:0:0:100:C#6S_Db6S_s.wav
+320,192,27720,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+192,192,27720,128,0,28095:0:0:0:100:G#5S_Ab5S_s.wav
+64,192,28095,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+320,192,28095,1,0,0:0:0:0:
+448,192,28282,128,0,28470:0:0:0:100:G#4S_Ab4S_s.wav
+64,192,28470,128,0,28657:0:0:0:100:D#4S_Eb4S_s.wav
+448,192,28657,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,28657,128,0,28845:0:0:0:100:G4S_s.wav
+320,192,28845,128,0,29220:0:0:0:100:D#5S_Eb5S_s.wav
+64,192,29032,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,29220,128,0,29407:0:0:0:100:G4S_s.wav
+448,192,29407,128,0,29970:0:0:0:100:C6S_s.wav
+64,192,29595,1,0,0:0:0:0:
+320,192,29782,1,0,0:0:0:100:C5S_s.wav
+64,192,29970,128,0,30157:0:0:0:100:G3S.wav
+448,192,30157,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,30157,128,0,30532:0:0:0:100:A#4S_Bb4S_s.wav
+320,192,30532,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,30532,128,0,31095:0:0:0:0:
+448,192,30720,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+320,192,30907,1,0,0:0:0:0:
+192,192,31095,1,0,0:0:0:100:F3S_s.wav
+448,192,31095,1,0,0:0:0:0:
+320,192,31282,1,0,0:0:0:100:G4S_s.wav
+64,192,31470,128,0,31845:0:0:0:100:G#4S_Ab4S_s.wav
+192,192,31657,1,0,0:0:0:100:C5S_s.wav
+320,192,31751,1,0,0:0:0:0:
+448,192,31845,128,0,32220:0:0:0:100:G#4S_Ab4S_s.wav
+320,192,32032,1,0,0:0:0:100:F4S_s.wav
+64,192,32220,128,0,32595:0:0:0:100:D#5S_Eb5S_s.wav
+192,192,32407,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,32595,1,0,0:0:0:100:D6S_s.wav
+320,192,32595,128,0,32970:0:0:0:100:D5S_s.wav
+192,192,32970,128,0,33157:0:0:0:100:F4S_s.wav
+64,192,33157,1,0,0:0:0:100:F6S_s.wav
+448,192,33157,128,0,33720:0:0:0:100:A#3S_Bb3S_s.wav
+320,192,33345,1,0,0:0:0:100:F6S_s.wav
+192,192,33532,1,0,0:0:0:100:F6S_s.wav
+64,192,33532,1,0,0:0:0:0:
+320,192,33720,1,0,0:0:0:100:A#2S_Bb2S_s.wav
+64,192,33720,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+192,192,33907,128,0,34095:0:0:0:100:F6S_s.wav
+448,192,34095,1,0,0:0:0:100:F4S_s.wav
+64,192,34095,128,0,35220:0:0:0:100:A#3S_Bb3S_s.wav
+320,192,34282,1,0,0:0:0:0:
+192,192,34470,1,0,0:0:0:0:
+320,192,34657,1,0,0:0:0:100:F4S_s.wav
+320,192,34845,1,0,0:0:0:100:F4S_s.wav
+192,192,35032,1,0,0:0:0:0:
+448,192,35220,128,0,35407:0:0:0:100:G6S_s.wav
+320,192,35407,128,0,35970:0:0:0:100:C#6S_Db6S_s.wav
+64,192,35595,1,0,0:0:0:100:F5S_s.wav
+192,192,35595,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,35782,1,0,0:0:0:0:
+64,192,35970,1,0,0:0:0:0:
+192,192,36157,1,0,0:0:0:100:C#5S_Db5S_s.wav
+448,192,36157,1,0,0:0:0:100:F5S.wav
+64,192,36345,128,0,36720:0:0:0:100:G#6S_Ab6S_s.wav
+320,192,36532,1,0,0:0:0:0:
+192,192,36532,1,0,0:0:0:0:
+192,192,36720,1,0,0:0:0:100:C5S_s.wav
+448,192,36720,128,0,37095:0:0:0:100:F5S_s.wav
+320,192,36907,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,37095,1,0,0:0:0:100:D#2S_Eb2S_s.wav
+192,192,37095,1,0,0:0:0:0:
+448,192,37188,128,0,38032:0:0:0:100:D#3S_Eb3S_s.wav
+320,192,37282,1,0,0:0:0:0:
+64,192,37470,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+320,192,37657,1,0,0:0:0:0:
+64,192,37845,128,0,38220:0:0:0:100:D#5S_Eb5S_s.wav
+192,192,38032,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,38282,128,0,38470:0:0:0:100:G#6S_Ab6S_s.wav
+192,192,38470,128,0,38595:0:0:0:100:G6S_s.wav
+64,192,38595,1,0,0:0:0:100:G4S_s.wav
+448,192,38595,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,38782,1,0,0:0:0:0:
+192,192,38970,1,0,0:0:0:0:
+64,192,39157,1,0,0:0:0:100:D#3S_Eb3S.wav
+320,192,39157,1,0,0:0:0:100:D#4S_Eb4S.wav
+64,192,39345,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,39345,1,0,0:0:0:0:
+320,192,39532,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+448,192,39532,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+64,192,39720,1,0,0:0:0:100:D3S_s.wav
+192,192,39720,1,0,0:0:0:100:D4S_s.wav
+320,192,39907,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,40001,1,0,0:0:0:0:
+320,192,40048,1,0,0:0:0:0:
+448,192,40095,128,0,41595:0:0:0:100:D#3S_Eb3S.wav
+64,192,40095,128,0,41595:0:0:0:100:D#4S_Eb4S.wav
+320,192,41595,128,0,42345:0:0:0:100:G6S_s.wav
+192,192,41595,128,0,42720:0:0:0:100:G6S_s.wav
+64,192,42532,128,0,42907:0:0:0:0:
+320,192,42907,128,0,43105:0:0:0:0:
+448,192,43105,128,0,43480:0:0:0:0:
+64,192,43105,1,0,0:0:0:100:LR_Drum Finish.wav
+64,192,43480,1,0,0:0:0:100:LR_Tom Hit 3.wav
+320,192,43667,128,0,43761:0:0:0:0:
+320,192,43855,128,0,44417:0:0:0:0:
+448,192,43855,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,44230,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,44417,128,0,44511:0:0:0:0:
+64,192,44605,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,44605,128,0,45167:0:0:0:0:
+320,192,44980,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,45167,128,0,45261:0:0:0:0:
+448,192,45355,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,45355,128,0,46105:0:0:0:0:
+320,192,45730,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,46105,1,0,0:0:0:100:LR_Tom Hit 3.wav
+320,192,46480,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,46480,128,0,46855:0:0:0:0:
+448,192,46855,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,46855,128,0,47230:0:0:0:0:
+320,192,47230,128,0,47605:0:0:0:0:
+64,192,47230,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,47605,128,0,47980:0:0:0:0:
+64,192,47605,1,0,0:0:0:100:LR_Tom Hit 3.wav
+320,192,47980,128,0,48167:0:0:0:0:
+64,192,47980,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,48167,128,0,48542:0:0:0:0:
+448,192,48355,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,48542,128,0,49105:0:0:0:0:
+320,192,48730,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,49105,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,49480,128,0,49855:0:0:0:0:
+64,192,49480,1,0,0:0:0:100:LR_Tom Hit 3.wav
+320,192,49855,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,49855,128,0,50230:0:0:0:0:
+64,192,50230,1,0,0:0:0:100:LR_Tom Hit 3.wav
+320,192,50230,128,0,50605:0:0:0:0:
+192,192,50605,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,50605,128,0,50980:0:0:0:0:
+448,192,50980,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,50980,128,0,51167:0:0:0:0:
+320,192,51167,128,0,51542:0:0:0:0:
+64,192,51355,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,51542,128,0,51917:0:0:0:0:
+64,192,51730,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,51917,128,0,52292:0:0:0:0:
+448,192,52105,1,0,0:0:0:100:LR_Tom Hit 3.wav
+320,192,52292,128,0,52480:0:0:0:0:
+192,192,52480,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,52480,128,0,53042:0:0:0:0:
+448,192,52855,1,0,0:0:0:100:LR_Tom Hit 3.wav
+320,192,53230,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,53417,128,0,53511:0:0:0:0:
+448,192,53605,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,53605,128,0,53980:0:0:0:0:
+320,192,53980,128,0,54167:0:0:0:0:
+64,192,53980,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,54167,128,0,54448:0:0:0:0:
+192,192,54167,1,0,0:0:0:100:LR_Tom Hit.wav
+192,192,54355,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,54542,128,0,54917:0:0:0:0:
+320,192,54542,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,54730,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,54917,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,55105,128,0,55480:0:0:0:0:
+192,192,55105,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,55105,1,0,0:0:0:100:LR_Drum Finish.wav
+64,192,55480,1,0,0:0:0:100:LR_Tom Hit 3.wav
+320,192,55667,128,0,55761:0:0:0:0:
+320,192,55855,128,0,56417:0:0:0:0:
+64,192,55855,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,56230,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,56417,128,0,56511:0:0:0:0:
+64,192,56605,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,56605,128,0,57167:0:0:0:0:
+320,192,56980,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,57167,128,0,57261:0:0:0:0:
+448,192,57355,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,57355,128,0,58105:0:0:0:0:
+320,192,57730,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,58105,1,0,0:0:0:100:LR_Tom Hit 3.wav
+320,192,58480,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,58480,128,0,58855:0:0:0:0:
+448,192,58855,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,58855,128,0,59230:0:0:0:0:
+320,192,59230,128,0,59605:0:0:0:0:
+64,192,59230,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,59605,128,0,59980:0:0:0:0:
+64,192,59605,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,59980,128,0,60167:0:0:0:0:
+320,192,59980,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,60167,128,0,60542:0:0:0:0:
+448,192,60355,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,60542,128,0,61105:0:0:0:0:
+320,192,60730,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,61105,1,0,0:0:0:100:LR_Drum Finish.wav
+192,192,61105,1,0,0:0:0:100:LR_Tom Hit 3.wav
+320,192,61105,1,0,0:0:0:0:
+192,192,61480,128,0,61855:0:0:0:0:
+320,192,61480,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,61855,128,0,62230:0:0:0:0:
+64,192,61855,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,62230,1,0,0:0:0:100:LR_Tom Hit 3.wav
+320,192,62230,128,0,62605:0:0:0:0:
+448,192,62605,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,62605,128,0,62980:0:0:0:0:
+448,192,62980,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,62980,128,0,63167:0:0:0:0:
+320,192,63167,128,0,63542:0:0:0:0:
+64,192,63355,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,63542,128,0,63917:0:0:0:0:
+64,192,63730,1,0,0:0:0:100:LR_Tom Hit 3.wav
+192,192,63917,128,0,64667:0:0:0:0:
+320,192,64105,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,64480,5,0,0:0:0:100:LR_Tom Hit 3.wav
+320,192,64855,128,0,65605:0:0:0:0:
+64,192,64855,1,0,0:0:0:35:hat light.wav
+64,192,65042,1,0,0:0:0:35:hat light.wav
+192,192,65230,1,0,0:0:0:35:hat light.wav
+192,192,65417,1,0,0:0:0:35:hat light.wav
+448,192,65605,5,0,0:0:0:100:C6S_s.wav
+192,192,65698,1,0,0:0:0:100:LR_Drum Hit Drop High.wav
+64,192,65698,1,0,0:0:0:0:
+320,192,65792,1,0,0:0:0:100:LR_Drum Hit Drop High.wav
+448,192,65792,1,0,0:0:0:0:
+64,192,65886,1,0,0:0:0:0:
+192,192,65980,1,0,0:0:0:100:LR_Drum Hit Drop High.wav
+320,192,65980,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+448,192,66167,1,0,0:0:0:0:
+64,192,66261,1,0,0:0:0:0:
+192,192,66261,1,0,0:0:0:100:LR_Drum Hit Drop High.wav
+448,192,66355,1,0,0:0:0:100:LR_Drum Hit Drop High.wav
+320,192,66355,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+64,192,66448,1,0,0:0:0:0:
+192,192,66542,1,0,0:0:0:100:LR_Drum Hit Drop High.wav
+320,192,66542,1,0,0:0:0:0:
+448,192,66636,1,0,0:0:0:0:
+192,192,66730,1,4,0:0:0:100:C6S_s.wav
+64,192,66730,1,0,0:0:0:100:C7S_s.wav
+320,192,66823,1,0,0:0:0:100:LR_Drum Hit Drop High.wav
+448,192,66823,1,0,0:0:0:0:
+64,192,66917,1,0,0:0:0:100:LR_Drum Hit Drop High.wav
+192,192,66917,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,67011,1,0,0:0:0:0:
+64,192,67105,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+448,192,67105,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+192,192,67105,1,0,0:0:0:100:LR_Drum Finish.wav
+448,192,67292,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+448,192,67480,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,67480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,67480,1,0,0:0:0:100:C5S_s.wav
+320,192,67667,1,0,0:0:0:100:G6S_s.wav
+320,192,67855,1,0,0:0:0:100:F2S_s.wav
+64,192,67855,1,0,0:0:0:100:G6S_s.wav
+320,192,68042,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,68042,1,0,0:0:0:100:G6S_s.wav
+64,192,68230,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,68230,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,68230,1,0,0:0:0:100:C5S_s.wav
+192,192,68417,1,0,0:0:0:100:F6S_s.wav
+192,192,68605,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+448,192,68605,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+64,192,68792,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+64,192,68980,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,68980,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,68980,1,0,0:0:0:100:C5S_s.wav
+64,192,69167,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,69261,1,0,0:0:0:0:
+448,192,69355,1,0,0:0:0:100:F2S_s.wav
+192,192,69355,1,0,0:0:0:100:C#6S_Db6S_s.wav
+448,192,69542,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+64,192,69542,1,0,0:0:0:100:C#6S_Db6S_s.wav
+320,192,69730,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,69730,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,69730,1,0,0:0:0:100:C5S_s.wav
+320,192,69917,1,0,0:0:0:100:C6S_s.wav
+192,192,70105,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+448,192,70105,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+192,192,70292,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,70480,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,70480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,70480,1,0,0:0:0:100:C5S_s.wav
+64,192,70667,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,70761,1,0,0:0:0:0:
+64,192,70855,1,0,0:0:0:100:F2S_s.wav
+320,192,70855,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,71042,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+192,192,71042,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,71230,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,71230,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,71230,1,0,0:0:0:100:C5S_s.wav
+448,192,71417,1,0,0:0:0:100:G5S_s.wav
+64,192,71511,1,0,0:0:0:0:
+448,192,71605,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+192,192,71605,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+64,192,71792,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,71980,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,71980,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,71980,1,0,0:0:0:100:C5S_s.wav
+64,192,72167,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,72355,1,0,0:0:0:100:F2S_s.wav
+192,192,72542,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,72542,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,72730,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+64,192,72730,128,0,73105:0:0:0:100:G#4S_Ab4S_s.wav
+448,192,72730,1,0,0:0:0:100:C5S_s.wav
+320,192,72917,1,0,0:0:0:10:hat light.wav
+448,192,73105,1,0,0:0:0:100:C#3S_Db3S_s.wav
+192,192,73105,1,0,0:0:0:30:C#4S_Db4S_s.wav
+320,192,73105,1,0,0:0:0:100:LR_Drum Finish.wav
+448,192,73480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,73480,1,0,0:0:0:100:C#5S_Db5S_s.wav
+192,192,73480,1,0,0:0:0:100:F5S_s.wav
+320,192,73667,1,0,0:0:0:100:C#3S_Db3S_s.wav
+192,192,73855,1,0,0:0:0:0:
+64,192,73855,1,0,0:0:0:30:C#4S_Db4S_s.wav
+448,192,74042,1,0,0:0:0:100:C6S_s.wav
+320,192,74042,1,0,0:0:0:100:C7S_s.wav
+192,192,74230,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,74230,1,0,0:0:0:100:C#5S_Db5S_s.wav
+64,192,74230,1,0,0:0:0:100:F5S_s.wav
+448,192,74417,1,0,0:0:0:100:C3S_s.wav
+64,192,74417,1,0,0:0:0:100:C4S.wav
+320,192,74605,1,0,0:0:0:0:
+192,192,74792,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,74792,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+320,192,74980,1,0,0:0:0:100:G4S_s.wav
+448,192,74980,1,0,0:0:0:100:C5S_s.wav
+64,192,74980,1,0,0:0:0:100:E5S_s.wav
+320,192,75167,1,0,0:0:0:100:C3S.wav
+64,192,75261,1,0,0:0:0:0:
+448,192,75355,1,0,0:0:0:0:
+192,192,75355,1,0,0:0:0:0:
+192,192,75542,1,0,0:0:0:100:C6S_s.wav
+320,192,75542,1,0,0:0:0:100:C7S_s.wav
+64,192,75730,1,0,0:0:0:100:G4S_s.wav
+448,192,75730,1,0,0:0:0:100:C5S_s.wav
+320,192,75730,1,0,0:0:0:100:E5S_s.wav
+64,192,75917,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,76105,1,0,0:0:0:100:F2S_s.wav
+192,192,76105,1,0,0:0:0:100:F3S_s.wav
+192,192,76292,1,0,0:0:0:0:
+448,192,76480,1,0,0:0:0:100:F4S_s.wav
+64,192,76480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,76480,1,0,0:0:0:100:C5S_s.wav
+192,192,76667,1,0,0:0:0:0:
+64,192,76761,1,0,0:0:0:0:
+320,192,76855,1,0,0:0:0:100:F2S_s.wav
+448,192,76855,1,0,0:0:0:100:F6S_s.wav
+192,192,77042,1,0,0:0:0:100:F3S_s.wav
+64,192,77042,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,77230,1,0,0:0:0:100:F4S_s.wav
+192,192,77230,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,77230,1,0,0:0:0:100:C5S_s.wav
+64,192,77417,1,0,0:0:0:100:F6S_s.wav
+448,192,77417,1,0,0:0:0:100:F7S_s.wav
+320,192,77417,1,0,0:0:0:100:LR_Drum Finish.wav
+192,192,77605,1,0,0:0:0:0:
+192,192,77792,1,0,0:0:0:0:
+320,192,77792,1,0,0:0:0:0:
+64,192,77980,1,0,0:0:0:100:F4S_s.wav
+320,192,77980,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,77980,1,0,0:0:0:100:D5S_s.wav
+64,192,78167,1,0,0:0:0:100:F7S_s.wav
+320,192,78355,1,0,0:0:0:100:A#2S_Bb2S_s.wav
+448,192,78355,1,0,0:0:0:0:
+192,192,78355,1,0,0:0:0:0:
+64,192,78448,1,0,0:0:0:0:
+192,192,78542,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+320,192,78542,1,0,0:0:0:100:G6S_s.wav
+448,192,78636,1,0,0:0:0:0:
+64,192,78730,1,0,0:0:0:100:F4S_s.wav
+192,192,78730,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,78730,1,0,0:0:0:100:D5S_s.wav
+448,192,78917,1,0,0:0:0:100:F6S.wav
+64,192,79105,1,0,0:0:0:100:F4S_s.wav
+192,192,79105,1,0,0:0:0:100:LR_Drum Finish.wav
+448,192,79105,1,0,0:0:0:30:C#4S_Db4S_s.wav
+320,192,79292,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,79480,1,0,0:0:0:30:C#4S_Db4S_s.wav
+192,192,79480,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+64,192,79480,1,0,0:0:0:100:F4S_s.wav
+320,192,79667,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+64,192,79855,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+448,192,79855,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,79855,1,0,0:0:0:100:G4S_s.wav
+320,192,80042,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+320,192,80230,1,0,0:0:0:100:F4S_s.wav
+448,192,80230,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,80230,1,0,0:0:0:30:C#4S_Db4S_s.wav
+192,192,80417,1,0,0:0:0:100:C#3S_Db3S_s.wav
+320,192,80605,1,0,0:0:0:30:C#4S_Db4S_s.wav
+448,192,80605,1,0,0:0:0:100:F4S_s.wav
+64,192,80605,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,80792,1,0,0:0:0:100:C#3S_Db3S_s.wav
+64,192,80980,1,0,0:0:0:30:C#4S_Db4S_s.wav
+448,192,80980,1,0,0:0:0:100:F4S_s.wav
+320,192,80980,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,81167,1,0,0:0:0:100:C#3S_Db3S_s.wav
+192,192,81355,1,0,0:0:0:30:C#4S_Db4S_s.wav
+448,192,81355,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,81355,1,0,0:0:0:30:C#4S_Db4S_s.wav
+320,192,81542,1,0,0:0:0:100:C#3S_Db3S_s.wav
+192,192,81730,1,0,0:0:0:100:F4S_s.wav
+448,192,81730,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,81730,1,0,0:0:0:30:C#4S_Db4S_s.wav
+320,192,81823,1,0,0:0:0:0:
+192,192,81917,1,0,0:0:0:100:C#3S_Db3S_s.wav
+320,192,82011,1,0,0:0:0:0:
+64,192,82090,1,0,0:0:0:0:
+192,192,82090,1,0,0:0:0:100:LR_Drum Finish.wav
+448,192,82090,1,0,0:0:0:0:
+64,192,82277,1,0,0:0:0:100:D#2S_Eb2S_s.wav
+64,192,82465,1,0,0:0:0:100:D#2S_Eb2S_s.wav
+192,192,82652,1,0,0:0:0:100:D#2S_Eb2S_s.wav
+448,192,82652,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+320,192,82652,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,82840,1,0,0:0:0:100:D#2S_Eb2S_s.wav
+320,192,83027,1,0,0:0:0:100:D#2S_Eb2S_s.wav
+64,192,83215,1,0,0:0:0:100:D#2S_Eb2S_s.wav
+448,192,83215,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+192,192,83215,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+64,192,83402,128,0,83795:0:0:0:100:D#2S_Eb2S_s.wav
+448,192,83402,128,0,83795:0:0:0:100:D#3S_Eb3S_s.wav
+320,192,83402,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+192,192,83402,1,0,0:0:0:100:LR_Drum Finish.wav
+192,192,83795,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,83795,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+192,192,83982,1,0,0:0:0:100:F3S_s.wav
+448,192,83982,1,0,0:0:0:100:F4S_s.wav
+64,192,84170,1,0,0:0:0:100:G3S_s.wav
+320,192,84263,1,0,0:0:0:0:
+448,192,84263,1,0,0:0:0:0:
+192,192,84357,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+64,192,84357,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,84451,1,0,0:0:0:0:
+448,192,84545,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+64,192,84638,1,0,0:0:0:0:
+192,192,84638,1,0,0:0:0:0:
+320,192,84732,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,84732,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+64,192,84826,1,0,0:0:0:0:
+192,192,84826,1,0,0:0:0:0:
+320,192,84920,1,0,0:0:0:100:C#6S_Db6S_s.wav
+448,192,85013,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+192,192,85105,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,85105,1,0,0:0:0:100:C6S_s.wav
+64,192,85105,1,0,0:0:0:0:
+192,192,85292,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,85480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,85480,1,0,0:0:0:100:C6S_s.wav
+320,192,85480,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+192,192,85667,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,85855,1,0,0:0:0:100:C5S_s.wav
+448,192,85855,1,0,0:0:0:100:C6S_s.wav
+320,192,86042,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,86042,1,0,0:0:0:0:
+448,192,86230,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+64,192,86230,1,0,0:0:0:100:C#6S_Db6S_s.wav
+192,192,86230,1,0,0:0:0:0:
+192,192,86417,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,86605,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,86605,1,0,0:0:0:100:C6S_s.wav
+192,192,86792,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+64,192,86980,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,86980,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,86980,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+320,192,87167,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,87355,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,87355,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,87542,1,0,0:0:0:100:C5S_s.wav
+192,192,87542,1,0,0:0:0:0:
+64,192,87730,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,87730,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,87730,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+320,192,87917,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,88105,1,0,0:0:0:100:G3S_s.wav
+448,192,88105,1,0,0:0:0:100:A#5S_Bb5S.wav
+320,192,88292,1,0,0:0:0:100:F4S_s.wav
+64,192,88480,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,88480,1,0,0:0:0:0:
+448,192,88480,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+192,192,88667,1,0,0:0:0:100:F4S_s.wav
+448,192,88761,1,0,0:0:0:0:
+64,192,88855,1,0,0:0:0:100:G5S_s.wav
+320,192,88855,1,0,0:0:0:0:
+64,192,89042,1,0,0:0:0:100:F5S_s.wav
+320,192,89042,1,0,0:0:0:0:
+192,192,89230,1,0,0:0:0:0:
+64,192,89230,1,0,0:0:0:100:C#6S_Db6S_s.wav
+448,192,89230,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+192,192,89417,1,0,0:0:0:100:C6S.wav
+320,192,89605,1,0,0:0:0:100:C4S_s.wav
+448,192,89605,1,0,0:0:0:0:
+192,192,89792,1,0,0:0:0:100:G4S_s.wav
+64,192,89980,1,0,0:0:0:100:E5S_s.wav
+448,192,89980,1,0,0:0:0:0:
+320,192,89980,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+320,192,90167,1,0,0:0:0:100:F5S_s.wav
+64,192,90261,1,0,0:0:0:0:
+192,192,90355,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,90355,1,0,0:0:0:0:
+192,192,90542,1,0,0:0:0:100:G5S_s.wav
+448,192,90542,1,0,0:0:0:0:
+64,192,90730,1,0,0:0:0:100:C6S_s.wav
+448,192,90730,1,0,0:0:0:0:
+320,192,90730,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+320,192,90917,1,0,0:0:0:0:
+64,192,91105,1,0,0:0:0:100:F3S_s.wav
+192,192,91105,1,0,0:0:0:100:C6S_s.wav
+320,192,91292,1,0,0:0:0:100:C4S_s.wav
+64,192,91480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,91480,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,91480,1,0,0:0:0:0:
+320,192,91667,1,0,0:0:0:100:F4S_s.wav
+64,192,91855,1,0,0:0:0:100:C5S_s.wav
+448,192,91855,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,92042,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,92042,1,0,0:0:0:0:
+64,192,92230,1,0,0:0:0:100:F5S_s.wav
+448,192,92230,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,92230,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+192,192,92417,1,0,0:0:0:100:C5S_s.wav
+320,192,92605,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+448,192,92605,1,0,0:0:0:0:
+192,192,92792,1,0,0:0:0:100:C4S_s.wav
+64,192,92980,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,92980,1,0,0:0:0:0:
+320,192,92980,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+192,192,93167,1,0,0:0:0:100:F4S_s.wav
+64,192,93261,1,0,0:0:0:0:
+320,192,93355,1,0,0:0:0:100:C5S_s.wav
+448,192,93355,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,93542,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,93542,1,0,0:0:0:0:
+64,192,93730,1,0,0:0:0:100:F5S_s.wav
+448,192,93730,1,0,0:0:0:0:
+320,192,93730,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+192,192,93917,1,0,0:0:0:100:C5S_s.wav
+64,192,94105,1,0,0:0:0:100:C#3S_Db3S_s.wav
+448,192,94105,1,0,0:0:0:100:D#6S_Eb6S.wav
+320,192,94292,1,0,0:0:0:0:
+64,192,94480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,94480,1,0,0:0:0:0:
+448,192,94480,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+320,192,94667,1,0,0:0:0:100:F4S_s.wav
+448,192,94761,1,0,0:0:0:0:
+64,192,94855,1,0,0:0:0:100:C5S_s.wav
+192,192,94855,1,0,0:0:0:0:
+192,192,95042,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,95042,1,0,0:0:0:0:
+64,192,95230,1,0,0:0:0:100:F5S_s.wav
+448,192,95230,1,0,0:0:0:0:
+192,192,95230,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+320,192,95417,1,0,0:0:0:100:C5S_s.wav
+64,192,95605,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,95605,1,0,0:0:0:0:
+192,192,95792,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+64,192,95980,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,95980,1,0,0:0:0:0:
+320,192,95980,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+320,192,96167,1,0,0:0:0:100:G4S_s.wav
+64,192,96261,1,0,0:0:0:0:
+192,192,96355,1,0,0:0:0:0:
+448,192,96355,1,0,0:0:0:0:
+64,192,96448,1,0,0:0:0:0:
+192,192,96542,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+320,192,96542,1,0,0:0:0:0:
+64,192,96730,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+448,192,96730,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+192,192,96823,1,0,0:0:0:0:
+320,192,96823,1,0,0:0:0:0:
+64,192,96917,1,0,0:0:0:100:G4S_s.wav
+448,192,96917,1,0,0:0:0:100:C#6S_Db6S_s.wav
+320,192,97011,1,0,0:0:0:0:
+64,192,97105,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,97105,1,0,0:0:0:100:C6S_s.wav
+192,192,97105,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,97292,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,97480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,97480,1,0,0:0:0:100:C6S_s.wav
+64,192,97480,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+64,192,97667,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,97855,1,0,0:0:0:100:C5S_s.wav
+320,192,97855,1,0,0:0:0:100:C6S_s.wav
+320,192,98042,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,98042,1,0,0:0:0:0:
+64,192,98230,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,98230,1,0,0:0:0:100:C#6S_Db6S_s.wav
+448,192,98230,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+320,192,98417,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,98605,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,98605,1,0,0:0:0:100:C6S_s.wav
+448,192,98792,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,98980,1,0,0:0:0:100:C5S_s.wav
+320,192,98980,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,98980,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+448,192,99167,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,99261,1,0,0:0:0:0:
+64,192,99355,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,99355,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,99542,1,0,0:0:0:100:C5S_s.wav
+448,192,99542,1,0,0:0:0:0:
+64,192,99730,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+320,192,99730,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,99730,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,99917,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,100105,1,0,0:0:0:100:G3S_s.wav
+448,192,100105,1,0,0:0:0:100:A#5S_Bb5S.wav
+64,192,100292,1,0,0:0:0:100:F4S_s.wav
+64,192,100480,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+192,192,100480,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,100480,1,0,0:0:0:0:
+448,192,100667,1,0,0:0:0:100:F4S_s.wav
+320,192,100761,1,0,0:0:0:0:
+64,192,100855,1,0,0:0:0:100:G5S_s.wav
+192,192,100855,1,0,0:0:0:0:
+320,192,101042,1,0,0:0:0:100:F5S_s.wav
+448,192,101042,1,0,0:0:0:0:
+64,192,101230,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+192,192,101230,1,0,0:0:0:0:
+448,192,101230,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+320,192,101417,1,0,0:0:0:100:G6S.wav
+64,192,101605,1,0,0:0:0:100:C4S_s.wav
+192,192,101605,1,0,0:0:0:100:E5S_s.wav
+448,192,101792,1,0,0:0:0:100:G4S_s.wav
+192,192,101980,1,0,0:0:0:100:F5S_s.wav
+448,192,101980,1,0,0:0:0:0:
+320,192,101980,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+64,192,102167,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,102261,1,0,0:0:0:0:
+320,192,102355,1,0,0:0:0:100:G5S_s.wav
+448,192,102355,1,0,0:0:0:0:
+64,192,102542,1,0,0:0:0:100:C5S_s.wav
+192,192,102542,1,0,0:0:0:0:
+64,192,102730,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+320,192,102730,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,102730,1,0,0:0:0:100:G6S_s.wav
+192,192,102917,1,0,0:0:0:0:
+64,192,103105,1,0,0:0:0:100:F4S_s.wav
+448,192,103105,1,0,0:0:0:100:G6S_s.wav
+320,192,103292,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,103480,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+192,192,103480,1,0,0:0:0:100:C5S_s.wav
+448,192,103480,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+64,192,103667,1,0,0:0:0:100:F5S_s.wav
+448,192,103761,1,0,0:0:0:0:
+192,192,103855,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,103855,1,0,0:0:0:0:
+64,192,104042,1,0,0:0:0:100:F5S_s.wav
+192,192,104042,1,0,0:0:0:0:
+64,192,104230,1,0,0:0:0:100:C5S_s.wav
+448,192,104230,1,0,0:0:0:0:
+320,192,104230,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+448,192,104417,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,104605,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,104605,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,104792,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,104980,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+192,192,104980,1,0,0:0:0:100:C5S_s.wav
+448,192,104980,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,105167,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+64,192,105261,1,0,0:0:0:0:
+448,192,105355,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,105355,1,0,0:0:0:100:C#6S_Db6S_s.wav
+320,192,105542,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,105542,1,0,0:0:0:100:C6S_s.wav
+64,192,105730,1,0,0:0:0:100:C5S_s.wav
+192,192,105730,1,0,0:0:0:0:
+320,192,105730,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+192,192,105917,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,106105,1,0,0:0:0:30:C#4S_Db4S_s.wav
+448,192,106105,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,106292,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,106480,1,0,0:0:0:100:C5S_s.wav
+448,192,106480,1,0,0:0:0:0:
+320,192,106480,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+448,192,106667,1,0,0:0:0:100:F5S_s.wav
+192,192,106761,1,0,0:0:0:0:
+64,192,106855,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,106855,1,0,0:0:0:100:C6S_s.wav
+192,192,107042,1,0,0:0:0:100:F5S_s.wav
+320,192,107042,1,0,0:0:0:0:
+192,192,107230,1,0,0:0:0:100:C5S_s.wav
+448,192,107230,1,0,0:0:0:100:C#6S_Db6S_s.wav
+64,192,107230,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+320,192,107417,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,107605,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+448,192,107605,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,107792,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,107792,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+192,192,107980,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+64,192,107980,1,0,0:0:0:100:F5S_s.wav
+320,192,107980,1,0,0:0:0:100:F6S_s.wav
+320,192,108167,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,108167,1,0,0:0:0:100:G5S_s.wav
+64,192,108261,1,0,0:0:0:0:
+192,192,108355,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,108355,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,108355,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+64,192,108542,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,108542,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+64,192,108730,1,0,0:0:0:100:C6S_s.wav
+192,192,108730,1,0,0:0:0:100:C7S_s.wav
+192,192,108917,1,0,0:0:0:100:C#6S_Db6S_s.wav
+320,192,108917,1,0,0:0:0:100:C#7S_Db7S_s.wav
+448,192,109105,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+64,192,109105,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+320,192,109105,1,0,0:0:0:100:LR_Drum Finish.wav
+192,192,109292,1,0,0:0:0:100:C4S_s.wav
+448,192,109480,1,0,0:0:0:100:F4S_s.wav
+192,192,109667,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,109667,1,0,0:0:0:0:
+320,192,109855,1,0,0:0:0:100:C5S_s.wav
+448,192,109855,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,109855,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+448,192,110230,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+64,192,110417,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,110417,1,0,0:0:0:0:
+192,192,110605,1,0,0:0:0:0:
+320,192,110605,1,0,0:0:0:0:
+64,192,110792,1,0,0:0:0:100:C#3S_Db3S_s.wav
+448,192,110792,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+192,192,110792,1,0,0:0:0:0:
+320,192,110980,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+192,192,111167,1,0,0:0:0:100:F4S_s.wav
+64,192,111167,1,0,0:0:0:100:C6S_s.wav
+320,192,111355,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,111355,1,0,0:0:0:0:
+64,192,111355,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+192,192,111542,1,0,0:0:0:100:C#6S_Db6S_s.wav
+320,192,111730,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,111917,1,0,0:0:0:0:
+320,192,112011,1,0,0:0:0:0:
+192,192,112105,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+64,192,112105,1,0,0:0:0:0:
+64,192,112292,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+320,192,112292,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,112480,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,112667,1,0,0:0:0:100:G4S_s.wav
+192,192,112667,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,112855,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,112855,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,112855,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+192,192,113042,1,0,0:0:0:0:
+320,192,113230,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,113417,1,0,0:0:0:100:C6S_s.wav
+64,192,113417,1,0,0:0:0:0:
+64,192,113605,1,0,0:0:0:0:
+192,192,113605,1,0,0:0:0:0:
+320,192,113792,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,113792,1,0,0:0:0:0:
+192,192,113792,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+64,192,113980,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,114167,1,0,0:0:0:100:C5S_s.wav
+320,192,114167,1,0,0:0:0:100:C6S_s.wav
+64,192,114355,1,0,0:0:0:100:G3S_s.wav
+448,192,114355,1,0,0:0:0:0:
+320,192,114355,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+192,192,114542,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,114542,1,0,0:0:0:0:
+320,192,114730,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,114917,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+64,192,114917,1,0,0:0:0:0:
+64,192,115105,1,0,0:0:0:100:F3S_s.wav
+448,192,115105,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,115105,1,0,0:0:0:0:
+192,192,115480,1,0,0:0:0:100:F4S_s.wav
+320,192,115667,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,115667,1,0,0:0:0:0:
+64,192,115855,1,0,0:0:0:100:C5S_s.wav
+192,192,115855,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,115855,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+64,192,116230,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+192,192,116417,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,116605,1,0,0:0:0:100:D5S_s.wav
+320,192,116605,1,0,0:0:0:0:
+64,192,116792,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+192,192,116792,1,0,0:0:0:0:
+320,192,116792,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+448,192,116980,1,0,0:0:0:100:F4S_s.wav
+64,192,117167,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,117167,1,0,0:0:0:100:F6S_s.wav
+64,192,117355,1,0,0:0:0:100:D5S_s.wav
+448,192,117355,1,0,0:0:0:100:F6S_s.wav
+320,192,117355,1,0,0:0:0:100:LR_Drum Hit Echo.wav
+320,192,117542,1,0,0:0:0:0:
+448,192,117542,1,0,0:0:0:0:
+192,192,117730,1,0,0:0:0:0:
+64,192,117730,1,0,0:0:0:100:LR_Drum Kick Low.wav
+320,192,117823,1,0,0:0:0:0:
+448,192,117823,1,0,0:0:0:100:LR_Drum Kick Low.wav
+192,192,117917,1,0,0:0:0:100:F6S_s.wav
+320,192,118011,1,0,0:0:0:100:LR_Drum Kick Low.wav
+64,192,118105,1,0,0:0:0:100:C#3S_Db3S_s.wav
+448,192,118105,1,0,0:0:0:100:LR_Drum Finish.wav
+192,192,118105,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,118292,1,0,0:0:0:0:
+320,192,118480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,118480,1,0,0:0:0:100:C#5S_Db5S_s.wav
+448,192,118480,1,0,0:0:0:100:F5S_s.wav
+64,192,118667,1,0,0:0:0:100:C#3S_Db3S_s.wav
+192,192,118761,1,0,0:0:0:30:C#4S_Db4S_s.wav
+320,192,118855,1,0,0:0:0:100:C#3S_Db3S_s.wav
+448,192,118855,1,0,0:0:0:0:
+320,192,119042,1,0,0:0:0:100:C#3S_Db3S_s.wav
+448,192,119042,1,0,0:0:0:0:
+64,192,119230,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,119230,1,0,0:0:0:100:C#5S_Db5S_s.wav
+320,192,119230,1,0,0:0:0:100:F5S_s.wav
+448,192,119417,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+64,192,119511,1,0,0:0:0:0:
+192,192,119605,1,0,0:0:0:100:C#3S_Db3S_s.wav
+320,192,119605,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,119792,1,0,0:0:0:0:
+320,192,119980,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,119980,1,0,0:0:0:100:C#5S_Db5S_s.wav
+192,192,119980,1,0,0:0:0:100:F5S_s.wav
+192,192,120167,1,0,0:0:0:100:C#3S_Db3S_s.wav
+448,192,120261,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,120355,1,0,0:0:0:100:C#3S_Db3S_s.wav
+320,192,120355,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+64,192,120542,1,0,0:0:0:100:C#3S_Db3S_s.wav
+320,192,120542,1,0,0:0:0:0:
+192,192,120730,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,120730,1,0,0:0:0:100:C#5S_Db5S_s.wav
+64,192,120730,1,0,0:0:0:100:F5S_s.wav
+320,192,120917,1,0,0:0:0:0:
+64,192,121105,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+448,192,121105,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,121105,1,0,0:0:0:100:LR_Drum Finish.wav
+64,192,121292,1,0,0:0:0:0:
+320,192,121480,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,121480,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,121480,1,0,0:0:0:100:G5S_s.wav
+64,192,121667,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+448,192,121761,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,121855,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+320,192,121855,1,0,0:0:0:0:
+192,192,122042,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+320,192,122042,1,0,0:0:0:0:
+64,192,122230,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,122230,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,122230,1,0,0:0:0:100:G5S_s.wav
+192,192,122417,1,0,0:0:0:100:G6S.wav
+320,192,122511,1,0,0:0:0:0:
+64,192,122605,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+448,192,122605,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,122698,1,0,0:0:0:0:
+320,192,122792,1,0,0:0:0:0:
+64,192,122886,1,0,0:0:0:0:
+448,192,122980,1,0,0:0:0:100:G7S_s.wav
+320,192,123026,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+192,192,123073,1,0,0:0:0:100:A#6S_Bb6S.wav
+64,192,123120,1,0,0:0:0:100:G6S_s.wav
+448,192,123167,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,123214,1,0,0:0:0:100:C#6S_Db6S_s.wav
+192,192,123261,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,123308,1,0,0:0:0:100:G5S_s.wav
+448,192,123355,1,0,0:0:0:100:C7S_s.wav
+320,192,123448,1,0,0:0:0:0:
+64,192,123542,1,0,0:0:0:0:
+192,192,123636,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,123698,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,123698,1,4,0:0:0:0:
+64,192,123791,1,0,0:0:0:100:G5S_s.wav
+192,192,123791,1,0,0:0:0:100:G5S_s.wav
+320,192,123885,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,123885,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,123979,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,124085,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,124085,1,0,0:0:0:100:C#6S_Db6S_s.wav
+64,192,124085,1,0,0:0:0:100:LR_Drum Finish.wav
+192,192,124272,1,0,0:0:0:0:
+64,192,124460,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,124460,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,124460,1,0,0:0:0:100:C5S_s.wav
+320,192,124647,1,0,0:0:0:100:C6S_s.wav
+192,192,124835,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+64,192,124835,1,0,0:0:0:100:C6S_s.wav
+192,192,125022,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+320,192,125022,1,0,0:0:0:0:
+64,192,125210,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,125210,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,125210,1,0,0:0:0:100:C5S_s.wav
+192,192,125397,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,125585,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+64,192,125585,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+320,192,125772,1,0,0:0:0:0:
+448,192,125960,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+64,192,125960,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,125960,1,0,0:0:0:100:C5S_s.wav
+192,192,126147,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,126241,1,0,0:0:0:0:
+448,192,126335,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,126335,1,0,0:0:0:100:F7S_s.wav
+320,192,126428,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+192,192,126522,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,126522,1,0,0:0:0:100:C#7S_Db7S_s.wav
+64,192,126616,1,0,0:0:0:100:C7S_s.wav
+448,192,126710,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,126710,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,126710,1,0,0:0:0:100:C#7S_Db7S.wav
+64,192,126803,1,0,0:0:0:100:C7S_s.wav
+192,192,126897,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+320,192,126991,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+448,192,127085,1,0,0:0:0:100:G2S_s.wav
+64,192,127085,1,0,0:0:0:100:G3S_s.wav
+192,192,127272,1,0,0:0:0:0:
+448,192,127460,1,0,0:0:0:100:G4S_s.wav
+64,192,127460,1,0,0:0:0:100:C5S_s.wav
+320,192,127460,1,0,0:0:0:100:E5S_s.wav
+320,192,127647,1,0,0:0:0:0:
+64,192,127741,1,0,0:0:0:0:
+448,192,127835,1,0,0:0:0:100:G2S_s.wav
+192,192,127835,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,128022,1,0,0:0:0:100:G3S_s.wav
+192,192,128022,1,0,0:0:0:0:
+64,192,128210,1,0,0:0:0:100:C5S_s.wav
+320,192,128210,1,0,0:0:0:100:F5S_s.wav
+448,192,128210,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,128397,1,0,0:0:0:0:
+192,192,128585,1,0,0:0:0:100:G4S_s.wav
+64,192,128585,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,128772,1,0,0:0:0:0:
+320,192,128772,1,0,0:0:0:0:
+448,192,128960,1,0,0:0:0:100:G4S_s.wav
+64,192,128960,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,128960,1,0,0:0:0:100:C5S_s.wav
+192,192,129147,1,0,0:0:0:100:C6S_s.wav
+448,192,129241,1,0,0:0:0:0:
+320,192,129335,1,0,0:0:0:100:G4S_s.wav
+64,192,129335,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,129522,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,129522,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+448,192,129710,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+64,192,129710,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,129710,1,0,0:0:0:0:
+320,192,129897,1,0,0:0:0:0:
+64,192,130085,1,0,0:0:0:100:F3S_s.wav
+192,192,130085,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,130272,1,0,0:0:0:100:C4S_s.wav
+64,192,130460,1,0,0:0:0:100:F4S_s.wav
+448,192,130460,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,130460,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+192,192,130647,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,130835,1,0,0:0:0:100:F4S_s.wav
+320,192,130835,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,131022,1,0,0:0:0:100:F5S_s.wav
+64,192,131022,1,0,0:0:0:0:
+448,192,131210,1,0,0:0:0:100:C5S_s.wav
+64,192,131210,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,131210,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,131397,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,131585,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+64,192,131585,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,131772,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+448,192,131960,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+64,192,131960,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,131960,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,132147,1,0,0:0:0:100:G4S_s.wav
+448,192,132241,1,0,0:0:0:0:
+192,192,132335,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+64,192,132335,1,0,0:0:0:0:
+448,192,132522,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,132522,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,132710,1,0,0:0:0:100:C5S_s.wav
+64,192,132710,1,0,0:0:0:0:
+320,192,132710,1,0,0:0:0:0:
+64,192,132897,1,0,0:0:0:100:G4S_s.wav
+320,192,133085,1,0,0:0:0:100:C#3S_Db3S_s.wav
+448,192,133085,1,0,0:0:0:0:
+192,192,133272,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+64,192,133272,1,0,0:0:0:0:
+448,192,133460,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,133460,1,0,0:0:0:100:G#5S_Ab5S.wav
+320,192,133460,1,0,0:0:0:100:G#6S_Ab6S.wav
+320,192,133647,1,0,0:0:0:100:F4S_s.wav
+448,192,133835,1,0,0:0:0:30:C#4S_Db4S_s.wav
+192,192,133835,1,0,0:0:0:0:
+320,192,134022,1,0,0:0:0:100:C#5S_Db5S_s.wav
+64,192,134022,1,0,0:0:0:0:
+448,192,134210,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,134210,1,0,0:0:0:0:
+192,192,134210,1,0,0:0:0:0:
+320,192,134397,1,0,0:0:0:100:F4S_s.wav
+64,192,134585,1,0,0:0:0:100:C#3S_Db3S_s.wav
+448,192,134585,1,0,0:0:0:100:E5S_s.wav
+192,192,134772,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+320,192,134960,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,134960,1,0,0:0:0:100:G5S_s.wav
+448,192,134960,1,0,0:0:0:100:G6S_s.wav
+192,192,135147,128,0,135522:0:0:0:100:D#3S_Eb3S_s.wav
+448,192,135147,128,0,135522:0:0:0:100:LR_Drum Finish.wav
+64,192,135147,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+64,192,135522,128,0,135710:0:0:0:100:D#4S_Eb4S_s.wav
+320,192,135522,128,0,135710:0:0:0:100:A#5S_Bb5S_s.wav
+192,192,135710,1,0,0:0:0:100:G4S_s.wav
+448,192,135710,1,0,0:0:0:0:
+64,192,135803,1,0,0:0:0:0:
+320,192,135803,1,0,0:0:0:0:
+192,192,135897,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,135897,1,0,0:0:0:0:
+320,192,135991,1,0,0:0:0:0:
+64,192,136085,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+192,192,136085,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,136085,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,136272,1,0,0:0:0:0:
+192,192,136460,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,136460,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,136460,1,0,0:0:0:100:C5S_s.wav
+64,192,136647,1,0,0:0:0:100:C6S_s.wav
+448,192,136741,1,0,0:0:0:0:
+192,192,136835,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+320,192,136835,1,0,0:0:0:100:C6S_s.wav
+320,192,137022,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,137022,1,0,0:0:0:0:
+64,192,137210,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,137210,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,137210,1,0,0:0:0:100:C5S_s.wav
+320,192,137397,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,137585,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+192,192,137585,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,137772,1,0,0:0:0:0:
+320,192,137960,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+64,192,137960,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,137960,1,0,0:0:0:100:C5S_s.wav
+192,192,138147,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,138241,1,0,0:0:0:0:
+448,192,138335,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,138335,1,0,0:0:0:100:F7S_s.wav
+320,192,138428,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+448,192,138522,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,138522,1,0,0:0:0:100:C#7S_Db7S_s.wav
+64,192,138616,1,0,0:0:0:100:C7S_s.wav
+448,192,138710,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,138710,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,138710,1,0,0:0:0:100:C#7S_Db7S_s.wav
+64,192,138803,1,0,0:0:0:100:C7S_s.wav
+192,192,138897,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+320,192,138991,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+64,192,139085,1,0,0:0:0:100:G2S_s.wav
+448,192,139085,1,0,0:0:0:100:G3S_s.wav
+192,192,139272,1,0,0:0:0:0:
+64,192,139460,1,0,0:0:0:100:G4S_s.wav
+448,192,139460,1,0,0:0:0:100:C5S_s.wav
+320,192,139460,1,0,0:0:0:100:E5S_s.wav
+320,192,139647,1,0,0:0:0:0:
+448,192,139741,1,0,0:0:0:0:
+192,192,139835,1,0,0:0:0:100:G2S_s.wav
+64,192,139835,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,140022,1,0,0:0:0:100:G3S_s.wav
+320,192,140022,1,0,0:0:0:0:
+320,192,140210,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,140210,1,0,0:0:0:100:C5S_s.wav
+64,192,140210,1,0,0:0:0:100:F5S_s.wav
+64,192,140397,1,0,0:0:0:0:
+448,192,140585,1,0,0:0:0:100:G4S_s.wav
+320,192,140585,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,140772,1,0,0:0:0:0:
+192,192,140772,1,0,0:0:0:0:
+64,192,140960,1,0,0:0:0:100:G4S_s.wav
+192,192,140960,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,140960,1,0,0:0:0:100:C5S_s.wav
+320,192,141147,1,0,0:0:0:100:C6S_s.wav
+448,192,141241,1,0,0:0:0:0:
+64,192,141335,1,0,0:0:0:100:G4S_s.wav
+192,192,141335,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,141522,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,141522,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+320,192,141710,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,141710,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,141710,1,0,0:0:0:0:
+192,192,141897,1,0,0:0:0:0:
+64,192,142085,1,0,0:0:0:100:F3S_s.wav
+192,192,142085,1,0,0:0:0:0:
+448,192,142085,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,142272,1,0,0:0:0:100:C4S_s.wav
+192,192,142460,1,0,0:0:0:100:F4S_s.wav
+64,192,142460,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,142460,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+320,192,142647,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,142741,1,0,0:0:0:0:
+192,192,142835,1,0,0:0:0:100:F4S_s.wav
+448,192,142835,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,143022,1,0,0:0:0:100:F5S_s.wav
+320,192,143022,1,0,0:0:0:0:
+192,192,143210,1,0,0:0:0:100:C5S_s.wav
+448,192,143210,1,0,0:0:0:100:G5S_s.wav
+64,192,143210,1,0,0:0:0:100:G6S_s.wav
+320,192,143397,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,143585,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+448,192,143585,1,0,0:0:0:100:G5S_s.wav
+192,192,143772,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+320,192,143960,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,143960,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,143960,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+192,192,144147,1,0,0:0:0:100:G4S_s.wav
+448,192,144241,1,0,0:0:0:0:
+64,192,144335,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,144335,1,0,0:0:0:0:
+192,192,144522,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,144522,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,144710,1,0,0:0:0:100:C5S_s.wav
+320,192,144710,1,0,0:0:0:0:
+192,192,144710,1,0,0:0:0:0:
+448,192,144897,1,0,0:0:0:100:G4S_s.wav
+192,192,145085,1,0,0:0:0:100:C#3S_Db3S_s.wav
+64,192,145085,1,0,0:0:0:0:
+320,192,145272,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,145272,1,0,0:0:0:0:
+448,192,145460,1,0,0:0:0:0:
+320,192,145460,1,0,0:0:0:0:
+192,192,145460,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,145647,1,0,0:0:0:100:F4S_s.wav
+192,192,145835,1,0,0:0:0:30:C#4S_Db4S_s.wav
+320,192,145835,1,0,0:0:0:100:C#6S_Db6S_s.wav
+64,192,146022,1,0,0:0:0:100:C#5S_Db5S_s.wav
+320,192,146022,1,0,0:0:0:0:
+192,192,146210,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,146210,1,0,0:0:0:0:
+64,192,146210,1,0,0:0:0:0:
+320,192,146397,1,0,0:0:0:100:F4S_s.wav
+64,192,146585,1,0,0:0:0:100:G3S_s.wav
+448,192,146585,1,0,0:0:0:100:D4S_s.wav
+192,192,146585,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,146772,1,0,0:0:0:0:
+64,192,146866,1,0,0:0:0:0:
+448,192,146866,1,0,0:0:0:0:
+320,192,146960,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,146960,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+64,192,147147,1,0,0:0:0:100:C4S.wav
+448,192,147147,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,147147,1,0,0:0:0:100:E5S_s.wav
+448,192,147522,1,0,0:0:0:100:LR_Drum Finish.wav
+192,192,147522,1,0,0:0:0:0:
+64,192,147710,1,0,0:0:0:100:G5S_s.wav
+448,192,147710,1,0,0:0:0:100:G6S_s.wav
+192,192,147803,1,0,0:0:0:0:
+320,192,147803,1,0,0:0:0:0:
+64,192,147897,1,0,0:0:0:0:
+448,192,147897,1,0,0:0:0:0:
+320,192,147991,1,0,0:0:0:0:
+448,192,148085,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,148085,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+192,192,148085,1,0,0:0:0:100:LR_Drum Finish.wav
+64,192,148272,1,0,0:0:0:100:F3S_s.wav
+192,192,148460,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,148460,1,0,0:0:0:100:G6S_s.wav
+448,192,148460,1,0,0:0:0:100:G7S_s.wav
+448,192,148647,1,0,0:0:0:100:F3S_s.wav
+320,192,148835,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,148835,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+64,192,148835,1,0,0:0:0:100:G#7S_Ab7S_s.wav
+64,192,149022,1,0,0:0:0:100:F3S_s.wav
+192,192,149210,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,149210,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,149210,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+64,192,149397,1,0,0:0:0:100:F3S_s.wav
+448,192,149585,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,149585,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,149585,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+448,192,149772,1,0,0:0:0:100:E3S_s.wav
+320,192,149960,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,149960,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+64,192,149960,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+64,192,150147,1,0,0:0:0:100:E3S_s.wav
+320,192,150335,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,150335,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+192,192,150335,1,0,0:0:0:100:G#7S_Ab7S_s.wav
+448,192,150522,1,0,0:0:0:100:E3S_s.wav
+192,192,150710,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,150710,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,150710,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+448,192,150897,1,0,0:0:0:100:E3S_s.wav
+64,192,151085,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,151085,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+192,192,151085,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+192,192,151272,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+64,192,151460,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,151460,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,151460,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,151647,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+192,192,151835,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,151835,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,151835,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+192,192,152022,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+64,192,152210,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,152210,1,0,0:0:0:100:G5S_s.wav
+320,192,152210,1,0,0:0:0:100:G6S_s.wav
+192,192,152397,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+64,192,152585,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,152585,1,0,0:0:0:0:
+320,192,152585,1,0,0:0:0:0:
+320,192,152772,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+64,192,152960,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,152960,1,0,0:0:0:0:
+192,192,152960,1,0,0:0:0:0:
+192,192,153147,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+64,192,153335,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,153335,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,153335,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+320,192,153522,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+64,192,153710,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,153710,1,0,0:0:0:0:
+192,192,153710,1,0,0:0:0:0:
+320,192,153803,1,0,0:0:0:0:
+192,192,153897,1,0,0:0:0:0:
+320,192,153991,1,0,0:0:0:0:
+192,192,154085,1,0,0:0:0:100:C#2S_Db2S_s.wav
+448,192,154085,1,0,0:0:0:100:C#3S_Db3S_s.wav
+64,192,154085,1,0,0:0:0:100:LR_Drum Finish.wav
+64,192,154272,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+320,192,154272,1,0,0:0:0:30:C#4S_Db4S_s.wav
+448,192,154460,1,0,0:0:0:30:C#4S_Db4S_s.wav
+192,192,154460,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,154647,1,0,0:0:0:30:C#4S_Db4S_s.wav
+320,192,154647,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+192,192,154835,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,154835,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+320,192,155022,1,0,0:0:0:30:C#4S_Db4S_s.wav
+192,192,155022,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+320,192,155210,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,155210,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,155397,1,0,0:0:0:30:C#4S_Db4S_s.wav
+192,192,155397,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+64,192,155585,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,155585,1,0,0:0:0:100:C#5S_Db5S_s.wav
+192,192,155772,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,155772,1,0,0:0:0:100:C#5S_Db5S_s.wav
+320,192,155960,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,155960,1,0,0:0:0:100:C#5S_Db5S_s.wav
+320,192,156147,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,156147,1,0,0:0:0:100:C#5S_Db5S_s.wav
+192,192,156354,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,156354,1,0,0:0:0:100:G5S_s.wav
+320,192,156447,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,156447,1,0,0:0:0:0:
+64,192,156541,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,156541,1,0,0:0:0:0:
+320,192,156611,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,156611,1,0,0:0:0:0:
+64,192,156704,1,0,0:0:0:100:C6S_s.wav
+192,192,156704,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,156775,1,0,0:0:0:0:
+448,192,156775,1,0,0:0:0:0:
+64,192,156868,128,0,160105:0:0:0:100:G#6S_Ab6S_s.wav
+192,192,156868,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,156962,1,0,0:0:0:0:
+448,192,156962,1,0,0:0:0:0:
+320,192,158605,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+448,192,158605,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,158980,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,159355,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,159730,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,160105,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,160105,1,0,0:0:0:100:F5S_s.wav
+192,192,160480,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,160855,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,161230,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,161573,1,0,0:0:0:0:
+64,192,161605,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,161605,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,161980,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,162167,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,162355,1,0,0:0:0:100:F5S_s.wav
+192,192,162730,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+64,192,163073,1,0,0:0:0:0:
+448,192,163105,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,163105,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,163480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,163855,1,0,0:0:0:100:C5S_s.wav
+64,192,164230,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,164605,1,0,0:0:0:100:LR_Drum Finish.wav
+448,192,164605,128,0,164792:0:0:0:100:LR_Tom Hit 2.wav
+64,192,164605,1,0,0:0:0:0:
+192,192,164792,1,0,0:0:0:0:
+448,192,164980,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,164980,128,0,165073:0:0:0:0:
+64,192,165167,128,0,165355:0:0:0:0:
+192,192,165355,1,0,0:0:0:0:
+448,192,165355,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,165542,128,0,165636:0:0:0:0:
+448,192,165730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,165730,128,0,165917:0:0:0:0:
+192,192,165917,1,0,0:0:0:0:
+448,192,166105,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,166105,128,0,166198:0:0:0:0:
+192,192,166292,128,0,166480:0:0:0:0:
+64,192,166480,1,0,0:0:0:0:
+448,192,166480,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,166667,128,0,166761:0:0:0:0:
+64,192,166855,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,166855,128,0,167042:0:0:0:0:
+448,192,167042,1,0,0:0:0:0:
+64,192,167230,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,167230,128,0,167417:0:0:0:0:
+320,192,167417,128,0,167605:0:0:0:0:
+448,192,167605,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,167605,128,0,167792:0:0:0:100:LR_Drum Finish.wav
+192,192,167792,128,0,167980:0:0:0:0:
+64,192,167980,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,167980,128,0,168167:0:0:0:0:
+448,192,168167,128,0,168355:0:0:0:0:
+320,192,168355,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,168355,128,0,168542:0:0:0:0:
+64,192,168542,128,0,168730:0:0:0:0:
+448,192,168730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,168730,128,0,168917:0:0:0:0:
+192,192,168917,128,0,169105:0:0:0:0:
+64,192,169105,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,169105,128,0,169292:0:0:0:0:
+448,192,169292,128,0,169480:0:0:0:0:
+64,192,169480,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,169480,128,0,169667:0:0:0:0:
+192,192,169667,128,0,169855:0:0:0:0:
+448,192,169855,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,169855,128,0,170042:0:0:0:0:
+192,192,170042,128,0,170230:0:0:0:0:
+64,192,170230,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,170230,128,0,170417:0:0:0:0:
+448,192,170417,128,0,170605:0:0:0:0:
+320,192,170605,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,170605,128,0,171730:0:0:0:0:
+192,192,170605,1,0,0:0:0:100:LR_Drum Finish.wav
+192,192,170792,1,0,0:0:0:0:
+448,192,170980,1,0,0:0:0:0:
+320,192,170980,1,0,0:0:0:100:LR_Tom Hit 2.wav
+448,192,171167,1,0,0:0:0:0:
+192,192,171355,1,0,0:0:0:0:
+320,192,171355,1,0,0:0:0:100:LR_Tom Hit 2.wav
+448,192,171542,1,0,0:0:0:0:
+320,192,171730,128,0,172105:0:0:0:0:
+448,192,171730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,171917,1,0,0:0:0:0:
+64,192,172105,1,0,0:0:0:0:
+192,192,172105,1,0,0:0:0:100:LR_Drum Finish.wav
+448,192,172105,128,0,173511:0:0:0:0:
+192,192,172292,1,0,0:0:0:0:
+320,192,172480,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,172667,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,172667,1,0,0:0:0:100:LR_Tom Hit 3.wav
+320,192,172855,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,173042,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,173230,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,173230,1,0,0:0:0:100:LR_Tom Hit 3.wav
+320,192,173605,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+192,192,173605,128,0,173980:0:0:0:0:
+64,192,173792,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,173980,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,173980,128,0,174167:0:0:0:0:
+192,192,174167,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+64,192,174167,128,0,174542:0:0:0:0:
+448,192,174355,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,174542,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,174542,128,0,174917:0:0:0:0:
+448,192,174730,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,174917,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,174917,128,0,175480:0:0:0:0:
+448,192,175105,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,175292,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,175480,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,175480,128,0,175855:0:0:0:0:
+320,192,175667,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,175855,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,175855,128,0,176230:0:0:0:0:
+64,192,176042,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,176230,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,176230,128,0,176605:0:0:0:0:
+64,192,176417,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,176605,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+448,192,176605,128,0,176980:0:0:0:0:
+320,192,176792,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+64,192,176980,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,176980,128,0,177167:0:0:0:0:
+448,192,177167,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,177167,128,0,177542:0:0:0:0:
+192,192,177355,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,177542,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+64,192,177542,128,0,177917:0:0:0:0:
+320,192,177730,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,177917,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,177917,128,0,178480:0:0:0:0:
+64,192,178105,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,178292,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,178480,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,178480,128,0,178855:0:0:0:0:
+192,192,178667,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,178855,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,178855,128,0,179230:0:0:0:0:
+192,192,179042,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+64,192,179230,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,179230,128,0,179605:0:0:0:0:
+192,192,179417,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,179605,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+192,192,179792,1,0,0:0:0:100:F5S_s.wav
+320,192,179980,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,179980,128,0,180355:0:0:0:0:
+64,192,180167,1,0,0:0:0:100:F5S_s.wav
+192,192,180355,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,180355,128,0,180730:0:0:0:0:
+64,192,180542,1,0,0:0:0:100:F5S_s.wav
+192,192,180730,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,180730,128,0,181105:0:0:0:0:
+64,192,180917,1,0,0:0:0:100:F5S_s.wav
+192,192,181105,1,0,0:0:0:100:C6S_s.wav
+320,192,181105,128,0,181480:0:0:0:0:
+448,192,181292,1,0,0:0:0:100:E5S_s.wav
+192,192,181480,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,181480,128,0,181855:0:0:0:0:
+320,192,181667,1,0,0:0:0:100:E5S_s.wav
+192,192,181855,1,0,0:0:0:100:C#6S_Db6S_s.wav
+448,192,181855,128,0,182230:0:0:0:0:
+64,192,182042,1,0,0:0:0:100:E5S_s.wav
+192,192,182230,1,0,0:0:0:100:C6S_s.wav
+320,192,182230,128,0,182605:0:0:0:0:
+448,192,182605,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,182605,1,0,0:0:0:0:
+64,192,182605,128,0,183167:0:0:0:0:
+192,192,182792,1,0,0:0:0:0:
+448,192,182980,1,0,0:0:0:100:G5S_s.wav
+320,192,183167,1,0,0:0:0:100:F5S_s.wav
+192,192,183167,128,0,183355:0:0:0:0:
+448,192,183261,1,0,0:0:0:100:G5S_s.wav
+64,192,183355,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,183355,128,0,184105:0:0:0:0:
+192,192,183511,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,183698,1,0,0:0:0:100:C6S_s.wav
+64,192,183917,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+448,192,184105,128,0,184855:0:0:0:100:LR_Drum Hit Echo.wav
+192,192,184105,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,184855,128,0,185605:0:0:0:100:LR_Drum Hit Echo.wav
+320,192,184855,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,184855,1,0,0:0:0:0:
+448,192,185605,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,185605,1,0,0:0:0:100:LR_Drum Finish.wav
+64,192,185605,1,0,0:0:0:30:LR_Drum Kick Low.wav
+320,192,185980,1,0,0:0:0:0:
+192,192,185980,1,0,0:0:0:30:LR_Drum Kick Low.wav
+64,192,186355,1,0,0:0:0:100:soft-hitclap.wav
+320,192,186355,1,0,0:0:0:0:
+448,192,186355,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,186542,1,0,0:0:0:0:
+448,192,186730,1,0,0:0:0:0:
+320,192,186917,1,0,0:0:0:0:
+192,192,186917,1,0,0:0:0:30:LR_Drum Kick Low.wav
+448,192,187105,1,0,0:0:0:0:
+192,192,187105,1,0,0:0:0:30:LR_Drum Kick Low.wav
+320,192,187292,1,0,0:0:0:0:
+448,192,187292,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,187292,1,0,0:0:0:100:soft-hitclap.wav
+192,192,187480,1,0,0:0:0:0:
+64,192,187480,1,0,0:0:0:30:LR_Drum Kick Low.wav
+192,192,187667,1,0,0:0:0:30:LR_Drum Kick Low.wav
+64,192,187855,1,0,0:0:0:100:soft-hitclap.wav
+320,192,187855,1,0,0:0:0:0:
+448,192,187855,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,188042,1,0,0:0:0:0:
+448,192,188230,1,0,0:0:0:0:
+192,192,188417,1,0,0:0:0:0:
+64,192,188605,1,0,0:0:0:30:LR_Drum Kick Low.wav
+320,192,188605,1,0,0:0:0:0:
+192,192,188980,1,0,0:0:0:0:
+64,192,188980,1,0,0:0:0:30:LR_Drum Kick Low.wav
+192,192,189355,1,0,0:0:0:0:
+64,192,189355,1,0,0:0:0:100:soft-hitclap.wav
+448,192,189355,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,189542,1,0,0:0:0:0:
+64,192,189730,1,0,0:0:0:0:
+320,192,189917,1,0,0:0:0:0:
+448,192,189917,1,0,0:0:0:30:LR_Drum Kick Low.wav
+448,192,190105,1,0,0:0:0:0:
+192,192,190105,1,0,0:0:0:30:LR_Drum Kick Low.wav
+192,192,190292,1,0,0:0:0:0:
+320,192,190292,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,190292,1,8,0:0:0:100:
+320,192,190480,1,0,0:0:0:0:
+448,192,190480,1,0,0:0:0:30:LR_Drum Kick Low.wav
+192,192,190667,1,0,0:0:0:0:
+64,192,190667,1,0,0:0:0:30:LR_Drum Kick Low.wav
+448,192,190855,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,190855,1,0,0:0:0:100:soft-hitclap.wav
+320,192,190948,1,0,0:0:0:100:LR_Tom Hit 2.wav
+448,192,190948,1,0,0:0:0:100:soft-hitclap.wav
+64,192,191042,1,0,0:0:0:0:
+192,192,191042,1,0,0:0:0:30:LR_Drum Kick Low.wav
+448,192,191230,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,191230,1,0,0:0:0:100:soft-hitclap.wav
+64,192,191417,1,0,0:0:0:0:
+192,192,191417,1,0,0:0:0:30:LR_Drum Kick Low.wav
+192,192,191605,1,0,0:0:0:100:LR_CymbalSSD.wav
+64,192,191605,1,0,0:0:0:0:
+448,192,191605,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,191792,1,0,0:0:0:0:
+320,192,191980,1,0,0:0:0:0:
+192,192,191980,1,0,0:0:0:0:
+64,192,192167,1,0,0:0:0:0:
+448,192,192167,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,192167,1,0,0:0:0:100:LR_CymbalSSD.wav
+320,192,192355,1,0,0:0:0:0:
+64,192,192542,1,0,0:0:0:0:
+192,192,192730,1,0,0:0:0:100:LR_CymbalSSD.wav
+320,192,192730,1,0,0:0:0:0:
+448,192,192730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+448,192,192917,1,0,0:0:0:0:
+192,192,193011,1,0,0:0:0:0:
+64,192,193105,1,0,0:0:0:0:
+448,192,193105,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,193105,1,0,0:0:0:100:LR_CymbalSSD.wav
+192,192,193292,1,0,0:0:0:0:
+64,192,193292,1,0,0:0:0:0:
+320,192,193386,1,0,0:0:0:0:
+448,192,193386,1,0,0:0:0:0:
+192,192,193480,1,0,0:0:0:0:
+64,192,193480,1,0,0:0:0:0:
+64,192,193667,1,0,0:0:0:0:
+448,192,193667,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,193667,1,0,0:0:0:100:LR_CymbalSSD.wav
+192,192,193855,1,0,0:0:0:0:
+320,192,194042,1,0,0:0:0:0:
+192,192,194042,1,0,0:0:0:0:
+448,192,194230,1,0,0:0:0:100:
+64,192,194230,1,8,0:0:0:100:
+192,192,194323,1,8,0:0:0:100:
+320,192,194323,1,0,0:0:0:100:
+64,192,194417,1,8,0:0:0:100:
+448,192,194417,1,0,0:0:0:100:
+192,192,194511,1,8,0:0:0:100:
+320,192,194511,1,0,0:0:0:100:
+448,192,194605,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,194605,1,0,0:0:0:100:LR_Drum Finish.wav
+64,192,194980,1,0,0:0:0:31:LR_Drum Kick Low.wav
+192,192,194980,1,0,0:0:0:0:
+64,192,195167,1,0,0:0:0:31:LR_Drum Kick Low.wav
+192,192,195167,1,0,0:0:0:0:
+192,192,195355,1,0,0:0:0:31:LR_Drum Kick Low.wav
+320,192,195355,1,0,0:0:0:0:
+192,192,195542,1,0,0:0:0:31:LR_Drum Kick Low.wav
+320,192,195542,1,0,0:0:0:0:
+320,192,195730,1,0,0:0:0:31:LR_Drum Kick Low.wav
+448,192,195730,1,0,0:0:0:0:
+320,192,195917,1,0,0:0:0:31:LR_Drum Kick Low.wav
+448,192,195917,1,0,0:0:0:0:
+64,192,196105,1,0,0:0:0:0:
+192,192,196105,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,196105,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,196292,1,0,0:0:0:0:
+320,192,196386,1,0,0:0:0:0:
+448,192,196386,1,0,0:0:0:0:
+192,192,196480,1,0,0:0:0:0:
+64,192,196480,1,0,0:0:0:0:
+320,192,196667,1,0,0:0:0:0:
+448,192,196667,1,0,0:0:0:0:
+64,192,196855,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,196948,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,197042,1,0,0:0:0:100:LR_Tom Hit 2.wav
+448,192,197042,1,0,0:0:0:0:
+64,192,197136,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,197230,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,197230,1,0,0:0:0:100:LR_Drum Hit Drop High.wav
+320,192,197323,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,197417,1,0,0:0:0:100:LR_Tom Hit 3.wav
+448,192,197417,1,0,0:0:0:100:LR_Drum Hit Drop High.wav
+192,192,197511,1,0,0:0:0:100:LR_Tom Hit 3.wav
+64,192,197605,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,197605,1,0,0:0:0:100:LR_CymbalSSD.wav
+448,192,197605,1,4,0:0:0:100:
+320,192,197792,1,0,0:0:0:100:G#7S_Ab7S_s.wav
+320,192,197980,1,0,0:0:0:100:G#7S_Ab7S_s.wav
+64,192,197980,1,0,0:0:0:0:
+448,192,197980,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,198167,1,0,0:0:0:100:G7S_s.wav
+320,192,198261,1,0,0:0:0:0:
+192,192,198355,1,0,0:0:0:100:G7S_s.wav
+448,192,198355,1,0,0:0:0:0:
+192,192,198542,1,0,0:0:0:100:G7S_s.wav
+320,192,198542,1,0,0:0:0:0:
+64,192,198730,1,0,0:0:0:100:F7S_s.wav
+320,192,198730,1,0,0:0:0:0:
+448,192,198730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,198917,1,0,0:0:0:100:F7S_s.wav
+320,192,199011,1,0,0:0:0:0:
+64,192,199105,1,0,0:0:0:100:F7S_s.wav
+192,192,199105,1,0,0:0:0:0:
+448,192,199292,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+320,192,199480,1,0,0:0:0:0:
+448,192,199480,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+64,192,199480,1,0,0:0:0:100:LR_Tom Hit 2.wav
+448,192,199667,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+192,192,199761,1,0,0:0:0:0:
+320,192,199855,1,0,0:0:0:100:C#7S_Db7S_s.wav
+64,192,199855,1,0,0:0:0:0:
+320,192,200042,1,0,0:0:0:100:C#7S_Db7S_s.wav
+448,192,200042,1,0,0:0:0:0:
+192,192,200230,1,0,0:0:0:100:C7S_s.wav
+64,192,200230,1,0,0:0:0:0:
+448,192,200230,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,200417,1,0,0:0:0:100:C7S_s.wav
+64,192,200605,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+448,192,200605,1,0,0:0:0:0:
+64,192,200792,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+192,192,200980,1,0,0:0:0:0:
+320,192,200980,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,200980,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+448,192,201167,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+192,192,201261,1,0,0:0:0:0:
+320,192,201355,1,0,0:0:0:0:
+448,192,201355,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+192,192,201542,1,0,0:0:0:0:
+448,192,201542,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+64,192,201730,1,0,0:0:0:0:
+192,192,201730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,201730,1,0,0:0:0:100:G6S_s.wav
+320,192,201917,1,0,0:0:0:100:G6S_s.wav
+192,192,202011,1,0,0:0:0:0:
+448,192,202105,1,0,0:0:0:0:
+320,192,202105,1,0,0:0:0:100:G6S_s.wav
+192,192,202292,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+64,192,202292,1,0,0:0:0:0:
+448,192,202480,1,0,0:0:0:0:
+320,192,202480,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,202480,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+64,192,202667,1,0,0:0:0:100:LR_Drum Finish.wav
+448,192,202667,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,202667,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+192,192,202855,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+448,192,202948,1,0,0:0:0:0:
+192,192,203042,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+64,192,203042,1,0,0:0:0:0:
+320,192,203230,1,0,0:0:0:0:
+64,192,203230,1,0,0:0:0:0:
+448,192,203230,1,0,0:0:0:100:C7S_s.wav
+192,192,203417,1,0,0:0:0:0:
+448,192,203417,1,0,0:0:0:100:C7S_s.wav
+320,192,203511,1,0,0:0:0:0:
+64,192,203605,1,0,0:0:0:100:LR_Drum Finish.wav
+448,192,203605,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,203605,1,0,0:0:0:100:G#7S_Ab7S_s.wav
+192,192,203792,1,0,0:0:0:100:G#7S_Ab7S_s.wav
+64,192,203980,1,0,0:0:0:0:
+448,192,203980,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,203980,1,0,0:0:0:100:G#7S_Ab7S_s.wav
+320,192,204167,1,0,0:0:0:100:G7S_s.wav
+448,192,204261,1,0,0:0:0:0:
+192,192,204355,1,0,0:0:0:0:
+320,192,204355,1,0,0:0:0:100:G7S_s.wav
+64,192,204542,1,0,0:0:0:0:
+320,192,204542,1,0,0:0:0:100:G7S_s.wav
+64,192,204730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,204730,1,0,0:0:0:0:
+448,192,204730,1,0,0:0:0:100:F7S_s.wav
+448,192,204917,1,0,0:0:0:100:F7S_s.wav
+192,192,205011,1,0,0:0:0:0:
+320,192,205105,1,0,0:0:0:0:
+448,192,205105,1,0,0:0:0:100:F7S_s.wav
+192,192,205292,1,0,0:0:0:0:
+64,192,205292,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+192,192,205480,1,0,0:0:0:0:
+448,192,205480,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,205480,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+64,192,205667,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+448,192,205761,1,0,0:0:0:0:
+192,192,205855,1,0,0:0:0:0:
+320,192,205855,1,0,0:0:0:100:C#7S_Db7S_s.wav
+64,192,206042,1,0,0:0:0:0:
+320,192,206042,1,0,0:0:0:100:C#7S_Db7S_s.wav
+64,192,206230,1,0,0:0:0:0:
+448,192,206230,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,206230,1,0,0:0:0:100:C7S_s.wav
+448,192,206417,1,0,0:0:0:0:
+320,192,206417,1,0,0:0:0:100:C7S_s.wav
+192,192,206511,1,0,0:0:0:0:
+64,192,206605,1,0,0:0:0:0:
+320,192,206605,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+192,192,206792,1,0,0:0:0:0:
+320,192,206792,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+192,192,206980,1,0,0:0:0:0:
+448,192,206980,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,206980,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+64,192,207167,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,207261,1,0,0:0:0:0:
+64,192,207355,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+448,192,207448,1,0,0:0:0:0:
+320,192,207542,1,0,0:0:0:0:
+64,192,207542,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,207730,1,0,0:0:0:0:
+448,192,207730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,207730,1,0,0:0:0:100:G6S_s.wav
+192,192,207917,1,0,0:0:0:100:G6S_s.wav
+320,192,208011,1,0,0:0:0:0:
+64,192,208105,1,0,0:0:0:0:
+192,192,208105,1,0,0:0:0:100:G6S_s.wav
+448,192,208292,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,208292,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+64,192,208386,1,0,0:0:0:0:
+320,192,208480,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+192,192,208573,1,0,0:0:0:0:
+448,192,208573,1,0,0:0:0:100:LR_Tom Hit.wav
+64,192,208667,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,208667,1,0,0:0:0:0:
+192,192,208761,1,0,0:0:0:0:
+448,192,208855,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+320,192,208855,1,0,0:0:0:0:
+64,192,208948,1,0,0:0:0:100:LR_Tom Hit.wav
+192,192,208948,1,0,0:0:0:0:
+448,192,209042,1,0,0:0:0:100:LR_Tom Hit.wav
+320,192,209042,1,0,0:0:0:0:
+64,192,209136,1,0,0:0:0:100:LR_Tom Hit.wav
+192,192,209136,1,0,0:0:0:0:
+448,192,209230,1,0,0:0:0:100:LR_Tom Hit.wav
+320,192,209230,1,0,0:0:0:0:
+64,192,209323,1,0,0:0:0:100:LR_Tom Hit.wav
+192,192,209323,1,0,0:0:0:0:
+320,192,209417,1,0,0:0:0:0:
+448,192,209417,1,0,0:0:0:100:LR_Tom Hit.wav
+192,192,209511,1,0,0:0:0:100:LR_Tom Hit.wav
+320,192,209605,1,0,0:0:0:100:LR_CymbalSSD.wav
+64,192,209605,1,0,0:0:0:100:LR_Drum Finish.wav
+448,192,209605,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,209792,1,0,0:0:0:0:
+64,192,209980,1,0,0:0:0:0:
+320,192,209980,1,0,0:0:0:0:
+448,192,209980,1,0,0:0:0:100:LR_Tom Hit 2.wav
+448,192,210167,1,0,0:0:0:0:
+192,192,210261,1,0,0:0:0:0:
+320,192,210355,1,0,0:0:0:0:
+64,192,210355,1,0,0:0:0:30:LR_Drum Kick Low.wav
+448,192,210542,1,0,0:0:0:0:
+64,192,210542,1,0,0:0:0:30:LR_Drum Kick Low.wav
+320,192,210730,1,0,0:0:0:0:
+192,192,210730,1,0,0:0:0:0:
+448,192,210730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,210917,1,0,0:0:0:0:
+192,192,211011,1,0,0:0:0:0:
+448,192,211105,1,0,0:0:0:0:
+320,192,211105,1,0,0:0:0:30:LR_Drum Kick Low.wav
+64,192,211292,1,0,0:0:0:0:
+192,192,211292,1,0,0:0:0:30:LR_Drum Kick Low.wav
+192,192,211480,1,0,0:0:0:0:
+64,192,211480,1,0,0:0:0:0:
+448,192,211480,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,211667,1,0,0:0:0:0:
+192,192,211761,1,0,0:0:0:0:
+64,192,211855,1,0,0:0:0:0:
+448,192,211855,1,0,0:0:0:30:LR_Drum Kick Low.wav
+192,192,211948,1,0,0:0:0:0:
+448,192,212042,1,0,0:0:0:0:
+320,192,212042,1,0,0:0:0:30:LR_Drum Kick Low.wav
+192,192,212230,1,0,0:0:0:0:
+64,192,212230,1,0,0:0:0:0:
+448,192,212230,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,212417,1,0,0:0:0:0:
+448,192,212605,1,0,0:0:0:0:
+64,192,212605,1,0,0:0:0:30:LR_Drum Kick Low.wav
+192,192,212792,1,0,0:0:0:30:LR_Drum Kick Low.wav
+320,192,212792,1,0,0:0:0:0:
+320,192,212980,1,0,0:0:0:0:
+64,192,212980,1,0,0:0:0:0:
+448,192,212980,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,213167,1,0,0:0:0:0:
+192,192,213261,1,0,0:0:0:0:
+448,192,213355,1,0,0:0:0:0:
+320,192,213355,1,0,0:0:0:30:LR_Drum Kick Low.wav
+64,192,213542,1,0,0:0:0:0:
+192,192,213542,1,0,0:0:0:30:LR_Drum Kick Low.wav
+320,192,213730,1,0,0:0:0:0:
+64,192,213730,1,0,0:0:0:0:
+448,192,213730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,213917,1,0,0:0:0:0:
+320,192,214011,1,0,0:0:0:0:
+448,192,214105,1,0,0:0:0:0:
+64,192,214105,1,0,0:0:0:30:LR_Drum Kick Low.wav
+192,192,214198,1,0,0:0:0:0:
+320,192,214292,1,0,0:0:0:30:LR_Drum Kick Low.wav
+64,192,214386,1,0,0:0:0:0:
+448,192,214480,1,0,0:0:0:0:
+192,192,214480,1,0,0:0:0:30:LR_Drum Kick Low.wav
+320,192,214573,1,0,0:0:0:0:
+64,192,214667,1,0,0:0:0:100:LR_Drum Finish.wav
+192,192,214667,1,0,0:0:0:0:
+448,192,214667,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,215042,1,0,0:0:0:0:
+320,192,215042,1,0,0:0:0:0:
+64,192,215230,1,0,0:0:0:0:
+192,192,215230,1,0,0:0:0:30:LR_Drum Kick Low.wav
+320,192,215323,1,0,0:0:0:0:
+448,192,215323,1,0,0:0:0:0:
+64,192,215417,1,0,0:0:0:0:
+192,192,215417,1,0,0:0:0:0:
+320,192,215511,1,0,0:0:0:0:
+64,192,215605,1,0,0:0:0:100:LR_Drum Finish.wav
+192,192,215605,1,0,0:0:0:0:
+448,192,215605,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,215792,1,0,0:0:0:0:
+64,192,215980,1,0,0:0:0:0:
+192,192,215980,1,0,0:0:0:0:
+448,192,215980,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+192,192,216167,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,216355,1,0,0:0:0:0:
+320,192,216355,1,0,0:0:0:0:
+448,192,216355,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+320,192,216542,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,216730,1,0,0:0:0:0:
+192,192,216730,1,0,0:0:0:0:
+448,192,216730,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+192,192,216917,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,217105,1,0,0:0:0:100:LR_Drum Finish.wav
+64,192,217105,1,0,0:0:0:0:
+448,192,217105,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+64,192,217292,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,217480,1,0,0:0:0:0:
+320,192,217480,1,0,0:0:0:0:
+448,192,217480,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+448,192,217667,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,217855,1,0,0:0:0:0:
+192,192,217855,1,0,0:0:0:0:
+320,192,217855,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+64,192,218042,1,0,0:0:0:100:LR_Tom Hit 2.wav
+448,192,218230,1,0,0:0:0:0:
+192,192,218230,1,0,0:0:0:0:
+320,192,218230,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+448,192,218417,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,218605,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,218605,1,0,0:0:0:0:
+64,192,218605,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+320,192,218792,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,218980,1,0,0:0:0:0:
+192,192,218980,1,0,0:0:0:0:
+448,192,218980,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+192,192,219167,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,219355,1,0,0:0:0:0:
+320,192,219355,1,0,0:0:0:0:
+448,192,219355,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+320,192,219542,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,219636,1,0,0:0:0:0:
+192,192,219636,1,0,0:0:0:0:
+320,192,219730,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+448,192,219730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,219823,1,0,0:0:0:0:
+192,192,219823,1,0,0:0:0:0:
+448,192,219917,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,220011,1,0,0:0:0:0:
+192,192,220105,1,0,0:0:0:100:LR_Drum Finish.wav
+64,192,220105,1,0,0:0:0:0:
+448,192,220105,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,220480,1,0,0:0:0:30:LR_Drum Kick Low.wav
+320,192,220667,1,0,0:0:0:0:
+192,192,220667,1,0,0:0:0:30:LR_Drum Kick Low.wav
+320,192,220855,1,0,0:0:0:0:
+448,192,220855,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,221042,1,0,0:0:0:0:
+192,192,221198,1,0,0:0:0:0:
+448,192,221323,1,0,0:0:0:0:
+320,192,221448,1,0,0:0:0:0:
+192,192,221511,1,0,0:0:0:0:
+64,192,221573,1,0,0:0:0:0:
+448,192,221636,128,0,223105:0:0:0:0:
+320,192,221636,1,0,0:0:0:0:
+192,192,221792,1,0,0:0:0:0:
+320,192,221792,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,222167,1,0,0:0:0:0:
+192,192,222167,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,222542,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,222542,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,222730,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,222730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,223105,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+192,192,223292,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,223480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,223667,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,223855,1,0,0:0:0:100:C5S_s.wav
+320,192,224042,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,224230,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,224417,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,224605,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,224792,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+64,192,224980,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,225167,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,225355,1,0,0:0:0:100:C5S_s.wav
+320,192,225542,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,225730,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,225917,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+64,192,226105,1,0,0:0:0:100:G3S_s.wav
+448,192,226105,1,0,0:0:0:100:F5S_s.wav
+320,192,226292,1,0,0:0:0:100:G4S_s.wav
+192,192,226480,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,226667,1,0,0:0:0:100:F4S_s.wav
+320,192,226855,1,0,0:0:0:100:D5S_s.wav
+192,192,227042,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,227230,1,0,0:0:0:100:F5S_s.wav
+64,192,227230,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,227417,1,0,0:0:0:100:D5S_s.wav
+64,192,227605,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,227605,1,0,0:0:0:100:E5S_s.wav
+320,192,227792,1,0,0:0:0:100:G4S_s.wav
+448,192,227980,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+64,192,227980,1,0,0:0:0:100:C5S_s.wav
+320,192,228167,1,0,0:0:0:100:G4S_s.wav
+448,192,228355,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,228355,1,0,0:0:0:100:C5S_s.wav
+64,192,228542,1,0,0:0:0:100:G4S_s.wav
+192,192,228730,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,228730,1,0,0:0:0:100:E5S_s.wav
+448,192,228917,1,0,0:0:0:100:G4S_s.wav
+64,192,229105,1,0,0:0:0:100:F3S_s.wav
+192,192,229105,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,229292,1,0,0:0:0:100:C4S_s.wav
+448,192,229480,1,0,0:0:0:100:F4S_s.wav
+192,192,229667,1,0,0:0:0:100:G5S_s.wav
+64,192,229667,1,0,0:0:0:100:C6S_s.wav
+320,192,230042,1,0,0:0:0:100:F5S_s.wav
+64,192,230230,1,0,0:0:0:100:C5S_s.wav
+320,192,230417,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,230605,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+64,192,230792,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,230980,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,231167,1,0,0:0:0:100:F5S_s.wav
+448,192,231167,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,231542,1,0,0:0:0:100:C6S_s.wav
+64,192,231542,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,231730,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,231917,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,232105,1,0,0:0:0:100:C#4S_Db4S.wav
+64,192,232105,1,0,0:0:0:100:G#4S_Ab4S.wav
+448,192,232292,1,0,0:0:0:100:C6S_s.wav
+192,192,232480,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,232667,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,232667,1,0,0:0:0:100:C6S_s.wav
+64,192,232855,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,232855,1,0,0:0:0:100:C6S_s.wav
+192,192,233230,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,233605,1,0,0:0:0:100:D#2S_Eb2S.wav
+320,192,233605,1,0,0:0:0:100:D#3S_Eb3S.wav
+192,192,233980,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,234355,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,234355,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,234730,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,235105,128,0,235198:0:0:0:100:A#5S_Bb5S_s.wav
+320,192,235198,128,0,235292:0:0:0:100:G#5S_Ab5S_s.wav
+448,192,235292,128,0,235386:0:0:0:100:A#5S_Bb5S_s.wav
+64,192,235386,128,0,235480:0:0:0:100:C6S_s.wav
+192,192,235480,128,0,235573:0:0:0:100:C#6S_Db6S_s.wav
+320,192,235573,128,0,235667:0:0:0:100:C6S_s.wav
+64,192,235667,128,0,235761:0:0:0:100:C#6S_Db6S_s.wav
+448,192,235761,128,0,235855:0:0:0:100:D#6S_Eb6S_s.wav
+320,192,235855,128,0,235948:0:0:0:100:F6S_s.wav
+64,192,235948,128,0,236042:0:0:0:100:D#6S_Eb6S_s.wav
+448,192,236042,128,0,236136:0:0:0:100:F6S_s.wav
+192,192,236136,128,0,236230:0:0:0:100:G6S_s.wav
+320,192,236230,128,0,236323:0:0:0:100:G#6S_Ab6S_s.wav
+64,192,236323,128,0,236417:0:0:0:100:G6S_s.wav
+448,192,236417,128,0,236511:0:0:0:100:G#6S_Ab6S_s.wav
+192,192,236511,128,0,236605:0:0:0:100:A#6S_Bb6S_s.wav
+64,192,236605,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+320,192,236605,1,4,0:0:0:100:
+448,192,236605,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,236792,1,0,0:0:0:0:
+64,192,236980,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,236980,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,236980,1,0,0:0:0:100:C5S_s.wav
+320,192,237167,1,0,0:0:0:100:C6S_s.wav
+192,192,237355,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+64,192,237355,1,0,0:0:0:100:C6S_s.wav
+192,192,237542,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,237542,1,0,0:0:0:0:
+64,192,237730,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,237730,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,237730,1,0,0:0:0:100:C5S_s.wav
+320,192,237917,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,238105,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+192,192,238105,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+320,192,238292,1,0,0:0:0:0:
+64,192,238292,1,0,0:0:0:0:
+448,192,238480,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+64,192,238480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,238480,1,0,0:0:0:100:C5S_s.wav
+192,192,238667,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,238855,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,238855,1,0,0:0:0:100:F7S_s.wav
+192,192,238948,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+64,192,239042,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,239042,1,0,0:0:0:100:C#7S_Db7S_s.wav
+320,192,239136,1,0,0:0:0:100:C7S_s.wav
+64,192,239230,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,239230,1,0,0:0:0:100:C#7S_Db7S_s.wav
+448,192,239230,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,239323,1,0,0:0:0:100:C7S_s.wav
+192,192,239417,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+64,192,239511,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,239605,1,0,0:0:0:100:G2S_s.wav
+448,192,239605,1,0,0:0:0:100:G6S_s.wav
+192,192,239792,1,0,0:0:0:0:
+448,192,239980,1,0,0:0:0:100:G4S_s.wav
+64,192,239980,1,0,0:0:0:100:C5S_s.wav
+320,192,239980,1,0,0:0:0:100:E5S_s.wav
+320,192,240167,1,0,0:0:0:0:
+448,192,240355,1,0,0:0:0:100:G2S_s.wav
+64,192,240355,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,240542,1,0,0:0:0:100:G3S_s.wav
+192,192,240542,1,0,0:0:0:0:
+448,192,240730,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,240730,1,0,0:0:0:100:C5S_s.wav
+320,192,240730,1,0,0:0:0:100:F5S_s.wav
+448,192,240917,1,0,0:0:0:0:
+192,192,241105,1,0,0:0:0:100:G4S_s.wav
+64,192,241105,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,241292,1,0,0:0:0:0:
+448,192,241480,1,0,0:0:0:100:G4S_s.wav
+64,192,241480,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,241480,1,0,0:0:0:100:C5S_s.wav
+192,192,241667,1,0,0:0:0:100:C6S_s.wav
+320,192,241761,1,0,0:0:0:0:
+448,192,241855,1,0,0:0:0:100:G4S_s.wav
+64,192,241855,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,242042,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,242042,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+448,192,242230,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+64,192,242230,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,242230,1,0,0:0:0:0:
+320,192,242417,1,0,0:0:0:0:
+64,192,242605,1,0,0:0:0:100:F3S_s.wav
+192,192,242605,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,242792,1,0,0:0:0:100:C4S_s.wav
+64,192,242980,1,0,0:0:0:100:F4S_s.wav
+448,192,242980,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,242980,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+192,192,243167,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,243355,1,0,0:0:0:100:F4S_s.wav
+320,192,243355,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,243542,1,0,0:0:0:100:F5S_s.wav
+64,192,243542,1,0,0:0:0:0:
+448,192,243730,1,0,0:0:0:100:C5S_s.wav
+64,192,243730,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,243730,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,243917,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,244105,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+64,192,244105,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,244292,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+448,192,244480,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+64,192,244480,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,244480,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,244667,1,0,0:0:0:100:G4S_s.wav
+448,192,244761,1,0,0:0:0:0:
+192,192,244855,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+64,192,244855,1,0,0:0:0:0:
+448,192,245042,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,245042,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,245230,1,0,0:0:0:100:C5S_s.wav
+64,192,245230,1,0,0:0:0:0:
+320,192,245230,1,0,0:0:0:0:
+192,192,245417,1,0,0:0:0:100:G4S_s.wav
+320,192,245605,1,0,0:0:0:100:C#3S_Db3S_s.wav
+64,192,245605,1,0,0:0:0:0:
+192,192,245792,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,245980,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,245980,1,0,0:0:0:100:G#5S_Ab5S.wav
+320,192,245980,1,0,0:0:0:100:G#6S_Ab6S.wav
+320,192,246167,1,0,0:0:0:100:F4S_s.wav
+192,192,246355,1,0,0:0:0:0:
+448,192,246355,1,0,0:0:0:30:C#4S_Db4S_s.wav
+320,192,246542,1,0,0:0:0:100:C#5S_Db5S_s.wav
+64,192,246542,1,0,0:0:0:0:
+448,192,246730,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,246730,1,0,0:0:0:0:
+192,192,246730,1,0,0:0:0:0:
+320,192,246917,1,0,0:0:0:100:F4S_s.wav
+64,192,247105,1,0,0:0:0:100:C#3S_Db3S_s.wav
+448,192,247105,1,0,0:0:0:100:E5S_s.wav
+192,192,247105,1,0,0:0:0:100:E6S_s.wav
+192,192,247292,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,247480,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,247480,1,0,0:0:0:100:G5S_s.wav
+320,192,247480,1,0,0:0:0:100:G6S_s.wav
+192,192,247667,128,0,248042:0:0:0:100:LR_Drum Finish.wav
+64,192,247667,128,0,248042:0:0:0:100:G#5S_Ab5S_s.wav
+448,192,247667,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+448,192,248042,128,0,248230:0:0:0:100:D#4S_Eb4S_s.wav
+320,192,248042,128,0,248230:0:0:0:100:A#5S_Bb5S_s.wav
+192,192,248230,1,0,0:0:0:100:G4S_s.wav
+64,192,248230,1,0,0:0:0:0:
+448,192,248323,1,0,0:0:0:0:
+320,192,248323,1,0,0:0:0:0:
+192,192,248417,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+64,192,248417,1,0,0:0:0:0:
+320,192,248511,1,0,0:0:0:0:
+64,192,248605,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+448,192,248605,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+192,192,248605,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,248792,1,0,0:0:0:0:
+192,192,248980,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,248980,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,248980,1,0,0:0:0:100:C5S_s.wav
+64,192,249167,1,0,0:0:0:100:C6S_s.wav
+192,192,249261,1,0,0:0:0:0:
+320,192,249355,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+448,192,249355,1,0,0:0:0:100:C6S_s.wav
+192,192,249542,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,249542,1,0,0:0:0:0:
+64,192,249730,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,249730,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,249730,1,0,0:0:0:100:C5S_s.wav
+448,192,249917,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,250105,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+192,192,250105,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,250292,1,0,0:0:0:0:
+320,192,250480,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+64,192,250480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,250480,1,0,0:0:0:100:C5S_s.wav
+192,192,250667,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,250761,1,0,0:0:0:0:
+320,192,250855,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,250855,1,0,0:0:0:100:F7S_s.wav
+64,192,250948,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+192,192,251042,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,251042,1,0,0:0:0:100:C#7S_Db7S_s.wav
+448,192,251136,1,0,0:0:0:100:C7S_s.wav
+64,192,251230,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,251230,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,251230,1,0,0:0:0:100:C#7S_Db7S_s.wav
+448,192,251323,1,0,0:0:0:100:C7S_s.wav
+192,192,251417,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+64,192,251511,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,251605,1,0,0:0:0:100:G2S_s.wav
+448,192,251605,1,0,0:0:0:100:G3S_s.wav
+192,192,251792,1,0,0:0:0:0:
+64,192,251980,1,0,0:0:0:100:G4S_s.wav
+448,192,251980,1,0,0:0:0:100:C5S_s.wav
+320,192,251980,1,0,0:0:0:100:E5S_s.wav
+320,192,252167,1,0,0:0:0:0:
+448,192,252261,1,0,0:0:0:0:
+192,192,252355,1,0,0:0:0:100:G2S_s.wav
+64,192,252355,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,252542,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,252542,1,0,0:0:0:0:
+320,192,252730,1,0,0:0:0:100:C5S_s.wav
+448,192,252730,1,0,0:0:0:100:F5S_s.wav
+64,192,252730,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,252917,1,0,0:0:0:0:
+192,192,253105,1,0,0:0:0:100:G4S_s.wav
+320,192,253105,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,253292,1,0,0:0:0:0:
+64,192,253480,1,0,0:0:0:100:G4S_s.wav
+192,192,253480,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,253480,1,0,0:0:0:100:C5S_s.wav
+320,192,253667,1,0,0:0:0:100:C6S_s.wav
+448,192,253761,1,0,0:0:0:0:
+64,192,253855,1,0,0:0:0:100:G4S_s.wav
+192,192,253855,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,254042,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,254042,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+320,192,254230,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,254230,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,254230,1,0,0:0:0:0:
+192,192,254417,1,0,0:0:0:0:
+64,192,254417,1,0,0:0:0:0:
+320,192,254511,1,0,0:0:0:0:
+64,192,254605,1,0,0:0:0:100:F3S_s.wav
+192,192,254605,1,0,0:0:0:0:
+448,192,254605,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,254792,1,0,0:0:0:100:C4S_s.wav
+192,192,254980,1,0,0:0:0:100:F4S_s.wav
+64,192,254980,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,254980,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+320,192,255167,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,255355,1,0,0:0:0:100:F4S_s.wav
+448,192,255355,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,255542,1,0,0:0:0:100:F5S_s.wav
+320,192,255542,1,0,0:0:0:0:
+192,192,255730,1,0,0:0:0:100:C5S_s.wav
+448,192,255730,1,0,0:0:0:100:G5S_s.wav
+64,192,255730,1,0,0:0:0:100:G6S_s.wav
+320,192,255917,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,256105,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+448,192,256105,1,0,0:0:0:100:G5S_s.wav
+320,192,256292,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+192,192,256480,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,256480,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,256480,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,256667,1,0,0:0:0:100:G4S_s.wav
+64,192,256855,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,256855,1,0,0:0:0:0:
+192,192,257042,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,257042,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,257230,1,0,0:0:0:100:C5S_s.wav
+320,192,257230,1,0,0:0:0:0:
+448,192,257230,1,0,0:0:0:0:
+192,192,257417,1,0,0:0:0:100:G4S_s.wav
+448,192,257605,1,0,0:0:0:100:C#3S_Db3S_s.wav
+64,192,257605,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,257792,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+192,192,257980,1,0,0:0:0:30:C#4S_Db4S_s.wav
+448,192,257980,1,0,0:0:0:0:
+320,192,257980,1,0,0:0:0:0:
+64,192,258167,1,0,0:0:0:100:F4S_s.wav
+192,192,258355,1,0,0:0:0:30:C#4S_Db4S_s.wav
+320,192,258355,1,0,0:0:0:100:C#6S_Db6S_s.wav
+64,192,258542,1,0,0:0:0:100:C#5S_Db5S_s.wav
+320,192,258542,1,0,0:0:0:0:
+192,192,258730,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,258730,1,0,0:0:0:0:
+64,192,258730,1,0,0:0:0:0:
+320,192,258917,1,0,0:0:0:100:F4S_s.wav
+64,192,259105,1,0,0:0:0:100:G3S_s.wav
+448,192,259105,1,0,0:0:0:100:D4S_s.wav
+192,192,259105,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,259292,1,0,0:0:0:0:
+64,192,259386,1,0,0:0:0:0:
+192,192,259386,1,0,0:0:0:0:
+448,192,259480,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,259480,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+64,192,259667,1,0,0:0:0:100:C4S.wav
+192,192,259667,1,0,0:0:0:100:E5S_s.wav
+448,192,259667,1,0,0:0:0:100:LR_Drum Finish.wav
+64,192,260042,1,0,0:0:0:0:
+448,192,260042,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,260230,1,0,0:0:0:100:G5S_s.wav
+448,192,260230,1,0,0:0:0:100:G6S_s.wav
+64,192,260417,1,0,0:0:0:0:
+192,192,260417,1,0,0:0:0:0:
+448,192,260511,1,0,0:0:0:0:
+64,192,260605,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,260605,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,260605,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+64,192,260792,1,0,0:0:0:100:F3S_s.wav
+192,192,260980,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,260980,1,0,0:0:0:100:G6S_s.wav
+448,192,260980,1,0,0:0:0:100:G7S_s.wav
+448,192,261167,1,0,0:0:0:100:F3S_s.wav
+320,192,261355,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,261355,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+64,192,261355,1,0,0:0:0:100:G#7S_Ab7S_s.wav
+64,192,261542,1,0,0:0:0:100:F3S_s.wav
+192,192,261730,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,261730,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,261730,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,261917,1,0,0:0:0:100:F3S_s.wav
+448,192,262105,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,262105,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,262105,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+448,192,262292,1,0,0:0:0:100:E3S_s.wav
+320,192,262480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,262480,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+192,192,262480,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+64,192,262667,1,0,0:0:0:100:E3S_s.wav
+192,192,262855,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,262855,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,262855,1,0,0:0:0:100:G#7S_Ab7S_s.wav
+448,192,263042,1,0,0:0:0:100:E3S_s.wav
+192,192,263230,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,263230,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,263230,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,263417,1,0,0:0:0:100:E3S_s.wav
+64,192,263511,1,0,0:0:0:0:
+320,192,263605,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,263605,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+192,192,263605,1,0,0:0:0:100:D#7S_Eb7S_s.wav
+192,192,263792,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+64,192,263980,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,263980,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,263980,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,264167,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+64,192,264355,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,264355,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,264355,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+448,192,264542,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+192,192,264730,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,264730,1,0,0:0:0:100:G5S_s.wav
+64,192,264730,1,0,0:0:0:100:G6S_s.wav
+64,192,264917,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+320,192,265105,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,265105,1,0,0:0:0:0:
+192,192,265105,1,0,0:0:0:0:
+192,192,265292,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+64,192,265480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,265480,1,0,0:0:0:0:
+448,192,265480,1,0,0:0:0:0:
+320,192,265667,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+64,192,265855,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,265855,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,265855,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+192,192,266042,1,0,0:0:0:100:A#3S_Bb3S_s.wav
+448,192,266230,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,266230,1,0,0:0:0:0:
+64,192,266230,1,0,0:0:0:0:
+192,192,266323,1,0,0:0:0:0:
+320,192,266417,1,0,0:0:0:0:
+448,192,266511,1,0,0:0:0:0:
+64,192,266605,1,0,0:0:0:100:C#2S_Db2S_s.wav
+192,192,266605,1,0,0:0:0:100:C#3S_Db3S_s.wav
+320,192,266605,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,266792,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,266792,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+192,192,266980,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,266980,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,267167,1,0,0:0:0:30:C#4S_Db4S_s.wav
+320,192,267167,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+64,192,267167,1,0,0:0:0:100:F4S_s.wav
+448,192,267355,1,0,0:0:0:30:C#4S_Db4S_s.wav
+320,192,267355,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,267542,1,0,0:0:0:30:C#4S_Db4S_s.wav
+320,192,267542,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+192,192,267730,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,267730,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,267730,1,0,0:0:0:100:F4S_s.wav
+320,192,267917,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,267917,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,268011,1,0,0:0:0:0:
+64,192,268105,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,268105,1,0,0:0:0:100:C#5S_Db5S_s.wav
+192,192,268105,1,0,0:0:0:100:LR_Drum Finish.wav
+192,192,268292,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,268292,1,0,0:0:0:100:C#5S_Db5S_s.wav
+320,192,268480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,268480,1,0,0:0:0:100:C#5S_Db5S_s.wav
+64,192,268667,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,268667,1,0,0:0:0:100:C#5S_Db5S_s.wav
+64,192,268855,1,0,0:0:0:100:G5S_s.wav
+320,192,268855,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,269042,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,269042,1,0,0:0:0:0:
+320,192,269230,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,269230,1,0,0:0:0:100:C6S_s.wav
+64,192,269323,1,0,0:0:0:0:
+192,192,269323,1,0,0:0:0:0:
+320,192,269417,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,269417,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+192,192,269511,1,0,0:0:0:0:
+320,192,269605,1,0,0:0:0:100:C#3S_Db3S_s.wav
+64,192,269605,1,0,0:0:0:100:LR_Drum Finish.wav
+448,192,269605,1,0,0:0:0:30:C#4S_Db4S_s.wav
+192,192,269792,1,0,0:0:0:0:
+448,192,269980,1,0,0:0:0:100:C#5S_Db5S_s.wav
+64,192,269980,1,0,0:0:0:100:F5S_s.wav
+320,192,269980,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,270167,1,0,0:0:0:100:C#7S_Db7S.wav
+192,192,270261,1,0,0:0:0:0:
+64,192,270355,1,0,0:0:0:0:
+320,192,270355,1,0,0:0:0:0:
+192,192,270542,1,0,0:0:0:0:
+448,192,270542,1,0,0:0:0:0:
+64,192,270730,1,0,0:0:0:0:
+192,192,270730,1,0,0:0:0:100:C#7S_Db7S.wav
+320,192,270730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+448,192,270917,1,0,0:0:0:0:
+192,192,271011,1,0,0:0:0:0:
+64,192,271105,1,0,0:0:0:100:C7S.wav
+448,192,271105,1,0,0:0:0:0:
+192,192,271292,1,0,0:0:0:0:
+320,192,271292,1,0,0:0:0:0:
+448,192,271480,1,0,0:0:0:0:
+64,192,271480,1,0,0:0:0:0:
+320,192,271480,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,271667,1,0,0:0:0:100:A#6S_Bb6S.wav
+192,192,271761,1,0,0:0:0:0:
+448,192,271855,1,0,0:0:0:0:
+320,192,271855,1,0,0:0:0:0:
+64,192,272042,1,0,0:0:0:0:
+192,192,272042,1,0,0:0:0:0:
+448,192,272230,1,0,0:0:0:0:
+64,192,272230,1,0,0:0:0:100:G#6S_Ab6S.wav
+320,192,272230,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,272417,1,0,0:0:0:0:
+64,192,272605,1,0,0:0:0:100:C3S_s.wav
+320,192,272605,1,0,0:0:0:100:C4S_s.wav
+448,192,272792,1,0,0:0:0:0:
+64,192,272980,1,0,0:0:0:100:G4S_s.wav
+448,192,272980,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,272980,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,273167,1,0,0:0:0:0:
+320,192,273261,1,0,0:0:0:0:
+64,192,273355,1,0,0:0:0:100:C3S_s.wav
+192,192,273355,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,273542,1,0,0:0:0:100:C4S_s.wav
+448,192,273542,1,0,0:0:0:0:
+192,192,273730,1,0,0:0:0:100:C5S_s.wav
+64,192,273730,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,273730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+448,192,273917,1,0,0:0:0:0:
+192,192,274011,1,0,0:0:0:0:
+320,192,274105,1,0,0:0:0:100:F3S_s.wav
+448,192,274105,1,0,0:0:0:100:F4S_s.wav
+320,192,274292,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,274292,1,0,0:0:0:0:
+64,192,274480,1,0,0:0:0:100:C5S_s.wav
+320,192,274480,1,0,0:0:0:100:F5S_s.wav
+192,192,274480,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,274667,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,274667,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,274761,1,0,0:0:0:0:
+64,192,274855,1,0,0:0:0:100:F3S_s.wav
+448,192,274855,1,0,0:0:0:100:G5S_s.wav
+64,192,275042,1,0,0:0:0:100:F4S_s.wav
+448,192,275042,1,0,0:0:0:100:G5S_s.wav
+448,192,275230,1,0,0:0:0:100:C5S_s.wav
+192,192,275230,1,0,0:0:0:100:F5S_s.wav
+320,192,275230,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,275417,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,275417,1,0,0:0:0:0:
+448,192,275511,1,0,0:0:0:0:
+320,192,275605,1,0,0:0:0:30:C#4S_Db4S_s.wav
+192,192,275605,1,0,0:0:0:100:C#6S_Db6S_s.wav
+64,192,275605,1,0,0:0:0:100:LR_Drum Finish.wav
+192,192,275792,1,0,0:0:0:0:
+64,192,275980,1,0,0:0:0:100:C#5S_Db5S_s.wav
+448,192,275980,1,0,0:0:0:100:F5S_s.wav
+320,192,275980,1,0,0:0:0:100:LR_Tom Hit 2.wav
+448,192,276167,1,0,0:0:0:100:C#7S_Db7S.wav
+192,192,276167,1,0,0:0:0:0:
+64,192,276261,1,0,0:0:0:0:
+320,192,276355,1,0,0:0:0:100:C#3S_Db3S_s.wav
+448,192,276355,1,0,0:0:0:100:C#6S_Db6S_s.wav
+192,192,276542,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,276542,1,0,0:0:0:0:
+64,192,276730,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,276730,1,0,0:0:0:100:C#5S_Db5S_s.wav
+320,192,276730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,276917,1,0,0:0:0:0:
+320,192,277011,1,0,0:0:0:0:
+64,192,277105,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+448,192,277105,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,277292,1,0,0:0:0:0:
+64,192,277480,1,0,0:0:0:100:G5S_s.wav
+320,192,277480,1,0,0:0:0:100:LR_Tom Hit 2.wav
+448,192,277480,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,277667,1,0,0:0:0:100:A#5S_Bb5S.wav
+192,192,277667,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+64,192,277761,1,0,0:0:0:0:
+448,192,277855,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+192,192,277855,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,278042,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,278042,1,0,0:0:0:0:
+64,192,278230,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+448,192,278230,1,0,0:0:0:100:G5S_s.wav
+192,192,278230,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,278417,1,0,0:0:0:0:
+64,192,278605,1,0,0:0:0:100:C3S_s.wav
+448,192,278605,1,0,0:0:0:100:C4S_s.wav
+192,192,278792,1,0,0:0:0:0:
+448,192,278980,1,0,0:0:0:100:G4S_s.wav
+64,192,278980,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,278980,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,279167,1,0,0:0:0:0:
+320,192,279261,1,0,0:0:0:0:
+64,192,279355,1,0,0:0:0:100:C3S_s.wav
+192,192,279355,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,279542,1,0,0:0:0:100:C4S_s.wav
+448,192,279542,1,0,0:0:0:0:
+192,192,279730,1,0,0:0:0:100:G4S_s.wav
+448,192,279730,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,279730,1,0,0:0:0:100:LR_Tom Hit 2.wav
+64,192,279823,1,0,0:0:0:0:
+192,192,279917,1,0,0:0:0:0:
+320,192,280011,1,0,0:0:0:0:
+64,192,280105,1,0,0:0:0:100:F3S_s.wav
+192,192,280105,1,0,0:0:0:100:F4S_s.wav
+448,192,280105,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,280292,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+64,192,280292,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+192,192,280480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,280480,1,0,0:0:0:100:C5S_s.wav
+64,192,280667,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,280667,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+448,192,280667,1,0,0:0:0:0:
+64,192,280855,1,0,0:0:0:100:F3S_s.wav
+192,192,280855,1,0,0:0:0:100:G5S_s.wav
+320,192,280948,1,0,0:0:0:0:
+448,192,281042,1,0,0:0:0:100:F4S_s.wav
+192,192,281042,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+64,192,281230,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,281230,1,0,0:0:0:100:C5S_s.wav
+192,192,281417,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,281417,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,281511,1,0,0:0:0:0:
+192,192,281605,1,0,0:0:0:100:LR_Drum Finish.wav
+448,192,281605,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,281605,1,0,0:0:0:100:C#6S_Db6S_s.wav
+320,192,281792,1,0,0:0:0:0:
+192,192,281980,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,281980,1,0,0:0:0:100:C#5S_Db5S_s.wav
+320,192,281980,1,0,0:0:0:100:F5S_s.wav
+448,192,282167,1,0,0:0:0:100:C6S_s.wav
+192,192,282261,1,0,0:0:0:0:
+64,192,282355,1,0,0:0:0:100:C#3S_Db3S_s.wav
+320,192,282355,1,0,0:0:0:100:C6S_s.wav
+64,192,282542,1,0,0:0:0:0:
+448,192,282542,1,0,0:0:0:30:C#4S_Db4S_s.wav
+320,192,282730,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,282730,1,0,0:0:0:100:C#5S_Db5S_s.wav
+448,192,282730,1,0,0:0:0:100:F5S_s.wav
+64,192,282917,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,283105,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+448,192,283105,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+64,192,283292,1,0,0:0:0:0:
+192,192,283480,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,283480,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+64,192,283480,1,0,0:0:0:100:G5S_s.wav
+448,192,283667,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,283667,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+64,192,283855,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+192,192,283855,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,284042,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,284042,1,0,0:0:0:0:
+64,192,284230,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+320,192,284230,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+192,192,284230,1,0,0:0:0:100:G5S_s.wav
+448,192,284417,1,0,0:0:0:0:
+64,192,284605,1,0,0:0:0:100:C3S_s.wav
+320,192,284605,1,0,0:0:0:100:C4S_s.wav
+192,192,284605,1,0,0:0:0:100:LR_Drum Finish.wav
+64,192,284792,1,0,0:0:0:0:
+320,192,284980,1,0,0:0:0:100:G4S_s.wav
+448,192,284980,1,0,0:0:0:100:C5S_s.wav
+192,192,284980,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,285167,1,0,0:0:0:100:C6S_s.wav
+192,192,285355,1,0,0:0:0:100:C3S_s.wav
+448,192,285355,1,0,0:0:0:100:C6S_s.wav
+64,192,285542,1,0,0:0:0:100:C4S_s.wav
+320,192,285542,1,0,0:0:0:0:
+192,192,285730,1,0,0:0:0:100:G4S_s.wav
+448,192,285730,1,0,0:0:0:100:C5S_s.wav
+64,192,285730,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,285917,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,286105,1,0,0:0:0:100:F3S_s.wav
+64,192,286105,1,0,0:0:0:100:F4S_s.wav
+320,192,286292,1,0,0:0:0:0:
+448,192,286292,1,0,0:0:0:0:
+64,192,286480,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+448,192,286480,1,0,0:0:0:100:C5S_s.wav
+192,192,286480,1,0,0:0:0:100:F5S_s.wav
+320,192,286667,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,286761,1,0,0:0:0:0:
+64,192,286761,1,0,0:0:0:0:
+192,192,286855,1,0,0:0:0:100:F3S_s.wav
+320,192,286855,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,286948,1,0,0:0:0:0:
+64,192,286948,1,0,0:0:0:0:
+192,192,287042,1,0,0:0:0:100:F4S_s.wav
+320,192,287042,1,0,0:0:0:0:
+64,192,287230,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,287230,1,0,0:0:0:100:C5S_s.wav
+192,192,287323,1,0,0:0:0:0:
+448,192,287323,1,0,0:0:0:0:
+64,192,287417,1,0,0:0:0:0:
+320,192,287417,1,0,0:0:0:0:
+448,192,287511,1,0,0:0:0:0:
+192,192,287605,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,287605,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+320,192,287605,1,0,0:0:0:100:LR_Drum Finish.wav
+192,192,287792,1,0,0:0:0:0:
+64,192,287980,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+320,192,287980,1,0,0:0:0:100:C#5S_Db5S_s.wav
+448,192,287980,1,0,0:0:0:100:F5S_s.wav
+448,192,288167,1,0,0:0:0:0:
+192,192,288261,1,0,0:0:0:0:
+64,192,288355,1,0,0:0:0:100:C#3S_Db3S_s.wav
+320,192,288355,1,0,0:0:0:100:G#5S_Ab5S.wav
+448,192,288542,1,0,0:0:0:30:C#4S_Db4S_s.wav
+192,192,288542,1,0,0:0:0:0:
+64,192,288730,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,288730,1,0,0:0:0:100:C#5S_Db5S_s.wav
+320,192,288730,1,0,0:0:0:100:F5S_s.wav
+448,192,288917,1,0,0:0:0:0:
+64,192,289011,1,0,0:0:0:0:
+192,192,289105,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+320,192,289105,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,289292,1,0,0:0:0:0:
+64,192,289292,1,0,0:0:0:0:
+64,192,289480,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,289480,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,289480,1,0,0:0:0:100:G5S_s.wav
+448,192,289667,1,0,0:0:0:0:
+192,192,289761,1,0,0:0:0:0:
+64,192,289855,1,0,0:0:0:100:D#3S_Eb3S_s.wav
+320,192,289855,1,0,0:0:0:0:
+192,192,290042,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,290042,1,0,0:0:0:0:
+320,192,290230,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+448,192,290230,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+64,192,290230,1,0,0:0:0:100:G5S_s.wav
+64,192,290417,1,0,0:0:0:0:
+192,192,290417,1,0,0:0:0:0:
+192,192,290605,1,0,0:0:0:100:C4S_s.wav
+320,192,290605,1,0,0:0:0:100:G4S_s.wav
+448,192,290605,1,0,0:0:0:100:LR_Drum Finish.wav
+320,192,290792,1,0,0:0:0:100:C3S_s.wav
+64,192,290980,1,0,0:0:0:100:C4S_s.wav
+448,192,290980,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+192,192,290980,1,0,0:0:0:100:G4S_s.wav
+192,192,291167,1,0,0:0:0:100:C3S_s.wav
+64,192,291355,1,0,0:0:0:100:C4S_s.wav
+320,192,291355,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,291355,1,0,0:0:0:100:G4S_s.wav
+64,192,291542,1,0,0:0:0:100:C3S_s.wav
+192,192,291730,1,0,0:0:0:100:C4S_s.wav
+448,192,291730,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,291730,1,0,0:0:0:100:G4S_s.wav
+320,192,291917,1,0,0:0:0:100:C3S_s.wav
+448,192,292105,1,0,0:0:0:30:C#4S_Db4S_s.wav
+192,192,292105,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+64,192,292105,1,0,0:0:0:100:F4S_s.wav
+320,192,292292,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+64,192,292386,1,0,0:0:0:0:
+192,192,292480,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+448,192,292573,1,0,0:0:0:0:
+320,192,292667,1,0,0:0:0:100:G#3S_Ab3S_s.wav
+64,192,292761,1,0,0:0:0:0:
+448,192,292855,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+320,192,292855,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,292948,1,0,0:0:0:0:
+64,192,292948,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,293042,1,0,0:0:0:100:LR_Tom Hit 2.wav
+448,192,293042,1,0,0:0:0:0:
+192,192,293136,1,0,0:0:0:0:
+64,192,293136,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,293230,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+448,192,293230,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,293323,1,0,0:0:0:0:
+64,192,293323,1,0,0:0:0:100:LR_Tom Hit 2.wav
+320,192,293417,1,0,0:0:0:100:C#6S_Db6S_s.wav
+448,192,293417,1,0,0:0:0:100:LR_Tom Hit 2.wav
+192,192,293511,1,0,0:0:0:0:
+64,192,293511,1,0,0:0:0:100:LR_Tom Hit 2.wav
+448,192,293605,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,293980,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+192,192,294167,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,294355,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+64,192,294542,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,294730,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,294917,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+448,192,295147,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+192,192,295878,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,296606,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,296606,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+64,192,297172,1,0,0:0:0:100:D5S_s.wav
+192,192,297361,1,0,0:0:0:100:F5S_s.wav
+320,192,297537,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,297713,1,0,0:0:0:100:D6S_s.wav
+448,192,297890,1,0,0:0:0:100:F6S_s.wav
+320,192,298122,1,0,0:0:0:100:E6S_s.wav
+64,192,298122,1,0,0:0:0:100:G5S.wav
+192,192,298333,1,0,0:0:0:100:C6S_s.wav
+64,192,298462,1,0,0:0:0:100:D6S_s.wav
+320,192,298462,1,0,0:0:0:100:F6S_s.wav
+192,192,298725,1,0,0:0:0:100:G5S_s.wav
+64,192,298858,1,0,0:0:0:100:G5S_s.wav
+320,192,298858,1,0,0:0:0:100:C6S_s.wav
+448,192,298858,1,0,0:0:0:100:G6S_s.wav
+64,192,299247,1,0,0:0:0:100:C6S_s.wav
+192,192,299635,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+448,192,299635,1,0,0:0:0:100:F4S_s.wav
+64,192,299823,1,0,0:0:0:100:C6S_s.wav
+192,192,300012,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,300201,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+192,192,300389,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,300389,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+64,192,300578,1,0,0:0:0:100:C6S_s.wav
+192,192,300767,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,300955,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+192,192,301148,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+448,192,301148,1,0,0:0:0:30:C#4S_Db4S_s.wav
+64,192,301341,1,0,0:0:0:100:C#6S_Db6S_s.wav
+192,192,301535,1,0,0:0:0:100:F6S_s.wav
+448,192,301728,1,0,0:0:0:100:A#6S_Bb6S_s.wav
+192,192,301922,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,301922,1,0,0:0:0:100:C4S_s.wav
+64,192,302115,1,0,0:0:0:100:C6S_s.wav
+192,192,302309,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,302526,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,302787,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+448,192,302787,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+64,192,303072,1,0,0:0:0:100:B5S_s.wav
+192,192,303339,1,0,0:0:0:100:D#6S_Eb6S_s.wav
+320,192,303661,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+192,192,304017,1,0,0:0:0:100:G#6S_Ab6S_s.wav
+320,192,304017,1,0,0:0:0:100:C#6S_Db6S_s.wav
+64,192,304445,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,304938,1,0,0:0:0:100:C#6S_Db6S_s.wav
+64,192,305630,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+448,192,306513,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+320,192,306548,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+192,192,306619,128,0,307348:0:0:0:100:D#5S_Eb5S_s.wav
+64,192,307114,1,0,0:0:0:100:G#2S_Ab2S_s.wav
+320,192,307348,1,0,0:0:0:100:D#4S_Eb4S_s.wav
+448,192,307550,1,0,0:0:0:100:G#4S_Ab4S_s.wav
+64,192,307770,1,0,0:0:0:100:A#4S_Bb4S_s.wav
+192,192,307962,1,0,0:0:0:100:D#5S_Eb5S_s.wav
+320,192,308212,1,0,0:0:0:100:G#5S_Ab5S_s.wav
+448,192,308497,1,0,0:0:0:100:A#5S_Bb5S_s.wav
+192,192,308803,1,0,0:0:0:100:D#6S_Eb6S.wav
+320,192,309244,1,0,0:0:0:100:G#6S_Ab6S.wav
+448,192,309910,1,0,0:0:0:100:A#6S_Bb6S.wav
+192,192,311394,128,0,315894:0:0:0:100:D#6S_Eb6S.wav
+64,192,311394,128,0,315894:0:0:0:100:G#2S_Ab2S.wav
+320,192,311394,128,0,315894:0:0:0:100:G#6S_Ab6S.wav
+448,192,311394,128,0,315894:0:0:0:100:C7S.wav

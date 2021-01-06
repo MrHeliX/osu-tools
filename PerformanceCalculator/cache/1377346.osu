@@ -1,0 +1,519 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 2500
+PreviewTime: 86295
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+EpilepsyWarning: 1
+SpecialStyle: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 17431,41295,63113,131295
+DistanceSpacing: 0.6
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1.3
+
+[Metadata]
+Title:Indigo Bird
+TitleUnicode:Indigo Bird
+Artist:Sana feat.Nekomata Master
+ArtistUnicode:Sana feat.猫叉Master
+Creator:Calcyon
+Version:Easy
+Source:
+Tags:Naoyuki Sato Sanae Shintani Raindrops KONAMI♪MUSICフル KONAMI 新谷早苗 佐藤直之
+BeatmapID:1377346
+BeatmapSetID:649929
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:4
+OverallDifficulty:7
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+Sample,40613,0,"LR_Kick Bass strong fast.wav",50
+Sample,40954,0,"snare.wav",30
+Sample,62772,0,"LR_Kick Bass strong fast.wav",50
+Sample,73340,0,"claps.wav",40
+Sample,84590,0,"hihat.wav",20
+Sample,107090,0,"LR_Kick Bass strong fast.wav",50
+Sample,107772,0,"snare.wav",35
+Sample,131636,0,"LR_Hit Med Click.wav",70
+Sample,132317,0,"LR_Hit Med Click.wav",70
+
+[TimingPoints]
+386,681.8182,4,2,2,80,1,0
+41295,-100,4,2,2,90,0,0
+86295,681.8182,4,2,2,90,1,1
+132658,-100,4,2,2,90,0,0
+
+
+[HitObjects]
+64,192,386,5,0,0:0:0:0:
+192,192,726,5,0,0:0:0:10:jingle.wav
+320,192,1067,128,0,1749:0:0:0:35:LR_J Hit.wav
+64,192,1408,1,0,0:0:0:10:jingle.wav
+448,192,1749,1,0,0:0:0:0:
+192,192,2090,1,0,0:0:0:10:jingle.wav
+320,192,2431,1,0,0:0:0:35:LR_J Hit.wav
+192,192,2772,1,0,0:0:0:10:jingle.wav
+64,192,3113,1,0,0:0:0:0:
+320,192,3454,1,0,0:0:0:10:jingle.wav
+448,192,3795,1,0,0:0:0:35:LR_J Hit.wav
+192,192,4136,1,0,0:0:0:10:jingle.wav
+64,192,4476,1,0,0:0:0:0:
+320,192,4817,1,0,0:0:0:10:jingle.wav
+448,192,5158,128,0,5840:0:0:0:35:LR_J Hit.wav
+192,192,5499,1,0,0:0:0:10:jingle.wav
+64,192,5840,1,0,0:0:0:0:
+320,192,6181,1,0,0:0:0:10:jingle.wav
+448,192,6522,128,0,7204:0:0:0:35:LR_J Hit.wav
+192,192,6863,1,0,0:0:0:10:jingle.wav
+320,192,7204,1,0,0:0:0:0:
+64,192,7545,1,0,0:0:0:10:jingle.wav
+448,192,7886,1,0,0:0:0:35:LR_J Hit.wav
+192,192,8226,1,0,0:0:0:10:jingle.wav
+64,192,8567,128,0,9249:0:0:0:0:
+320,192,8908,1,0,0:0:0:10:jingle.wav
+448,192,9249,128,0,9931:0:0:0:35:LR_J Hit.wav
+192,192,9590,1,0,0:0:0:10:jingle.wav
+320,192,9931,1,0,0:0:0:0:
+192,192,10272,1,0,0:0:0:10:jingle.wav
+64,192,10613,1,0,0:0:0:35:LR_J Hit.wav
+320,192,10954,1,0,0:0:0:10:jingle.wav
+448,192,11295,1,0,0:0:0:0:
+192,192,11636,1,0,0:0:0:10:jingle.wav
+64,192,11976,128,0,12658:0:0:0:35:LR_J Hit.wav
+448,192,12317,1,0,0:0:0:10:jingle.wav
+320,192,12658,1,0,0:0:0:0:
+192,192,12999,1,0,0:0:0:10:jingle.wav
+448,192,13340,1,0,0:0:0:35:LR_J Hit.wav
+192,192,13681,1,0,0:0:0:10:jingle.wav
+320,192,14022,1,0,0:0:0:0:
+64,192,14363,1,0,0:0:0:10:jingle.wav
+192,192,14704,128,0,15386:0:0:0:35:LR_J Hit.wav
+448,192,15045,1,0,0:0:0:10:jingle.wav
+64,192,15386,1,0,0:0:0:0:
+320,192,15726,1,0,0:0:0:10:jingle.wav
+448,192,16067,1,0,0:0:0:35:LR_J Hit.wav
+192,192,16408,1,0,0:0:0:10:jingle.wav
+64,192,16749,1,0,0:0:0:0:
+192,192,19476,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,19476,1,0,0:0:0:0:
+320,192,19817,1,0,0:0:0:10:jingle.wav
+192,192,20158,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+448,192,20499,1,0,0:0:0:10:jingle.wav
+64,192,20840,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+192,192,21181,1,0,0:0:0:10:jingle.wav
+320,192,21522,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+64,192,21863,1,0,0:0:0:10:jingle.wav
+320,192,22204,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,22204,1,0,0:0:0:0:
+192,192,22545,1,0,0:0:0:10:jingle.wav
+448,192,22886,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+64,192,23226,1,0,0:0:0:10:jingle.wav
+320,192,23567,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,23908,1,0,0:0:0:10:jingle.wav
+320,192,24249,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+192,192,24590,1,0,0:0:0:10:jingle.wav
+448,192,24931,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,24931,1,0,0:0:0:0:
+192,192,25272,1,0,0:0:0:10:jingle.wav
+320,192,25613,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+448,192,25954,1,0,0:0:0:10:jingle.wav
+192,192,26295,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,26636,1,0,0:0:0:10:jingle.wav
+320,192,26976,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+192,192,27317,1,0,0:0:0:10:jingle.wav
+320,192,27658,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,27658,1,0,0:0:0:0:
+192,192,27999,1,0,0:0:0:10:jingle.wav
+64,192,28340,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+320,192,28681,1,0,0:0:0:10:jingle.wav
+448,192,29022,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+192,192,29363,1,0,0:0:0:10:jingle.wav
+320,192,29704,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+448,192,30045,1,0,0:0:0:10:jingle.wav
+192,192,30386,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,30386,1,0,0:0:0:0:
+320,192,30726,1,0,0:0:0:10:jingle.wav
+64,192,31067,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+192,192,31408,1,0,0:0:0:10:jingle.wav
+448,192,31749,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,32090,1,0,0:0:0:10:jingle.wav
+320,192,32431,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+192,192,32772,1,0,0:0:0:10:jingle.wav
+64,192,33113,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,33113,1,0,0:0:0:0:
+320,192,33454,1,0,0:0:0:10:jingle.wav
+192,192,33795,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+448,192,34136,1,0,0:0:0:10:jingle.wav
+64,192,34476,128,0,35158:0:0:0:50:LR_Kick Bass strong fast.wav
+320,192,34817,1,0,0:0:0:10:jingle.wav
+448,192,35158,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+192,192,35499,1,0,0:0:0:10:jingle.wav
+320,192,35840,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,35840,1,0,0:0:0:0:
+64,192,36181,1,0,0:0:0:10:jingle.wav
+192,192,36522,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+320,192,36863,1,0,0:0:0:10:jingle.wav
+64,192,37204,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+192,192,37545,1,0,0:0:0:10:jingle.wav
+448,192,37886,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+320,192,38226,1,0,0:0:0:10:jingle.wav
+192,192,38567,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+64,192,38567,1,0,0:0:0:70:LR_Drum Crush FInish.wav
+448,192,39761,1,0,0:0:0:15:snare.wav
+64,192,39931,1,0,0:0:0:25:snare.wav
+320,192,40272,1,0,0:0:0:40:hihat.wav
+448,192,40613,1,0,0:0:0:25:snare.wav
+192,192,40954,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+320,192,41295,1,0,0:0:0:70:LR_Drum Crush FInish.wav
+448,192,41295,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+192,192,41636,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,41976,1,0,0:0:0:35:snare.wav
+320,192,42317,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,42658,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+192,192,42999,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,43340,1,0,0:0:0:35:snare.wav
+192,192,43681,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,44022,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,44022,1,0,0:0:0:0:
+64,192,44363,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,44704,128,0,45386:0:0:0:35:snare.wav
+192,192,45045,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,45386,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+320,192,45726,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,46067,1,0,0:0:0:35:snare.wav
+448,192,46408,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,46749,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,46749,1,0,0:0:0:0:
+192,192,47090,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,47431,1,0,0:0:0:35:snare.wav
+64,192,47772,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,48113,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,48454,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,48795,1,0,0:0:0:35:snare.wav
+448,192,49136,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,49476,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,49476,1,0,0:0:0:0:
+320,192,49817,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,50158,128,0,50840:0:0:0:35:snare.wav
+64,192,50499,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,50840,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+320,192,51181,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,51522,1,0,0:0:0:35:snare.wav
+448,192,51863,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,52204,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,52545,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,52886,1,0,0:0:0:35:snare.wav
+448,192,52886,1,0,0:0:0:70:LR_Drum Crush FInish.wav
+192,192,53226,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,53567,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,53908,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,54249,1,0,0:0:0:35:snare.wav
+64,192,54590,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,54931,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+320,192,54931,1,0,0:0:0:0:
+448,192,55272,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,55613,1,0,0:0:0:35:snare.wav
+320,192,55954,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,56295,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,56636,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,56976,1,0,0:0:0:35:snare.wav
+192,192,57317,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,57658,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,57658,128,0,59363:0:0:0:0:
+320,192,57999,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,58340,1,0,0:0:0:35:snare.wav
+320,192,58681,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,59022,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+320,192,59363,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,59704,1,0,0:0:0:35:snare.wav
+320,192,60045,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,60386,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,60386,1,0,0:0:0:0:
+64,192,60726,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,61067,1,0,0:0:0:35:snare.wav
+320,192,61408,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,61749,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,61749,1,0,0:0:0:0:
+64,192,62090,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,62431,1,0,0:0:0:35:snare.wav
+192,192,62772,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,63113,1,0,0:0:0:70:LR_Drum Crush FInish.wav
+64,192,63454,1,0,0:0:0:20:hihat.wav
+192,192,63795,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+320,192,63795,1,0,0:0:0:0:
+448,192,64136,1,0,0:0:0:20:hihat.wav
+64,192,64476,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,64817,1,0,0:0:0:20:hihat.wav
+320,192,65158,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,65158,1,0,0:0:0:0:
+192,192,65499,1,0,0:0:0:20:hihat.wav
+448,192,65840,1,0,0:0:0:0:
+64,192,66181,1,0,0:0:0:20:hihat.wav
+192,192,66522,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+320,192,66522,1,0,0:0:0:0:
+448,192,66863,1,0,0:0:0:20:hihat.wav
+320,192,67204,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,67545,1,0,0:0:0:20:hihat.wav
+64,192,67886,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+320,192,67886,1,0,0:0:0:0:
+448,192,68226,1,0,0:0:0:20:hihat.wav
+192,192,68567,1,0,0:0:0:0:
+320,192,68908,1,0,0:0:0:20:hihat.wav
+64,192,69249,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,69249,1,0,0:0:0:0:
+192,192,69590,1,0,0:0:0:20:hihat.wav
+448,192,69931,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,70272,1,0,0:0:0:20:hihat.wav
+192,192,70613,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,70613,1,0,0:0:0:0:
+64,192,70954,1,0,0:0:0:20:hihat.wav
+448,192,71295,1,0,0:0:0:0:
+192,192,71976,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+320,192,71976,1,0,0:0:0:0:
+64,192,72658,1,0,0:0:0:0:
+448,192,73340,1,0,0:0:0:30:snare.wav
+320,192,73681,1,0,0:0:0:70:LR_Drum Crush FInish.wav
+64,192,74022,1,0,0:0:0:0:
+448,192,74363,1,0,0:0:0:20:hihat.wav
+320,192,74704,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+192,192,74704,1,0,0:0:0:0:
+64,192,75045,1,0,0:0:0:20:hihat.wav
+448,192,75386,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,75726,1,0,0:0:0:20:hihat.wav
+64,192,76067,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+192,192,76067,1,0,0:0:0:0:
+448,192,76408,1,0,0:0:0:20:hihat.wav
+320,192,76749,1,0,0:0:0:0:
+64,192,77090,1,0,0:0:0:20:hihat.wav
+192,192,77431,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+320,192,77431,1,0,0:0:0:0:
+448,192,77772,1,0,0:0:0:20:hihat.wav
+64,192,78113,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,78454,1,0,0:0:0:20:hihat.wav
+320,192,78795,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,78795,1,0,0:0:0:0:
+64,192,79136,1,0,0:0:0:20:hihat.wav
+448,192,79476,128,0,82204:0:0:0:0:
+192,192,80158,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,80840,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,81522,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+192,192,82204,1,0,0:0:0:40:snare.wav
+64,192,82204,1,0,0:0:0:0:
+320,192,82886,1,0,0:0:0:40:snare.wav
+448,192,82886,1,0,0:0:0:0:
+192,192,83567,1,0,0:0:0:40:snare.wav
+64,192,83567,1,0,0:0:0:0:
+448,192,84249,1,0,0:0:0:30:snare.wav
+320,192,84249,1,0,0:0:0:0:
+192,192,84590,1,0,0:0:0:30:snare.wav
+64,192,84931,128,0,86295:0:0:0:10:hihat.wav
+320,192,86295,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,86295,1,0,0:0:0:0:
+192,192,86635,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,86976,1,0,0:0:0:35:snare.wav
+320,192,86976,1,0,0:0:0:0:
+448,192,87317,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,87658,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,87999,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,88340,1,0,0:0:0:35:snare.wav
+448,192,88340,1,0,0:0:0:0:
+64,192,88681,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,89022,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,89363,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,89704,1,0,0:0:0:35:snare.wav
+192,192,89704,1,0,0:0:0:0:
+64,192,90045,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,90385,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,90385,1,0,0:0:0:0:
+192,192,90726,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,91067,1,0,0:0:0:35:snare.wav
+448,192,91067,1,0,0:0:0:0:
+320,192,91408,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,91749,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,91749,1,0,0:0:0:0:
+448,192,92090,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,92431,1,0,0:0:0:35:snare.wav
+320,192,92431,1,0,0:0:0:0:
+64,192,92772,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,93113,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+320,192,93454,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,93795,1,0,0:0:0:35:snare.wav
+64,192,93795,1,0,0:0:0:0:
+192,192,94135,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,94476,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,94817,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,95158,1,0,0:0:0:35:snare.wav
+64,192,95158,1,0,0:0:0:0:
+448,192,95499,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,95840,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,95840,1,0,0:0:0:0:
+192,192,96181,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,96522,1,0,0:0:0:35:snare.wav
+64,192,96522,1,0,0:0:0:0:
+320,192,96863,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,97204,1,0,0:0:0:100:LR_Drum Crush FInish.wav
+192,192,97204,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,97545,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,97885,1,0,0:0:0:35:snare.wav
+192,192,97885,1,0,0:0:0:0:
+64,192,98226,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,98567,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+192,192,98908,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,99249,1,0,0:0:0:35:snare.wav
+64,192,99249,1,0,0:0:0:0:
+192,192,99590,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,99931,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,100272,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,100613,1,0,0:0:0:35:snare.wav
+320,192,100613,1,0,0:0:0:0:
+448,192,100954,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,101295,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,101295,1,0,0:0:0:0:
+448,192,101635,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,101976,1,0,0:0:0:35:snare.wav
+192,192,101976,1,0,0:0:0:0:
+64,192,102317,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,102658,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,102658,1,0,0:0:0:0:
+192,192,102999,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,103340,1,0,0:0:0:35:snare.wav
+320,192,103340,1,0,0:0:0:0:
+448,192,103681,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,104022,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,104363,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,104704,1,0,0:0:0:35:snare.wav
+448,192,104704,1,0,0:0:0:0:
+320,192,105045,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,105385,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,105726,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,106067,128,0,107431:0:0:0:35:snare.wav
+192,192,106067,1,0,0:0:0:0:
+448,192,106749,1,0,0:0:0:0:
+320,192,107090,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,107431,1,0,0:0:0:35:snare.wav
+448,192,107772,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,108113,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+64,192,108113,1,0,0:0:0:0:
+192,192,108454,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,108795,1,0,0:0:0:35:snare.wav
+320,192,108795,1,0,0:0:0:0:
+64,192,109135,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,109476,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,109817,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,110158,1,0,0:0:0:35:snare.wav
+64,192,110158,1,0,0:0:0:0:
+192,192,110499,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,110840,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+64,192,111181,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,111522,1,0,0:0:0:35:snare.wav
+320,192,111522,1,0,0:0:0:0:
+448,192,111863,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,112204,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,112204,1,0,0:0:0:0:
+192,192,112545,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,112885,1,0,0:0:0:35:snare.wav
+448,192,112885,1,0,0:0:0:0:
+64,192,113226,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,113567,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+192,192,113567,1,0,0:0:0:0:
+320,192,113908,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,114249,1,0,0:0:0:35:snare.wav
+192,192,114249,1,0,0:0:0:0:
+320,192,114590,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,114931,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+192,192,115272,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,115613,1,0,0:0:0:35:snare.wav
+448,192,115613,1,0,0:0:0:0:
+320,192,115954,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,116295,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+64,192,116635,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,116976,1,0,0:0:0:35:snare.wav
+448,192,116976,1,0,0:0:0:0:
+192,192,117317,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,117658,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,117658,1,0,0:0:0:0:
+320,192,117999,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,118340,1,0,0:0:0:35:snare.wav
+192,192,118340,1,0,0:0:0:0:
+64,192,118681,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,119022,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+320,192,119022,1,0,0:0:0:100:LR_Drum Crush FInish.wav
+448,192,119363,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,119704,1,0,0:0:0:35:snare.wav
+192,192,119704,1,0,0:0:0:0:
+320,192,120045,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,120385,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,120726,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,121067,1,0,0:0:0:35:snare.wav
+192,192,121067,1,0,0:0:0:0:
+448,192,121408,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,121749,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+192,192,122090,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,122431,1,0,0:0:0:35:snare.wav
+320,192,122431,1,0,0:0:0:0:
+192,192,122772,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,123113,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,123113,1,0,0:0:0:0:
+448,192,123454,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,123795,1,0,0:0:0:35:snare.wav
+64,192,123795,1,0,0:0:0:0:
+320,192,124135,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,124476,1,0,0:0:0:35:LR_Kick Bass strong fast.wav
+448,192,124476,1,0,0:0:0:0:
+192,192,124817,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,125158,1,0,0:0:0:35:snare.wav
+64,192,125158,1,0,0:0:0:0:
+448,192,125499,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,125840,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+192,192,126181,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,126522,1,0,0:0:0:35:snare.wav
+448,192,126522,1,0,0:0:0:0:
+320,192,126863,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,127204,1,0,0:0:0:70:LR_Drum Crush FInish.wav
+192,192,127545,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,127885,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,127885,1,0,0:0:0:0:
+448,192,128226,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,128567,1,0,0:0:0:50:LR_Hit Med Click.wav
+64,192,128908,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,129249,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,129249,1,0,0:0:0:0:
+64,192,129590,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,129931,1,0,0:0:0:70:LR_Drum Crush FInish.wav
+192,192,130272,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,130613,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+320,192,130613,1,0,0:0:0:0:
+448,192,130954,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,131295,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,131635,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+64,192,131976,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+320,192,131976,1,0,0:0:0:0:
+192,192,132317,1,0,0:0:0:50:LR_Kick Bass strong fast.wav
+448,192,132658,128,0,135385:0:0:0:70:LR_Drum Crush FInish.wav
+320,192,132658,1,0,0:0:0:0:
+192,192,135385,1,0,0:0:0:0:
+64,192,135385,128,0,137431:0:0:0:0:
+448,192,137431,1,0,0:0:0:40:snare.wav
+320,192,137431,1,0,0:0:0:0:

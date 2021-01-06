@@ -1,0 +1,91 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 4
+GridSize: 32
+TimelineZoom: 1
+
+[Metadata]
+Title:buckle up
+TitleUnicode:buckle up
+Artist:
+ArtistUnicode:
+Creator:Myth
+Version:mythstrata masterrace
+Source:
+Tags:
+BeatmapID:1267644
+BeatmapSetID:599834
+
+[Difficulty]
+HPDrainRate:3
+CircleSize:3
+OverallDifficulty:8
+ApproachRate:9
+SliderMultiplier:3.59999990463257
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+Video,0,"buckle up.mp4"
+0,0,"buckle up.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+6671,283.018867924528,4,1,0,100,1,0
+
+
+[HitObjects]
+256,192,20,12,0,6670,0:0:0:0:
+152,254,6936,5,2,0:0:0:0:
+253,70,7077,1,0,0:0:0:0:
+362,250,7219,1,2,0:0:0:0:
+138,162,7360,5,0,0:0:0:0:
+340,104,7501,1,2,0:0:0:0:
+289,308,7643,1,0,0:0:0:0:
+193,88,7785,5,2,0:0:0:0:
+377,189,7926,1,0,0:0:0:0:
+197,298,8068,1,2,0:0:0:0:
+285,74,8209,5,0,0:0:0:0:
+343,276,8350,1,0,0:0:0:0:
+139,225,8492,1,0,0:0:0:0:
+359,129,8634,5,0,0:0:0:0:
+258,313,8775,1,0,0:0:0:0:
+149,133,8917,1,0,0:0:0:0:
+256,192,9058,1,0,0:0:0:0:
+256,192,9218,6,0,B|192:192|192:192|256:96|256:96|320:192|320:192|192:192,2,359.999990463257,2|2|0,0:0|0:0|0:0,0:0:0:0:
+256,192,9925,5,0,0:0:0:0:
+256,192,10067,6,0,B|192:192|192:192|256:288|256:288|320:192|320:192|192:192,2,359.999990463257
+64,320,10916,5,0,0:0:0:0:
+256,64,11057,1,0,0:0:0:0:
+256,64,11128,1,0,0:0:0:0:
+256,64,11199,1,0,0:0:0:0:
+448,320,11340,1,0,0:0:0:0:
+359,129,11482,5,2,0:0:0:0:
+258,313,11623,1,0,0:0:0:0:
+149,133,11765,1,2,0:0:0:0:
+285,74,11906,5,0,0:0:0:0:
+343,276,12047,1,2,0:0:0:0:
+139,225,12189,1,0,0:0:0:0:
+193,88,12331,5,2,0:0:0:0:
+377,189,12472,1,0,0:0:0:0:
+197,298,12614,1,2,0:0:0:0:
+256,192,12755,1,0,0:0:0:0:
+256,192,12897,1,0,0:0:0:0:

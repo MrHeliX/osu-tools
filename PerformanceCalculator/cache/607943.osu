@@ -1,0 +1,89 @@
+osu file format v14
+
+[General]
+AudioFilename: mini.mp3
+AudioLeadIn: 0
+PreviewTime: 18883
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 4
+GridSize: 16
+TimelineZoom: 2
+
+[Metadata]
+Title:Miniministop Hitoyasumi no Uta[Mokuyoubi]Gakusei no Uta
+TitleUnicode:ミニミニストップひとやすみの歌【木曜日】学生の歌
+Artist:Unknown Artist
+ArtistUnicode:Unknown Artist
+Creator:Mame ga nyaa
+Version:chaica's Kantan
+Source:MINISTOP
+Tags:chaica convenience store
+BeatmapID:607943
+BeatmapSetID:228647
+
+[Difficulty]
+HPDrainRate:9
+CircleSize:5
+OverallDifficulty:3
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"mimippu.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+523,480,4,1,0,75,1,0
+20683,480,4,1,0,75,1,1
+31243,-100,4,1,0,75,0,0
+
+
+[HitObjects]
+256,192,523,5,8,0:0:0:0:
+256,192,2443,1,8,0:0:0:0:
+256,192,4363,5,0,0:0:0:0:
+256,192,5323,1,8,0:0:0:0:
+256,192,6283,1,0,0:0:0:0:
+256,192,8203,1,8,0:0:0:0:
+256,192,9163,1,0,0:0:0:0:
+256,192,10123,1,8,0:0:0:0:
+256,192,12043,1,8,0:0:0:0:
+256,192,12523,1,0,0:0:0:0:
+256,192,13003,1,8,0:0:0:0:
+256,192,13963,1,0,0:0:0:0:
+272,192,14443,1,0,0:0:0:0:
+256,192,14923,1,8,0:0:0:0:
+256,192,15883,1,0,0:0:0:0:
+256,192,16843,1,8,0:0:0:0:
+256,192,17323,1,0,0:0:0:0:
+256,192,17803,1,0,0:0:0:0:
+256,192,20683,1,0,0:0:0:0:
+256,192,21643,1,8,0:0:0:0:
+256,192,22603,1,8,0:0:0:0:
+256,192,23083,1,0,0:0:0:0:
+256,192,23563,1,8,0:0:0:0:
+256,192,24523,1,8,0:0:0:0:
+256,192,25483,1,0,0:0:0:0:
+256,192,26443,1,0,0:0:0:0:
+256,192,26923,5,8,0:0:0:0:
+256,192,27403,1,0,0:0:0:0:
+256,192,28363,1,8,0:0:0:0:
+256,192,29323,1,0,0:0:0:0:
+256,192,30283,5,8,0:0:0:0:
+256,192,30763,1,0,0:0:0:0:
+256,192,31243,1,12,0:0:0:0:

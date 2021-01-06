@@ -1,0 +1,469 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 87859
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 0
+
+[Editor]
+Bookmarks: 51109,76609,100609,111738
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1.9
+
+[Metadata]
+Title:Mobbyca
+TitleUnicode:Mobbyca
+Artist:ARM
+ArtistUnicode:ARM
+Creator:_Stan
+Version:EZ
+Source:
+Tags:hard techno arm mini world game
+BeatmapID:1087187
+BeatmapSetID:511435
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:4
+OverallDifficulty:7
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"backg.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+9109,375,4,1,1,30,1,0
+88609,-100,4,1,1,30,0,1
+100609,-100,4,1,1,30,0,0
+
+
+[HitObjects]
+192,192,9109,5,0,0:0:0:40:LR_Chm Echo long.wav
+320,192,12109,1,0,0:0:0:40:LR_Sleigh Bell.wav
+64,192,15109,1,0,0:0:0:20:LR_Kick-bass.wav
+448,192,15109,1,0,0:0:0:20:cymbal finish.wav
+64,192,15484,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+448,192,15484,1,0,0:0:0:20:
+192,192,15859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,16234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+64,192,16609,1,0,0:0:0:40:LR_Kick Hard Fast.wav
+448,192,16984,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,17359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,17734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,18109,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+64,192,18109,1,0,0:0:0:20:LR_Kick-bass.wav
+448,192,18484,1,0,0:0:0:20:
+64,192,18484,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+320,192,18859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,19234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,19609,1,0,0:0:0:40:LR_Kick Hard Fast.wav
+64,192,19984,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+320,192,20359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,20734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,21109,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+64,192,21109,1,0,0:0:0:20:LR_Kick-bass.wav
+448,192,21484,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+64,192,21484,1,0,0:0:0:20:
+192,192,21859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,22234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,22609,1,0,0:0:0:40:LR_Kick Hard Fast.wav
+64,192,22984,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+320,192,23359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,23734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,24109,1,0,0:0:0:20:LR_Kick-bass.wav
+64,192,24109,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+448,192,24484,1,0,0:0:0:20:
+64,192,24484,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+320,192,24859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,25234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,25609,1,0,0:0:0:40:LR_Kick Hard Fast.wav
+64,192,25984,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+320,192,26359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,26734,128,0,27109:0:0:0:40:LR_Kick-bass.wav
+64,192,27109,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+448,192,27109,1,0,0:0:0:20:cymbal finish.wav
+320,192,27484,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+64,192,27859,1,0,0:0:0:40:LR_Kick Hard Fast.wav
+192,192,28234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,28609,1,0,0:0:0:40:LR_Kick Hard Fast.wav
+320,192,28984,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,29359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,29734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+64,192,30109,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+448,192,30109,1,0,0:0:0:20:LR_Kick-bass.wav
+320,192,30484,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+192,192,30484,1,0,0:0:0:20:
+64,192,30859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,31234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,31609,1,0,0:0:0:40:LR_Kick Hard Fast.wav
+64,192,31984,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,32359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,32734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,33109,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+64,192,33109,1,0,0:0:0:20:LR_Kick-bass.wav
+320,192,33484,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+448,192,33484,1,0,0:0:0:20:
+64,192,33859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,34234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,34609,1,0,0:0:0:40:LR_Kick Hard Fast.wav
+320,192,34984,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,35359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,35734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+320,192,36109,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+448,192,36109,1,0,0:0:0:20:LR_Kick-bass.wav
+64,192,36484,1,0,0:0:0:20:
+192,192,36484,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+320,192,36859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,37234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,37609,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,37796,128,0,37984:0:0:0:40:LR_Snare Hit.wav
+320,192,38171,128,0,38359:0:0:0:40:LR_Snare Hit.wav
+192,192,38359,128,0,38734:0:0:0:40:LR_Kick-bass.wav
+448,192,38734,128,0,39109:0:0:0:40:LR_Kick-bass.wav
+64,192,39109,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+192,192,39109,1,0,0:0:0:20:
+192,192,39671,1,0,0:0:0:20:
+64,192,39671,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+64,192,40234,1,0,0:0:0:40:LR_Drum Hit P2.wav
+320,192,40609,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+448,192,40609,1,0,0:0:0:20:
+448,192,41171,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+320,192,41171,1,0,0:0:0:20:
+448,192,41734,1,0,0:0:0:40:LR_Drum Hit P2.wav
+320,192,42109,1,0,0:0:0:20:
+192,192,42109,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+320,192,42671,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+192,192,42671,1,0,0:0:0:20:
+192,192,43234,1,0,0:0:0:40:LR_Drum Hit P2.wav
+64,192,43609,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+448,192,43609,1,0,0:0:0:20:
+448,192,44171,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+64,192,44171,1,0,0:0:0:20:
+320,192,44734,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,44921,1,0,0:0:0:40:LR_Drum Hit P2.wav
+64,192,45109,128,0,45484:0:0:0:20:
+448,192,45109,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+192,192,45671,1,0,0:0:0:20:
+320,192,45671,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+448,192,46046,1,0,0:0:0:40:
+320,192,46421,1,0,0:0:0:40:
+64,192,46609,1,0,0:0:0:20:
+192,192,46609,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+192,192,47171,1,0,0:0:0:20:
+64,192,47171,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+320,192,47734,1,0,0:0:0:40:LR_Drum Hit P2.wav
+192,192,48109,128,0,48671:0:0:0:20:
+64,192,48109,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+448,192,48671,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+320,192,48671,1,0,0:0:0:20:
+192,192,49234,1,0,0:0:0:40:LR_Drum Hit P2.wav
+448,192,49609,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+64,192,49609,1,0,0:0:0:20:
+448,192,50171,1,0,0:0:0:20:
+64,192,50171,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+320,192,50734,128,0,51109:0:0:0:40:
+64,192,51109,1,0,0:0:0:20:LR_Kick Drop Wet Fast.wav
+448,192,51109,1,0,0:0:0:20:cymbal finish.wav
+448,192,52234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+320,192,52421,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,52609,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,53734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,53921,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,54109,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,55046,1,0,0:0:0:40:
+320,192,55234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,55421,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,55609,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,55890,1,0,0:0:0:40:
+320,192,56171,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,56359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,56546,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,56734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,56921,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,57109,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,57671,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,58234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,58421,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,58609,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,59171,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,59734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+320,192,59921,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,60109,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,60859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,61234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,61421,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,61609,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,62171,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,62359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,62546,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,62734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,62921,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,63109,128,0,64046:0:0:0:20:LR_Kick Drop Wet Fast.wav
+192,192,63109,1,0,0:0:0:20:cymbal finish.wav
+320,192,64234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,64421,1,0,0:0:0:40:
+448,192,64609,128,0,65546:0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,65734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,65921,1,0,0:0:0:40:
+64,192,66109,128,0,67046:0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,67234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+320,192,67421,1,0,0:0:0:40:
+64,192,67609,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,67890,1,0,0:0:0:40:
+192,192,68171,1,0,0:0:0:40:
+320,192,68359,1,0,0:0:0:40:
+448,192,68546,1,0,0:0:0:40:
+64,192,68734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,68921,1,0,0:0:0:40:
+320,192,69109,128,0,69671:0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,69671,128,0,70234:0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,70234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+320,192,70421,1,0,0:0:0:40:
+448,192,70609,128,0,71171:0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,71171,128,0,71734:0:0:0:40:cymbal light.wav
+64,192,71734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,71921,1,0,0:0:0:40:
+448,192,72109,128,0,73234:0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,73234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+64,192,73421,1,0,0:0:0:40:
+192,192,73609,128,0,75109:0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,75109,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+448,192,75109,1,0,0:0:0:20:
+64,192,75671,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+448,192,75671,1,0,0:0:0:20:cymbal light.wav
+320,192,76234,1,0,0:0:0:40:LR_Drum Hit P2.wav
+64,192,76609,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+192,192,76609,1,0,0:0:0:20:LR_Kick-bass.wav
+192,192,76984,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+64,192,76984,1,0,0:0:0:20:
+448,192,77359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,77734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,78109,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,78484,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+320,192,78859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,79234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+320,192,79609,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+448,192,79609,1,0,0:0:0:20:LR_Kick-bass.wav
+448,192,79984,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+320,192,79984,1,0,0:0:0:20:LR_Kick-bass.wav
+64,192,80359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,80734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,81109,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,81484,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,81859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,82234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,82609,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+320,192,82609,1,0,0:0:0:20:
+192,192,82984,1,0,0:0:0:20:
+320,192,82984,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+448,192,83359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,83734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+64,192,84109,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,84484,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+320,192,84859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,85234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+64,192,85609,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+448,192,85609,1,0,0:0:0:20:LR_Kick-bass.wav
+448,192,85984,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+64,192,85984,1,0,0:0:0:20:
+192,192,86359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,86734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,87109,1,0,0:0:0:40:LR_Kick-bass.wav
+64,192,87296,128,0,87484:0:0:0:40:LR_Snare Hit.wav
+320,192,87671,128,0,87859:0:0:0:40:LR_Snare Hit.wav
+192,192,87859,128,0,88234:0:0:0:40:LR_Kick-bass.wav
+448,192,88234,128,0,88609:0:0:0:40:LR_Kick-bass.wav
+320,192,88609,1,0,0:0:0:20:
+64,192,88609,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+192,192,88984,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,89359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,89734,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,90109,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,90484,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,90859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,91234,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,91609,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,91984,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,92359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,92734,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,93109,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,93484,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,93859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,94234,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,94609,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,94984,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,95359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,95734,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,96109,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,96484,5,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,96859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,97234,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,97609,5,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,97796,1,0,0:0:0:40:LR_Snare Hit.wav
+320,192,97984,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,98171,1,0,0:0:0:40:LR_Snare Hit.wav
+64,192,98359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,98546,1,0,0:0:0:40:LR_Snare Hit.wav
+320,192,98734,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,98921,1,0,0:0:0:40:LR_Snare Hit.wav
+192,192,99109,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,99296,128,0,99484:0:0:0:40:LR_Snare Hit.wav
+320,192,99671,128,0,99859:0:0:0:40:LR_Snare Hit.wav
+192,192,99859,128,0,100234:0:0:0:40:LR_Kick-bass.wav
+448,192,100234,128,0,100609:0:0:0:40:LR_Kick-bass.wav
+64,192,100609,1,0,0:0:0:20:cymbal light.wav
+320,192,100609,1,0,0:0:0:50:LR_Kick Hard Fast.wav
+192,192,100796,1,0,0:0:0:40:
+320,192,100984,1,0,0:0:0:40:
+192,192,101171,1,0,0:0:0:40:
+64,192,101359,1,0,0:0:0:40:LR_Chm Echo long.wav
+448,192,101921,1,0,0:0:0:40:
+320,192,102109,1,0,0:0:0:40:
+192,192,102296,1,0,0:0:0:40:
+64,192,102484,1,0,0:0:0:40:
+192,192,102671,1,0,0:0:0:40:
+320,192,102859,1,0,0:0:0:40:LR_Chm Echo long.wav
+192,192,103421,1,0,0:0:0:40:
+320,192,103609,1,0,0:0:0:40:
+448,192,103796,1,0,0:0:0:40:
+320,192,103984,1,0,0:0:0:40:
+192,192,104171,1,0,0:0:0:40:
+64,192,104359,1,0,0:0:0:40:LR_Chm Echo long.wav
+448,192,104921,1,0,0:0:0:40:
+320,192,105109,1,0,0:0:0:40:
+192,192,105296,1,0,0:0:0:40:
+448,192,105484,1,0,0:0:0:40:
+320,192,105671,1,0,0:0:0:40:
+64,192,105859,1,0,0:0:0:40:LR_Chm Echo long.wav
+192,192,106421,1,0,0:0:0:40:
+448,192,106609,1,0,0:0:0:20:
+320,192,106609,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+64,192,106796,1,0,0:0:0:40:
+192,192,106984,1,0,0:0:0:40:
+320,192,107171,1,0,0:0:0:40:
+448,192,107359,1,0,0:0:0:40:LR_Chm Echo long.wav
+320,192,107921,1,0,0:0:0:40:
+64,192,108109,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+192,192,108109,1,0,0:0:0:20:
+448,192,108296,1,0,0:0:0:40:
+320,192,108484,1,0,0:0:0:40:
+192,192,108671,1,0,0:0:0:40:
+64,192,108859,1,0,0:0:0:40:LR_Chm Echo long.wav
+320,192,109421,1,0,0:0:0:40:
+448,192,109609,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+64,192,109609,1,0,0:0:0:20:
+192,192,109796,1,0,0:0:0:40:
+320,192,109984,1,0,0:0:0:40:
+448,192,110171,1,0,0:0:0:40:
+320,192,110359,1,0,0:0:0:40:LR_Chm Echo long.wav
+192,192,110921,1,0,0:0:0:40:
+64,192,111109,128,0,111859:0:0:0:20:LR_Chm Echo long.wav
+448,192,111109,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+192,192,111859,128,0,112609:0:0:0:40:LR_Chm Echo long.wav
+64,192,112609,1,0,0:0:0:20:LR_Kick Drop Wet Fast.wav
+448,192,112609,1,0,0:0:0:20:LR_Kick-bass.wav
+192,192,113359,1,0,0:0:0:20:LR_Snare Hit.wav
+320,192,113359,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+64,192,114109,1,0,0:0:0:20:LR_Kick Drop Wet Fast.wav
+320,192,114109,1,0,0:0:0:20:LR_Kick-bass.wav
+192,192,114859,1,0,0:0:0:20:LR_Snare Hit.wav
+448,192,114859,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+64,192,115609,1,0,0:0:0:20:LR_Kick Drop Wet Fast.wav
+192,192,115609,1,0,0:0:0:20:LR_Kick-bass.wav
+320,192,116359,1,0,0:0:0:20:LR_Snare Hit.wav
+448,192,116359,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+320,192,117109,1,0,0:0:0:20:
+64,192,117109,1,0,0:0:0:20:LR_Kick Drop Wet Fast.wav
+192,192,117859,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+448,192,117859,1,0,0:0:0:20:LR_Snare Hit.wav
+320,192,118421,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,118609,1,0,0:0:0:20:
+64,192,118609,1,0,0:0:0:20:LR_Kick Drop Wet Fast.wav
+192,192,118796,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,118984,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,119171,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,119359,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+320,192,119359,1,0,0:0:0:20:cymbal light.wav
+192,192,119921,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,120109,1,0,0:0:0:20:
+64,192,120109,1,0,0:0:0:20:LR_Kick Drop Wet Fast.wav
+320,192,120296,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,120484,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,120671,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,120859,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+448,192,120859,1,0,0:0:0:20:cymbal light.wav
+320,192,121421,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,121609,1,0,0:0:0:20:LR_Kick Drop Wet Fast.wav
+64,192,121609,1,0,0:0:0:20:
+448,192,121796,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,121984,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,122171,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,122359,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+320,192,122359,1,0,0:0:0:20:cymbal light.wav
+192,192,122921,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,123109,1,0,0:0:0:20:LR_Kick Drop Wet Fast.wav
+448,192,123109,1,0,0:0:0:20:
+320,192,123296,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,123484,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,123671,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,123859,128,0,124234:0:0:0:40:LR_Snare Hit.wav
+64,192,124234,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,124609,128,0,124984:0:0:0:20:LR_Kick Hard Fast.wav
+320,192,124609,1,0,0:0:0:20:cymbal light.wav
+448,192,124984,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+320,192,125359,128,0,125734:0:0:0:40:LR_Kick Hard Fast.wav
+64,192,125734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,126109,128,0,126484:0:0:0:40:LR_Kick Hard Fast.wav
+320,192,126484,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,126859,128,0,127234:0:0:0:40:LR_Kick Hard Fast.wav
+64,192,127234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+320,192,127609,128,0,127984:0:0:0:40:LR_Kick Hard Fast.wav
+192,192,127984,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,128359,128,0,128734:0:0:0:40:LR_Kick Hard Fast.wav
+64,192,128734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,129109,128,0,129484:0:0:0:40:LR_Kick Hard Fast.wav
+320,192,129484,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+64,192,129859,128,0,130234:0:0:0:40:LR_Kick Hard Fast.wav
+448,192,130234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,130609,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+320,192,130609,1,0,0:0:0:20:LR_Kick-bass.wav
+192,192,130984,1,0,0:0:0:20:
+320,192,130984,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+448,192,131359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,131734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+320,192,132109,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+64,192,132484,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,132859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+192,192,133234,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+448,192,133609,1,0,0:0:0:20:LR_Kick-bass.wav
+64,192,133609,1,0,0:0:0:20:LR_Kick Hard Fast.wav
+64,192,133984,1,0,0:0:0:20:
+448,192,133984,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+192,192,134359,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,134734,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+64,192,135109,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+448,192,135484,1,0,0:0:0:40:LR_Drum Hit Echo.wav
+192,192,135859,1,0,0:0:0:40:LR_Kick Drop Wet Fast.wav
+320,192,136234,128,0,136609:0:0:0:40:LR_Kick-bass.wav
+448,192,136609,1,0,0:0:0:20:cymbal light.wav
+64,192,136609,1,0,0:0:0:20:LR_Kick Drop Wet Fast.wav
+320,192,137171,1,0,0:0:0:50:cymbal finish.wav
+192,192,137171,1,0,0:0:0:50:LR_Kick Drop Wet Fast.wav

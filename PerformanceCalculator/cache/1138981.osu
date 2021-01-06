@@ -1,0 +1,126 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 12904
+Countdown: 0
+SampleSet: None
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1.2
+BeatDivisor: 1
+GridSize: 4
+TimelineZoom: 2.5
+
+[Metadata]
+Title:In my room
+TitleUnicode:In my room
+Artist:FELT
+ArtistUnicode:FELT
+Creator:Janko
+Version:Benzopirene's 7K Easy
+Source:
+Tags:NAGI☆ Grow Color Comiket85 MrDorian Tidek Modren Sitekx _underjoy Oktawia Benzopirene
+BeatmapID:1138981
+BeatmapSetID:537499
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:7
+OverallDifficulty:7
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Benzopirene.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+1268,363.636363636364,4,2,1,20,1,0
+12904,-100,4,2,1,20,0,1
+24540,-100,4,2,1,20,0,0
+36177,-100,4,3,1,5,0,0
+
+
+[HitObjects]
+182,192,1268,5,0,0:0:0:30:LR_NBell_D4.wav
+329,192,1631,1,0,0:0:0:20:LR_NBell_A5.wav
+475,192,1995,1,0,0:0:0:20:LR_NBell_D6.wav
+36,192,2358,1,0,0:0:0:20:LR_NBell_D6.wav
+109,192,2722,1,0,0:0:0:20:LR_NBell_A5.wav
+182,192,3086,1,0,0:0:0:20:LR_NBell_F#6.wav
+475,192,4177,1,0,0:0:0:20:LR_NBell_A5.wav
+402,192,4540,1,0,0:0:0:20:LR_NBell_A5.wav
+329,192,4904,1,0,0:0:0:10:LR_NBell_D6.wav
+36,192,5268,1,0,0:0:0:20:LR_NBell_A5.wav
+402,192,5631,1,0,0:0:0:20:LR_NBell_A5.wav
+109,192,5631,1,0,0:0:0:0:
+182,192,5995,1,0,0:0:0:20:LR_NBell_F#6.wav
+36,192,7086,1,0,0:0:0:20:LR_NBell_E5.wav
+475,192,7086,1,0,0:0:0:0:
+402,192,7449,1,0,0:0:0:20:LR_NBell_A5.wav
+329,192,7813,1,0,0:0:0:20:LR_NBell_D6.wav
+256,192,8177,1,0,0:0:0:20:LR_NBell_D6.wav
+36,192,8540,1,0,0:0:0:20:LR_NBell_A5.wav
+109,192,8904,1,0,0:0:0:20:LR_NBell_F#6.wav
+182,192,9995,1,0,0:0:0:20:LR_NBell_C#6.wav
+329,192,9995,1,0,0:0:0:0:
+475,192,10358,1,0,0:0:0:20:LR_NBell_A5.wav
+36,192,10722,1,0,0:0:0:10:LR_NBell_D6.wav
+109,192,11086,1,0,0:0:0:20:LR_NBell_A5.wav
+182,192,11449,1,0,0:0:0:20:LR_NBell_A5.wav
+329,192,11813,1,0,0:0:0:20:LR_NBell_F#6.wav
+109,192,12904,128,0,15813:0:0:0:20:D5.wav
+475,192,12904,1,0,0:0:0:20:LR_NBell_E5.wav
+402,192,13631,1,0,0:0:0:20:LR_NBell_D6.wav
+329,192,14358,1,0,0:0:0:20:LR_NBell_A5.wav
+256,192,15086,1,0,0:0:0:0:
+402,192,15813,128,0,18722:0:0:0:20:A5.wav
+329,192,15813,1,0,0:0:0:20:LR_NBell_A5.wav
+256,192,16540,1,0,0:0:0:20:LR_NBell_D6.wav
+182,192,17268,1,0,0:0:0:20:LR_NBell_A5.wav
+109,192,17995,1,0,0:0:0:20:LR_NBell_A5.wav
+256,192,18722,128,0,21631:0:0:0:20:E5.wav
+182,192,18722,1,0,0:0:0:20:LR_NBell_E5.wav
+36,192,19449,1,0,0:0:0:20:LR_NBell_D6.wav
+109,192,20177,1,0,0:0:0:20:LR_NBell_A5.wav
+182,192,20904,1,0,0:0:0:0:
+109,192,21631,128,0,24540:0:0:0:20:D5.wav
+402,192,21631,1,0,0:0:0:20:LR_NBell_A5.wav
+329,192,22358,1,0,0:0:0:20:LR_NBell_D6.wav
+256,192,23086,1,0,0:0:0:20:LR_NBell_A5.wav
+182,192,23813,1,0,0:0:0:20:LR_NBell_A5.wav
+182,192,24540,128,0,27449:0:0:0:20:D5.wav
+329,192,24540,1,0,0:0:0:20:LR_NBell_E5.wav
+475,192,25268,1,0,0:0:0:20:LR_NBell_D6.wav
+402,192,25995,1,0,0:0:0:20:LR_NBell_A5.wav
+329,192,26722,1,0,0:0:0:0:
+36,192,27449,1,0,0:0:0:20:E5.wav
+329,192,27449,128,0,30358:0:0:0:20:LR_NBell_A5.wav
+109,192,28177,1,0,0:0:0:20:LR_NBell_D6.wav
+182,192,28904,1,0,0:0:0:20:LR_NBell_A5.wav
+256,192,29631,1,0,0:0:0:20:LR_NBell_A5.wav
+109,192,30358,1,0,0:0:0:20:D5.wav
+256,192,30358,128,0,33268:0:0:0:20:LR_NBell_E5.wav
+475,192,31086,1,0,0:0:0:20:LR_NBell_D6.wav
+402,192,31813,1,0,0:0:0:20:LR_NBell_A5.wav
+329,192,32540,1,0,0:0:0:0:
+402,192,33268,128,0,36177:0:0:0:20:A4.wav
+109,192,33268,1,0,0:0:0:20:LR_NBell_A5.wav
+36,192,33995,1,0,0:0:0:20:LR_NBell_D6.wav
+109,192,34722,1,0,0:0:0:20:LR_NBell_A5.wav
+182,192,35449,1,0,0:0:0:20:LR_NBell_A5.wav
+256,192,36177,1,8,0:0:0:0:

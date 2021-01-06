@@ -1,0 +1,99 @@
+osu file format v14
+
+[General]
+AudioFilename: aoba's phone ring.mp3
+AudioLeadIn: 0
+PreviewTime: 15188
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 2
+GridSize: 16
+TimelineZoom: 0.5
+
+[Metadata]
+Title:AI CATCH
+TitleUnicode:AI CATCH
+Artist:Hirata Hironobu
+ArtistUnicode:平田博信
+Creator:Prophecy
+Version:Kantan
+Source:DRAMAtical Murder
+Tags:dmmd aoba aoba's phone boys love game visual novel yaoi GOATBED 8bit nardo Nardoxyribonucleic Regraz
+BeatmapID:913007
+BeatmapSetID:422261
+
+[Difficulty]
+HPDrainRate:8
+CircleSize:2
+OverallDifficulty:3
+ApproachRate:10
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"BG2.jpg",0,50
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+188,416.666666666667,4,1,0,60,1,0
+15188,-100,4,1,0,60,0,1
+21438,-100,4,1,0,80,0,0
+21854,-100,4,1,0,80,0,1
+28104,-100,4,1,0,80,0,0
+28521,-100,4,1,0,60,0,0
+28938,-100,4,1,0,40,0,0
+29354,-100,4,1,0,20,0,0
+29771,-100,4,1,0,10,0,0
+
+
+[HitObjects]
+256,192,188,5,0,0:0:0:0:
+256,192,1021,1,0,0:0:0:0:
+256,192,1854,1,8,0:0:0:0:
+256,192,3521,1,8,0:0:0:0:
+256,192,4146,1,0,0:0:0:0:
+256,192,5188,1,0,0:0:0:0:
+256,192,5813,1,8,0:0:0:0:
+256,192,6854,1,0,0:0:0:0:
+256,192,8521,1,8,0:0:0:0:
+256,192,10188,1,8,0:0:0:0:
+256,192,10813,1,0,0:0:0:0:
+256,192,11854,1,0,0:0:0:0:
+256,192,12479,1,8,0:0:0:0:
+256,192,13521,1,8,0:0:0:0:
+256,192,14354,1,0,0:0:0:0:
+256,192,15188,1,4,0:0:0:0:
+256,192,16021,1,8,0:0:0:0:
+256,192,16854,1,0,0:0:0:0:
+256,192,17271,1,8,0:0:0:0:
+256,192,17688,1,0,0:0:0:0:
+256,192,18521,1,8,0:0:0:0:
+256,192,19354,1,0,0:0:0:0:
+256,192,20188,1,8,0:0:0:0:
+256,192,20604,1,0,0:0:0:0:
+256,192,21021,1,0,0:0:0:0:
+256,192,21854,1,4,0:0:0:0:
+256,192,22271,1,8,0:0:0:0:
+256,192,22688,1,8,0:0:0:0:
+256,192,23521,1,0,0:0:0:0:
+256,192,23938,1,8,0:0:0:0:
+256,192,24354,1,0,0:0:0:0:
+256,192,25188,1,8,0:0:0:0:
+256,192,26021,1,0,0:0:0:0:
+256,192,26854,1,8,0:0:0:0:
+256,192,27688,1,0,0:0:0:0:
+256,192,28104,1,8,0:0:0:0:
+256,192,28521,12,0,30188,0:0:0:0:

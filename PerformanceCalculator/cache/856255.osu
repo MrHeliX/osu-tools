@@ -1,0 +1,76 @@
+osu file format v14
+
+[General]
+AudioFilename: goreshit - goretrance 9 - 03 burn shit up.mp3
+AudioLeadIn: 0
+PreviewTime: 54301
+Countdown: 0
+SampleSet: None
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:burn shit up
+TitleUnicode:burn shit up
+Artist:goreshit
+ArtistUnicode:goreshit
+Creator:Fuchsling
+Version:Easy
+Source:
+Tags:
+BeatmapID:856255
+BeatmapSetID:393412
+
+[Difficulty]
+HPDrainRate:3
+CircleSize:3
+OverallDifficulty:4
+ApproachRate:4
+SliderMultiplier:1.2
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"goretrance_wallpaper.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+0,280.373831775701,4,1,0,100,1,0
+28037,-76.9230769230769,4,1,0,100,0,1
+37009,-100,4,1,0,100,0,0
+54392,-76.9230769230769,4,1,0,100,0,0
+54953,-71.4285714285714,4,1,0,100,0,1
+
+
+[Colours]
+Combo1 : 187,226,135
+Combo2 : 255,155,220
+Combo3 : 151,190,255
+Combo4 : 209,168,213
+Combo5 : 224,189,137
+Combo6 : 167,218,204
+
+[HitObjects]
+256,192,6728,12,0,8971,0:0:0:0:
+104,184,10093,6,0,B|152:132|208:180|268:232|344:160,1,240
+448,244,11214,2,0,B|364:208|344:264|276:296|196:248,1,240
+76,124,12336,5,0,0:0:0:0:
+140,76,12897,1,0,0:0:0:0:
+220,68,13457,2,0,P|256:116|436:132,1,240
+356,288,14579,6,0,P|352:240|304:160,2,120
+200,288,15700,2,0,P|204:240|252:160,2,120
+60,160,16822,6,0,P|104:196|268:136,1,240
+300,72,17943,2,0,P|356:116|368:288,1,240

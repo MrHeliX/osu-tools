@@ -1,0 +1,68 @@
+osu file format v14
+
+[General]
+AudioFilename: Feint - The Journey ft. Veela.mp3
+AudioLeadIn: 0
+PreviewTime: 89918
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.9
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 22925,23972,24321,25367,42460,84321
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 2.899999
+
+[Metadata]
+Title:The Journey
+TitleUnicode:The Journey
+Artist:Feint ft. Veela
+ArtistUnicode:Feint ft. Veela
+Creator:R4UP1
+Version:EXTRA
+Source:
+Tags:Electronic Feint DnB liquicity
+BeatmapID:810605
+BeatmapSetID:312798
+
+[Difficulty]
+HPDrainRate:6
+CircleSize:4.3
+OverallDifficulty:9
+ApproachRate:9.3
+SliderMultiplier:1.8
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+0,0,"Anime-Wallpaper-HD-540.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+21530,348.837209302326,4,2,1,60,1,0
+45251,-90.9090909090909,4,1,1,70,0,0
+89902,-153.846153846153,4,2,1,40,0,0
+134553,-76.9230769230769,4,1,1,80,0,1
+179204,-90.9090909090909,4,1,1,70,0,0
+
+
+[HitObjects]
+192,224,22925,6,0,P|154:189|140:132,1,90
+172,68,23274,1,0,0:0:0:0:
+268,196,23448,1,0,0:0:0:0:
+270,240,23535,1,0,0:0:0:0:
+249,279,23622,1,0,0:0:0:0:
+210,301,23709,1,0,0:0:0:0:
+165,299,23796,1,0,0:0:0:0:
+141,153,23972,1,0,0:0:0:0:
+460,61,24321,6,0,P|450:121|421:155,1,90

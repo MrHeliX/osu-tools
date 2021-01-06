@@ -1,0 +1,90 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 18863
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+Bookmarks: 1988
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:And You Disappeared
+TitleUnicode:And You Disappeared
+Artist:tomppabeats
+ArtistUnicode:tomppabeats
+Creator:Gordon123
+Version:Simple
+Source:
+Tags:chill Harbor LP Helsinki Finland lo-fi
+BeatmapID:1434598
+BeatmapSetID:678487
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:2.5
+OverallDifficulty:2
+ApproachRate:2
+SliderMultiplier:0.9
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+15,789.473684210526,4,2,1,10,1,0
+804,-100,4,2,1,15,0,0
+1594,-100,4,2,1,20,0,0
+2383,-100,4,2,1,30,0,0
+3173,-100,4,2,1,35,0,0
+28436,-100,4,2,1,40,0,0
+29226,-100,4,2,1,30,0,0
+30015,-100,4,2,1,20,0,0
+30804,-100,4,2,1,10,0,0
+31593,-100,4,2,1,5,0,0
+
+
+[Colours]
+Combo1 : 53,53,255
+Combo2 : 85,170,255
+
+[HitObjects]
+56,256,15,6,0,L|156:252,1,90,2|2,0:0|0:0,0:0:0:0:
+212,316,1593,2,0,L|316:320,1,90,2|2,0:0|0:0,0:0:0:0:
+388,288,3172,2,0,B|388:264|380:244|380:244|388:228|388:184,1,90,2|0,0:0|0:0,0:0:0:0:
+444,128,4751,5,2,0:3:0:0:
+368,84,5541,2,0,L|228:96,1,135,2|2,0:0|0:0,0:0:0:0:
+204,132,7120,2,0,P|188:148|116:172,1,90,2|8,0:0|0:0,0:0:0:0:
+52,224,8699,1,2,0:0:0:0:
+12,144,9488,6,0,L|0:44,2,90,2|8|2,0:3|0:0|0:0,0:0:0:0:
+92,184,11857,2,0,L|84:284,1,90,2|8,0:0|0:0,0:0:0:0:
+152,332,13436,1,0,0:0:0:0:
+240,308,14225,5,2,0:3:0:0:
+328,284,15014,2,0,P|344:220|324:148,1,135,2|2,0:0|0:0,0:0:0:0:
+292,128,16593,2,0,L|188:120,1,90,2|8,0:0|0:0,0:0:0:0:
+132,180,18172,1,2,0:0:0:0:
+76,108,18962,6,0,L|64:8,2,90,2|8|2,0:3|0:0|0:0,0:0:0:0:
+132,180,21330,2,0,P|176:188|240:176,1,90,2|8,0:0|0:0,0:0:0:0:
+292,128,22909,1,0,0:0:0:0:
+380,104,23699,5,2,0:3:0:0:
+440,172,24488,2,0,L|428:308,1,135,2|2,0:0|0:0,0:0:0:0:
+392,336,26067,2,0,P|344:348|296:344,1,90,2|8,0:0|0:0,0:0:0:0:
+224,308,27646,5,2,0:0:0:0:
+256,192,28041,12,0,31791,0:0:0:0:

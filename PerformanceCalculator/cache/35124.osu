@@ -1,0 +1,91 @@
+osu file format v5
+
+[General]
+AudioFilename: Rin Kagamine & Len Kagamine - Cantarella.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+DistanceSpacing: 0.800000011920929
+BeatDivisor: 4
+GridSize: 8
+
+[Metadata]
+Title:Cantarella
+Artist:Rin Kagamine & Len Kagamine
+Creator:xxheroxx
+Version:Ultra Easy SV
+Source:
+Tags:
+
+[Difficulty]
+HPDrainRate:0
+CircleSize:3
+OverallDifficulty:0
+SliderMultiplier:0.8
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"kagamine_twins-oshiete_yo_ikitsugi_no_shikata_koyubi.png"
+Video,320,"Cantarella with English Sub - Kagamine Rin Len.mp4.AVI.AVI"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,255,255,255
+
+[TimingPoints]
+446,416.666666666667,4,1,0,100,1,0
+17907,-100,4,1,1,100,0,0
+23741,-100,4,1,0,100,0,0
+25407,-100,4,1,1,100,0,0
+27074,-100,4,1,0,100,0,0
+40407,-100,4,1,0,100,0,1
+41241,-100,4,1,2,100,0,0
+41449,-100,4,1,0,100,0,0
+45407,-100,4,1,1,100,0,0
+48741,-100,4,1,0,100,0,0
+49574,-100,4,1,2,100,0,0
+
+[Colours]
+Combo1 : 240,134,137
+Combo2 : 192,192,192
+
+[HitObjects]
+360,192,13779,2,0,B|192:192,1,160,0|8
+96,112,15445,6,0,B|96:280,1,160,0|8
+208,336,17112,6,0,B|376:336|376:184,1,240
+376,136,18779,2,0,B|376:96|376:48|296:32|280:64|248:104|288:144|288:168|256:168|248:176,1,240,0|8
+192,192,20446,5,0
+64,224,21279,1,8
+192,248,22112,5,0
+64,280,22946,1,8
+192,296,23779,6,0,B|368:296,1,160,0|8
+456,216,25446,2,0,B|280:216,1,160,0|8
+168,216,27112,5,2
+72,216,27737,1,4
+72,56,28779,5,4
+168,56,29404,1,2
+328,56,30446,6,0,B|328:192,1,120,2|4
+432,296,32112,6,0,B|432:160,1,120,4|2
+272,176,33779,6,0,B|176:176,2,80,0|8|0
+192,272,35446,6,0,B|288:272,2,80,0|8|0
+256,192,37112,12,0,40029
+176,200,40445,6,0,B|200:24|320:40|336:208,1,320,4|4
+352,264,42529,2,0,B|368:344,1,80,0|4
+304,344,43362,2,0,B|288:264,1,80,0|4
+256,136,44612,5,4
+160,48,45445,6,0,B|112:40|80:40|24:80|24:136|56:176|88:192,1,240
+128,232,47112,5,4
+248,272,47945,1,4
+368,240,48779,2,0,B|464:216|448:72|352:72,1,240,4|0
+256,192,50445,12,4,53779

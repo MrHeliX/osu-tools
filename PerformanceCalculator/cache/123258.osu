@@ -1,0 +1,1316 @@
+osu file format v12
+
+[General]
+AudioFilename: Re make.mp3
+AudioLeadIn: 3000
+PreviewTime: 147655
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 2
+GridSize: 8
+
+[Metadata]
+Title:Re:make
+TitleUnicode:Re:make
+Artist:ONE OK ROCK
+ArtistUnicode:ONE OK ROCK
+Creator:Rucker
+Version:Normal
+Source:
+Tags:Collab Remake DarknessAngel Firce777 Suzully SnowWhite
+BeatmapID:123258
+BeatmapSetID:38472
+
+[Difficulty]
+HPDrainRate:5
+CircleSize:3
+OverallDifficulty:5
+ApproachRate:6
+SliderMultiplier:1.2
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+Video,-1200,"Re make.avi"
+0,0,"Re make.jpg",0,0
+//Break Periods
+2,59079,69341
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"Name\1.png",320,240
+ M,0,11439,199114,485,390
+ F,0,198765,199114,1,0
+Sprite,Foreground,Centre,"Name\1_l.png",320,240
+ M,0,11439,11614,485,390
+ F,0,11439,11614,1,0
+Sprite,Foreground,Centre,"Lyrics\1_s2.png",320,240
+ M,0,624,711,156,170,363,170
+Sprite,Foreground,Centre,"Lyrics\1.png",320,240
+ M,0,712,1146,365,170,375,170
+Sprite,Foreground,Centre,"Lyrics\1_s.png",320,240
+ M,0,1147,1233,375,131,375,35
+ F,0,1147,1234,1,0
+Sprite,Foreground,Centre,"Lyrics\2_s.png",320,240
+ M,0,624,711,396,417,390,237
+Sprite,Foreground,Centre,"Lyrics\2.png",320,240
+ M,0,712,1146,390,235,390,230
+Sprite,Foreground,Centre,"Lyrics\2_s2.png",320,240
+ M,0,1147,1233,421,230,596,230
+ F,0,1147,1234,1,0
+Sprite,Foreground,Centre,"Lyrics\3_s.png",320,240
+ M,0,1671,1758,285,36,285,127
+Sprite,Foreground,Centre,"Lyrics\3.png",320,240
+ M,0,1759,3065,285,165,285,170
+Sprite,Foreground,Centre,"Lyrics\3_s2.png",320,240
+ F,0,3065,3153,1,0
+ M,0,3066,3153,259,170,-3,170
+Sprite,Foreground,Centre,"Lyrics\4_s2.png",320,240
+ M,0,1671,1758,606,215,270,215
+Sprite,Foreground,Centre,"Lyrics\4.png",320,240
+ M,0,1759,3065,255,215,235,215
+Sprite,Foreground,Centre,"Lyrics\4_s.png",320,240
+ M,0,3066,3153,235,240,235,388
+ F,0,3066,3153,1,0
+Sprite,Foreground,Centre,"Lyrics\5_s2.png",320,240
+ M,0,3414,3501,594,255,378,255
+Sprite,Foreground,Centre,"Lyrics\5.png",320,240
+ M,0,3502,4112,362,255,353,255
+Sprite,Foreground,Centre,"Lyrics\5_s.png",320,240
+ M,0,4113,4199,353,208,353,68
+ F,0,4113,4199,1,0
+Sprite,Foreground,Centre,"Lyrics\6_s.png",320,240
+ M,0,3414,3501,345,475,345,324
+Sprite,Foreground,Centre,"Lyrics\6.png",320,240
+ M,0,3502,4112,345,312,345,310
+Sprite,Foreground,Centre,"Lyrics\6_s2.png",320,240
+ F,0,4112,4199,1,0
+ M,0,4113,4199,323,310,100,310
+Sprite,Foreground,Centre,"Lyrics\7_s.png",320,240
+ M,0,4461,4548,255,72,255,276
+Sprite,Foreground,Centre,"Lyrics\7.png",320,240
+ M,0,4549,6030,255,295,255,305
+Sprite,Foreground,Centre,"Lyrics\7_s2.png",320,240
+ F,0,6030,6118,1,0
+ M,0,6031,6118,282,305,610,305
+Sprite,Foreground,Centre,"Lyrics\8_s2.png",320,240
+ M,0,4461,4548,-39,370,242,370
+Sprite,Foreground,Centre,"Lyrics\8.png",320,240
+ M,0,4549,6030,250,370,260,370
+Sprite,Foreground,Centre,"Lyrics\8_s.png",320,240
+ F,0,6030,6118,1,0
+ M,0,6031,6118,260,389,260,525
+Sprite,Foreground,Centre,"Lyrics\9_s2.png",320,240
+ M,0,6205,6292,105,190,483,190
+Sprite,Foreground,Centre,"Lyrics\9.png",320,240
+ M,0,6293,6728,494,190,499,190
+Sprite,Foreground,Centre,"Lyrics\9_s.png",320,240
+ F,0,6728,6815,1,0
+ M,0,6729,6815,500,163,500,48
+Sprite,Foreground,Centre,"Lyrics\10_s.png",320,240
+ M,0,6205,6292,465,428,465,269
+Sprite,Foreground,Centre,"Lyrics\10.png",320,240
+ M,0,6293,6728,465,248,465,244
+Sprite,Foreground,Centre,"Lyrics\11_s.png",320,240
+ M,0,6990,7077,315,2,315,136
+Sprite,Foreground,Centre,"Lyrics\10_s2.png",320,240
+ F,0,6728,6815,1,0
+ M,0,6729,6815,474,244,641,244
+Sprite,Foreground,Centre,"Lyrics\11.png",320,240
+ M,0,7078,7775,316,154,316,159
+Sprite,Foreground,Centre,"Lyrics\11_s2.png",320,240
+ M,0,7775,7862,293,160,-43,160
+ F,0,7775,7862,1,0
+Sprite,Foreground,Centre,"Lyrics\12_s2.png",320,240
+ M,0,6990,7077,640,210,327,210
+Sprite,Foreground,Centre,"Lyrics\12.png",320,240
+ M,0,7078,7775,309,210,305,210
+Sprite,Foreground,Centre,"Lyrics\12_s.png",320,240
+ M,0,7775,7862,305,239,315,435
+ F,0,7775,7862,1,0
+Sprite,Foreground,Centre,"Lyrics\13_s2.png",320,240
+ M,1,7949,8211,709,175,245,175
+Sprite,Foreground,Centre,"Lyrics\13.png",320,240
+ M,0,8212,11089,245,175,207,175
+Sprite,Foreground,Centre,"Lyrics\13_s.png",320,240
+ M,2,11090,11263,207,175,207,-1
+ F,0,11090,11263,1,0
+Sprite,Foreground,Centre,"Lyrics\14_s.png",320,240
+ M,1,7949,8211,280,592,272,282
+Sprite,Foreground,Centre,"Lyrics\14.png",320,240
+ M,0,8212,11089,272,283,272,270
+Sprite,Foreground,Centre,"Lyrics\14_s2.png",320,240
+ M,2,11090,11263,280,270,-79,270
+ F,0,11090,11263,1,0
+Sprite,Foreground,Centre,"Lyrics\15_s.png",320,240
+ M,0,11786,11874,440,41,440,221
+Sprite,Foreground,Centre,"Lyrics\15.png",320,240
+ M,0,11874,12484,440,238,440,243
+Sprite,Foreground,Centre,"Lyrics\15_s2.png",320,240
+ M,0,12484,12571,414,244,26,244
+ F,0,12484,12571,1,0
+Sprite,Foreground,Centre,"Lyrics\16_s.png",320,240
+ M,0,12832,12920,250,397,250,138
+Sprite,Foreground,Centre,"Lyrics\16.png",320,240
+ M,0,12921,14228,250,126,250,115
+Sprite,Foreground,Centre,"Lyrics\16_s2.png",320,240
+ F,0,14228,14315,1,0
+ M,0,14229,14315,265,115,695,115
+Sprite,Foreground,Centre,"Lyrics\17_s2.png",320,240
+ M,0,14577,14664,5,245,366,245
+Sprite,Foreground,Centre,"Lyrics\17.png",320,240
+ M,0,14665,15449,380,245,385,245
+Sprite,Foreground,Centre,"Lyrics\17_s.png",320,240
+ M,0,15450,15536,385,266,385,456
+ F,0,15450,15536,1,0
+Sprite,Foreground,Centre,"Lyrics\18_s.png",320,240
+ M,0,15798,15885,220,38,220,195
+Sprite,Foreground,Centre,"Lyrics\18.png",320,240
+ M,0,15886,17193,220,209,220,215
+Sprite,Foreground,Centre,"Lyrics\18_s2.png",320,240
+ F,0,17193,17280,1,0
+ M,0,17194,17280,184,215,-95,215
+Sprite,Foreground,Centre,"Lyrics\19_s.png",320,240
+ M,0,17368,17455,390,442,390,119
+Sprite,Foreground,Centre,"Lyrics\19.png",320,240
+ M,0,17456,18065,390,105,390,100
+Sprite,Foreground,Centre,"Lyrics\19_s2.png",320,240
+ M,0,18066,18153,398,100,624,100
+ F,0,18066,18153,1,0
+Sprite,Foreground,Centre,"Lyrics\20_s2.png",320,240
+ M,0,18414,18501,-157,395,325,395
+Sprite,Foreground,Centre,"Lyrics\20.png",320,240
+ M,0,18502,19636,340,400,348,400
+Sprite,Foreground,Centre,"Lyrics\20_s.png",320,240
+ M,0,19637,19723,348,425,348,725
+ F,0,19637,19723,1,0
+Sprite,Foreground,Centre,"Lyrics\21_s.png",320,240
+ M,0,19810,19984,310,-15,310,227
+Sprite,Foreground,Centre,"Lyrics\21.png",320,240
+ M,0,19985,21728,310,243,310,258
+Sprite,Foreground,Centre,"Lyrics\21_s2.png",320,240
+ M,0,21729,21903,330,259,840,259
+ F,0,21729,21903,1,0
+Sprite,Foreground,Centre,"Lyrics\22_s.png",320,240
+ M,0,22077,22164,415,448,415,172
+Sprite,Foreground,Centre,"Lyrics\22.png",320,240
+ M,0,22165,23648,415,155,415,146
+Sprite,Foreground,Centre,"Lyrics\22_s2.png",320,240
+ M,0,23649,23735,378,146,-114,146
+ F,0,23649,23735,1,0
+Sprite,Foreground,Centre,"Lyrics\23_s2.png",320,240
+ M,0,23822,23909,583,215,222,215
+Sprite,Foreground,Centre,"Lyrics\23.png",320,240
+ M,0,23910,24519,210,215,205,215
+Sprite,Foreground,Centre,"Lyrics\23_s.png",320,240
+ M,0,24520,24606,200,234,200,451
+ F,0,24520,24606,1,0
+Sprite,Foreground,Centre,"Lyrics\24_s2.png",320,240
+ M,0,24868,24955,-6,285,379,285
+Sprite,Foreground,Centre,"Lyrics\24.png",320,240
+ M,0,24956,25391,394,285,398,285
+Sprite,Foreground,Centre,"Lyrics\24_s.png",320,240
+ M,0,25392,25478,390,256,390,28
+ F,0,25392,25478,1,0
+Sprite,Foreground,Centre,"Lyrics\25_s2.png",320,240
+ M,0,25565,25653,673,105,271,105
+Sprite,Foreground,Centre,"Lyrics\25.png",320,240
+ M,0,25654,27135,264,105,254,105
+Sprite,Foreground,Centre,"Lyrics\25_s.png",320,240
+ M,0,27136,27222,255,121,255,424
+ F,0,27136,27222,1,0
+Sprite,Foreground,Centre,"Lyrics\26_s.png",320,240
+ M,0,27484,27572,405,85,405,303
+Sprite,Foreground,Centre,"Lyrics\26.png",320,240
+ M,0,27573,28008,405,320,405,325
+Sprite,Foreground,Centre,"Lyrics\26_s2.png",320,240
+ M,0,28009,28095,390,325,3,325
+ F,0,28009,28095,1,0
+Sprite,Foreground,Centre,"Lyrics\27_s.png",320,240
+ M,0,28356,28443,245,450,245,145
+Sprite,Foreground,Centre,"Lyrics\27.png",320,240
+ M,0,28444,29925,245,131,245,124
+Sprite,Foreground,Centre,"Lyrics\27_s2.png",320,240
+ M,0,29926,30013,253,125,648,125
+ F,0,29926,30013,1,0
+Sprite,Foreground,Centre,"Lyrics\28_s2.png",320,240
+ M,0,30275,30362,-39,350,254,350
+Sprite,Foreground,Centre,"Lyrics\28.png",320,240
+ M,0,30363,30885,266,350,270,350
+Sprite,Foreground,Centre,"Lyrics\28_s.png",320,240
+ M,0,30886,30972,270,368,270,520
+ F,0,30886,30972,1,0
+Sprite,Foreground,Centre,"Lyrics\29_s.png",320,240
+ M,0,31147,31234,380,46,380,254
+Sprite,Foreground,Centre,"Lyrics\29.png",320,240
+ M,0,31235,33065,380,277,380,293
+Sprite,Foreground,Centre,"Lyrics\29_s2.png",320,240
+ M,0,33066,33153,350,293,-73,293
+ F,0,33066,33153,1,0
+Sprite,Foreground,Centre,"Lyrics\30_s.png",320,240
+ M,1,36728,36903,440,447,440,184
+Sprite,Foreground,Centre,"Lyrics\30.png",320,240
+ M,0,36904,39170,440,184,440,170
+Sprite,Foreground,Centre,"Lyrics\30_s2.png",320,240
+ M,2,39171,39344,444,170,677,170
+ F,0,39171,39344,1,0
+Sprite,Foreground,Centre,"Lyrics\31_s2.png",320,240
+ M,1,36728,36903,7,280,370,280
+Sprite,Foreground,Centre,"Lyrics\31.png",320,240
+ M,0,36904,39170,370,280,380,280
+Sprite,Foreground,Centre,"Lyrics\31_s.png",320,240
+ M,2,39171,39344,380,280,380,482
+ F,0,39171,39344,1,0
+Sprite,Foreground,Centre,"Lyrics\32_s.png",320,240
+ M,0,39519,39606,190,-13,190,169
+Sprite,Foreground,Centre,"Lyrics\32.png",320,240
+ M,0,39607,40511,190,175,190,180
+Sprite,Foreground,Centre,"Lyrics\32_s2.png",320,240
+ M,0,40512,40739,170,180,-150,180
+ F,0,40512,40739,1,0
+Sprite,Foreground,Centre,"Lyrics\33_s2.png",320,240
+ M,0,39519,39606,574,250,235,250
+Sprite,Foreground,Centre,"Lyrics\33.png",320,240
+ M,0,39607,40511,240,250,234,250
+Sprite,Foreground,Centre,"Lyrics\33_s.png",320,240
+ M,0,40512,40739,234,268,234,630
+ F,0,40512,40739,1,0
+Sprite,Foreground,Centre,"Lyrics\34_s2.png",320,240
+ M,0,40914,41001,661,325,218,325
+Sprite,Foreground,Centre,"Lyrics\34.png",320,240
+ M,0,41001,41263,215,325,205,325
+Sprite,Foreground,Centre,"Lyrics\34_s.png",320,240
+ M,0,41263,41350,195,351,195,549
+ F,0,41263,41350,1,0
+Sprite,Foreground,Centre,"Lyrics\35_s2.png",320,240
+ M,0,41612,41699,-33,150,415,150
+Sprite,Foreground,Centre,"Lyrics\35.png",320,240
+ M,0,41699,41961,435,150,445,150
+Sprite,Foreground,Centre,"Lyrics\35_s.png",320,240
+ M,0,41961,42048,455,130,455,-5
+ F,0,41961,42048,1,0
+Sprite,Foreground,Centre,"Lyrics\36_s2.png",320,240
+ M,0,42310,42397,709,280,183,280
+Sprite,Foreground,Centre,"Lyrics\36.png",320,240
+ M,0,42398,44751,170,280,163,280
+Sprite,Foreground,Centre,"Lyrics\36_s.png",320,240
+ M,0,44752,44839,163,258,163,12
+ F,0,44752,44839,1,0
+Sprite,Foreground,Centre,"Lyrics\37_s.png",320,240
+ M,0,42310,42397,205,517,205,350
+Sprite,Foreground,Centre,"Lyrics\37.png",320,240
+ M,0,42398,44751,205,339,205,332
+Sprite,Foreground,Centre,"Lyrics\37_s2.png",320,240
+ M,0,44752,44839,182,332,-115,332
+ F,0,44752,44839,1,0
+Sprite,Foreground,Centre,"Lyrics\38_s2.png",320,240
+ M,0,45100,45187,745,170,385,170
+Sprite,Foreground,Centre,"Lyrics\38.png",320,240
+ M,0,45188,45623,350,170,345,170
+Sprite,Foreground,Centre,"Lyrics\38_s.png",320,240
+ M,0,45624,45711,345,170,345,30
+ F,0,45624,45711,1,0
+Sprite,Foreground,Centre,"Lyrics\39_s2.png",320,240
+ M,0,45885,45972,17,280,316,280
+Sprite,Foreground,Centre,"Lyrics\39.png",320,240
+ M,0,45973,47716,325,280,335,280
+Sprite,Foreground,Centre,"Lyrics\39_s.png",320,240
+ M,0,47717,47804,335,280,335,434
+ F,0,47717,47804,1,0
+Sprite,Foreground,Centre,"Lyrics\40_s.png",320,240
+ M,0,45885,45972,335,25,335,310
+Sprite,Foreground,Centre,"Lyrics\40.png",320,240
+ M,0,45973,47716,335,330,335,345
+Sprite,Foreground,Centre,"Lyrics\40_s2.png",320,240
+ M,0,47717,47804,370,345,654,345
+ F,0,47717,47804,1,0
+Sprite,Foreground,Centre,"Lyrics\41_s.png",320,240
+ M,0,48065,48152,260,395,260,165
+Sprite,Foreground,Centre,"Lyrics\41.png",320,240
+ M,0,48153,49286,260,150,260,140
+Sprite,Foreground,Centre,"Lyrics\41_s2.png",320,240
+ M,0,49287,49461,260,140,-100,140
+ F,0,49287,49461,1,0
+Sprite,Foreground,Centre,"Lyrics\42_s2.png",320,240
+ M,0,49635,49722,605,340,325,340
+Sprite,Foreground,Centre,"Lyrics\42.png",320,240
+ M,0,49723,50682,325,340,315,340
+Sprite,Foreground,Centre,"Lyrics\42_s.png",320,240
+ M,0,50683,50769,315,340,315,45
+ F,0,50683,50769,1,0
+Sprite,Foreground,Centre,"Lyrics\43_s.png",320,240
+ M,0,51030,51118,200,455,200,245
+Sprite,Foreground,Centre,"Lyrics\43.png",320,240
+ M,0,51119,52251,200,245,200,240
+Sprite,Foreground,Centre,"Lyrics\43_s2.png",320,240
+ M,0,52252,52339,200,240,610,240
+ F,0,52252,52339,1,0
+Sprite,Foreground,Centre,"Lyrics\44_s2.png",320,240
+ M,0,52426,52513,-5,155,295,155
+Sprite,Foreground,Centre,"Lyrics\44.png",320,240
+ M,0,52514,53124,300,155,303,155
+Sprite,Foreground,Centre,"Lyrics\44_s.png",320,240
+ M,0,53125,53211,304,155,300,435
+ F,0,53125,53211,1,0
+Sprite,Foreground,Centre,"Lyrics\45_s.png",320,240
+ M,0,53472,53560,395,40,395,275
+Sprite,Foreground,Centre,"Lyrics\45.png",320,240
+ M,0,53561,54170,395,275,395,285
+Sprite,Foreground,Centre,"Lyrics\45_s2.png",320,240
+ M,0,54171,54257,395,285,35,285
+ F,0,54171,54257,1,0
+Sprite,Foreground,Centre,"Lyrics\46_s2.png",320,240
+ M,0,54432,54519,580,165,275,165
+Sprite,Foreground,Centre,"Lyrics\46.png",320,240
+ M,0,54520,55653,275,165,260,165
+Sprite,Foreground,Centre,"Lyrics\46_s.png",320,240
+ M,0,55654,55740,260,165,260,400
+ F,0,55654,55740,1,0
+Sprite,Foreground,Centre,"Lyrics\47_s2.png",320,240
+ M,0,55914,56001,420,215,175,215
+Sprite,Foreground,Centre,"Lyrics\47.png",320,240
+ M,0,56002,57135,175,215,167,215
+Sprite,Foreground,Centre,"Lyrics\47_s.png",320,240
+ M,0,57136,57222,166,215,166,40
+ F,0,57136,57222,1,0
+Sprite,Foreground,Centre,"Lyrics\48_s2.png",320,240
+ M,0,56263,56350,105,280,435,280
+Sprite,Foreground,Centre,"Lyrics\48.png",320,240
+ M,0,56351,57135,435,280,445,280
+Sprite,Foreground,Centre,"Lyrics\48_s.png",320,240
+ M,0,57136,57222,445,280,445,440
+ F,0,57136,57222,1,0
+Sprite,Foreground,Centre,"Lyrics\49_s2.png",320,240
+ M,0,57484,57571,-15,345,190,345
+Sprite,Foreground,Centre,"Lyrics\49.png",320,240
+ M,0,57572,58182,190,345,195,345
+Sprite,Foreground,Centre,"Lyrics\49_s.png",320,240
+ M,0,58183,58269,195,345,195,465
+ F,0,58183,58269,1,0
+Sprite,Foreground,Centre,"Lyrics\50.png",320,240
+ M,0,58356,58443,440,45,440,130
+Sprite,Foreground,Centre,"Lyrics\50.png",320,240
+ M,0,58444,62891,440,130,440,155
+Sprite,Foreground,Centre,"Lyrics\50.png",320,240
+ M,0,62892,62978,440,155,640,155
+ F,0,62892,62978,1,0
+Sprite,Foreground,Centre,"Lyrics\51_s2.png",320,240
+ M,0,70391,70478,-45,275,395,275
+Sprite,Foreground,Centre,"Lyrics\51.png",320,240
+ M,0,70479,71089,395,275,404,275
+Sprite,Foreground,Centre,"Lyrics\51_s.png",320,240
+ M,0,71090,71176,405,266,405,23
+ F,0,71090,71176,1,0
+Sprite,Foreground,Centre,"Lyrics\52_s.png",320,240
+ M,0,70391,70478,395,412,395,331
+Sprite,Foreground,Centre,"Lyrics\52.png",320,240
+ M,0,70479,71089,395,331,395,325
+Sprite,Foreground,Centre,"Lyrics\52_s2.png",320,240
+ M,0,71090,71176,395,325,650,325
+ F,0,71090,71176,1,0
+Sprite,Foreground,Centre,"Lyrics\53_s.png",320,240
+ M,0,71437,71525,235,85,235,235
+Sprite,Foreground,Centre,"Lyrics\53.png",320,240
+ M,0,71526,72920,235,236,235,240
+Sprite,Foreground,Centre,"Lyrics\53_s2.png",320,240
+ M,0,72921,73007,241,240,-90,240
+ F,0,72921,73007,1,0
+Sprite,Foreground,Centre,"Lyrics\54_s2.png",320,240
+ M,0,71437,71525,655,310,225,310
+Sprite,Foreground,Centre,"Lyrics\54.png",320,240
+ M,0,71526,72920,225,310,220,310
+Sprite,Foreground,Centre,"Lyrics\54_s.png",320,240
+ M,0,72921,73007,220,310,220,470
+ F,0,72921,73007,1,0
+Sprite,Foreground,Centre,"Lyrics\55_s2.png",320,240
+ M,0,73182,73269,590,100,190,100
+Sprite,Foreground,Centre,"Lyrics\55.png",320,240
+ M,0,73270,73879,190,100,186,100
+Sprite,Foreground,Centre,"Lyrics\55_s.png",320,240
+ M,0,73879,73967,185,100,185,454
+ F,0,73879,73967,1,0
+Sprite,Foreground,Centre,"Lyrics\56_s.png",320,240
+ M,0,73182,73269,125,25,125,140
+Sprite,Foreground,Centre,"Lyrics\56.png",320,240
+ M,0,73270,73879,125,140,125,143
+Sprite,Foreground,Centre,"Lyrics\56_s2.png",320,240
+ M,0,73880,73967,125,143,-95,143
+ F,0,73880,73967,1,0
+Sprite,Foreground,Centre,"Lyrics\57_s.png",320,240
+ M,0,74403,74490,430,25,430,210
+Sprite,Foreground,Centre,"Lyrics\57.png",320,240
+ M,0,74491,75798,430,211,430,218
+Sprite,Foreground,Centre,"Lyrics\57_s2.png",320,240
+ M,0,75799,75885,430,219,697,224
+ F,0,75799,75885,1,0
+Sprite,Foreground,Centre,"Lyrics\58_s2.png",320,240
+ M,0,74403,74490,20,291,440,295
+Sprite,Foreground,Centre,"Lyrics\58.png",320,240
+ M,0,74491,75798,440,295,448,295
+Sprite,Foreground,Centre,"Lyrics\58_s.png",320,240
+ M,0,75799,75885,448,295,448,485
+ F,0,75799,75885,1,0
+Sprite,Foreground,Centre,"Lyrics\59_s2.png",320,240
+ M,0,75972,76060,-18,100,471,100
+Sprite,Foreground,Centre,"Lyrics\59.png",320,240
+ M,0,76061,76844,471,100,477,100
+Sprite,Foreground,Centre,"Lyrics\59_s.png",320,240
+ M,0,76845,76932,477,103,477,-24
+ F,0,76845,76932,1,0
+Sprite,Foreground,Centre,"Lyrics\60_s.png",320,240
+ M,0,75972,76060,450,410,450,165
+Sprite,Foreground,Centre,"Lyrics\60.png",320,240
+ M,0,76061,76844,450,165,450,157
+Sprite,Foreground,Centre,"Lyrics\60_s2.png",320,240
+ M,0,76845,76932,450,150,755,150
+ F,0,76845,76932,1,0
+Sprite,Foreground,Centre,"Lyrics\61_s.png",320,240
+ M,0,77019,77106,225,166,225,312
+Sprite,Foreground,Centre,"Lyrics\61.png",320,240
+ M,0,77107,77717,225,312,225,318
+Sprite,Foreground,Centre,"Lyrics\61_s2.png",320,240
+ M,0,77718,77804,225,315,5,315
+ F,0,77718,77804,1,0
+Sprite,Foreground,Centre,"Lyrics\62_s2.png",320,240
+ M,0,77019,77106,629,360,237,360
+Sprite,Foreground,Centre,"Lyrics\62.png",320,240
+ M,0,77107,77717,237,360,227,360
+Sprite,Foreground,Centre,"Lyrics\62_s.png",320,240
+ M,0,77718,77804,227,360,227,500
+ F,0,77718,77804,1,0
+Sprite,Foreground,Centre,"Lyrics\63_s2.png",320,240
+ M,1,77717,77891,770,120,295,120
+Sprite,Foreground,Centre,"Lyrics\63.png",320,240
+ M,0,77892,81030,295,120,282,120
+Sprite,Foreground,Centre,"Lyrics\63_s.png",320,240
+ M,2,81031,81205,282,120,282,-100
+ F,0,81031,81205,1,0
+Sprite,Foreground,Centre,"Lyrics\64_s.png",320,240
+ M,1,77717,77891,290,440,290,195
+Sprite,Foreground,Centre,"Lyrics\64.png",320,240
+ M,0,77892,81030,290,195,290,185
+Sprite,Foreground,Centre,"Lyrics\64_s2.png",320,240
+ M,2,81031,81205,290,185,-110,185
+ F,0,81031,81205,1,0
+Sprite,Foreground,Centre,"Lyrics\65_s.png",320,240
+ M,0,81554,81641,450,15,450,250
+Sprite,Foreground,Centre,"Lyrics\65.png",320,240
+ M,0,81642,82426,450,252,450,262
+Sprite,Foreground,Centre,"Lyrics\65_s2.png",320,240
+ M,0,82427,82513,450,263,-55,263
+ F,0,82427,82513,1,0
+Sprite,Foreground,Centre,"Lyrics\66_s2.png",320,240
+ M,0,82775,82862,745,400,220,400
+Sprite,Foreground,Centre,"Lyrics\66.png",320,240
+ M,0,82863,83298,221,400,217,400
+Sprite,Foreground,Centre,"Lyrics\66_s.png",320,240
+ M,0,83299,83385,217,400,217,518
+ F,0,83299,83385,1,0
+Sprite,Foreground,Centre,"Lyrics\67_s.png",320,240
+ M,0,83385,83472,340,20,340,225
+Sprite,Foreground,Centre,"Lyrics\67.png",320,240
+ M,0,83473,84257,340,223,340,231
+Sprite,Foreground,Centre,"Lyrics\67_s2.png",320,240
+ M,0,84258,84344,340,231,713,231
+ F,0,84258,84344,1,0
+Sprite,Foreground,Centre,"Lyrics\68_s2.png",320,240
+ M,0,84432,84519,-105,110,195,110
+Sprite,Foreground,Centre,"Lyrics\68.png",320,240
+ M,0,84520,85217,195,110,200,110
+Sprite,Foreground,Centre,"Lyrics\68_s.png",320,240
+ M,0,85218,85304,200,100,200,-100
+ F,0,85218,85304,1,0
+Sprite,Foreground,Centre,"Lyrics\69_s.png",320,240
+ M,0,85391,85478,445,455,445,225
+Sprite,Foreground,Centre,"Lyrics\69.png",320,240
+ M,0,85479,85914,445,225,445,215
+Sprite,Foreground,Centre,"Lyrics\69_s2.png",320,240
+ M,0,85915,86001,445,215,800,215
+ F,0,85915,86001,1,0
+Sprite,Foreground,Centre,"Lyrics\70_s2.png",320,240
+ M,0,86089,86176,-105,253,225,295
+Sprite,Foreground,Centre,"Lyrics\70.png",320,240
+ M,0,86177,86961,225,295,233,295
+Sprite,Foreground,Centre,"Lyrics\70_s.png",320,240
+ M,0,86962,87048,233,295,233,-50
+ F,0,86962,87048,1,0
+Sprite,Foreground,Centre,"Lyrics\71_s.png",320,240
+ M,1,87310,87484,250,35,250,255
+Sprite,Foreground,Centre,"Lyrics\71.png",320,240
+ M,0,87485,92193,250,255,250,285
+Sprite,Foreground,Centre,"Lyrics\71_s2.png",320,240
+ M,2,92194,92368,250,305,865,305
+ F,0,92194,92368,1,0
+Sprite,Foreground,Centre,"Lyrics\72_s.png",320,240
+ M,1,87310,87484,450,450,450,205
+Sprite,Foreground,Centre,"Lyrics\72.png",320,240
+ M,0,87485,92193,450,200,450,170
+Sprite,Foreground,Centre,"Lyrics\72_s2.png",320,240
+ M,2,92194,92368,450,170,-133,170
+ F,0,92194,92368,1,0
+Sprite,Foreground,Centre,"Lyrics\30_s.png",320,240
+ M,1,92542,92717,175,405,175,125
+Sprite,Foreground,Centre,"Lyrics\30.png",320,240
+ M,0,92718,94984,175,125,175,113
+Sprite,Foreground,Centre,"Lyrics\30_s.png",320,240
+ M,2,94985,95158,175,113,-100,113
+ F,0,94985,95158,1,0
+Sprite,Foreground,Centre,"Lyrics\31_s2.png",320,240
+ M,1,92542,92717,720,240,227,240
+Sprite,Foreground,Centre,"Lyrics\31.png",320,240
+ M,0,92718,94984,227,240,207,240
+Sprite,Foreground,Centre,"Lyrics\31_s.png",320,240
+ M,2,94985,95158,207,240,207,-17
+ F,0,94985,95158,1,0
+Sprite,Foreground,Centre,"Lyrics\32_s2.png",320,240
+ M,0,95420,95507,-50,160,413,160
+Sprite,Foreground,Centre,"Lyrics\32.png",320,240
+ M,0,95508,96379,413,160,417,160
+Sprite,Foreground,Centre,"Lyrics\32_s.png",320,240
+ M,0,96380,96467,418,160,418,500
+ F,0,96380,96467,1,0
+Sprite,Foreground,Centre,"Lyrics\33_s.png",320,240
+ M,0,95420,95507,475,95,475,235
+Sprite,Foreground,Centre,"Lyrics\33.png",320,240
+ M,0,95508,96379,475,233,475,238
+Sprite,Foreground,Centre,"Lyrics\33_s2.png",320,240
+ M,0,96380,96467,475,239,765,239
+ F,0,96380,96467,1,0
+Sprite,Foreground,Centre,"Lyrics\34_s.png",320,240
+ M,0,96815,96903,450,-10,450,320
+Sprite,Foreground,Centre,"Lyrics\34.png",320,240
+ M,0,96904,97164,455,320,455,326
+Sprite,Foreground,Centre,"Lyrics\34_s2.png",320,240
+ M,0,97165,97251,455,323,900,323
+ F,0,97165,97251,1,0
+Sprite,Foreground,Centre,"Lyrics\35_s.png",320,240
+ M,0,97513,97600,200,475,200,135
+Sprite,Foreground,Centre,"Lyrics\35.png",320,240
+ M,0,97601,97862,200,134,200,126
+Sprite,Foreground,Centre,"Lyrics\35_s2.png",320,240
+ M,0,97863,97949,200,126,-400,126
+ F,0,97863,97949,1,0
+Sprite,Foreground,Centre,"Lyrics\36_s.png",320,240
+ M,0,98124,98211,307,490,307,181
+Sprite,Foreground,Centre,"Lyrics\36.png",320,240
+ M,0,98212,100565,307,181,307,169
+Sprite,Foreground,Centre,"Lyrics\36_s2.png",320,240
+ M,0,100566,100653,307,170,766,170
+ F,0,100566,100653,1,0
+Sprite,Foreground,Centre,"Lyrics\37_s2.png",320,240
+ M,0,98124,98211,-145,257,309,257
+Sprite,Foreground,Centre,"Lyrics\37.png",320,240
+ M,0,98212,100565,309,257,318,257
+Sprite,Foreground,Centre,"Lyrics\37_s.png",320,240
+ M,0,100566,100653,318,257,318,-50
+ F,0,100566,100653,1,0
+Sprite,Foreground,Centre,"Lyrics\38_s2.png",320,240
+ M,0,100914,101001,955,390,260,390
+Sprite,Foreground,Centre,"Lyrics\38.png",320,240
+ M,0,101002,101612,260,375,254,375
+Sprite,Foreground,Centre,"Lyrics\38_s.png",320,240
+ M,0,101613,101699,254,374,254,561
+ F,0,101613,101699,1,0
+Sprite,Foreground,Centre,"Lyrics\39_s.png",320,240
+ M,0,101786,101874,370,37,370,195
+Sprite,Foreground,Centre,"Lyrics\39.png",320,240
+ M,0,101875,103705,370,195,370,203
+Sprite,Foreground,Centre,"Lyrics\39_s2.png",320,240
+ M,0,103706,103792,370,203,936,203
+ F,0,103706,103792,1,0
+Sprite,Foreground,Centre,"Lyrics\40_s2.png",320,240
+ M,0,101786,101874,-64,288,400,288
+Sprite,Foreground,Centre,"Lyrics\40.png",320,240
+ M,0,101875,103705,400,288,410,288
+Sprite,Foreground,Centre,"Lyrics\40_s.png",320,240
+ M,0,103706,103792,410,288,410,572
+ F,0,103706,103792,1,0
+Sprite,Foreground,Centre,"Lyrics\73_s.png",320,240
+ M,0,104054,104141,265,414,265,176
+Sprite,Foreground,Centre,"Lyrics\73.png",320,240
+ M,0,104142,105100,265,176,265,168
+Sprite,Foreground,Centre,"Lyrics\73_s2.png",320,240
+ M,0,105101,105187,265,168,890,168
+ F,0,105101,105187,1,0
+Sprite,Foreground,Centre,"Lyrics\42_s2.png",320,240
+ M,0,105449,105536,5,325,405,325
+Sprite,Foreground,Centre,"Lyrics\42.png",320,240
+ M,0,105537,106496,405,325,411,325
+Sprite,Foreground,Centre,"Lyrics\42_s.png",320,240
+ M,0,106497,106583,412,325,412,-70
+ F,0,106497,106583,1,0
+Sprite,Foreground,Centre,"Lyrics\75_s.png",320,240
+ M,0,106844,106932,300,14,300,256
+Sprite,Foreground,Centre,"Lyrics\75.png",320,240
+ M,0,106933,107891,300,256,300,260
+Sprite,Foreground,Centre,"Lyrics\75_s2.png",320,240
+ M,0,107892,107978,300,260,-150,260
+ F,0,107892,107978,1,0
+Sprite,Foreground,Centre,"Lyrics\76_s2.png",320,240
+ M,0,108065,108153,865,145,335,145
+Sprite,Foreground,Centre,"Lyrics\76.png",320,240
+ M,0,108154,109112,334,145,313,145
+Sprite,Foreground,Centre,"Lyrics\76_s.png",320,240
+ M,0,109113,109199,313,145,313,535
+ F,0,109113,109199,1,0
+Sprite,Foreground,Centre,"Lyrics\45_s.png",320,240
+ M,0,109286,109374,215,25,215,272
+Sprite,Foreground,Centre,"Lyrics\45.png",320,240
+ M,0,109375,110158,215,272,215,280
+Sprite,Foreground,Centre,"Lyrics\45_s2.png",320,240
+ M,0,110159,110246,215,280,-200,280
+ F,0,110159,110246,1,0
+Sprite,Foreground,Centre,"Lyrics\46_s2.png",320,240
+ M,0,110158,110246,845,200,400,200
+Sprite,Foreground,Centre,"Lyrics\46.png",320,240
+ M,0,110247,111641,401,200,376,200
+Sprite,Foreground,Centre,"Lyrics\46_s.png",320,240
+ M,0,111642,111728,376,200,376,-40
+ F,0,111642,111728,1,0
+Sprite,Foreground,Centre,"Lyrics\47_s.png",320,240
+ M,0,111728,111815,450,495,450,180
+Sprite,Foreground,Centre,"Lyrics\47.png",320,240
+ M,0,111816,113124,450,181,450,163
+Sprite,Foreground,Centre,"Lyrics\47_s2.png",320,240
+ M,0,113125,113211,450,163,-319,163
+ F,0,113125,113211,1,0
+Sprite,Foreground,Centre,"Lyrics\48_s.png",320,240
+ M,0,112077,112164,200,-80,200,335
+Sprite,Foreground,Centre,"Lyrics\48.png",320,240
+ M,0,112165,113124,200,336,200,343
+Sprite,Foreground,Centre,"Lyrics\48_s2.png",320,240
+ M,0,113125,113211,200,343,850,343
+ F,0,113125,113211,1,0
+Sprite,Foreground,Centre,"Lyrics\49_s2.png",320,240
+ M,0,113472,113560,711,205,435,205
+Sprite,Foreground,Centre,"Lyrics\49.png",320,240
+ M,0,113561,114083,435,205,424,205
+Sprite,Foreground,Centre,"Lyrics\49_s.png",320,240
+ M,0,114084,114170,424,205,424,510
+ F,0,114084,114170,1,0
+Sprite,Foreground,Centre,"Lyrics\50_s.png",320,240
+ M,0,114344,114432,180,25,180,230
+Sprite,Foreground,Centre,"Lyrics\50.png",320,240
+ M,0,114433,119228,180,228,180,247
+Sprite,Foreground,Centre,"Lyrics\50_s2.png",320,240
+ M,0,119229,119315,180,247,-202,247
+ F,0,119229,119315,1,0
+Sprite,Foreground,Centre,"Lyrics\30_s.png",320,240
+ M,1,147658,147833,440,447,440,184
+Sprite,Foreground,Centre,"Lyrics\30.png",320,240
+ M,0,147834,150100,440,184,440,170
+Sprite,Foreground,Centre,"Lyrics\30_s2.png",320,240
+ M,2,150101,150274,444,170,677,170
+ F,0,150101,150274,1,0
+Sprite,Foreground,Centre,"Lyrics\31_s2.png",320,240
+ M,1,147658,147833,7,280,370,280
+Sprite,Foreground,Centre,"Lyrics\31.png",320,240
+ M,0,147834,150100,370,280,380,280
+Sprite,Foreground,Centre,"Lyrics\31_s.png",320,240
+ M,2,150101,150274,380,280,380,482
+ F,0,150101,150274,1,0
+Sprite,Foreground,Centre,"Lyrics\32_s.png",320,240
+ M,0,150449,150536,190,-13,190,169
+Sprite,Foreground,Centre,"Lyrics\32.png",320,240
+ M,0,150536,151441,190,175,190,180
+Sprite,Foreground,Centre,"Lyrics\32_s2.png",320,240
+ M,0,151442,151669,170,180,-150,180
+ F,0,151442,151669,1,0
+Sprite,Foreground,Centre,"Lyrics\33_s2.png",320,240
+ M,0,150449,150536,574,250,235,250
+Sprite,Foreground,Centre,"Lyrics\33.png",320,240
+ M,0,150536,151441,240,250,234,250
+Sprite,Foreground,Centre,"Lyrics\33_s.png",320,240
+ M,0,151442,151669,234,268,234,630
+ F,0,151442,151669,1,0
+Sprite,Foreground,Centre,"Lyrics\34_s2.png",320,240
+ M,0,151844,151931,661,325,218,325
+Sprite,Foreground,Centre,"Lyrics\34.png",320,240
+ M,0,151932,152193,215,325,205,325
+Sprite,Foreground,Centre,"Lyrics\34_s.png",320,240
+ M,0,152194,152280,195,351,195,549
+ F,0,152194,152280,1,0
+Sprite,Foreground,Centre,"Lyrics\35_s2.png",320,240
+ M,0,152542,152629,-33,150,415,150
+Sprite,Foreground,Centre,"Lyrics\35.png",320,240
+ M,0,152630,152891,435,150,445,150
+Sprite,Foreground,Centre,"Lyrics\35_s.png",320,240
+ M,0,152891,152978,455,130,455,-5
+ F,0,152891,152978,1,0
+Sprite,Foreground,Centre,"Lyrics\36_s2.png",320,240
+ M,0,153240,153327,709,280,183,280
+Sprite,Foreground,Centre,"Lyrics\36.png",320,240
+ M,0,153328,155681,170,280,163,280
+Sprite,Foreground,Centre,"Lyrics\36_s.png",320,240
+ M,0,155682,155769,163,258,163,12
+ F,0,155682,155769,1,0
+Sprite,Foreground,Centre,"Lyrics\37_s.png",320,240
+ M,0,153240,153327,205,517,205,350
+Sprite,Foreground,Centre,"Lyrics\37.png",320,240
+ M,0,153328,155681,205,339,205,332
+Sprite,Foreground,Centre,"Lyrics\37_s2.png",320,240
+ M,0,155682,155769,182,332,-115,332
+ F,0,155682,155769,1,0
+Sprite,Foreground,Centre,"Lyrics\38_s2.png",320,240
+ M,0,156030,156117,745,170,385,170
+Sprite,Foreground,Centre,"Lyrics\38.png",320,240
+ M,0,156118,156553,350,170,345,170
+Sprite,Foreground,Centre,"Lyrics\38_s.png",320,240
+ M,0,156654,156641,345,170,345,30
+ F,0,156654,156641,1,0
+Sprite,Foreground,Centre,"Lyrics\39_s2.png",320,240
+ M,0,156815,156902,17,280,316,280
+Sprite,Foreground,Centre,"Lyrics\39.png",320,240
+ M,0,156903,158646,325,280,335,280
+Sprite,Foreground,Centre,"Lyrics\39_s.png",320,240
+ M,0,158647,158734,335,280,335,434
+ F,0,158647,158734,1,0
+Sprite,Foreground,Centre,"Lyrics\40_s.png",320,240
+ M,0,156815,156902,335,25,335,310
+Sprite,Foreground,Centre,"Lyrics\40.png",320,240
+ M,0,156903,158646,335,330,335,345
+Sprite,Foreground,Centre,"Lyrics\40_s2.png",320,240
+ M,0,158647,158734,370,345,654,345
+ F,0,158647,158734,1,0
+Sprite,Foreground,Centre,"Lyrics\73_s.png",320,240
+ M,0,159170,159257,265,414,265,176
+Sprite,Foreground,Centre,"Lyrics\73.png",320,240
+ M,0,159258,160216,265,176,265,168
+Sprite,Foreground,Centre,"Lyrics\73_s2.png",320,240
+ M,0,160217,160303,265,168,890,168
+ F,0,160217,160303,1,0
+Sprite,Foreground,Centre,"Lyrics\42_s2.png",320,240
+ M,0,160565,160652,5,325,405,325
+Sprite,Foreground,Centre,"Lyrics\42.png",320,240
+ M,0,160653,161612,405,325,411,325
+Sprite,Foreground,Centre,"Lyrics\42_s.png",320,240
+ M,0,161613,161699,412,325,412,-70
+ F,0,161613,161699,1,0
+Sprite,Foreground,Centre,"Lyrics\75_s.png",320,240
+ M,0,161960,162048,300,14,300,256
+Sprite,Foreground,Centre,"Lyrics\75.png",320,240
+ M,0,162049,163007,300,256,300,260
+Sprite,Foreground,Centre,"Lyrics\75_s2.png",320,240
+ M,0,163008,163094,300,260,-150,260
+ F,0,163008,163094,1,0
+Sprite,Foreground,Centre,"Lyrics\76_s2.png",320,240
+ M,0,108065,108153,865,145,335,145
+Sprite,Foreground,Centre,"Lyrics\76.png",320,240
+ M,0,108154,109112,334,145,313,145
+Sprite,Foreground,Centre,"Lyrics\76_s.png",320,240
+ M,0,109113,109199,313,145,313,535
+ F,0,109113,109199,1,0
+Sprite,Foreground,Centre,"Lyrics\45_s.png",320,240
+ M,0,109286,109374,215,25,215,272
+Sprite,Foreground,Centre,"Lyrics\45.png",320,240
+ M,0,109375,110158,215,272,215,280
+Sprite,Foreground,Centre,"Lyrics\45_s2.png",320,240
+ M,0,110159,110246,215,280,-200,280
+ F,0,110159,110246,1,0
+Sprite,Foreground,Centre,"Lyrics\46_s2.png",320,240
+ M,0,110158,110246,845,200,400,200
+Sprite,Foreground,Centre,"Lyrics\46.png",320,240
+ M,0,110247,111641,401,200,376,200
+Sprite,Foreground,Centre,"Lyrics\46_s.png",320,240
+ M,0,111642,111728,376,200,376,-40
+ F,0,111642,111728,1,0
+Sprite,Foreground,Centre,"Lyrics\47_s.png",320,240
+ M,0,111728,111815,450,495,450,180
+Sprite,Foreground,Centre,"Lyrics\47.png",320,240
+ M,0,111816,113124,450,181,450,163
+Sprite,Foreground,Centre,"Lyrics\47_s2.png",320,240
+ M,0,113125,113211,450,163,-319,163
+ F,0,113125,113211,1,0
+Sprite,Foreground,Centre,"Lyrics\48_s.png",320,240
+ M,0,112077,112164,200,-80,200,335
+Sprite,Foreground,Centre,"Lyrics\48.png",320,240
+ M,0,112165,113124,200,336,200,343
+Sprite,Foreground,Centre,"Lyrics\48_s2.png",320,240
+ M,0,113125,113211,200,343,850,343
+ F,0,113125,113211,1,0
+Sprite,Foreground,Centre,"Lyrics\49_s2.png",320,240
+ M,0,113472,113560,711,205,435,205
+Sprite,Foreground,Centre,"Lyrics\49.png",320,240
+ M,0,113561,114083,435,205,424,205
+Sprite,Foreground,Centre,"Lyrics\49_s.png",320,240
+ M,0,114084,114170,424,205,424,510
+ F,0,114084,114170,1,0
+Sprite,Foreground,Centre,"Lyrics\76_s2.png",320,240
+ M,0,163182,163269,870,140,380,140
+Sprite,Foreground,Centre,"Lyrics\76.png",320,240
+ M,0,163270,164228,380,140,368,140
+Sprite,Foreground,Centre,"Lyrics\76_s.png",320,240
+ M,0,164229,164315,368,140,368,-100
+Sprite,Foreground,Centre,"Lyrics\45_s.png",320,240
+ M,0,164403,164491,215,25,215,272
+Sprite,Foreground,Centre,"Lyrics\45.png",320,240
+ M,0,164492,165275,215,272,215,280
+Sprite,Foreground,Centre,"Lyrics\45_s2.png",320,240
+ M,0,165276,165363,215,280,-200,280
+ F,0,165276,165363,1,0
+Sprite,Foreground,Centre,"Lyrics\46_s2.png",320,240
+ M,0,165275,165363,845,200,400,200
+Sprite,Foreground,Centre,"Lyrics\46.png",320,240
+ M,0,165364,166758,401,200,376,200
+Sprite,Foreground,Centre,"Lyrics\46_s.png",320,240
+ M,0,166759,166845,376,200,376,-40
+ F,0,166759,166845,1,0
+Sprite,Foreground,Centre,"Lyrics\47_s.png",320,240
+ M,0,166845,166932,450,495,450,180
+Sprite,Foreground,Centre,"Lyrics\47.png",320,240
+ M,0,166933,168241,450,181,450,163
+Sprite,Foreground,Centre,"Lyrics\47_s2.png",320,240
+ M,0,168242,168328,450,163,-319,163
+ F,0,168242,168328,1,0
+Sprite,Foreground,Centre,"Lyrics\48_s.png",320,240
+ M,0,167194,167281,200,-80,200,335
+Sprite,Foreground,Centre,"Lyrics\48.png",320,240
+ M,0,167282,168241,200,336,200,343
+Sprite,Foreground,Centre,"Lyrics\48_s2.png",320,240
+ M,0,168242,168328,200,343,850,343
+ F,0,168242,168328,1,0
+Sprite,Foreground,Centre,"Lyrics\49_s2.png",320,240
+ M,0,168589,168677,711,205,435,205
+Sprite,Foreground,Centre,"Lyrics\49.png",320,240
+ M,0,168678,169200,435,205,424,205
+Sprite,Foreground,Centre,"Lyrics\49_s.png",320,240
+ M,0,169201,169287,424,205,424,510
+ F,0,169201,169287,1,0
+Sprite,Foreground,Centre,"Lyrics\50_s.png",320,240
+ M,0,169286,169374,180,25,180,230
+Sprite,Foreground,Centre,"Lyrics\50.png",320,240
+ M,0,169375,169808,180,228,180,230
+Sprite,Foreground,Centre,"Lyrics\50_s2.png",320,240
+ M,0,169809,169896,180,228,-202,247
+ F,0,169809,169896,1,0
+Sprite,Foreground,Centre,"Lyrics\30_s2.png",320,240
+ M,1,169984,170158,-150,110,420,110
+Sprite,Foreground,Centre,"Lyrics\30.png",320,240
+ M,0,170159,178530,420,110,470,110
+Sprite,Foreground,Centre,"Lyrics\30_s.png",320,240
+ M,0,178531,178705,470,110,470,700
+ F,0,178531,178705,1,0
+Sprite,Foreground,Centre,"Lyrics\31_s.png",320,240
+ M,1,169984,170158,851,371,338,363
+Sprite,Foreground,Centre,"Lyrics\31.png",320,240
+ M,0,170159,178530,300,360,230,360
+Sprite,Foreground,Centre,"Lyrics\31_s2.png",320,240
+ M,2,178531,178705,230,360,230,-500
+ F,0,178531,178705,1,0
+Sprite,Foreground,Centre,"Lyrics\77_s.png",320,240
+ M,0,181496,181583,350,25,350,228
+Sprite,Foreground,Centre,"Lyrics\77.png",320,240
+ M,0,181584,182542,350,228,350,236
+Sprite,Foreground,Centre,"Lyrics\77_s2.png",320,240
+ M,0,182543,182629,350,236,-130,236
+ F,0,182543,182629,1,0
+Sprite,Foreground,Centre,"Lyrics\78_s2.png",320,240
+ M,0,182891,182978,793,115,302,115
+Sprite,Foreground,Centre,"Lyrics\78.png",320,240
+ M,0,182979,183937,302,115,286,115
+Sprite,Foreground,Centre,"Lyrics\78_s.png",320,240
+ M,0,183938,184025,286,120,286,496
+ F,0,183938,184025,1,0
+Sprite,Foreground,Centre,"Lyrics\79_s2.png",320,240
+ M,0,184286,184374,-40,150,392,150
+Sprite,Foreground,Centre,"Lyrics\79.png",320,240
+ M,0,184375,185507,392,150,412,150
+Sprite,Foreground,Centre,"Lyrics\79_s.png",320,240
+ M,0,185508,185594,412,150,412,-25
+ F,0,185508,185594,1,0
+Sprite,Foreground,Centre,"Lyrics\80_s.png",320,240
+ M,0,185682,185769,190,478,190,257
+Sprite,Foreground,Centre,"Lyrics\80.png",320,240
+ M,0,185770,186379,190,257,190,243
+Sprite,Foreground,Centre,"Lyrics\80_s2.png",320,240
+ M,0,186380,186467,190,243,755,243
+ F,0,186380,186467,1,0
+Sprite,Foreground,Centre,"Lyrics\81_s2.png",320,240
+ M,0,186728,186815,920,390,273,390
+Sprite,Foreground,Centre,"Lyrics\81.png",320,240
+ M,0,186816,187600,273,390,256,390
+Sprite,Foreground,Centre,"Lyrics\81_s.png",320,240
+ M,0,187601,187687,256,390,256,550
+ F,0,187601,187687,1,0
+Sprite,Foreground,Centre,"Lyrics\82_s.png",320,240
+ M,0,187775,187862,250,28,250,188
+Sprite,Foreground,Centre,"Lyrics\82.png",320,240
+ M,0,187863,188996,250,188,250,209
+Sprite,Foreground,Centre,"Lyrics\82_s2.png",320,240
+ M,0,188997,189083,250,209,-151,209
+ F,0,188997,189083,1,0
+Sprite,Foreground,Centre,"Lyrics\47_s.png",320,240
+ M,0,189170,189257,315,-23,315,106
+Sprite,Foreground,Centre,"Lyrics\47.png",320,240
+ M,0,189258,190588,315,106,315,125
+Sprite,Foreground,Centre,"Lyrics\47_s2.png",320,240
+ M,0,190589,190653,315,106,-120,126
+ F,0,190589,190653,1,0
+Sprite,Foreground,Centre,"Lyrics\48_s.png",320,240
+ M,0,189519,189606,320,506,320,385
+Sprite,Foreground,Centre,"Lyrics\48.png",320,240
+ M,0,189607,190565,320,385,320,367
+Sprite,Foreground,Centre,"Lyrics\48_s2.png",320,240
+ M,0,190566,190653,320,367,866,367
+ F,0,190566,190653,1,0
+Sprite,Foreground,Centre,"Lyrics\49_s.png",320,240
+ M,0,190914,191001,-120,285,436,285
+Sprite,Foreground,Centre,"Lyrics\49.png",320,240
+ M,0,191002,191437,436,285,444,285
+Sprite,Foreground,Centre,"Lyrics\49_s2.png",320,240
+ M,0,191438,191525,444,285,445,560
+ F,0,191438,191525,1,0
+Sprite,Foreground,Centre,"Lyrics\50_s.png",320,240
+ M,0,191612,191699,910,195,215,195
+Sprite,Foreground,Centre,"Lyrics\50.png",320,240
+ M,0,191700,192658,215,195,191,195
+Sprite,Foreground,Centre,"Lyrics\50_s2.png",320,240
+ M,0,192659,192746,191,195,191,-30
+ F,0,192659,192746,1,0
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+624,348.837209302326,4,1,0,55,1,0
+34112,-100,4,1,0,20,0,0
+36903,-100,4,1,0,65,0,1
+58879,-100,4,1,0,50,0,0
+92717,-100,4,1,0,65,0,1
+115042,348.837209302326,7,1,0,55,1,0
+115042,-100,7,1,0,55,0,0
+117483,348.837209302326,4,1,0,55,1,0
+120273,348.837209302326,7,1,0,55,1,0
+122714,348.837209302326,4,1,0,55,1,0
+123237,-100,4,1,0,5,0,0
+124109,-100,4,1,0,50,0,0
+125504,-100,4,1,0,65,0,1
+144690,-100,4,1,0,65,0,0
+145039,-100,4,1,0,65,0,1
+145214,-100,4,1,0,65,0,0
+145562,-100,4,1,0,65,0,1
+145737,-100,4,1,0,65,0,0
+146086,-100,4,1,0,65,0,1
+146260,-100,4,1,0,65,0,0
+146609,-100,4,1,0,65,0,1
+146783,-100,4,1,0,65,0,0
+147830,-100,4,1,0,65,0,1
+168411,-100,4,1,0,65,0,0
+170155,-100,4,1,0,65,0,1
+192481,-100,4,1,0,55,0,0
+
+
+[Colours]
+Combo1 : 77,162,255
+Combo2 : 217,247,255
+Combo3 : 132,190,255
+
+[HitObjects]
+40,176,11786,2,0,B|40:56,3,120
+120,88,13182,2,0,B|120:208,3,120
+200,176,14577,6,0,B|200:56,3,120
+280,88,15972,2,0,B|280:208,3,120
+360,176,17368,6,0,B|360:56,3,120
+440,88,18763,2,0,B|440:208,3,120
+496,272,20158,5,0,0:0:0:0:
+496,272,20507,1,0,0:0:0:0:
+440,336,20856,1,0,0:0:0:0:
+440,336,21205,1,0,0:0:0:0:
+384,272,21554,1,0,0:0:0:0:
+384,272,21903,1,0,0:0:0:0:
+328,336,22251,1,0,0:0:0:0:
+328,336,22426,1,0,0:0:0:0:
+328,336,22600,1,0,0:0:0:0:
+272,272,22949,6,0,B|104:272,3,120,4|0|0|0,0:0|0:0|0:0|0:0,0:0:0:0:
+80,240,24344,2,0,B|28:188|81:135,1,120
+152,96,25042,1,0,0:0:0:0:
+152,96,25217,1,0,0:0:0:0:
+152,96,25391,1,0,0:0:0:0:
+224,48,25740,6,0,B|368:48,3,120
+408,96,27135,2,0,B|496:96|496:200,1,120
+432,224,27833,1,0,0:0:0:0:
+432,224,28007,1,0,0:0:0:0:
+432,224,28182,1,0,0:0:0:0:
+374,288,28530,6,0,B|320:288|320:336|266:332,3,120
+208,272,29926,2,0,B|80:272,1,120
+32,208,30624,1,0,0:0:0:0:
+32,208,30798,1,0,0:0:0:0:
+32,208,30972,1,0,0:0:0:0:
+96,152,31321,6,0,B|96:24,3,120
+176,56,32717,2,0,B|176:200,1,120
+256,192,33414,1,0,0:0:0:0:
+256,192,33589,1,0,0:0:0:0:
+256,192,33763,1,0,0:0:0:0:
+256,192,34112,12,0,36205,0:0:0:0:
+96,320,36903,5,4,0:0:0:0:
+48,256,37251,1,0,0:0:0:0:
+96,192,37600,1,0,0:0:0:0:
+176,48,38298,2,0,B|328:48,3,120
+352,104,39693,5,0,0:0:0:0:
+408,48,40042,1,0,0:0:0:0:
+464,104,40391,1,0,0:0:0:0:
+463,268,41089,2,0,B|464:344|384:344,1,120
+312,344,41786,2,0,B|236:345|236:265,1,120
+312,240,42484,5,0,0:0:0:0:
+352,168,42833,1,0,0:0:0:0:
+392,96,43182,1,0,0:0:0:0:
+256,40,43879,2,0,B|136:40,3,120
+72,88,45275,6,0,B|-6:197|68:311,1,240
+224,280,46670,2,0,B|309:279|309:351|386:344,2,180
+168,224,48065,6,0,B|168:88,3,120,4|0|0|0,0:0|0:0|0:0|0:0,0:0:0:0:
+248,80,49461,2,0,B|248:200,3,120
+312,248,50856,1,0,0:0:0:0:
+312,248,51205,1,0,0:0:0:0:
+312,328,51554,1,0,0:0:0:0:
+312,328,51903,1,0,0:0:0:0:
+384,288,52251,5,0,0:0:0:0:
+456,248,52600,1,0,0:0:0:0:
+384,200,52949,1,0,0:0:0:0:
+456,160,53298,1,0,0:0:0:0:
+384,112,53647,6,0,B|361:56|281:24|201:64|194:114,1,240
+117,119,54693,2,0,B|117:247,3,120
+117,239,56089,1,0,0:0:0:0:
+117,239,56437,1,0,0:0:0:0:
+256,312,57833,5,0,0:0:0:0:
+256,232,58182,1,0,0:0:0:0:
+256,152,58530,1,0,0:0:0:0:
+256,72,58879,1,0,0:0:0:0:
+400,72,70391,5,0,0:0:0:0:
+448,136,70740,1,0,0:0:0:0:
+400,200,71089,1,0,0:0:0:0:
+256,240,71786,2,0,B|256:320|168:320,1,120
+120,272,72484,1,0,0:0:0:0:
+104,272,72658,1,0,0:0:0:0:
+88,272,72833,1,0,0:0:0:0:
+40,200,73182,6,0,B|40:56,2,120
+208,328,74577,2,0,B|260:381|312:328,1,120
+384,296,75275,1,0,0:0:0:0:
+400,296,75449,1,0,0:0:0:0:
+416,296,75623,1,0,0:0:0:0:
+472,232,75972,6,0,B|472:80,1,120
+472,112,76670,1,0,0:0:0:0:
+320,48,77368,2,0,B|240:48|240:152,1,120
+160,120,78065,1,0,0:0:0:0:
+160,136,78240,1,0,0:0:0:0:
+160,152,78414,1,0,0:0:0:0:
+80,168,78763,6,0,B|80:304,3,120
+144,344,80158,1,0,0:0:0:0:
+144,344,80507,1,0,0:0:0:0:
+208,288,80856,1,0,0:0:0:0:
+224,288,81030,1,0,0:0:0:0:
+240,288,81205,1,0,0:0:0:0:
+304,344,81554,6,0,B|392:344|392:224,2,120
+256,192,82949,2,0,B|256:56,1,120
+336,64,83647,1,0,0:0:0:0:
+352,56,83821,1,0,0:0:0:0:
+368,48,83996,1,0,0:0:0:0:
+448,48,84344,5,0,0:0:0:0:
+496,112,84693,1,0,0:0:0:0:
+448,176,85042,1,0,0:0:0:0:
+312,272,85740,2,0,B|232:272|232:368,1,120
+152,328,86437,1,0,0:0:0:0:
+144,312,86612,1,0,0:0:0:0:
+136,296,86786,1,0,0:0:0:0:
+56,256,87135,6,0,B|56:112,1,120
+56,136,87833,1,0,0:0:0:0:
+120,80,88182,1,0,0:0:0:0:
+120,80,88530,2,0,B|256:80,3,120
+304,32,89926,5,0,0:0:0:0:
+304,32,90275,1,0,0:0:0:0:
+368,80,90623,1,0,0:0:0:0:
+368,80,90972,1,0,0:0:0:0:
+432,128,91321,6,0,B|496:128,2,60
+392,168,91844,2,0,B|320:168,2,60
+432,208,92368,1,0,0:0:0:0:
+432,240,92542,1,0,0:0:0:0:
+400,264,92717,2,0,B|400:344|296:344,3,120,4|0|0|0,0:0|0:0|0:0|0:0,0:0:0:0:
+216,344,94112,2,0,B|216:200,1,120
+160,168,94810,1,0,0:0:0:0:
+160,152,94984,1,0,0:0:0:0:
+160,136,95158,1,0,0:0:0:0:
+96,80,95507,6,0,B|16:80|16:176,3,120
+56,232,96903,2,0,B|56:296,2,60
+136,200,97600,2,0,B|136:104,2,60
+176,272,98298,6,0,B|176:360|280:360,3,120
+320,328,99693,2,0,B|456:328,1,120
+488,264,100391,1,0,0:0:0:0:
+488,248,100565,1,0,0:0:0:0:
+488,232,100740,1,0,0:0:0:0:
+424,176,101089,6,0,B|424:32|256:32,1,240
+144,160,102484,2,0,B|65:160|129:40|37:40,2,180
+104,232,103879,6,0,B|104:368,1,120,4|0,0:0|0:0,0:0:0:0:
+176,368,104577,2,0,B|176:224,1,120
+248,232,105275,6,0,B|248:368,1,120
+320,368,105972,2,0,B|320:224,1,120
+392,232,106670,6,0,B|392:368,1,120
+464,368,107368,2,0,B|464:224,1,120
+504,184,108065,1,0,0:0:0:0:
+504,184,108414,1,0,0:0:0:0:
+464,120,108763,1,0,0:0:0:0:
+464,120,108937,1,0,0:0:0:0:
+464,120,109112,1,0,0:0:0:0:
+424,56,109461,6,0,B|280:56,3,120
+240,104,110856,2,0,B|96:104,2,120
+256,184,111903,1,0,0:0:0:0:
+256,184,112251,1,0,0:0:0:0:
+256,80,113647,5,0,0:0:0:0:
+256,160,113996,1,0,0:0:0:0:
+256,240,114344,1,0,0:0:0:0:
+256,256,114519,1,0,0:0:0:0:
+256,272,114693,1,0,0:0:0:0:
+256,288,114868,1,0,0:0:0:0:
+256,192,115042,12,0,120099,0:0:0:0:
+256,192,120273,12,0,123237,0:0:0:0:
+64,104,124109,6,0,B|64:32,2,60
+104,136,124632,2,0,B|104:208,2,60
+144,104,125155,1,0,0:0:0:0:
+160,96,125330,1,0,0:0:0:0:
+176,88,125504,6,0,B|304:88,1,120,4|0,0:0|0:0,0:0:0:0:
+368,48,126202,1,0,0:0:0:0:
+384,56,126376,1,0,0:0:0:0:
+400,64,126551,1,0,0:0:0:0:
+456,128,126900,2,0,B|456:216|360:216,1,120
+360,248,127423,2,0,B|224:248,1,120
+240,248,127946,1,0,0:0:0:0:
+192,320,128295,6,0,B|112:320|112:208,1,120
+56,192,128993,1,0,0:0:0:0:
+56,176,129167,1,0,0:0:0:0:
+56,160,129341,1,0,0:0:0:0:
+97,87,129690,2,0,B|160:56|211:86,1,120
+240,112,130213,2,0,B|302:143|354:113,1,120
+376,88,130737,1,0,0:0:0:0:
+448,136,131086,6,0,B|448:264,1,120
+392,312,131783,1,0,0:0:0:0:
+384,328,131958,1,0,0:0:0:0:
+376,344,132132,1,0,0:0:0:0:
+296,360,132481,2,0,B|136:360,1,120
+160,336,133004,2,0,B|40:336,1,120
+40,336,133527,1,0,0:0:0:0:
+0,264,133876,6,0,B|0:184|96:184,1,120,0|0,0:0|0:0,0:0:0:0:
+152,184,134574,1,0,0:0:0:0:
+168,184,134748,1,0,0:0:0:0:
+184,184,134923,1,0,0:0:0:0:
+264,184,135272,2,0,B|408:184,1,120
+408,160,135795,2,0,B|408:88|312:88,1,120
+304,88,136318,1,0,0:0:0:0:
+232,48,136667,6,0,B|179:47|176:96|125:95,1,120
+64,144,137365,1,0,0:0:0:0:
+56,160,137539,1,0,0:0:0:0:
+48,176,137714,1,0,0:0:0:0:
+104,240,138062,2,0,B|104:360,1,120
+136,344,138586,2,0,B|136:208,1,120
+136,224,139109,1,0,0:0:0:0:
+208,192,139458,6,0,B|344:192,1,120,0|0,0:0|0:0,0:0:0:0:
+408,192,140155,1,0,0:0:0:0:
+424,192,140330,1,0,0:0:0:0:
+440,192,140504,1,0,0:0:0:0:
+488,128,140853,2,0,B|488:56|408:56,1,120
+384,56,141376,2,0,B|307:55|307:127,1,120
+307,127,141900,1,0,0:0:0:0:
+256,192,142248,5,0,0:0:0:0:
+192,136,142597,1,0,0:0:0:0:
+128,192,142946,1,0,0:0:0:0:
+192,248,143295,1,0,0:0:0:0:
+256,192,143644,5,0,0:0:0:0:
+376,192,143993,1,0,0:0:0:0:
+376,72,144341,1,0,0:0:0:0:
+256,72,144690,1,0,0:0:0:0:
+160,80,145039,5,0,0:0:0:0:
+136,80,145214,1,0,0:0:0:0:
+144,160,145562,5,0,0:0:0:0:
+120,160,145737,1,0,0:0:0:0:
+112,240,146086,5,0,0:0:0:0:
+136,240,146260,1,0,0:0:0:0:
+152,320,146609,5,0,0:0:0:0:
+176,320,146783,1,0,0:0:0:0:
+256,352,147132,5,0,0:0:0:0:
+280,336,147307,1,0,0:0:0:0:
+304,352,147481,1,0,0:0:0:0:
+328,336,147655,1,0,0:0:0:0:
+360,352,147830,6,0,B|448:352|448:240,3,120,4|0|0|0,0:0|0:0|0:0|0:0,0:0:0:0:
+480,200,149225,2,0,B|480:64,1,120
+400,40,149923,1,0,0:0:0:0:
+384,48,150097,1,0,0:0:0:0:
+368,56,150272,1,0,0:0:0:0:
+296,104,150620,6,0,B|160:104,3,120
+112,152,152016,2,0,B|48:152,2,60
+176,208,152714,2,0,B|248:208,2,60
+112,264,153411,6,0,B|112:352|216:352,3,120
+240,296,154807,2,0,B|392:296,1,120
+416,240,155504,1,0,0:0:0:0:
+432,240,155679,1,0,0:0:0:0:
+448,240,155853,1,0,0:0:0:0:
+480,168,156202,6,0,B|480:80|368:80,1,120
+336,112,156900,1,0,0:0:0:0:
+256,112,157248,1,0,0:0:0:0:
+176,112,157597,2,0,B|56:112|56:256,2,180
+208,184,158993,6,0,B|208:304,1,120,4|0,0:0|0:0,0:0:0:0:
+288,336,159690,2,0,B|288:200,1,120
+368,184,160388,6,0,B|368:304,1,120
+448,336,161086,2,0,B|448:200,1,120
+496,144,161783,1,0,0:0:0:0:
+496,144,162132,1,0,0:0:0:0:
+432,96,162481,1,0,0:0:0:0:
+432,96,162830,1,0,0:0:0:0:
+368,144,163179,6,0,B|315:144|323:80|273:80,1,120
+192,80,163876,1,0,0:0:0:0:
+176,80,164051,1,0,0:0:0:0:
+160,80,164225,1,0,0:0:0:0:
+88,120,164574,6,0,B|88:328,3,180
+256,352,166667,1,0,0:0:0:0:
+320,296,167016,1,0,0:0:0:0:
+384,352,167365,2,0,P|416:296|368:256,1,120
+320,296,168062,2,0,P|248:320|232:264,1,120
+256,208,168760,5,0,0:0:0:0:
+256,128,169109,1,0,0:0:0:0:
+256,208,169458,1,0,0:0:0:0:
+256,128,169807,1,0,0:0:0:0:
+312,72,170155,6,0,B|312:8,2,60,4|0|0,0:0|0:0|0:0,0:0:0:0:
+368,128,170853,2,0,B|368:216,2,60
+424,72,171551,2,0,B|424:8,2,60
+480,128,172248,2,0,B|480:216,2,60
+256,192,172946,12,0,175039,0:0:0:0:
+200,312,175737,6,0,B|200:376,2,60
+144,256,176434,2,0,B|144:168,2,60
+88,312,177132,2,0,B|88:375,2,60
+32,256,177830,2,0,B|-56:256,2,60
+32,176,178527,2,0,B|133:176|133:48|224:49,1,240
+304,32,179574,1,0,0:0:0:0:
+304,32,179923,2,0,B|304:256,2,180
+384,32,181318,6,0,B|472:32|472:128,3,120
+432,168,182714,2,0,B|432:320,3,120
+376,344,184109,5,0,0:0:0:0:
+376,344,184458,1,0,0:0:0:0:
+320,288,184807,1,0,0:0:0:0:
+320,288,185155,1,0,0:0:0:0:
+264,344,185504,1,0,0:0:0:0:
+264,344,185853,1,0,0:0:0:0:
+208,288,186202,1,0,0:0:0:0:
+208,288,186376,1,0,0:0:0:0:
+208,288,186551,1,0,0:0:0:0:
+152,344,186900,6,0,B|40:344|40:192,3,180
+41,227,188644,5,0,0:0:0:0:
+40,144,188993,1,0,0:0:0:0:
+104,96,189341,1,0,0:0:0:0:
+168,48,189690,2,0,B|224:0|277:47,3,120
+256,120,191086,5,0,0:0:0:0:
+256,200,191434,1,0,0:0:0:0:
+256,280,191783,1,0,0:0:0:0:
+256,360,192132,1,0,0:0:0:0:
+256,360,192481,5,4,0:0:0:0:
+496,192,193527,1,0,0:0:0:0:
+256,24,194574,5,0,0:0:0:0:
+256,24,194923,1,0,0:0:0:0:
+256,24,195272,5,0,0:0:0:0:
+16,192,196318,1,0,0:0:0:0:
+256,192,197365,5,0,0:0:0:0:
+256,192,197539,1,0,0:0:0:0:
+256,192,197714,1,0,0:0:0:0:
+256,192,197888,1,4,0:0:0:0:

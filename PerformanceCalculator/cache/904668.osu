@@ -1,0 +1,90 @@
+﻿osu file format v14
+
+[General]
+AudioFilename: Sakuma Mayu - Renai Syndrome.mp3
+AudioLeadIn: 0
+PreviewTime: 37826
+Countdown: 0
+SampleSet: None
+StackLeniency: 0.5
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 3162,8496,13829,19162,24496,27162,32496,37829,43162,48496,53829,59162,64496,69829,75162,80496,85829,91162,97829,103162,108496,113829,119162,124496,129829,135162,137829,139329,141829
+DistanceSpacing: 1.2
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 3.899999
+
+[Metadata]
+Title:Renai Syndrome
+TitleUnicode:恋愛シンドローム
+Artist:Sakuma Mayu
+ArtistUnicode:佐久間まゆ
+Creator:apaffy
+Version:Normal
+Source:BMS
+Tags:bof2013 bms konzertsaal mutual affection extrose lime hoshi teruko cherry blossom those
+BeatmapID:904668
+BeatmapSetID:166062
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:3
+OverallDifficulty:5
+ApproachRate:5.5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"renai syndrome.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+3160,333.333333333333,4,2,1,45,1,0
+3160,-133.333333333333,4,2,1,45,0,0
+13826,-100,4,2,1,60,0,0
+25826,-100,4,1,1,60,0,0
+27159,-100,4,1,1,60,0,0
+37826,-100,4,1,1,70,0,0
+47159,-100,4,2,1,60,0,0
+48493,-100,4,2,1,60,0,0
+59159,-100,4,1,1,60,0,0
+69826,-153.846153846154,4,2,1,45,0,0
+80326,-153.846153846154,4,2,1,45,0,0
+80493,-111.111111111111,4,1,1,60,0,0
+91159,-153.846153846154,4,2,1,60,0,0
+96493,-90.9090909090909,4,1,1,60,0,0
+97826,-90.9090909090909,4,1,1,75,0,1
+113826,-90.9090909090909,4,1,1,40,0,1
+114493,-90.9090909090909,4,1,1,45,0,1
+115159,-90.9090909090909,4,1,1,50,0,1
+115826,-90.9090909090909,4,1,1,55,0,1
+116493,-90.9090909090909,4,1,1,60,0,1
+117159,-90.9090909090909,4,1,1,65,0,1
+117826,-90.9090909090909,4,1,1,70,0,1
+118493,-90.9090909090909,4,1,1,60,0,1
+119159,-90.9090909090909,4,1,1,75,0,0
+129826,-90.9090909090909,4,1,1,75,0,1
+135159,-90.9090909090909,4,1,1,75,0,1
+136493,-76.9230769230769,4,1,1,75,0,1
+137826,-153.846153846154,4,2,1,85,0,0
+138326,-153.846153846154,4,2,1,70,0,0
+138826,-153.846153846154,4,2,1,55,0,0
+139326,-153.846153846154,4,2,1,40,0,0
+
+
+[Colours]
+Combo1 : 0,117,187
+Combo2 : 186,17,36
+
+[HitObjects]
+256,192,3159,5,0,0:0:0:0:

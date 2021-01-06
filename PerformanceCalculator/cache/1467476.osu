@@ -1,0 +1,90 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 16
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.4
+Mode: 2
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+Bookmarks: 11019,16521
+DistanceSpacing: 1.5
+BeatDivisor: 16
+GridSize: 8
+TimelineZoom: 2.4
+
+[Metadata]
+Title:pi
+TitleUnicode:π
+Artist:Jinjin
+ArtistUnicode:Jinjin
+Creator:Hareimu
+Version:Irrational
+Source:
+Tags:circumference math circles Krfawy
+BeatmapID:1467476
+BeatmapSetID:693550
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:5
+OverallDifficulty:7
+ApproachRate:7
+SliderMultiplier:1.8
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"pi background.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+16,916.982516200024,3,2,1,20,1,0
+29588,-100,3,2,1,15,0,0
+30505,-100,3,2,1,10,0,0
+31422,-100,3,2,2,5,0,0
+
+
+[Colours]
+Combo1 : 177,177,177
+Combo2 : 46,134,241
+Combo3 : 159,203,255
+
+[HitObjects]
+161,268,16,6,0,P|228:247|273:152,1,180,8|2,0:0|0:0,0:0:0:0:
+93,136,1849,1,8,0:0:0:0:
+480,78,2766,2,0,L|291:80,2,180,4|8|2,0:0|0:0|0:0,0:0:0:0:
+93,81,5517,6,0,P|37:147|81:231,1,180,4|8,0:0|0:0,0:0:0:0:
+477,200,7351,1,6,0:0:0:0:
+207,208,8268,2,0,P|137:167|117:76,1,180,4|8,0:0|0:0,0:0:0:0:
+477,200,10102,1,4,0:0:0:0:
+90,202,11019,6,0,P|43:129|103:65,1,180,10|4,0:0|0:0,0:0:0:0:
+365,71,12853,2,0,L|482:71,1,90,8|2,0:0|0:0,0:0:0:0:
+139,71,13770,1,4,0:0:0:0:
+481,314,14229,1,2,0:0:0:0:
+76,144,14687,1,8,0:0:0:0:
+436,144,15604,1,2,0:0:0:0:
+148,178,16521,6,0,P|67:209|33:290,2,180,4|2|8,0:0|0:0|0:0,0:0:0:0:
+419,81,19272,2,0,P|475:147|431:231,1,180,2|8,0:0|0:0,0:0:0:0:
+101,247,21106,2,0,L|30:178,1,90,8|2,0:0|0:0,0:0:0:0:
+396,184,22023,6,0,L|467:115,1,90,4|0,0:0|0:0,0:0:0:0:
+190,135,22940,2,0,L|372:135,1,180,2|2,0:0|0:0,0:0:0:0:
+55,142,24774,6,0,L|239:142,1,180,8|0,0:0|0:0,0:0:0:0:
+250,142,25767,1,0,0:0:0:0:
+265,142,25844,1,4,0:0:0:0:
+457,142,26837,6,0,L|207:142,1,247.5,8|0,0:0|0:0,0:0:0:0:
+255,143,28213,1,2,0:0:0:0:
+322,143,28385,1,0,0:0:0:0:
+288,143,28499,1,0,0:0:0:0:
+242,145,28614,1,2,0:0:0:0:
+270,23,28671,2,0,P|343:81|151:366,1,540,14|0,0:0|0:0,0:0:0:0:

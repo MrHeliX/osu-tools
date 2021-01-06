@@ -1,0 +1,365 @@
+osu file format v14
+
+[General]
+AudioFilename: syu.mp3
+AudioLeadIn: 0
+PreviewTime: 62907
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.7
+BeatDivisor: 2
+GridSize: 4
+TimelineZoom: 0.4999997
+
+[Metadata]
+Title:TSLove
+TitleUnicode:TSLove
+Artist:O2i3
+ArtistUnicode:O2i3
+Creator:Ilham
+Version:EZ
+Source:
+Tags:Syadow- Kirara Records
+BeatmapID:1180131
+BeatmapSetID:543830
+
+[Difficulty]
+HPDrainRate:6
+CircleSize:4
+OverallDifficulty:7
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"BG.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+637,324.324324324324,4,2,1,20,1,0
+21393,-100,4,2,1,70,0,1
+42150,-100,4,2,1,35,0,0
+62907,-100,4,2,1,70,0,1
+83664,-100,4,2,1,35,0,0
+
+
+[HitObjects]
+448,192,637,5,0,0:0:0:20:LR_Clap kick.wav
+64,192,637,1,0,0:0:0:0:
+192,192,961,1,0,0:0:0:20:LR_Clap kick.wav
+320,192,1609,1,0,0:0:0:20:LR_Clap kick.wav
+64,192,1934,1,0,0:0:0:20:soft-hitwhistle.wav
+448,192,2258,1,0,0:0:0:20:LR_Clap kick.wav
+192,192,2907,1,0,0:0:0:20:LR_Clap kick.wav
+448,192,3231,1,0,0:0:0:20:soft-hitwhistle.wav
+64,192,3555,1,0,0:0:0:20:LR_Clap kick.wav
+448,192,4204,1,0,0:0:0:20:LR_Clap kick.wav
+64,192,4528,1,0,0:0:0:20:soft-hitwhistle.wav
+320,192,4853,1,0,0:0:0:20:LR_Clap kick.wav
+64,192,5501,1,0,0:0:0:20:LR_Clap kick.wav
+448,192,5826,1,0,0:0:0:20:soft-hitwhistle.wav
+192,192,6150,1,0,0:0:0:20:LR_Clap kick.wav
+320,192,6799,1,0,0:0:0:20:LR_Clap kick.wav
+192,192,7123,1,0,0:0:0:20:soft-hitwhistle.wav
+448,192,7447,1,0,0:0:0:20:LR_Clap kick.wav
+192,192,8096,1,0,0:0:0:20:LR_Clap kick.wav
+320,192,8420,1,0,0:0:0:20:soft-hitwhistle.wav
+64,192,8745,1,0,0:0:0:20:LR_Clap kick.wav
+448,192,9393,1,0,0:0:0:20:LR_Clap kick.wav
+64,192,9718,1,0,0:0:0:20:soft-hitwhistle.wav
+320,192,10042,1,0,0:0:0:20:LR_Clap kick.wav
+192,192,10528,1,0,0:0:0:0:
+320,192,10853,1,0,0:0:0:0:
+448,192,11015,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,11015,1,0,0:0:0:70:cymbal clap.wav
+192,192,11339,1,0,0:0:0:30:LR_Clap kick.wav
+448,192,11664,1,0,0:0:0:30:soft-hitwhistle.wav
+64,192,11988,1,0,0:0:0:30:LR_Clap kick.wav
+320,192,12312,1,0,0:0:0:30:soft-hitwhistle.wav
+192,192,12636,1,0,0:0:0:30:LR_Clap kick.wav
+448,192,12961,1,0,0:0:0:30:soft-hitwhistle.wav
+64,192,13285,1,0,0:0:0:30:LR_Clap kick.wav
+192,192,13609,1,0,0:0:0:30:soft-hitwhistle.wav
+448,192,13934,1,0,0:0:0:30:LR_Clap kick.wav
+320,192,14258,1,0,0:0:0:30:soft-hitwhistle.wav
+64,192,14582,1,0,0:0:0:30:LR_Clap kick.wav
+192,192,14907,1,0,0:0:0:30:soft-hitwhistle.wav
+320,192,15231,1,0,0:0:0:35:SNARE2.wav
+64,192,15555,1,0,0:0:0:30:soft-hitwhistle.wav
+448,192,15880,1,0,0:0:0:35:SNARE2.wav
+192,192,16204,1,0,0:0:0:50:soft-hitwhistle.wav
+320,192,16204,1,0,0:0:0:70:cymbal clap.wav
+64,192,16528,1,0,0:0:0:50:soft-hitwhistle.wav
+448,192,16528,1,0,0:0:0:0:
+320,192,16853,1,0,0:0:0:50:soft-hitwhistle.wav
+448,192,16853,1,0,0:0:0:0:
+192,192,17177,1,0,0:0:0:50:soft-hitwhistle.wav
+64,192,17177,1,0,0:0:0:0:
+448,192,17501,1,0,0:0:0:50:soft-hitwhistle.wav
+192,192,17501,1,0,0:0:0:0:
+64,192,17826,1,0,0:0:0:50:soft-hitwhistle.wav
+320,192,17826,1,0,0:0:0:0:
+192,192,18150,1,0,0:0:0:50:soft-hitwhistle.wav
+64,192,18150,1,0,0:0:0:0:
+448,192,18474,1,0,0:0:0:50:soft-hitwhistle.wav
+320,192,18474,1,0,0:0:0:0:
+192,192,18799,128,0,19123:0:0:0:70:soft-hitwhistle.wav
+320,192,19123,128,0,19447:0:0:0:70:soft-hitwhistle.wav
+448,192,19447,128,0,19772:0:0:0:70:soft-hitwhistle.wav
+64,192,19772,128,0,20096:0:0:0:70:soft-hitwhistle.wav
+192,192,20096,128,0,21393:0:0:0:70:soft-hitwhistle.wav
+448,192,21393,1,0,0:0:0:100:LR4_KickTBCRs.wav
+320,192,21393,1,0,0:0:0:70:cymbal clap.wav
+64,192,21718,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,22042,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,22366,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,22691,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,23015,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,23339,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,23664,1,0,0:0:0:70:soft-hitfinish.wav
+448,192,23664,1,0,0:0:0:0:
+192,192,23988,1,0,0:0:0:100:LR4_KickTBCRs.wav
+320,192,24312,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,24636,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,24961,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,25285,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,25609,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,25934,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,26258,1,0,0:0:0:70:soft-hitfinish.wav
+320,192,26258,1,0,0:0:0:0:
+448,192,26582,1,0,0:0:0:100:LR4_KickTBCRs.wav
+64,192,26907,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,27231,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,27555,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,27880,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,28204,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,28528,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,28853,1,0,0:0:0:70:soft-hitfinish.wav
+448,192,28853,1,0,0:0:0:0:
+192,192,29177,1,0,0:0:0:100:LR4_KickTBCRs.wav
+320,192,29501,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,29826,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,30150,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,30474,1,0,0:0:0:70:soft-hitfinish.wav
+320,192,30799,1,0,0:0:0:70:soft-hitfinish.wav
+448,192,31123,128,0,31772:0:0:0:70:soft-hitfinish.wav
+64,192,31772,1,0,0:0:0:100:LR4_KickTBCRs.wav
+192,192,31772,1,0,0:0:0:70:cymbal clap.wav
+320,192,32096,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,32420,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,32745,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,33069,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,33393,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,33718,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,34042,1,0,0:0:0:70:soft-hitfinish.wav
+64,192,34042,1,0,0:0:0:0:
+320,192,34366,1,0,0:0:0:100:LR4_KickTBCRs.wav
+192,192,34691,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,35015,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,35339,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,35664,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,35988,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,36312,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,36636,1,0,0:0:0:70:soft-hitfinish.wav
+448,192,36636,1,0,0:0:0:0:
+64,192,36961,1,0,0:0:0:100:LR4_KickTBCRs.wav
+192,192,37285,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,37609,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,37934,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,38258,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,38582,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,38907,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,39231,1,0,0:0:0:70:soft-hitfinish.wav
+192,192,39231,1,0,0:0:0:0:
+320,192,39555,1,0,0:0:0:100:LR4_KickTBCRs.wav
+64,192,39880,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,40204,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,40528,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,40853,128,0,41177:0:0:0:70:soft-hitfinish.wav
+64,192,41177,128,0,41501:0:0:0:70:soft-hitfinish.wav
+448,192,41501,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,41826,1,0,0:0:0:100:LR4_KickTBCRs.wav
+320,192,42150,1,0,0:0:0:100:LR4_KickTBCRs.wav
+448,192,42150,1,0,0:0:0:0:
+64,192,44096,1,0,0:0:0:0:
+192,192,44258,1,0,0:0:0:100:hat light.wav
+320,192,44420,1,0,0:0:0:0:
+64,192,44582,1,0,0:0:0:100:hat light.wav
+448,192,44745,1,0,0:0:0:0:
+320,192,44907,1,0,0:0:0:100:hat light.wav
+192,192,45069,1,0,0:0:0:0:
+448,192,45231,1,0,0:0:0:100:hat light.wav
+64,192,45555,1,0,0:0:0:100:hat light.wav
+448,192,45880,1,0,0:0:0:100:hat light.wav
+320,192,46204,1,0,0:0:0:100:hat light.wav
+64,192,46853,1,0,0:0:0:100:hat light.wav
+192,192,47015,1,0,0:0:0:0:
+320,192,47177,1,0,0:0:0:100:hat light.wav
+64,192,48150,1,0,0:0:0:100:hat light.wav
+448,192,48474,1,0,0:0:0:100:hat light.wav
+320,192,48961,1,0,0:0:0:0:
+64,192,49123,1,0,0:0:0:100:hat light.wav
+448,192,49285,1,0,0:0:0:0:
+192,192,49447,1,0,0:0:0:100:hat light.wav
+320,192,49609,1,0,0:0:0:0:
+192,192,49772,1,0,0:0:0:100:hat light.wav
+64,192,49934,1,0,0:0:0:0:
+320,192,50258,1,0,0:0:0:0:
+448,192,50420,1,0,0:0:0:100:hat light.wav
+192,192,50745,1,0,0:0:0:100:hat light.wav
+64,192,50907,128,0,52528:0:0:0:0:
+448,192,52528,1,0,0:0:0:30:LR_Clap DS.wav
+192,192,52528,1,0,0:0:0:0:
+320,192,52853,1,0,0:0:0:30:LR_Clap DS.wav
+64,192,53177,1,0,0:0:0:30:LR_Clap DS.wav
+192,192,53501,1,0,0:0:0:30:LR_Clap DS.wav
+320,192,53826,1,0,0:0:0:30:LR_Clap DS.wav
+448,192,54150,1,0,0:0:0:30:LR_Clap DS.wav
+192,192,54474,1,0,0:0:0:30:LR_Clap DS.wav
+64,192,54799,1,0,0:0:0:30:LR_Clap DS.wav
+448,192,55123,1,0,0:0:0:30:LR_Clap DS.wav
+320,192,55447,1,0,0:0:0:30:LR_Clap DS.wav
+192,192,55772,1,0,0:0:0:30:LR_Clap DS.wav
+64,192,56096,1,0,0:0:0:30:soft-hitwhistle.wav
+320,192,56420,1,0,0:0:0:30:soft-hitwhistle.wav
+448,192,56745,1,0,0:0:0:30:soft-hitwhistle.wav
+192,192,57069,1,0,0:0:0:30:soft-hitwhistle.wav
+64,192,57393,1,0,0:0:0:30:soft-hitwhistle.wav
+448,192,57718,1,0,0:0:0:50:soft-hitwhistle.wav
+320,192,57718,1,0,0:0:0:70:cymbal clap.wav
+192,192,58042,1,0,0:0:0:50:soft-hitwhistle.wav
+64,192,58042,1,0,0:0:0:0:
+64,192,58366,1,0,0:0:0:50:soft-hitwhistle.wav
+320,192,58366,1,0,0:0:0:0:
+448,192,58691,1,0,0:0:0:50:soft-hitwhistle.wav
+192,192,58691,1,0,0:0:0:0:
+448,192,59015,1,0,0:0:0:50:soft-hitwhistle.wav
+64,192,59015,1,0,0:0:0:0:
+192,192,59339,1,0,0:0:0:50:soft-hitwhistle.wav
+320,192,59339,1,0,0:0:0:0:
+320,192,59664,1,0,0:0:0:50:soft-hitwhistle.wav
+64,192,59664,1,0,0:0:0:0:
+448,192,59988,1,0,0:0:0:50:soft-hitwhistle.wav
+192,192,59988,1,0,0:0:0:0:
+64,192,60312,128,0,60636:0:0:0:70:soft-hitwhistle.wav
+320,192,60636,128,0,60961:0:0:0:70:soft-hitwhistle.wav
+192,192,60961,128,0,61285:0:0:0:70:soft-hitwhistle.wav
+448,192,61285,128,0,61609:0:0:0:70:soft-hitwhistle.wav
+64,192,61609,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,62907,1,0,0:0:0:100:LR4_KickTBCRs.wav
+192,192,62907,1,0,0:0:0:70:cymbal clap.wav
+320,192,63231,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,63555,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,63880,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,64204,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,64528,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,64853,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,65177,1,0,0:0:0:70:soft-hitfinish.wav
+448,192,65177,1,0,0:0:0:0:
+192,192,65501,1,0,0:0:0:100:LR4_KickTBCRs.wav
+320,192,65826,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,66150,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,66474,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,66799,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,67123,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,67447,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,67772,1,0,0:0:0:70:soft-hitfinish.wav
+320,192,67772,1,0,0:0:0:0:
+448,192,68096,1,0,0:0:0:100:LR4_KickTBCRs.wav
+64,192,68420,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,68745,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,69069,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,69393,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,69718,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,70042,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,70366,1,0,0:0:0:70:soft-hitfinish.wav
+448,192,70366,1,0,0:0:0:0:
+192,192,70691,1,0,0:0:0:100:LR4_KickTBCRs.wav
+320,192,71015,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,71339,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,71664,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,71988,1,0,0:0:0:70:soft-hitfinish.wav
+64,192,72312,1,0,0:0:0:70:soft-hitfinish.wav
+448,192,72636,128,0,73285:0:0:0:70:soft-hitfinish.wav
+320,192,73285,1,0,0:0:0:100:LR4_KickTBCRs.wav
+64,192,73285,1,0,0:0:0:70:cymbal clap.wav
+192,192,73609,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,73934,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,74258,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,74582,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,74907,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,75231,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,75555,1,0,0:0:0:70:soft-hitfinish.wav
+64,192,75555,1,0,0:0:0:0:
+320,192,75880,1,0,0:0:0:100:LR4_KickTBCRs.wav
+192,192,76204,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,76528,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,76853,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,77177,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,77501,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,77826,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,78150,1,0,0:0:0:70:soft-hitfinish.wav
+192,192,78150,1,0,0:0:0:0:
+64,192,78474,1,0,0:0:0:100:LR4_KickTBCRs.wav
+448,192,78799,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,79123,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,79447,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,79772,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,80096,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,80420,128,0,80745:0:0:0:70:soft-hitwhistle.wav
+192,192,80745,128,0,81069:0:0:0:70:soft-hitfinish.wav
+64,192,80745,1,0,0:0:0:0:
+320,192,81069,1,0,0:0:0:100:LR4_KickTBCRs.wav
+448,192,81393,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,81718,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,82042,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,82366,128,0,82691:0:0:0:70:soft-hitfinish.wav
+64,192,82691,128,0,83015:0:0:0:70:soft-hitfinish.wav
+320,192,83015,1,0,0:0:0:0:
+448,192,83664,1,0,0:0:0:100:LR4_KickTBCRs.wav
+192,192,83664,1,0,0:0:0:70:cymbal clap.wav
+64,192,83988,1,0,0:0:0:70:SNARE2.wav
+320,192,84312,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,84636,1,0,0:0:0:70:SNARE2.wav
+448,192,84961,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,85285,1,0,0:0:0:70:SNARE2.wav
+64,192,85609,1,0,0:0:0:70:soft-hitwhistle.wav
+448,192,85934,128,0,86258:0:0:0:70:LR4_KickTBCRs.wav
+192,192,86258,1,0,0:0:0:100:LR4_KickTBCRs.wav
+64,192,86582,1,0,0:0:0:70:SNARE2.wav
+448,192,86907,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,87231,1,0,0:0:0:70:SNARE2.wav
+64,192,87555,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,87880,1,0,0:0:0:70:SNARE2.wav
+320,192,88204,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,88528,128,0,88853:0:0:0:70:LR4_KickTBCRs.wav
+448,192,88853,1,0,0:0:0:100:LR4_KickTBCRs.wav
+192,192,89177,1,0,0:0:0:70:SNARE2.wav
+320,192,89501,1,0,0:0:0:70:soft-hitwhistle.wav
+64,192,89826,1,0,0:0:0:70:SNARE2.wav
+448,192,90150,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,90474,1,0,0:0:0:70:SNARE2.wav
+64,192,90799,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,91123,128,0,91447:0:0:0:70:LR4_KickTBCRs.wav
+192,192,91447,1,0,0:0:0:100:LR4_KickTBCRs.wav
+448,192,91772,1,0,0:0:0:70:SNARE2.wav
+64,192,92096,1,0,0:0:0:70:soft-hitwhistle.wav
+320,192,92420,1,0,0:0:0:70:SNARE2.wav
+64,192,92745,1,0,0:0:0:70:soft-hitwhistle.wav
+192,192,93069,1,0,0:0:0:70:LR4_KickTBCRs.wav
+448,192,93393,128,0,93718:0:0:0:35:soft-hitwhistle.wav
+64,192,93718,128,0,95339:0:0:0:70:LR4_KickTBCRs.wav
+320,192,93718,1,0,0:0:0:0:

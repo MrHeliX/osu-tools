@@ -1,0 +1,96 @@
+osu file format v13
+
+[General]
+AudioFilename: Nippontradamus.mp3
+AudioLeadIn: 0
+PreviewTime: 3450
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.3
+BeatDivisor: 1
+GridSize: 32
+TimelineZoom: 2.3
+
+[Metadata]
+Title:Nippontradamus
+TitleUnicode:Nippontradamus
+Artist:The Living Tombstone
+ArtistUnicode:The Living Tombstone
+Creator:Everest Hope
+Version:Taiko Beginner
+Source:
+Tags:MomoKuro-tei Ichimon Nippon Egao Hyakkei
+BeatmapID:460058
+BeatmapSetID:183949
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:5
+OverallDifficulty:3
+ApproachRate:6
+SliderMultiplier:0.6
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg2betch.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,0,0,0
+
+[TimingPoints]
+0,300,4,1,0,100,1,0
+0,-100,4,1,0,100,0,0
+
+
+[Colours]
+Combo1 : 17,216,17
+Combo2 : 255,0,128
+
+[HitObjects]
+256,192,4800,5,4,0:0:0:0:
+256,192,5700,1,8,0:0:0:0:
+256,192,6600,1,0,0:0:0:0:
+256,192,7200,1,4,0:0:0:0:
+256,192,8100,1,8,0:0:0:0:
+256,192,9000,1,0,0:0:0:0:
+256,192,9600,1,4,0:0:0:0:
+256,192,10500,1,8,0:0:0:0:
+256,192,11100,1,0,0:0:0:0:
+256,192,11700,2,0,L|512:192,1,240
+256,192,13200,12,0,14100,0:0:0:0:
+256,192,15000,5,4,0:0:0:0:
+256,192,15900,1,8,0:0:0:0:
+256,192,16800,1,4,0:0:0:0:
+256,192,17700,1,8,0:0:0:0:
+256,192,18300,1,4,0:0:0:0:
+256,192,19200,1,4,0:0:0:0:
+256,192,20100,1,8,0:0:0:0:
+256,192,20700,1,4,0:0:0:0:
+256,192,21600,12,0,24000,0:0:0:0:
+256,192,24900,5,8,0:0:0:0:
+256,192,25800,1,0,0:0:0:0:
+256,192,26400,1,4,0:0:0:0:
+256,192,27300,1,8,0:0:0:0:
+256,192,28200,1,0,0:0:0:0:
+256,192,28800,1,4,0:0:0:0:
+256,192,29700,1,8,0:0:0:0:
+256,192,30300,1,4,0:0:0:0:
+256,192,30900,1,4,0:0:0:0:
+256,192,31200,12,0,33300,0:0:0:0:
+256,192,33600,6,0,L|416:192,1,120
+256,192,34800,2,0,L|416:192,1,120
+256,192,36000,2,0,L|416:192,1,120
+256,192,37200,2,0,L|480:192,1,180
+256,192,38400,12,0,42000,0:0:0:0:

@@ -1,0 +1,70 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 0
+Countdown: 0
+SampleSet: None
+StackLeniency: 0.2
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.1
+BeatDivisor: 4
+GridSize: 16
+TimelineZoom: 2.12
+
+[Metadata]
+Title:Deal with the devil
+TitleUnicode:Deal with the devil
+Artist:Tia
+ArtistUnicode:Tia
+Creator:UndeadCapulet
+Version:timing
+Source:賭ケグルイ
+Tags:
+BeatmapID:1403539
+BeatmapSetID:659328
+
+[Difficulty]
+HPDrainRate:5
+CircleSize:4
+OverallDifficulty:8.5
+ApproachRate:9.7
+SliderMultiplier:2.55999990463256
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"compulsive gambling.png",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+2025,425.531914893617,4,2,1,50,1,0
+7131,413.793103448276,4,2,1,50,1,0
+8786,422.535211267606,4,2,1,50,1,0
+10476,422.535211267606,4,2,1,50,1,0
+29067,431.654676258993,4,2,1,50,1,0
+30361,422.535211267606,4,2,1,50,1,0
+30783,422.535211267606,4,2,1,50,1,0
+88247,384.615384615385,4,2,1,50,1,0
+88439,454.545454545455,4,2,1,50,1,0
+89007,410.958904109589,4,2,1,50,1,0
+89828,428.571428571429,4,2,1,50,1,0
+91113,521.739130434783,4,2,1,50,1,0
+91634,422.535211267606,4,2,1,50,1,0
+
+
+[Colours]
+Combo1 : 214,171,171
+Combo2 : 208,100,103
+
+[HitObjects]

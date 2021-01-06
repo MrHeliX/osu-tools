@@ -1,0 +1,205 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 2000
+PreviewTime: 9590
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.9
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 9815,19415,29015,38615,48215,57515
+DistanceSpacing: 1.7
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1.4
+
+[Metadata]
+Title:sea shells
+TitleUnicode:sea shells
+Artist:Kola Kid
+ArtistUnicode:Kola Kid
+Creator:BowLL
+Version:-flashlight-'s easy
+Source:osu!
+Tags:featured artist osu! 8-bit instrumental electric retro breakcore 8 bit -Flashlight- Yenmaster nloader Freimox
+BeatmapID:2373060
+BeatmapSetID:1135779
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:2
+OverallDifficulty:2
+ApproachRate:3.5
+SliderMultiplier:0.400000005960464
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"fullbackground.png",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",217,407
+ F,2,19415,21115,1,0
+ S,2,19415,21115,0.75,1.5
+ P,0,19415,21115,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",114,219
+ F,2,20915,22015,1,0
+ S,2,20915,22015,0.75,1.5
+ P,0,20915,22015,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",247,169
+ F,2,21815,22315,1,0
+ S,2,21815,22315,0.75,1.5
+ P,0,21815,22315,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",382,134
+ F,2,22415,23215,1,0
+ S,2,22415,23215,0.75,1.5
+ P,0,22415,23215,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",546,178
+ F,2,23315,24415,1,0
+ S,2,23315,24415,0.75,1.5
+ P,0,23315,24415,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",494,281
+ F,2,24215,25015,1,0
+ S,2,24215,25015,0.75,1.5
+ P,0,24215,25015,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",396,314
+ F,2,24815,25915,1,0
+ S,2,24815,25915,0.75,1.5
+ P,0,24815,25915,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",263,364
+ F,2,25715,26215,1,0
+ S,2,25715,26215,0.75,1.5
+ P,0,25715,26215,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",148,291
+ F,2,26315,26815,1,0
+ S,2,26315,26815,0.75,1.5
+ P,0,26315,26815,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",190,237
+ F,2,26615,27715,1,0
+ S,2,26615,27715,0.75,1.5
+ P,0,26615,27715,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",155,96
+ F,2,27515,29215,1,0
+ S,2,27515,29215,0.75,1.5
+ P,0,27515,29215,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",223,92
+ F,2,29015,30715,1,0
+ S,2,29015,30715,0.75,1.5
+ P,0,29015,30715,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",344,260
+ F,2,30515,31615,1,0
+ S,2,30515,31615,0.75,1.5
+ P,0,30515,31615,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",469,317
+ F,2,31415,31915,1,0
+ S,2,31415,31915,0.75,1.5
+ P,0,31415,31915,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",354,389
+ F,2,32015,32815,1,0
+ S,2,32015,32815,0.75,1.5
+ P,0,32015,32815,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",180,417
+ F,2,32915,34015,1,0
+ S,2,32915,34015,0.75,1.5
+ P,0,32915,34015,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",203,272
+ F,2,33815,34615,1,0
+ S,2,33815,34615,0.75,1.5
+ P,0,33815,34615,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",301,305
+ F,2,34415,35515,1,0
+ S,2,34415,35515,0.75,1.5
+ P,0,34415,35515,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",434,355
+ F,2,35315,35815,1,0
+ S,2,35315,35815,0.75,1.5
+ P,0,35315,35815,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",542,273
+ F,2,35915,36415,1,0
+ S,2,35915,36415,0.75,1.5
+ P,0,35915,36415,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",488,231
+ F,2,36215,37315,1,0
+ S,2,36215,37315,0.75,1.5
+ P,0,36215,37315,A
+Sprite,Foreground,Centre,"sb\slidingtext\introcredit\hitcircle.png",495,83
+ F,2,37115,38815,1,0
+ S,2,37115,38815,0.75,1.5
+ P,0,37115,38815,A
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+215,300,4,2,0,50,1,0
+9815,-100,4,2,2,50,0,0
+10415,-100,4,2,0,50,0,0
+19115,-100,4,2,2,50,0,0
+19415,-100,4,2,2,50,0,1
+20615,-100,4,2,0,50,0,1
+29015,-100,4,2,2,50,0,1
+30515,-100,4,2,0,50,0,1
+31415,-100,4,2,2,50,0,1
+33815,-100,4,2,0,50,0,1
+36215,-100,4,2,2,50,0,1
+38615,-100,4,2,2,50,0,0
+40415,-100,4,2,0,50,0,0
+48215,-100,4,2,2,50,0,0
+
+
+[Colours]
+Combo1 : 255,207,185
+Combo2 : 0,128,192
+Combo3 : 255,255,128
+Combo4 : 0,128,255
+
+[HitObjects]
+34,67,215,6,0,L|274:55,1,240.000003576279,2|2,0:0|0:0,0:0:0:0:
+408,33,2615,2,0,B|333:162|333:162|368:255,1,240.000003576279,2|2,0:0|0:0,0:0:0:0:
+282,355,5015,2,0,B|222:356|173:321|173:321|171:193,1,240.000003576279,2|2,0:0|0:0,0:0:0:0:
+294,140,7415,2,0,B|274:62|274:62|207:97|115:82,1,240.000003576279,2|2,0:0|0:0,0:0:0:0:
+36,190,9815,6,0,L|44:275,1,80.0000011920929,12|4,0:0|0:0,0:0:0:0:
+156,346,11015,2,0,L|241:338,1,80.0000011920929,4|4,0:0|0:0,0:0:0:0:
+369,315,12215,2,0,L|454:323,2,80.0000011920929,4|8|4,0:0|0:0|0:0,0:0:0:0:
+250,248,14015,1,4,0:0:0:0:
+131,181,14615,6,0,L|122:96,1,80.0000011920929,4|4,0:0|0:0,0:0:0:0:
+245,43,15815,2,0,L|254:128,1,80.0000011920929,4|4,0:0|0:0,0:0:0:0:
+343,224,17015,2,0,L|428:215,1,80.0000011920929,2|2,0:0|0:0,0:0:0:0:
+393,348,18215,1,4,0:0:0:0:
+258,327,18815,2,0,L|212:330,1,40.0000005960464,4|8,0:0|0:0,0:0:0:0:
+153,351,19415,6,0,P|117:328|89:218,1,160.000002384186,14|4,0:0|0:0,0:0:0:0:
+50,163,20915,2,0,L|137:154,1,80.0000011920929,4|4,0:0|0:0,0:0:0:0:
+183,113,21815,1,4,0:0:0:0:
+318,78,22415,2,0,L|364:68,1,40.0000005960464,2|4,0:0|0:0,0:0:0:0:
+482,122,23315,2,0,P|493:157|493:203,1,80.0000011920929,0|2,0:0|0:0,0:0:0:0:
+430,225,24215,6,0,L|384:222,1,40.0000005960464,4|4,0:0|0:0,0:0:0:0:
+332,258,24815,2,0,L|245:267,1,80.0000011920929,4|0,0:0|0:0,0:0:0:0:
+199,308,25715,1,2,0:0:0:0:
+84,235,26315,1,0,0:0:0:0:
+126,181,26615,6,0,P|126:127|120:95,1,80.0000011920929,4|6,0:0|0:0,0:0:0:0:
+91,40,27515,2,0,L|6:45,2,80.0000011920929,0|0|4,0:0|0:0|0:0,0:0:0:0:
+159,36,29015,6,0,P|195:59|223:169,1,160.000002384186,8|4,0:0|0:0,0:0:0:0:
+280,204,30515,2,0,L|367:213,1,80.0000011920929,0|0,0:0|0:0,0:0:0:0:
+405,261,31415,1,14,0:0:0:0:
+290,333,32015,2,0,L|244:343,1,40.0000005960464,8|12,0:0|0:0,0:0:0:0:
+116,361,32915,2,0,P|127:326|127:280,1,80.0000011920929,8|8,0:0|0:0,0:0:0:0:
+139,216,33815,6,0,L|185:213,1,40.0000005960464,4|4,0:0|0:0,0:0:0:0:
+237,249,34415,2,0,L|324:258,1,80.0000011920929,0|12,0:0|0:0,0:0:0:0:
+370,299,35315,1,0,0:0:0:0:
+478,217,35915,1,0,0:0:0:0:
+424,175,36215,6,0,P|424:121|430:89,1,80.0000011920929,12|12,0:0|0:0,0:0:0:0:
+431,27,37115,2,0,L|516:32,2,80.0000011920929,12|8|4,0:0|0:0|0:0,0:0:0:0:
+382,75,38615,6,0,B|356:150|356:150|276:133|195:157,1,240.000003576279,14|8,0:0|0:0,0:0:0:0:
+109,260,41015,2,0,P|67:248|90:366,1,240.000003576279,4|0,0:0|0:0,0:0:0:0:
+210,318,43415,2,0,B|273:336|327:286|327:286|312:174,1,240.000003576279,4|2,0:0|0:0,0:0:0:0:
+380,56,45815,2,0,B|340:84|290:67|290:67|245:91|245:91|199:63|150:86,1,240.000003576278,2|2,0:0|0:0,0:0:0:0:
+140,219,48215,6,0,P|199:313|60:297,1,320.000004768371,14|12,0:0|0:0,0:0:0:0:
+372,165,53015,2,0,P|313:71|452:87,1,320.000004768371,12|14,0:0|0:0,0:0:0:0:
+256,192,56015,12,10,57515,0:0:0:0:

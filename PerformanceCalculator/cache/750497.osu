@@ -1,0 +1,60 @@
+osu file format v14
+
+[General]
+AudioFilename: keiba.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.4
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 2.7
+
+[Metadata]
+Title:wwwwwwwwwwww
+TitleUnicode:wwwwwwwwwwww
+Artist:wwwwwwwwwwwww
+ArtistUnicode:wwwwwwwwwwwww
+Creator:Mayzel
+Version:UMACAT
+Source:
+Tags:uma keiba zikkyou alacat
+BeatmapID:750497
+BeatmapSetID:322472
+
+[Difficulty]
+HPDrainRate:0
+CircleSize:3
+OverallDifficulty:9
+ApproachRate:10
+SliderMultiplier:3.59999990463257
+SliderTickRate:4
+
+[Events]
+//Background and Video events
+0,0,"a0022943_14374770.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+0,200,4,2,0,20,1,0
+8000,-200,4,2,0,20,0,0
+
+
+[Colours]
+Combo1 : 128,64,0
+Combo2 : 0,202,0
+
+[HitObjects]
+4,164,1600,22,0,B|36:132|64:124|76:92|76:92|68:68|68:68|64:100|36:100|36:100|192:100|244:132|244:132|232:172|230:178|312:112|392:112|392:112|404:144|472:160|540:176|540:176|460:156|416:152|416:152|425:200|444:208|422:232|422:232|460:292|460:292|466:295|466:295|462:299|462:299|480:352|480:352|420:216|420:216|375:235|344:236|344:236|316:288|320:314|312:368|312:368|320:312|316:296|316:296|316:288|316:288|324:288|324:288|340:236|340:236|292:198|228:224|204:232|204:232|216:308|228:360|228:360|194:241|136:216|136:216|144:256|144:256|84:369|84:369|110:291|132:196|132:196|68:112|32:164|32:164|96:112|184:165|338:184|338:184|150:207|150:207|383:236|383:236|352:116,60,3329.99991178513

@@ -1,0 +1,631 @@
+osu file format v14
+
+[General]
+AudioFilename: (o2jam song)- Christmas Memories Review.mp3
+AudioLeadIn: 0
+PreviewTime: 46572
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+EpilepsyWarning: 1
+SpecialStyle: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 0.5
+BeatDivisor: 3
+GridSize: 32
+TimelineZoom: 1.7
+
+[Metadata]
+Title:Christmas Memories
+TitleUnicode:크리스마스의 기억
+Artist:BeautifulDay
+ArtistUnicode:BeautifulDay
+Creator:arviejhay
+Version:Easy
+Source:O2Jam
+Tags:snow 오투잼 Keuriseumaseuui Gieok
+BeatmapID:556969
+BeatmapSetID:241103
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:7
+OverallDifficulty:7
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Christmas-anime-wallpaper-184.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+Sample,12572,0,"LR_Hit Snare Soft.wav",60
+Sample,12690,0,"LR_Hit Snare Soft.wav",60
+Sample,12807,0,"LR_Hit Snare Soft.wav",60
+Sample,12925,0,"LR_Hit Snare Soft.wav",60
+Sample,13043,0,"LR_Hit Snare Soft.wav",60
+Sample,13160,0,"LR_Hit Snare Soft.wav",60
+Sample,13278,0,"LR_Hit Snare Soft.wav",60
+Sample,13396,0,"LR_Hit Snare Soft.wav",60
+Sample,13513,0,"LR_Hit Snare Soft.wav",60
+Sample,13631,0,"LR_Hit Snare Soft.wav",60
+Sample,13748,0,"LR_Hit Snare Soft.wav",60
+Sample,13866,0,"LR_Hit Snare Soft.wav",60
+Sample,13984,0,"LR3_Kick HCB.wav",70
+Sample,14690,0,"LR3_Kick HCB.wav",70
+Sample,15278,0,"LR3_Kick HCB.wav",70
+Sample,15631,0,"LR3_Kick HCB.wav",70
+Sample,16101,0,"LR3_Kick HCB.wav",70
+Sample,16807,0,"LR3_Kick HCB.wav",70
+Sample,17513,0,"LR3_Kick HCB.wav",70
+Sample,18101,0,"LR3_Kick HCB.wav",70
+Sample,18454,0,"LR3_Kick HCB.wav",70
+Sample,18925,0,"LR3_Kick HCB.wav",70
+Sample,19631,0,"LR3_Kick HCB.wav",70
+Sample,20337,0,"LR3_Kick HCB.wav",70
+Sample,20925,0,"LR3_Kick HCB.wav",70
+Sample,21278,0,"LR3_Kick HCB.wav",70
+Sample,21748,0,"LR3_Kick HCB.wav",70
+Sample,22454,0,"LR3_Kick HCB.wav",70
+Sample,23160,0,"LR3_Kick HCB.wav",70
+Sample,23748,0,"LR3_Kick HCB.wav",70
+Sample,23866,0,"LR_Hit Snare Soft.wav",60
+Sample,23984,0,"LR_Hit Snare Soft.wav",60
+Sample,24101,0,"LR_Hit Snare Soft.wav",60
+Sample,24219,0,"LR_Hit Snare Soft.wav",60
+Sample,24337,0,"LR_Hit Snare Soft.wav",60
+Sample,24454,0,"LR_Hit Snare Soft.wav",60
+Sample,24572,0,"LR_Hit Snare Soft.wav",60
+Sample,24690,0,"LR_Hit Snare Soft.wav",60
+Sample,24807,0,"LR_Hit Snare Soft.wav",60
+Sample,24925,0,"LR_Hit Snare Soft.wav",60
+Sample,25043,0,"LR_Hit Snare Soft.wav",60
+Sample,25160,0,"LR_Hit Snare Soft.wav",60
+Sample,25278,0,"LR3_Kick HCB.wav",70
+Sample,25984,0,"LR3_Kick HCB.wav",70
+Sample,26572,0,"LR3_Kick HCB.wav",70
+Sample,26925,0,"LR3_Kick HCB.wav",70
+Sample,27396,0,"LR3_Kick HCB.wav",70
+Sample,28101,0,"LR3_Kick HCB.wav",70
+Sample,28807,0,"LR3_Kick HCB.wav",70
+Sample,29396,0,"LR3_Kick HCB.wav",70
+Sample,29748,0,"LR3_Kick HCB.wav",70
+Sample,30219,0,"LR3_Kick HCB.wav",70
+Sample,30925,0,"LR3_Kick HCB.wav",70
+Sample,31631,0,"LR3_Kick HCB.wav",70
+Sample,32219,0,"LR3_Kick HCB.wav",70
+Sample,32572,0,"LR3_Kick HCB.wav",70
+Sample,33043,0,"LR3_Kick HCB.wav",50
+Sample,33748,0,"LR3_Kick HCB.wav",70
+Sample,34454,0,"LR3_Kick HCB.wav",70
+Sample,35160,0,"LR_Hit Snare Soft.wav",60
+Sample,35278,0,"LR_Hit Snare Soft.wav",60
+Sample,35396,0,"LR_Hit Snare Soft.wav",60
+Sample,35513,0,"LR_Hit Snare Soft.wav",60
+Sample,35631,0,"LR_Hit Snare Soft.wav",60
+Sample,35748,0,"LR_Hit Snare Soft.wav",60
+Sample,35866,0,"LR_Hit Snare Soft.wav",60
+Sample,35984,0,"LR_Hit Snare Soft.wav",60
+Sample,36101,0,"LR_Hit Snare Soft.wav",60
+Sample,36219,0,"LR_Hit Snare Soft.wav",60
+Sample,36337,0,"LR_Hit Snare Soft.wav",60
+Sample,36454,0,"LR_Hit Snare Soft.wav",60
+Sample,36572,0,"LR3_Kick HCB.wav",70
+Sample,37278,0,"LR3_Kick HCB.wav",70
+Sample,37866,0,"LR3_Kick HCB.wav",70
+Sample,38219,0,"LR3_Kick HCB.wav",70
+Sample,38690,0,"LR3_Kick HCB.wav",70
+Sample,39396,0,"LR3_Kick HCB.wav",70
+Sample,40101,0,"LR3_Kick HCB.wav",70
+Sample,40690,0,"LR3_Kick HCB.wav",70
+Sample,41043,0,"LR3_Kick HCB.wav",70
+Sample,41513,0,"LR3_Kick HCB.wav",70
+Sample,42219,0,"LR3_Kick HCB.wav",70
+Sample,42925,0,"LR3_Kick HCB.wav",70
+Sample,43513,0,"LR3_Kick HCB.wav",70
+Sample,43866,0,"LR3_Kick HCB.wav",70
+Sample,44337,0,"LR3_Kick HCB.wav",70
+Sample,45043,0,"LR_Hit Snare Soft.wav",60
+Sample,45160,0,"LR_Hit Snare Soft.wav",60
+Sample,45278,0,"LR_Hit Snare Soft.wav",60
+Sample,45396,0,"LR_Hit Snare Soft.wav",60
+Sample,45513,0,"LR_Hit Snare Soft.wav",60
+Sample,45631,0,"LR_Hit Snare Soft.wav",60
+Sample,45748,0,"LR_Hit Snare Soft.wav",60
+Sample,45866,0,"LR_Hit Snare Soft.wav",60
+Sample,45984,0,"LR_Hit Snare Soft.wav",60
+Sample,46101,0,"LR_Hit Snare Soft.wav",60
+Sample,46219,0,"LR_Hit Snare Soft.wav",60
+Sample,47866,0,"LR3_Kick HCB.wav",70
+Sample,48572,0,"LR3_Kick HCB.wav",70
+Sample,49160,0,"LR3_Kick HCB.wav",70
+Sample,49513,0,"LR3_Kick HCB.wav",70
+Sample,49984,0,"LR3_Kick HCB.wav",70
+Sample,50690,0,"LR3_Kick HCB.wav",70
+Sample,51396,0,"LR3_Kick HCB.wav",70
+Sample,51984,0,"LR3_Kick HCB.wav",70
+Sample,52337,0,"LR3_Kick HCB.wav",70
+Sample,52807,0,"LR3_Kick HCB.wav",70
+Sample,53513,0,"LR3_Kick HCB.wav",70
+Sample,54219,0,"LR3_Kick HCB.wav",70
+Sample,54807,0,"LR3_Kick HCB.wav",70
+Sample,55160,0,"LR3_Kick HCB.wav",70
+Sample,55631,0,"LR3_Kick HCB.wav",70
+Sample,56337,0,"LR3_Kick HCB.wav",70
+Sample,57043,0,"LR3_Kick HCB.wav",70
+Sample,57631,0,"LR_Hit Snare Soft.wav",60
+Sample,57748,0,"LR_Hit Snare Soft.wav",60
+Sample,57866,0,"LR_Hit Snare Soft.wav",60
+Sample,57984,0,"LR_Hit Snare Soft.wav",60
+Sample,58101,0,"LR_Hit Snare Soft.wav",60
+Sample,58219,0,"LR_Hit Snare Soft.wav",60
+Sample,58337,0,"LR_Hit Snare Soft.wav",60
+Sample,58454,0,"LR_Hit Snare Soft.wav",60
+Sample,58572,0,"LR_Hit Snare Soft.wav",60
+Sample,58690,0,"LR_Hit Snare Soft.wav",60
+Sample,58807,0,"LR_Hit Snare Soft.wav",60
+Sample,58925,0,"LR_Hit Snare Soft.wav",60
+Sample,59043,0,"LR_Hit Snare Soft.wav",60
+Sample,59160,0,"LR3_Kick HCB.wav",70
+Sample,59866,0,"LR3_Kick HCB.wav",70
+Sample,60454,0,"LR3_Kick HCB.wav",70
+Sample,60807,0,"LR3_Kick HCB.wav",70
+Sample,61278,0,"LR3_Kick HCB.wav",70
+Sample,61984,0,"LR3_Kick HCB.wav",70
+Sample,62690,0,"LR3_Kick HCB.wav",70
+Sample,63278,0,"LR3_Kick HCB.wav",70
+Sample,63631,0,"LR3_Kick HCB.wav",70
+Sample,64101,0,"LR3_Kick HCB.wav",70
+Sample,64807,0,"LR3_Kick HCB.wav",70
+Sample,65513,0,"LR3_Kick HCB.wav",70
+Sample,66101,0,"LR3_Kick HCB.wav",70
+Sample,66454,0,"LR3_Kick HCB.wav",70
+Sample,66925,0,"LR3_Kick HCB.wav",70
+Sample,67631,0,"LR_Hit Snare Soft.wav",60
+Sample,67748,0,"LR_Hit Snare Soft.wav",60
+Sample,67866,0,"LR_Hit Snare Soft.wav",60
+Sample,67984,0,"LR_Hit Snare Soft.wav",60
+Sample,68101,0,"LR_Hit Snare Soft.wav",60
+Sample,68219,0,"LR_Hit Snare Soft.wav",60
+Sample,68337,0,"LR_Hit Snare Soft.wav",60
+Sample,68454,0,"LR_Hit Snare Soft.wav",60
+Sample,68572,0,"LR_Hit Snare Soft.wav",60
+Sample,68690,0,"LR_Hit Snare Soft.wav",60
+Sample,68807,0,"LR_Hit Snare Soft.wav",60
+Sample,69043,0,"LR_Hit Snare Soft.wav",60
+Sample,69160,0,"LR_Hit Snare Soft.wav",60
+Sample,69278,0,"LR_Hit Snare Soft.wav",60
+Sample,69396,0,"LR_Hit Snare Soft.wav",60
+Sample,69513,0,"LR_Hit Snare Soft.wav",60
+Sample,69631,0,"LR_Hit Snare Soft.wav",60
+Sample,69748,0,"LR_Hit Snare Soft.wav",60
+Sample,69866,0,"LR_Hit Snare Soft.wav",60
+Sample,69984,0,"LR_Hit Snare Soft.wav",60
+Sample,70101,0,"LR_Hit Snare Soft.wav",60
+Sample,70219,0,"LR_Hit Snare Soft.wav",60
+Sample,70337,0,"LR_Hit Snare Soft.wav",60
+Sample,70454,0,"LR3_Kick HCB.wav",70
+Sample,71160,0,"LR3_Kick HCB.wav",70
+Sample,71748,0,"LR3_Kick HCB.wav",70
+Sample,72101,0,"LR3_Kick HCB.wav",70
+Sample,72572,0,"LR3_Kick HCB.wav",70
+Sample,73278,0,"LR3_Kick HCB.wav",70
+Sample,73984,0,"LR3_Kick HCB.wav",70
+Sample,74572,0,"LR3_Kick HCB.wav",70
+Sample,74925,0,"LR3_Kick HCB.wav",70
+Sample,75396,0,"LR3_Kick HCB.wav",70
+Sample,76101,0,"LR3_Kick HCB.wav",70
+Sample,76807,0,"LR3_Kick HCB.wav",70
+Sample,77396,0,"LR3_Kick HCB.wav",70
+Sample,77748,0,"LR3_Kick HCB.wav",70
+Sample,78219,0,"LR3_Kick HCB.wav",70
+Sample,78925,0,"LR3_Kick HCB.wav",70
+Sample,79631,0,"LR3_Kick HCB.wav",70
+Sample,80337,0,"LR_Hit Snare Soft.wav",60
+Sample,80454,0,"LR_Hit Snare Soft.wav",60
+Sample,80572,0,"LR_Hit Snare Soft.wav",60
+Sample,80690,0,"LR_Hit Snare Soft.wav",60
+Sample,80807,0,"LR_Hit Snare Soft.wav",60
+Sample,80925,0,"LR_Hit Snare Soft.wav",60
+Sample,81043,0,"LR_Hit Snare Soft.wav",60
+Sample,81160,0,"LR_Hit Snare Soft.wav",60
+Sample,81278,0,"LR_Hit Snare Soft.wav",60
+Sample,81396,0,"LR_Hit Snare Soft.wav",60
+Sample,81513,0,"LR_Hit Snare Soft.wav",60
+Sample,81631,0,"LR_Hit Snare Soft.wav",60
+Sample,81748,0,"LR3_Kick HCB.wav",70
+Sample,82454,0,"LR3_Kick HCB.wav",70
+Sample,83043,0,"LR3_Kick HCB.wav",70
+Sample,83396,0,"LR3_Kick HCB.wav",70
+Sample,83866,0,"LR3_Kick HCB.wav",70
+Sample,84572,0,"LR3_Kick HCB.wav",70
+Sample,85278,0,"LR3_Kick HCB.wav",70
+Sample,85866,0,"LR3_Kick HCB.wav",70
+Sample,86219,0,"LR3_Kick HCB.wav",70
+Sample,86690,0,"LR3_Kick HCB.wav",70
+Sample,87396,0,"LR3_Kick HCB.wav",70
+Sample,88101,0,"LR3_Kick HCB.wav",70
+Sample,88690,0,"LR3_Kick HCB.wav",70
+Sample,89043,0,"LR3_Kick HCB.wav",70
+Sample,89513,0,"LR3_Kick HCB.wav",70
+Sample,90219,0,"LR_Hit Snare Soft.wav",60
+Sample,90337,0,"LR_Hit Snare Soft.wav",60
+Sample,90454,0,"LR_Hit Snare Soft.wav",60
+Sample,90572,0,"LR_Hit Snare Soft.wav",60
+Sample,90690,0,"LR_Hit Snare Soft.wav",60
+Sample,90807,0,"LR_Hit Snare Soft.wav",60
+Sample,90925,0,"LR_Hit Snare Soft.wav",60
+Sample,91043,0,"LR_Hit Snare Soft.wav",60
+Sample,91160,0,"LR_Hit Snare Soft.wav",60
+Sample,91278,0,"LR_Hit Snare Soft.wav",60
+Sample,91396,0,"LR_Hit Snare Soft.wav",60
+Sample,91513,0,"LR_Hit Snare Soft.wav",60
+Sample,91631,0,"LR_Hit Snare Soft.wav",60
+Sample,91748,0,"LR_Hit Snare Soft.wav",60
+Sample,91866,0,"LR_Hit Snare Soft.wav",60
+Sample,91984,0,"LR_Hit Snare Soft.wav",60
+Sample,92101,0,"LR_Hit Snare Soft.wav",60
+Sample,92219,0,"LR_Hit Snare Soft.wav",60
+Sample,92337,0,"LR_Hit Snare Soft.wav",60
+Sample,92454,0,"LR_Hit Snare Soft.wav",60
+Sample,92572,0,"LR_Hit Snare Soft.wav",60
+Sample,92690,0,"LR_Hit Snare Soft.wav",60
+Sample,92807,0,"LR_Hit Snare Soft.wav",60
+Sample,92925,0,"LR_Hit Snare Soft.wav",60
+Sample,93043,0,"LR3_Kick HCB.wav",70
+Sample,93748,0,"LR3_Kick HCB.wav",70
+Sample,94337,0,"LR3_Kick HCB.wav",70
+Sample,94690,0,"LR3_Kick HCB.wav",70
+Sample,95160,0,"LR3_Kick HCB.wav",70
+Sample,95866,0,"LR_Hit Snare Soft.wav",60
+Sample,95984,0,"LR_Hit Snare Soft.wav",40
+Sample,96101,0,"LR_Hit Snare Soft.wav",60
+Sample,96219,0,"LR_Hit Snare Soft.wav",60
+Sample,96337,0,"LR_Hit Snare Soft.wav",60
+Sample,96454,0,"LR_Hit Snare Soft.wav",60
+Sample,96572,0,"LR_Hit Snare Soft.wav",60
+Sample,96690,0,"LR_Hit Snare Soft.wav",60
+Sample,96807,0,"LR_Hit Snare Soft.wav",60
+Sample,96925,0,"LR_Hit Snare Soft.wav",60
+Sample,97043,0,"LR_Hit Snare Soft.wav",60
+Sample,97160,0,"LR_Hit Snare Soft.wav",60
+Sample,97278,0,"LR_Hit Snare Soft.wav",60
+Sample,97396,0,"LR_Hit Snare Soft.wav",60
+Sample,97513,0,"LR_Hit Snare Soft.wav",60
+Sample,97631,0,"LR_Hit Snare Soft.wav",60
+Sample,97748,0,"LR_Hit Snare Soft.wav",60
+Sample,97866,0,"LR_Hit Snare Soft.wav",60
+Sample,97984,0,"LR_Hit Snare Soft.wav",60
+Sample,98101,0,"LR_Hit Snare Soft.wav",60
+Sample,98219,0,"LR_Hit Snare Soft.wav",60
+Sample,98337,0,"LR_Hit Snare Soft.wav",60
+Sample,98454,0,"LR_Hit Snare Soft.wav",60
+Sample,98572,0,"LR_Hit Snare Soft.wav",60
+Sample,98690,0,"LR3_Kick HCB.wav",70
+Sample,99396,0,"LR3_Kick HCB.wav",70
+Sample,99984,0,"LR3_Kick HCB.wav",70
+Sample,100337,0,"LR3_Kick HCB.wav",70
+Sample,100807,0,"LR3_Kick HCB.wav",70
+Sample,101513,0,"LR3_Kick HCB.wav",70
+Sample,102219,0,"LR3_Kick HCB.wav",70
+Sample,102807,0,"LR3_Kick HCB.wav",70
+Sample,103160,0,"LR3_Kick HCB.wav",70
+Sample,103631,0,"LR3_Kick HCB.wav",70
+Sample,104337,0,"LR3_Kick HCB.wav",70
+Sample,105043,0,"LR3_Kick HCB.wav",70
+Sample,105631,0,"LR3_Kick HCB.wav",70
+Sample,105984,0,"LR3_Kick HCB.wav",70
+Sample,106454,0,"LR3_Kick HCB.wav",70
+Sample,107160,0,"LR3_Kick HCB.wav",70
+Sample,107866,0,"LR3_Kick HCB.wav",70
+Sample,108454,0,"LR3_Kick HCB.wav",70
+Sample,108807,0,"LR3_Kick HCB.wav",70
+Sample,109278,0,"LR3_Kick HCB.wav",70
+Sample,109984,0,"LR3_Kick HCB.wav",70
+Sample,110690,0,"LR3_Kick HCB.wav",70
+Sample,111278,0,"LR_Hit Snare Soft.wav",60
+Sample,111396,0,"LR_Hit Snare Soft.wav",60
+Sample,111513,0,"LR_Hit Snare Soft.wav",60
+Sample,111631,0,"LR_Hit Snare Soft.wav",60
+Sample,111748,0,"LR_Hit Snare Soft.wav",60
+Sample,111866,0,"LR_Hit Snare Soft.wav",60
+Sample,111984,0,"LR_Hit Snare Soft.wav",60
+Sample,112101,0,"LR_Hit Snare Soft.wav",60
+Sample,112219,0,"LR_Hit Snare Soft.wav",60
+Sample,112337,0,"LR_Hit Snare Soft.wav",60
+Sample,112454,0,"LR_Hit Snare Soft.wav",60
+Sample,112572,0,"LR_Hit Snare Soft.wav",60
+Sample,112690,0,"LR_Hit Snare Soft.wav",60
+
+[TimingPoints]
+9749,352.941176470588,4,2,1,65,1,0
+70454,-100,4,2,1,65,0,1
+81631,-100,4,2,1,65,0,0
+81748,-100,4,2,1,65,0,1
+91513,-100,4,2,1,65,0,0
+93043,-100,4,2,1,65,0,1
+97160,-100,4,2,1,65,0,0
+98690,-100,4,2,1,65,0,1
+101160,-100,4,2,1,65,0,0
+
+
+[HitObjects]
+402,192,11160,5,0,0:0:0:86:
+109,192,11513,1,0,0:0:0:86:
+182,192,11866,1,0,0:0:0:86:
+256,192,12219,1,0,0:0:0:86:
+402,192,12572,1,0,0:0:0:43:
+475,192,12572,1,0,3:0:0:43:
+109,192,12925,1,0,0:0:0:86:
+329,192,13278,1,0,0:0:0:86:
+36,192,13631,1,0,0:0:0:86:
+182,192,13984,1,4,0:0:0:43:
+402,192,13984,1,0,0:0:0:43:
+329,192,14337,1,8,1:0:0:86:
+182,192,14690,1,0,3:0:0:86:
+36,192,15631,1,0,0:0:0:86:
+109,192,15748,1,8,1:0:0:86:
+475,192,15984,1,0,0:0:0:86:
+402,192,16101,1,0,0:0:0:86:
+36,192,16454,1,8,1:0:0:43:
+475,192,16454,1,2,0:0:0:43:
+182,192,16807,1,2,0:0:0:86:
+329,192,17160,1,8,1:0:0:86:
+182,192,17513,1,2,0:0:0:86:
+109,192,18454,1,0,0:0:0:86:
+182,192,18572,1,8,1:0:0:86:
+402,192,18807,1,0,0:0:0:86:
+329,192,18925,1,0,0:0:0:86:
+256,192,19160,1,0,0:0:0:86:
+36,192,19278,1,8,1:0:0:43:
+475,192,19278,1,2,0:0:0:43:
+109,192,19631,1,2,0:0:0:86:
+402,192,19984,1,8,1:0:0:86:
+109,192,20337,1,2,0:0:0:86:
+36,192,21278,1,0,0:0:0:86:
+109,192,21396,1,8,1:0:0:86:
+475,192,21631,1,0,0:0:0:86:
+402,192,21748,1,0,0:0:0:86:
+36,192,22101,1,8,1:0:0:43:
+475,192,22101,1,2,0:0:0:43:
+182,192,22454,128,2,22925:0:0:0:86:
+256,192,23160,128,2,23631:0:0:0:86:
+402,192,23748,128,2,24219:0:0:0:86:
+109,192,24219,1,8,1:0:0:86:
+182,192,24572,1,0,3:0:0:86:
+256,192,24925,1,0,3:0:0:86:
+36,192,25278,1,4,1:0:0:43:
+329,192,25278,1,0,0:0:0:43:
+329,192,25631,1,0,0:0:0:86:
+329,192,25984,1,0,0:0:0:50:LR3_Kick HCB.wav
+182,192,26572,1,0,0:0:0:86:LR3_Kick HCB.wav
+182,192,26925,1,0,0:0:0:86:LR3_Kick HCB.wav
+182,192,27278,1,0,0:0:0:86:
+109,192,27396,1,0,0:0:0:86:LR3_Kick HCB.wav
+182,192,27748,1,0,0:0:0:86:
+402,192,28101,1,0,0:0:0:86:
+402,192,28454,1,0,0:0:0:86:
+402,192,28807,1,0,0:0:0:86:LR3_Kick HCB.wav
+109,192,29396,1,0,0:0:0:86:LR3_Kick HCB.wav
+109,192,29748,1,0,0:0:0:86:LR3_Kick HCB.wav
+109,192,30101,1,0,0:0:0:86:
+182,192,30219,1,0,0:0:0:86:LR3_Kick HCB.wav
+109,192,30572,1,0,0:0:0:86:
+329,192,30925,1,0,0:0:0:86:
+329,192,31278,1,0,0:0:0:86:
+329,192,31631,1,0,0:0:0:86:LR3_Kick HCB.wav
+182,192,32219,1,0,0:0:0:86:LR3_Kick HCB.wav
+182,192,32572,1,0,0:0:0:86:LR3_Kick HCB.wav
+182,192,32925,1,0,0:0:0:86:
+109,192,33043,1,0,0:0:0:86:LR3_Kick HCB.wav
+182,192,33396,1,0,0:0:0:86:
+402,192,33748,1,0,0:0:0:86:
+402,192,34101,1,0,0:0:0:86:
+402,192,34454,1,0,0:0:0:86:
+475,192,35043,1,4,0:0:0:43:
+36,192,35043,1,0,0:0:0:43:
+402,192,35513,1,10,0:0:0:86:
+256,192,35866,1,10,0:0:0:86:
+109,192,36219,1,10,0:0:0:86:
+36,192,36572,1,4,1:0:0:43:
+329,192,36572,1,0,0:0:0:43:
+329,192,36925,1,0,0:0:0:86:
+329,192,37278,1,0,0:0:0:50:LR3_Kick HCB.wav
+182,192,37866,1,0,0:0:0:86:LR3_Kick HCB.wav
+182,192,38219,1,0,0:0:0:86:LR3_Kick HCB.wav
+182,192,38572,1,0,0:0:0:86:
+109,192,38690,1,0,0:0:0:86:LR3_Kick HCB.wav
+182,192,39043,1,0,0:0:0:86:
+402,192,39396,1,0,0:0:0:86:
+402,192,39748,1,0,0:0:0:86:
+402,192,40101,1,0,0:0:0:86:LR3_Kick HCB.wav
+109,192,40690,1,0,0:0:0:86:LR3_Kick HCB.wav
+109,192,41043,1,0,0:0:0:86:LR3_Kick HCB.wav
+109,192,41396,1,0,0:0:0:86:
+182,192,41513,1,0,0:0:0:86:LR3_Kick HCB.wav
+109,192,41866,1,0,0:0:0:86:
+402,192,42219,128,0,42925:0:0:0:86:
+329,192,42925,128,0,43631:0:0:0:86:
+256,192,43631,128,0,44337:0:0:0:86:
+182,192,44337,128,0,45043:0:0:0:86:
+109,192,45043,128,0,46337:0:0:0:86:
+256,192,46337,1,4,0:0:0:86:
+402,192,47866,1,0,0:0:0:43:
+109,192,47866,1,0,0:0:0:43:
+329,192,48219,1,0,0:0:0:86:
+402,192,48572,1,0,0:0:0:86:
+475,192,48925,1,0,0:0:0:86:
+329,192,49160,1,0,0:0:0:86:
+109,192,49631,1,8,0:0:0:86:
+109,192,49984,1,8,0:0:0:86:
+109,192,50337,1,8,0:0:0:86:
+402,192,50690,1,8,0:0:0:86:
+182,192,51043,1,0,0:0:0:86:
+109,192,51396,1,0,0:0:0:86:
+36,192,51748,1,0,0:0:0:86:
+182,192,51984,1,0,0:0:0:86:
+402,192,52454,1,8,0:0:0:86:
+402,192,52807,1,8,0:0:0:86:
+402,192,53160,1,8,0:0:0:86:
+256,192,53513,1,0,0:0:0:86:
+402,192,53866,1,0,0:0:0:86:
+329,192,54219,1,0,0:0:0:86:
+475,192,54572,1,0,0:0:0:86:
+402,192,54807,1,0,0:0:0:86:
+109,192,55278,1,8,0:0:0:86:
+109,192,55631,1,8,0:0:0:86:
+109,192,55984,1,8,0:0:0:86:
+256,192,56337,1,0,0:0:0:86:
+182,192,56690,1,0,0:0:0:86:
+329,192,57043,1,0,0:0:0:86:
+256,192,57396,1,0,0:0:0:86:
+402,192,57748,1,0,0:0:0:86:
+329,192,58101,1,0,0:0:0:86:
+475,192,58454,1,0,0:0:0:86:
+36,192,58807,1,0,0:0:0:86:
+402,192,59160,1,0,0:0:0:43:
+109,192,59160,1,4,0:0:0:43:
+329,192,59513,1,0,0:0:0:86:
+402,192,59866,1,0,0:0:0:86:
+475,192,60219,1,0,0:0:0:86:
+329,192,60454,1,0,0:0:0:86:
+109,192,60925,1,8,0:0:0:86:
+109,192,61278,1,8,0:0:0:86:
+109,192,61631,1,8,0:0:0:86:
+402,192,61984,1,8,0:0:0:86:
+182,192,62337,1,0,0:0:0:86:
+109,192,62690,1,0,0:0:0:86:
+36,192,63043,1,0,0:0:0:86:
+182,192,63278,1,0,0:0:0:86:
+402,192,63748,1,8,0:0:0:86:
+402,192,64101,1,8,0:0:0:86:
+402,192,64454,1,8,0:0:0:86:
+182,192,64807,128,0,65513:0:0:0:86:
+256,192,65513,128,0,66219:0:0:0:86:
+329,192,66219,128,0,66925:0:0:0:86:
+402,192,66925,128,0,67631:0:0:0:86:
+256,192,67631,128,0,68925:0:0:0:86:
+109,192,68925,1,4,0:0:0:86:
+402,192,68925,1,0,0:0:0:0:
+329,192,69396,1,2,0:0:0:86:
+256,192,69748,1,2,0:0:0:86:
+182,192,70101,1,2,0:0:0:86:
+36,192,70454,1,0,0:0:0:43:
+475,192,70454,1,4,0:0:0:43:
+402,192,70807,1,0,0:0:0:86:
+402,192,71160,1,0,0:0:0:86:
+109,192,71513,1,0,0:0:0:86:
+402,192,71748,1,0,0:0:0:86:
+402,192,72101,1,0,0:0:0:86:
+109,192,72219,1,0,0:0:0:86:
+182,192,72572,128,0,72925:0:0:0:0:
+329,192,72925,1,0,0:0:0:86:
+256,192,73278,1,6,3:0:0:86:
+36,192,73631,1,0,0:0:0:86:
+36,192,73984,1,0,0:0:0:86:
+475,192,74337,1,0,0:0:0:86:
+36,192,74572,1,0,0:0:0:86:
+36,192,74925,1,0,0:0:0:86:
+475,192,75043,1,0,0:0:0:86:
+329,192,75396,128,0,75748:0:0:0:0:
+182,192,75748,1,0,0:0:0:86:
+109,192,76101,1,6,3:0:0:86:
+256,192,76454,1,0,0:0:0:86:
+256,192,76807,1,0,0:0:0:86:
+402,192,77160,1,0,0:0:0:86:
+182,192,77396,1,0,0:0:0:86:
+182,192,77748,1,0,0:0:0:86:
+109,192,78101,1,0,0:0:0:86:
+256,192,78219,128,0,78572:0:0:0:0:
+329,192,78572,1,0,0:0:0:86:
+402,192,78925,128,0,79631:0:0:0:86:
+256,192,79631,128,0,80337:0:0:0:86:
+109,192,80337,128,0,81043:0:0:0:86:
+329,192,81043,128,0,81748:0:0:0:86:
+256,192,81748,128,0,83160:0:0:0:86:
+402,192,82101,1,8,1:0:0:86:
+109,192,82807,1,8,1:0:0:86:
+256,192,83513,128,0,83866:0:0:0:86:
+329,192,83866,128,0,84219:0:0:0:86:
+256,192,84219,128,0,84572:0:0:0:86:
+402,192,84572,128,0,85278:0:0:0:86:
+182,192,84925,1,8,1:0:0:0:
+256,192,85631,128,0,85984:0:0:0:86:
+36,192,85631,1,8,1:0:0:0:
+402,192,85984,128,0,86337:0:0:0:86:
+329,192,86337,128,0,86690:0:0:0:86:
+256,192,86690,128,0,87043:0:0:0:86:
+182,192,87043,128,0,87396:0:0:0:86:
+36,192,87396,1,0,0:0:0:86:
+329,192,87748,1,0,0:0:0:86:
+329,192,88101,128,0,88454:0:0:0:86:
+182,192,88454,128,0,88807:0:0:0:86:
+402,192,88807,128,0,89160:0:0:0:86:
+402,192,89513,128,0,89866:0:0:0:86:
+256,192,90219,128,0,91513:0:0:0:86:
+109,192,91513,1,4,0:0:0:86:
+402,192,91513,1,0,0:0:0:0:
+36,192,93043,1,4,0:0:0:43:
+475,192,93043,1,0,0:0:0:43:
+329,192,93396,1,0,0:0:0:86:
+329,192,93748,128,0,94101:0:0:0:86:
+182,192,94101,128,0,94454:0:0:0:86:
+402,192,94454,128,0,94807:0:0:0:86:
+402,192,95160,128,0,95513:0:0:0:86:
+475,192,95866,128,4,97160:0:0:0:86:
+329,192,97160,1,4,0:0:0:86:
+109,192,97160,1,0,0:0:0:0:
+36,192,98690,1,4,0:0:0:43:
+475,192,98690,1,0,0:0:0:43:
+329,192,99043,1,0,0:0:0:86:
+329,192,99396,128,0,99748:0:0:0:86:
+182,192,99748,128,0,100101:0:0:0:86:
+402,192,100101,128,0,100454:0:0:0:43:
+36,192,100101,1,4,0:0:0:43:
+402,192,100807,128,0,101160:0:0:0:86:
+109,192,101513,1,4,0:0:0:43:
+256,192,101513,1,0,0:0:0:43:
+329,192,101866,1,8,1:0:0:86:
+182,192,102219,1,0,3:0:0:86:
+36,192,103160,1,0,0:0:0:86:
+109,192,103278,1,8,1:0:0:86:
+475,192,103513,1,0,0:0:0:86:
+402,192,103631,1,0,0:0:0:86:
+36,192,103984,1,8,1:0:0:43:
+475,192,103984,1,2,0:0:0:43:
+182,192,104337,1,0,0:0:0:86:
+329,192,104690,1,8,1:0:0:86:
+182,192,105043,1,0,3:0:0:86:
+109,192,105984,1,0,0:0:0:86:
+182,192,106101,1,8,1:0:0:86:
+402,192,106337,1,0,0:0:0:86:
+329,192,106454,1,0,0:0:0:86:
+256,192,106690,1,0,3:0:0:86:
+475,192,106807,1,8,1:0:0:43:
+36,192,106807,1,8,1:0:0:43:
+109,192,107160,1,2,0:0:0:86:
+402,192,107513,1,8,1:0:0:86:
+109,192,107866,1,2,0:0:0:86:
+36,192,108807,1,0,0:0:0:86:
+109,192,108925,1,8,1:0:0:86:
+475,192,109160,1,0,0:0:0:86:
+402,192,109278,1,0,0:0:0:86:
+36,192,109631,1,8,1:0:0:43:
+475,192,109631,1,2,0:0:0:43:
+182,192,109984,128,2,110454:0:0:0:86:
+256,192,110690,128,2,111160:0:0:0:86:
+402,192,111278,128,2,111748:0:0:0:86:
+109,192,111748,1,8,1:0:0:86:
+182,192,112101,1,0,3:0:0:86:
+256,192,112454,1,0,3:0:0:86:
+475,192,112807,1,8,0:0:0:0:
+36,192,112807,1,4,0:0:0:0:

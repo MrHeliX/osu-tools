@@ -1,0 +1,109 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 447
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 1000,6052,11105,16157,21210,26263,30643
+DistanceSpacing: 0.7
+BeatDivisor: 2
+GridSize: 32
+TimelineZoom: 1.9
+
+[Metadata]
+Title:Picotto! Papitto!! GARUPA*PICO!!! (TV Size)
+TitleUnicode:ピコっと！パピっと！！ガルパ☆ピコ！！！ (TV Size)
+Artist:Aimi, Sakura Ayane, Maeshima Ami, Aiba Aina, Itou Miku
+ArtistUnicode:愛美, 佐倉綾音, 前島亜美, 相羽あいな, 伊藤美来
+Creator:Roger
+Version:Volta's Kantan
+Source:BanG Dream! ガルパ☆ピコ
+Tags:taiko ed ending バンドリ！ ガールズバンドパーティ！ Bandori! Girls Band Party! garupico project 香澄×蘭×彩×友希那×こころ Kasumi x Ran x Aya x Yukina x Kokoro 戸山香澄 Toyama 美竹蘭 Mitake 丸山彩 Maruyama 湊友希那 Minato 弦巻こころ Tsurumaki Poppin'Party Popipa Afterglow Roselia ロゼリア Pastel*Palettes ハロー、ハッピーワールド！ Hello, Happy World! apaajaboleh10 Volta ][ -GH- ][ Fleure De Lapin Franklin_DeJavu
+BeatmapID:2186832
+BeatmapSetID:1044666
+
+[Difficulty]
+HPDrainRate:10
+CircleSize:2
+OverallDifficulty:2.5
+ApproachRate:0
+SliderMultiplier:1.2
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg.png",0,-80
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+1000,315.789473684211,4,1,0,80,1,0
+26421,-100,4,1,0,30,0,0
+29065,315.789473684211,4,1,0,30,1,8
+29222,-100,4,1,0,80,0,0
+30012,-100,4,1,0,30,0,0
+30170,-100,4,1,0,20,0,0
+30328,-100,4,1,0,10,0,0
+30486,-100,4,1,0,5,0,0
+
+
+[HitObjects]
+32,224,526,5,8,0:0:0:0:
+59,193,1000,5,4,0:0:0:0:
+96,181,1631,1,8,0:0:0:0:
+79,173,2263,1,0,0:0:0:0:
+158,174,2578,1,0,0:0:0:0:
+159,103,2894,1,0,0:0:0:0:
+159,103,3526,1,8,0:0:0:0:
+159,103,4157,1,8,0:0:0:0:
+165,94,4789,1,0,0:0:0:0:
+165,94,6052,1,8,0:0:0:0:
+165,94,6684,1,0,0:0:0:0:
+165,94,7315,1,8,0:0:0:0:
+165,94,7631,1,8,0:0:0:0:
+165,94,7947,1,8,0:0:0:0:
+41,152,8421,1,4,0:0:0:0:
+41,152,9052,1,4,0:0:0:0:
+41,152,9684,1,12,0:0:0:0:
+41,152,11105,1,4,0:0:0:0:
+116,161,11736,1,8,0:0:0:0:
+116,161,12368,1,0,0:0:0:0:
+116,161,12684,1,0,0:0:0:0:
+116,161,13000,1,8,0:0:0:0:
+116,161,13631,1,0,0:0:0:0:
+116,161,14263,1,0,0:0:0:0:
+116,161,14894,1,8,0:0:0:0:
+116,161,16157,1,8,0:0:0:0:
+116,161,16789,1,0,0:0:0:0:
+116,161,17421,1,8,0:0:0:0:
+116,161,17736,1,8,0:0:0:0:
+116,161,18052,1,0,0:0:0:0:
+116,161,18526,1,12,0:0:0:0:
+116,161,19157,1,12,0:0:0:0:
+116,161,19789,1,4,0:0:0:0:
+117,161,21210,1,4,0:0:0:0:
+142,133,21842,1,0,0:0:0:0:
+142,133,22473,1,8,0:0:0:0:
+142,133,22789,1,0,0:0:0:0:
+142,133,23105,1,8,0:0:0:0:
+142,133,23736,1,0,0:0:0:0:
+142,133,24368,1,8,0:0:0:0:
+142,133,24842,1,0,0:0:0:0:
+142,133,25315,1,0,0:0:0:0:
+142,133,25631,1,8,0:0:0:0:
+142,133,26263,1,12,0:0:0:0:
+256,192,26578,12,0,29065,0:0:0:0:
+160,192,29854,6,0,L|480:64,1,300

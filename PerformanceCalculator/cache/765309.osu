@@ -1,0 +1,90 @@
+osu file format v14
+
+[General]
+AudioFilename: 01. Setsuna no Kajitsu.mp3
+AudioLeadIn: 0
+PreviewTime: 139119
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 210555,215307
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 3.499999
+
+[Metadata]
+Title:Setsuna no Kajitsu
+TitleUnicode:刹那の果実
+Artist:Maon Kurosaki
+ArtistUnicode:黒崎真音
+Creator:Yasaija 714
+Version:Normal
+Source:グリザイアの楽園 - LE EDEN DE LA GRISAIA -
+Tags:grisaia no rakuen openig full a r i e
+BeatmapID:765309
+BeatmapSetID:330335
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:3
+OverallDifficulty:4
+ApproachRate:5
+SliderMultiplier:1.2
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Kazami Kazuki 1.png",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+727,368.098159509202,4,1,0,30,1,0
+2199,357.142857142857,4,1,0,40,1,0
+3627,337.078651685393,4,1,0,50,1,0
+4975,306.122448979592,4,1,0,60,1,0
+6199,297.029702970297,4,1,0,70,1,0
+62040,-100,4,1,0,70,0,1
+81050,-100,4,1,0,70,0,0
+139268,-100,4,1,0,70,0,1
+158278,-100,4,1,0,70,0,0
+220060,-100,4,1,0,70,0,1
+240258,-100,4,1,0,70,0,0
+
+
+[Colours]
+Combo1 : 192,192,192
+Combo2 : 0,0,64
+Combo3 : 128,0,64
+Combo4 : 255,255,128
+Combo5 : 255,128,255
+Combo6 : 204,102,0
+
+[HitObjects]
+64,140,727,6,0,P|128:128|192:132,1,120
+280,204,1463,2,0,P|336:208|416:180,1,120
+324,88,2199,6,0,P|280:76|208:108,2,120
+432,140,3270,1,0,0:0:0:0:
+440,256,3627,5,0,0:0:0:0:
+324,224,3964,2,0,P|288:224|208:264,1,120
+132,348,4638,1,0,0:0:0:0:
+264,328,4975,6,0,B|340:324|340:324|376:288,2,120
+264,328,5893,1,0,0:0:0:0:
+152,272,6199,6,0,P|96:136|168:96,1,240
+260,140,7090,1,0,0:0:0:0:
+360,76,7387,2,0,B|408:152|408:152|352:208|352:208|424:264|424:264|364:344,1,360
+244,328,8575,6,0,L|160:232,1,120
+100,136,9169,2,0,P|128:96|208:100,1,120
+194,91,9614,1,0,0:0:0:0:
+268,184,9911,6,0,P|304:256|300:300,1,120
+244,284,10357,2,0,L|180:244,1,60

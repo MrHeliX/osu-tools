@@ -1,0 +1,3213 @@
+osu file format v12
+
+[General]
+AudioFilename: tianwen.ogg
+AudioLeadIn: 0
+PreviewTime: 48756
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.4
+Mode: 3
+LetterboxInBreaks: 0
+
+[Editor]
+DistanceSpacing: 1.4
+BeatDivisor: 4
+GridSize: 8
+
+[Metadata]
+Title:Rhythmical Planet
+TitleUnicode:天文学
+Artist:masaki
+ArtistUnicode:masaki
+Creator:ljqandylee
+Version:Hard
+Source:vos
+Tags:tenmongaku tianwenxue canmusic luyuja
+BeatmapID:250315
+BeatmapSetID:82460
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:7
+OverallDifficulty:8
+ApproachRate:7
+SliderMultiplier:0.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"BG.jpg",0,0
+//Break Periods
+2,96363,101549
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+Sample,60700,0,"Industry Kick (2).wav",40
+Sample,60885,0,"Industry Kick (2).wav",40
+Sample,61348,0,"Industry Kick (2).wav",40
+Sample,61441,0,"Industry Kick (2).wav",40
+Sample,61626,0,"Industry Kick (2).wav",40
+Sample,61997,0,"Industry Kick (2).wav",40
+Sample,62182,0,"Industry Kick (2).wav",40
+Sample,62367,0,"Industry Kick (2).wav",40
+Sample,62830,0,"Industry Kick (2).wav",40
+Sample,62922,0,"Industry Kick (2).wav",40
+Sample,63108,0,"Industry Kick (2).wav",40
+Sample,63663,0,"Industry Kick (2).wav",40
+Sample,63848,0,"Industry Kick (2).wav",40
+Sample,64311,0,"Industry Kick (2).wav",40
+Sample,64404,0,"Industry Kick (2).wav",40
+Sample,64589,0,"Industry Kick (2).wav",40
+Sample,64959,0,"Industry Kick (2).wav",40
+Sample,65145,0,"Industry Kick (2).wav",40
+Sample,65330,0,"Industry Kick (2).wav",40
+Sample,65700,0,"Industry Kick (2).wav",40
+Sample,65885,0,"Industry Kick (2).wav",40
+Sample,66071,0,"Industry Kick (2).wav",40
+Sample,66626,0,"Industry Kick (2).wav",40
+Sample,66811,0,"Industry Kick (2).wav",40
+Sample,67274,0,"Industry Kick (2).wav",40
+Sample,67367,0,"Industry Kick (2).wav",40
+Sample,67552,0,"Industry Kick (2).wav",40
+Sample,67922,0,"Industry Kick (2).wav",40
+Sample,68108,0,"Industry Kick (2).wav",40
+Sample,68293,0,"Industry Kick (2).wav",40
+Sample,68756,0,"Industry Kick (2).wav",40
+Sample,68848,0,"Industry Kick (2).wav",40
+Sample,69034,0,"Industry Kick (2).wav",40
+Sample,69589,0,"Industry Kick (2).wav",40
+Sample,69774,0,"Industry Kick (2).wav",40
+Sample,70237,0,"Industry Kick (2).wav",40
+Sample,70330,0,"Industry Kick (2).wav",40
+Sample,70515,0,"Industry Kick (2).wav",40
+Sample,70885,0,"Industry Kick (2).wav",40
+Sample,71071,0,"Industry Kick (2).wav",40
+Sample,71256,0,"Industry Kick (2).wav",40
+Sample,71626,0,"Industry Kick (2).wav",40
+Sample,71811,0,"Industry Kick (2).wav",40
+Sample,71997,0,"Industry Kick (2).wav",40
+Sample,51534,0,"Bluezone-BD-snare-032.wav",40
+Sample,51719,0,"Bluezone-BD-snare-032.wav",40
+Sample,54126,0,"Bluezone-BD-snare-032.wav",40
+Sample,54497,0,"Bluezone-BD-snare-032.wav",40
+Sample,54682,0,"Bluezone-BD-snare-032.wav",40
+Sample,57459,0,"Bluezone-BD-snare-032.wav",40
+Sample,57645,0,"Bluezone-BD-snare-032.wav",40
+Sample,60608,0,"Bluezone-BD-snare-032.wav",40
+Sample,61071,0,"Bluezone-BD-snare-032.wav",40
+Sample,61811,0,"Bluezone-BD-snare-032.wav",40
+Sample,62552,0,"Bluezone-BD-snare-032.wav",40
+Sample,63293,0,"Bluezone-BD-snare-032.wav",40
+Sample,63385,0,"Bluezone-BD-snare-032.wav",40
+Sample,63478,0,"Bluezone-BD-snare-032.wav",40
+Sample,63571,0,"Bluezone-BD-snare-032.wav",40
+Sample,64034,0,"Bluezone-BD-snare-032.wav",40
+Sample,64774,0,"Bluezone-BD-snare-032.wav",40
+Sample,65515,0,"Bluezone-BD-snare-032.wav",40
+Sample,65793,0,"Bluezone-BD-snare-032.wav",40
+Sample,65978,0,"Bluezone-BD-snare-032.wav",40
+Sample,66256,0,"Bluezone-BD-snare-032.wav",40
+Sample,66348,0,"Bluezone-BD-snare-032.wav",40
+Sample,66441,0,"Bluezone-BD-snare-032.wav",40
+Sample,66534,0,"Bluezone-BD-snare-032.wav",40
+Sample,66997,0,"Bluezone-BD-snare-032.wav",40
+Sample,67737,0,"Bluezone-BD-snare-032.wav",40
+Sample,68478,0,"Bluezone-BD-snare-032.wav",40
+Sample,134965,0,"Industry Kick (2).wav",40
+Sample,135255,0,"Industry Kick (2).wav",40
+Sample,135546,0,"Industry Kick (2).wav",40
+Sample,135739,0,"Industry Kick (2).wav",40
+Sample,135933,0,"Industry Kick (2).wav",40
+Sample,136126,0,"Industry Kick (2).wav",40
+Sample,136320,0,"Industry Kick (2).wav",40
+Sample,136417,0,"Industry Kick (2).wav",40
+Sample,136514,0,"Industry Kick (2).wav",40
+Sample,136514,0,"Industry Kick (2).wav",40
+Sample,138062,0,"Industry Kick (2).wav",40
+Sample,138352,0,"Industry Kick (2).wav",40
+Sample,138643,0,"Industry Kick (2).wav",40
+Sample,138836,0,"Industry Kick (2).wav",40
+Sample,139030,0,"Industry Kick (2).wav",40
+Sample,139223,0,"Industry Kick (2).wav",40
+Sample,139417,0,"Industry Kick (2).wav",40
+Sample,139514,0,"Industry Kick (2).wav",40
+Sample,139610,0,"Industry Kick (2).wav",40
+Sample,141159,0,"Industry Kick (2).wav",40
+Sample,141449,0,"Industry Kick (2).wav",40
+Sample,141739,0,"Industry Kick (2).wav",40
+Sample,141933,0,"Industry Kick (2).wav",40
+Sample,142126,0,"Industry Kick (2).wav",40
+Sample,142320,0,"Industry Kick (2).wav",40
+Sample,142514,0,"Industry Kick (2).wav",40
+Sample,142610,0,"Industry Kick (2).wav",40
+Sample,142707,0,"Industry Kick (2).wav",40
+Sample,13293,0,"soft-hitfinish.wav",40
+Sample,13293,0,"Industry Kick (2).wav",40
+Sample,13478,0,"soft-hitfinish.wav",40
+Sample,13478,0,"Industry Kick (2).wav",40
+Sample,14034,0,"soft-hitfinish.wav",40
+Sample,14034,0,"Industry Kick (2).wav",40
+Sample,14219,0,"soft-hitfinish.wav",40
+Sample,14219,0,"Industry Kick (2).wav",40
+Sample,14774,0,"soft-hitfinish.wav",40
+Sample,14774,0,"Industry Kick (2).wav",40
+Sample,14959,0,"soft-hitfinish.wav",40
+Sample,14959,0,"Industry Kick (2).wav",40
+Sample,15515,0,"soft-hitfinish.wav",40
+Sample,15515,0,"Industry Kick (2).wav",40
+Sample,15885,0,"soft-hitfinish.wav",40
+Sample,15885,0,"Industry Kick (2).wav",40
+Sample,16071,0,"Industry Kick (2).wav",40
+Sample,16163,0,"Industry Kick (2).wav",40
+Sample,16256,0,"Industry Kick (2).wav",40
+Sample,16256,0,"soft-hitfinish.wav",40
+Sample,16441,0,"Industry Kick (2).wav",40
+Sample,16441,0,"soft-hitfinish.wav",40
+Sample,16997,0,"Industry Kick (2).wav",40
+Sample,16997,0,"soft-hitfinish.wav",40
+Sample,17182,0,"Industry Kick (2).wav",40
+Sample,17182,0,"soft-hitfinish.wav",40
+Sample,17737,0,"Industry Kick (2).wav",40
+Sample,17737,0,"soft-hitfinish.wav",40
+Sample,17922,0,"Industry Kick (2).wav",40
+Sample,17922,0,"soft-hitfinish.wav",40
+Sample,18478,0,"Industry Kick (2).wav",40
+Sample,18478,0,"soft-hitfinish.wav",40
+Sample,18848,0,"Industry Kick (2).wav",40
+Sample,18848,0,"soft-hitfinish.wav",40
+Sample,19034,0,"Industry Kick (2).wav",40
+Sample,19126,0,"Industry Kick (2).wav",40
+Sample,19219,0,"Industry Kick (2).wav",40
+Sample,19219,0,"soft-hitfinish.wav",40
+Sample,19404,0,"Industry Kick (2).wav",40
+Sample,19404,0,"soft-hitfinish.wav",40
+Sample,19959,0,"Industry Kick (2).wav",40
+Sample,19959,0,"soft-hitfinish.wav",40
+Sample,20145,0,"Industry Kick (2).wav",40
+Sample,20145,0,"soft-hitfinish.wav",40
+Sample,20700,0,"Industry Kick (2).wav",40
+Sample,20700,0,"soft-hitfinish.wav",40
+Sample,20885,0,"Industry Kick (2).wav",40
+Sample,20885,0,"soft-hitfinish.wav",40
+Sample,21441,0,"Industry Kick (2).wav",40
+Sample,21441,0,"soft-hitfinish.wav",40
+Sample,21626,0,"Industry Kick (2).wav",40
+Sample,21626,0,"soft-hitfinish.wav",40
+Sample,21811,0,"Industry Kick (2).wav",40
+Sample,21997,0,"Industry Kick (2).wav",40
+Sample,22089,0,"Industry Kick (2).wav",40
+Sample,22182,0,"Industry Kick (2).wav",40
+Sample,22182,0,"soft-hitfinish.wav",40
+Sample,22367,0,"Industry Kick (2).wav",40
+Sample,22367,0,"soft-hitfinish.wav",40
+Sample,22922,0,"Industry Kick (2).wav",40
+Sample,22922,0,"soft-hitfinish.wav",40
+Sample,23108,0,"Industry Kick (2).wav",40
+Sample,23108,0,"soft-hitfinish.wav",40
+Sample,23663,0,"Industry Kick (2).wav",40
+Sample,23663,0,"soft-hitfinish.wav",40
+Sample,23848,0,"Industry Kick (2).wav",40
+Sample,23848,0,"soft-hitfinish.wav",40
+Sample,24404,0,"Industry Kick (2).wav",40
+Sample,24404,0,"soft-hitfinish.wav",40
+Sample,24589,0,"Industry Kick (2).wav",40
+Sample,24589,0,"soft-hitfinish.wav",40
+Sample,24774,0,"Bluezone-BD-snare-032.wav",40
+Sample,24867,0,"Bluezone-BD-snare-032.wav",40
+Sample,24959,0,"Bluezone-BD-snare-032.wav",40
+Sample,25052,0,"Bluezone-BD-snare-032.wav",40
+Sample,25145,0,"Industry Kick (2).wav",40
+Sample,25145,0,"soft-hitfinish.wav",40
+Sample,25330,0,"Industry Kick (2).wav",40
+Sample,25515,0,"Bluezone-BD-snare-032.wav",40
+Sample,25793,0,"Industry Kick (2).wav",40
+Sample,25885,0,"Industry Kick (2).wav",40
+Sample,26071,0,"Industry Kick (2).wav",40
+Sample,26256,0,"Bluezone-BD-snare-032.wav",40
+Sample,26441,0,"Industry Kick (2).wav",40
+Sample,26626,0,"Industry Kick (2).wav",40
+Sample,26811,0,"Industry Kick (2).wav",40
+Sample,26997,0,"Bluezone-BD-snare-032.wav",40
+Sample,27274,0,"Industry Kick (2).wav",40
+Sample,27367,0,"Industry Kick (2).wav",40
+Sample,27552,0,"Industry Kick (2).wav",40
+Sample,27737,0,"Bluezone-BD-snare-032.wav",40
+Sample,27830,0,"Bluezone-BD-snare-032.wav",40
+Sample,27922,0,"Bluezone-BD-snare-032.wav",40
+Sample,28015,0,"Bluezone-BD-snare-032.wav",40
+Sample,28108,0,"Industry Kick (2).wav",40
+Sample,28293,0,"Industry Kick (2).wav",40
+Sample,28478,0,"Bluezone-BD-snare-032.wav",40
+Sample,28756,0,"Industry Kick (2).wav",40
+Sample,28848,0,"Industry Kick (2).wav",40
+Sample,29034,0,"Industry Kick (2).wav",40
+Sample,29219,0,"Bluezone-BD-snare-032.wav",40
+Sample,29404,0,"Industry Kick (2).wav",40
+Sample,29589,0,"Industry Kick (2).wav",40
+Sample,29774,0,"Industry Kick (2).wav",40
+Sample,29959,0,"Bluezone-BD-snare-032.wav",40
+Sample,30145,0,"Industry Kick (2).wav",40
+Sample,30237,0,"Bluezone-BD-snare-032.wav",40
+Sample,30330,0,"Industry Kick (2).wav",40
+Sample,30422,0,"Bluezone-BD-snare-032.wav",40
+Sample,30515,0,"Industry Kick (2).wav",40
+Sample,30700,0,"Bluezone-BD-snare-032.wav",40
+Sample,30793,0,"Bluezone-BD-snare-032.wav",40
+Sample,30885,0,"Bluezone-BD-snare-032.wav",40
+Sample,30978,0,"Bluezone-BD-snare-032.wav",40
+Sample,31071,0,"Industry Kick (2).wav",40
+Sample,31071,0,"soft-hitfinish.wav",40
+Sample,31256,0,"Industry Kick (2).wav",40
+Sample,31441,0,"Bluezone-BD-snare-032.wav",40
+Sample,31811,0,"Industry Kick (2).wav",40
+Sample,31997,0,"Industry Kick (2).wav",40
+Sample,32182,0,"Bluezone-BD-snare-032.wav",40
+Sample,32367,0,"Industry Kick (2).wav",40
+Sample,32552,0,"Industry Kick (2).wav",40
+Sample,32737,0,"Industry Kick (2).wav",40
+Sample,32922,0,"Bluezone-BD-snare-032.wav",40
+Sample,33200,0,"Industry Kick (2).wav",40
+Sample,33293,0,"Industry Kick (2).wav",40
+Sample,33478,0,"Industry Kick (2).wav",40
+Sample,33663,0,"Bluezone-BD-snare-032.wav",40
+Sample,33756,0,"Bluezone-BD-snare-032.wav",40
+Sample,33848,0,"Bluezone-BD-snare-032.wav",40
+Sample,33941,0,"Bluezone-BD-snare-032.wav",40
+Sample,34034,0,"Industry Kick (2).wav",40
+Sample,34219,0,"Industry Kick (2).wav",40
+Sample,34404,0,"Bluezone-BD-snare-032.wav",40
+Sample,34682,0,"Industry Kick (2).wav",40
+Sample,34774,0,"Industry Kick (2).wav",40
+Sample,34959,0,"Industry Kick (2).wav",40
+Sample,35145,0,"Bluezone-BD-snare-032.wav",40
+Sample,35330,0,"Industry Kick (2).wav",40
+Sample,35515,0,"Industry Kick (2).wav",40
+Sample,35700,0,"Industry Kick (2).wav",40
+Sample,35885,0,"Bluezone-BD-snare-032.wav",40
+Sample,36071,0,"Industry Kick (2).wav",40
+Sample,36163,0,"Bluezone-BD-snare-032.wav",40
+Sample,36256,0,"Industry Kick (2).wav",40
+Sample,36348,0,"Bluezone-BD-snare-032.wav",40
+Sample,36441,0,"Industry Kick (2).wav",40
+Sample,36626,0,"Bluezone-BD-snare-032.wav",40
+Sample,36719,0,"Bluezone-BD-snare-032.wav",40
+Sample,36811,0,"Bluezone-BD-snare-032.wav",40
+Sample,36904,0,"Bluezone-BD-snare-032.wav",40
+Sample,36997,0,"Industry Kick (2).wav",40
+Sample,36997,0,"soft-hitfinish.wav",40
+Sample,37367,0,"Bluezone-BD-snare-032.wav",40
+Sample,37737,0,"Industry Kick (2).wav",40
+Sample,37922,0,"Industry Kick (2).wav",40
+Sample,38108,0,"Bluezone-BD-snare-032.wav",40
+Sample,38293,0,"Industry Kick (2).wav",40
+Sample,38478,0,"Industry Kick (2).wav",40
+Sample,38848,0,"Bluezone-BD-snare-032.wav",40
+Sample,39126,0,"Industry Kick (2).wav",40
+Sample,39219,0,"Industry Kick (2).wav",40
+Sample,39589,0,"Bluezone-BD-snare-032.wav",40
+Sample,39682,0,"Bluezone-BD-snare-032.wav",40
+Sample,39774,0,"Bluezone-BD-snare-032.wav",40
+Sample,39867,0,"Bluezone-BD-snare-032.wav",40
+Sample,39959,0,"Industry Kick (2).wav",40
+Sample,40145,0,"Industry Kick (2).wav",40
+Sample,40330,0,"Bluezone-BD-snare-032.wav",40
+Sample,40608,0,"Industry Kick (2).wav",40
+Sample,40700,0,"Industry Kick (2).wav",40
+Sample,40885,0,"Industry Kick (2).wav",40
+Sample,41071,0,"Bluezone-BD-snare-032.wav",40
+Sample,41256,0,"Industry Kick (2).wav",40
+Sample,41441,0,"Industry Kick (2).wav",40
+Sample,41626,0,"Industry Kick (2).wav",40
+Sample,41811,0,"Bluezone-BD-snare-032.wav",40
+Sample,41997,0,"Industry Kick (2).wav",40
+Sample,42089,0,"Bluezone-BD-snare-032.wav",40
+Sample,42182,0,"Industry Kick (2).wav",40
+Sample,42274,0,"Bluezone-BD-snare-032.wav",40
+Sample,42367,0,"Industry Kick (2).wav",40
+Sample,42552,0,"Bluezone-BD-snare-032.wav",40
+Sample,42645,0,"Bluezone-BD-snare-032.wav",40
+Sample,42737,0,"Bluezone-BD-snare-032.wav",40
+Sample,42830,0,"Bluezone-BD-snare-032.wav",40
+Sample,42922,0,"Industry Kick (2).wav",40
+Sample,42922,0,"soft-hitfinish.wav",40
+Sample,43108,0,"Industry Kick (2).wav",40
+Sample,43293,0,"Bluezone-BD-snare-032.wav",40
+Sample,43571,0,"Industry Kick (2).wav",40
+Sample,43663,0,"Industry Kick (2).wav",40
+Sample,43848,0,"Industry Kick (2).wav",40
+Sample,44034,0,"Bluezone-BD-snare-032.wav",40
+Sample,44219,0,"Industry Kick (2).wav",40
+Sample,44404,0,"Industry Kick (2).wav",40
+Sample,44589,0,"Industry Kick (2).wav",40
+Sample,45052,0,"Industry Kick (2).wav",40
+Sample,45145,0,"Industry Kick (2).wav",40
+Sample,45330,0,"Industry Kick (2).wav",40
+Sample,45515,0,"Bluezone-BD-snare-032.wav",40
+Sample,45608,0,"Bluezone-BD-snare-032.wav",40
+Sample,45700,0,"Bluezone-BD-snare-032.wav",40
+Sample,45793,0,"Bluezone-BD-snare-032.wav",40
+Sample,45885,0,"Industry Kick (2).wav",40
+Sample,46071,0,"Industry Kick (2).wav",40
+Sample,46256,0,"Bluezone-BD-snare-032.wav",40
+Sample,46534,0,"Industry Kick (2).wav",40
+Sample,46626,0,"Industry Kick (2).wav",40
+Sample,46811,0,"Industry Kick (2).wav",40
+Sample,46997,0,"Bluezone-BD-snare-032.wav",40
+Sample,47182,0,"Industry Kick (2).wav",40
+Sample,47367,0,"Industry Kick (2).wav",40
+Sample,47552,0,"Industry Kick (2).wav",40
+Sample,47737,0,"Bluezone-BD-snare-032.wav",40
+Sample,47922,0,"Industry Kick (2).wav",40
+Sample,48015,0,"Bluezone-BD-snare-032.wav",40
+Sample,48108,0,"Industry Kick (2).wav",40
+Sample,48200,0,"Bluezone-BD-snare-032.wav",40
+Sample,48293,0,"Industry Kick (2).wav",40
+Sample,48848,0,"Industry Kick (2).wav",40
+Sample,48848,0,"soft-hitfinish.wav",40
+Sample,49034,0,"Industry Kick (2).wav",40
+Sample,49219,0,"Bluezone-BD-snare-032.wav",40
+Sample,49497,0,"Industry Kick (2).wav",40
+Sample,49589,0,"Industry Kick (2).wav",40
+Sample,49774,0,"Industry Kick (2).wav",40
+Sample,49959,0,"Bluezone-BD-snare-032.wav",40
+Sample,50145,0,"Industry Kick (2).wav",40
+Sample,50330,0,"Industry Kick (2).wav",40
+Sample,50515,0,"Industry Kick (2).wav",40
+Sample,50700,0,"Bluezone-BD-snare-032.wav",40
+Sample,50978,0,"Industry Kick (2).wav",40
+Sample,51071,0,"Industry Kick (2).wav",40
+Sample,51256,0,"Industry Kick (2).wav",40
+Sample,51441,0,"Bluezone-BD-snare-032.wav",40
+Sample,51626,0,"Bluezone-BD-snare-032.wav",40
+Sample,51811,0,"Industry Kick (2).wav",40
+Sample,51997,0,"Industry Kick (2).wav",40
+Sample,52182,0,"Bluezone-BD-snare-032.wav",40
+Sample,52459,0,"Industry Kick (2).wav",40
+Sample,52552,0,"Industry Kick (2).wav",40
+Sample,52737,0,"Industry Kick (2).wav",40
+Sample,52922,0,"Bluezone-BD-snare-032.wav",40
+Sample,53108,0,"Industry Kick (2).wav",40
+Sample,53293,0,"Industry Kick (2).wav",40
+Sample,53478,0,"Industry Kick (2).wav",40
+Sample,53663,0,"Bluezone-BD-snare-032.wav",40
+Sample,53848,0,"Industry Kick (2).wav",40
+Sample,53941,0,"Bluezone-BD-snare-032.wav",40
+Sample,54034,0,"Industry Kick (2).wav",40
+Sample,54219,0,"Industry Kick (2).wav",40
+Sample,54404,0,"Bluezone-BD-snare-032.wav",40
+Sample,54589,0,"Bluezone-BD-snare-032.wav",40
+Sample,54774,0,"Industry Kick (2).wav",40
+Sample,54774,0,"soft-hitfinish.wav",40
+Sample,54959,0,"Industry Kick (2).wav",40
+Sample,55145,0,"Bluezone-BD-snare-032.wav",40
+Sample,55422,0,"Industry Kick (2).wav",40
+Sample,55515,0,"Industry Kick (2).wav",40
+Sample,55700,0,"Industry Kick (2).wav",40
+Sample,55885,0,"Bluezone-BD-snare-032.wav",40
+Sample,56071,0,"Industry Kick (2).wav",40
+Sample,56256,0,"Industry Kick (2).wav",40
+Sample,56441,0,"Industry Kick (2).wav",40
+Sample,56626,0,"Bluezone-BD-snare-032.wav",40
+Sample,56904,0,"Industry Kick (2).wav",40
+Sample,56997,0,"Industry Kick (2).wav",40
+Sample,57182,0,"Industry Kick (2).wav",40
+Sample,57367,0,"Bluezone-BD-snare-032.wav",40
+Sample,57552,0,"Bluezone-BD-snare-032.wav",40
+Sample,57737,0,"Industry Kick (2).wav",40
+Sample,57922,0,"Industry Kick (2).wav",40
+Sample,58108,0,"Bluezone-BD-snare-032.wav",40
+Sample,58385,0,"Industry Kick (2).wav",40
+Sample,58478,0,"Industry Kick (2).wav",40
+Sample,58663,0,"Industry Kick (2).wav",40
+Sample,58848,0,"Bluezone-BD-snare-032.wav",40
+Sample,59034,0,"Industry Kick (2).wav",40
+Sample,59219,0,"Industry Kick (2).wav",40
+Sample,59404,0,"Industry Kick (2).wav",40
+Sample,59589,0,"Bluezone-BD-snare-032.wav",40
+Sample,59774,0,"Bluezone-BD-snare-032.wav",40
+Sample,59959,0,"Industry Kick (2).wav",40
+Sample,60052,0,"Bluezone-BD-snare-032.wav",40
+Sample,60145,0,"Industry Kick (2).wav",40
+Sample,60330,0,"Bluezone-BD-snare-032.wav",40
+Sample,60422,0,"Bluezone-BD-snare-032.wav",40
+Sample,60515,0,"Bluezone-BD-snare-032.wav",40
+Sample,60700,0,"Industry Kick (2).wav",40
+Sample,60700,0,"soft-hitfinish.wav",40
+Sample,39404,0,"Industry Kick (2).wav",40
+Sample,37182,0,"Industry Kick (2).wav",40
+Sample,38663,0,"Industry Kick (2).wav",40
+Sample,44774,0,"Bluezone-BD-snare-032.wav",40
+Sample,48571,0,"Bluezone-BD-snare-032.wav",40
+Sample,48663,0,"Bluezone-BD-snare-032.wav",40
+Sample,48756,0,"Bluezone-BD-snare-032.wav",40
+Sample,48478,0,"Bluezone-BD-snare-032.wav",40
+Sample,69219,0,"Bluezone-BD-snare-032.wav",40
+Sample,69311,0,"Bluezone-BD-snare-032.wav",40
+Sample,69404,0,"Bluezone-BD-snare-032.wav",40
+Sample,69497,0,"Bluezone-BD-snare-032.wav",40
+Sample,69959,0,"Bluezone-BD-snare-032.wav",40
+Sample,70700,0,"Bluezone-BD-snare-032.wav",40
+Sample,71441,0,"Bluezone-BD-snare-032.wav",40
+Sample,71719,0,"Bluezone-BD-snare-032.wav",40
+Sample,71904,0,"Bluezone-BD-snare-032.wav",40
+Sample,72182,0,"Bluezone-BD-snare-032.wav",40
+Sample,72274,0,"Bluezone-BD-snare-032.wav",40
+Sample,72367,0,"Bluezone-BD-snare-032.wav",40
+Sample,72459,0,"Bluezone-BD-snare-032.wav",40
+Sample,90145,0,"Industry Kick (2).wav",40
+Sample,90330,0,"Industry Kick (2).wav",40
+Sample,94034,0,"Bluezone-BD-snare-032.wav",40
+Sample,94126,0,"Bluezone-BD-snare-032.wav",40
+Sample,94219,0,"Bluezone-BD-snare-032.wav",40
+Sample,94311,0,"Bluezone-BD-snare-032.wav",40
+Sample,94404,0,"Bluezone-BD-snare-032.wav",40
+Sample,94497,0,"Bluezone-BD-snare-032.wav",40
+Sample,94589,0,"Bluezone-BD-snare-032.wav",40
+Sample,94682,0,"Bluezone-BD-snare-032.wav",40
+Sample,94774,0,"Bluezone-BD-snare-032.wav",40
+Sample,94821,0,"Bluezone-BD-snare-032.wav",40
+Sample,94867,0,"Bluezone-BD-snare-032.wav",40
+Sample,94913,0,"Bluezone-BD-snare-032.wav",40
+Sample,94959,0,"Bluezone-BD-snare-032.wav",40
+Sample,95006,0,"Bluezone-BD-snare-032.wav",40
+Sample,95052,0,"Bluezone-BD-snare-032.wav",40
+Sample,95098,0,"Bluezone-BD-snare-032.wav",40
+Sample,95145,0,"Bluezone-BD-snare-032.wav",40
+Sample,95237,0,"Bluezone-BD-snare-032.wav",40
+Sample,95330,0,"Bluezone-BD-snare-032.wav",40
+Sample,95422,0,"Bluezone-BD-snare-032.wav",40
+Sample,95515,0,"Bluezone-BD-snare-032.wav",40
+Sample,95561,0,"Bluezone-BD-snare-032.wav",40
+Sample,95608,0,"Bluezone-BD-snare-032.wav",40
+Sample,95654,0,"Bluezone-BD-snare-032.wav",40
+Sample,95700,0,"Bluezone-BD-snare-032.wav",40
+Sample,95747,0,"Bluezone-BD-snare-032.wav",40
+Sample,95793,0,"Bluezone-BD-snare-032.wav",40
+Sample,95839,0,"Bluezone-BD-snare-032.wav",40
+Sample,95885,0,"Bluezone-BD-snare-032.wav",40
+Sample,95978,0,"Bluezone-BD-snare-032.wav",40
+Sample,96071,0,"Bluezone-BD-snare-032.wav",40
+Sample,96163,0,"Bluezone-BD-snare-032.wav",40
+Sample,92552,0,"Bluezone-BD-snare-032.wav",20
+Sample,92645,0,"Bluezone-BD-snare-032.wav",20
+Sample,92737,0,"Bluezone-BD-snare-032.wav",20
+Sample,92830,0,"Bluezone-BD-snare-032.wav",20
+Sample,92922,0,"Bluezone-BD-snare-032.wav",20
+Sample,93015,0,"Bluezone-BD-snare-032.wav",20
+Sample,93108,0,"Bluezone-BD-snare-032.wav",20
+Sample,93200,0,"Bluezone-BD-snare-032.wav",20
+Sample,93293,0,"Bluezone-BD-snare-032.wav",25
+Sample,93385,0,"Bluezone-BD-snare-032.wav",30
+Sample,93478,0,"Bluezone-BD-snare-032.wav",35
+Sample,93571,0,"Bluezone-BD-snare-032.wav",40
+Sample,93663,0,"Bluezone-BD-snare-032.wav",40
+Sample,93756,0,"Bluezone-BD-snare-032.wav",40
+Sample,93848,0,"Bluezone-BD-snare-032.wav",40
+Sample,93941,0,"Bluezone-BD-snare-032.wav",40
+Sample,102449,0,"Industry Kick (2).wav",40
+Sample,102836,0,"Industry Kick (2).wav",40
+Sample,103223,0,"Industry Kick (2).wav",40
+Sample,103610,0,"Industry Kick (2).wav",40
+Sample,103997,0,"Industry Kick (2).wav",40
+Sample,104288,0,"Industry Kick (2).wav",40
+Sample,104578,0,"Industry Kick (2).wav",40
+Sample,104772,0,"Industry Kick (2).wav",40
+Sample,104965,0,"Industry Kick (2).wav",40
+Sample,105159,0,"Industry Kick (2).wav",40
+Sample,105352,0,"Industry Kick (2).wav",40
+Sample,105449,0,"Industry Kick (2).wav",40
+Sample,105546,0,"Industry Kick (2).wav",40
+Sample,105933,0,"Industry Kick (2).wav",40
+Sample,106320,0,"Industry Kick (2).wav",40
+Sample,106707,0,"Industry Kick (2).wav",40
+Sample,107094,0,"Industry Kick (2).wav",40
+Sample,107385,0,"Industry Kick (2).wav",40
+Sample,107675,0,"Industry Kick (2).wav",40
+Sample,107868,0,"Industry Kick (2).wav",40
+Sample,108062,0,"Industry Kick (2).wav",40
+Sample,108255,0,"Industry Kick (2).wav",40
+Sample,108449,0,"Industry Kick (2).wav",40
+Sample,108546,0,"Industry Kick (2).wav",40
+Sample,108643,0,"Industry Kick (2).wav",40
+Sample,108836,0,"Bluezone-BD-snare-032.wav",40
+Sample,109030,0,"Industry Kick (2).wav",40
+Sample,109223,0,"Bluezone-BD-snare-032.wav",40
+Sample,109417,0,"Industry Kick (2).wav",40
+Sample,109610,0,"Bluezone-BD-snare-032.wav",40
+Sample,109804,0,"Industry Kick (2).wav",40
+Sample,109997,0,"Bluezone-BD-snare-032.wav",40
+Sample,110191,0,"Industry Kick (2).wav",40
+Sample,110385,0,"Bluezone-BD-snare-032.wav",40
+Sample,110481,0,"Industry Kick (2).wav",40
+Sample,110772,0,"Industry Kick (2).wav",40
+Sample,110772,0,"Bluezone-BD-snare-032.wav",40
+Sample,110965,0,"Industry Kick (2).wav",40
+Sample,111159,0,"Industry Kick (2).wav",40
+Sample,111159,0,"Bluezone-BD-snare-032.wav",40
+Sample,111352,0,"Industry Kick (2).wav",40
+Sample,111546,0,"Industry Kick (2).wav",40
+Sample,111546,0,"Bluezone-BD-snare-032.wav",40
+Sample,111643,0,"Industry Kick (2).wav",40
+Sample,111739,0,"Industry Kick (2).wav",40
+Sample,111933,0,"Bluezone-BD-snare-032.wav",40
+Sample,112126,0,"Industry Kick (2).wav",40
+Sample,112320,0,"Bluezone-BD-snare-032.wav",40
+Sample,112514,0,"Industry Kick (2).wav",40
+Sample,112707,0,"Bluezone-BD-snare-032.wav",40
+Sample,112901,0,"Industry Kick (2).wav",40
+Sample,113094,0,"Bluezone-BD-snare-032.wav",40
+Sample,113288,0,"Industry Kick (2).wav",40
+Sample,113481,0,"Bluezone-BD-snare-032.wav",40
+Sample,113578,0,"Industry Kick (2).wav",40
+Sample,113868,0,"Industry Kick (2).wav",40
+Sample,113868,0,"Bluezone-BD-snare-032.wav",40
+Sample,114062,0,"Industry Kick (2).wav",40
+Sample,114255,0,"Industry Kick (2).wav",40
+Sample,114255,0,"Bluezone-BD-snare-032.wav",40
+Sample,114449,0,"Industry Kick (2).wav",40
+Sample,114643,0,"Industry Kick (2).wav",40
+Sample,114643,0,"Bluezone-BD-snare-032.wav",40
+Sample,114739,0,"Industry Kick (2).wav",40
+Sample,114836,0,"Industry Kick (2).wav",40
+Sample,115030,0,"Bluezone-BD-snare-032.wav",40
+Sample,115223,0,"Industry Kick (2).wav",40
+Sample,115417,0,"Bluezone-BD-snare-032.wav",40
+Sample,115610,0,"Industry Kick (2).wav",40
+Sample,115804,0,"Bluezone-BD-snare-032.wav",40
+Sample,115997,0,"Industry Kick (2).wav",40
+Sample,116191,0,"Bluezone-BD-snare-032.wav",40
+Sample,116385,0,"Industry Kick (2).wav",40
+Sample,116578,0,"Bluezone-BD-snare-032.wav",40
+Sample,116675,0,"Industry Kick (2).wav",40
+Sample,116965,0,"Industry Kick (2).wav",40
+Sample,116965,0,"Bluezone-BD-snare-032.wav",40
+Sample,117159,0,"Industry Kick (2).wav",40
+Sample,117352,0,"Industry Kick (2).wav",40
+Sample,117352,0,"Bluezone-BD-snare-032.wav",40
+Sample,117546,0,"Industry Kick (2).wav",40
+Sample,117739,0,"Industry Kick (2).wav",40
+Sample,117739,0,"Bluezone-BD-snare-032.wav",40
+Sample,117836,0,"Industry Kick (2).wav",40
+Sample,117933,0,"Industry Kick (2).wav",40
+Sample,118126,0,"Bluezone-BD-snare-032.wav",40
+Sample,118320,0,"Industry Kick (2).wav",40
+Sample,118514,0,"Bluezone-BD-snare-032.wav",40
+Sample,118707,0,"Industry Kick (2).wav",40
+Sample,118901,0,"Bluezone-BD-snare-032.wav",40
+Sample,119094,0,"Industry Kick (2).wav",40
+Sample,119288,0,"Bluezone-BD-snare-032.wav",40
+Sample,119481,0,"Industry Kick (2).wav",40
+Sample,119675,0,"Bluezone-BD-snare-032.wav",40
+Sample,119772,0,"Industry Kick (2).wav",40
+Sample,120062,0,"Industry Kick (2).wav",40
+Sample,120062,0,"Bluezone-BD-snare-032.wav",40
+Sample,120255,0,"Industry Kick (2).wav",40
+Sample,120449,0,"Industry Kick (2).wav",40
+Sample,120449,0,"Bluezone-BD-snare-032.wav",40
+Sample,120643,0,"Industry Kick (2).wav",40
+Sample,120836,0,"Industry Kick (2).wav",40
+Sample,120836,0,"Bluezone-BD-snare-032.wav",40
+Sample,120933,0,"Industry Kick (2).wav",40
+Sample,121030,0,"Industry Kick (2).wav",40
+Sample,121223,0,"Bluezone-BD-snare-032.wav",40
+Sample,121417,0,"Industry Kick (2).wav",40
+Sample,121610,0,"Bluezone-BD-snare-032.wav",40
+Sample,121804,0,"Industry Kick (2).wav",40
+Sample,121997,0,"Bluezone-BD-snare-032.wav",40
+Sample,122191,0,"Industry Kick (2).wav",40
+Sample,122385,0,"Bluezone-BD-snare-032.wav",40
+Sample,122578,0,"Industry Kick (2).wav",40
+Sample,122772,0,"Bluezone-BD-snare-032.wav",40
+Sample,122868,0,"Industry Kick (2).wav",40
+Sample,123159,0,"Industry Kick (2).wav",40
+Sample,123159,0,"Bluezone-BD-snare-032.wav",40
+Sample,123352,0,"Industry Kick (2).wav",40
+Sample,123546,0,"Industry Kick (2).wav",40
+Sample,123546,0,"Bluezone-BD-snare-032.wav",40
+Sample,123739,0,"Industry Kick (2).wav",40
+Sample,123933,0,"Industry Kick (2).wav",40
+Sample,123933,0,"Bluezone-BD-snare-032.wav",40
+Sample,124030,0,"Industry Kick (2).wav",40
+Sample,124126,0,"Industry Kick (2).wav",40
+Sample,124514,0,"Industry Kick (2).wav",40
+Sample,124901,0,"Industry Kick (2).wav",40
+Sample,125288,0,"Industry Kick (2).wav",40
+Sample,125675,0,"Industry Kick (2).wav",40
+Sample,125965,0,"Industry Kick (2).wav",40
+Sample,126255,0,"Industry Kick (2).wav",40
+Sample,126449,0,"Industry Kick (2).wav",40
+Sample,126643,0,"Industry Kick (2).wav",40
+Sample,126836,0,"Industry Kick (2).wav",40
+Sample,127030,0,"Industry Kick (2).wav",40
+Sample,127126,0,"Industry Kick (2).wav",40
+Sample,127223,0,"Industry Kick (2).wav",40
+Sample,127417,0,"Bluezone-BD-snare-032.wav",40
+Sample,127610,0,"Industry Kick (2).wav",40
+Sample,127804,0,"Bluezone-BD-snare-032.wav",40
+Sample,127997,0,"Industry Kick (2).wav",40
+Sample,128191,0,"Bluezone-BD-snare-032.wav",40
+Sample,128385,0,"Industry Kick (2).wav",40
+Sample,128578,0,"Bluezone-BD-snare-032.wav",40
+Sample,128772,0,"Industry Kick (2).wav",40
+Sample,128965,0,"Bluezone-BD-snare-032.wav",40
+Sample,129062,0,"Industry Kick (2).wav",40
+Sample,129352,0,"Industry Kick (2).wav",40
+Sample,129352,0,"Bluezone-BD-snare-032.wav",40
+Sample,129546,0,"Industry Kick (2).wav",40
+Sample,129739,0,"Industry Kick (2).wav",40
+Sample,129739,0,"Bluezone-BD-snare-032.wav",40
+Sample,129933,0,"Industry Kick (2).wav",40
+Sample,130126,0,"Industry Kick (2).wav",40
+Sample,130126,0,"Bluezone-BD-snare-032.wav",40
+Sample,130223,0,"Industry Kick (2).wav",40
+Sample,130320,0,"Industry Kick (2).wav",40
+Sample,130514,0,"Bluezone-BD-snare-032.wav",40
+Sample,130707,0,"Industry Kick (2).wav",40
+Sample,130901,0,"Bluezone-BD-snare-032.wav",40
+Sample,131094,0,"Industry Kick (2).wav",40
+Sample,131288,0,"Bluezone-BD-snare-032.wav",40
+Sample,131481,0,"Industry Kick (2).wav",40
+Sample,131675,0,"Bluezone-BD-snare-032.wav",40
+Sample,131868,0,"Industry Kick (2).wav",40
+Sample,132062,0,"Bluezone-BD-snare-032.wav",40
+Sample,132159,0,"Industry Kick (2).wav",40
+Sample,132449,0,"Industry Kick (2).wav",40
+Sample,132449,0,"Bluezone-BD-snare-032.wav",40
+Sample,132643,0,"Industry Kick (2).wav",40
+Sample,132836,0,"Industry Kick (2).wav",40
+Sample,132836,0,"Bluezone-BD-snare-032.wav",40
+Sample,133030,0,"Industry Kick (2).wav",40
+Sample,133223,0,"Industry Kick (2).wav",40
+Sample,133223,0,"Bluezone-BD-snare-032.wav",40
+Sample,133320,0,"Industry Kick (2).wav",40
+Sample,133417,0,"Industry Kick (2).wav",40
+Sample,124320,0,"Bluezone-BD-snare-032.wav",40
+Sample,125094,0,"Bluezone-BD-snare-032.wav",40
+Sample,125481,0,"Bluezone-BD-snare-032.wav",40
+Sample,126255,0,"Bluezone-BD-snare-032.wav",40
+Sample,126643,0,"Bluezone-BD-snare-032.wav",40
+Sample,127030,0,"Bluezone-BD-snare-032.wav",40
+Sample,144255,0,"Industry Kick (2).wav",40
+Sample,144546,0,"Industry Kick (2).wav",40
+Sample,144836,0,"Industry Kick (2).wav",40
+Sample,145030,0,"Industry Kick (2).wav",40
+Sample,145223,0,"Industry Kick (2).wav",40
+Sample,145417,0,"Industry Kick (2).wav",40
+Sample,145610,0,"Industry Kick (2).wav",40
+Sample,145707,0,"Industry Kick (2).wav",40
+Sample,164798,0,"soft-hitfinish.wav",40
+Sample,164798,0,"Industry Kick (2).wav",40
+Sample,165180,0,"Bluezone-BD-snare-032.wav",40
+Sample,165753,0,"Industry Kick (2).wav",40
+Sample,165944,0,"Bluezone-BD-snare-032.wav",40
+Sample,166326,0,"soft-hitfinish.wav",40
+Sample,166326,0,"Industry Kick (2).wav",40
+Sample,166708,0,"Bluezone-BD-snare-032.wav",40
+Sample,167282,0,"Industry Kick (2).wav",40
+Sample,167473,0,"Bluezone-BD-snare-032.wav",40
+Sample,167855,0,"soft-hitfinish.wav",40
+Sample,167855,0,"Industry Kick (2).wav",40
+Sample,168237,0,"Bluezone-BD-snare-032.wav",40
+Sample,168810,0,"Industry Kick (2).wav",40
+Sample,169001,0,"Bluezone-BD-snare-032.wav",40
+Sample,169383,0,"Bluezone-BD-snare-032.wav",40
+Sample,169575,0,"Industry Kick (2).wav",40
+Sample,169670,0,"Industry Kick (2).wav",40
+Sample,169766,0,"Bluezone-BD-snare-032.wav",40
+Sample,169957,0,"Bluezone-BD-snare-032.wav",40
+Sample,170339,0,"Bluezone-BD-snare-032.wav",40
+Sample,170721,0,"Bluezone-BD-snare-032.wav",40
+Sample,170912,0,"soft-hitfinish.wav",40
+Sample,170912,0,"Industry Kick (2).wav",40
+Sample,171294,0,"Bluezone-BD-snare-032.wav",40
+Sample,171868,0,"Industry Kick (2).wav",40
+Sample,172059,0,"Bluezone-BD-snare-032.wav",40
+Sample,172441,0,"soft-hitfinish.wav",40
+Sample,172441,0,"Industry Kick (2).wav",40
+Sample,172823,0,"Bluezone-BD-snare-032.wav",40
+Sample,173396,0,"Industry Kick (2).wav",40
+Sample,173396,0,"Bluezone-BD-snare-032.wav",40
+Sample,173492,0,"Industry Kick (2).wav",40
+Sample,173492,0,"Bluezone-BD-snare-032.wav",40
+Sample,173587,0,"Industry Kick (2).wav",40
+Sample,173587,0,"Bluezone-BD-snare-032.wav",40
+Sample,173683,0,"Industry Kick (2).wav",40
+Sample,173778,0,"Industry Kick (2).wav",40
+Sample,173778,0,"Bluezone-BD-snare-032.wav",40
+Sample,173874,0,"Industry Kick (2).wav",40
+Sample,173969,0,"Industry Kick (2).wav",40
+Sample,173969,0,"soft-hitfinish.wav",40
+Sample,174065,0,"Industry Kick (2).wav",40
+Sample,174161,0,"Industry Kick (2).wav",40
+Sample,174256,0,"Industry Kick (2).wav",40
+Sample,174352,0,"Industry Kick (2).wav",40
+Sample,174447,0,"Industry Kick (2).wav",40
+Sample,174543,0,"Industry Kick (2).wav",40
+Sample,174638,0,"Industry Kick (2).wav",40
+Sample,174734,0,"Industry Kick (2).wav",40
+Sample,174734,0,"soft-hitfinish.wav",40
+Sample,174829,0,"Industry Kick (2).wav",40
+Sample,174925,0,"Industry Kick (2).wav",40
+Sample,175020,0,"Industry Kick (2).wav",40
+Sample,175116,0,"Industry Kick (2).wav",40
+Sample,175212,0,"Industry Kick (2).wav",40
+Sample,175307,0,"Industry Kick (2).wav",40
+Sample,175403,0,"Industry Kick (2).wav",40
+Sample,175498,0,"Industry Kick (2).wav",40
+Sample,175498,0,"soft-hitfinish.wav",40
+Sample,175594,0,"Industry Kick (2).wav",40
+Sample,175689,0,"Industry Kick (2).wav",40
+Sample,175785,0,"Industry Kick (2).wav",40
+Sample,175880,0,"Industry Kick (2).wav",40
+Sample,175880,0,"soft-hitfinish.wav",40
+Sample,175976,0,"Industry Kick (2).wav",40
+Sample,176071,0,"Industry Kick (2).wav",40
+Sample,176167,0,"Industry Kick (2).wav",40
+Sample,176262,0,"Industry Kick (2).wav",40
+Sample,176262,0,"soft-hitfinish.wav",40
+Sample,176310,0,"Industry Kick (2).wav",40
+Sample,176358,0,"Industry Kick (2).wav",40
+Sample,176406,0,"Industry Kick (2).wav",40
+Sample,176454,0,"Industry Kick (2).wav",40
+Sample,176501,0,"Industry Kick (2).wav",40
+Sample,176549,0,"Industry Kick (2).wav",40
+Sample,176597,0,"Industry Kick (2).wav",40
+Sample,176645,0,"Industry Kick (2).wav",40
+Sample,176645,0,"soft-hitfinish.wav",40
+Sample,176740,0,"Industry Kick (2).wav",40
+Sample,176836,0,"Industry Kick (2).wav",40
+Sample,176931,0,"Industry Kick (2).wav",40
+Sample,177027,0,"Industry Kick (2).wav",40
+Sample,177027,0,"soft-hitfinish.wav",40
+Sample,164989,0,"Industry Kick (2).wav",40
+Sample,165084,0,"Industry Kick (2).wav",40
+Sample,165371,0,"Industry Kick (2).wav",40
+Sample,166517,0,"Industry Kick (2).wav",40
+Sample,166613,0,"Industry Kick (2).wav",40
+Sample,166899,0,"Industry Kick (2).wav",40
+Sample,168046,0,"Industry Kick (2).wav",40
+Sample,168141,0,"Industry Kick (2).wav",40
+Sample,168428,0,"Industry Kick (2).wav",40
+Sample,171103,0,"Industry Kick (2).wav",40
+Sample,171199,0,"Industry Kick (2).wav",40
+Sample,171485,0,"Industry Kick (2).wav",40
+Sample,172632,0,"Industry Kick (2).wav",40
+Sample,172727,0,"Industry Kick (2).wav",40
+Sample,173014,0,"Industry Kick (2).wav",40
+Sample,173205,0,"Industry Kick (2).wav",40
+Sample,177213,0,"Industry Kick (2).wav",40
+Sample,177398,0,"Bluezone-BD-snare-032.wav",40
+Sample,177953,0,"Industry Kick (2).wav",40
+Sample,178139,0,"Bluezone-BD-snare-032.wav",40
+Sample,178509,0,"Industry Kick (2).wav",40
+Sample,178694,0,"Industry Kick (2).wav",40
+Sample,178879,0,"Bluezone-BD-snare-032.wav",40
+Sample,179250,0,"Industry Kick (2).wav",40
+Sample,179435,0,"Industry Kick (2).wav",40
+Sample,179620,0,"Bluezone-BD-snare-032.wav",40
+Sample,179990,0,"Industry Kick (2).wav",40
+Sample,180176,0,"Industry Kick (2).wav",40
+Sample,180361,0,"Bluezone-BD-snare-032.wav",40
+Sample,180731,0,"Industry Kick (2).wav",40
+Sample,180916,0,"Industry Kick (2).wav",40
+Sample,181102,0,"Bluezone-BD-snare-032.wav",40
+Sample,181472,0,"Bluezone-BD-snare-032.wav",40
+Sample,181842,0,"Bluezone-BD-snare-032.wav",40
+Sample,182213,0,"soft-hitfinish.wav",40
+Sample,182213,0,"Bluezone-BD-snare-032.wav",40
+Sample,182213,0,"Industry Kick (2).wav",40
+Sample,182398,0,"Bluezone-BD-snare-032.wav",40
+Sample,182490,0,"Bluezone-BD-snare-032.wav",40
+Sample,182583,0,"soft-hitfinish.wav",40
+Sample,182583,0,"Industry Kick (2).wav",40
+Sample,182768,0,"Bluezone-BD-snare-032.wav",40
+Sample,182953,0,"soft-hitfinish.wav",40
+Sample,182953,0,"Industry Kick (2).wav",40
+Sample,177768,0,"Industry Kick (2).wav",40
+Sample,178509,0,"soft-hitfinish.wav",40
+Sample,179990,0,"soft-hitfinish.wav",40
+Sample,183139,0,"Industry Kick (2).wav",40
+Sample,183324,0,"Bluezone-BD-snare-032.wav",40
+Sample,183694,0,"Industry Kick (2).wav",40
+Sample,183879,0,"Industry Kick (2).wav",40
+Sample,184065,0,"Bluezone-BD-snare-032.wav",40
+Sample,184435,0,"soft-hitfinish.wav",40
+Sample,184435,0,"Industry Kick (2).wav",40
+Sample,184620,0,"Industry Kick (2).wav",40
+Sample,184805,0,"Bluezone-BD-snare-032.wav",40
+Sample,185176,0,"Industry Kick (2).wav",40
+Sample,185361,0,"Industry Kick (2).wav",40
+Sample,185546,0,"Bluezone-BD-snare-032.wav",40
+Sample,185916,0,"soft-hitfinish.wav",40
+Sample,185916,0,"Industry Kick (2).wav",40
+Sample,186102,0,"Industry Kick (2).wav",40
+Sample,186287,0,"Bluezone-BD-snare-032.wav",40
+Sample,186657,0,"Industry Kick (2).wav",40
+Sample,186842,0,"Industry Kick (2).wav",40
+Sample,187028,0,"Bluezone-BD-snare-032.wav",40
+Sample,187398,0,"Bluezone-BD-snare-032.wav",40
+Sample,187583,0,"Industry Kick (2).wav",40
+Sample,187676,0,"Industry Kick (2).wav",40
+Sample,187768,0,"Bluezone-BD-snare-032.wav",40
+Sample,187953,0,"Bluezone-BD-snare-032.wav",40
+Sample,177861,0,"Industry Kick (2).wav",40
+Sample,179342,0,"Industry Kick (2).wav",40
+Sample,180824,0,"Industry Kick (2).wav",40
+Sample,183787,0,"Industry Kick (2).wav",40
+Sample,185268,0,"Industry Kick (2).wav",40
+Sample,186750,0,"Industry Kick (2).wav",40
+Sample,188139,0,"Bluezone-BD-snare-032.wav",40
+Sample,188185,0,"Bluezone-BD-snare-032.wav",40
+Sample,188231,0,"Bluezone-BD-snare-032.wav",40
+Sample,188278,0,"Bluezone-BD-snare-032.wav",40
+Sample,188324,0,"Bluezone-BD-snare-032.wav",40
+Sample,188416,0,"Bluezone-BD-snare-032.wav",40
+Sample,188509,0,"Bluezone-BD-snare-032.wav",40
+Sample,188555,0,"Bluezone-BD-snare-032.wav",40
+Sample,188602,0,"Bluezone-BD-snare-032.wav",40
+Sample,188648,0,"Bluezone-BD-snare-032.wav",40
+Sample,188694,0,"Bluezone-BD-snare-032.wav",40
+Sample,188787,0,"Bluezone-BD-snare-032.wav",40
+Sample,182028,0,"Industry Kick (2).wav",40
+Sample,181657,0,"Industry Kick (2).wav",40
+Sample,181750,0,"Industry Kick (2).wav",40
+Sample,189065,0,"Industry Kick (2).wav",40
+Sample,189250,0,"Bluezone-BD-snare-032.wav",40
+Sample,189620,0,"Industry Kick (2).wav",40
+Sample,189713,0,"Industry Kick (2).wav",40
+Sample,189805,0,"Industry Kick (2).wav",40
+Sample,189990,0,"Bluezone-BD-snare-032.wav",40
+Sample,190546,0,"Industry Kick (2).wav",40
+Sample,190731,0,"Bluezone-BD-snare-032.wav",40
+Sample,191102,0,"Industry Kick (2).wav",40
+Sample,191194,0,"Industry Kick (2).wav",40
+Sample,191287,0,"Industry Kick (2).wav",40
+Sample,191472,0,"Bluezone-BD-snare-032.wav",40
+Sample,192027,0,"Industry Kick (2).wav",40
+Sample,192213,0,"Bluezone-BD-snare-032.wav",40
+Sample,192583,0,"Industry Kick (2).wav",40
+Sample,192953,0,"Industry Kick (2).wav",40
+Sample,193324,0,"Industry Kick (2).wav",40
+Sample,193416,0,"Industry Kick (2).wav",40
+Sample,193509,0,"Industry Kick (2).wav",40
+Sample,193602,0,"Industry Kick (2).wav",40
+Sample,193694,0,"Industry Kick (2).wav",40
+Sample,193787,0,"Industry Kick (2).wav",40
+Sample,193879,0,"Industry Kick (2).wav",40
+Sample,193972,0,"Industry Kick (2).wav",40
+Sample,194065,0,"soft-hitfinish.wav",40
+Sample,194065,0,"Industry Kick (2).wav",40
+Sample,188879,0,"soft-hitfinish.wav",40
+Sample,188879,0,"Industry Kick (2).wav",40
+Sample,190361,0,"soft-hitfinish.wav",40
+Sample,190361,0,"Industry Kick (2).wav",40
+Sample,191842,0,"soft-hitfinish.wav",40
+Sample,191842,0,"Industry Kick (2).wav",40
+Sample,192583,0,"Bluezone-BD-snare-032.wav",40
+Sample,192768,0,"Industry Kick (2).wav",40
+Sample,192953,0,"Bluezone-BD-snare-032.wav",40
+Sample,193139,0,"Industry Kick (2).wav",40
+Sample,194435,0,"soft-hitfinish.wav",40
+Sample,194435,0,"Industry Kick (2).wav",40
+Sample,194805,0,"soft-hitfinish.wav",40
+Sample,194805,0,"Industry Kick (2).wav",40
+Sample,194990,0,"Industry Kick (2).wav",40
+Sample,195176,0,"Bluezone-BD-snare-032.wav",40
+Sample,195546,0,"Industry Kick (2).wav",40
+Sample,195639,0,"Industry Kick (2).wav",40
+Sample,195731,0,"Industry Kick (2).wav",40
+Sample,195916,0,"Bluezone-BD-snare-032.wav",40
+Sample,196287,0,"soft-hitfinish.wav",40
+Sample,196287,0,"Industry Kick (2).wav",40
+Sample,196472,0,"Industry Kick (2).wav",40
+Sample,196657,0,"Bluezone-BD-snare-032.wav",40
+Sample,197027,0,"Industry Kick (2).wav",40
+Sample,197120,0,"Industry Kick (2).wav",40
+Sample,197213,0,"Industry Kick (2).wav",40
+Sample,197398,0,"Bluezone-BD-snare-032.wav",40
+Sample,197768,0,"soft-hitfinish.wav",40
+Sample,197768,0,"Industry Kick (2).wav",40
+Sample,198509,0,"soft-hitfinish.wav",40
+Sample,199250,0,"soft-hitfinish.wav",40
+Sample,199620,0,"soft-hitfinish.wav",40
+Sample,199990,0,"soft-hitfinish.wav",40
+Sample,200361,0,"soft-hitfinish.wav",40
+Sample,200731,0,"soft-hitfinish.wav",40
+Sample,200731,0,"Industry Kick (2).wav",40
+Sample,200916,0,"Industry Kick (2).wav",40
+Sample,201102,0,"Bluezone-BD-snare-032.wav",40
+Sample,201472,0,"Industry Kick (2).wav",40
+Sample,201565,0,"Industry Kick (2).wav",40
+Sample,201657,0,"Industry Kick (2).wav",40
+Sample,201842,0,"Bluezone-BD-snare-032.wav",40
+Sample,202213,0,"soft-hitfinish.wav",40
+Sample,202213,0,"Industry Kick (2).wav",40
+Sample,202398,0,"Industry Kick (2).wav",40
+Sample,202583,0,"Bluezone-BD-snare-032.wav",40
+Sample,202953,0,"Industry Kick (2).wav",40
+Sample,203046,0,"Industry Kick (2).wav",40
+Sample,203139,0,"Industry Kick (2).wav",40
+Sample,203324,0,"Bluezone-BD-snare-032.wav",40
+Sample,203694,0,"soft-hitfinish.wav",40
+Sample,203694,0,"Industry Kick (2).wav",40
+Sample,203879,0,"Industry Kick (2).wav",40
+Sample,204065,0,"Bluezone-BD-snare-032.wav",40
+Sample,204435,0,"Industry Kick (2).wav",40
+Sample,204527,0,"Industry Kick (2).wav",40
+Sample,204620,0,"Industry Kick (2).wav",40
+Sample,204805,0,"Bluezone-BD-snare-032.wav",40
+Sample,205176,0,"Bluezone-BD-snare-032.wav",40
+Sample,205453,0,"Industry Kick (2).wav",40
+Sample,205361,0,"Industry Kick (2).wav",40
+Sample,205546,0,"Bluezone-BD-snare-032.wav",40
+Sample,205731,0,"Bluezone-BD-snare-032.wav",40
+Sample,205916,0,"soft-hitfinish.wav",40
+Sample,205916,0,"Industry Kick (2).wav",40
+Sample,206287,0,"soft-hitfinish.wav",40
+Sample,206287,0,"Industry Kick (2).wav",40
+Sample,206657,0,"soft-hitfinish.wav",40
+Sample,206657,0,"Industry Kick (2).wav",40
+Sample,206842,0,"Industry Kick (2).wav",40
+Sample,207027,0,"Bluezone-BD-snare-032.wav",40
+Sample,207398,0,"Industry Kick (2).wav",40
+Sample,207490,0,"Industry Kick (2).wav",40
+Sample,207583,0,"Industry Kick (2).wav",40
+Sample,207768,0,"Bluezone-BD-snare-032.wav",40
+Sample,208139,0,"soft-hitfinish.wav",40
+Sample,208139,0,"Industry Kick (2).wav",40
+Sample,208324,0,"Industry Kick (2).wav",40
+Sample,208509,0,"Bluezone-BD-snare-032.wav",40
+Sample,208879,0,"Industry Kick (2).wav",40
+Sample,208972,0,"Industry Kick (2).wav",40
+Sample,209065,0,"Industry Kick (2).wav",40
+Sample,209250,0,"Bluezone-BD-snare-032.wav",40
+Sample,209620,0,"soft-hitfinish.wav",40
+Sample,209620,0,"Industry Kick (2).wav",40
+Sample,209805,0,"Industry Kick (2).wav",40
+Sample,209990,0,"Bluezone-BD-snare-032.wav",40
+Sample,210361,0,"Industry Kick (2).wav",40
+Sample,210453,0,"Industry Kick (2).wav",40
+Sample,210546,0,"Industry Kick (2).wav",40
+Sample,210731,0,"Bluezone-BD-snare-032.wav",40
+Sample,211102,0,"soft-hitfinish.wav",40
+Sample,211102,0,"Industry Kick (2).wav",40
+Sample,211472,0,"soft-hitfinish.wav",40
+Sample,211472,0,"Industry Kick (2).wav",40
+Sample,211842,0,"soft-hitfinish.wav",40
+Sample,211842,0,"Industry Kick (2).wav",40
+Sample,212213,0,"soft-hitfinish.wav",40
+Sample,212213,0,"Industry Kick (2).wav",40
+Sample,212583,0,"soft-hitfinish.wav",40
+Sample,212583,0,"Industry Kick (2).wav",40
+Sample,212768,0,"Industry Kick (2).wav",40
+Sample,212953,0,"Bluezone-BD-snare-032.wav",40
+Sample,213324,0,"Industry Kick (2).wav",40
+Sample,213416,0,"Industry Kick (2).wav",40
+Sample,213509,0,"Industry Kick (2).wav",40
+Sample,213694,0,"Bluezone-BD-snare-032.wav",40
+Sample,214065,0,"soft-hitfinish.wav",40
+Sample,214065,0,"Industry Kick (2).wav",40
+Sample,214250,0,"Industry Kick (2).wav",40
+Sample,214435,0,"Bluezone-BD-snare-032.wav",40
+Sample,214805,0,"Industry Kick (2).wav",40
+Sample,214898,0,"Industry Kick (2).wav",40
+Sample,214990,0,"Industry Kick (2).wav",40
+Sample,215176,0,"Bluezone-BD-snare-032.wav",40
+Sample,215546,0,"Industry Kick (2).wav",40
+Sample,215731,0,"Industry Kick (2).wav",40
+Sample,215546,0,"soft-hitfinish.wav",40
+Sample,215916,0,"Bluezone-BD-snare-032.wav",40
+Sample,216287,0,"Industry Kick (2).wav",40
+Sample,216379,0,"Industry Kick (2).wav",40
+Sample,216472,0,"Industry Kick (2).wav",40
+Sample,216657,0,"Bluezone-BD-snare-032.wav",40
+Sample,217027,0,"Industry Kick (2).wav",40
+Sample,217120,0,"Industry Kick (2).wav",40
+Sample,217213,0,"Industry Kick (2).wav",40
+Sample,217305,0,"Industry Kick (2).wav",40
+Sample,217398,0,"Industry Kick (2).wav",40
+Sample,217490,0,"Industry Kick (2).wav",40
+Sample,217583,0,"Industry Kick (2).wav",40
+Sample,217676,0,"Industry Kick (2).wav",40
+Sample,217768,0,"soft-hitfinish.wav",40
+Sample,217768,0,"Industry Kick (2).wav",40
+Sample,217861,0,"Industry Kick (2).wav",40
+Sample,217953,0,"Industry Kick (2).wav",40
+Sample,218046,0,"Industry Kick (2).wav",40
+Sample,218139,0,"soft-hitfinish.wav",40
+Sample,218139,0,"Industry Kick (2).wav",40
+Sample,218231,0,"Industry Kick (2).wav",40
+Sample,218324,0,"Industry Kick (2).wav",40
+Sample,218416,0,"Industry Kick (2).wav",40
+Sample,218509,0,"soft-hitfinish.wav",40
+Sample,218509,0,"Industry Kick (2).wav",40
+Sample,218787,0,"soft-hitfinish.wav",40
+Sample,218787,0,"Industry Kick (2).wav",40
+Sample,219065,0,"soft-hitfinish.wav",40
+Sample,219065,0,"Industry Kick (2).wav",40
+Sample,219250,0,"soft-hitfinish.wav",40
+Sample,219250,0,"Industry Kick (2).wav",40
+Sample,219620,0,"soft-hitfinish.wav",40
+Sample,219620,0,"Industry Kick (2).wav",40
+Sample,219990,0,"soft-hitfinish.wav",40
+Sample,219990,0,"Industry Kick (2).wav",40
+Sample,220268,0,"soft-hitfinish.wav",40
+Sample,220268,0,"Industry Kick (2).wav",40
+Sample,220546,0,"soft-hitfinish.wav",40
+Sample,220546,0,"Industry Kick (2).wav",40
+Sample,220731,0,"soft-hitfinish.wav",40
+Sample,220731,0,"Industry Kick (2).wav",40
+Sample,221009,0,"soft-hitfinish.wav",40
+Sample,221009,0,"Industry Kick (2).wav",40
+Sample,221287,0,"soft-hitfinish.wav",40
+Sample,221287,0,"Industry Kick (2).wav",40
+Sample,221472,0,"soft-hitfinish.wav",40
+Sample,221472,0,"Industry Kick (2).wav",40
+Sample,222213,0,"soft-hitfinish.wav",40
+Sample,222953,0,"soft-hitfinish.wav",40
+Sample,223324,0,"soft-hitfinish.wav",40
+Sample,223694,0,"soft-hitfinish.wav",40
+Sample,224065,0,"soft-hitfinish.wav",40
+Sample,224435,0,"soft-hitfinish.wav",40
+Sample,224435,0,"Industry Kick (2).wav",40
+Sample,236287,0,"soft-hitfinish.wav",40
+Sample,236287,0,"Industry Kick (2).wav",40
+Sample,236657,0,"Bluezone-BD-snare-032.wav",40
+Sample,237398,0,"Bluezone-BD-snare-032.wav",40
+Sample,238139,0,"Bluezone-BD-snare-032.wav",40
+Sample,238879,0,"Bluezone-BD-snare-032.wav",40
+Sample,239620,0,"Bluezone-BD-snare-032.wav",40
+Sample,240361,0,"Bluezone-BD-snare-032.wav",40
+Sample,242213,0,"soft-hitfinish.wav",40
+Sample,242213,0,"Industry Kick (2).wav",40
+Sample,242583,0,"Bluezone-BD-snare-032.wav",40
+Sample,243324,0,"Bluezone-BD-snare-032.wav",40
+Sample,244065,0,"Bluezone-BD-snare-032.wav",40
+Sample,244805,0,"Bluezone-BD-snare-032.wav",40
+Sample,241102,0,"Bluezone-BD-snare-032.wav",40
+Sample,241842,0,"Bluezone-BD-snare-032.wav",40
+Sample,242027,0,"Industry Kick (2).wav",40
+Sample,242213,0,"Bluezone-BD-snare-032.wav",40
+Sample,245176,0,"soft-hitfinish.wav",40
+Sample,245546,0,"Bluezone-BD-snare-032.wav",40
+Sample,246287,0,"Bluezone-BD-snare-032.wav",40
+Sample,246657,0,"soft-hitfinish.wav",40
+Sample,247027,0,"Bluezone-BD-snare-032.wav",40
+Sample,247768,0,"Bluezone-BD-snare-032.wav",40
+Sample,7737,0,"soft-hitclap.wav",40
+Sample,8478,0,"soft-hitclap.wav",40
+Sample,9219,0,"soft-hitclap.wav",40
+Sample,9589,0,"soft-hitclap.wav",40
+Sample,9682,0,"soft-hitclap.wav",40
+Sample,9959,0,"soft-hitclap.wav",40
+Sample,10700,0,"soft-hitclap.wav",40
+Sample,11441,0,"soft-hitclap.wav",40
+Sample,12182,0,"soft-hitclap.wav",40
+Sample,12552,0,"soft-hitclap.wav",40
+Sample,12645,0,"soft-hitclap.wav",40
+Sample,12922,0,"soft-hitclap.wav",40
+Sample,151998,0,"soft-hitfinish.wav",70
+Sample,151998,0,"Industry Kick (2).wav",70
+Sample,153598,0,"soft-hitfinish.wav",70
+Sample,153598,0,"Industry Kick (2).wav",70
+Sample,155198,0,"soft-hitfinish.wav",70
+Sample,155198,0,"Industry Kick (2).wav",70
+Sample,158398,0,"soft-hitfinish.wav",70
+Sample,158398,0,"Industry Kick (2).wav",70
+Sample,159998,0,"soft-hitfinish.wav",70
+Sample,159998,0,"Industry Kick (2).wav",70
+Sample,161598,0,"soft-hitfinish.wav",70
+Sample,161598,0,"Industry Kick (2).wav",70
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+-40,370.37037037037,4,2,0,30,1,0
+48848,-100,4,2,0,30,0,1
+60700,-100,4,2,0,30,0,0
+96256,387.096774193548,4,2,0,30,1,0
+151998,400,4,2,0,30,1,0
+164798,382.165605095541,4,2,0,30,1,0
+177028,370.37037037037,4,2,0,30,1,0
+200731,-100,4,2,0,30,0,1
+224435,-100,4,2,0,30,0,0
+
+
+[HitObjects]
+329,192,1441,1,0,0:0:0:30:
+182,192,1626,1,0,0:0:0:30:
+329,192,1811,1,0,0:0:0:30:
+475,192,1997,1,0,0:0:0:30:
+402,192,2182,1,0,0:0:0:30:
+109,192,2367,1,0,0:0:0:30:
+256,192,2552,1,0,0:0:0:30:
+402,192,2737,1,0,0:0:0:30:
+475,192,2922,1,0,0:0:0:30:
+36,192,3108,1,0,0:0:0:30:
+256,192,3293,1,0,0:0:0:30:
+329,192,3478,1,0,0:0:0:30:
+475,192,3663,1,0,0:0:0:30:
+402,192,3848,1,0,0:0:0:30:
+182,192,4034,1,0,0:0:0:30:
+109,192,4219,1,0,0:0:0:30:
+36,192,4404,1,0,0:0:0:30:
+475,192,4589,1,0,0:0:0:30:
+36,192,4774,1,0,0:0:0:30:
+402,192,4959,1,0,0:0:0:30:
+109,192,5145,1,0,0:0:0:30:
+402,192,5330,1,0,0:0:0:30:
+109,192,5515,1,0,0:0:0:30:
+329,192,5700,1,0,0:0:0:30:
+182,192,5885,1,0,0:0:0:30:
+329,192,6071,1,0,0:0:0:30:
+182,192,6256,1,0,0:0:0:30:
+402,192,6441,1,0,0:0:0:30:
+475,192,6626,1,0,0:0:0:30:
+402,192,6811,1,0,0:0:0:30:
+329,192,6997,1,0,0:0:0:30:
+256,192,7182,1,0,0:0:0:30:
+402,192,7274,1,0,0:0:0:30:
+182,192,7367,1,0,0:0:0:30:
+36,192,7552,1,0,0:0:0:30:
+182,192,7737,1,0,0:0:0:15:
+256,192,7737,1,0,0:0:0:15:
+329,192,7922,1,0,0:0:0:30:
+475,192,8108,1,0,0:0:0:30:
+109,192,8293,1,0,0:0:0:30:
+256,192,8478,1,0,0:0:0:15:
+402,192,8478,1,0,0:0:0:15:
+329,192,8663,1,0,0:0:0:30:
+475,192,8848,1,0,0:0:0:30:
+182,192,9034,1,0,0:0:0:30:
+36,192,9219,1,8,0:0:0:15:
+256,192,9219,1,0,0:0:0:15:
+329,192,9404,1,0,0:0:0:30:
+182,192,9589,1,0,0:0:0:30:
+256,192,9682,1,0,0:0:0:30:
+329,192,9774,1,0,0:0:0:30:
+402,192,9867,1,0,0:0:0:30:
+256,192,9959,1,0,0:0:0:30:
+182,192,10145,1,0,0:0:0:30:
+109,192,10330,1,0,0:0:0:30:
+36,192,10515,1,0,0:0:0:30:
+256,192,10700,1,0,0:0:0:15:
+109,192,10700,1,0,0:0:0:15:
+182,192,10885,1,0,0:0:0:30:
+329,192,11071,1,0,0:0:0:30:
+36,192,11256,1,0,0:0:0:30:
+109,192,11441,1,0,0:0:0:15:
+256,192,11441,1,0,0:0:0:15:
+329,192,11626,1,0,0:0:0:30:
+475,192,11811,1,0,0:0:0:30:
+182,192,11997,1,0,0:0:0:30:
+475,192,12182,1,0,0:0:0:15:
+256,192,12182,1,0,0:0:0:15:
+329,192,12367,1,0,0:0:0:30:
+402,192,12552,1,0,0:0:0:30:
+256,192,12645,1,0,0:0:0:30:
+109,192,12737,1,0,0:0:0:30:
+402,192,12830,1,0,0:0:0:30:
+256,192,12922,1,0,0:0:0:30:
+182,192,13108,1,0,0:0:0:30:
+329,192,13200,1,0,0:0:0:30:
+475,192,13293,1,0,0:0:0:15:
+36,192,13293,1,0,0:0:0:15:
+475,192,13478,1,0,0:0:0:15:
+36,192,13478,1,0,0:0:0:15:
+329,192,13663,1,0,0:0:0:30:
+402,192,13848,1,0,0:0:0:30:
+36,192,14034,1,0,0:0:0:15:
+475,192,14034,1,0,0:0:0:15:
+36,192,14219,1,0,0:0:0:15:
+475,192,14219,1,0,0:0:0:15:
+109,192,14404,1,0,0:0:0:30:
+256,192,14589,1,0,0:0:0:30:
+475,192,14774,1,0,0:0:0:15:
+36,192,14774,1,0,0:0:0:15:
+475,192,14959,1,0,0:0:0:15:
+36,192,14959,1,0,0:0:0:15:
+329,192,15145,1,0,0:0:0:30:
+402,192,15330,1,0,0:0:0:30:
+475,192,15515,1,0,0:0:0:15:
+256,192,15515,1,0,0:0:0:15:
+256,192,15700,1,0,0:0:0:30:
+36,192,15885,1,0,0:0:0:15:
+256,192,15885,1,0,0:0:0:15:
+109,192,16071,1,0,0:0:0:30:
+182,192,16163,1,0,0:0:0:30:
+475,192,16256,1,0,0:0:0:15:
+256,192,16256,1,0,0:0:0:15:
+256,192,16441,1,0,0:0:0:15:
+475,192,16441,1,0,0:0:0:15:
+109,192,16626,1,0,0:0:0:30:
+402,192,16811,1,0,0:0:0:30:
+256,192,16997,1,0,0:0:0:15:
+36,192,16997,1,0,0:0:0:15:
+36,192,17182,1,0,0:0:0:15:
+256,192,17182,1,0,0:0:0:15:
+182,192,17367,1,0,0:0:0:30:
+329,192,17552,1,0,0:0:0:30:
+109,192,17737,1,0,0:0:0:15:
+402,192,17737,1,0,0:0:0:15:
+109,192,17922,1,0,0:0:0:15:
+402,192,17922,1,0,0:0:0:15:
+182,192,18108,1,0,0:0:0:30:
+329,192,18293,1,0,0:0:0:30:
+182,192,18478,1,0,0:0:0:15:
+475,192,18478,1,0,0:0:0:15:
+182,192,18663,1,0,0:0:0:30:
+182,192,18848,1,0,0:0:0:15:
+475,192,18848,1,0,0:0:0:15:
+109,192,19034,1,0,0:0:0:30:
+402,192,19126,1,0,0:0:0:30:
+182,192,19219,1,0,0:0:0:15:
+475,192,19219,1,0,0:0:0:15:
+256,192,19404,1,0,0:0:0:15:
+475,192,19404,1,0,0:0:0:15:
+329,192,19589,1,0,0:0:0:30:
+402,192,19774,1,0,0:0:0:30:
+36,192,19959,1,0,0:0:0:15:
+329,192,19959,1,0,0:0:0:15:
+256,192,20145,1,0,0:0:0:15:
+36,192,20145,1,0,0:0:0:15:
+182,192,20330,1,0,0:0:0:30:
+402,192,20515,1,0,0:0:0:30:
+329,192,20700,1,0,0:0:0:15:
+475,192,20700,1,0,0:0:0:15:
+475,192,20885,1,0,0:0:0:15:
+109,192,20885,1,0,0:0:0:15:
+182,192,21071,1,0,0:0:0:30:
+256,192,21256,1,0,0:0:0:30:
+402,192,21441,1,0,0:0:0:15:
+36,192,21441,1,0,0:0:0:15:
+36,192,21626,1,0,0:0:0:15:
+329,192,21626,1,0,0:0:0:15:
+256,192,21811,1,0,0:0:0:30:
+36,192,21997,1,0,0:0:0:30:
+109,192,22089,1,0,0:0:0:30:
+182,192,22182,1,0,0:0:0:10:
+402,192,22182,1,0,0:0:0:10:
+475,192,22182,1,0,0:0:0:10:
+182,192,22367,1,0,0:0:0:10:
+402,192,22367,1,0,0:0:0:10:
+475,192,22367,1,0,0:0:0:10:
+109,192,22552,1,0,0:0:0:30:
+329,192,22737,1,0,0:0:0:30:
+36,192,22922,1,0,0:0:0:10:
+475,192,22922,1,0,0:0:0:10:
+256,192,22922,1,0,0:0:0:10:
+256,192,23108,1,0,0:0:0:10:
+36,192,23108,1,0,0:0:0:10:
+475,192,23108,1,0,0:0:0:10:
+402,192,23293,1,0,0:0:0:30:
+182,192,23478,1,0,0:0:0:30:
+109,192,23663,1,0,0:0:0:10:
+256,192,23663,1,0,0:0:0:10:
+402,192,23663,1,0,0:0:0:10:
+109,192,23848,1,0,0:0:0:10:
+256,192,23848,1,0,0:0:0:10:
+402,192,23848,1,0,0:0:0:10:
+182,192,24034,5,0,0:0:0:30:
+402,192,24219,1,0,0:0:0:30:
+36,192,24404,1,0,0:0:0:7:
+182,192,24404,1,0,0:0:0:7:
+329,192,24404,1,0,0:0:0:7:
+475,192,24404,1,0,0:0:0:7:
+36,192,24589,1,0,0:0:0:7:
+182,192,24589,1,0,0:0:0:7:
+329,192,24589,1,0,0:0:0:7:
+475,192,24589,1,0,0:0:0:7:
+109,192,24774,5,0,0:0:0:30:
+402,192,24867,1,0,0:0:0:30:
+109,192,24959,1,0,0:0:0:30:
+402,192,25052,1,0,0:0:0:30:
+475,192,25145,1,0,0:0:0:15:
+256,192,25145,1,0,0:0:0:15:
+256,192,25330,1,0,0:0:0:30:
+402,192,25515,1,0,0:0:0:30:
+36,192,25700,1,0,0:0:0:15:
+329,192,25700,1,0,0:0:0:15:
+109,192,25793,1,0,0:0:0:30:
+402,192,25885,1,0,0:0:0:15:
+182,192,25885,1,0,0:0:0:15:
+402,192,26071,1,0,0:0:0:30:
+256,192,26256,1,0,0:0:0:30:
+36,192,26441,1,0,0:0:0:30:
+475,192,26626,1,0,0:0:0:15:
+182,192,26626,1,0,0:0:0:15:
+182,192,26811,1,0,0:0:0:30:
+402,192,26997,1,0,0:0:0:15:
+109,192,26997,1,0,0:0:0:15:
+256,192,27182,1,0,0:0:0:15:
+36,192,27182,1,0,0:0:0:15:
+329,192,27274,1,0,0:0:0:30:
+475,192,27367,1,0,0:0:0:15:
+109,192,27367,1,0,0:0:0:15:
+109,192,27552,1,0,0:0:0:30:
+182,192,27737,1,0,0:0:0:30:
+402,192,27830,1,0,0:0:0:30:
+182,192,27922,1,0,0:0:0:30:
+402,192,28015,1,0,0:0:0:30:
+256,192,28108,1,0,0:0:0:15:
+475,192,28108,1,0,0:0:0:15:
+256,192,28293,1,0,0:0:0:15:
+475,192,28293,1,0,0:0:0:15:
+402,192,28478,1,0,0:0:0:15:
+182,192,28478,1,0,0:0:0:15:
+329,192,28663,1,0,0:0:0:15:
+109,192,28663,1,0,0:0:0:15:
+256,192,28756,1,0,0:0:0:30:
+475,192,28848,1,0,0:0:0:15:
+36,192,28848,1,0,0:0:0:15:
+256,192,29034,1,0,0:0:0:30:
+402,192,29219,1,0,0:0:0:30:
+109,192,29404,1,0,0:0:0:30:
+329,192,29589,128,0,29774:0:0:0:15:
+475,192,29589,128,0,29774:0:0:0:15:
+256,192,29774,128,0,29959:0:0:0:15:
+402,192,29774,128,0,29959:0:0:0:15:
+182,192,29959,128,0,30145:0:0:0:15:
+329,192,29959,128,0,30145:0:0:0:15:
+109,192,30145,128,0,30330:0:0:0:15:
+256,192,30145,128,0,30330:0:0:0:15:
+36,192,30330,128,0,31071:0:0:0:15:
+475,192,30330,1,0,0:0:0:15:
+402,192,30422,1,0,0:0:0:30:
+329,192,30515,1,0,0:0:0:30:
+182,192,30700,1,0,0:0:0:30:
+329,192,30793,1,0,0:0:0:30:
+182,192,30885,1,0,0:0:0:30:
+329,192,30978,1,0,0:0:0:30:
+256,192,31071,1,0,0:0:0:15:
+475,192,31071,128,0,31441:0:0:0:15:
+109,192,31256,1,0,0:0:0:30:
+402,192,31441,1,0,0:0:0:15:
+329,192,31441,1,0,0:0:0:15:
+109,192,31626,128,0,31997:0:0:0:30:
+329,192,31811,1,0,0:0:0:30:
+475,192,31997,128,0,32367:0:0:0:15:
+256,192,31997,1,0,0:0:0:15:
+109,192,32182,1,0,0:0:0:30:
+329,192,32367,1,0,0:0:0:15:
+402,192,32367,128,0,32737:0:0:0:15:
+182,192,32552,1,0,0:0:0:30:
+36,192,32737,1,0,0:0:0:30:
+329,192,32922,1,0,0:0:0:30:
+402,192,33108,128,0,33478:0:0:0:15:
+256,192,33108,1,0,0:0:0:15:
+109,192,33200,1,0,0:0:0:30:
+36,192,33293,1,0,0:0:0:30:
+36,192,33478,1,0,0:0:0:15:
+329,192,33478,1,0,0:0:0:15:
+475,192,33663,1,0,0:0:0:30:
+36,192,33756,1,0,0:0:0:30:
+475,192,33848,1,0,0:0:0:30:
+36,192,33941,1,0,0:0:0:30:
+182,192,34034,1,0,0:0:0:10:
+329,192,34034,128,0,34404:0:0:0:10:
+256,192,34034,1,0,0:0:0:10:
+182,192,34219,1,0,0:0:0:30:
+475,192,34404,1,0,0:0:0:30:
+109,192,34589,128,0,35330:0:0:0:15:
+329,192,34589,1,0,0:0:0:15:
+256,192,34774,1,0,0:0:0:30:
+475,192,34959,1,0,0:0:0:15:
+182,192,34959,128,0,35330:0:0:0:15:
+402,192,35145,1,0,0:0:0:30:
+329,192,35330,1,0,0:0:0:30:
+109,192,35515,1,0,0:0:0:15:
+256,192,35515,1,0,0:0:0:15:
+182,192,35700,1,0,0:0:0:10:
+36,192,35700,1,0,0:0:0:10:
+402,192,35700,128,0,35885:0:0:0:10:
+329,192,35885,128,0,36071:0:0:0:15:
+109,192,35885,1,0,0:0:0:15:
+256,192,36071,128,0,36256:0:0:0:15:
+182,192,36071,1,0,0:0:0:15:
+36,192,36163,1,0,0:0:0:30:
+475,192,36256,128,0,36997:0:0:0:15:
+182,192,36256,1,0,0:0:0:15:
+36,192,36348,1,0,0:0:0:30:
+182,192,36441,1,0,0:0:0:30:
+109,192,36626,1,0,0:0:0:30:
+182,192,36719,1,0,0:0:0:30:
+256,192,36811,1,0,0:0:0:30:
+329,192,36904,1,0,0:0:0:30:
+36,192,36997,1,0,0:0:0:15:
+402,192,36997,1,0,0:0:0:15:
+182,192,37089,1,0,0:0:0:30:
+475,192,37182,1,0,0:0:0:30:
+402,192,37274,1,0,0:0:0:30:
+109,192,37367,1,0,0:0:0:30:
+182,192,37459,1,0,0:0:0:30:
+329,192,37552,1,0,0:0:0:30:
+475,192,37645,1,0,0:0:0:30:
+402,192,37737,1,0,0:0:0:30:
+109,192,37830,1,0,0:0:0:30:
+256,192,37922,1,0,0:0:0:30:
+402,192,38015,1,0,0:0:0:30:
+182,192,38108,1,0,0:0:0:30:
+475,192,38200,1,0,0:0:0:30:
+256,192,38293,1,0,0:0:0:30:
+109,192,38385,1,0,0:0:0:30:
+402,192,38478,1,0,0:0:0:15:
+36,192,38478,1,0,0:0:0:15:
+182,192,38571,1,0,0:0:0:30:
+475,192,38663,1,0,0:0:0:30:
+182,192,38756,1,0,0:0:0:30:
+329,192,38848,1,0,0:0:0:30:
+36,192,38941,1,0,0:0:0:30:
+402,192,39034,1,0,0:0:0:30:
+256,192,39126,1,0,0:0:0:30:
+36,192,39219,1,0,0:0:0:30:
+402,192,39311,1,0,0:0:0:30:
+329,192,39404,1,0,0:0:0:30:
+109,192,39497,1,0,0:0:0:30:
+402,192,39589,1,0,0:0:0:30:
+182,192,39682,1,0,0:0:0:30:
+329,192,39774,1,0,0:0:0:30:
+475,192,39867,1,0,0:0:0:30:
+402,192,39959,1,0,0:0:0:15:
+109,192,39959,1,0,0:0:0:15:
+182,192,40052,1,0,0:0:0:30:
+475,192,40145,1,0,0:0:0:30:
+36,192,40237,1,0,0:0:0:30:
+329,192,40330,1,0,0:0:0:30:
+182,192,40422,1,0,0:0:0:30:
+109,192,40515,1,0,0:0:0:30:
+402,192,40608,1,0,0:0:0:30:
+36,192,40700,1,0,0:0:0:30:
+402,192,40793,1,0,0:0:0:30:
+475,192,40885,1,0,0:0:0:30:
+329,192,40978,1,0,0:0:0:30:
+256,192,41071,1,0,0:0:0:30:
+109,192,41163,1,0,0:0:0:30:
+329,192,41256,1,0,0:0:0:30:
+402,192,41348,1,0,0:0:0:30:
+36,192,41441,1,0,0:0:0:15:
+475,192,41441,1,0,0:0:0:15:
+109,192,41534,1,0,0:0:0:30:
+329,192,41626,1,0,0:0:0:30:
+256,192,41719,1,0,0:0:0:30:
+402,192,41811,1,0,0:0:0:30:
+182,192,41904,1,0,0:0:0:30:
+36,192,41997,1,0,0:0:0:30:
+402,192,42089,1,0,0:0:0:15:
+475,192,42089,1,0,0:0:0:15:
+36,192,42182,1,0,0:0:0:30:
+402,192,42274,1,0,0:0:0:15:
+475,192,42274,1,0,0:0:0:15:
+36,192,42367,1,0,0:0:0:30:
+402,192,42552,1,0,0:0:0:30:
+109,192,42645,1,0,0:0:0:30:
+402,192,42737,1,0,0:0:0:30:
+109,192,42830,1,0,0:0:0:30:
+256,192,42922,1,0,0:0:0:10:
+475,192,42922,1,0,0:0:0:10:
+36,192,42922,1,0,0:0:0:10:
+402,192,43108,1,0,0:0:0:30:
+475,192,43293,1,0,0:0:0:10:
+109,192,43293,1,0,0:0:0:10:
+182,192,43293,1,0,0:0:0:10:
+475,192,43478,1,0,0:0:0:10:
+256,192,43478,1,0,0:0:0:10:
+329,192,43478,1,0,0:0:0:10:
+402,192,43663,1,0,0:0:0:30:
+109,192,43848,1,0,0:0:0:10:
+36,192,43848,1,0,0:0:0:10:
+182,192,43848,1,0,0:0:0:10:
+256,192,44034,1,0,0:0:0:30:
+475,192,44219,1,0,0:0:0:10:
+36,192,44219,1,0,0:0:0:10:
+182,192,44219,1,0,0:0:0:10:
+329,192,44404,1,0,0:0:0:30:
+402,192,44589,1,0,0:0:0:10:
+109,192,44589,1,0,0:0:0:10:
+475,192,44589,1,0,0:0:0:10:
+182,192,44774,1,0,0:0:0:30:
+329,192,44959,1,0,0:0:0:10:
+109,192,44959,1,0,0:0:0:10:
+402,192,44959,1,0,0:0:0:10:
+256,192,45145,1,0,0:0:0:30:
+402,192,45330,1,0,0:0:0:15:
+182,192,45330,1,0,0:0:0:15:
+109,192,45515,1,0,0:0:0:15:
+329,192,45515,1,0,0:0:0:15:
+256,192,45700,1,0,0:0:0:15:
+36,192,45700,1,0,0:0:0:15:
+475,192,45885,1,0,0:0:0:10:
+329,192,45885,1,0,0:0:0:10:
+109,192,45885,1,0,0:0:0:10:
+256,192,46071,1,0,0:0:0:30:
+329,192,46256,1,0,0:0:0:10:
+36,192,46256,1,0,0:0:0:10:
+182,192,46256,1,0,0:0:0:10:
+256,192,46441,1,0,0:0:0:15:
+475,192,46441,1,0,0:0:0:15:
+182,192,46626,1,0,0:0:0:30:
+402,192,46811,1,0,0:0:0:10:
+329,192,46811,1,0,0:0:0:10:
+109,192,46811,1,0,0:0:0:10:
+402,192,46997,1,0,0:0:0:30:
+36,192,47182,1,0,0:0:0:10:
+475,192,47182,1,0,0:0:0:10:
+329,192,47182,1,0,0:0:0:10:
+256,192,47367,1,0,0:0:0:30:
+182,192,47552,1,0,0:0:0:15:
+402,192,47552,1,0,0:0:0:15:
+109,192,47737,1,0,0:0:0:15:
+256,192,47737,1,0,0:0:0:15:
+36,192,47922,1,0,0:0:0:30:
+256,192,48015,1,0,0:0:0:30:
+475,192,48108,1,0,0:0:0:30:
+182,192,48200,1,0,0:0:0:30:
+402,192,48293,1,0,0:0:0:30:
+36,192,48478,1,0,3:0:0:30:
+109,192,48571,1,0,3:0:0:30:
+182,192,48663,1,0,3:0:0:30:
+256,192,48756,1,0,3:0:0:30:
+475,192,48848,1,0,0:0:0:10:
+329,192,48848,1,0,0:0:0:10:
+182,192,48848,128,0,49034:0:0:0:10:
+109,192,49034,128,0,49219:0:0:0:15:
+402,192,49034,1,0,0:0:0:15:
+182,192,49219,128,0,49404:0:0:0:15:
+475,192,49219,1,0,3:0:0:15:
+256,192,49404,128,0,49589:0:0:0:15:
+475,192,49404,1,0,0:0:0:15:
+36,192,49497,1,0,0:0:0:30:
+402,192,49589,128,0,49774:0:0:0:15:
+109,192,49589,1,0,0:0:0:15:
+329,192,49774,128,0,49959:0:0:0:15:
+182,192,49774,1,0,0:0:0:15:
+402,192,49959,128,0,50145:0:0:0:15:
+36,192,49959,1,0,3:0:0:15:
+475,192,50145,128,0,50330:0:0:0:15:
+109,192,50145,1,0,0:0:0:15:
+182,192,50330,128,0,50515:0:0:0:15:
+329,192,50330,1,0,0:0:0:15:
+36,192,50515,128,0,50700:0:0:0:15:
+402,192,50515,1,0,0:0:0:15:
+182,192,50700,128,0,50885:0:0:0:15:
+475,192,50700,1,0,0:0:0:15:
+256,192,50885,128,0,51071:0:0:0:15:
+402,192,50885,1,0,0:0:0:15:
+109,192,50978,5,0,0:0:0:30:
+36,192,51071,5,0,0:0:0:15:
+475,192,51071,128,0,51256:0:0:0:15:
+329,192,51256,128,0,51441:0:0:0:15:
+256,192,51256,1,0,0:0:0:15:
+182,192,51441,128,0,51626:0:0:0:15:
+109,192,51441,1,0,3:0:0:15:
+36,192,51626,128,0,51811:0:0:0:15:
+475,192,51626,1,0,3:0:0:15:
+329,192,51811,1,0,0:0:0:15:
+182,192,51811,128,0,51997:0:0:0:15:
+109,192,51997,128,0,52182:0:0:0:15:
+475,192,51997,1,0,0:0:0:15:
+182,192,52182,128,0,52367:0:0:0:15:
+402,192,52182,1,0,3:0:0:15:
+256,192,52367,128,0,52552:0:0:0:15:
+475,192,52367,1,0,0:0:0:15:
+109,192,52459,1,0,0:0:0:30:
+402,192,52552,128,0,52737:0:0:0:15:
+36,192,52552,1,0,0:0:0:15:
+329,192,52737,128,0,52922:0:0:0:15:
+109,192,52737,1,0,0:0:0:15:
+402,192,52922,128,0,53108:0:0:0:15:
+182,192,52922,1,0,0:0:0:15:
+36,192,53108,1,0,0:0:0:15:
+475,192,53108,128,0,53293:0:0:0:15:
+109,192,53293,128,0,53663:0:0:0:15:
+256,192,53293,1,0,0:0:0:15:
+182,192,53478,128,0,53663:0:0:0:30:
+402,192,53663,128,0,54034:0:0:0:15:
+256,192,53663,1,0,0:0:0:15:
+329,192,53848,128,0,54034:0:0:0:15:
+109,192,53848,1,0,0:0:0:15:
+182,192,53941,1,0,3:0:0:30:
+36,192,54034,128,0,54774:0:0:0:15:
+256,192,54034,1,0,0:0:0:15:
+182,192,54219,128,0,54774:0:0:0:30:
+329,192,54404,128,0,54774:0:0:0:30:
+475,192,54589,128,0,54774:3:0:0:30:
+402,192,54774,128,0,54959:0:0:0:15:
+256,192,54774,128,0,54959:0:0:0:15:
+109,192,54959,128,0,55145:0:0:0:15:
+36,192,54959,128,0,55145:0:0:0:15:
+182,192,55145,128,0,55330:0:0:0:15:
+329,192,55145,128,0,55330:0:0:0:15:
+256,192,55330,128,0,55515:0:0:0:15:
+475,192,55330,128,0,55515:0:0:0:15:
+402,192,55515,128,0,55700:0:0:0:15:
+109,192,55515,128,0,55700:0:0:0:15:
+182,192,55700,128,0,55885:0:0:0:15:
+36,192,55700,128,0,55885:0:0:0:15:
+475,192,55885,128,0,56071:0:0:0:15:
+256,192,55885,128,0,56071:0:0:0:15:
+182,192,56071,128,0,56256:0:0:0:15:
+402,192,56071,128,0,56256:0:0:0:15:
+256,192,56256,128,0,56441:0:0:0:15:
+36,192,56256,128,0,56441:0:0:0:15:
+109,192,56441,128,0,56626:0:0:0:15:
+329,192,56441,128,0,56626:0:0:0:15:
+402,192,56626,128,0,56811:0:0:0:15:
+256,192,56626,128,0,56811:0:0:0:15:
+475,192,56811,128,0,56997:0:0:0:15:
+182,192,56811,128,0,56997:0:0:0:15:
+402,192,56997,128,0,57367:0:0:0:30:
+329,192,57182,128,0,57367:0:0:0:15:
+109,192,57182,128,0,57367:0:0:0:15:
+182,192,57367,128,0,57737:3:0:0:30:
+256,192,57552,128,0,57737:0:0:0:15:
+475,192,57552,128,0,57737:0:0:0:15:
+36,192,57737,128,0,58478:0:0:0:30:
+109,192,57922,128,0,58478:0:0:0:30:
+329,192,58108,128,0,58478:0:0:0:30:
+256,192,58293,128,0,58478:0:0:0:30:
+182,192,58478,128,0,59219:0:0:0:30:
+109,192,58663,128,0,59219:0:0:0:30:
+402,192,58848,128,0,59219:0:0:0:30:
+475,192,59034,128,0,59219:0:0:0:30:
+36,192,59219,128,0,59959:0:0:0:30:
+329,192,59404,128,0,59959:0:0:0:30:
+182,192,59589,128,0,59959:0:0:0:30:
+109,192,59774,128,0,59959:0:0:0:30:
+256,192,59959,1,0,0:0:0:15:
+475,192,59959,1,0,0:0:0:15:
+182,192,60145,1,0,0:0:0:15:
+402,192,60145,1,0,0:0:0:15:
+109,192,60330,1,0,0:0:0:15:
+329,192,60330,1,0,0:0:0:15:
+36,192,60515,1,0,0:0:0:15:
+256,192,60515,1,0,0:0:0:15:
+329,192,60700,1,0,0:0:0:15:
+109,192,60700,1,0,0:0:0:15:
+182,192,61071,1,0,0:0:0:30:
+256,192,61256,1,0,0:0:0:30:
+475,192,61626,1,0,0:0:0:30:
+329,192,61997,1,0,0:0:0:30:
+256,192,62367,1,0,0:0:0:30:
+109,192,62737,1,0,0:0:0:30:
+329,192,63108,1,0,0:0:0:30:
+182,192,63293,1,0,0:0:0:30:
+36,192,63478,1,0,0:0:0:30:
+182,192,63663,1,0,0:0:0:15:
+475,192,63663,1,0,0:0:0:15:
+402,192,64034,1,0,0:0:0:30:
+109,192,64219,1,0,0:0:0:30:
+256,192,64589,1,0,0:0:0:30:
+402,192,64959,1,0,0:0:0:30:
+256,192,65330,1,0,0:0:0:30:
+109,192,65515,1,0,0:0:0:30:
+36,192,65700,1,0,0:0:0:30:
+329,192,65885,1,0,0:0:0:15:
+475,192,65885,1,0,0:0:0:15:
+36,192,66626,128,0,67367:0:0:0:15:
+256,192,66626,1,0,0:0:0:15:
+329,192,66997,1,0,0:0:0:30:
+182,192,67182,1,0,0:0:0:30:
+329,192,67367,128,0,68108:0:0:0:30:
+475,192,67552,1,0,0:0:0:30:
+109,192,67922,1,0,0:0:0:30:
+475,192,68108,128,0,68848:0:0:0:30:
+182,192,68293,1,0,0:0:0:30:
+36,192,68663,1,0,0:0:0:30:
+109,192,68848,128,0,69589:0:0:0:30:
+475,192,69034,1,0,0:0:0:30:
+329,192,69219,1,0,0:0:0:30:
+256,192,69404,1,0,0:0:0:30:
+329,192,69589,128,0,70330:0:0:0:15:
+402,192,69589,1,0,0:0:0:15:
+182,192,69959,1,0,0:0:0:30:
+36,192,70145,1,0,0:0:0:30:
+182,192,70330,128,0,71071:0:0:0:30:
+329,192,70515,1,0,0:0:0:30:
+402,192,70885,1,0,0:0:0:30:
+36,192,71071,128,0,71811:0:0:0:30:
+329,192,71256,1,0,0:0:0:30:
+256,192,71441,1,0,0:0:0:30:
+109,192,71626,1,0,0:0:0:30:
+182,192,71811,128,0,72552:0:0:0:15:
+402,192,71811,1,0,0:0:0:15:
+402,192,72552,1,0,0:0:0:10:
+329,192,72552,1,0,0:0:0:10:
+256,192,72552,1,0,0:0:0:10:
+182,192,72737,1,0,0:0:0:30:
+36,192,72922,1,0,0:0:0:10:
+109,192,72922,1,0,0:0:0:10:
+329,192,72922,1,0,0:0:0:10:
+402,192,73108,1,0,0:0:0:10:
+109,192,73108,1,0,0:0:0:10:
+182,192,73108,1,0,0:0:0:10:
+329,192,73293,1,0,0:0:0:30:
+475,192,73478,1,0,0:0:0:10:
+109,192,73478,1,0,0:0:0:10:
+182,192,73478,1,0,0:0:0:10:
+256,192,73663,1,0,0:0:0:30:
+329,192,73848,1,0,0:0:0:10:
+36,192,73848,1,0,0:0:0:10:
+182,192,73848,1,0,0:0:0:10:
+402,192,74034,1,0,0:0:0:30:
+109,192,74219,1,0,0:0:0:10:
+182,192,74219,1,0,0:0:0:10:
+475,192,74219,1,0,0:0:0:10:
+329,192,74404,1,0,0:0:0:30:
+402,192,74589,1,0,0:0:0:10:
+109,192,74589,1,0,0:0:0:10:
+36,192,74589,1,0,0:0:0:10:
+182,192,74774,1,0,0:0:0:30:
+109,192,74959,1,0,0:0:0:10:
+402,192,74959,1,0,0:0:0:10:
+329,192,74959,1,0,0:0:0:10:
+329,192,75145,1,0,0:0:0:10:
+109,192,75145,1,0,0:0:0:10:
+256,192,75145,1,0,0:0:0:10:
+256,192,75330,1,0,0:0:0:10:
+182,192,75330,1,0,0:0:0:10:
+36,192,75330,1,0,0:0:0:10:
+475,192,75515,1,0,0:0:0:10:
+329,192,75515,1,0,0:0:0:10:
+182,192,75515,1,0,0:0:0:10:
+109,192,75700,1,0,0:0:0:30:
+329,192,75885,1,0,0:0:0:10:
+256,192,75885,1,0,0:0:0:10:
+109,192,75885,1,0,0:0:0:10:
+36,192,76071,1,0,0:0:0:10:
+329,192,76071,1,0,0:0:0:10:
+182,192,76071,1,0,0:0:0:10:
+402,192,76256,1,0,0:0:0:30:
+182,192,76441,1,0,0:0:0:10:
+329,192,76441,1,0,0:0:0:10:
+109,192,76441,1,0,0:0:0:10:
+256,192,76626,1,0,0:0:0:30:
+475,192,76811,1,0,0:0:0:10:
+109,192,76811,1,0,0:0:0:10:
+329,192,76811,1,0,0:0:0:10:
+182,192,76997,1,0,0:0:0:30:
+402,192,77182,1,0,0:0:0:10:
+329,192,77182,1,0,0:0:0:10:
+109,192,77182,1,0,0:0:0:10:
+329,192,77367,1,0,0:0:0:10:
+36,192,77367,1,0,0:0:0:10:
+182,192,77367,1,0,0:0:0:10:
+475,192,77552,1,0,0:0:0:10:
+109,192,77552,1,0,0:0:0:10:
+256,192,77552,1,0,0:0:0:10:
+256,192,77737,1,0,0:0:0:10:
+182,192,77737,1,0,0:0:0:10:
+475,192,77737,1,0,0:0:0:10:
+329,192,77922,1,0,0:0:0:30:
+182,192,78108,1,0,0:0:0:30:
+475,192,78200,1,0,0:0:0:30:
+182,192,78293,1,0,0:0:0:30:
+475,192,78385,1,0,0:0:0:30:
+256,192,78478,1,0,0:0:0:15:
+109,192,78478,1,0,0:0:0:15:
+402,192,78571,1,0,0:0:0:30:
+329,192,78663,1,0,0:0:0:30:
+182,192,78756,1,0,0:0:0:30:
+475,192,78848,1,0,0:0:0:30:
+109,192,78941,1,0,0:0:0:30:
+329,192,79034,1,0,0:0:0:30:
+182,192,79126,1,0,0:0:0:30:
+36,192,79219,1,0,0:0:0:30:
+256,192,79311,1,0,0:0:0:30:
+402,192,79404,1,0,0:0:0:30:
+109,192,79497,1,0,0:0:0:30:
+182,192,79589,1,0,0:0:0:30:
+329,192,79682,1,0,0:0:0:30:
+475,192,79774,1,0,0:0:0:30:
+329,192,79867,1,0,0:0:0:30:
+109,192,79959,1,0,0:0:0:30:
+182,192,80052,1,0,0:0:0:30:
+256,192,80145,1,0,0:0:0:30:
+329,192,80237,1,0,0:0:0:30:
+402,192,80330,1,0,0:0:0:30:
+182,192,80422,1,0,0:0:0:30:
+475,192,80515,1,0,0:0:0:30:
+256,192,80608,1,0,0:0:0:30:
+109,192,80700,1,0,0:0:0:30:
+329,192,80793,1,0,0:0:0:30:
+36,192,80885,1,0,0:0:0:30:
+182,192,80978,1,0,0:0:0:30:
+329,192,81071,1,0,0:0:0:30:
+402,192,81163,1,0,0:0:0:30:
+182,192,81256,1,0,0:0:0:30:
+109,192,81348,1,0,0:0:0:30:
+402,192,81441,1,0,0:0:0:30:
+182,192,81534,1,0,0:0:0:30:
+329,192,81626,1,0,0:0:0:30:
+475,192,81719,1,0,0:0:0:30:
+109,192,81811,1,0,0:0:0:30:
+329,192,81904,1,0,0:0:0:30:
+402,192,81997,1,0,0:0:0:30:
+36,192,82089,1,0,0:0:0:30:
+256,192,82182,1,0,0:0:0:30:
+475,192,82274,1,0,0:0:0:30:
+36,192,82367,1,0,0:0:0:30:
+182,192,82459,1,0,0:0:0:30:
+402,192,82552,1,0,0:0:0:30:
+256,192,82645,1,0,0:0:0:30:
+182,192,82737,1,0,0:0:0:30:
+329,192,82830,1,0,0:0:0:30:
+475,192,82922,1,0,0:0:0:30:
+182,192,83015,1,0,0:0:0:30:
+402,192,83108,1,0,0:0:0:30:
+109,192,83200,1,0,0:0:0:30:
+329,192,83293,1,0,0:0:0:30:
+475,192,83385,1,0,0:0:0:30:
+256,192,83478,1,0,0:0:0:30:
+109,192,83571,1,0,0:0:0:30:
+402,192,83663,1,0,0:0:0:30:
+36,192,83756,1,0,0:0:0:30:
+182,192,83848,1,0,0:0:0:30:
+329,192,83941,1,0,0:0:0:30:
+402,192,84034,1,0,0:0:0:30:
+182,192,84126,1,0,0:0:0:30:
+475,192,84219,1,0,0:0:0:30:
+109,192,84311,1,0,0:0:0:30:
+36,192,84404,128,0,85145:0:0:0:30:
+109,192,84589,128,0,85145:0:0:0:30:
+182,192,84774,128,0,85145:0:0:0:30:
+256,192,84959,128,0,85145:0:0:0:30:
+475,192,85145,128,0,85885:0:0:0:30:
+402,192,85330,128,0,85885:0:0:0:30:
+329,192,85515,128,0,85885:0:0:0:30:
+256,192,85700,128,0,85885:0:0:0:30:
+109,192,85885,128,0,86626:0:0:0:30:
+402,192,86071,128,0,86626:0:0:0:30:
+182,192,86256,128,0,86626:0:0:0:30:
+329,192,86441,128,0,86626:0:0:0:30:
+475,192,86626,128,0,87367:0:0:0:30:
+256,192,86811,128,0,87367:0:0:0:30:
+182,192,86997,128,0,87367:0:0:0:30:
+36,192,87182,128,0,87367:0:0:0:30:
+329,192,87367,128,0,87737:0:0:0:30:
+109,192,87552,128,0,87922:0:0:0:30:
+182,192,87737,128,0,88108:0:0:0:30:
+256,192,87922,128,0,88293:0:0:0:30:
+475,192,88108,128,0,88478:0:0:0:30:
+36,192,88293,128,0,88663:0:0:0:30:
+109,192,88478,128,0,88848:0:0:0:30:
+182,192,88663,128,0,89034:0:0:0:30:
+402,192,88848,128,0,89219:0:0:0:30:
+329,192,89034,128,0,89404:0:0:0:30:
+109,192,89219,128,0,89589:0:0:0:30:
+36,192,89404,128,0,89774:0:0:0:30:
+475,192,89589,1,0,0:0:0:30:
+329,192,89774,1,0,0:0:0:30:
+182,192,89959,1,0,0:0:0:30:
+36,192,90145,1,0,0:0:0:15:
+475,192,90145,1,0,0:0:0:15:
+256,192,90330,128,0,91071:0:0:0:10:
+36,192,90330,1,0,0:0:0:10:
+475,192,90330,1,0,0:0:0:10:
+109,192,90515,1,0,0:0:0:15:
+402,192,90515,1,0,0:0:0:15:
+182,192,90700,1,0,0:0:0:15:
+475,192,90700,1,0,0:0:0:15:
+36,192,90885,1,0,0:0:0:15:
+329,192,90885,1,0,0:0:0:15:
+475,192,91071,128,0,91811:0:0:0:15:
+182,192,91071,1,0,0:0:0:15:
+402,192,91256,1,0,0:0:0:15:
+109,192,91256,1,0,0:0:0:15:
+329,192,91441,1,0,0:0:0:15:
+182,192,91441,1,0,0:0:0:15:
+36,192,91626,1,0,0:0:0:15:
+256,192,91626,1,0,0:0:0:15:
+329,192,91811,128,0,92552:0:0:0:15:
+182,192,91811,1,0,0:0:0:15:
+256,192,91997,1,0,0:0:0:15:
+109,192,91997,1,0,0:0:0:15:
+36,192,92182,1,0,0:0:0:15:
+402,192,92182,1,0,0:0:0:15:
+182,192,92367,1,0,0:0:0:15:
+475,192,92367,1,0,0:0:0:15:
+256,192,92552,128,0,93293:0:0:0:15:
+402,192,92552,1,0,0:0:0:15:
+109,192,92645,1,0,0:0:0:30:
+402,192,92737,1,0,0:0:0:30:
+109,192,92830,1,0,0:0:0:30:
+402,192,92922,1,0,0:0:0:30:
+109,192,93015,1,0,0:0:0:30:
+402,192,93108,1,0,0:0:0:30:
+109,192,93200,1,0,0:0:0:30:
+329,192,93293,1,0,0:0:0:30:
+182,192,93385,1,0,0:0:0:30:
+475,192,93478,1,0,0:0:0:30:
+36,192,93571,1,0,0:0:0:30:
+329,192,93663,1,0,0:0:0:30:
+182,192,93756,1,0,0:0:0:30:
+475,192,93848,1,0,0:0:0:30:
+36,192,93941,1,0,0:0:0:30:
+329,192,94034,1,0,0:0:0:30:
+182,192,94126,1,0,0:0:0:30:
+475,192,94219,1,0,0:0:0:30:
+36,192,94311,1,0,0:0:0:30:
+329,192,94404,1,0,0:0:0:30:
+182,192,94497,1,0,0:0:0:30:
+475,192,94589,1,0,0:0:0:30:
+36,192,94682,1,0,0:0:0:30:
+109,192,94774,1,0,0:0:0:30:
+256,192,94821,1,0,0:0:0:30:
+402,192,94867,1,0,0:0:0:30:
+109,192,94959,1,0,0:0:0:30:
+256,192,95006,1,0,0:0:0:30:
+402,192,95052,1,0,0:0:0:30:
+182,192,95145,1,0,0:0:0:30:
+329,192,95237,1,0,0:0:0:30:
+182,192,95330,1,0,0:0:0:30:
+329,192,95422,1,0,0:0:0:30:
+36,192,95515,1,0,0:0:0:30:
+109,192,95561,1,0,0:0:0:30:
+182,192,95608,1,0,0:0:0:30:
+36,192,95700,1,0,0:0:0:30:
+109,192,95747,1,0,0:0:0:30:
+182,192,95793,1,0,0:0:0:30:
+475,192,95885,1,0,0:0:0:30:
+329,192,95978,1,0,0:0:0:30:
+475,192,96071,1,0,0:0:0:30:
+329,192,96163,1,0,0:0:0:30:
+256,192,102449,5,0,0:0:0:30:
+256,192,102836,1,0,0:0:0:30:
+256,192,103223,1,0,0:0:0:30:
+256,192,103610,1,0,0:0:0:30:
+256,192,103997,1,0,0:0:0:30:
+256,192,104288,1,0,0:0:0:30:
+256,192,104578,1,0,0:0:0:30:
+256,192,104772,1,0,0:0:0:30:
+256,192,104965,1,0,0:0:0:30:
+256,192,105159,1,0,0:0:0:30:
+256,192,105352,1,0,0:0:0:30:
+256,192,105449,1,0,0:0:0:30:
+109,192,105546,1,0,0:0:0:15:
+402,192,105546,1,0,0:0:0:15:
+256,192,105933,1,0,0:0:0:30:
+256,192,106320,1,0,0:0:0:30:
+256,192,106707,1,0,0:0:0:30:
+256,192,107094,1,0,0:0:0:30:
+256,192,107385,1,0,0:0:0:30:
+256,192,107675,1,0,0:0:0:30:
+256,192,107868,1,0,0:0:0:30:
+256,192,108062,1,0,0:0:0:30:
+256,192,108255,1,0,0:0:0:30:
+256,192,108449,1,0,0:0:0:30:
+256,192,108546,1,0,0:0:0:30:
+402,192,108643,1,0,0:0:0:15:
+109,192,108643,1,0,0:0:0:15:
+36,192,108836,1,0,0:0:0:30:
+329,192,109030,1,0,0:0:0:30:
+475,192,109223,1,0,0:0:0:30:
+109,192,109417,1,0,0:0:0:30:
+329,192,109610,1,0,0:0:0:30:
+182,192,109804,1,0,0:0:0:30:
+475,192,109997,1,0,0:0:0:30:
+256,192,110191,1,0,0:0:0:30:
+109,192,110385,1,0,0:0:0:30:
+182,192,110481,1,0,0:0:0:30:
+402,192,110578,1,0,0:0:0:30:
+182,192,110772,1,0,0:0:0:30:
+256,192,110965,1,0,0:0:0:15:
+36,192,110965,1,0,0:0:0:15:
+402,192,111159,1,0,0:0:0:15:
+109,192,111159,1,0,0:0:0:15:
+256,192,111352,1,0,0:0:0:15:
+475,192,111352,1,0,0:0:0:15:
+256,192,111546,1,0,0:0:0:30:
+256,192,111643,1,0,0:0:0:30:
+402,192,111739,1,0,0:0:0:15:
+109,192,111739,1,0,0:0:0:15:
+36,192,111933,1,0,0:0:0:15:
+329,192,111933,1,0,0:0:0:15:
+402,192,112126,1,0,0:0:0:15:
+109,192,112126,1,0,0:0:0:15:
+182,192,112320,1,0,0:0:0:15:
+475,192,112320,1,0,0:0:0:15:
+329,192,112514,1,0,0:0:0:15:
+109,192,112514,1,0,0:0:0:15:
+256,192,112707,1,0,0:0:0:15:
+36,192,112707,1,0,0:0:0:15:
+329,192,112901,1,0,0:0:0:15:
+109,192,112901,1,0,0:0:0:15:
+182,192,113094,1,0,0:0:0:15:
+402,192,113094,1,0,0:0:0:15:
+475,192,113288,1,0,0:0:0:15:
+109,192,113288,1,0,0:0:0:15:
+182,192,113481,1,0,0:0:0:15:
+36,192,113481,1,0,0:0:0:15:
+256,192,113578,1,0,0:0:0:30:
+329,192,113675,1,0,0:0:0:15:
+475,192,113675,1,0,0:0:0:15:
+475,192,113868,1,0,0:0:0:15:
+182,192,113868,1,0,0:0:0:15:
+329,192,114062,1,0,0:0:0:10:
+402,192,114062,1,0,0:0:0:10:
+109,192,114062,1,0,0:0:0:10:
+402,192,114255,1,0,0:0:0:10:
+182,192,114255,1,0,0:0:0:10:
+36,192,114255,1,0,0:0:0:10:
+256,192,114449,1,0,0:0:0:10:
+109,192,114449,1,0,0:0:0:10:
+402,192,114449,1,0,0:0:0:10:
+329,192,114643,1,0,0:0:0:15:
+182,192,114643,1,0,0:0:0:15:
+329,192,114739,1,0,0:0:0:30:
+475,192,114836,1,0,0:0:0:15:
+36,192,114836,1,0,0:0:0:15:
+256,192,115030,1,0,0:0:0:30:
+329,192,115223,1,0,0:0:0:10:
+109,192,115223,1,0,0:0:0:10:
+402,192,115223,1,0,0:0:0:10:
+475,192,115417,1,0,0:0:0:30:
+256,192,115610,1,0,0:0:0:15:
+36,192,115610,1,0,0:0:0:15:
+182,192,115804,1,0,0:0:0:30:
+475,192,115997,1,0,0:0:0:10:
+402,192,115997,1,0,0:0:0:10:
+329,192,115997,1,0,0:0:0:10:
+256,192,116191,1,0,0:0:0:30:
+109,192,116385,1,0,0:0:0:15:
+329,192,116385,1,0,0:0:0:15:
+182,192,116578,1,0,0:0:0:30:
+256,192,116675,1,0,0:0:0:30:
+402,192,116772,1,0,0:0:0:30:
+109,192,116965,1,0,0:0:0:15:
+475,192,116965,1,0,0:0:0:15:
+402,192,117159,1,0,0:0:0:15:
+182,192,117159,1,0,0:0:0:15:
+109,192,117352,1,0,0:0:0:15:
+402,192,117352,1,0,0:0:0:15:
+402,192,117546,1,0,0:0:0:15:
+182,192,117546,1,0,0:0:0:15:
+329,192,117739,1,0,0:0:0:30:
+329,192,117836,1,0,0:0:0:30:
+475,192,117933,1,0,0:0:0:15:
+256,192,117933,1,0,0:0:0:15:
+36,192,118126,1,0,0:0:0:30:
+475,192,118320,1,0,0:0:0:15:
+329,192,118320,1,0,0:0:0:15:
+36,192,118514,1,0,0:0:0:30:
+475,192,118707,1,0,0:0:0:30:
+36,192,118901,1,0,0:0:0:30:
+475,192,119094,1,0,0:0:0:15:
+329,192,119094,1,0,0:0:0:15:
+36,192,119288,1,0,0:0:0:30:
+475,192,119481,1,0,0:0:0:30:
+256,192,119675,1,0,0:0:0:15:
+36,192,119675,1,0,0:0:0:15:
+329,192,119772,1,0,0:0:0:30:
+475,192,119868,1,0,0:0:0:30:
+256,192,120062,1,0,0:0:0:15:
+36,192,120062,1,0,0:0:0:15:
+475,192,120255,1,0,0:0:0:30:
+256,192,120449,1,0,0:0:0:15:
+36,192,120449,1,0,0:0:0:15:
+475,192,120643,1,0,0:0:0:30:
+36,192,120836,1,0,0:0:0:30:
+256,192,120933,1,0,0:0:0:30:
+475,192,121030,1,0,0:0:0:10:
+402,192,121030,128,0,121804:0:0:0:10:
+109,192,121030,1,0,0:0:0:10:
+36,192,121223,1,0,0:0:0:30:
+329,192,121417,1,0,0:0:0:30:
+109,192,121610,1,0,0:0:0:30:
+256,192,121804,1,0,0:0:0:15:
+475,192,121804,128,0,122578:0:0:0:15:
+109,192,121997,1,0,0:0:0:30:
+36,192,122191,1,0,0:0:0:30:
+329,192,122385,1,0,0:0:0:30:
+256,192,122578,1,0,0:0:0:15:
+402,192,122578,128,0,123352:0:0:0:15:
+36,192,122772,1,0,0:0:0:30:
+109,192,122868,1,0,0:0:0:30:
+182,192,122965,1,0,0:0:0:30:
+36,192,123159,1,0,0:0:0:15:
+256,192,123159,1,0,0:0:0:15:
+256,192,123352,1,0,0:0:0:15:
+109,192,123352,128,0,124126:0:0:0:15:
+475,192,123546,1,0,0:0:0:15:
+256,192,123546,1,0,0:0:0:15:
+256,192,123739,1,0,0:0:0:30:
+256,192,123933,1,0,0:0:0:30:
+329,192,124030,1,0,0:0:0:30:
+402,192,124126,1,0,0:0:0:30:
+475,192,124320,1,0,0:0:0:15:
+256,192,124320,1,0,0:0:0:15:
+329,192,124514,1,0,0:0:0:15:
+182,192,124514,1,0,0:0:0:15:
+36,192,124707,1,0,0:0:0:15:
+256,192,124707,1,0,0:0:0:15:
+109,192,124901,1,0,0:0:0:15:
+329,192,124901,1,0,0:0:0:15:
+182,192,125094,1,0,0:0:0:15:
+256,192,125094,1,0,0:0:0:15:
+402,192,125288,1,0,0:0:0:15:
+109,192,125288,1,0,0:0:0:15:
+109,192,125481,1,0,0:0:0:15:
+329,192,125481,1,0,0:0:0:15:
+36,192,125675,1,0,0:0:0:15:
+475,192,125675,1,0,0:0:0:15:
+109,192,125868,1,0,0:0:0:30:
+329,192,125965,1,0,0:0:0:30:
+475,192,126062,1,0,0:0:0:30:
+36,192,126255,1,0,0:0:0:15:
+256,192,126255,1,0,0:0:0:15:
+329,192,126449,1,0,0:0:0:15:
+182,192,126449,1,0,0:0:0:15:
+329,192,126643,1,0,0:0:0:15:
+36,192,126643,1,0,0:0:0:15:
+329,192,126836,1,0,0:0:0:15:
+109,192,126836,1,0,0:0:0:15:
+329,192,127030,1,0,0:0:0:30:
+256,192,127126,1,0,0:0:0:30:
+36,192,127223,128,0,127610:0:0:0:15:
+475,192,127223,1,0,0:0:0:15:
+182,192,127417,128,0,127610:0:0:0:30:
+329,192,127610,128,0,127997:0:0:0:30:
+475,192,127804,128,0,127997:0:0:0:30:
+109,192,127997,128,0,128385:0:0:0:30:
+182,192,128191,128,0,128385:0:0:0:30:
+329,192,128385,128,0,128772:0:0:0:30:
+402,192,128578,128,0,128772:0:0:0:30:
+182,192,128772,128,0,129159:0:0:0:30:
+36,192,128965,128,0,129159:0:0:0:30:
+256,192,129159,128,0,129546:0:0:0:30:
+475,192,129352,128,0,129546:0:0:0:30:
+182,192,129546,1,0,0:0:0:15:
+36,192,129546,1,0,0:0:0:15:
+256,192,129739,1,0,0:0:0:15:
+109,192,129739,1,0,0:0:0:15:
+182,192,129933,1,0,0:0:0:15:
+329,192,129933,1,0,0:0:0:15:
+182,192,130126,1,0,0:0:0:30:
+329,192,130223,1,0,0:0:0:30:
+109,192,130320,1,0,0:0:0:10:
+402,192,130320,1,0,0:0:0:10:
+256,192,130320,1,0,0:0:0:10:
+36,192,130514,1,0,0:0:0:15:
+182,192,130514,1,0,0:0:0:15:
+256,192,130707,1,0,0:0:0:15:
+475,192,130707,1,0,0:0:0:15:
+329,192,130901,1,0,0:0:0:15:
+402,192,130901,1,0,0:0:0:15:
+256,192,131094,1,0,0:0:0:10:
+36,192,131094,1,0,0:0:0:10:
+182,192,131094,1,0,0:0:0:10:
+475,192,131288,1,0,0:0:0:15:
+109,192,131288,1,0,0:0:0:15:
+329,192,131481,1,0,0:0:0:15:
+182,192,131481,1,0,0:0:0:15:
+402,192,131675,1,0,0:0:0:15:
+256,192,131675,1,0,0:0:0:15:
+475,192,131868,1,0,0:0:0:15:
+182,192,131868,1,0,0:0:0:15:
+36,192,132062,1,0,0:0:0:15:
+402,192,132062,1,0,0:0:0:15:
+256,192,132159,1,0,0:0:0:30:
+475,192,132255,1,0,0:0:0:30:
+329,192,132449,1,0,0:0:0:15:
+36,192,132449,1,0,0:0:0:15:
+256,192,132643,1,0,0:0:0:15:
+402,192,132643,1,0,0:0:0:15:
+256,192,132836,1,0,0:0:0:15:
+109,192,132836,1,0,0:0:0:15:
+256,192,133030,1,0,0:0:0:15:
+402,192,133030,1,0,0:0:0:15:
+109,192,133223,1,0,0:0:0:15:
+182,192,133223,1,0,0:0:0:15:
+256,192,133320,1,0,0:0:0:30:
+402,192,133417,1,0,0:0:0:15:
+36,192,133417,128,0,134965:0:0:0:15:
+182,192,133610,1,0,0:0:0:30:
+256,192,133804,1,0,0:0:0:30:
+329,192,133997,1,0,0:0:0:30:
+402,192,134191,1,0,0:0:0:30:
+109,192,134385,1,0,0:0:0:30:
+182,192,134578,1,0,0:0:0:30:
+256,192,134772,1,0,0:0:0:30:
+109,192,134965,128,0,136514:0:0:0:15:
+402,192,134965,1,0,0:0:0:15:
+182,192,135159,1,0,0:0:0:30:
+402,192,135352,1,0,0:0:0:30:
+256,192,135546,1,0,0:0:0:30:
+475,192,135739,1,0,0:0:0:30:
+329,192,135933,1,0,0:0:0:30:
+475,192,136126,1,0,0:0:0:30:
+182,192,136320,1,0,0:0:0:30:
+329,192,136514,1,0,0:0:0:30:
+36,192,136707,1,0,0:0:0:30:
+256,192,136901,1,0,0:0:0:30:
+329,192,137094,1,0,0:0:0:30:
+256,192,137288,1,0,0:0:0:15:
+109,192,137288,1,0,0:0:0:15:
+36,192,137481,1,0,0:0:0:30:
+329,192,137675,1,0,0:0:0:30:
+475,192,137868,1,0,0:0:0:30:
+329,192,138062,1,0,0:0:0:15:
+109,192,138062,1,0,0:0:0:15:
+182,192,138255,1,0,0:0:0:30:
+256,192,138449,1,0,0:0:0:30:
+402,192,138643,1,0,0:0:0:30:
+475,192,138836,1,0,0:0:0:15:
+182,192,138836,1,0,0:0:0:15:
+109,192,139030,1,0,0:0:0:30:
+475,192,139223,1,0,0:0:0:30:
+256,192,139417,1,0,0:0:0:30:
+182,192,139610,1,0,0:0:0:30:
+36,192,139804,1,0,0:0:0:30:
+182,192,139997,1,0,0:0:0:30:
+329,192,140191,1,0,0:0:0:30:
+256,192,140385,1,0,0:0:0:30:
+109,192,140578,1,0,0:0:0:30:
+256,192,140772,1,0,0:0:0:30:
+402,192,140965,1,0,0:0:0:30:
+329,192,141159,1,0,0:0:0:30:
+182,192,141352,1,0,0:0:0:30:
+329,192,141546,1,0,0:0:0:30:
+475,192,141739,1,0,0:0:0:30:
+402,192,141933,1,0,0:0:0:30:
+182,192,142126,1,0,0:0:0:30:
+402,192,142320,1,0,0:0:0:30:
+36,192,142514,1,0,0:0:0:30:
+182,192,142707,1,0,0:0:0:30:
+329,192,143094,1,0,0:0:0:30:
+182,192,143481,1,0,0:0:0:30:
+329,192,143868,1,0,0:0:0:30:
+256,192,144255,128,0,145901:0:0:0:30:
+36,192,145901,128,0,150836:0:0:0:15:
+475,192,145901,128,0,150836:0:0:0:15:
+182,192,151997,1,0,0:0:0:15:
+329,192,151998,1,0,0:0:0:7:
+475,192,151998,1,0,0:0:0:7:
+36,192,151998,1,0,0:0:0:7:
+182,192,152298,1,0,0:0:0:30:
+329,192,152598,1,0,0:0:0:30:
+475,192,152798,1,0,0:0:0:30:
+256,192,153198,1,0,0:0:0:30:
+182,192,153598,1,0,0:0:0:5:
+36,192,153598,1,0,0:0:0:5:
+329,192,153598,1,0,0:0:0:5:
+475,192,153598,1,0,0:0:0:5:
+256,192,153898,1,0,0:0:0:30:
+329,192,154198,1,0,0:0:0:30:
+475,192,154398,1,0,0:0:0:30:
+256,192,154798,1,0,0:0:0:30:
+36,192,155198,1,0,0:0:0:5:
+182,192,155198,1,0,0:0:0:5:
+329,192,155198,1,0,0:0:0:5:
+475,192,155198,1,0,0:0:0:5:
+36,192,155498,1,0,0:0:0:30:
+182,192,155798,1,0,0:0:0:30:
+256,192,155998,1,0,0:0:0:30:
+182,192,157598,128,0,157998:0:0:0:30:
+256,192,157998,128,0,158398:0:0:0:30:
+36,192,158398,1,0,0:0:0:7:
+182,192,158398,1,0,0:0:0:7:
+329,192,158398,1,0,0:0:0:7:
+475,192,158398,1,0,0:0:0:7:
+256,192,158698,1,0,0:0:0:30:
+329,192,158998,1,0,0:0:0:30:
+402,192,159198,1,0,0:0:0:30:
+475,192,159598,1,0,0:0:0:30:
+329,192,159998,1,0,0:0:0:7:
+182,192,159998,1,0,0:0:0:7:
+475,192,159998,1,0,0:0:0:7:
+36,192,159998,1,0,0:0:0:7:
+329,192,160298,1,0,0:0:0:30:
+256,192,160598,1,0,0:0:0:30:
+256,192,160798,1,0,0:0:0:30:
+182,192,161098,1,0,0:0:0:30:
+109,192,161398,1,0,0:0:0:30:
+36,192,161598,1,0,0:0:0:7:
+182,192,161598,1,0,0:0:0:7:
+329,192,161598,1,0,0:0:0:7:
+475,192,161598,1,0,0:0:0:7:
+36,192,164798,1,0,0:0:0:7:
+182,192,164798,1,0,0:0:0:7:
+329,192,164798,1,0,0:0:0:7:
+475,192,164798,1,0,0:0:0:7:
+109,192,164989,1,0,0:0:0:30:
+256,192,165084,1,0,0:0:0:30:
+402,192,165180,1,0,0:0:0:30:
+329,192,165371,1,0,0:0:0:15:
+109,192,165371,1,0,0:0:0:15:
+475,192,165562,128,0,165753:0:0:0:15:
+182,192,165562,1,0,0:0:0:15:
+329,192,165753,128,0,165944:0:0:0:30:
+256,192,165944,1,0,0:0:0:15:
+36,192,165944,1,0,0:0:0:15:
+182,192,166135,1,0,0:0:0:30:
+36,192,166326,1,0,0:0:0:10:
+256,192,166326,1,0,0:0:0:10:
+475,192,166326,1,0,0:0:0:10:
+329,192,166517,1,0,0:0:0:30:
+109,192,166613,1,0,0:0:0:30:
+402,192,166708,1,0,0:0:0:30:
+182,192,166899,1,0,0:0:0:30:
+329,192,167090,1,0,0:0:0:15:
+109,192,167090,128,0,167282:0:0:0:15:
+256,192,167282,128,0,167473:0:0:0:30:
+36,192,167473,1,0,0:0:0:15:
+475,192,167473,1,0,0:0:0:15:
+329,192,167664,1,0,0:0:0:30:
+256,192,167855,1,0,0:0:0:10:
+109,192,167855,1,0,0:0:0:10:
+402,192,167855,1,0,0:0:0:10:
+36,192,168046,1,0,0:0:0:30:
+182,192,168141,1,0,0:0:0:30:
+402,192,168237,1,0,0:0:0:30:
+109,192,168428,1,0,0:0:0:15:
+329,192,168428,1,0,0:0:0:15:
+182,192,168619,1,0,0:0:0:15:
+402,192,168619,128,0,169001:0:0:0:15:
+256,192,168810,1,0,0:0:0:30:
+36,192,169001,1,0,0:0:0:15:
+329,192,169001,1,0,0:0:0:15:
+182,192,169192,1,0,0:0:0:30:
+109,192,169383,1,0,0:0:0:15:
+402,192,169383,1,0,0:0:0:15:
+182,192,169575,1,0,0:0:0:30:
+329,192,169670,1,0,0:0:0:30:
+475,192,169766,1,0,0:0:0:30:
+109,192,169957,1,0,0:0:0:15:
+256,192,169957,1,0,0:0:0:15:
+36,192,170148,128,0,170339:0:0:0:15:
+182,192,170148,128,0,170339:0:0:0:15:
+402,192,170339,1,0,0:0:0:30:
+329,192,170530,128,0,170721:0:0:0:15:
+475,192,170530,128,0,170721:0:0:0:15:
+109,192,170721,1,0,0:0:0:30:
+36,192,170912,128,0,172441:0:0:0:10:
+256,192,170912,1,0,0:0:0:10:
+402,192,170912,1,0,0:0:0:10:
+182,192,171103,1,0,0:0:0:30:
+475,192,171199,1,0,0:0:0:30:
+256,192,171294,1,0,0:0:0:30:
+109,192,171485,1,0,0:0:0:15:
+329,192,171485,1,0,0:0:0:15:
+182,192,171676,1,0,0:0:0:15:
+402,192,171676,1,0,0:0:0:15:
+109,192,171868,1,0,0:0:0:30:
+402,192,172059,1,0,0:0:0:15:
+329,192,172059,1,0,0:0:0:15:
+109,192,172250,1,0,0:0:0:30:
+475,192,172441,128,0,173969:0:0:0:10:
+329,192,172441,1,0,0:0:0:10:
+256,192,172441,1,0,0:0:0:10:
+402,192,172632,1,0,0:0:0:30:
+182,192,172727,1,0,0:0:0:30:
+109,192,172823,1,0,0:0:0:30:
+329,192,173014,1,0,0:0:0:15:
+36,192,173014,1,0,0:0:0:15:
+329,192,173205,1,0,0:0:0:15:
+36,192,173205,1,0,0:0:0:15:
+109,192,173396,1,0,0:0:0:30:
+182,192,173492,1,0,0:0:0:30:
+256,192,173587,1,0,0:0:0:30:
+36,192,173778,1,0,0:0:0:15:
+182,192,173778,1,0,0:0:0:15:
+36,192,173969,1,0,0:0:0:15:
+182,192,173969,1,0,0:0:0:15:
+329,192,174065,1,0,0:0:0:30:
+36,192,174161,1,0,0:0:0:30:
+329,192,174256,1,0,0:0:0:30:
+36,192,174352,1,0,0:0:0:30:
+329,192,174447,1,0,0:0:0:30:
+36,192,174543,1,0,0:0:0:30:
+329,192,174638,1,0,0:0:0:30:
+36,192,174734,1,0,0:0:0:15:
+182,192,174734,1,0,0:0:0:15:
+329,192,174829,1,0,0:0:0:30:
+36,192,174925,1,0,0:0:0:30:
+329,192,175020,1,0,0:0:0:30:
+36,192,175116,1,0,0:0:0:30:
+329,192,175212,1,0,0:0:0:30:
+36,192,175307,1,0,0:0:0:30:
+329,192,175403,1,0,0:0:0:30:
+36,192,175498,1,0,0:0:0:15:
+182,192,175498,1,0,0:0:0:15:
+329,192,175594,1,0,0:0:0:30:
+36,192,175689,1,0,0:0:0:30:
+329,192,175785,1,0,0:0:0:30:
+36,192,175880,1,0,0:0:0:15:
+182,192,175880,1,0,0:0:0:15:
+329,192,175976,1,0,0:0:0:30:
+36,192,176071,1,0,0:0:0:30:
+329,192,176167,1,0,0:0:0:30:
+36,192,176262,1,0,0:0:0:30:
+182,192,176310,1,0,0:0:0:30:
+329,192,176358,1,0,0:0:0:30:
+402,192,176406,1,0,0:0:0:30:
+475,192,176454,1,0,0:0:0:30:
+256,192,176549,1,0,0:0:0:30:
+36,192,176645,1,0,0:0:0:15:
+109,192,176645,1,0,0:0:0:15:
+475,192,176740,1,0,0:0:0:15:
+402,192,176740,1,0,0:0:0:15:
+36,192,176836,1,0,0:0:0:15:
+109,192,176836,1,0,0:0:0:15:
+475,192,176931,1,0,0:0:0:15:
+402,192,176931,1,0,0:0:0:15:
+256,192,177027,1,0,0:0:0:30:
+109,192,177120,1,0,0:0:0:30:
+402,192,177213,1,0,0:0:0:30:
+182,192,177305,1,0,0:0:0:30:
+329,192,177398,1,0,0:0:0:30:
+36,192,177490,1,0,0:0:0:30:
+402,192,177583,1,0,0:0:0:30:
+256,192,177676,1,0,0:0:0:30:
+329,192,177768,1,0,0:0:0:30:
+109,192,177861,1,0,0:0:0:30:
+402,192,177953,1,0,0:0:0:30:
+475,192,178046,1,0,0:0:0:30:
+109,192,178139,1,0,0:0:0:30:
+256,192,178231,1,0,0:0:0:30:
+36,192,178324,1,0,0:0:0:30:
+475,192,178416,1,0,0:0:0:30:
+182,192,178509,1,0,0:0:0:30:
+109,192,178602,1,0,0:0:0:30:
+329,192,178694,1,0,0:0:0:30:
+256,192,178787,1,0,0:0:0:30:
+36,192,178879,1,0,0:0:0:30:
+182,192,178972,1,0,0:0:0:30:
+329,192,179065,1,0,0:0:0:30:
+109,192,179157,1,0,0:0:0:30:
+402,192,179250,1,0,0:0:0:30:
+36,192,179342,1,0,0:0:0:30:
+256,192,179435,1,0,0:0:0:30:
+402,192,179528,1,0,0:0:0:30:
+36,192,179620,1,0,0:0:0:30:
+475,192,179713,1,0,0:0:0:30:
+256,192,179805,1,0,0:0:0:30:
+182,192,179898,1,0,0:0:0:30:
+402,192,179990,1,0,0:0:0:30:
+256,192,180083,1,0,0:0:0:30:
+329,192,180176,1,0,0:0:0:30:
+182,192,180268,1,0,0:0:0:30:
+475,192,180361,1,0,0:0:0:30:
+329,192,180453,1,0,0:0:0:30:
+182,192,180546,1,0,0:0:0:30:
+402,192,180639,1,0,0:0:0:30:
+109,192,180731,1,0,0:0:0:30:
+256,192,180824,1,0,0:0:0:30:
+402,192,180916,1,0,0:0:0:30:
+329,192,181009,1,0,0:0:0:30:
+36,192,181102,1,0,0:0:0:30:
+402,192,181194,1,0,0:0:0:30:
+475,192,181287,1,0,0:0:0:30:
+109,192,181379,1,0,0:0:0:30:
+182,192,181472,1,0,0:0:0:30:
+329,192,181565,1,0,0:0:0:30:
+109,192,181657,1,0,0:0:0:30:
+256,192,181750,1,0,0:0:0:30:
+402,192,181842,1,0,0:0:0:30:
+329,192,181935,1,0,0:0:0:30:
+109,192,182028,1,0,0:0:0:30:
+256,192,182120,1,0,0:0:0:30:
+36,192,182213,1,0,0:0:0:15:
+475,192,182213,1,0,0:0:0:15:
+182,192,182398,1,0,0:0:0:30:
+256,192,182490,1,0,0:0:0:30:
+329,192,182583,1,0,0:0:0:30:
+402,192,182768,1,0,0:0:0:30:
+475,192,182953,1,0,0:0:0:15:
+36,192,182953,1,0,0:0:0:15:
+329,192,183139,1,0,0:0:0:15:
+36,192,183139,1,0,0:0:0:15:
+402,192,183231,1,0,0:0:0:30:
+475,192,183324,1,0,0:0:0:15:
+182,192,183324,1,0,0:0:0:15:
+256,192,183509,1,0,0:0:0:15:
+109,192,183509,1,0,0:0:0:15:
+329,192,183694,1,0,0:0:0:15:
+475,192,183694,1,0,0:0:0:15:
+182,192,183787,1,0,0:0:0:30:
+109,192,183879,1,0,0:0:0:30:
+329,192,184065,1,0,0:0:0:15:
+36,192,184065,1,0,0:0:0:15:
+256,192,184250,1,0,0:0:0:15:
+402,192,184250,1,0,0:0:0:15:
+329,192,184435,1,0,0:0:0:15:
+36,192,184435,1,0,0:0:0:15:
+256,192,184620,1,0,0:0:0:30:
+475,192,184805,1,0,0:0:0:30:
+109,192,184990,1,0,0:0:0:15:
+329,192,184990,1,0,0:0:0:15:
+402,192,185176,1,0,0:0:0:15:
+36,192,185176,1,0,0:0:0:15:
+182,192,185268,1,0,0:0:0:30:
+256,192,185361,1,0,0:0:0:30:
+36,192,185546,1,0,0:0:0:30:
+109,192,185639,1,0,0:0:0:30:
+182,192,185731,1,0,0:0:0:30:
+256,192,185824,1,0,0:0:0:30:
+36,192,185916,1,0,0:0:0:15:
+475,192,185916,1,0,0:0:0:15:
+329,192,186009,1,0,0:0:0:30:
+109,192,186102,1,0,0:0:0:30:
+402,192,186194,1,0,0:0:0:30:
+329,192,186287,1,0,0:0:0:30:
+182,192,186379,1,0,0:0:0:30:
+36,192,186472,1,0,0:0:0:30:
+256,192,186565,1,0,0:0:0:30:
+329,192,186657,1,0,0:0:0:30:
+475,192,186750,1,0,0:0:0:30:
+36,192,186842,1,0,0:0:0:30:
+182,192,186935,1,0,0:0:0:30:
+402,192,187028,1,0,0:0:0:30:
+256,192,187120,1,0,0:0:0:30:
+475,192,187213,1,0,0:0:0:30:
+182,192,187305,1,0,0:0:0:30:
+36,192,187398,1,0,0:0:0:15:
+329,192,187398,1,0,0:0:0:15:
+36,192,187583,1,0,0:0:0:15:
+329,192,187583,1,0,0:0:0:15:
+109,192,187676,1,0,0:0:0:15:
+402,192,187676,1,0,0:0:0:15:
+182,192,187768,1,0,0:0:0:15:
+475,192,187768,1,0,0:0:0:15:
+475,192,187953,1,0,0:0:0:15:
+182,192,187953,1,0,0:0:0:15:
+36,192,188139,1,0,0:0:0:30:
+109,192,188185,1,0,0:0:0:30:
+182,192,188231,1,0,0:0:0:30:
+256,192,188278,1,0,0:0:0:30:
+329,192,188324,1,0,0:0:0:30:
+402,192,188370,1,0,0:0:0:30:
+475,192,188416,1,0,0:0:0:30:
+36,192,188509,1,0,0:0:0:30:
+109,192,188555,1,0,0:0:0:30:
+182,192,188602,1,0,0:0:0:30:
+256,192,188648,1,0,0:0:0:30:
+329,192,188694,1,0,0:0:0:30:
+402,192,188740,1,0,0:0:0:30:
+475,192,188787,1,0,0:0:0:30:
+36,192,188879,1,0,0:0:0:15:
+256,192,188879,1,0,0:0:0:15:
+329,192,188972,1,0,0:0:0:30:
+475,192,189065,1,0,0:0:0:30:
+109,192,189157,1,0,0:0:0:15:
+256,192,189157,1,0,0:0:0:15:
+36,192,189250,1,0,0:0:0:30:
+329,192,189342,1,0,0:0:0:30:
+182,192,189435,1,0,0:0:0:15:
+475,192,189435,1,0,0:0:0:15:
+402,192,189528,1,0,0:0:0:30:
+109,192,189620,1,0,0:0:0:15:
+256,192,189620,1,0,0:0:0:15:
+329,192,189713,1,0,0:0:0:30:
+109,192,189805,1,0,0:0:0:30:
+402,192,189898,1,0,0:0:0:30:
+36,192,189990,1,0,0:0:0:15:
+475,192,189990,1,0,0:0:0:15:
+329,192,190083,1,0,0:0:0:30:
+256,192,190176,1,0,0:0:0:30:
+475,192,190268,1,0,0:0:0:30:
+182,192,190361,1,0,0:0:0:15:
+329,192,190361,1,0,0:0:0:15:
+402,192,190453,1,0,0:0:0:30:
+36,192,190546,1,0,0:0:0:30:
+182,192,190639,1,0,0:0:0:15:
+475,192,190639,1,0,0:0:0:15:
+256,192,190731,1,0,0:0:0:30:
+402,192,190824,1,0,0:0:0:30:
+109,192,190916,1,0,0:0:0:15:
+329,192,190916,1,0,0:0:0:15:
+475,192,191009,1,0,0:0:0:30:
+36,192,191102,1,0,0:0:0:15:
+256,192,191102,1,0,0:0:0:15:
+329,192,191194,1,0,0:0:0:30:
+36,192,191287,1,0,0:0:0:30:
+182,192,191379,1,0,0:0:0:30:
+475,192,191472,1,0,0:0:0:15:
+256,192,191472,1,0,0:0:0:15:
+402,192,191565,1,0,0:0:0:30:
+329,192,191657,1,0,0:0:0:30:
+109,192,191750,1,0,0:0:0:30:
+402,192,191842,1,0,0:0:0:15:
+182,192,191842,1,0,0:0:0:15:
+36,192,191935,1,0,0:0:0:30:
+475,192,192027,1,0,0:0:0:30:
+182,192,192120,1,0,0:0:0:15:
+109,192,192120,1,0,0:0:0:15:
+329,192,192213,1,0,0:0:0:30:
+402,192,192305,1,0,0:0:0:30:
+109,192,192398,1,0,0:0:0:15:
+36,192,192398,1,0,0:0:0:15:
+256,192,192490,1,0,0:0:0:30:
+329,192,192583,1,0,0:0:0:15:
+402,192,192583,1,0,0:0:0:15:
+109,192,192768,1,0,0:0:0:15:
+182,192,192768,1,0,0:0:0:15:
+329,192,192953,1,0,0:0:0:15:
+402,192,192953,1,0,0:0:0:15:
+182,192,193139,1,0,0:0:0:15:
+109,192,193139,1,0,0:0:0:15:
+329,192,193324,1,0,0:0:0:15:
+475,192,193324,1,0,0:0:0:15:
+256,192,193416,1,0,0:0:0:30:
+36,192,193509,1,0,0:0:0:30:
+109,192,193602,1,0,0:0:0:30:
+329,192,193694,1,0,0:0:0:30:
+475,192,193787,1,0,0:0:0:30:
+182,192,193879,1,0,0:0:0:30:
+402,192,193972,1,0,0:0:0:30:
+36,192,194065,1,0,0:0:0:7:
+109,192,194065,1,0,0:0:0:7:
+182,192,194065,1,0,0:0:0:7:
+256,192,194065,1,0,0:0:0:7:
+109,192,194435,1,0,0:0:0:7:
+182,192,194435,1,0,0:0:0:7:
+256,192,194435,1,0,0:0:0:7:
+329,192,194435,1,0,0:0:0:7:
+402,192,194805,1,0,0:0:0:7:
+182,192,194805,1,0,0:0:0:7:
+329,192,194805,1,0,0:0:0:7:
+256,192,194805,1,0,0:0:0:7:
+36,192,194898,1,0,0:0:0:30:
+475,192,194990,1,0,0:0:0:30:
+256,192,195083,1,0,0:0:0:30:
+329,192,195176,1,0,0:0:0:30:
+182,192,195268,1,0,0:0:0:30:
+402,192,195361,1,0,0:0:0:30:
+36,192,195453,1,0,0:0:0:30:
+256,192,195546,1,0,0:0:0:30:
+329,192,195639,1,0,0:0:0:30:
+109,192,195731,1,0,0:0:0:30:
+402,192,195824,1,0,0:0:0:30:
+182,192,195916,1,0,0:0:0:30:
+475,192,196009,1,0,0:0:0:30:
+109,192,196102,1,0,0:0:0:30:
+402,192,196194,1,0,0:0:0:30:
+182,192,196287,1,0,0:0:0:30:
+402,192,196379,1,0,0:0:0:30:
+36,192,196472,1,0,0:0:0:30:
+475,192,196565,1,0,0:0:0:30:
+256,192,196657,1,0,0:0:0:30:
+402,192,196750,1,0,0:0:0:30:
+182,192,196842,1,0,0:0:0:30:
+36,192,196935,1,0,0:0:0:30:
+256,192,197027,1,0,0:0:0:30:
+329,192,197120,1,0,0:0:0:30:
+402,192,197213,1,0,0:0:0:30:
+475,192,197305,1,0,0:0:0:30:
+256,192,197398,1,0,0:0:0:30:
+182,192,197490,1,0,0:0:0:30:
+109,192,197583,1,0,0:0:0:30:
+36,192,197676,1,0,0:0:0:30:
+329,192,197768,1,0,0:0:0:30:
+182,192,197861,1,0,0:0:0:30:
+329,192,197953,1,0,0:0:0:30:
+182,192,198046,1,0,0:0:0:30:
+329,192,198139,1,0,0:0:0:30:
+182,192,198231,1,0,0:0:0:30:
+329,192,198324,1,0,0:0:0:30:
+182,192,198416,1,0,0:0:0:30:
+402,192,198509,1,0,0:0:0:30:
+109,192,198602,1,0,0:0:0:30:
+402,192,198694,1,0,0:0:0:30:
+109,192,198787,1,0,0:0:0:30:
+402,192,198879,1,0,0:0:0:30:
+109,192,198972,1,0,0:0:0:30:
+402,192,199065,1,0,0:0:0:30:
+109,192,199157,1,0,0:0:0:30:
+256,192,199250,1,0,0:0:0:30:
+36,192,199342,1,0,0:0:0:30:
+256,192,199435,1,0,0:0:0:30:
+36,192,199527,1,0,0:0:0:30:
+329,192,199620,1,0,0:0:0:30:
+109,192,199713,1,0,0:0:0:30:
+329,192,199805,1,0,0:0:0:30:
+109,192,199898,1,0,0:0:0:30:
+475,192,199990,1,0,0:0:0:30:
+402,192,200083,1,0,0:0:0:30:
+329,192,200176,1,0,0:0:0:30:
+256,192,200268,1,0,0:0:0:30:
+36,192,200361,1,0,0:0:0:30:
+109,192,200453,1,0,0:0:0:30:
+182,192,200546,1,0,0:0:0:30:
+256,192,200639,1,0,0:0:0:30:
+36,192,200731,128,0,202213:0:0:0:15:
+329,192,200731,1,0,0:0:0:15:
+182,192,200824,1,0,0:0:0:30:
+256,192,200916,1,0,0:0:0:30:
+402,192,201009,1,0,0:0:0:30:
+475,192,201102,1,0,0:0:0:30:
+256,192,201194,1,0,0:0:0:30:
+182,192,201287,1,0,0:0:0:30:
+109,192,201379,1,0,0:0:0:30:
+402,192,201472,1,0,0:0:0:30:
+256,192,201565,1,0,0:0:0:30:
+475,192,201657,1,0,0:0:0:30:
+182,192,201750,1,0,0:0:0:30:
+402,192,201842,1,0,0:0:0:30:
+475,192,201935,1,0,0:0:0:30:
+182,192,202027,1,0,0:0:0:30:
+402,192,202120,1,0,0:0:0:30:
+109,192,202213,128,0,203694:0:0:0:15:
+256,192,202213,1,0,0:0:0:15:
+402,192,202305,1,0,0:0:0:30:
+329,192,202398,1,0,0:0:0:30:
+182,192,202490,1,0,0:0:0:30:
+475,192,202583,1,0,0:0:0:30:
+402,192,202676,1,0,0:0:0:30:
+256,192,202768,1,0,0:0:0:30:
+329,192,202861,1,0,0:0:0:30:
+36,192,202953,1,0,0:0:0:30:
+256,192,203046,1,0,0:0:0:30:
+475,192,203139,1,0,0:0:0:30:
+329,192,203231,1,0,0:0:0:30:
+402,192,203324,1,0,0:0:0:30:
+256,192,203416,1,0,0:0:0:30:
+402,192,203509,1,0,0:0:0:30:
+329,192,203602,1,0,0:0:0:30:
+182,192,203694,128,0,205916:0:0:0:15:
+475,192,203694,1,0,0:0:0:15:
+256,192,203787,1,0,0:0:0:30:
+36,192,203879,1,0,0:0:0:30:
+329,192,203972,1,0,0:0:0:30:
+475,192,204065,1,0,0:0:0:30:
+256,192,204157,1,0,0:0:0:30:
+36,192,204250,1,0,0:0:0:30:
+402,192,204342,1,0,0:0:0:30:
+36,192,204435,1,0,0:0:0:30:
+329,192,204527,1,0,0:0:0:30:
+475,192,204620,1,0,0:0:0:30:
+402,192,204713,1,0,0:0:0:30:
+329,192,204805,1,0,0:0:0:30:
+256,192,204898,1,0,0:0:0:30:
+109,192,204990,1,0,0:0:0:30:
+36,192,205083,1,0,0:0:0:30:
+256,192,205176,1,0,0:0:0:30:
+329,192,205268,1,0,0:0:0:30:
+402,192,205361,1,0,0:0:0:30:
+475,192,205453,1,0,0:0:0:30:
+256,192,205546,1,0,0:0:0:30:
+329,192,205639,1,0,0:0:0:30:
+402,192,205731,1,0,0:0:0:30:
+475,192,205824,1,0,0:0:0:30:
+36,192,205916,1,0,0:0:0:15:
+256,192,205916,1,0,0:0:0:15:
+256,192,206287,1,0,0:0:0:15:
+475,192,206287,1,0,0:0:0:15:
+36,192,206657,128,0,208139:0:0:0:10:
+475,192,206657,1,0,0:0:0:10:
+256,192,206657,1,0,0:0:0:10:
+109,192,206750,1,0,0:0:0:30:
+402,192,206842,1,0,0:0:0:30:
+182,192,206935,1,0,0:0:0:30:
+256,192,207027,1,0,0:0:0:30:
+475,192,207120,1,0,0:0:0:30:
+329,192,207213,1,0,0:0:0:30:
+256,192,207305,1,0,0:0:0:30:
+475,192,207398,1,0,0:0:0:30:
+182,192,207490,1,0,0:0:0:30:
+402,192,207583,1,0,0:0:0:30:
+256,192,207676,1,0,0:0:0:30:
+475,192,207768,1,0,0:0:0:30:
+109,192,207861,1,0,0:0:0:30:
+329,192,207953,1,0,0:0:0:30:
+475,192,208046,1,0,0:0:0:30:
+109,192,208139,128,0,209620:0:0:0:10:
+256,192,208139,1,0,0:0:0:10:
+182,192,208139,1,0,0:0:0:10:
+402,192,208231,1,0,0:0:0:30:
+256,192,208324,1,0,0:0:0:30:
+475,192,208416,1,0,0:0:0:30:
+182,192,208509,1,0,0:0:0:30:
+256,192,208602,1,0,0:0:0:30:
+475,192,208694,1,0,0:0:0:30:
+329,192,208787,1,0,0:0:0:30:
+182,192,208879,1,0,0:0:0:30:
+402,192,208972,1,0,0:0:0:30:
+329,192,209065,1,0,0:0:0:30:
+182,192,209157,1,0,0:0:0:30:
+402,192,209250,1,0,0:0:0:30:
+256,192,209342,1,0,0:0:0:30:
+329,192,209435,1,0,0:0:0:30:
+402,192,209527,1,0,0:0:0:30:
+182,192,209620,128,0,212583:0:0:0:10:
+36,192,209620,1,0,0:0:0:10:
+475,192,209620,1,0,0:0:0:10:
+329,192,209713,1,0,0:0:0:30:
+256,192,209805,1,0,0:0:0:30:
+475,192,209898,1,0,0:0:0:30:
+402,192,209990,1,0,0:0:0:30:
+256,192,210083,1,0,0:0:0:30:
+402,192,210176,1,0,0:0:0:30:
+329,192,210268,1,0,0:0:0:30:
+36,192,210361,1,0,0:0:0:30:
+402,192,210453,1,0,0:0:0:30:
+256,192,210546,1,0,0:0:0:30:
+475,192,210639,1,0,0:0:0:30:
+256,192,210731,1,0,0:0:0:30:
+402,192,210824,1,0,0:0:0:30:
+329,192,210916,1,0,0:0:0:30:
+475,192,211009,1,0,0:0:0:30:
+36,192,211102,1,0,0:0:0:30:
+329,192,211194,1,0,0:0:0:30:
+402,192,211287,1,0,0:0:0:30:
+475,192,211379,1,0,0:0:0:30:
+36,192,211472,1,0,0:0:0:30:
+329,192,211565,1,0,0:0:0:30:
+402,192,211657,1,0,0:0:0:30:
+475,192,211750,1,0,0:0:0:30:
+256,192,211842,1,0,0:0:0:30:
+329,192,211935,1,0,0:0:0:30:
+402,192,212027,1,0,0:0:0:30:
+475,192,212120,1,0,0:0:0:30:
+256,192,212213,1,0,0:0:0:30:
+329,192,212305,1,0,0:0:0:30:
+402,192,212398,1,0,0:0:0:30:
+475,192,212490,1,0,0:0:0:30:
+36,192,212583,1,0,0:0:0:15:
+109,192,212583,1,0,0:0:0:15:
+329,192,212676,1,0,0:0:0:30:
+475,192,212768,1,0,0:0:0:30:
+256,192,212861,1,0,0:0:0:30:
+109,192,212953,1,0,0:0:0:30:
+402,192,213046,1,0,0:0:0:30:
+475,192,213139,1,0,0:0:0:30:
+256,192,213231,1,0,0:0:0:30:
+109,192,213324,1,0,0:0:0:30:
+109,192,213416,1,0,0:0:0:30:
+402,192,213509,1,0,0:0:0:30:
+182,192,213602,1,0,0:0:0:30:
+402,192,213694,1,0,0:0:0:15:
+256,192,213694,1,0,0:0:0:15:
+109,192,213787,1,0,0:0:0:30:
+475,192,213879,1,0,0:0:0:30:
+402,192,213972,1,0,0:0:0:30:
+182,192,214065,1,0,0:0:0:15:
+36,192,214065,1,0,0:0:0:15:
+475,192,214157,1,0,0:0:0:30:
+256,192,214250,1,0,0:0:0:30:
+402,192,214342,1,0,0:0:0:30:
+109,192,214435,1,0,0:0:0:30:
+329,192,214527,1,0,0:0:0:30:
+182,192,214620,1,0,0:0:0:30:
+36,192,214713,1,0,0:0:0:30:
+329,192,214805,1,0,0:0:0:30:
+329,192,214898,1,0,0:0:0:30:
+182,192,214990,1,0,0:0:0:30:
+402,192,215083,1,0,0:0:0:30:
+36,192,215176,1,0,0:0:0:15:
+256,192,215176,1,0,0:0:0:15:
+475,192,215268,1,0,0:0:0:30:
+329,192,215361,1,0,0:0:0:30:
+109,192,215453,1,0,0:0:0:30:
+475,192,215546,1,0,0:0:0:15:
+256,192,215546,1,0,0:0:0:15:
+182,192,215639,1,0,0:0:0:30:
+36,192,215731,1,0,0:0:0:30:
+329,192,215824,1,0,0:0:0:30:
+182,192,215916,1,0,0:0:0:30:
+475,192,216009,1,0,0:0:0:30:
+329,192,216102,1,0,0:0:0:15:
+109,192,216102,1,0,0:0:0:15:
+36,192,216194,1,0,0:0:0:30:
+256,192,216287,1,0,0:0:0:30:
+256,192,216379,1,0,0:0:0:30:
+109,192,216472,1,0,0:0:0:30:
+329,192,216565,1,0,0:0:0:30:
+475,192,216657,1,0,0:0:0:15:
+182,192,216657,1,0,0:0:0:15:
+36,192,216750,1,0,0:0:0:30:
+402,192,216842,1,0,0:0:0:30:
+182,192,216935,1,0,0:0:0:30:
+36,192,217027,1,0,0:0:0:30:
+329,192,217120,1,0,0:0:0:30:
+109,192,217213,1,0,0:0:0:30:
+182,192,217305,1,0,0:0:0:30:
+329,192,217398,1,0,0:0:0:30:
+36,192,217490,1,0,0:0:0:30:
+256,192,217583,1,0,0:0:0:30:
+475,192,217676,1,0,0:0:0:30:
+36,192,217768,1,0,0:0:0:15:
+182,192,217768,1,0,0:0:0:15:
+329,192,217861,1,0,0:0:0:30:
+402,192,217953,1,0,0:0:0:30:
+475,192,218046,1,0,0:0:0:30:
+182,192,218139,1,0,0:0:0:15:
+36,192,218139,1,0,0:0:0:15:
+329,192,218231,1,0,0:0:0:30:
+402,192,218324,1,0,0:0:0:30:
+475,192,218416,1,0,0:0:0:30:
+36,192,218509,1,0,0:0:0:7:
+256,192,218509,1,0,0:0:0:7:
+182,192,218509,1,0,0:0:0:7:
+329,192,218509,1,0,0:0:0:7:
+109,192,218787,1,0,0:0:0:10:
+256,192,218787,1,0,0:0:0:10:
+402,192,218787,1,0,0:0:0:10:
+182,192,219065,1,0,0:0:0:10:
+329,192,219065,1,0,0:0:0:10:
+402,192,219065,1,0,0:0:0:10:
+36,192,219250,1,0,0:0:0:10:
+475,192,219250,1,0,0:0:0:10:
+402,192,219250,1,0,0:0:0:10:
+402,192,219620,1,0,0:0:0:7:
+109,192,219620,1,0,0:0:0:7:
+329,192,219620,1,0,0:0:0:7:
+182,192,219620,1,0,0:0:0:7:
+182,192,219990,1,0,0:0:0:7:
+36,192,219990,1,0,0:0:0:7:
+475,192,219990,1,0,0:0:0:7:
+329,192,219990,1,0,0:0:0:7:
+475,192,220268,1,0,0:0:0:10:
+329,192,220268,1,0,0:0:0:10:
+109,192,220268,1,0,0:0:0:10:
+109,192,220546,1,0,0:0:0:10:
+256,192,220546,1,0,0:0:0:10:
+402,192,220546,1,0,0:0:0:10:
+182,192,220731,1,0,0:0:0:10:
+475,192,220731,1,0,0:0:0:10:
+36,192,220731,1,0,0:0:0:10:
+256,192,221009,1,0,0:0:0:10:
+329,192,221009,1,0,0:0:0:10:
+475,192,221009,1,0,0:0:0:10:
+36,192,221287,1,0,0:0:0:10:
+329,192,221287,1,0,0:0:0:10:
+402,192,221287,1,0,0:0:0:10:
+36,192,221472,1,0,0:0:0:15:
+475,192,221472,1,0,0:0:0:15:
+182,192,221565,1,0,0:0:0:30:
+329,192,221657,1,0,0:0:0:30:
+256,192,221750,1,0,0:0:0:30:
+475,192,221842,1,0,0:0:0:30:
+329,192,221935,1,0,0:0:0:30:
+109,192,222027,1,0,0:0:0:30:
+402,192,222120,1,0,0:0:0:30:
+36,192,222213,1,0,0:0:0:30:
+256,192,222305,1,0,0:0:0:30:
+109,192,222398,1,0,0:0:0:30:
+475,192,222490,1,0,0:0:0:30:
+329,192,222583,1,0,0:0:0:30:
+182,192,222676,1,0,0:0:0:30:
+402,192,222768,1,0,0:0:0:30:
+475,192,222861,1,0,0:0:0:30:
+182,192,222953,1,0,0:0:0:10:
+329,192,222953,1,0,0:0:0:10:
+36,192,222953,1,0,0:0:0:10:
+256,192,223046,1,0,0:0:0:30:
+402,192,223139,1,0,0:0:0:30:
+329,192,223231,1,0,0:0:0:30:
+36,192,223324,1,0,0:0:0:10:
+109,192,223324,1,0,0:0:0:10:
+475,192,223324,1,0,0:0:0:10:
+402,192,223416,1,0,0:0:0:30:
+182,192,223509,1,0,0:0:0:30:
+36,192,223602,1,0,0:0:0:30:
+256,192,223694,1,0,0:0:0:10:
+109,192,223694,1,0,0:0:0:10:
+402,192,223694,1,0,0:0:0:10:
+475,192,223787,1,0,0:0:0:30:
+182,192,223879,1,0,0:0:0:30:
+329,192,223972,1,0,0:0:0:30:
+182,192,224065,1,0,0:0:0:10:
+36,192,224065,1,0,0:0:0:10:
+402,192,224065,1,0,0:0:0:10:
+475,192,224157,1,0,0:0:0:30:
+256,192,224250,1,0,0:0:0:30:
+329,192,224342,1,0,0:0:0:30:
+402,192,224435,1,0,0:0:0:10:
+109,192,224435,1,0,0:0:0:10:
+182,192,224435,1,0,0:0:0:10:
+329,192,224805,1,0,0:0:0:30:
+329,192,225083,1,0,0:0:0:30:
+329,192,225268,1,0,0:0:0:30:
+402,192,225361,1,0,0:0:0:30:
+402,192,225546,1,0,0:0:0:30:
+256,192,225731,1,0,0:0:0:30:
+402,192,225916,1,0,0:0:0:30:
+402,192,226287,1,0,0:0:0:30:
+402,192,226565,1,0,0:0:0:30:
+402,192,226750,1,0,0:0:0:30:
+329,192,226842,1,0,0:0:0:30:
+329,192,227027,1,0,0:0:0:30:
+256,192,227213,1,0,0:0:0:30:
+109,192,227398,1,0,0:0:0:30:
+109,192,227768,1,0,0:0:0:30:
+109,192,228046,1,0,0:0:0:30:
+109,192,228231,1,0,0:0:0:30:
+182,192,228324,1,0,0:0:0:30:
+182,192,228509,1,0,0:0:0:30:
+182,192,228694,1,0,0:0:0:30:
+256,192,228879,1,0,0:0:0:30:
+256,192,229250,1,0,0:0:0:30:
+256,192,229527,1,0,0:0:0:30:
+256,192,229713,1,0,0:0:0:30:
+182,192,229805,1,0,0:0:0:30:
+182,192,229990,1,0,0:0:0:30:
+182,192,230176,1,0,0:0:0:30:
+329,192,230361,1,0,0:0:0:15:
+182,192,230361,1,0,0:0:0:15:
+329,192,230731,1,0,0:0:0:30:
+329,192,231009,1,0,0:0:0:30:
+329,192,231194,1,0,0:0:0:30:
+475,192,231287,1,0,0:0:0:30:
+329,192,231472,1,0,0:0:0:30:
+256,192,231657,1,0,0:0:0:30:
+329,192,231842,1,0,0:0:0:15:
+475,192,231842,1,0,0:0:0:15:
+329,192,232213,1,0,0:0:0:30:
+329,192,232490,1,0,0:0:0:30:
+329,192,232676,1,0,0:0:0:30:
+182,192,232768,1,0,0:0:0:30:
+329,192,232953,1,0,0:0:0:30:
+256,192,233139,1,0,0:0:0:30:
+36,192,233324,1,0,0:0:0:15:
+182,192,233324,1,0,0:0:0:15:
+36,192,233694,1,0,0:0:0:30:
+36,192,233972,1,0,0:0:0:30:
+256,192,234157,1,0,0:0:0:30:
+36,192,234250,1,0,0:0:0:30:
+36,192,234435,1,0,0:0:0:30:
+36,192,234620,1,0,0:0:0:30:
+182,192,234805,1,0,0:0:0:15:
+402,192,234805,1,0,0:0:0:15:
+182,192,235176,1,0,0:0:0:30:
+182,192,235453,1,0,0:0:0:30:
+182,192,235639,1,0,0:0:0:30:
+329,192,235731,1,0,0:0:0:30:
+329,192,235916,1,0,0:0:0:30:
+329,192,236102,1,0,0:0:0:30:
+475,192,236287,1,0,0:0:0:15:
+36,192,236287,1,0,0:0:0:15:
+256,192,236472,1,0,0:0:0:30:
+36,192,236657,1,0,0:0:0:15:
+475,192,236657,1,0,0:0:0:15:
+256,192,236842,1,0,0:0:0:30:
+36,192,237027,1,0,0:0:0:15:
+475,192,237027,1,0,0:0:0:15:
+256,192,237120,1,0,0:0:0:30:
+402,192,237213,1,0,0:0:0:30:
+36,192,237398,1,0,0:0:0:15:
+475,192,237398,1,0,0:0:0:15:
+256,192,237583,1,0,0:0:0:30:
+329,192,237768,1,0,0:0:0:15:
+402,192,237768,1,0,0:0:0:15:
+109,192,237953,1,0,0:0:0:30:
+329,192,238139,1,0,0:0:0:15:
+402,192,238139,1,0,0:0:0:15:
+109,192,238324,1,0,0:0:0:30:
+329,192,238509,1,0,0:0:0:15:
+402,192,238509,1,0,0:0:0:15:
+109,192,238602,1,0,0:0:0:30:
+36,192,238694,1,0,0:0:0:30:
+402,192,238879,1,0,0:0:0:15:
+329,192,238879,1,0,0:0:0:15:
+109,192,239065,1,0,0:0:0:30:
+256,192,239250,1,0,0:0:0:15:
+36,192,239250,1,0,0:0:0:15:
+475,192,239435,1,0,0:0:0:30:
+109,192,239620,1,0,0:0:0:15:
+402,192,239620,1,0,0:0:0:15:
+182,192,239805,1,0,0:0:0:30:
+329,192,239990,1,0,0:0:0:15:
+182,192,239990,1,0,0:0:0:15:
+109,192,240083,1,0,0:0:0:30:
+402,192,240176,1,0,0:0:0:30:
+402,192,240361,1,0,0:0:0:15:
+182,192,240361,1,0,0:0:0:15:
+109,192,240546,1,0,0:0:0:30:
+36,192,240731,1,0,0:0:0:15:
+256,192,240731,1,0,0:0:0:15:
+475,192,240916,1,0,0:0:0:15:
+109,192,240916,1,0,0:0:0:15:
+182,192,241102,1,0,0:0:0:15:
+402,192,241102,1,0,0:0:0:30:
+36,192,241287,1,0,0:0:0:15:
+475,192,241287,1,0,0:0:0:15:
+36,192,241472,1,0,0:0:0:30:
+182,192,241565,1,0,0:0:0:30:
+329,192,241657,1,0,0:0:0:30:
+256,192,241750,1,0,0:0:0:30:
+109,192,241842,1,0,0:0:0:30:
+402,192,241842,1,0,0:0:0:0:
+475,192,241935,1,0,0:0:0:30:
+329,192,242027,1,0,0:0:0:30:
+182,192,242120,1,0,0:0:0:30:
+402,192,242213,1,0,0:0:0:15:
+109,192,242213,1,0,0:0:0:15:
+256,192,242305,1,0,0:0:0:30:
+329,192,242398,1,0,0:0:0:30:
+475,192,242490,1,0,0:0:0:30:
+36,192,242583,1,0,0:0:0:15:
+402,192,242583,1,0,0:0:0:15:
+256,192,242676,1,0,0:0:0:30:
+329,192,242768,1,0,0:0:0:30:
+402,192,242861,1,0,0:0:0:30:
+475,192,242953,1,0,0:0:0:15:
+182,192,242953,1,0,0:0:0:15:
+109,192,243046,1,0,0:0:0:30:
+329,192,243139,1,0,0:0:0:30:
+182,192,243231,1,0,0:0:0:30:
+475,192,243324,1,0,0:0:0:15:
+36,192,243324,1,0,0:0:0:15:
+256,192,243416,1,0,0:0:0:30:
+402,192,243509,1,0,0:0:0:30:
+329,192,243602,1,0,0:0:0:30:
+475,192,243694,1,0,0:0:0:15:
+109,192,243694,1,0,0:0:0:15:
+182,192,243787,1,0,0:0:0:30:
+329,192,243879,1,0,0:0:0:30:
+36,192,243972,1,0,0:0:0:30:
+182,192,244065,1,0,0:0:0:15:
+402,192,244065,1,0,0:0:0:15:
+475,192,244157,1,0,0:0:0:30:
+256,192,244250,1,0,0:0:0:30:
+36,192,244342,1,0,0:0:0:30:
+182,192,244435,1,0,0:0:0:15:
+109,192,244435,1,0,0:0:0:15:
+475,192,244527,1,0,0:0:0:30:
+329,192,244620,1,0,0:0:0:30:
+109,192,244713,1,0,0:0:0:30:
+475,192,244805,1,0,0:0:0:15:
+402,192,244805,1,0,0:0:0:15:
+182,192,244898,1,0,0:0:0:30:
+36,192,244990,1,0,0:0:0:30:
+182,192,245083,1,0,0:0:0:30:
+36,192,245176,1,0,0:0:0:30:
+182,192,245268,1,0,0:0:0:30:
+256,192,245361,1,0,0:0:0:30:
+329,192,245453,1,0,0:0:0:30:
+402,192,245546,1,0,0:0:0:30:
+475,192,245639,1,0,0:0:0:30:
+402,192,245731,1,0,0:0:0:0:
+475,192,245824,1,0,0:0:0:30:
+402,192,245916,1,0,0:0:0:30:
+329,192,246009,1,0,0:0:0:30:
+256,192,246102,1,0,0:0:0:30:
+182,192,246194,1,0,0:0:0:30:
+109,192,246287,1,0,0:0:0:30:
+36,192,246379,1,0,0:0:0:30:
+109,192,246472,1,0,0:0:0:30:
+182,192,246565,1,0,0:0:0:30:
+256,192,246657,1,0,0:0:0:30:
+329,192,246750,1,0,0:0:0:30:
+475,192,246842,1,0,0:0:0:30:
+329,192,246935,1,0,0:0:0:30:
+182,192,247027,1,0,0:0:0:30:
+329,192,247120,1,0,0:0:0:30:
+475,192,247213,1,0,0:0:0:30:
+402,192,247305,1,0,0:0:0:30:
+329,192,247398,1,0,0:0:0:30:
+256,192,247490,1,0,0:0:0:30:
+182,192,247583,1,0,0:0:0:30:
+256,192,247676,1,0,0:0:0:30:
+329,192,247768,1,0,0:0:0:30:
+402,192,247861,1,0,0:0:0:30:
+475,192,247953,1,0,0:0:0:15:
+182,192,247953,128,0,248139:0:0:0:15:
+402,192,248046,1,0,0:0:0:30:
+329,192,248139,128,0,251102:0:0:0:30:
+36,192,251102,128,0,252583:0:0:0:30:
+256,192,252583,128,0,254065:0:0:0:30:
+475,192,254065,1,0,0:0:0:0:
+36,192,254065,1,0,0:0:0:0:

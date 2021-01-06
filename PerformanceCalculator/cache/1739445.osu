@@ -1,0 +1,99 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 2424
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.9
+BeatDivisor: 4
+GridSize: 32
+TimelineZoom: 1
+
+[Metadata]
+Title:Poplar to Bokura no History (TV Size)
+TitleUnicode:ポプラと僕らのヒストリー (TV Size)
+Artist:Nanahashi Minori (CV: Takahashi Rie)
+ArtistUnicode:七橋御乃梨 (CV: 高橋李依)
+Creator:yuki_momoiro722
+Version:Kantan
+Source:OneRoom セカンドシーズン
+Tags:taiko ワンルーム second season -GN Junior
+BeatmapID:1739445
+BeatmapSetID:828244
+
+[Difficulty]
+HPDrainRate:9
+CircleSize:5
+OverallDifficulty:3
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bgc.jpg",0,-25
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+1353,535.714285714286,4,1,0,65,1,0
+3495,535.714285714286,4,1,0,65,1,0
+29209,-100,4,1,0,75,0,1
+37780,-100,4,1,0,45,0,0
+
+
+[HitObjects]
+256,192,2424,5,12,0:0:0:0:
+256,192,3495,1,4,0:0:0:0:
+256,192,5102,1,0,0:0:0:0:
+256,192,5637,1,8,0:0:0:0:
+256,192,6709,1,8,0:0:0:0:
+256,192,7245,1,8,0:0:0:0:
+256,192,7780,1,4,0:0:0:0:
+256,192,8852,1,8,0:0:0:0:
+256,192,9923,1,0,0:0:0:0:
+256,192,10459,1,8,0:0:0:0:
+256,192,10995,1,0,0:0:0:0:
+256,192,12066,1,4,0:0:0:0:
+256,192,13673,1,0,0:0:0:0:
+256,192,14209,1,8,0:0:0:0:
+256,192,15280,1,12,0:0:0:0:
+256,192,15816,1,8,0:0:0:0:
+256,192,16352,1,4,0:0:0:0:
+256,192,17423,1,8,0:0:0:0:
+256,192,18495,1,8,0:0:0:0:
+256,192,19566,1,4,0:0:0:0:
+256,192,20637,1,12,0:0:0:0:
+256,192,22245,1,8,0:0:0:0:
+256,192,22780,1,0,0:0:0:0:
+256,192,23852,1,0,0:0:0:0:
+256,192,24923,1,0,0:0:0:0:
+256,192,25459,1,8,0:0:0:0:
+256,192,25995,1,8,0:0:0:0:
+256,192,26530,1,8,0:0:0:0:
+256,192,27066,1,4,0:0:0:0:
+256,192,28137,1,8,0:0:0:0:
+256,192,29209,5,12,0:0:0:0:
+256,192,30816,1,8,0:0:0:0:
+256,192,31352,1,0,0:0:0:0:
+256,192,32423,1,8,0:0:0:0:
+256,192,32959,1,0,0:0:0:0:
+256,192,33495,1,12,0:0:0:0:
+256,192,35102,1,8,0:0:0:0:
+256,192,35637,1,12,0:0:0:0:
+256,192,36709,1,4,0:0:0:0:
+256,192,37245,1,8,0:0:0:0:
+256,192,37780,1,0,0:0:0:0:
+256,192,38852,1,8,0:0:0:0:

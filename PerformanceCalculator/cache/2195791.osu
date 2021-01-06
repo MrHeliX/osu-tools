@@ -1,0 +1,70 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 1
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 2.04
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1.7
+
+[Metadata]
+Title:Careless
+TitleUnicode:Careless
+Artist:Neffex
+ArtistUnicode:Neffex
+Creator:Puuce
+Version:how careless we could be
+Source:
+Tags:
+BeatmapID:2195791
+BeatmapSetID:1050589
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:5
+OverallDifficulty:5
+ApproachRate:9.3
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"61879076_p0_master1200.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+840,344.827586206897,4,2,0,100,1,0
+
+
+[HitObjects]
+140,88,840,6,0,L|191:80,1,35
+321,80,1529,1,0,0:0:0:0:
+79,291,2219,2,0,P|121:285|122:285,1,35
+200,288,2908,1,0,0:0:0:0:
+286,272,3598,2,0,B|353:244|369:251|367:250,3,70
+389,150,4977,1,0,0:0:0:0:
+337,87,5667,1,0,0:0:0:0:
+260,42,6357,1,0,0:0:0:0:
+110,117,7736,6,0,L|151:102,1,35
+195,172,9115,2,0,P|224:179|239:177,1,35
+249,146,10495,1,0,0:0:0:0:
+253,148,10581,2,0,L|295:134,1,35
+362,211,11184,2,0,P|357:245|326:271,3,70
+252,283,11874,1,0,0:0:0:0:
+164,244,13253,1,0,0:0:0:0:

@@ -1,0 +1,101 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 35
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.2
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 1
+GridSize: 32
+TimelineZoom: 1.1
+
+[Metadata]
+Title:Hopes and Dreams
+TitleUnicode:Hopes and Dreams
+Artist:Garoad
+ArtistUnicode:Garoad
+Creator:Axer
+Version:Second Round
+Source:VA-11 Hall-A
+Tags:Valhalla Black Screen Records Sukeban Games BSR017 Michael Kelly Second Round Future Synth video game soundtrack instrumental ost
+BeatmapID:2145155
+BeatmapSetID:1025697
+
+[Difficulty]
+HPDrainRate:9
+CircleSize:5
+OverallDifficulty:2
+ApproachRate:10
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Jill.jpg",0,50
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+35,638.297872340426,4,1,0,25,1,0
+35,-133.333333333333,4,1,0,25,0,0
+15673,-133.333333333333,4,1,0,10,0,0
+20460,-100,4,1,0,25,0,0
+36098,-100,4,1,0,10,0,0
+
+
+[HitObjects]
+256,192,35,5,0,0:0:0:0:
+256,192,1311,1,0,0:0:0:0:
+256,192,2588,1,8,0:0:0:0:
+256,192,3864,1,0,0:0:0:0:
+256,192,4343,1,0,0:0:0:0:
+256,192,4822,1,0,0:0:0:0:
+256,192,5141,1,8,0:0:0:0:
+256,192,5779,1,8,0:0:0:0:
+256,192,6098,1,0,0:0:0:0:
+256,192,8971,1,0,0:0:0:0:
+256,192,9130,1,8,0:0:0:0:
+256,192,9449,1,0,0:0:0:0:
+256,192,9769,1,8,0:0:0:0:
+256,192,10088,1,8,0:0:0:0:
+256,192,10247,1,0,0:0:0:0:
+256,192,10886,1,8,0:0:0:0:
+256,192,11205,1,0,0:0:0:0:
+256,192,12800,1,8,0:0:0:0:
+256,192,14077,1,0,0:0:0:0:
+256,192,15354,1,8,0:0:0:0:
+256,192,15673,12,0,20141,0:0:0:0:
+256,192,20460,5,12,0:0:0:0:
+256,192,21737,1,0,0:0:0:0:
+256,192,23013,1,8,0:0:0:0:
+256,192,24290,1,0,0:0:0:0:
+256,192,24769,1,0,0:0:0:0:
+256,192,25247,1,0,0:0:0:0:
+256,192,25566,1,8,0:0:0:0:
+256,192,26205,1,8,0:0:0:0:
+256,192,26524,1,0,0:0:0:0:
+256,192,29396,1,0,0:0:0:0:
+256,192,29556,1,8,0:0:0:0:
+256,192,29875,1,0,0:0:0:0:
+256,192,30194,1,8,0:0:0:0:
+256,192,30513,1,8,0:0:0:0:
+256,192,30673,1,0,0:0:0:0:
+256,192,31311,1,8,0:0:0:0:
+256,192,31630,1,0,0:0:0:0:
+256,192,33226,1,8,0:0:0:0:
+256,192,34503,1,0,0:0:0:0:
+256,192,35779,1,12,0:0:0:0:
+256,192,36098,12,0,40886,0:0:0:0:

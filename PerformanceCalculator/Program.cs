@@ -16,6 +16,7 @@ namespace PerformanceCalculator
     [Subcommand(typeof(PerformanceCommand))]
     [Subcommand(typeof(ProfileCommand))]
     [Subcommand(typeof(SimulateListingCommand))]
+    [Subcommand(typeof(MassSimulateCommand))]
     [HelpOption("-?|-h|--help")]
     public class Program
     {
@@ -29,9 +30,15 @@ namespace PerformanceCalculator
 
         public int OnExecute(CommandLineApplication app, IConsole console)
         {
+            // string[] args = { "simulate", "osu", ".\\cache\\812010.osu", "-m", "HD", "-m", "NC", "-X", "0", "-M", "0", "-G", "16", "-c", "1434" };
+            // string[] args = { "profile", "2330619", "26755add1b76d9eb677383c87a3ca9c7294026f9" };
+            // CommandLineApplication.Execute<Program>(args);
+            // return 1;
+            
             console.WriteLine("You must specify a subcommand.");
             app.ShowHelp();
             return 1;
+            
         }
     }
 }

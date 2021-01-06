@@ -1,0 +1,91 @@
+osu file format v14
+
+[General]
+AudioFilename: merrychristmas.mp3
+AudioLeadIn: 0
+PreviewTime: 26202
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.6
+BeatDivisor: 4
+GridSize: 32
+TimelineZoom: 1
+
+[Metadata]
+Title:I Hsiw Uoy a Yrrem Samtsirhc
+TitleUnicode:I Hsiw Uoy a Yrrem Samtsirhc
+Artist:Wafu
+ArtistUnicode:Wafu
+Creator:Wafu
+Version:Beginner
+Source:
+Tags:xmas collaboration collab we wish you merry christmas winter ByBy13 ByBy_ChAn
+BeatmapID:838742
+BeatmapSetID:383715
+
+[Difficulty]
+HPDrainRate:0
+CircleSize:2.5
+OverallDifficulty:0
+ApproachRate:1
+SliderMultiplier:0.7
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+0,0,"station.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+1024,1071.42857142857,3,2,1,40,1,0
+2631,-100,3,2,2,40,0,0
+2898,-100,3,2,1,40,0,0
+15488,-100,3,2,2,40,0,0
+15756,-100,3,2,1,40,0,0
+21916,-100,3,2,2,40,0,0
+22184,-100,3,2,1,40,0,0
+28345,-100,3,2,2,40,0,0
+28613,-100,3,2,1,40,0,0
+41202,-100,3,2,2,40,0,0
+41470,-100,3,2,1,40,0,0
+60488,-100,3,2,3,40,0,0
+60756,-100,3,2,1,40,0,0
+63702,-100,3,2,1,20,0,0
+
+
+[Colours]
+Combo1 : 66,108,159
+Combo2 : 101,150,150
+
+[HitObjects]
+109,55,1024,6,0,P|103:155|185:212,1,210,2|2,0:0|0:0,0:0:0:0:
+286,137,5845,1,2,0:0:0:0:
+365,234,7452,6,0,L|469:224,2,105,2|2|2,0:0|0:0|0:0,0:0:0:0:
+289,335,12273,1,2,0:0:0:0:
+333,217,13881,6,0,B|285:182|235:188|235:188|174:193|129:151,1,210,2|2,0:0|0:0,0:0:0:0:
+30,91,18702,1,2,0:0:0:0:
+150,53,20309,6,0,P|226:51|303:164,1,210,2|2,0:0|0:0,0:0:0:0:
+314,278,25131,1,2,0:0:0:0:
+429,327,26738,6,0,B|457:277|429:227|429:227|401:177|429:127,1,210,2|2,0:0|0:0,0:0:0:0:
+323,58,31559,1,2,0:0:0:0:
+229,143,33166,6,0,P|178:145|131:123,2,105,2|2|2,0:0|0:0|0:0,0:0:0:0:
+323,58,37988,1,2,0:0:0:0:
+198,79,39595,6,0,P|143:105|185:224,1,210,6|6,0:0|0:0,0:0:0:0:
+304,242,44416,1,6,0:0:0:0:
+319,116,46023,6,0,B|363:81|363:81|420:63,2,105,6|6|6,0:0|0:0|0:0,0:0:0:0:
+237,211,50845,1,6,0:0:0:0:
+314,310,52452,6,0,L|418:298,2,105,12|12|12,0:0|0:0|0:0,0:0:0:0:
+210,239,57273,1,12,0:0:0:0:
+134,137,58881,6,0,P|232:110|314:169,1,210,12|12,0:0|0:0,0:0:0:0:
+354,289,63702,1,0,0:0:0:0:

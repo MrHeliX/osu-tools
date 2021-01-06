@@ -1,0 +1,76 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 49348
+Countdown: 1
+SampleSet: None
+StackLeniency: 0.7
+Mode: 2
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 33360,41983
+DistanceSpacing: 2
+BeatDivisor: 2
+GridSize: 16
+TimelineZoom: 2.599999
+
+[Metadata]
+Title:CODE -CRiMSON-
+TitleUnicode:CODE -CRiMSON-
+Artist:Shiron
+ArtistUnicode:Shiron
+Creator:CLSW
+Version:NOVICE
+Source:SOUND VOLTEX II -infinite infection-
+Tags:sdvx konami floor schranz
+BeatmapID:1153966
+BeatmapSetID:534978
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:3
+OverallDifficulty:6.5
+ApproachRate:6.5
+SliderMultiplier:0.86
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+0,0,"ayylmao.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+666,359.281437125748,4,2,0,60,1,0
+3540,-62.5,4,1,1,80,0,0
+26534,-62.5,4,1,2,60,0,0
+36594,-50,4,1,2,60,0,0
+37671,-62.5,4,1,2,60,0,0
+46654,-62.5,4,1,1,80,0,0
+49168,-50,4,1,1,80,0,0
+49528,-62.5,4,1,1,80,0,1
+72522,-100,4,1,2,60,0,0
+83300,-62.5,4,1,1,80,0,0
+95516,-62.5,4,1,1,80,0,1
+118510,-62.5,4,1,1,80,0,0
+
+
+[Colours]
+Combo1 : 255,140,140
+Combo2 : 121,0,0
+Combo3 : 219,0,0
+Combo4 : 255,70,70
+
+[HitObjects]
+192,131,3540,6,0,L|336:128,1,137.6
+155,340,4258,2,0,P|96:277|123:242,1,137.6
+214,152,4797,1,0,0:0:0:0:
+351,155,4977,2,0,L|361:306,1,137.6

@@ -1,0 +1,85 @@
+osu file format v14
+
+[General]
+AudioFilename: 15 Free.mp3
+AudioLeadIn: 0
+PreviewTime: 52412
+Countdown: 1
+SampleSet: None
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 11991,32201,52412,72622,92833,102938,113043,133254,150938,153464
+DistanceSpacing: 0.5
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 2.000002
+
+[Metadata]
+Title:Free
+TitleUnicode:Free
+Artist:Kitsune^2
+ArtistUnicode:Kitsune²
+Creator:Starrodkirby86
+Version:Easy
+Source:
+Tags:kitsune kitsunesquared renard kitsune2 squaredance striker vulpvibe chiptune electronic nerdcore
+BeatmapID:756422
+BeatmapSetID:342207
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:3
+OverallDifficulty:3.8
+ApproachRate:4.3
+SliderMultiplier:1.2
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bgtmp.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+1886,315.789473684211,4,3,0,60,1,0
+2201,-160,4,3,0,50,0,0
+11991,-100,4,3,0,60,0,0
+31886,-100,4,1,0,60,0,0
+68833,-100,4,1,0,65,0,0
+69464,-100,4,1,0,70,0,0
+70096,-100,4,1,0,75,0,0
+70728,-100,4,1,0,80,0,0
+72622,-100,4,1,0,80,0,1
+92833,-100,4,1,0,60,0,0
+102938,-100,4,3,0,60,0,0
+113043,-100,4,1,0,75,0,0
+133254,-100,4,1,0,85,0,1
+153464,-100,4,2,0,70,0,0
+
+
+[HitObjects]
+224,284,2201,6,0,P|256:300|288:284,1,74.9999999999999
+256,224,2833,1,0,0:0:0:0:
+208,176,3149,2,0,B|204:132|256:112|308:132|304:176,1,150
+448,188,4412,6,0,P|440:120|376:68,1,150
+131,69,5675,2,0,P|74:115|64:188,1,150
+288,264,7254,6,0,P|256:280|224:264,2,74.9999999999999
+296,184,8201,2,0,P|256:132|216:184,1,150
+256,192,9307,12,0,11675,0:0:0:0:
+144,192,11991,5,0,0:0:0:0:
+368,192,12622,1,0,0:0:0:0:
+168,276,13254,1,0,0:0:0:0:
+256,264,13570,1,0,0:0:0:0:
+344,276,13886,1,0,0:0:0:0:
+208,48,14517,6,0,P|208:113|183:164,1,120
+116,112,15149,1,0,0:0:0:0:
+304,48,15780,6,0,P|304:113|329:164,1,120
+396,112,16412,1,0,0:0:0:0:

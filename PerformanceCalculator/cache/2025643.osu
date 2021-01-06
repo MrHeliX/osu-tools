@@ -1,0 +1,72 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 0
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.56
+BeatDivisor: 2
+GridSize: 32
+TimelineZoom: 0.3
+
+[Metadata]
+Title:Quiet Water
+TitleUnicode:Quiet Water
+Artist:toby fox
+ArtistUnicode:toby fox
+Creator:-GN Junior
+Version:Quiet
+Source:UNDERTALE
+Tags:ost original soundtrack slow easy piano 33 calming waterfall
+BeatmapID:2025643
+BeatmapSetID:968012
+
+[Difficulty]
+HPDrainRate:9.5
+CircleSize:10
+OverallDifficulty:1
+ApproachRate:10
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"lake-1920x1080-hd-wallpaper-sea-pink-sunset-sunrise-reflection-sky-864.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+171,1000,3,1,0,50,1,0
+
+
+[HitObjects]
+256,192,170,5,2,0:0:0:0:
+256,192,3171,1,2,0:0:0:0:
+256,192,6171,1,0,0:0:0:0:
+256,192,8171,1,2,0:0:0:0:
+256,192,9171,1,0,0:0:0:0:
+256,192,10171,1,2,0:0:0:0:
+256,192,11171,1,2,0:0:0:0:
+256,192,12171,1,0,0:0:0:0:
+256,192,15171,1,0,0:0:0:0:
+256,192,16171,1,2,0:0:0:0:
+256,192,17171,1,2,0:0:0:0:
+256,192,18171,1,0,0:0:0:0:
+256,192,20171,1,0,0:0:0:0:
+256,192,21171,1,2,0:0:0:0:
+256,192,23171,1,0,0:0:0:0:
+256,192,24171,1,2,0:0:0:0:
+256,192,27171,1,0,0:0:0:0:
+256,192,28171,12,0,32171,0:0:0:0:

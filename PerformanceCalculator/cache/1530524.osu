@@ -1,0 +1,266 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 7890
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 2.1
+
+[Metadata]
+Title:220 - Kumano
+TitleUnicode:220 - Kumano
+Artist:saradisk
+ArtistUnicode:saradisk
+Creator:MapleSyrup-
+Version:Easy
+Source:艦隊これくしょん -艦これ-
+Tags:kancolle kantai collection jztcallmeron
+BeatmapID:1530524
+BeatmapSetID:724477
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:7
+OverallDifficulty:7
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Konachan.com - 246987 2girls bikini blush bow breasts brown_eyes brown_hair clouds drink green_eyes green_hair long_hair petals ponytail skirt sky swimsuit yumi_yumi.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+Sample,1290,0,"Cym.wav",40
+Sample,8490,0,"Fin.wav",40
+Sample,8490,0,"Cym.wav",40
+Sample,8940,0,"Fin.wav",40
+Sample,9390,0,"Fin.wav",40
+Sample,9690,0,"Fin.wav",40
+Sample,10140,0,"Fin.wav",40
+Sample,10590,0,"Fin.wav",40
+Sample,10890,0,"Fin.wav",40
+Sample,11340,0,"Fin.wav",40
+Sample,11790,0,"Fin.wav",40
+Sample,12090,0,"Bass.wav",40
+Sample,12090,0,"Fin.wav",40
+Sample,12990,0,"Bass.wav",40
+Sample,12990,0,"Fin.wav",40
+Sample,13290,0,"Fin.wav",40
+Sample,13740,0,"Fin.wav",40
+Sample,14190,0,"Fin.wav",40
+Sample,14490,0,"Fin.wav",40
+Sample,14940,0,"Fin.wav",40
+Sample,15390,0,"Fin.wav",40
+Sample,15690,0,"Fin.wav",40
+Sample,16890,0,"Fin.wav",40
+Sample,16890,0,"Bass.wav",40
+Sample,17340,0,"Fin.wav",40
+Sample,17340,0,"Bass.wav",40
+Sample,17790,0,"Fin.wav",40
+Sample,17790,0,"Bass.wav",40
+Sample,18090,0,"Fin.wav",40
+Sample,18540,0,"Fin.wav",40
+Sample,18990,0,"Fin.wav",40
+Sample,19290,0,"Fin.wav",40
+Sample,20490,0,"Bass.wav",40
+Sample,21090,0,"Bass.wav",40
+Sample,21690,0,"Fin.wav",40
+Sample,21690,0,"Bass.wav",40
+Sample,22140,0,"Fin.wav",40
+Sample,22590,0,"Fin.wav",40
+Sample,22890,0,"Bass.wav",40
+Sample,23490,0,"Bass.wav",40
+Sample,24090,0,"Cym.wav",40
+Sample,24090,0,"Fin.wav",40
+Sample,24690,0,"W.wav",40
+Sample,25290,0,"Cym.wav",40
+Sample,25290,0,"W.wav",40
+Sample,25290,0,"Fin.wav",40
+Sample,25890,0,"W.wav",40
+Sample,26490,0,"Cym.wav",40
+Sample,26490,0,"W.wav",40
+Sample,26490,0,"Fin.wav",40
+Sample,27090,0,"Fin.wav",40
+Sample,27090,0,"W.wav",40
+Sample,27090,0,"Cym.wav",40
+Sample,27690,0,"Cym.wav",40
+Sample,27690,0,"W.wav",40
+Sample,27690,0,"Fin.wav",40
+Sample,28890,0,"Fin.wav",40
+Sample,29790,0,"C.wav",40
+Sample,30990,0,"C.wav",40
+Sample,32190,0,"C.wav",40
+Sample,33390,0,"C.wav",40
+Sample,33690,0,"Fin.wav",40
+Sample,33690,0,"Cym.wav",40
+Sample,34590,0,"kick.wav",40
+Sample,35790,0,"C.wav",40
+Sample,35790,0,"kick.wav",40
+Sample,36390,0,"kick.wav",40
+Sample,36990,0,"kick.wav",40
+Sample,37590,0,"kick.wav",40
+Sample,38190,0,"kick.wav",40
+Sample,38190,0,"C.wav",40
+Sample,38490,0,"W.wav",40
+Sample,38490,0,"Fin.wav",40
+Sample,38790,0,"W.wav",40
+Sample,38790,0,"Fin.wav",40
+Sample,39090,0,"W.wav",40
+Sample,39090,0,"Fin.wav",40
+Sample,39390,0,"W.wav",40
+Sample,39390,0,"Fin.wav",40
+Sample,39690,0,"W.wav",40
+Sample,39690,0,"Fin.wav",40
+Sample,39990,0,"W.wav",40
+Sample,39990,0,"Fin.wav",40
+Sample,40290,0,"W.wav",40
+Sample,40290,0,"Fin.wav",40
+Sample,40590,0,"Fin.wav",40
+Sample,40590,0,"W.wav",40
+Sample,40590,0,"C.wav",40
+Sample,40890,0,"Fin.wav",40
+Sample,40890,0,"W.wav",40
+Sample,41190,0,"C.wav",40
+Sample,41190,0,"W.wav",40
+Sample,41190,0,"Fin.wav",40
+Sample,41490,0,"W.wav",40
+Sample,41490,0,"Fin.wav",40
+Sample,41790,0,"Fin.wav",40
+Sample,41790,0,"W.wav",40
+Sample,41790,0,"C.wav",40
+Sample,42090,0,"Fin.wav",40
+Sample,42090,0,"W.wav",40
+Sample,42390,0,"Fin.wav",40
+Sample,42390,0,"W.wav",40
+Sample,42690,0,"Fin.wav",40
+Sample,42690,0,"W.wav",40
+
+[TimingPoints]
+1290,300,4,1,1,30,1,0
+
+
+[HitObjects]
+36,192,1290,5,0,0:0:0:40:W.wav
+182,192,1440,1,0,0:0:0:0:
+182,192,1890,1,0,0:0:0:0:
+329,192,2040,1,0,0:0:0:0:
+329,192,2340,1,0,0:0:0:0:
+402,192,2640,1,0,0:0:0:0:
+256,192,2790,1,0,0:0:0:0:
+109,192,3090,1,0,0:0:0:0:
+256,192,3240,1,0,0:0:0:0:
+329,192,3690,128,0,4290:0:0:0:40:Bass.wav
+109,192,4290,128,0,4890:0:0:0:40:Bass.wav
+402,192,4890,128,0,5490:0:0:0:40:Bass.wav
+182,192,5490,128,0,6090:0:0:0:40:Bass.wav
+475,192,6090,128,0,6690:0:0:0:40:Bass.wav
+36,192,6690,128,0,7290:0:0:0:40:Bass.wav
+329,192,7290,128,0,7890:0:0:0:40:Bass.wav
+182,192,7890,128,0,8490:0:0:0:40:Bass.wav
+475,192,8490,1,0,0:0:0:40:W.wav
+475,192,8940,1,0,0:0:0:40:W.wav
+475,192,9390,1,0,0:0:0:40:W.wav
+36,192,9690,1,0,0:0:0:40:W.wav
+36,192,10140,1,0,0:0:0:40:W.wav
+36,192,10590,1,0,0:0:0:40:W.wav
+256,192,10890,1,0,0:0:0:40:W.wav
+256,192,11340,1,0,0:0:0:40:W.wav
+256,192,11790,1,0,0:0:0:40:W.wav
+109,192,12090,128,0,12990:0:0:0:40:W.wav
+256,192,12990,1,0,0:0:0:40:W.wav
+402,192,13290,1,0,0:0:0:40:W.wav
+402,192,13740,1,0,0:0:0:40:W.wav
+402,192,14190,1,0,0:0:0:40:W.wav
+109,192,14490,1,0,0:0:0:40:W.wav
+109,192,14940,1,0,0:0:0:40:W.wav
+182,192,15390,1,0,0:0:0:40:W.wav
+475,192,15690,128,0,16290:0:0:0:40:W.wav
+256,192,16290,128,0,16890:0:0:0:40:Hat.wav
+36,192,16890,1,0,0:0:0:40:W.wav
+182,192,17340,1,0,0:0:0:40:W.wav
+329,192,17790,1,0,0:0:0:40:W.wav
+182,192,18090,1,0,0:0:0:40:W.wav
+329,192,18540,1,0,0:0:0:40:W.wav
+182,192,18990,1,0,0:0:0:40:W.wav
+256,192,19290,1,0,0:0:0:40:W.wav
+329,192,19590,128,0,20190:0:0:0:40:kick.wav
+36,192,20490,128,0,21090:0:0:0:40:W.wav
+475,192,21090,128,0,21690:0:0:0:40:W.wav
+182,192,21690,128,0,22590:0:0:0:40:W.wav
+329,192,22140,1,0,0:0:0:40:W.wav
+109,192,22590,1,0,0:0:0:40:W.wav
+475,192,22890,1,0,0:0:0:40:W.wav
+36,192,23190,1,0,0:0:0:40:Hat.wav
+402,192,23490,1,0,0:0:0:40:W.wav
+329,192,23790,1,0,0:0:0:40:kick.wav
+36,192,24090,128,0,24690:0:0:0:40:W.wav
+329,192,24690,1,0,0:0:0:40:kick.wav
+475,192,25290,128,0,25890:0:0:0:40:Hat.wav
+256,192,25890,1,0,0:0:0:40:kick.wav
+109,192,26490,128,0,27090:0:0:0:40:Hat.wav
+402,192,27090,128,0,27690:0:0:0:40:Hat.wav
+256,192,27690,128,0,28290:0:0:0:40:Hat.wav
+36,192,28890,1,0,0:0:0:40:W.wav
+182,192,29190,1,0,0:0:0:40:W.wav
+329,192,29490,1,0,0:0:0:40:W.wav
+109,192,29790,1,0,0:0:0:40:W.wav
+256,192,30090,1,0,0:0:0:40:W.wav
+402,192,30390,1,0,0:0:0:40:W.wav
+475,192,30690,1,0,0:0:0:40:W.wav
+329,192,30990,1,0,0:0:0:40:W.wav
+256,192,31290,1,0,0:0:0:40:W.wav
+402,192,31590,1,0,0:0:0:40:W.wav
+182,192,31890,1,0,0:0:0:40:W.wav
+329,192,32190,1,0,0:0:0:40:W.wav
+109,192,32490,1,0,0:0:0:40:W.wav
+256,192,32790,1,0,0:0:0:40:W.wav
+36,192,33090,1,0,0:0:0:40:W.wav
+182,192,33390,1,0,0:0:0:40:W.wav
+475,192,33690,128,0,34290:0:0:0:40:W.wav
+182,192,34290,1,0,0:0:0:40:W.wav
+329,192,34590,1,0,0:0:0:40:Hat.wav
+36,192,34890,128,0,35490:0:0:0:40:W.wav
+402,192,35490,1,0,0:0:0:0:
+182,192,35790,1,0,0:0:0:40:Hat.wav
+402,192,36090,1,0,0:0:0:40:W.wav
+109,192,36390,1,0,0:0:0:40:Hat.wav
+329,192,36690,1,0,0:0:0:40:W.wav
+182,192,36990,1,0,0:0:0:40:Hat.wav
+329,192,37290,1,0,0:0:0:40:W.wav
+36,192,37590,1,0,0:0:0:40:Hat.wav
+475,192,37890,1,0,0:0:0:0:
+329,192,38190,1,0,0:0:0:40:Hat.wav
+402,192,38490,1,0,0:0:0:40:Hat.wav
+402,192,38790,1,0,0:0:0:40:Hat.wav
+109,192,39090,1,0,0:0:0:40:Hat.wav
+109,192,39390,1,0,0:0:0:40:Hat.wav
+329,192,39690,1,0,0:0:0:40:Hat.wav
+329,192,39990,1,0,0:0:0:40:Hat.wav
+182,192,40290,1,0,0:0:0:40:Hat.wav
+182,192,40590,1,0,0:0:0:40:Hat.wav
+36,192,40890,1,0,0:0:0:40:Hat.wav
+182,192,41190,1,0,0:0:0:40:Hat.wav
+329,192,41490,1,0,0:0:0:40:Hat.wav
+475,192,41790,1,0,0:0:0:40:Hat.wav
+109,192,42090,1,0,0:0:0:40:Hat.wav
+256,192,42390,1,0,0:0:0:40:Hat.wav
+402,192,42690,1,0,0:0:0:40:Hat.wav
+36,192,42990,1,0,0:0:0:40:C.wav
+182,192,42990,1,0,0:0:0:0:

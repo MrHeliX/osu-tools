@@ -1,0 +1,80 @@
+osu file format v12
+
+[General]
+AudioFilename: Schat, ik wil met je neuken.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 1
+SampleSet: None
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1.3
+BeatDivisor: 8
+GridSize: 8
+TimelineZoom: 4.399998
+
+[Metadata]
+Title:Schat, ik wil met je neuken
+TitleUnicode:Schat, ik wil met je neuken
+Artist:DJ Kip
+ArtistUnicode:DJ Kip
+Creator:R3laX3R
+Version:Slikken AR10
+Source:
+Tags:
+BeatmapID:392958
+BeatmapSetID:160904
+
+[Difficulty]
+HPDrainRate:6
+CircleSize:4
+OverallDifficulty:9
+ApproachRate:10
+SliderMultiplier:2
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+565,428.571428571429,4,1,0,100,1,0
+
+
+[HitObjects]
+104,192,565,5,0,0:0:0:0:
+256,64,940,1,0,0:0:0:0:
+336,272,1422,1,0,0:0:0:0:
+192,136,1850,1,0,0:0:0:0:
+376,48,2279,1,0,0:0:0:0:
+296,176,2600,1,0,0:0:0:0:
+208,296,2922,1,0,0:0:0:0:
+80,144,3350,1,0,0:0:0:0:
+80,144,3511,1,0,0:0:0:0:
+184,80,3779,1,0,0:0:0:0:
+280,72,3993,6,0,P|344:104|376:168,1,125
+392,248,4422,1,0,0:0:0:0:
+264,256,4636,1,0,0:0:0:0:
+168,168,4850,1,0,0:0:0:0:
+64,248,5065,1,0,0:0:0:0:
+160,336,5279,2,0,P|216:320|272:200,1,200
+168,120,5922,2,0,P|208:80|256:80,1,100
+312,96,6243,5,0,0:0:0:0:
+368,128,6350,1,0,0:0:0:0:
+416,176,6511,2,0,P|392:248|360:272,1,100
+320,296,6832,2,0,P|288:256|272:240,1,50
+248,208,7047,1,0,0:0:0:0:
+120,224,7261,1,0,0:0:0:0:
+48,152,7422,1,0,0:0:0:0:
+224,64,7743,1,0,0:0:0:0:

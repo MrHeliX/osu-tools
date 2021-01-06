@@ -1,0 +1,93 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 10972
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 2
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.4
+BeatDivisor: 4
+GridSize: 32
+TimelineZoom: 1
+
+[Metadata]
+Title:i want to tell you i love you but i can't (ft. olli)
+TitleUnicode:i want to tell you i love you but i can't (ft. olli)
+Artist:tomppabeats
+ArtistUnicode:tomppabeats
+Creator:Ascendance
+Version:cup
+Source:
+Tags:beats helsinki lo-fi foxygrandpa
+BeatmapID:1430966
+BeatmapSetID:676576
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:2.5
+OverallDifficulty:5
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"eJwFwVEOwyAIANC7eAABZxF6mcXosjZZLansq9nd994dvtcnrGFzt7kCtD5i32c7r17NYjsPqO61bcdr-ARi4UU0sRJlEUSCRAVV_waifu2x_art_noise1_scale_tta_1.png",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+11136,652.173913043478,4,2,1,60,1,0
+32005,-100,4,2,2,60,0,1
+32168,-100,4,2,1,60,0,0
+42518,652.173913043478,4,2,1,60,1,0
+46431,-100,4,2,1,30,0,0
+47083,-100,4,2,1,20,0,0
+47735,-100,4,2,1,10,0,0
+
+
+[HitObjects]
+256,192,8038,12,8,10483,0:0:0:0:
+90,310,11136,6,0,L|80:163,1,140,4|8,0:0|0:0,0:0:0:0:
+266,107,12440,2,0,L|361:102,2,70,0|0|8,0:0|0:0|0:0,0:0:0:0:
+39,48,13744,6,0,L|167:56,1,105
+275,162,14722,2,0,L|292:58,1,105,0|0,0:0|0:0,0:0:0:0:
+98,41,15701,1,8,0:0:0:0:
+306,157,16353,6,0,L|449:139,2,140,4|8|0,0:0|0:0|0:0,0:0:0:0:
+138,194,18309,1,8,0:0:0:0:
+352,297,18962,6,0,P|457:289|499:194,1,210
+344,119,20266,2,0,L|181:107,1,140,0|8,0:0|0:0,0:0:0:0:
+16,218,21570,6,0,L|161:197,1,140,4|8,0:0|0:0,0:0:0:0:
+373,307,22875,1,0,0:0:0:0:
+264,298,23201,1,0,0:0:0:0:
+155,285,23527,1,8,0:0:0:0:
+404,267,24179,6,0,L|427:155,1,105,0|0,0:0|0:0,0:0:0:0:
+259,170,25157,2,0,L|139:158,2,105,0|0|8,0:0|0:0|0:0,0:0:0:0:
+465,54,26788,6,0,L|324:60,1,140,4|8,0:0|0:0,0:0:0:0:
+157,193,28092,2,0,L|311:184,1,140,0|8,0:0|0:0,0:0:0:0:
+80,336,29396,6,0,P|36:263|97:166,1,210
+236,127,30701,2,0,L|89:117,1,140,0|8,0:0|0:0,0:0:0:0:
+312,264,32005,6,0,L|324:116,1,140,4|8,0:0|0:0,0:0:0:0:
+456,115,32983,1,0,0:0:0:0:
+329,43,33309,1,0,0:0:0:0:
+86,160,33962,1,8,0:0:0:0:
+266,296,34614,6,0,L|395:286,1,105
+208,195,35592,2,0,L|97:202,2,105,0|0|8,0:0|0:0|0:0,0:0:0:0:
+454,96,37222,6,0,L|310:105,1,140,4|8,0:0|0:0,0:0:0:0:
+190,126,38201,1,0,0:0:0:0:
+67,138,38527,1,0,0:0:0:0:
+303,244,39179,1,8,0:0:0:0:
+64,347,39831,6,0,P|29:272|104:175,1,210
+246,220,41135,2,0,L|396:211,1,140,0|8,0:0|0:0,0:0:0:0:
+256,192,42518,12,4,47735,0:0:0:0:

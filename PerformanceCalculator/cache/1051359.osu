@@ -1,0 +1,94 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 276
+Countdown: 1
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 3026
+DistanceSpacing: 1.6
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:Love
+TitleUnicode:らぁぶ
+Artist:Zerosiki Material
+ArtistUnicode:零式マテリアル
+Creator:Xexxar
+Version:Advanced
+Source:もんむすくえすと！
+Tags:Monster Girl Quest H Scene Eroge Visual Novel Monsters ero1 Torotoro Resistance とろとろレジスタンス 愛のあるシーン用 for a love scene Ascendance raabu
+BeatmapID:1051359
+BeatmapSetID:493676
+
+[Difficulty]
+HPDrainRate:3
+CircleSize:4
+OverallDifficulty:3
+ApproachRate:2.5
+SliderMultiplier:1.7
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Alice_Unconscious_waifu2x_art_noise1_scale_tta_1.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+576,1200,4,2,1,50,1,0
+40176,-100,4,2,1,35,0,0
+41376,-100,4,2,1,20,0,0
+42576,-100,4,2,1,5,0,0
+
+
+[Colours]
+Combo1 : 250,214,5
+Combo2 : 128,0,255
+Combo3 : 240,142,145
+Combo4 : 128,128,255
+
+[HitObjects]
+58,106,576,5,2,0:0:0:0:
+69,197,1776,1,0,0:0:0:0:
+80,288,2976,1,0,0:0:0:0:
+91,379,4176,1,0,0:0:0:0:
+263,304,5376,6,0,B|320:298|320:298|460:338,1,170,2|0,0:0|0:0,0:0:0:0:
+491,252,7776,1,0,0:0:0:0:
+433,180,8976,1,0,0:0:0:0:
+314,15,10176,5,2,0:0:0:0:
+238,72,11376,1,0,0:0:0:0:
+292,151,12576,1,0,0:0:0:0:
+371,94,13776,1,0,0:0:0:0:
+171,159,14976,6,0,B|144:208|144:208|155:348,1,170,2|0,0:0|0:0,0:0:0:0:
+57,330,17376,1,0,0:0:0:0:
+47,232,18576,1,0,0:0:0:0:
+226,246,19776,5,2,0:0:0:0:
+315,282,20976,1,0,0:0:0:0:
+395,229,22176,1,0,0:0:0:0:
+409,133,23376,1,0,0:0:0:0:
+377,327,24576,6,0,P|270:360|195:338,1,170,2|0,0:0|0:0,0:0:0:0:
+141,284,26976,1,0,0:0:0:0:
+124,374,28176,1,0,0:0:0:0:
+249,229,29376,5,2,0:0:0:0:
+235,133,30576,1,0,0:0:0:0:
+316,81,31776,1,0,0:0:0:0:
+331,176,32976,1,0,0:0:0:0:
+145,213,34176,6,0,P|124:127|158:30,1,170,2|0,0:0|0:0,0:0:0:0:
+234,91,36576,1,0,0:0:0:0:
+317,52,37776,1,0,0:0:0:0:
+235,196,38976,5,2,0:0:0:0:
+256,192,39276,12,0,42576,0:0:0:0:

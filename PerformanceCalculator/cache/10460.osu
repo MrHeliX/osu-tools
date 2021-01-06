@@ -1,0 +1,68 @@
+osu file format v5
+
+[General]
+AudioFilename: max_300.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 1
+SampleSet: Normal
+EditorBookmarks: 810,7010,13610,26410,45610,61410,74410
+
+[Metadata]
+Title:MAX 300
+Artist:Omega
+Creator:Reikin
+Version:Light
+
+[Difficulty]
+HPDrainRate:1
+CircleSize:5
+OverallDifficulty:2
+SliderMultiplier:0.4
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+//Break Periods
+2,44400,59240
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Failing)
+//Storyboard Layer 2 (Passing)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+0,200,4,1,0,100
+
+[HitObjects]
+256,192,6400,1,0
+256,192,8000,5,0
+256,192,9600,5,4
+256,192,11200,5,4
+160,192,12800,6,4,C|259:65|344:200,3,320
+424,56,18400,5,4
+352,200,19200,6,4,C|253:327|168:192,3,320
+256,192,24400,12,4,25600
+256,192,26400,5,0
+144,80,27200,1,0
+144,240,28000,1,0
+256,352,28800,1,0
+376,248,29600,5,0
+376,88,30400,1,0
+256,192,31200,1,0
+168,320,32000,1,0
+72,192,32800,6,0,C|72:32|272:24,1,360
+256,144,35200,6,0,C|328:64|384:72|400:200|368:248,1,360
+328,240,37200,2,0,C|200:240|169:85|113:77|112:160,1,440
+112,200,39600,2,0,C|112:288|208:296|216:368|392:320,1,440
+416,312,42000,2,0,C|496:280|424:128|256:176,1,440
+256,192,60800,6,4,C|256:80|104:88|96:328|424:336|415:45|280:24,2,1280
+256,192,74400,5,0
+96,72,75200,5,4
+96,232,76000,1,0
+256,192,76800,12,4,78400
+256,192,79200,1,0
+96,192,80000,6,4,C|96:40|192:40|176:352|235:352|264:152,1,880
+256,192,84800,12,4,87200

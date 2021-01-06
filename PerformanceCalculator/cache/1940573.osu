@@ -1,0 +1,950 @@
+osu file format v14
+
+[General]
+AudioFilename: Light in Baby Tree.mp3
+AudioLeadIn: 0
+PreviewTime: 18250
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 218,18218,29252,40286,51321,62355,84424,105114,106493,128562,139597,150631,161666
+DistanceSpacing: 0.8
+BeatDivisor: 4
+GridSize: 32
+TimelineZoom: 1.4
+
+[Metadata]
+Title:Light in Baby Tree
+TitleUnicode:Light in Baby Tree
+Artist:youmi
+ArtistUnicode:youmi
+Creator:SurfChu85
+Version:seed (normal)
+Source:
+Tags:Kiyama Kazutaka NewAge New Age Healing Chill Chillout Piano Music Box Electronic Instrumental Lenfried- Koibenii
+BeatmapID:1940573
+BeatmapSetID:909582
+
+[Difficulty]
+HPDrainRate:6
+CircleSize:7
+OverallDifficulty:6
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+Sample,29252,0,"LR_Kick Normal Med.wav",65
+Sample,30459,0,"LR_Kick Normal Med.wav",65
+Sample,32011,0,"LR_Kick Normal Med.wav",65
+Sample,33217,0,"LR_Kick Normal Med.wav",65
+Sample,34424,0,"LR_Kick Normal Med.wav",65
+Sample,34597,0,"LR5_HiHat NSynth.wav",65
+Sample,34769,0,"LR_Kick Normal Med.wav",65
+Sample,35976,0,"LR_Kick Normal Med.wav",65
+Sample,37528,0,"LR_Kick Normal Med.wav",65
+Sample,38735,0,"LR_Kick Normal Med.wav",65
+Sample,39942,0,"LR_Kick Normal Med.wav",65
+Sample,40114,0,"LR5_HiHat NSynth.wav",65
+Sample,40286,0,"LR_Kick Normal Med.wav",65
+Sample,40631,0,"bell2.wav",45
+Sample,40631,0,"LR_Kick Normal Med.wav",65
+Sample,40976,0,"bell2.wav",45
+Sample,41493,0,"LR_Kick Normal Med.wav",65
+Sample,42011,0,"bell2.wav",45
+Sample,42011,0,"LR_Kick Normal Med.wav",65
+Sample,42355,0,"bell2.wav",45
+Sample,42700,0,"bell2.wav",45
+Sample,42873,0,"bell2.wav",45
+Sample,43045,0,"LR_Kick Normal Med.wav",65
+Sample,43390,0,"bell2.wav",45
+Sample,43390,0,"LR_Kick Normal Med.wav",65
+Sample,43735,0,"bell2.wav",45
+Sample,44252,0,"LR_Kick Normal Med.wav",65
+Sample,44769,0,"bell2.wav",45
+Sample,44769,0,"LR_Kick Normal Med.wav",65
+Sample,45114,0,"bell2.wav",45
+Sample,45114,0,"LR_Drum Hit Open 2.wav",65
+Sample,45804,0,"LR_Kick Normal Med.wav",65
+Sample,46149,0,"bell2.wav",45
+Sample,46493,0,"bell2.wav",45
+Sample,47011,0,"LR_Kick Normal Med.wav",65
+Sample,47528,0,"bell2.wav",45
+Sample,47528,0,"LR_Kick Normal Med.wav",65
+Sample,47873,0,"bell2.wav",45
+Sample,47873,0,"LR_Drum Hit Open 2.wav",65
+Sample,48217,0,"bell2.wav",45
+Sample,48390,0,"LR5_HiHat NSynth.wav",65
+Sample,48390,0,"bell2.wav",45
+Sample,48562,0,"LR_Kick Normal Med.wav",65
+Sample,48735,0,"bell2.wav",45
+Sample,48907,0,"LR_Kick Normal Med.wav",65
+Sample,48907,0,"bell2.wav",45
+Sample,49252,0,"LR_Drum Hit Open 2.wav",65
+Sample,49252,0,"bell2.wav",45
+Sample,49769,0,"LR_Kick Normal Med.wav",65
+Sample,50286,0,"bell2.wav",45
+Sample,50286,0,"LR_Kick Normal Med.wav",65
+Sample,50631,0,"bell2.wav",45
+Sample,50631,0,"LR_Drum Hit Open 2.wav",65
+Sample,50976,0,"LR_Kick Normal Med.wav",65
+Sample,51149,0,"LR5_HiHat NSynth.wav",65
+Sample,51321,0,"cymbal whistle.wav",65
+Sample,51321,0,"bell2.wav",45
+Sample,51666,0,"bell2.wav",45
+Sample,51666,0,"LR_Kick Normal Med.wav",65
+Sample,52011,0,"bell2.wav",45
+Sample,52528,0,"LR_Kick Normal Med.wav",65
+Sample,53045,0,"bell2.wav",45
+Sample,53045,0,"LR_Kick Normal Med.wav",65
+Sample,53390,0,"bell2.wav",45
+Sample,53735,0,"bell2.wav",45
+Sample,53907,0,"bell2.wav",45
+Sample,53907,0,"LR5_HiHat NSynth.wav",65
+Sample,54080,0,"bell2.wav",45
+Sample,54424,0,"LR_Kick Normal Med.wav",65
+Sample,54424,0,"bell2.wav",45
+Sample,54769,0,"bell2.wav",45
+Sample,55286,0,"LR_Kick Normal Med.wav",65
+Sample,55804,0,"LR_Kick Normal Med.wav",65
+Sample,55804,0,"bell2.wav",45
+Sample,56149,0,"LR_Drum Hit Open 2.wav",65
+Sample,56149,0,"bell2.wav",45
+Sample,56838,0,"bell2.wav",45
+Sample,57011,0,"bell2.wav",45
+Sample,57183,0,"bell2.wav",45
+Sample,57355,0,"bell2.wav",45
+Sample,57528,0,"bell2.wav",45
+Sample,58045,0,"LR_Kick Normal Med.wav",65
+Sample,58562,0,"LR_Kick Normal Med.wav",65
+Sample,58562,0,"bell2.wav",45
+Sample,58907,0,"LR_Drum Hit Open 2.wav",65
+Sample,58907,0,"bell2.wav",45
+Sample,59252,0,"bell2.wav",45
+Sample,59424,0,"bell2.wav",45
+Sample,59424,0,"LR5_HiHat NSynth.wav",65
+Sample,59597,0,"bell2.wav",45
+Sample,59769,0,"bell2.wav",45
+Sample,59942,0,"bell2.wav",45
+Sample,59942,0,"LR_Kick Normal Med.wav",65
+Sample,60286,0,"bell2.wav",45
+Sample,60286,0,"LR_Drum Hit Open 2.wav",65
+Sample,60804,0,"LR_Kick Normal Med.wav",65
+Sample,61321,0,"bell2.wav",45
+Sample,61666,0,"bell2.wav",45
+Sample,61666,0,"LR_Drum Hit Open 2.wav",65
+Sample,62011,0,"LR_Kick Normal Med.wav",65
+Sample,62183,0,"LR5_HiHat NSynth.wav",65
+Sample,62355,0,"bell2.wav",45
+Sample,62355,0,"cymbal whistle.wav",65
+Sample,62700,0,"LR_HiHat Click2.wav",65
+Sample,62873,0,"LR_Kick Normal Med.wav",65
+Sample,63045,0,"LR_Drum Hit Open 2.wav",65
+Sample,63562,0,"LR5_HiHat NSynth.wav",65
+Sample,63735,0,"bell2.wav",45
+Sample,63907,0,"LR_Drum Hit Open 2.wav",65
+Sample,64080,0,"LR_Kick Normal Med.wav",65
+Sample,64424,0,"LR_Drum Hit Open 2.wav",65
+Sample,64769,0,"LR_HiHat Click2.wav",65
+Sample,64942,0,"LR_HiHat Click2.wav",65
+Sample,65114,0,"bell2.wav",45
+Sample,65114,0,"LR_HiHat Click2.wav",65
+Sample,65631,0,"LR_Kick Normal Med.wav",65
+Sample,65804,0,"LR_Drum Hit Open 2.wav",65
+Sample,66321,0,"LR5_HiHat NSynth.wav",65
+Sample,66493,0,"bell2.wav",45
+Sample,66666,0,"LR_Drum Hit Open 2.wav",65
+Sample,66838,0,"LR_Kick Normal Med.wav",65
+Sample,67183,0,"LR_Drum Hit Open 2.wav",65
+Sample,67528,0,"LR_Kick Normal Med.wav",65
+Sample,67528,0,"LR_HiHat Click2.wav",65
+Sample,67700,0,"LR5_HiHat NSynth.wav",65
+Sample,67873,0,"bell2.wav",45
+Sample,67873,0,"LR_HiHat Click2.wav",65
+Sample,68390,0,"LR_Kick Normal Med.wav",65
+Sample,68562,0,"LR_Drum Hit Open 2.wav",65
+Sample,69080,0,"LR5_HiHat NSynth.wav",65
+Sample,69252,0,"bell2.wav",45
+Sample,69424,0,"LR_Drum Hit Open 2.wav",65
+Sample,69597,0,"LR_Kick Normal Med.wav",65
+Sample,69942,0,"LR_Drum Hit Open 2.wav",65
+Sample,70286,0,"LR_HiHat Click2.wav",65
+Sample,70459,0,"LR_HiHat Click2.wav",65
+Sample,70631,0,"LR_HiHat Click2.wav",65
+Sample,70631,0,"bell2.wav",45
+Sample,71321,0,"LR_Drum Hit Open 2.wav",65
+Sample,71838,0,"LR5_HiHat NSynth.wav",65
+Sample,72011,0,"bell2.wav",45
+Sample,72183,0,"LR_Drum Hit Open 2.wav",65
+Sample,72355,0,"LR_Kick Normal Med.wav",65
+Sample,72700,0,"LR_Drum Hit Open 2.wav",65
+Sample,73045,0,"LR_Kick Normal Med.wav",65
+Sample,73045,0,"LR_HiHat Click2.wav",65
+Sample,73217,0,"LR5_HiHat NSynth.wav",65
+Sample,73390,0,"bell2.wav",45
+Sample,73390,0,"LR_HiHat Click2.wav",65
+Sample,73390,0,"cymbal whistle.wav",65
+Sample,73735,0,"LR_HiHat Click2.wav",65
+Sample,73907,0,"LR_Kick Normal Med.wav",65
+Sample,74080,0,"LR_Drum Hit Open 2.wav",65
+Sample,74597,0,"LR5_HiHat NSynth.wav",65
+Sample,74769,0,"bell2.wav",45
+Sample,74942,0,"LR_Drum Hit Open 2.wav",65
+Sample,75114,0,"LR_Kick Normal Med.wav",65
+Sample,75459,0,"LR_Drum Hit Open 2.wav",65
+Sample,75804,0,"LR_HiHat Click2.wav",65
+Sample,75976,0,"LR_HiHat Click2.wav",65
+Sample,76149,0,"LR_HiHat Click2.wav",65
+Sample,76149,0,"bell2.wav",45
+Sample,76666,0,"LR_Kick Normal Med.wav",65
+Sample,76838,0,"LR_Drum Hit Open 2.wav",65
+Sample,77355,0,"LR5_HiHat NSynth.wav",65
+Sample,77528,0,"bell2.wav",45
+Sample,77700,0,"LR_Drum Hit Open 2.wav",65
+Sample,77873,0,"LR_Kick Normal Med.wav",65
+Sample,78217,0,"LR_Drum Hit Open 2.wav",65
+Sample,78562,0,"LR_HiHat Click2.wav",65
+Sample,78735,0,"LR5_HiHat NSynth.wav",65
+Sample,78907,0,"bell2.wav",45
+Sample,78907,0,"LR_HiHat Click2.wav",65
+Sample,79424,0,"LR_Kick Normal Med.wav",65
+Sample,79597,0,"LR_Drum Hit Open 2.wav",65
+Sample,80114,0,"LR5_HiHat NSynth.wav",65
+Sample,80286,0,"bell2.wav",45
+Sample,80459,0,"LR_Drum Hit Open 2.wav",65
+Sample,80631,0,"LR_Kick Normal Med.wav",65
+Sample,80976,0,"LR_Drum Hit Open 2.wav",65
+Sample,81321,0,"LR_HiHat Click2.wav",65
+Sample,81493,0,"LR_HiHat Click2.wav",65
+Sample,81666,0,"LR_HiHat Click2.wav",65
+Sample,81666,0,"bell2.wav",45
+Sample,82011,0,"LR_HiHat Click2.wav",65
+Sample,82355,0,"LR_Drum Hit Open 2.wav",65
+Sample,82873,0,"LR5_HiHat NSynth.wav",65
+Sample,83045,0,"bell2.wav",45
+Sample,83217,0,"LR_Drum Hit Open 2.wav",65
+Sample,83390,0,"LR_Kick Normal Med.wav",65
+Sample,84080,0,"LR_Kick Normal Med.wav",65
+Sample,84080,0,"LR_HiHat Click2.wav",65
+Sample,84252,0,"LR5_HiHat NSynth.wav",65
+Sample,84424,0,"LR_HiHat Click2.wav",65
+Sample,84424,0,"cymbal whistle.wav",65
+Sample,84424,0,"bell2.wav",45
+Sample,84769,0,"LR_HiHat Click2.wav",65
+Sample,84942,0,"LR_Kick Normal Med.wav",65
+Sample,85114,0,"LR_Drum Hit Open 2.wav",65
+Sample,85631,0,"LR5_HiHat NSynth.wav",65
+Sample,85976,0,"LR_Drum Hit Open 2.wav",65
+Sample,86149,0,"LR_Kick Normal Med.wav",65
+Sample,86493,0,"LR_Drum Hit Open 2.wav",65
+Sample,86838,0,"LR_HiHat Click2.wav",65
+Sample,87011,0,"LR_HiHat Click2.wav",65
+Sample,87183,0,"LR_HiHat Click2.wav",65
+Sample,87528,0,"LR_HiHat Click2.wav",65
+Sample,87700,0,"LR_Kick Normal Med.wav",65
+Sample,87873,0,"LR_Drum Hit Open 2.wav",65
+Sample,88390,0,"LR5_HiHat NSynth.wav",65
+Sample,88735,0,"LR_Drum Hit Open 2.wav",65
+Sample,88907,0,"LR_Kick Normal Med.wav",65
+Sample,89252,0,"LR_Drum Hit Open 2.wav",65
+Sample,89597,0,"LR_HiHat Click2.wav",65
+Sample,89769,0,"LR5_HiHat NSynth.wav",65
+Sample,89942,0,"LR_HiHat Click2.wav",65
+Sample,90286,0,"LR_HiHat Click2.wav",65
+Sample,90459,0,"LR_Kick Normal Med.wav",65
+Sample,90631,0,"LR_Drum Hit Open 2.wav",65
+Sample,91149,0,"LR5_HiHat NSynth.wav",65
+Sample,91493,0,"LR_Drum Hit Open 2.wav",65
+Sample,91666,0,"LR_Kick Normal Med.wav",65
+Sample,92011,0,"LR_Drum Hit Open 2.wav",65
+Sample,92355,0,"LR_HiHat Click2.wav",65
+Sample,92528,0,"LR_HiHat Click2.wav",65
+Sample,92700,0,"LR_HiHat Click2.wav",65
+Sample,93045,0,"LR_HiHat Click2.wav",65
+Sample,93217,0,"LR_Kick Normal Med.wav",65
+Sample,93390,0,"LR_Drum Hit Open 2.wav",65
+Sample,93907,0,"LR5_HiHat NSynth.wav",65
+Sample,94252,0,"LR_Drum Hit Open 2.wav",65
+Sample,94424,0,"LR_Kick Normal Med.wav",65
+Sample,94769,0,"LR_Drum Hit Open 2.wav",65
+Sample,95286,0,"LR5_HiHat NSynth.wav",65
+Sample,95459,0,"cymbal whistle.wav",65
+Sample,95459,0,"LR_HiHat Click2.wav",65
+Sample,95804,0,"LR_HiHat Click2.wav",65
+Sample,95976,0,"LR_Kick Normal Med.wav",65
+Sample,96149,0,"LR_Drum Hit Open 2.wav",65
+Sample,96666,0,"LR5_HiHat NSynth.wav",65
+Sample,97011,0,"LR_Drum Hit Open 2.wav",65
+Sample,97183,0,"LR_Kick Normal Med.wav",65
+Sample,97528,0,"LR_Drum Hit Open 2.wav",65
+Sample,97873,0,"LR_HiHat Click2.wav",65
+Sample,98045,0,"LR_HiHat Click2.wav",65
+Sample,98217,0,"LR_HiHat Click2.wav",65
+Sample,98562,0,"LR_HiHat Click2.wav",65
+Sample,98735,0,"LR_Kick Normal Med.wav",65
+Sample,98907,0,"LR_Drum Hit Open 2.wav",65
+Sample,99424,0,"LR5_HiHat NSynth.wav",65
+Sample,99769,0,"LR_Drum Hit Open 2.wav",65
+Sample,99942,0,"LR_Kick Normal Med.wav",65
+Sample,100286,0,"LR_Drum Hit Open 2.wav",65
+Sample,100631,0,"LR_Kick Normal Med.wav",65
+Sample,100804,0,"LR5_HiHat NSynth.wav",65
+Sample,100976,0,"LR_HiHat Click2.wav",65
+Sample,100976,0,"LR_Kick Normal Med.wav",65
+Sample,101666,0,"LR_Drum Hit Open 2.wav",65
+Sample,102528,0,"LR_Drum Hit Open 2.wav",65
+Sample,103390,0,"LR_HiHat Click2.wav",65
+Sample,103562,0,"LR_HiHat Click2.wav",65
+Sample,103735,0,"LR_HiHat Click2.wav",65
+Sample,104769,0,"LR_Kick Normal Med.wav",65
+Sample,104942,0,"LR5_HiHat NSynth.wav",65
+Sample,105114,0,"LR_Kick Normal Med.wav",65
+Sample,105459,0,"bitter hat.wav",65
+Sample,105804,0,"LR_Drum Hit Open 2.wav",65
+Sample,106493,0,"bell2.wav",45
+Sample,106493,0,"cymbal whistle.wav",65
+Sample,106838,0,"bell2.wav",45
+Sample,106838,0,"LR_Kick Normal Med.wav",65
+Sample,107011,0,"bell2.wav",45
+Sample,107183,0,"bell2.wav",45
+Sample,107700,0,"LR_Kick Normal Med.wav",65
+Sample,108217,0,"LR_Kick Normal Med.wav",65
+Sample,108217,0,"bell2.wav",45
+Sample,108562,0,"LR_Kick Normal Med.wav",65
+Sample,108562,0,"bell2.wav",45
+Sample,108907,0,"bell2.wav",45
+Sample,109080,0,"bell2.wav",45
+Sample,109080,0,"LR5_HiHat NSynth.wav",65
+Sample,109252,0,"bell2.wav",45
+Sample,109597,0,"LR_Kick Normal Med.wav",65
+Sample,109597,0,"bell2.wav",45
+Sample,109942,0,"bell2.wav",45
+Sample,110459,0,"LR_Kick Normal Med.wav",65
+Sample,110976,0,"LR_Kick Normal Med.wav",65
+Sample,110976,0,"bell2.wav",45
+Sample,111321,0,"bell2.wav",45
+Sample,111321,0,"LR_Drum Hit Open 2.wav",65
+Sample,111321,0,"LR_Kick Normal Med.wav",65
+Sample,112011,0,"bell2.wav",45
+Sample,112183,0,"bell2.wav",45
+Sample,112355,0,"bell2.wav",45
+Sample,112528,0,"bell2.wav",45
+Sample,112700,0,"bell2.wav",45
+Sample,113217,0,"LR_Kick Normal Med.wav",65
+Sample,113735,0,"bell2.wav",45
+Sample,113735,0,"LR_Kick Normal Med.wav",65
+Sample,114080,0,"bell2.wav",45
+Sample,114080,0,"LR_Kick Normal Med.wav",65
+Sample,114080,0,"LR_Drum Hit Open 2.wav",65
+Sample,114424,0,"bell2.wav",45
+Sample,114597,0,"bell2.wav",45
+Sample,114597,0,"LR5_HiHat NSynth.wav",65
+Sample,114769,0,"bell2.wav",45
+Sample,114942,0,"bell2.wav",45
+Sample,115114,0,"bell2.wav",45
+Sample,115114,0,"LR_Kick Normal Med.wav",65
+Sample,115459,0,"bell2.wav",45
+Sample,115459,0,"LR_Drum Hit Open 2.wav",65
+Sample,115976,0,"LR_Kick Normal Med.wav",65
+Sample,116493,0,"LR_Kick Normal Med.wav",65
+Sample,116493,0,"bell2.wav",45
+Sample,116838,0,"bell2.wav",45
+Sample,116838,0,"LR_Drum Hit Open 2.wav",65
+Sample,116838,0,"LR_Kick Normal Med.wav",65
+Sample,117183,0,"LR_Kick Normal Med.wav",65
+Sample,117355,0,"LR5_HiHat NSynth.wav",65
+Sample,117528,0,"bell2.wav",45
+Sample,117528,0,"cymbal whistle.wav",65
+Sample,117873,0,"bell2.wav",45
+Sample,117873,0,"LR_Kick Normal Med.wav",65
+Sample,118045,0,"bell2.wav",45
+Sample,118217,0,"bell2.wav",45
+Sample,118735,0,"LR_Kick Normal Med.wav",65
+Sample,119252,0,"LR_Kick Normal Med.wav",65
+Sample,119252,0,"bell2.wav",45
+Sample,119597,0,"LR_Kick Normal Med.wav",65
+Sample,119597,0,"bell2.wav",45
+Sample,119942,0,"bell2.wav",45
+Sample,120114,0,"bell2.wav",45
+Sample,120114,0,"LR5_HiHat NSynth.wav",65
+Sample,120286,0,"bell2.wav",45
+Sample,120631,0,"LR_Kick Normal Med.wav",65
+Sample,120631,0,"bell2.wav",45
+Sample,120976,0,"bell2.wav",45
+Sample,121493,0,"LR_Kick Normal Med.wav",65
+Sample,122011,0,"LR_Kick Normal Med.wav",65
+Sample,122011,0,"bell2.wav",45
+Sample,122355,0,"bell2.wav",45
+Sample,122355,0,"LR_Drum Hit Open 2.wav",65
+Sample,122355,0,"LR_Kick Normal Med.wav",65
+Sample,123045,0,"bell2.wav",45
+Sample,123217,0,"bell2.wav",45
+Sample,123390,0,"bell2.wav",45
+Sample,123562,0,"bell2.wav",45
+Sample,123735,0,"bell2.wav",45
+Sample,124252,0,"LR_Kick Normal Med.wav",65
+Sample,124769,0,"bell2.wav",45
+Sample,124769,0,"LR_Kick Normal Med.wav",65
+Sample,125114,0,"bell2.wav",45
+Sample,125114,0,"LR_Kick Normal Med.wav",65
+Sample,125114,0,"LR_Drum Hit Open 2.wav",65
+Sample,125459,0,"bell2.wav",45
+Sample,125631,0,"bell2.wav",45
+Sample,125631,0,"LR5_HiHat NSynth.wav",65
+Sample,125804,0,"bell2.wav",45
+Sample,125976,0,"bell2.wav",45
+Sample,126149,0,"bell2.wav",45
+Sample,126149,0,"LR_Kick Normal Med.wav",65
+Sample,126493,0,"bell2.wav",45
+Sample,126493,0,"LR_Drum Hit Open 2.wav",65
+Sample,127011,0,"LR_Kick Normal Med.wav",65
+Sample,127528,0,"bell2.wav",45
+Sample,127873,0,"bell2.wav",45
+Sample,127873,0,"LR_Kick Normal Med.wav",65
+Sample,127873,0,"LR_Drum Hit Open 2.wav",65
+Sample,128217,0,"LR_Kick Normal Med.wav",65
+Sample,128390,0,"LR5_HiHat NSynth.wav",65
+Sample,128562,0,"bell2.wav",45
+Sample,128562,0,"cymbal whistle.wav",65
+Sample,128735,0,"LR_Chm_Soft_NLV.wav",65
+Sample,128907,0,"LR_Chm_Soft_NLV.wav",65
+Sample,129252,0,"LR_Chm_Soft_NLV.wav",65
+Sample,129769,0,"LR_Kick Normal Med.wav",65
+Sample,130114,0,"LR_Chm_Soft_NLV.wav",65
+Sample,130286,0,"LR_Chm_Soft_NLV.wav",65
+Sample,130459,0,"LR_Chm_Soft_NLV.wav",65
+Sample,130804,0,"LR_Chm_Soft_NLV.wav",65
+Sample,130976,0,"LR_Chm_Soft_NLV.wav",65
+Sample,131149,0,"LR_Chm_Soft_NLV.wav",65
+Sample,131321,0,"bell2.wav",45
+Sample,131493,0,"LR_Chm_Soft_NLV.wav",65
+Sample,131666,0,"LR_Chm_Soft_NLV.wav",65
+Sample,131838,0,"LR_Chm_Soft_NLV.wav",65
+Sample,132011,0,"LR_Chm_Soft_NLV.wav",65
+Sample,132528,0,"LR_Chm_Soft_NLV.wav",65
+Sample,132528,0,"LR_Kick Normal Med.wav",65
+Sample,132700,0,"bell2.wav",45
+Sample,133045,0,"LR_Chm_Soft_NLV.wav",65
+Sample,133217,0,"LR_Chm_Soft_NLV.wav",65
+Sample,133562,0,"LR_Chm_Soft_NLV.wav",65
+Sample,133735,0,"LR_Kick Normal Med.wav",65
+Sample,133907,0,"LR5_HiHat NSynth.wav",65
+Sample,134080,0,"bell2.wav",45
+Sample,134424,0,"LR_Chm_Soft_NLV.wav",65
+Sample,134769,0,"LR_Chm_Soft_NLV.wav",65
+Sample,135286,0,"LR_Kick Normal Med.wav",65
+Sample,135631,0,"LR_Chm_Soft_NLV.wav",65
+Sample,135804,0,"LR_Chm_Soft_NLV.wav",65
+Sample,135976,0,"LR_Chm_Soft_NLV.wav",65
+Sample,136321,0,"LR_Chm_Soft_NLV.wav",65
+Sample,136493,0,"LR_Chm_Soft_NLV.wav",65
+Sample,136666,0,"LR_Chm_Soft_NLV.wav",65
+Sample,136838,0,"bell2.wav",45
+Sample,137183,0,"LR_Chm_Soft_NLV.wav",65
+Sample,137355,0,"LR_Chm_Soft_NLV.wav",65
+Sample,137528,0,"LR_Chm_Soft_NLV.wav",65
+Sample,138045,0,"LR_Chm_Soft_NLV.wav",65
+Sample,138045,0,"LR_Kick Normal Med.wav",65
+Sample,138217,0,"bell2.wav",45
+Sample,138562,0,"LR_Chm_Soft_NLV.wav",65
+Sample,138735,0,"LR_Chm_Soft_NLV.wav",65
+Sample,139080,0,"LR_Chm_Soft_NLV.wav",65
+Sample,139252,0,"LR_Chm_Soft_NLV.wav",65
+Sample,139252,0,"LR_Kick Normal Med.wav",65
+Sample,139424,0,"LR5_HiHat NSynth.wav",65
+Sample,139597,0,"LR_Kick Normal Med.wav",65
+Sample,139597,0,"bell2.wav",45
+Sample,139769,0,"LR_Chm_Soft_NLV.wav",65
+Sample,139942,0,"LR_Chm_Soft_NLV.wav",65
+Sample,140286,0,"LR_Chm_Soft_NLV.wav",65
+Sample,140804,0,"LR_Kick Normal Med.wav",65
+Sample,141149,0,"LR_Chm_Soft_NLV.wav",65
+Sample,141321,0,"LR_Chm_Soft_NLV.wav",65
+Sample,141493,0,"LR_Chm_Soft_NLV.wav",65
+Sample,141838,0,"LR_Chm_Soft_NLV.wav",65
+Sample,142011,0,"LR_Chm_Soft_NLV.wav",65
+Sample,142183,0,"LR_Chm_Soft_NLV.wav",65
+Sample,142355,0,"bell2.wav",45
+Sample,142528,0,"LR_Chm_Soft_NLV.wav",65
+Sample,142700,0,"LR_Chm_Soft_NLV.wav",65
+Sample,142873,0,"LR_Chm_Soft_NLV.wav",65
+Sample,143045,0,"LR_Chm_Soft_NLV.wav",65
+Sample,143562,0,"LR_Chm_Soft_NLV.wav",65
+Sample,143562,0,"LR_Kick Normal Med.wav",65
+Sample,143735,0,"bell2.wav",45
+Sample,144080,0,"LR_Chm_Soft_NLV.wav",65
+Sample,144252,0,"LR_Chm_Soft_NLV.wav",65
+Sample,144597,0,"LR_Chm_Soft_NLV.wav",65
+Sample,144769,0,"LR_Kick Normal Med.wav",65
+Sample,144942,0,"LR5_HiHat NSynth.wav",65
+Sample,145114,0,"bell2.wav",45
+Sample,145459,0,"LR_Chm_Soft_NLV.wav",65
+Sample,145804,0,"LR_Chm_Soft_NLV.wav",65
+Sample,146321,0,"LR_Kick Normal Med.wav",65
+Sample,146666,0,"LR_Chm_Soft_NLV.wav",65
+Sample,146838,0,"LR_Chm_Soft_NLV.wav",65
+Sample,147011,0,"LR_Chm_Soft_NLV.wav",65
+Sample,147355,0,"LR_Chm_Soft_NLV.wav",65
+Sample,147528,0,"LR_Chm_Soft_NLV.wav",65
+Sample,147700,0,"LR_Chm_Soft_NLV.wav",65
+Sample,147873,0,"bell2.wav",45
+Sample,148217,0,"LR_Chm_Soft_NLV.wav",65
+Sample,148390,0,"LR_Chm_Soft_NLV.wav",65
+Sample,148562,0,"LR_Chm_Soft_NLV.wav",65
+Sample,149080,0,"LR_Chm_Soft_NLV.wav",65
+Sample,149080,0,"LR_Kick Normal Med.wav",65
+Sample,149252,0,"bell2.wav",45
+Sample,149597,0,"LR_Chm_Soft_NLV.wav",65
+Sample,149769,0,"LR_Chm_Soft_NLV.wav",65
+Sample,150114,0,"LR_Chm_Soft_NLV.wav",65
+Sample,150286,0,"LR_Chm_Soft_NLV.wav",65
+Sample,150286,0,"LR_Kick Normal Med.wav",65
+Sample,150459,0,"LR5_HiHat NSynth.wav",65
+Sample,150631,0,"bell2.wav",45
+Sample,150804,0,"LR_Chm_Soft_NLV.wav",65
+Sample,150976,0,"LR_Chm_Soft_NLV.wav",65
+Sample,151321,0,"LR_Chm_Soft_NLV.wav",65
+Sample,152183,0,"LR_Chm_Soft_NLV.wav",65
+Sample,152355,0,"LR_Chm_Soft_NLV.wav",65
+Sample,152528,0,"LR_Chm_Soft_NLV.wav",65
+Sample,152873,0,"LR_Chm_Soft_NLV.wav",65
+Sample,153045,0,"LR_Chm_Soft_NLV.wav",65
+Sample,153217,0,"LR_Chm_Soft_NLV.wav",65
+Sample,153562,0,"LR_Chm_Soft_NLV.wav",65
+Sample,153735,0,"LR_Chm_Soft_NLV.wav",65
+Sample,153907,0,"LR_Chm_Soft_NLV.wav",65
+Sample,154080,0,"LR_Chm_Soft_NLV.wav",65
+Sample,154424,0,"bell2.wav",45
+Sample,154597,0,"LR_Chm_Soft_NLV.wav",65
+Sample,154769,0,"LR_Chm_Soft_NLV.wav",65
+Sample,155114,0,"LR_Chm_Soft_NLV.wav",65
+Sample,155286,0,"LR_Chm_Soft_NLV.wav",65
+Sample,155631,0,"LR_Chm_Soft_NLV.wav",65
+Sample,155804,0,"LR_Chm_Soft_NLV.wav",65
+Sample,156493,0,"LR_Chm_Soft_NLV.wav",65
+Sample,156838,0,"LR_Chm_Soft_NLV.wav",65
+Sample,157700,0,"LR_Chm_Soft_NLV.wav",65
+Sample,157873,0,"LR_Chm_Soft_NLV.wav",65
+Sample,158045,0,"LR_Chm_Soft_NLV.wav",65
+Sample,158390,0,"LR_Chm_Soft_NLV.wav",65
+Sample,158562,0,"LR_Chm_Soft_NLV.wav",65
+Sample,158735,0,"LR_Chm_Soft_NLV.wav",65
+Sample,159252,0,"LR_Chm_Soft_NLV.wav",65
+Sample,159424,0,"LR_Chm_Soft_NLV.wav",65
+Sample,159597,0,"LR_Chm_Soft_NLV.wav",65
+Sample,159942,0,"LR_Chm_Soft_NLV.wav",65
+Sample,160114,0,"LR_Chm_Soft_NLV.wav",65
+Sample,160286,0,"LR_Chm_Soft_NLV.wav",65
+Sample,160631,0,"LR_Chm_Soft_NLV.wav",65
+Sample,160804,0,"LR_Chm_Soft_NLV.wav",65
+Sample,161149,0,"LR_Chm_Soft_NLV.wav",65
+Sample,161321,0,"LR_Chm_Soft_NLV.wav",65
+
+[TimingPoints]
+218,500,4,1,1,30,1,0
+218,-68.965515,4,1,1,30,0,0
+18224,344.82758,4,1,1,45,1,0
+
+
+[HitObjects]
+36,192,218,5,0,0:0:0:45:bell2.wav
+329,192,718,1,0,0:0:0:0:
+402,192,968,1,0,0:0:0:0:
+475,192,1218,1,0,0:0:0:0:
+182,192,1718,1,0,0:0:0:0:
+182,192,2218,1,0,0:0:0:45:bell2.wav
+475,192,2718,1,0,0:0:0:0:
+182,192,3218,1,0,0:0:0:0:
+329,192,3718,1,0,0:0:0:0:
+402,192,3968,1,0,0:0:0:0:
+475,192,4218,1,0,0:0:0:45:bell2.wav
+329,192,4718,1,0,0:0:0:0:
+109,192,5218,1,0,0:0:0:0:
+256,192,5718,1,0,0:0:0:0:
+329,192,6218,1,0,0:0:0:45:bell2.wav
+402,192,6718,1,0,0:0:0:0:
+402,192,7218,1,0,0:0:0:0:
+36,192,8218,1,0,0:0:0:45:bell2.wav
+256,192,8468,1,0,0:0:0:0:
+329,192,8718,1,0,0:0:0:0:
+402,192,8968,1,0,0:0:0:0:
+475,192,9218,1,0,0:0:0:0:
+109,192,9718,1,0,0:0:0:0:
+109,192,10218,1,0,0:0:0:45:bell2.wav
+402,192,10718,1,0,0:0:0:0:
+182,192,11218,1,0,0:0:0:0:
+256,192,11718,1,0,0:0:0:0:
+329,192,11968,1,0,0:0:0:0:
+475,192,12218,1,0,0:0:0:45:bell2.wav
+329,192,12468,1,0,0:0:0:0:
+182,192,12718,1,0,0:0:0:0:
+36,192,13218,1,0,0:0:0:0:
+109,192,13718,1,0,0:0:0:0:
+182,192,14218,1,0,0:0:0:45:bell2.wav
+256,192,14718,1,0,0:0:0:0:
+109,192,15218,1,0,0:0:0:0:
+329,192,17218,128,0,17718:0:0:0:0:
+182,192,17718,128,0,18224:0:0:0:0:
+109,192,18224,1,0,0:0:0:45:bell2.wav
+329,192,18568,1,0,0:0:0:0:
+402,192,18741,1,0,0:0:0:0:
+475,192,18913,1,0,0:0:0:0:
+109,192,19258,1,0,0:0:0:0:
+109,192,19603,1,0,0:0:0:45:bell2.wav
+475,192,19948,128,0,20292:0:0:0:0:
+329,192,20292,128,0,20637:0:0:0:0:
+36,192,20637,1,0,0:0:0:0:
+109,192,20810,1,0,0:0:0:0:
+182,192,20982,1,0,0:0:0:45:bell2.wav
+402,192,21327,1,0,0:0:0:0:
+329,192,21672,1,0,0:0:0:0:
+182,192,22017,1,0,0:0:0:0:
+256,192,22361,1,0,0:0:0:45:bell2.wav
+329,192,22706,1,0,0:0:0:0:
+329,192,23051,128,0,23741:0:0:0:0:
+182,192,23741,1,0,0:0:0:45:bell2.wav
+36,192,23913,1,0,0:0:0:0:
+329,192,24086,1,0,0:0:0:0:
+402,192,24258,1,0,0:0:0:0:
+475,192,24430,1,0,0:0:0:0:
+109,192,24775,1,0,0:0:0:0:
+109,192,25120,1,0,0:0:0:45:bell2.wav
+402,192,25465,128,0,25810:0:0:0:0:
+329,192,25810,128,0,26155:0:0:0:0:
+36,192,26155,1,0,0:0:0:0:
+109,192,26327,1,0,0:0:0:0:
+475,192,26499,1,0,0:0:0:45:bell2.wav
+402,192,26672,1,0,0:0:0:0:
+329,192,26844,1,0,0:0:0:0:
+182,192,27189,1,0,0:0:0:0:
+256,192,27534,1,0,0:0:0:0:
+329,192,27879,1,0,0:0:0:45:bell2.wav
+402,192,28223,1,0,0:0:0:0:
+329,192,28568,128,0,29258:0:0:0:0:
+109,192,29258,1,0,0:0:0:45:bell2.wav
+329,192,29603,1,0,0:0:0:65:LR_Kick Normal Med.wav
+402,192,29775,1,0,0:0:0:0:
+475,192,29948,1,0,0:0:0:65:LR_Drum Hit Open 2.wav
+182,192,30292,1,0,0:0:0:0:
+182,192,30637,1,0,0:0:0:45:bell2.wav
+402,192,30982,128,0,31327:0:0:0:65:LR_Kick Normal Med.wav
+256,192,31327,128,0,31672:0:0:0:65:LR_Drum Hit Open 2.wav
+109,192,31672,1,0,0:0:0:65:LR_Kick Normal Med.wav
+182,192,31844,1,0,0:0:0:65:LR5_HiHat NSynth.wav
+256,192,32017,1,0,0:0:0:45:bell2.wav
+475,192,32361,1,0,0:0:0:65:LR_Kick Normal Med.wav
+402,192,32706,1,0,0:0:0:65:LR_Drum Hit Open 2.wav
+36,192,33051,1,0,0:0:0:0:
+109,192,33396,1,0,0:0:0:45:bell2.wav
+182,192,33741,1,0,0:0:0:65:LR_Kick Normal Med.wav
+182,192,34086,128,0,34775:0:0:0:65:LR_Drum Hit Open 2.wav
+256,192,34775,1,0,0:0:0:45:bell2.wav
+36,192,34948,1,0,0:0:0:0:
+329,192,35120,1,0,0:0:0:65:LR_Kick Normal Med.wav
+402,192,35292,1,0,0:0:0:0:
+475,192,35465,1,0,0:0:0:65:LR_Drum Hit Open 2.wav
+256,192,35810,1,0,0:0:0:0:
+256,192,36155,1,0,0:0:0:45:bell2.wav
+329,192,36499,128,0,36844:0:0:0:65:LR_Kick Normal Med.wav
+256,192,36844,128,0,37189:0:0:0:65:LR_Drum Hit Open 2.wav
+402,192,37189,1,0,0:0:0:65:LR_Kick Normal Med.wav
+475,192,37361,1,0,0:0:0:65:LR5_HiHat NSynth.wav
+182,192,37534,1,0,0:0:0:45:bell2.wav
+109,192,37706,1,0,0:0:0:0:
+36,192,37879,1,0,0:0:0:65:LR_Kick Normal Med.wav
+256,192,38223,1,0,0:0:0:65:LR_Drum Hit Open 2.wav
+329,192,38568,1,0,0:0:0:0:
+402,192,38913,1,0,0:0:0:45:bell2.wav
+475,192,39258,1,0,0:0:0:65:LR_Kick Normal Med.wav
+109,192,39603,128,0,40292:0:0:0:65:LR_Drum Hit Open 2.wav
+475,192,40292,128,0,40982:0:0:0:45:bell2.wav
+182,192,40982,128,0,41327:0:0:0:65:LR_Drum Hit Open 2.wav
+256,192,41327,1,0,0:0:0:45:bell2.wav
+256,192,41672,128,0,42361:0:0:0:45:bell2.wav
+36,192,42361,1,0,0:0:0:65:LR_Drum Hit Open 2.wav
+109,192,42706,1,0,0:0:0:65:LR_Kick Normal Med.wav
+182,192,43051,128,0,43741:0:0:0:45:bell2.wav
+329,192,43741,1,0,0:0:0:65:LR_Drum Hit Open 2.wav
+256,192,44086,1,0,0:0:0:45:bell2.wav
+402,192,44430,128,0,45465:0:0:0:45:bell2.wav
+36,192,45465,1,0,0:0:0:65:LR_Kick Normal Med.wav
+109,192,45637,1,0,0:0:0:65:LR5_HiHat NSynth.wav
+329,192,45810,1,0,0:0:0:45:bell2.wav
+256,192,46155,1,0,0:0:0:65:LR_Kick Normal Med.wav
+182,192,46499,1,0,0:0:0:65:LR_Drum Hit Open 2.wav
+109,192,46844,1,0,0:0:0:45:bell2.wav
+36,192,47189,128,0,47706:0:0:0:45:bell2.wav
+329,192,47706,128,0,48223:0:0:0:0:
+109,192,48223,1,0,0:0:0:65:LR_Kick Normal Med.wav
+182,192,48568,128,0,49086:0:0:0:45:bell2.wav
+256,192,49086,128,0,49603:0:0:0:0:
+475,192,49603,1,0,0:0:0:45:bell2.wav
+329,192,49948,128,0,51327:0:0:0:45:bell2.wav
+402,192,51327,128,0,52017:0:0:0:65:LR_Kick Normal Med.wav
+109,192,52017,128,0,52361:0:0:0:65:LR_Drum Hit Open 2.wav
+256,192,52361,1,0,0:0:0:45:bell2.wav
+256,192,52706,128,0,53396:0:0:0:45:bell2.wav
+109,192,53396,1,0,0:0:0:65:LR_Drum Hit Open 2.wav
+182,192,53741,1,0,0:0:0:65:LR_Kick Normal Med.wav
+256,192,54086,128,0,54775:0:0:0:65:LR_Kick Normal Med.wav
+329,192,54775,1,0,0:0:0:65:LR_Drum Hit Open 2.wav
+402,192,55120,1,0,0:0:0:45:bell2.wav
+182,192,55465,128,0,56499:0:0:0:45:bell2.wav
+256,192,56499,1,0,0:0:0:65:LR_Kick Normal Med.wav
+329,192,56672,1,0,0:0:0:65:LR5_HiHat NSynth.wav
+475,192,56844,1,0,0:0:0:65:LR_Kick Normal Med.wav
+329,192,57189,1,0,0:0:0:65:LR_Kick Normal Med.wav
+256,192,57534,1,0,0:0:0:65:LR_Drum Hit Open 2.wav
+182,192,57879,1,0,0:0:0:45:bell2.wav
+109,192,58223,128,0,58741:0:0:0:45:bell2.wav
+475,192,58741,128,0,59258:0:0:0:0:
+329,192,59258,1,0,0:0:0:65:LR_Kick Normal Med.wav
+256,192,59603,128,0,60120:0:0:0:65:LR_Kick Normal Med.wav
+182,192,60120,128,0,60637:0:0:0:0:
+36,192,60637,1,0,0:0:0:45:bell2.wav
+109,192,60982,1,0,0:0:0:45:bell2.wav
+182,192,61327,1,0,0:0:0:65:LR_Kick Normal Med.wav
+329,192,61499,128,0,62361:0:0:0:0:
+109,192,62361,128,0,63396:0:0:0:65:LR_Kick Normal Med.wav
+182,192,63396,128,0,63741:0:0:0:65:LR_Kick Normal Med.wav
+402,192,63741,128,0,64775:0:0:0:65:LR_Kick Normal Med.wav
+329,192,64775,128,0,65120:0:0:0:65:LR_Kick Normal Med.wav
+182,192,65120,128,0,66155:0:0:0:65:LR_Kick Normal Med.wav
+256,192,66155,128,0,66499:0:0:0:65:LR_Kick Normal Med.wav
+329,192,66499,128,0,67879:0:0:0:65:LR_Kick Normal Med.wav
+36,192,67879,128,0,68913:0:0:0:65:LR_Kick Normal Med.wav
+109,192,68913,128,0,69258:0:0:0:65:LR_Kick Normal Med.wav
+475,192,69258,128,0,70292:0:0:0:65:LR_Kick Normal Med.wav
+402,192,70292,128,0,70637:0:0:0:65:LR_Kick Normal Med.wav
+182,192,70637,128,0,71155:0:0:0:65:LR_Kick Normal Med.wav
+329,192,71155,128,0,71672:0:0:0:65:LR_Kick Normal Med.wav
+256,192,71672,128,0,72017:0:0:0:65:LR_Kick Normal Med.wav
+182,192,72017,128,0,72534:0:0:0:65:LR_Kick Normal Med.wav
+256,192,72534,128,0,73396:0:0:0:0:
+475,192,73396,128,0,74430:0:0:0:65:LR_Kick Normal Med.wav
+329,192,74430,128,0,74775:0:0:0:65:LR_Kick Normal Med.wav
+36,192,74775,128,0,75810:0:0:0:65:LR_Kick Normal Med.wav
+182,192,75810,128,0,76155:0:0:0:65:LR_Kick Normal Med.wav
+402,192,76155,128,0,77189:0:0:0:65:LR_Kick Normal Med.wav
+475,192,77189,128,0,77534:0:0:0:65:LR_Kick Normal Med.wav
+109,192,77534,128,0,78568:0:0:0:65:LR_Kick Normal Med.wav
+36,192,78568,128,0,78913:0:0:0:65:LR_Kick Normal Med.wav
+329,192,78913,128,0,79948:0:0:0:65:LR_Kick Normal Med.wav
+256,192,79948,128,0,80292:0:0:0:65:LR_Kick Normal Med.wav
+182,192,80292,128,0,81327:0:0:0:65:LR_Kick Normal Med.wav
+109,192,81327,128,0,81672:0:0:0:65:LR_Kick Normal Med.wav
+256,192,81672,128,0,82189:0:0:0:65:LR_Kick Normal Med.wav
+329,192,82189,128,0,82706:0:0:0:65:LR_Kick Normal Med.wav
+256,192,82706,128,0,83051:0:0:0:65:LR_Kick Normal Med.wav
+182,192,83051,128,0,83741:0:0:0:65:LR_Kick Normal Med.wav
+329,192,83741,128,0,84430:0:0:0:65:LR_Drum Hit Open 2.wav
+402,192,84430,128,0,85810:0:0:0:65:LR_Kick Normal Med.wav
+182,192,85465,128,0,85810:0:0:0:65:LR_Kick Normal Med.wav
+329,192,85810,128,0,87189:0:0:0:65:LR_Kick Normal Med.wav
+109,192,86844,128,0,87189:0:0:0:65:LR_Kick Normal Med.wav
+256,192,87189,128,0,88568:0:0:0:65:LR_Kick Normal Med.wav
+36,192,88223,128,0,88568:0:0:0:65:LR_Kick Normal Med.wav
+182,192,88568,128,0,89948:0:0:0:65:LR_Kick Normal Med.wav
+329,192,89603,128,0,89948:0:0:0:65:LR_Kick Normal Med.wav
+109,192,89948,128,0,91327:0:0:0:65:LR_Kick Normal Med.wav
+475,192,90982,128,0,91327:0:0:0:65:LR_Kick Normal Med.wav
+36,192,91327,128,0,92706:0:0:0:65:LR_Kick Normal Med.wav
+256,192,92361,128,0,92706:0:0:0:65:LR_Kick Normal Med.wav
+109,192,92706,128,0,94086:0:0:0:65:LR_Kick Normal Med.wav
+329,192,93741,128,0,94086:0:0:0:65:LR_Kick Normal Med.wav
+182,192,94086,128,0,95465:0:0:0:65:LR_Kick Normal Med.wav
+402,192,95120,128,0,95465:0:0:0:65:LR_Kick Normal Med.wav
+256,192,95465,128,0,96844:0:0:0:65:LR_Kick Normal Med.wav
+475,192,96499,128,0,96844:0:0:0:65:LR_Kick Normal Med.wav
+329,192,96844,128,0,98223:0:0:0:65:LR_Kick Normal Med.wav
+182,192,97879,128,0,98223:0:0:0:65:LR_Kick Normal Med.wav
+402,192,98223,128,0,99603:0:0:0:65:LR_Kick Normal Med.wav
+256,192,99258,128,0,99603:0:0:0:65:LR_Kick Normal Med.wav
+475,192,99603,128,0,100982:0:0:0:65:LR_Kick Normal Med.wav
+329,192,100982,128,0,102361:0:0:0:65:cymbal whistle.wav
+36,192,101155,1,0,0:0:0:0:
+109,192,101327,1,0,0:0:0:65:LR_HiHat Click2.wav
+182,192,101499,1,0,0:0:0:65:LR_Kick Normal Med.wav
+36,192,102017,1,0,0:0:0:65:LR_Kick Normal Med.wav
+109,192,102189,1,0,0:0:0:65:LR5_HiHat NSynth.wav
+475,192,102361,128,0,103051:0:0:0:65:LR_Kick Normal Med.wav
+182,192,102361,1,0,0:0:0:0:
+329,192,102706,1,0,0:0:0:65:LR_Kick Normal Med.wav
+36,192,103051,128,0,104430:0:0:0:65:LR_Drum Hit Open 2.wav
+256,192,103051,1,0,0:0:0:0:
+182,192,103396,1,0,0:0:0:65:LR_Kick Normal Med.wav
+256,192,103741,1,0,0:0:0:65:LR_Kick Normal Med.wav
+329,192,104086,1,0,0:0:0:65:LR_HiHat Click2.wav
+402,192,104258,1,0,0:0:0:65:LR_Kick Normal Med.wav
+109,192,104430,128,0,105120:0:0:0:65:LR_Drum Hit Open 2.wav
+475,192,106499,128,0,107189:0:0:0:65:LR_Kick Normal Med.wav
+182,192,107189,128,0,107534:0:0:0:65:LR_Drum Hit Open 2.wav
+256,192,107534,128,0,107879:0:0:0:45:bell2.wav
+329,192,107879,128,0,108568:0:0:0:45:bell2.wav
+36,192,108568,128,0,108913:0:0:0:65:LR_Drum Hit Open 2.wav
+109,192,108913,128,0,109258:0:0:0:65:LR_Kick Normal Med.wav
+182,192,109258,128,0,109948:0:0:0:65:LR_Kick Normal Med.wav
+329,192,109948,128,0,110292:0:0:0:65:LR_Drum Hit Open 2.wav
+256,192,110292,128,0,110637:0:0:0:45:bell2.wav
+402,192,110637,128,0,111672:0:0:0:45:bell2.wav
+36,192,111672,1,0,0:0:0:65:LR_Kick Normal Med.wav
+109,192,111844,1,0,0:0:0:65:LR5_HiHat NSynth.wav
+329,192,112017,128,0,112361:0:0:0:65:LR_Kick Normal Med.wav
+256,192,112361,128,0,112706:0:0:0:65:LR_Kick Normal Med.wav
+182,192,112706,128,0,113051:0:0:0:65:LR_Drum Hit Open 2.wav
+109,192,113051,128,0,113396:0:0:0:45:bell2.wav
+36,192,113396,128,0,113913:0:0:0:45:bell2.wav
+329,192,113913,128,0,114430:0:0:0:0:
+182,192,114430,128,0,114775:0:0:0:65:LR_Kick Normal Med.wav
+329,192,114775,128,0,115292:0:0:0:65:LR_Kick Normal Med.wav
+402,192,115292,128,0,115810:0:0:0:0:
+475,192,115810,128,0,116155:0:0:0:45:bell2.wav
+329,192,116155,128,0,117534:0:0:0:45:bell2.wav
+402,192,117534,128,0,118223:0:0:0:65:LR_Kick Normal Med.wav
+182,192,118223,128,0,118568:0:0:0:65:LR_Drum Hit Open 2.wav
+256,192,118568,128,0,118913:0:0:0:45:bell2.wav
+329,192,118913,128,0,119603:0:0:0:45:bell2.wav
+109,192,119603,128,0,119948:0:0:0:65:LR_Drum Hit Open 2.wav
+182,192,119948,128,0,120292:0:0:0:65:LR_Kick Normal Med.wav
+256,192,120292,128,0,120982:0:0:0:65:LR_Kick Normal Med.wav
+36,192,120982,128,0,121327:0:0:0:65:LR_Drum Hit Open 2.wav
+109,192,121327,128,0,121672:0:0:0:45:bell2.wav
+182,192,121672,128,0,122706:0:0:0:45:bell2.wav
+256,192,122706,1,0,0:0:0:65:LR_Kick Normal Med.wav
+329,192,122879,1,0,0:0:0:65:LR5_HiHat NSynth.wav
+475,192,123051,128,0,123396:0:0:0:65:LR_Kick Normal Med.wav
+329,192,123396,128,0,123741:0:0:0:65:LR_Kick Normal Med.wav
+256,192,123741,128,0,124086:0:0:0:65:LR_Drum Hit Open 2.wav
+182,192,124086,128,0,124430:0:0:0:45:bell2.wav
+109,192,124430,128,0,124948:0:0:0:45:bell2.wav
+475,192,124948,128,0,125465:0:0:0:0:
+329,192,125465,128,0,125810:0:0:0:65:LR_Kick Normal Med.wav
+182,192,125810,128,0,126327:0:0:0:65:LR_Kick Normal Med.wav
+109,192,126327,128,0,126844:0:0:0:0:
+36,192,126844,128,0,127189:0:0:0:45:bell2.wav
+182,192,127189,128,0,127534:0:0:0:45:bell2.wav
+256,192,127534,1,0,0:0:0:65:LR_Kick Normal Med.wav
+329,192,127706,128,0,128568:0:0:0:0:
+109,192,128568,128,0,128913:0:0:0:65:LR_Kick Normal Med.wav
+256,192,128913,1,0,0:0:0:65:LR_Kick Normal Med.wav
+329,192,129086,1,0,0:0:0:65:LR_Chm_Soft_NLV.wav
+402,192,129258,128,0,129603:0:0:0:65:LR_Drum Hit Open 2.wav
+109,192,129603,128,0,129948:0:0:0:0:
+182,192,129948,128,0,130292:0:0:0:45:bell2.wav
+475,192,130292,128,0,130637:0:0:0:65:LR_Kick Normal Med.wav
+329,192,130637,128,0,130982:0:0:0:65:LR_Drum Hit Open 2.wav
+36,192,130982,1,0,0:0:0:65:LR_Kick Normal Med.wav
+109,192,131155,1,0,0:0:0:65:LR5_HiHat NSynth.wav
+182,192,131327,128,0,131672:0:0:0:65:LR_Kick Normal Med.wav
+402,192,131672,128,0,132017:0:0:0:65:LR_Kick Normal Med.wav
+329,192,132017,128,0,132361:0:0:0:65:LR_Drum Hit Open 2.wav
+182,192,132361,128,0,132706:0:0:0:65:LR_Chm_Soft_NLV.wav
+256,192,132706,128,0,133051:0:0:0:65:LR_Chm_Soft_NLV.wav
+329,192,133051,128,0,133396:0:0:0:65:LR_Kick Normal Med.wav
+402,192,133396,128,0,134086:0:0:0:65:LR_Drum Hit Open 2.wav
+182,192,134086,1,0,0:0:0:65:LR_Kick Normal Med.wav
+36,192,134258,1,0,0:0:0:65:LR_Chm_Soft_NLV.wav
+329,192,134430,1,0,0:0:0:65:LR_Kick Normal Med.wav
+402,192,134603,1,0,0:0:0:65:LR_Chm_Soft_NLV.wav
+475,192,134775,128,0,135120:0:0:0:65:LR_Drum Hit Open 2.wav
+109,192,135120,128,0,135465:0:0:0:0:
+182,192,135465,128,0,135810:0:0:0:45:bell2.wav
+402,192,135810,128,0,136155:0:0:0:65:LR_Kick Normal Med.wav
+329,192,136155,128,0,136499:0:0:0:65:LR_Drum Hit Open 2.wav
+36,192,136499,1,0,0:0:0:65:LR_Kick Normal Med.wav
+109,192,136672,1,0,0:0:0:65:LR5_HiHat NSynth.wav
+475,192,136844,1,0,0:0:0:65:LR_Kick Normal Med.wav
+402,192,137017,1,0,0:0:0:65:LR_Chm_Soft_NLV.wav
+329,192,137189,128,0,137534:0:0:0:65:LR_Kick Normal Med.wav
+182,192,137534,128,0,137879:0:0:0:65:LR_Drum Hit Open 2.wav
+256,192,137879,128,0,138223:0:0:0:65:LR_Chm_Soft_NLV.wav
+329,192,138223,128,0,138568:0:0:0:65:LR_Chm_Soft_NLV.wav
+475,192,138568,128,0,138913:0:0:0:65:LR_Kick Normal Med.wav
+402,192,138913,128,0,139603:0:0:0:65:LR_Drum Hit Open 2.wav
+109,192,139603,128,0,139948:0:0:0:65:cymbal whistle.wav
+329,192,139948,128,0,140120:0:0:0:65:LR_Kick Normal Med.wav
+402,192,140120,128,0,140292:0:0:0:65:LR_Chm_Soft_NLV.wav
+475,192,140292,128,0,140637:0:0:0:65:LR_Drum Hit Open 2.wav
+182,192,140637,128,0,140982:0:0:0:0:
+256,192,140982,128,0,141327:0:0:0:45:bell2.wav
+402,192,141327,128,0,141672:0:0:0:65:LR_Kick Normal Med.wav
+256,192,141672,128,0,142017:0:0:0:65:LR_Drum Hit Open 2.wav
+109,192,142017,128,0,142189:0:0:0:65:LR_Kick Normal Med.wav
+182,192,142189,128,0,142361:0:0:0:65:LR5_HiHat NSynth.wav
+256,192,142361,128,0,142706:0:0:0:65:LR_Kick Normal Med.wav
+475,192,142706,128,0,143051:0:0:0:65:LR_Kick Normal Med.wav
+402,192,143051,128,0,143396:0:0:0:65:LR_Drum Hit Open 2.wav
+36,192,143396,128,0,143741:0:0:0:65:LR_Chm_Soft_NLV.wav
+109,192,143741,128,0,144086:0:0:0:65:LR_Chm_Soft_NLV.wav
+182,192,144086,128,0,144430:0:0:0:65:LR_Kick Normal Med.wav
+256,192,144430,128,0,145120:0:0:0:65:LR_Drum Hit Open 2.wav
+182,192,145120,128,0,145292:0:0:0:65:LR_Kick Normal Med.wav
+36,192,145292,128,0,145465:0:0:0:65:LR_Chm_Soft_NLV.wav
+329,192,145465,128,0,145637:0:0:0:65:LR_Kick Normal Med.wav
+402,192,145637,128,0,145810:0:0:0:65:LR_Chm_Soft_NLV.wav
+475,192,145810,128,0,146155:0:0:0:65:LR_Drum Hit Open 2.wav
+256,192,146155,128,0,146499:0:0:0:0:
+402,192,146499,128,0,146844:0:0:0:45:bell2.wav
+329,192,146844,128,0,147189:0:0:0:65:LR_Kick Normal Med.wav
+256,192,147189,128,0,147534:0:0:0:65:LR_Drum Hit Open 2.wav
+402,192,147534,128,0,147706:0:0:0:65:LR_Kick Normal Med.wav
+475,192,147706,128,0,147879:0:0:0:65:LR5_HiHat NSynth.wav
+182,192,147879,128,0,148051:0:0:0:65:LR_Kick Normal Med.wav
+109,192,148051,128,0,148223:0:0:0:65:LR_Chm_Soft_NLV.wav
+36,192,148223,128,0,148568:0:0:0:65:LR_Kick Normal Med.wav
+256,192,148568,128,0,148913:0:0:0:65:LR_Drum Hit Open 2.wav
+329,192,148913,128,0,149258:0:0:0:65:LR_Chm_Soft_NLV.wav
+402,192,149258,128,0,149603:0:0:0:65:LR_Chm_Soft_NLV.wav
+475,192,149603,128,0,149948:0:0:0:65:LR_Kick Normal Med.wav
+109,192,149948,128,0,150637:0:0:0:65:LR_Drum Hit Open 2.wav
+182,192,150637,1,0,0:0:0:65:cymbal whistle.wav
+109,192,150982,1,0,0:0:0:45:bell2.wav
+182,192,151155,1,0,0:0:0:65:LR_Chm_Soft_NLV.wav
+256,192,151327,1,0,0:0:0:45:bell2.wav
+329,192,151672,1,0,0:0:0:45:bell2.wav
+329,192,152017,1,0,0:0:0:45:bell2.wav
+475,192,152361,1,0,0:0:0:45:bell2.wav
+402,192,152706,1,0,0:0:0:45:bell2.wav
+109,192,153051,1,0,0:0:0:45:bell2.wav
+182,192,153223,1,0,0:0:0:45:bell2.wav
+256,192,153396,1,0,0:0:0:45:bell2.wav
+182,192,153741,1,0,0:0:0:45:bell2.wav
+109,192,154086,1,0,0:0:0:45:bell2.wav
+182,192,154430,1,0,0:0:0:65:LR_Chm_Soft_NLV.wav
+256,192,154775,1,0,0:0:0:45:bell2.wav
+329,192,155120,1,0,0:0:0:45:bell2.wav
+329,192,155465,1,0,0:0:0:45:bell2.wav
+182,192,156155,1,0,0:0:0:45:bell2.wav
+36,192,156327,1,0,0:0:0:65:LR_Chm_Soft_NLV.wav
+109,192,156499,1,0,0:0:0:45:bell2.wav
+329,192,156672,1,0,0:0:0:65:LR_Chm_Soft_NLV.wav
+402,192,156844,1,0,0:0:0:45:bell2.wav
+402,192,157189,1,0,0:0:0:45:bell2.wav
+402,192,157534,1,0,0:0:0:45:bell2.wav
+475,192,157879,1,0,0:0:0:45:bell2.wav
+256,192,158223,1,0,0:0:0:45:bell2.wav
+109,192,158568,1,0,0:0:0:45:bell2.wav
+256,192,158741,1,0,0:0:0:45:bell2.wav
+402,192,158913,1,0,0:0:0:45:bell2.wav
+256,192,159086,1,0,0:0:0:65:LR_Chm_Soft_NLV.wav
+109,192,159258,1,0,0:0:0:45:bell2.wav
+36,192,159603,1,0,0:0:0:45:bell2.wav
+182,192,159948,1,0,0:0:0:45:bell2.wav
+256,192,160292,1,0,0:0:0:45:bell2.wav
+402,192,160637,1,0,0:0:0:45:bell2.wav
+329,192,160982,1,0,0:0:0:45:bell2.wav

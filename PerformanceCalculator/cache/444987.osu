@@ -1,0 +1,67 @@
+osu file format v13
+
+[General]
+AudioFilename: Camellia feat Nanahira - Energy Drink Girl Fein-chan!.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 0
+SampleSet: None
+StackLeniency: 0.8
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 4
+GridSize: 16
+TimelineZoom: 1
+
+[Metadata]
+Title:Energy Drink Girl Fein-chan!
+TitleUnicode:Energy Drink Girl Fein-chan!
+Artist:Camellia feat Nanahira
+ArtistUnicode:Camellia feat Nanahira
+Creator:KowDady
+Version:Normal
+Source:
+Tags:
+BeatmapID:444987
+BeatmapSetID:186213
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:3
+OverallDifficulty:5
+ApproachRate:4
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"267001.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+64,545.454545454546,4,2,0,100,1,0
+100,-100,4,2,0,100,0,0
+
+
+[HitObjects]
+256,192,2791,1,0,0:0:0:0:
+416,80,4700,1,0,0:0:0:0:
+384,112,4836,1,0,0:0:0:0:
+64,240,6745,2,0,P|128:304|160:320,1,105
+160,192,8518,5,0,0:0:0:0:
+256,192,8927,1,0,0:0:0:0:
+352,192,9336,1,0,0:0:0:0:
+144,208,10427,6,0,B|256:96|368:208|368:208,1,245,0|0,0:0|0:0,0:0:0:0:
+304,160,11791,1,0,0:0:0:0:
+256,64,12064,2,0,P|208:112|176:192,1,140

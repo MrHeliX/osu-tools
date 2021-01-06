@@ -1,0 +1,97 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 67
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 28285,38571
+DistanceSpacing: 1.5
+BeatDivisor: 2
+GridSize: 32
+TimelineZoom: 1
+
+[Metadata]
+Title:e
+TitleUnicode:e
+Artist:tatatat
+ArtistUnicode:tatatat
+Creator:tatatat
+Version:futsuu
+Source:
+Tags:music box mathematical constant Leonhard Euler
+BeatmapID:1765973
+BeatmapSetID:844183
+
+[Difficulty]
+HPDrainRate:9.5
+CircleSize:2
+OverallDifficulty:2
+ApproachRate:10
+SliderMultiplier:1.6
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"thelettere.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+67,857.142857142857,6,1,0,100,1,0
+
+
+[HitObjects]
+256,192,67,5,0,0:0:0:0:
+256,192,924,1,8,0:0:0:0:
+256,192,1781,1,0,0:0:0:0:
+256,192,2638,1,8,0:0:0:0:
+256,192,3495,1,0,0:0:0:0:
+256,192,5209,1,8,0:0:0:0:
+256,192,6066,1,0,0:0:0:0:
+256,192,6924,1,8,0:0:0:0:
+256,192,7781,1,0,0:0:0:0:
+256,192,8638,1,8,0:0:0:0:
+256,192,10352,1,0,0:0:0:0:
+256,192,11209,1,8,0:0:0:0:
+256,192,12066,1,8,0:0:0:0:
+256,192,12924,1,0,0:0:0:0:
+256,192,13781,1,0,0:0:0:0:
+256,192,14638,1,8,0:0:0:0:
+256,192,15495,1,0,0:0:0:0:
+256,192,16352,1,0,0:0:0:0:
+256,192,17209,1,8,0:0:0:0:
+256,192,18066,1,0,0:0:0:0:
+256,192,18924,1,8,0:0:0:0:
+256,192,20638,1,0,0:0:0:0:
+256,192,21495,1,0,0:0:0:0:
+256,192,22352,1,8,0:0:0:0:
+256,192,23209,1,8,0:0:0:0:
+256,192,24066,1,0,0:0:0:0:
+256,192,25781,1,8,0:0:0:0:
+256,192,26638,1,0,0:0:0:0:
+256,192,27495,1,0,0:0:0:0:
+256,192,28352,1,8,0:0:0:0:
+256,192,29209,1,0,0:0:0:0:
+256,192,30924,1,8,0:0:0:0:
+256,192,31781,1,8,0:0:0:0:
+256,192,32638,1,0,0:0:0:0:
+256,192,33495,1,8,0:0:0:0:
+256,192,34352,1,8,0:0:0:0:
+256,192,35209,1,8,0:0:0:0:
+256,192,36066,1,0,0:0:0:0:
+256,192,36924,1,8,0:0:0:0:
+256,192,37781,1,0,0:0:0:0:
+256,192,38638,1,0,0:0:0:0:
+256,192,39495,1,8,0:0:0:0:

@@ -1,0 +1,107 @@
+osu file format v5
+
+[General]
+AudioFilename: Apollo Justice Ace Attorney OST - 06) Apollo Justice ~ Start of a New Trial!.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.4
+Mode: 0
+LetterboxInBreaks: 1
+SkinPreference:pw
+
+[Metadata]
+Title:Apollo Justice ~ Start of a New Trial!
+Artist:Toshihiko Horiyama
+Creator:evilc
+Version:Easy
+Source:Apollo Justice
+Tags:Apollo Justice Ace Attorney Objection Capcom
+
+[Difficulty]
+HPDrainRate:5
+CircleSize:4
+OverallDifficulty:4
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"apollo-justice-1.jpg"
+//Break Periods
+2,35074,44983
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Failing)
+//Storyboard Layer 2 (Passing)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,255,79,79
+
+[TimingPoints]
+579,476.190476190476,4,1,0,70,1
+
+[HitObjects]
+96,64,8198,1,0
+256,64,8912,1,0
+352,64,9388,1,0
+352,224,10102,5,0
+192,224,10817,1,0
+96,224,11293,1,0
+192,320,12007,5,0
+352,320,12721,1,0
+448,320,13198,1,0
+320,192,13912,5,0
+96,192,14864,1,0
+96,64,15817,6,0,B|448:64,1,280
+160,160,17721,2,0,B|448:160,1,280
+256,88,19626,5,2
+160,256,20578,1,2
+352,256,21531,1,4
+448,64,23436,6,0,C|288:192|32:160,1,420
+32,64,25340,2,0,C|256:32|416:160,1,420
+416,256,27245,1,2
+256,192,27959,1,2
+352,128,28436,1,2
+176,48,29150,1,4
+96,256,30102,1,4
+256,192,31055,12,4,34864
+256,192,46293,5,0
+256,192,46769,1,0
+256,192,47245,1,0
+256,192,47721,1,2
+368,192,48198,1,0
+368,80,48674,1,0
+256,80,49150,1,0
+144,80,49626,1,2
+144,192,50102,5,0
+144,304,50578,1,0
+256,304,51055,1,0
+368,304,51531,1,2
+368,192,52007,1,0
+368,80,52483,1,0
+368,80,52959,1,2
+368,80,53436,1,6
+384,224,53912,6,0,C|256:288|96:224,3,280
+352,272,57721,1,0
+352,96,58436,1,2
+64,96,59626,1,0
+64,320,60578,1,4
+256,192,61531,5,0
+352,288,62721,6,0,C|256:288,3,70
+96,96,64626,2,0,C|192:96,3,70
+256,192,66293,5,4
+256,192,67245,5,4
+416,320,69151,5,0
+256,320,69865,1,0
+160,320,70341,1,0
+160,160,71055,5,0
+320,160,71769,1,0
+416,160,72245,1,0
+320,64,72959,5,0
+160,64,73673,1,0
+64,64,74150,1,0
+192,192,74864,5,2
+416,192,75816,1,4
+256,192,76769,12,4,84388

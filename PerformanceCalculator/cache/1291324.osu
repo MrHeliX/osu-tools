@@ -1,0 +1,98 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 4684
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:Poudre de Perlimpinpin
+TitleUnicode:Poudre de Perlimpinpin
+Artist:Emmanuel Macron ft. Marine Le Pen (Khaled Freak Mix)
+ArtistUnicode:Emmanuel Macron ft. Marine Le Pen (Khaled Freak Mix)
+Creator:Usubiki
+Version:Regular poudre
+Source:
+Tags:-Kryu- [ IWeenox ] Jager-kun Blowy Fina Hino [Haku] Kyuukai Pomroz Atsuhito Bakkalo val0108 Ezys5 Ameyy Owens Linada Musty [ SnoWin ] Mooha Mitsuna-
+BeatmapID:1291324
+BeatmapSetID:610054
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:3.5
+OverallDifficulty:4
+ApproachRate:6
+SliderMultiplier:2.09999990463257
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Presidentielle-Marine-le-Pen-et-Emmanuel-Macron-les-nouveaux-duellistes-de-la-campagne.jpg",0,0
+//Break Periods
+2,17236,24457
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+449,352.941176470588,4,1,0,50,1,0
+5390,-200,4,1,0,50,0,0
+33978,-200,4,1,0,50,0,0
+
+
+[HitObjects]
+76,136,5743,6,0,P|168:76|260:104,1,209.999990463257
+308,196,6801,1,0,0:0:0:0:
+308,196,7154,2,0,B|260:304|260:304|188:224,1,209.999990463257
+124,160,8213,1,0,0:0:0:0:
+212,100,8566,6,0,L|432:96,1,209.999990463257
+368,188,9625,1,0,0:0:0:0:
+264,188,9978,1,0,0:0:0:0:
+320,276,10331,1,0,0:0:0:0:
+424,280,10684,1,0,0:0:0:0:
+484,192,11037,1,0,0:0:0:0:
+416,112,11390,6,0,B|304:80|304:80|244:176,1,209.999990463257
+352,200,12448,1,0,0:0:0:0:
+340,304,12801,2,0,B|452:264|452:264|448:152,1,209.999990463257
+428,68,13860,1,0,0:0:0:0:
+376,160,14213,1,0,0:0:0:0:
+284,108,14566,5,0,0:0:0:0:
+260,212,14919,1,0,0:0:0:0:
+168,164,15272,1,0,0:0:0:0:
+120,256,15625,2,0,P|204:336|276:276,1,209.999990463257
+268,188,16684,6,0,L|264:84,1,104.999995231629
+84,80,25507,6,0,P|148:72|196:104,1,104.999995231629
+180,196,26213,1,0,0:0:0:0:
+180,196,26566,1,0,0:0:0:0:
+216,296,26919,6,0,P|272:276|288:236,1,104.999995231629
+212,164,27625,1,0,0:0:0:0:
+308,124,27978,1,0,0:0:0:0:
+296,228,28331,6,0,L|392:280,1,104.999995231629
+472,216,29037,1,0,0:0:0:0:
+384,160,29390,1,0,0:0:0:0:
+388,264,29743,6,0,L|284:240,1,104.999995231629
+180,236,30448,1,0,0:0:0:0:
+212,136,30801,1,0,0:0:0:0:
+312,168,31154,1,0,0:0:0:0:
+244,248,31507,5,0,0:0:0:0:
+140,232,31860,1,0,0:0:0:0:
+112,132,32213,1,0,0:0:0:0:
+112,132,32566,6,0,L|224:136,1,104.999995231629
+324,144,33272,1,0,0:0:0:0:
+324,144,33625,1,0,0:0:0:0:
+380,232,33978,6,0,B|304:264|304:264|184:212,1,209.999990463257
+148,116,35037,5,0,0:0:0:0:

@@ -1,0 +1,91 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 18085
+Countdown: 1
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 0.6999999
+
+[Metadata]
+Title:Yume
+TitleUnicode:ゆめ
+Artist:UNDEAD CORPORATION
+ArtistUnicode:UNDEAD CORPORATION
+Creator:Lafayla
+Version:Easy
+Source:osu!
+Tags:instrumental video game mappers' guild mpg fa featured artist TOHO Complete Box ONI Touhou Dream
+BeatmapID:2422731
+BeatmapSetID:1161067
+
+[Difficulty]
+HPDrainRate:3
+CircleSize:2.5
+OverallDifficulty:3
+ApproachRate:4
+SliderMultiplier:1
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Yume.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+6881,683.760683760684,4,2,1,45,1,0
+13718,697.674418604651,4,2,1,45,1,0
+15113,743.034055727554,4,2,1,45,1,0
+18085,674.157303370787,4,2,1,45,1,0
+34264,666.666666666667,4,2,1,45,1,0
+35597,655.737704918033,4,2,1,45,1,0
+36908,683.760683760684,4,2,1,45,1,0
+
+
+[Colours]
+Combo1 : 250,190,230
+Combo2 : 130,200,230
+Combo3 : 255,230,140
+Combo4 : 170,245,170
+
+[HitObjects]
+411,259,6881,6,0,L|398:364,2,100,2|0|0,0:0|0:0|0:0,0:0:0:0:
+473,180,8932,1,0,0:0:0:0:
+406,105,9616,2,0,P|362:81|313:82,1,100,2|0,0:0|0:0,0:0:0:0:
+223,127,10983,1,2,0:0:0:0:
+237,226,11667,1,0,0:0:0:0:
+152,280,12351,6,0,P|103:277|68:242,1,100,2|0,0:0|0:0,0:0:0:0:
+15,159,13718,2,0,P|49:124|98:121,1,100,2|0,0:0|0:0,0:0:0:0:
+189,141,15113,2,0,P|199:92|218:45,2,100,2|0|0,0:0|0:0|0:0,0:0:0:0:
+189,141,18085,6,0,P|238:149|275:199,1,100,2|0,0:0|0:0,0:0:0:0:
+336,110,19433,2,0,P|374:141|381:203,1,100,2|0,0:0|0:0,0:0:0:0:
+478,156,20781,2,0,P|495:202|470:259,1,100,2|0,0:0|0:0,0:0:0:0:
+407,317,22129,1,2,0:0:0:0:
+329,253,22804,1,0,0:0:0:0:
+378,166,23478,6,0,L|477:155,1,100,2|0,0:0|0:0,0:0:0:0:
+507,60,24826,2,0,L|407:49,1,100,2|0,0:0|0:0,0:0:0:0:
+312,18,26174,1,2,0:0:0:0:
+235,83,26849,2,0,P|217:131|230:183,1,100,2|0,0:0|0:0,0:0:0:0:
+295,250,28197,1,0,0:0:0:0:
+222,318,28871,6,0,P|169:313|123:299,1,100,2|0,0:0|0:0,0:0:0:0:
+48,234,30219,2,0,P|97:229|145:215,1,100,2|0,0:0|0:0,0:0:0:0:
+242,192,31568,1,2,0:0:0:0:
+286,102,32242,1,0,0:0:0:0:
+380,135,32916,1,2,0:0:0:0:
+256,192,33590,12,2,39301,0:0:0:0:

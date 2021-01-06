@@ -1,0 +1,64 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 5154
+Countdown: 1
+SampleSet: None
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.2
+BeatDivisor: 8
+GridSize: 4
+TimelineZoom: 2
+
+[Metadata]
+Title:fortnite initial d battle royale real gamer hours
+TitleUnicode:fortnite initial d battle royale real gamer hours
+Artist:Odyssey
+ArtistUnicode:Odyssey
+Creator:Muukeh
+Version:Easy
+Source:Fortnite
+Tags:short meme
+BeatmapID:1820260
+BeatmapSetID:871017
+
+[Difficulty]
+HPDrainRate:0
+CircleSize:2
+OverallDifficulty:0
+ApproachRate:0
+SliderMultiplier:0.400000005960464
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"initial f aaaaaaaaaaaaaaaa.png",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+63.9173379666849,363.636363636364,4,3,0,40,1,0
+5882,-100,4,3,0,40,0,1
+12245,-76.9230769230769,4,3,0,40,0,1
+13154,-100,4,3,0,40,0,0
+
+
+[HitObjects]
+205,60,63,6,0,P|302:46|490:324,1,480.000007152557
+404,362,5154,1,0,0:0:0:0:
+334,295,5882,6,0,B|250:280|179:328|179:328|165:237|78:218,1,320.000004768371
+33,135,9518,1,0,0:0:0:0:
+128,132,10245,2,0,L|286:97,1,160.000002384186
+395,153,12427,6,0,P|408:116|407:76,1,77.9999975917339
+256,192,13154,12,0,14609,0:0:0:0:

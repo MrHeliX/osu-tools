@@ -1,0 +1,122 @@
+osu file format v9
+
+[General]
+AudioFilename: Full_Metal_Panic_2_-_Mou_Ichido_Kimi_Ni_Aitai_TV_Size.mp3
+AudioLeadIn: 1000
+PreviewTime: 38815
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+Bookmarks: 24451
+DistanceSpacing: 0.8
+BeatDivisor: 4
+GridSize: 8
+
+[Metadata]
+Title:Mou Ichido Kimi ni Aitai (TV Size)
+Artist:Shimokawa Mikuni
+Creator:CXu
+Version:kubzter's Easy
+Source:Full Metal Panic! The Second Raid
+Tags:[Shalon] Teresa Kubzter ccbp cc ED ending Kaname Chidori Sagara Sousuke Testarossa Teletha Tessa FMP
+
+[Difficulty]
+HPDrainRate:1
+CircleSize:4
+OverallDifficulty:2
+ApproachRate:2
+SliderMultiplier:1.4
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+Video,-961,"FMP ED.avi"
+0,0,"FMP bg.jpg"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+936,750,4,2,0,50,1,0
+33748,-100,4,2,0,30,0,0
+37311,-100,4,2,0,50,0,0
+39940,-100,4,2,0,50,0,1
+63940,-100,4,2,0,50,0,0
+73315,-100,4,2,0,30,0,0
+
+[Colours]
+Combo1 : 255,203,125
+Combo2 : 119,234,113
+Combo3 : 125,151,238
+Combo4 : 231,126,126
+
+[HitObjects]
+88,88,12936,1,2
+200,88,13686,1,8
+312,88,14436,1,2
+424,88,15186,1,8
+424,200,15936,2,0,B|384:336|128:336|88:200,1,420,2|4
+88,296,18936,5,2
+200,296,19686,1,8
+312,296,20436,1,2
+424,296,21186,1,8
+424,184,21936,2,0,B|384:48|128:48|88:184,1,420,2|4
+200,182,24936,5,2
+279,102,25686,1,0
+358,181,26436,1,2
+430,101,27186,1,8
+334,45,27936,5,2
+222,45,28686,1,0
+222,157,29436,1,2
+222,269,30186,1,8
+334,269,30936,5,2
+334,269,32436,2,0,L|334:165,3,70,2|0|2|0
+256,192,33936,12,4,36936
+72,160,39186,5,0
+72,272,39936,1,4
+184,272,40686,1,8
+296,272,41436,1,2
+296,160,42186,5,8
+184,160,42936,1,2
+184,48,43686,1,8
+72,48,44436,1,2
+72,160,45186,5,8
+72,272,45936,1,2
+184,272,46686,1,8
+296,272,47436,1,2
+408,272,48186,6,0,B|480:216|400:152,1,140,8|2
+408,48,49686,1,8
+296,48,50436,1,2
+296,160,51186,5,8
+408,160,51936,1,4
+344,64,52686,1,8
+232,64,53436,1,2
+120,64,54186,6,0,B|48:128|128:184,1,140,8|2
+120,288,55686,1,8
+232,288,56436,1,2
+232,176,57186,5,8
+344,176,57936,1,2
+440,120,58686,1,8
+344,64,59436,1,2
+280,160,60186,5,8
+168,136,60936,2,0,B|144:224|224:256,1,140,2|8
+312,304,62436,1,2
+408,248,63186,1,8
+408,136,63936,6,0,B|424:32|280:32,1,140,4|0
+224,40,65436,1,2
+224,152,66186,1,2
+112,152,66936,1,0
+336,160,68436,6,0,B|312:264|400:296|488:256|464:160,1,280,2|0
+368,48,71436,5,0
+256,48,72186,1,2
+144,48,72936,1,4
+256,192,73686,12,4,75936

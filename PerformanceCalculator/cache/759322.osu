@@ -1,0 +1,66 @@
+osu file format v14
+
+[General]
+AudioFilename: Overlord+ED+-+L.L.L..mp3
+AudioLeadIn: 0
+PreviewTime: 42323
+Countdown: 1
+SampleSet: None
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:L.L.L.
+TitleUnicode:L.L.L.
+Artist:MYTH & ROID
+ArtistUnicode:MYTH & ROID
+Creator:Qu1z
+Version:Easy
+Source:OVERLORD
+Tags:OVERLORD_ED
+BeatmapID:759322
+BeatmapSetID:332565
+
+[Difficulty]
+HPDrainRate:3
+CircleSize:2.5
+OverallDifficulty:3
+ApproachRate:4
+SliderMultiplier:1.49999990463257
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"알베도.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+-80,576.923076923077,4,1,0,100,1,0
+
+
+[HitObjects]
+88,212,785,6,0,P|143:267|232:280,1,149.999990463257
+334,281,1939,2,0,P|405:263|457:209,1,149.999990463257
+347,151,3093,1,0,0:0:0:0:
+163,151,3670,1,0,0:0:0:0:
+150,51,4246,6,0,P|222:76|276:137,1,149.999990463257
+166,165,5400,2,0,P|217:218|287:242,1,149.999990463257
+217,326,6554,2,0,P|288:345|361:330,1,149.999990463257
+445,234,7708,1,0,0:0:0:0:
+343,111,8285,1,0,0:0:0:0:
+293,240,8862,6,0,P|222:215|171:162,1,149.999990463257
+87,88,9871,2,0,B|167:61|167:61|249:92,1,149.999990463257
+147,170,11025,2,0,L|271:172,1,112.499992847443

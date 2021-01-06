@@ -1,0 +1,94 @@
+osu file format v7
+
+[General]
+AudioFilename: Cyo Mateyo.mp3
+AudioLeadIn: 0
+PreviewTime: 35696
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+Bookmarks: 12741,23309
+DistanceSpacing: 0.699999988079071
+BeatDivisor: 4
+GridSize: 8
+
+[Metadata]
+Title:Cyo Mateyo
+Artist:Loos
+Creator:Leorda
+Version:Basic
+Source:
+Tags:ripple manga KuraiPettan
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3
+OverallDifficulty:2
+SliderMultiplier:0.6
+SliderTickRate:0.5
+
+[Events]
+//Background and Video events
+0,0,"cyo.jpg"
+Video,0,"cyo.avi"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+135,227.272727272727,4,1,0,100,1,0
+29105,-100,4,2,0,100,0,0
+36377,-200,4,2,0,100,0,0
+40014,-100,4,1,0,100,0,0
+
+[Colours]
+Combo1 : 255,0,128
+Combo2 : 255,0,255
+
+[HitObjects]
+256,192,11044,1,0
+256,192,11498,12,0,12862
+56,48,14680,5,0
+224,48,15589,1,8
+391,48,16498,1,0
+296,184,17407,1,8
+128,184,18316,5,0
+208,328,19225,1,8
+375,328,20134,1,0
+464,184,21044,1,8
+360,48,21953,6,0,B|336:152|168:144|96:312,1,360
+192,296,23771,2,0,B|280:200|360:208|408:144|456:48,1,360
+504,120,25589,5,4
+504,287,26498,1,8
+336,288,27407,2,0,B|264:289|264:193,3,120,0|8|0|8
+256,192,29225,12,0,32407
+256,192,32862,5,0
+88,192,33771,1,0
+176,48,34680,1,0
+256,192,35589,1,0
+256,32,36498,6,4,B|256:168,3,120,4|4|4|4
+392,256,40134,5,0
+440,192,40589,1,8
+456,112,41044,1,0
+400,48,41498,1,8
+320,24,41953,5,0
+240,32,42407,1,8
+160,64,42862,1,0
+104,128,43316,1,8
+64,200,43771,6,0,B|184:256|304:192,3,240
+408,320,47407,5,0
+480,168,48316,1,8
+409,15,49225,1,0
+344,168,50135,1,8
+225,49,51044,6,0,B|121:137,1,120,0|8
+192,192,51953,2,0,B|304:96,1,120,0|8
+256,192,52862,12,0,54169

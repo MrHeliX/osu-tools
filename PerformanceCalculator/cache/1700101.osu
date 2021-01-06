@@ -1,0 +1,2591 @@
+osu file format v14
+
+[General]
+AudioFilename: virtual
+AudioLeadIn: 0
+PreviewTime: 0
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 2.700001
+
+[Metadata]
+Title:Renai Circulation
+TitleUnicode:Renai Circulation
+Artist:Kana Hanazawa
+ArtistUnicode:Kana Hanazawa
+Creator:CircusGalop
+Version:10K EX+
+Source:BMS
+Tags:
+BeatmapID:1700101
+BeatmapSetID:351167
+
+[Difficulty]
+HPDrainRate:9
+CircleSize:10
+OverallDifficulty:5
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"#TITLE 01.png",0,0
+Video,1450,"bga.mpg"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+Sample,9600,0,"tamb1.ogg",100
+Sample,9600,0,"fx.ogg",100
+Sample,9700,0,"tamb2.ogg",100
+Sample,9800,0,"guitar 001.ogg",100
+Sample,9800,0,"tamb3.ogg",100
+Sample,9900,0,"guitar 002.ogg",100
+Sample,9900,0,"tamb4.ogg",100
+Sample,10000,0,"tamb1.ogg",100
+Sample,10100,0,"tamb2.ogg",100
+Sample,10100,0,"guitar 003.ogg",100
+Sample,10200,0,"tamb3.ogg",100
+Sample,10200,0,"guitar 004.ogg",100
+Sample,10300,0,"tamb4.ogg",100
+Sample,10400,0,"guitar 005.ogg",100
+Sample,10400,0,"tamb1.ogg",100
+Sample,10500,0,"tamb2.ogg",100
+Sample,10600,0,"tamb3.ogg",100
+Sample,10600,0,"guitar 002.ogg",100
+Sample,10700,0,"tamb4.ogg",100
+Sample,10800,0,"tamb1.ogg",100
+Sample,10800,0,"guitar 003.ogg",100
+Sample,10900,0,"tamb2.ogg",100
+Sample,10900,0,"guitar 004.ogg",100
+Sample,11000,0,"tamb3.ogg",100
+Sample,11100,0,"tamb4.ogg",100
+Sample,11200,0,"tamb1.ogg",100
+Sample,11300,0,"tamb2.ogg",100
+Sample,11400,0,"guitar 001.ogg",100
+Sample,11400,0,"tamb3.ogg",100
+Sample,11500,0,"tamb4.ogg",100
+Sample,11500,0,"guitar 002.ogg",100
+Sample,11600,0,"tamb1.ogg",100
+Sample,11700,0,"guitar 003.ogg",100
+Sample,11700,0,"tamb2.ogg",100
+Sample,11800,0,"tamb3.ogg",100
+Sample,11800,0,"guitar 004.ogg",100
+Sample,11900,0,"tamb4.ogg",100
+Sample,12000,0,"guitar 005.ogg",100
+Sample,12000,0,"tamb1.ogg",100
+Sample,12100,0,"tamb2.ogg",100
+Sample,12200,0,"tamb3.ogg",100
+Sample,12200,0,"guitar 002.ogg",100
+Sample,12300,0,"tamb4.ogg",100
+Sample,12400,0,"guitar 003.ogg",100
+Sample,12400,0,"tamb1.ogg",100
+Sample,12500,0,"tamb2.ogg",100
+Sample,12500,0,"guitar 004.ogg",100
+Sample,12600,0,"tamb3.ogg",100
+Sample,12700,0,"tamb4.ogg",100
+Sample,12800,0,"tamb1.ogg",100
+Sample,12900,0,"tamb2.ogg",100
+Sample,13000,0,"guitar 001.ogg",100
+Sample,13000,0,"tamb3.ogg",100
+Sample,13100,0,"tamb4.ogg",100
+Sample,13100,0,"guitar 002.ogg",100
+Sample,13200,0,"tamb1.ogg",100
+Sample,13300,0,"guitar 003.ogg",100
+Sample,13300,0,"tamb2.ogg",100
+Sample,13400,0,"tamb3.ogg",100
+Sample,13400,0,"guitar 004.ogg",100
+Sample,13500,0,"tamb4.ogg",100
+Sample,13600,0,"guitar 005.ogg",100
+Sample,13600,0,"tamb1.ogg",100
+Sample,13700,0,"tamb2.ogg",100
+Sample,13800,0,"tamb3.ogg",100
+Sample,13800,0,"guitar 002.ogg",100
+Sample,13900,0,"tamb4.ogg",100
+Sample,14000,0,"guitar 003.ogg",100
+Sample,14000,0,"tamb1.ogg",100
+Sample,14100,0,"tamb2.ogg",100
+Sample,14100,0,"guitar 004.ogg",100
+Sample,14200,0,"tamb3.ogg",100
+Sample,14300,0,"tamb4.ogg",100
+Sample,14400,0,"tamb1.ogg",100
+Sample,14500,0,"tamb2.ogg",100
+Sample,14600,0,"guitar 001.ogg",100
+Sample,14600,0,"tamb3.ogg",100
+Sample,14700,0,"tamb4.ogg",100
+Sample,14700,0,"guitar 002.ogg",100
+Sample,14800,0,"tamb1.ogg",100
+Sample,14900,0,"guitar 003.ogg",100
+Sample,14900,0,"tamb2.ogg",100
+Sample,15000,0,"tamb3.ogg",100
+Sample,15000,0,"guitar 004.ogg",100
+Sample,15100,0,"tamb4.ogg",100
+Sample,15200,0,"guitar 005.ogg",100
+Sample,15200,0,"tamb1.ogg",100
+Sample,15300,0,"tamb2.ogg",100
+Sample,15400,0,"tamb3.ogg",100
+Sample,15400,0,"guitar 002.ogg",100
+Sample,15500,0,"tamb4.ogg",100
+Sample,15600,0,"guitar 003.ogg",100
+Sample,15600,0,"tamb1.ogg",100
+Sample,15700,0,"tamb2.ogg",100
+Sample,15700,0,"guitar 004.ogg",100
+Sample,15800,0,"tamb3.ogg",100
+Sample,15900,0,"tamb4.ogg",100
+Sample,16000,0,"tamb1.ogg",100
+Sample,16100,0,"tamb2.ogg",100
+Sample,16200,0,"guitar 001.ogg",100
+Sample,16200,0,"tamb3.ogg",100
+Sample,16300,0,"tamb4.ogg",100
+Sample,16300,0,"guitar 002.ogg",100
+Sample,16400,0,"tamb1.ogg",100
+Sample,16500,0,"guitar 003.ogg",100
+Sample,16500,0,"tamb2.ogg",100
+Sample,16600,0,"tamb3.ogg",100
+Sample,16600,0,"guitar 004.ogg",100
+Sample,16700,0,"tamb4.ogg",100
+Sample,16800,0,"guitar 005.ogg",100
+Sample,16800,0,"tamb1.ogg",100
+Sample,16900,0,"tamb2.ogg",100
+Sample,17000,0,"tamb3.ogg",100
+Sample,17000,0,"guitar 002.ogg",100
+Sample,17100,0,"tamb4.ogg",100
+Sample,17200,0,"guitar 003.ogg",100
+Sample,17200,0,"tamb1.ogg",100
+Sample,17300,0,"tamb2.ogg",100
+Sample,17300,0,"guitar 004.ogg",100
+Sample,17400,0,"tamb3.ogg",100
+Sample,17500,0,"tamb4.ogg",100
+Sample,17600,0,"tamb1.ogg",100
+Sample,17700,0,"tamb2.ogg",100
+Sample,17800,0,"guitar 001.ogg",100
+Sample,17800,0,"tamb3.ogg",100
+Sample,17900,0,"tamb4.ogg",100
+Sample,17900,0,"guitar 002.ogg",100
+Sample,18000,0,"tamb1.ogg",100
+Sample,18100,0,"guitar 003.ogg",100
+Sample,18100,0,"tamb2.ogg",100
+Sample,18200,0,"tamb3.ogg",100
+Sample,18200,0,"guitar 004.ogg",100
+Sample,18300,0,"tamb4.ogg",100
+Sample,18400,0,"guitar 005.ogg",100
+Sample,18400,0,"tamb1.ogg",100
+Sample,18500,0,"tamb2.ogg",100
+Sample,18600,0,"tamb3.ogg",100
+Sample,18600,0,"guitar 002.ogg",100
+Sample,18700,0,"tamb4.ogg",100
+Sample,18800,0,"guitar 003.ogg",100
+Sample,18800,0,"tamb1.ogg",100
+Sample,18900,0,"tamb2.ogg",100
+Sample,18900,0,"guitar 004.ogg",100
+Sample,19000,0,"tamb3.ogg",100
+Sample,19100,0,"tamb4.ogg",100
+Sample,19200,0,"tamb1.ogg",100
+Sample,19300,0,"tamb2.ogg",100
+Sample,19400,0,"guitar 001.ogg",100
+Sample,19400,0,"tamb3.ogg",100
+Sample,19500,0,"tamb4.ogg",100
+Sample,19500,0,"guitar 002.ogg",100
+Sample,19600,0,"tamb1.ogg",100
+Sample,19700,0,"guitar 003.ogg",100
+Sample,19700,0,"tamb2.ogg",100
+Sample,19800,0,"tamb3.ogg",100
+Sample,19800,0,"guitar 004.ogg",100
+Sample,19900,0,"tamb4.ogg",100
+Sample,20000,0,"guitar 005.ogg",100
+Sample,20000,0,"tamb1.ogg",100
+Sample,20100,0,"tamb2.ogg",100
+Sample,20200,0,"tamb3.ogg",100
+Sample,20200,0,"guitar 002.ogg",100
+Sample,20300,0,"tamb4.ogg",100
+Sample,20400,0,"guitar 003.ogg",100
+Sample,20400,0,"tamb1.ogg",100
+Sample,20500,0,"tamb2.ogg",100
+Sample,20500,0,"guitar 004.ogg",100
+Sample,20600,0,"tamb3.ogg",100
+Sample,20700,0,"tamb4.ogg",100
+Sample,20800,0,"tamb1.ogg",100
+Sample,20900,0,"tamb2.ogg",100
+Sample,21000,0,"guitar 001.ogg",100
+Sample,21000,0,"tamb3.ogg",100
+Sample,21100,0,"tamb4.ogg",100
+Sample,21100,0,"guitar 002.ogg",100
+Sample,21200,0,"tamb1.ogg",100
+Sample,21300,0,"guitar 003.ogg",100
+Sample,21300,0,"tamb2.ogg",100
+Sample,21400,0,"tamb3.ogg",100
+Sample,21400,0,"guitar 004.ogg",100
+Sample,21500,0,"tamb4.ogg",100
+Sample,21600,0,"guitar 005.ogg",100
+Sample,21600,0,"tamb1.ogg",100
+Sample,21700,0,"tamb2.ogg",100
+Sample,21800,0,"tamb3.ogg",100
+Sample,21800,0,"guitar 002.ogg",100
+Sample,21900,0,"tamb4.ogg",100
+Sample,22000,0,"guitar 003.ogg",100
+Sample,22000,0,"tamb1.ogg",100
+Sample,22100,0,"tamb2.ogg",100
+Sample,22100,0,"guitar 004.ogg",100
+Sample,22200,0,"tamb3.ogg",100
+Sample,22300,0,"tamb4.ogg",100
+Sample,22400,0,"hat.ogg",100
+Sample,22400,0,"tamb1.ogg",100
+Sample,22500,0,"tamb2.ogg",100
+Sample,22500,0,"hat.ogg",100
+Sample,22600,0,"hat.ogg",100
+Sample,22600,0,"tamb3.ogg",100
+Sample,22700,0,"tamb4.ogg",100
+Sample,22700,0,"hat.ogg",100
+Sample,22800,0,"hat.ogg",100
+Sample,22800,0,"tamb1.ogg",100
+Sample,22900,0,"tamb2.ogg",100
+Sample,22900,0,"hat.ogg",100
+Sample,23000,0,"hat.ogg",100
+Sample,23000,0,"tamb3.ogg",100
+Sample,23100,0,"tamb4.ogg",100
+Sample,23100,0,"hat.ogg",100
+Sample,23200,0,"hat.ogg",100
+Sample,23200,0,"tamb1.ogg",100
+Sample,23300,0,"tamb2.ogg",100
+Sample,23300,0,"hat.ogg",100
+Sample,23400,0,"hat.ogg",100
+Sample,23400,0,"tamb3.ogg",100
+Sample,23500,0,"tamb4.ogg",100
+Sample,23500,0,"hat.ogg",100
+Sample,23600,0,"hat.ogg",100
+Sample,23600,0,"tamb1.ogg",100
+Sample,23700,0,"tamb2.ogg",100
+Sample,23700,0,"hat.ogg",100
+Sample,23800,0,"hat.ogg",100
+Sample,23800,0,"tamb3.ogg",100
+Sample,23900,0,"tamb4.ogg",100
+Sample,23900,0,"hat.ogg",100
+Sample,24000,0,"hat.ogg",100
+Sample,24000,0,"tamb1.ogg",100
+Sample,24100,0,"tamb2.ogg",100
+Sample,24100,0,"hat.ogg",100
+Sample,24200,0,"hat.ogg",100
+Sample,24200,0,"tamb3.ogg",100
+Sample,24300,0,"tamb4.ogg",100
+Sample,24300,0,"hat.ogg",100
+Sample,24400,0,"hat.ogg",100
+Sample,24400,0,"tamb1.ogg",100
+Sample,24500,0,"tamb2.ogg",100
+Sample,24500,0,"hat.ogg",100
+Sample,24600,0,"hat.ogg",100
+Sample,24600,0,"tamb3.ogg",100
+Sample,24700,0,"tamb4.ogg",100
+Sample,24700,0,"hat.ogg",100
+Sample,24800,0,"hat.ogg",100
+Sample,24800,0,"tamb1.ogg",100
+Sample,24900,0,"tamb2.ogg",100
+Sample,24900,0,"hat.ogg",100
+Sample,25000,0,"hat.ogg",100
+Sample,25000,0,"tamb3.ogg",100
+Sample,25100,0,"tamb4.ogg",100
+Sample,25100,0,"hat.ogg",100
+Sample,25200,0,"hat.ogg",100
+Sample,25200,0,"tamb1.ogg",100
+Sample,25300,0,"tamb2.ogg",100
+Sample,25300,0,"hat.ogg",100
+Sample,25400,0,"hat.ogg",100
+Sample,25400,0,"tamb3.ogg",100
+Sample,25500,0,"tamb4.ogg",100
+Sample,25500,0,"hat.ogg",100
+Sample,25600,0,"hat.ogg",100
+Sample,25600,0,"tamb1.ogg",100
+Sample,25700,0,"tamb2.ogg",100
+Sample,25700,0,"hat.ogg",100
+Sample,25800,0,"hat.ogg",100
+Sample,25800,0,"tamb3.ogg",100
+Sample,25900,0,"tamb4.ogg",100
+Sample,25900,0,"hat.ogg",100
+Sample,26000,0,"hat.ogg",100
+Sample,26000,0,"tamb1.ogg",100
+Sample,26100,0,"tamb2.ogg",100
+Sample,26100,0,"hat.ogg",100
+Sample,26200,0,"hat.ogg",100
+Sample,26200,0,"tamb3.ogg",100
+Sample,26300,0,"tamb4.ogg",100
+Sample,26300,0,"hat.ogg",100
+Sample,26400,0,"hat.ogg",100
+Sample,26400,0,"tamb1.ogg",100
+Sample,26500,0,"tamb2.ogg",100
+Sample,26500,0,"hat.ogg",100
+Sample,26600,0,"hat.ogg",100
+Sample,26600,0,"tamb3.ogg",100
+Sample,26700,0,"tamb4.ogg",100
+Sample,26700,0,"hat.ogg",100
+Sample,26800,0,"hat.ogg",100
+Sample,26800,0,"tamb1.ogg",100
+Sample,26900,0,"tamb2.ogg",100
+Sample,26900,0,"hat.ogg",100
+Sample,27000,0,"hat.ogg",100
+Sample,27000,0,"tamb3.ogg",100
+Sample,27100,0,"tamb4.ogg",100
+Sample,27100,0,"hat.ogg",100
+Sample,27200,0,"hat.ogg",100
+Sample,27200,0,"tamb1.ogg",100
+Sample,27300,0,"tamb2.ogg",100
+Sample,27300,0,"hat.ogg",100
+Sample,27400,0,"hat.ogg",100
+Sample,27400,0,"tamb3.ogg",100
+Sample,27500,0,"tamb4.ogg",100
+Sample,27500,0,"hat.ogg",100
+Sample,27600,0,"hat.ogg",100
+Sample,27600,0,"tamb1.ogg",100
+Sample,27700,0,"tamb2.ogg",100
+Sample,27700,0,"hat.ogg",100
+Sample,27800,0,"hat.ogg",100
+Sample,27800,0,"tamb3.ogg",100
+Sample,27900,0,"tamb4.ogg",100
+Sample,27900,0,"hat.ogg",100
+Sample,28000,0,"hat.ogg",100
+Sample,28000,0,"tamb1.ogg",100
+Sample,28100,0,"tamb2.ogg",100
+Sample,28100,0,"hat.ogg",100
+Sample,28200,0,"hat.ogg",100
+Sample,28200,0,"tamb3.ogg",100
+Sample,28300,0,"tamb4.ogg",100
+Sample,28300,0,"hat.ogg",100
+Sample,28400,0,"hat.ogg",100
+Sample,28400,0,"tamb1.ogg",100
+Sample,28500,0,"tamb2.ogg",100
+Sample,28500,0,"hat.ogg",100
+Sample,28600,0,"hat.ogg",100
+Sample,28600,0,"tamb3.ogg",100
+Sample,28700,0,"tamb4.ogg",100
+Sample,28700,0,"hat.ogg",100
+Sample,28800,0,"hat.ogg",100
+Sample,28800,0,"tamb1.ogg",100
+Sample,28900,0,"tamb2.ogg",100
+Sample,28900,0,"hat.ogg",100
+Sample,29000,0,"hat.ogg",100
+Sample,29000,0,"tamb3.ogg",100
+Sample,29100,0,"tamb4.ogg",100
+Sample,29100,0,"hat.ogg",100
+Sample,29200,0,"hat.ogg",100
+Sample,29200,0,"tamb1.ogg",100
+Sample,29300,0,"tamb2.ogg",100
+Sample,29300,0,"hat.ogg",100
+Sample,29400,0,"hat.ogg",100
+Sample,29400,0,"tamb3.ogg",100
+Sample,29500,0,"tamb4.ogg",100
+Sample,29500,0,"hat.ogg",100
+Sample,29600,0,"hat.ogg",100
+Sample,29600,0,"tamb1.ogg",100
+Sample,29700,0,"tamb2.ogg",100
+Sample,29700,0,"hat.ogg",100
+Sample,29800,0,"hat.ogg",100
+Sample,29800,0,"tamb3.ogg",100
+Sample,29900,0,"tamb4.ogg",100
+Sample,29900,0,"hat.ogg",100
+Sample,30000,0,"hat.ogg",100
+Sample,30000,0,"tamb1.ogg",100
+Sample,30100,0,"tamb2.ogg",100
+Sample,30100,0,"hat.ogg",100
+Sample,30200,0,"hat.ogg",100
+Sample,30200,0,"tamb3.ogg",100
+Sample,30300,0,"tamb4.ogg",100
+Sample,30300,0,"hat.ogg",100
+Sample,30400,0,"hat.ogg",100
+Sample,30400,0,"tamb1.ogg",100
+Sample,30500,0,"tamb2.ogg",100
+Sample,30500,0,"hat.ogg",100
+Sample,30600,0,"hat.ogg",100
+Sample,30600,0,"tamb3.ogg",100
+Sample,30700,0,"tamb4.ogg",100
+Sample,30700,0,"hat.ogg",100
+Sample,30800,0,"hat.ogg",100
+Sample,30800,0,"tamb1.ogg",100
+Sample,30900,0,"tamb2.ogg",100
+Sample,30900,0,"hat.ogg",100
+Sample,31000,0,"hat.ogg",100
+Sample,31000,0,"tamb3.ogg",100
+Sample,31100,0,"tamb4.ogg",100
+Sample,31100,0,"hat.ogg",100
+Sample,31200,0,"hat.ogg",100
+Sample,31200,0,"tamb1.ogg",100
+Sample,31300,0,"tamb2.ogg",100
+Sample,31300,0,"hat.ogg",100
+Sample,31400,0,"hat.ogg",100
+Sample,31400,0,"tamb3.ogg",100
+Sample,31500,0,"tamb4.ogg",100
+Sample,31500,0,"hat.ogg",100
+Sample,31600,0,"hat.ogg",100
+Sample,31600,0,"tamb1.ogg",100
+Sample,31700,0,"tamb2.ogg",100
+Sample,31700,0,"hat.ogg",100
+Sample,31800,0,"hat.ogg",100
+Sample,31800,0,"tamb3.ogg",100
+Sample,31900,0,"tamb4.ogg",100
+Sample,31900,0,"hat.ogg",100
+Sample,32000,0,"hat.ogg",100
+Sample,32000,0,"tamb1.ogg",100
+Sample,32100,0,"tamb2.ogg",100
+Sample,32100,0,"hat.ogg",100
+Sample,32200,0,"hat.ogg",100
+Sample,32200,0,"tamb3.ogg",100
+Sample,32300,0,"tamb4.ogg",100
+Sample,32300,0,"hat.ogg",100
+Sample,32400,0,"hat.ogg",100
+Sample,32400,0,"tamb1.ogg",100
+Sample,32500,0,"tamb2.ogg",100
+Sample,32500,0,"hat.ogg",100
+Sample,32600,0,"hat.ogg",100
+Sample,32600,0,"tamb3.ogg",100
+Sample,32700,0,"tamb4.ogg",100
+Sample,32700,0,"hat.ogg",100
+Sample,32800,0,"hat.ogg",100
+Sample,32800,0,"tamb1.ogg",100
+Sample,32900,0,"tamb2.ogg",100
+Sample,32900,0,"hat.ogg",100
+Sample,33000,0,"hat.ogg",100
+Sample,33000,0,"tamb3.ogg",100
+Sample,33100,0,"tamb4.ogg",100
+Sample,33100,0,"hat.ogg",100
+Sample,33200,0,"hat.ogg",100
+Sample,33200,0,"tamb1.ogg",100
+Sample,33300,0,"tamb2.ogg",100
+Sample,33300,0,"hat.ogg",100
+Sample,33400,0,"hat.ogg",100
+Sample,33400,0,"tamb3.ogg",100
+Sample,33500,0,"tamb4.ogg",100
+Sample,33500,0,"hat.ogg",100
+Sample,33600,0,"hat.ogg",100
+Sample,33600,0,"tamb1.ogg",100
+Sample,33700,0,"tamb2.ogg",100
+Sample,33700,0,"hat.ogg",100
+Sample,33800,0,"hat.ogg",100
+Sample,33800,0,"tamb3.ogg",100
+Sample,33900,0,"tamb4.ogg",100
+Sample,33900,0,"hat.ogg",100
+Sample,34000,0,"hat.ogg",100
+Sample,34000,0,"tamb1.ogg",100
+Sample,34100,0,"tamb2.ogg",100
+Sample,34100,0,"hat.ogg",100
+Sample,34200,0,"hat.ogg",100
+Sample,34200,0,"tamb3.ogg",100
+Sample,34300,0,"tamb4.ogg",100
+Sample,34300,0,"hat.ogg",100
+Sample,34400,0,"hat.ogg",100
+Sample,34400,0,"tamb1.ogg",100
+Sample,34500,0,"tamb2.ogg",100
+Sample,34500,0,"hat.ogg",100
+Sample,34600,0,"hat.ogg",100
+Sample,34600,0,"tamb3.ogg",100
+Sample,34700,0,"tamb4.ogg",100
+Sample,34700,0,"hat.ogg",100
+Sample,34800,0,"hat.ogg",100
+Sample,34800,0,"tamb1.ogg",100
+Sample,34900,0,"tamb2.ogg",100
+Sample,34900,0,"hat.ogg",100
+Sample,35000,0,"hat.ogg",100
+Sample,35000,0,"tamb3.ogg",100
+Sample,35100,0,"tamb4.ogg",100
+Sample,35100,0,"hat.ogg",100
+Sample,35200,0,"tamb1.ogg",100
+Sample,35200,0,"hat.ogg",100
+Sample,35300,0,"hat.ogg",100
+Sample,35300,0,"tamb2.ogg",100
+Sample,35400,0,"tamb3.ogg",100
+Sample,35400,0,"hat.ogg",100
+Sample,35500,0,"hat.ogg",100
+Sample,35500,0,"tamb4.ogg",100
+Sample,35600,0,"tamb1.ogg",100
+Sample,35600,0,"hat.ogg",100
+Sample,35700,0,"hat.ogg",100
+Sample,35700,0,"tamb2.ogg",100
+Sample,35800,0,"tamb3.ogg",100
+Sample,35800,0,"hat.ogg",100
+Sample,35900,0,"hat.ogg",100
+Sample,35900,0,"tamb4.ogg",100
+Sample,36000,0,"tamb1.ogg",100
+Sample,36000,0,"hat.ogg",100
+Sample,36100,0,"hat.ogg",100
+Sample,36100,0,"tamb2.ogg",100
+Sample,36200,0,"tamb3.ogg",100
+Sample,36200,0,"hat.ogg",100
+Sample,36300,0,"hat.ogg",100
+Sample,36300,0,"tamb4.ogg",100
+Sample,36400,0,"tamb1.ogg",100
+Sample,36400,0,"hat.ogg",100
+Sample,36500,0,"hat.ogg",100
+Sample,36500,0,"tamb2.ogg",100
+Sample,36600,0,"tamb3.ogg",100
+Sample,36600,0,"hat.ogg",100
+Sample,36700,0,"hat.ogg",100
+Sample,36700,0,"tamb4.ogg",100
+Sample,36800,0,"tamb1.ogg",100
+Sample,36800,0,"hat.ogg",100
+Sample,36900,0,"hat.ogg",100
+Sample,36900,0,"tamb2.ogg",100
+Sample,37000,0,"tamb3.ogg",100
+Sample,37000,0,"hat.ogg",100
+Sample,37100,0,"hat.ogg",100
+Sample,37100,0,"tamb4.ogg",100
+Sample,37200,0,"tamb1.ogg",100
+Sample,37200,0,"hat.ogg",100
+Sample,37300,0,"hat.ogg",100
+Sample,37300,0,"tamb2.ogg",100
+Sample,37400,0,"tamb3.ogg",100
+Sample,37400,0,"hat.ogg",100
+Sample,37500,0,"hat.ogg",100
+Sample,37500,0,"tamb4.ogg",100
+Sample,37600,0,"tamb1.ogg",100
+Sample,37600,0,"hat.ogg",100
+Sample,37700,0,"hat.ogg",100
+Sample,37700,0,"tamb2.ogg",100
+Sample,37800,0,"tamb3.ogg",100
+Sample,37800,0,"hat.ogg",100
+Sample,37900,0,"hat.ogg",100
+Sample,37900,0,"tamb4.ogg",100
+Sample,38000,0,"tamb1.ogg",100
+Sample,38000,0,"hat.ogg",100
+Sample,38100,0,"hat.ogg",100
+Sample,38100,0,"tamb2.ogg",100
+Sample,38200,0,"tamb3.ogg",100
+Sample,38200,0,"hat.ogg",100
+Sample,38300,0,"hat.ogg",100
+Sample,38300,0,"tamb4.ogg",100
+Sample,38400,0,"hat.ogg",100
+Sample,38400,0,"tamb1.ogg",100
+Sample,38500,0,"tamb2.ogg",100
+Sample,38500,0,"hat.ogg",100
+Sample,38600,0,"hat.ogg",100
+Sample,38600,0,"tamb3.ogg",100
+Sample,38700,0,"tamb4.ogg",100
+Sample,38700,0,"hat.ogg",100
+Sample,38800,0,"hat.ogg",100
+Sample,38800,0,"tamb1.ogg",100
+Sample,38900,0,"tamb2.ogg",100
+Sample,38900,0,"hat.ogg",100
+Sample,39000,0,"hat.ogg",100
+Sample,39000,0,"tamb3.ogg",100
+Sample,39100,0,"tamb4.ogg",100
+Sample,39100,0,"hat.ogg",100
+Sample,39200,0,"hat.ogg",100
+Sample,39200,0,"tamb1.ogg",100
+Sample,39300,0,"tamb2.ogg",100
+Sample,39300,0,"hat.ogg",100
+Sample,39400,0,"hat.ogg",100
+Sample,39400,0,"tamb3.ogg",100
+Sample,39500,0,"tamb4.ogg",100
+Sample,39500,0,"hat.ogg",100
+Sample,39600,0,"hat.ogg",100
+Sample,39600,0,"tamb1.ogg",100
+Sample,39700,0,"tamb2.ogg",100
+Sample,39700,0,"hat.ogg",100
+Sample,39800,0,"hat.ogg",100
+Sample,39800,0,"tamb3.ogg",100
+Sample,39900,0,"tamb4.ogg",100
+Sample,39900,0,"hat.ogg",100
+Sample,40000,0,"hat.ogg",100
+Sample,40000,0,"tamb1.ogg",100
+Sample,40100,0,"tamb2.ogg",100
+Sample,40100,0,"hat.ogg",100
+Sample,40200,0,"hat.ogg",100
+Sample,40200,0,"tamb3.ogg",100
+Sample,40300,0,"tamb4.ogg",100
+Sample,40300,0,"hat.ogg",100
+Sample,40400,0,"hat.ogg",100
+Sample,40400,0,"tamb1.ogg",100
+Sample,40500,0,"tamb2.ogg",100
+Sample,40500,0,"hat.ogg",100
+Sample,40600,0,"hat.ogg",100
+Sample,40600,0,"tamb3.ogg",100
+Sample,40700,0,"tamb4.ogg",100
+Sample,40700,0,"hat.ogg",100
+Sample,40800,0,"hat.ogg",100
+Sample,40800,0,"tamb1.ogg",100
+Sample,40900,0,"tamb2.ogg",100
+Sample,40900,0,"hat.ogg",100
+Sample,41000,0,"hat.ogg",100
+Sample,41000,0,"tamb3.ogg",100
+Sample,41100,0,"tamb4.ogg",100
+Sample,41100,0,"hat.ogg",100
+Sample,41200,0,"hat.ogg",100
+Sample,41200,0,"tamb1.ogg",100
+Sample,41300,0,"tamb2.ogg",100
+Sample,41300,0,"hat.ogg",100
+Sample,41400,0,"hat.ogg",100
+Sample,41400,0,"tamb3.ogg",100
+Sample,41500,0,"tamb4.ogg",100
+Sample,41500,0,"hat.ogg",100
+Sample,41600,0,"hat.ogg",100
+Sample,41600,0,"tamb1.ogg",100
+Sample,41700,0,"tamb2.ogg",100
+Sample,41700,0,"hat.ogg",100
+Sample,41800,0,"hat.ogg",100
+Sample,41800,0,"tamb3.ogg",100
+Sample,41900,0,"tamb4.ogg",100
+Sample,41900,0,"hat.ogg",100
+Sample,42000,0,"hat.ogg",100
+Sample,42000,0,"tamb1.ogg",100
+Sample,42100,0,"tamb2.ogg",100
+Sample,42100,0,"hat.ogg",100
+Sample,42200,0,"hat.ogg",100
+Sample,42200,0,"tamb3.ogg",100
+Sample,42300,0,"tamb4.ogg",100
+Sample,42300,0,"hat.ogg",100
+Sample,42400,0,"hat.ogg",100
+Sample,42400,0,"tamb1.ogg",100
+Sample,42500,0,"tamb2.ogg",100
+Sample,42500,0,"hat.ogg",100
+Sample,42600,0,"hat.ogg",100
+Sample,42600,0,"tamb3.ogg",100
+Sample,42700,0,"tamb4.ogg",100
+Sample,42700,0,"hat.ogg",100
+Sample,42800,0,"hat.ogg",100
+Sample,42800,0,"tamb1.ogg",100
+Sample,42900,0,"tamb2.ogg",100
+Sample,42900,0,"hat.ogg",100
+Sample,43000,0,"hat.ogg",100
+Sample,43000,0,"tamb3.ogg",100
+Sample,43100,0,"tamb4.ogg",100
+Sample,43100,0,"hat.ogg",100
+Sample,43200,0,"hat.ogg",100
+Sample,43200,0,"tamb1.ogg",100
+Sample,43300,0,"tamb2.ogg",100
+Sample,43300,0,"hat.ogg",100
+Sample,43400,0,"hat.ogg",100
+Sample,43400,0,"tamb3.ogg",100
+Sample,43500,0,"tamb4.ogg",100
+Sample,43500,0,"hat.ogg",100
+Sample,43600,0,"hat.ogg",100
+Sample,43600,0,"tamb1.ogg",100
+Sample,43700,0,"tamb2.ogg",100
+Sample,43700,0,"hat.ogg",100
+Sample,43800,0,"hat.ogg",100
+Sample,43800,0,"tamb3.ogg",100
+Sample,43900,0,"tamb4.ogg",100
+Sample,43900,0,"hat.ogg",100
+Sample,44000,0,"hat.ogg",100
+Sample,44000,0,"tamb1.ogg",100
+Sample,44100,0,"tamb2.ogg",100
+Sample,44100,0,"hat.ogg",100
+Sample,44200,0,"hat.ogg",100
+Sample,44200,0,"tamb3.ogg",100
+Sample,44300,0,"tamb4.ogg",100
+Sample,44300,0,"hat.ogg",100
+Sample,44400,0,"hat.ogg",100
+Sample,44400,0,"tamb1.ogg",100
+Sample,44500,0,"tamb2.ogg",100
+Sample,44500,0,"hat.ogg",100
+Sample,44600,0,"hat.ogg",100
+Sample,44600,0,"tamb3.ogg",100
+Sample,44700,0,"tamb4.ogg",100
+Sample,44700,0,"hat.ogg",100
+Sample,44800,0,"hat.ogg",100
+Sample,44800,0,"tamb1.ogg",100
+Sample,44900,0,"tamb2.ogg",100
+Sample,44900,0,"hat.ogg",100
+Sample,45000,0,"hat.ogg",100
+Sample,45000,0,"tamb3.ogg",100
+Sample,45100,0,"tamb4.ogg",100
+Sample,45100,0,"hat.ogg",100
+Sample,45200,0,"hat.ogg",100
+Sample,45200,0,"tamb1.ogg",100
+Sample,45300,0,"tamb2.ogg",100
+Sample,45300,0,"hat.ogg",100
+Sample,45400,0,"hat.ogg",100
+Sample,45400,0,"tamb3.ogg",100
+Sample,45500,0,"tamb4.ogg",100
+Sample,45500,0,"hat.ogg",100
+Sample,45600,0,"hat.ogg",100
+Sample,45600,0,"tamb1.ogg",100
+Sample,45700,0,"tamb2.ogg",100
+Sample,45700,0,"hat.ogg",100
+Sample,45800,0,"hat.ogg",100
+Sample,45800,0,"tamb3.ogg",100
+Sample,45900,0,"tamb4.ogg",100
+Sample,45900,0,"hat.ogg",100
+Sample,46000,0,"hat.ogg",100
+Sample,46000,0,"tamb1.ogg",100
+Sample,46100,0,"tamb2.ogg",100
+Sample,46100,0,"hat.ogg",100
+Sample,46200,0,"hat.ogg",100
+Sample,46200,0,"tamb3.ogg",100
+Sample,46300,0,"tamb4.ogg",100
+Sample,46300,0,"hat.ogg",100
+Sample,46400,0,"tamb1.ogg",100
+Sample,46400,0,"fxfill.ogg",100
+Sample,46400,0,"hat.ogg",100
+Sample,46500,0,"hat.ogg",100
+Sample,46500,0,"tamb2.ogg",100
+Sample,46600,0,"hat.ogg",100
+Sample,46600,0,"tamb3.ogg",100
+Sample,46700,0,"tamb4.ogg",100
+Sample,46700,0,"hat.ogg",100
+Sample,46800,0,"tamb1.ogg",100
+Sample,46800,0,"hat.ogg",100
+Sample,46900,0,"hat.ogg",100
+Sample,46900,0,"tamb2.ogg",100
+Sample,47000,0,"hat.ogg",100
+Sample,47000,0,"tamb3.ogg",100
+Sample,47100,0,"tamb4.ogg",100
+Sample,47100,0,"hat.ogg",100
+Sample,47200,0,"tamb1.ogg",100
+Sample,47200,0,"hat.ogg",100
+Sample,47300,0,"tamb2.ogg",100
+Sample,47300,0,"hat.ogg",100
+Sample,47400,0,"tamb3.ogg",100
+Sample,47400,0,"hat.ogg",100
+Sample,47500,0,"tamb4.ogg",100
+Sample,47500,0,"hat.ogg",100
+Sample,47600,0,"tamb1.ogg",100
+Sample,47600,0,"hat.ogg",100
+Sample,47700,0,"hat.ogg",100
+Sample,47700,0,"tamb2.ogg",100
+Sample,47800,0,"tamb3.ogg",100
+Sample,47900,0,"tamb4.ogg",100
+Sample,47900,0,"4b2.ogg",100
+Sample,48000,0,"string 008.ogg",100
+Sample,48000,0,"fx.ogg",100
+Sample,48000,0,"4-ep-01.ogg",100
+Sample,48000,0,"tamb1.ogg",100
+Sample,48100,0,"tamb2.ogg",100
+Sample,48200,0,"tamb3.ogg",100
+Sample,48200,0,"guitar 001.ogg",100
+Sample,48300,0,"guitar 002.ogg",100
+Sample,48300,0,"tamb4.ogg",100
+Sample,48400,0,"tamb1.ogg",100
+Sample,48500,0,"tamb2.ogg",100
+Sample,48500,0,"guitar 003.ogg",100
+Sample,48600,0,"guitar 004.ogg",100
+Sample,48600,0,"tamb3.ogg",100
+Sample,48700,0,"tamb4.ogg",100
+Sample,48800,0,"tamb1.ogg",100
+Sample,48800,0,"guitar 005.ogg",100
+Sample,48900,0,"tamb2.ogg",100
+Sample,49000,0,"guitar 002.ogg",100
+Sample,49000,0,"tamb3.ogg",100
+Sample,49100,0,"tamb4.ogg",100
+Sample,49200,0,"tamb1.ogg",100
+Sample,49200,0,"guitar 003.ogg",100
+Sample,49200,0,"2-ep-16.ogg",100
+Sample,49300,0,"tamb2.ogg",100
+Sample,49300,0,"guitar 004.ogg",100
+Sample,49400,0,"tamb3.ogg",100
+Sample,49500,0,"tamb4.ogg",100
+Sample,49600,0,"tamb1.ogg",100
+Sample,49600,0,"4-ep-02.ogg",100
+Sample,49600,0,"string 009.ogg",100
+Sample,49700,0,"tamb2.ogg",100
+Sample,49800,0,"guitar 001.ogg",100
+Sample,49800,0,"tamb3.ogg",100
+Sample,49900,0,"guitar 002.ogg",100
+Sample,49900,0,"tamb4.ogg",100
+Sample,50000,0,"tamb1.ogg",100
+Sample,50100,0,"guitar 003.ogg",100
+Sample,50100,0,"tamb2.ogg",100
+Sample,50200,0,"tamb3.ogg",100
+Sample,50200,0,"guitar 004.ogg",100
+Sample,50300,0,"tamb4.ogg",100
+Sample,50400,0,"tamb1.ogg",100
+Sample,50400,0,"guitar 005.ogg",100
+Sample,50500,0,"tamb2.ogg",100
+Sample,50600,0,"tamb3.ogg",100
+Sample,50600,0,"guitar 002.ogg",100
+Sample,50700,0,"tamb4.ogg",100
+Sample,50800,0,"string 010.ogg",100
+Sample,50800,0,"tamb1.ogg",100
+Sample,50800,0,"guitar 003.ogg",100
+Sample,50800,0,"4-ep-03.ogg",100
+Sample,50900,0,"guitar 004.ogg",100
+Sample,50900,0,"tamb2.ogg",100
+Sample,51000,0,"tamb3.ogg",100
+Sample,51100,0,"tamb4.ogg",100
+Sample,51200,0,"4-ep-04.ogg",100
+Sample,51200,0,"string 011.ogg",100
+Sample,51200,0,"tamb1.ogg",100
+Sample,51300,0,"tamb2.ogg",100
+Sample,51400,0,"guitar 001.ogg",100
+Sample,51400,0,"tamb3.ogg",100
+Sample,51500,0,"tamb4.ogg",100
+Sample,51500,0,"guitar 002.ogg",100
+Sample,51600,0,"tamb1.ogg",100
+Sample,51700,0,"guitar 003.ogg",100
+Sample,51700,0,"tamb2.ogg",100
+Sample,51800,0,"tamb3.ogg",100
+Sample,51800,0,"guitar 004.ogg",100
+Sample,51900,0,"tamb4.ogg",100
+Sample,52000,0,"guitar 005.ogg",100
+Sample,52000,0,"tamb1.ogg",100
+Sample,52100,0,"tamb2.ogg",100
+Sample,52200,0,"tamb3.ogg",100
+Sample,52200,0,"guitar 002.ogg",100
+Sample,52300,0,"tamb4.ogg",100
+Sample,52400,0,"tamb1.ogg",100
+Sample,52400,0,"4-ep-05.ogg",100
+Sample,52400,0,"guitar 003.ogg",100
+Sample,52500,0,"guitar 004.ogg",100
+Sample,52500,0,"tamb2.ogg",100
+Sample,52600,0,"tamb3.ogg",100
+Sample,52700,0,"tamb4.ogg",100
+Sample,52800,0,"4-ep-06.ogg",100
+Sample,52800,0,"tamb1.ogg",100
+Sample,52800,0,"string 012.ogg",100
+Sample,52900,0,"tamb2.ogg",100
+Sample,53000,0,"tamb3.ogg",100
+Sample,53000,0,"guitar 001.ogg",100
+Sample,53100,0,"guitar 002.ogg",100
+Sample,53100,0,"tamb4.ogg",100
+Sample,53200,0,"tamb1.ogg",100
+Sample,53300,0,"tamb2.ogg",100
+Sample,53300,0,"guitar 003.ogg",100
+Sample,53400,0,"guitar 004.ogg",100
+Sample,53400,0,"tamb3.ogg",100
+Sample,53500,0,"tamb4.ogg",100
+Sample,53600,0,"tamb1.ogg",100
+Sample,53600,0,"guitar 005.ogg",100
+Sample,53600,0,"4-ep-07.ogg",100
+Sample,53700,0,"tamb2.ogg",100
+Sample,53800,0,"tamb3.ogg",100
+Sample,53800,0,"guitar 006.ogg",100
+Sample,53900,0,"tamb4.ogg",100
+Sample,54000,0,"tamb1.ogg",100
+Sample,54000,0,"guitar 007.ogg",100
+Sample,54100,0,"tamb2.ogg",100
+Sample,54100,0,"guitar 008.ogg",100
+Sample,54200,0,"tamb3.ogg",100
+Sample,54300,0,"tamb4.ogg",100
+Sample,54400,0,"4-ep-01.ogg",100
+Sample,54400,0,"string 020.ogg",100
+Sample,54400,0,"tamb1.ogg",100
+Sample,54500,0,"tamb2.ogg",100
+Sample,54600,0,"guitar 001.ogg",100
+Sample,54600,0,"tamb3.ogg",100
+Sample,54700,0,"tamb4.ogg",100
+Sample,54700,0,"guitar 002.ogg",100
+Sample,54800,0,"tamb1.ogg",100
+Sample,54900,0,"guitar 003.ogg",100
+Sample,54900,0,"tamb2.ogg",100
+Sample,55000,0,"tamb3.ogg",100
+Sample,55000,0,"guitar 004.ogg",100
+Sample,55100,0,"tamb4.ogg",100
+Sample,55200,0,"guitar 005.ogg",100
+Sample,55200,0,"tamb1.ogg",100
+Sample,55300,0,"tamb2.ogg",100
+Sample,55400,0,"tamb3.ogg",100
+Sample,55400,0,"guitar 002.ogg",100
+Sample,55500,0,"tamb4.ogg",100
+Sample,55600,0,"tamb1.ogg",100
+Sample,55600,0,"2-ep-16.ogg",100
+Sample,55600,0,"guitar 003.ogg",100
+Sample,55700,0,"guitar 004.ogg",100
+Sample,55700,0,"tamb2.ogg",100
+Sample,55800,0,"tamb3.ogg",100
+Sample,55900,0,"tamb4.ogg",100
+Sample,56000,0,"4-ep-02.ogg",100
+Sample,56000,0,"tamb1.ogg",100
+Sample,56000,0,"string 021.ogg",100
+Sample,56100,0,"tamb2.ogg",100
+Sample,56200,0,"tamb3.ogg",100
+Sample,56200,0,"guitar 001.ogg",100
+Sample,56300,0,"guitar 002.ogg",100
+Sample,56300,0,"tamb4.ogg",100
+Sample,56400,0,"tamb1.ogg",100
+Sample,56500,0,"tamb2.ogg",100
+Sample,56500,0,"guitar 003.ogg",100
+Sample,56600,0,"guitar 004.ogg",100
+Sample,56600,0,"tamb3.ogg",100
+Sample,56700,0,"tamb4.ogg",100
+Sample,56800,0,"tamb1.ogg",100
+Sample,56800,0,"guitar 005.ogg",100
+Sample,56900,0,"tamb2.ogg",100
+Sample,57000,0,"guitar 002.ogg",100
+Sample,57000,0,"tamb3.ogg",100
+Sample,57100,0,"tamb4.ogg",100
+Sample,57200,0,"tamb1.ogg",100
+Sample,57200,0,"guitar 003.ogg",100
+Sample,57200,0,"4-ep-03.ogg",100
+Sample,57300,0,"tamb2.ogg",100
+Sample,57300,0,"guitar 004.ogg",100
+Sample,57400,0,"tamb3.ogg",100
+Sample,57500,0,"tamb4.ogg",100
+Sample,57600,0,"tamb1.ogg",100
+Sample,57600,0,"4-ep-08.ogg",100
+Sample,57700,0,"tamb2.ogg",100
+Sample,57800,0,"guitar 001.ogg",100
+Sample,57800,0,"tamb3.ogg",100
+Sample,57900,0,"guitar 002.ogg",100
+Sample,57900,0,"tamb4.ogg",100
+Sample,58000,0,"tamb1.ogg",100
+Sample,58100,0,"tamb2.ogg",100
+Sample,58100,0,"guitar 003.ogg",100
+Sample,58200,0,"tamb3.ogg",100
+Sample,58200,0,"guitar 004.ogg",100
+Sample,58300,0,"tamb4.ogg",100
+Sample,58400,0,"4-ep-09.ogg",100
+Sample,58400,0,"tamb1.ogg",100
+Sample,58400,0,"guitar 005.ogg",100
+Sample,58400,0,"string 022.ogg",100
+Sample,58500,0,"tamb2.ogg",100
+Sample,58600,0,"guitar 002.ogg",100
+Sample,58600,0,"tamb3.ogg",100
+Sample,58700,0,"tamb4.ogg",100
+Sample,58800,0,"guitar 003.ogg",100
+Sample,58800,0,"tamb1.ogg",100
+Sample,58900,0,"guitar 004.ogg",100
+Sample,58900,0,"tamb2.ogg",100
+Sample,59000,0,"tamb3.ogg",100
+Sample,59100,0,"tamb4.ogg",100
+Sample,59200,0,"3-ep-06.ogg",100
+Sample,59200,0,"tamb1.ogg",100
+Sample,59300,0,"tamb2.ogg",100
+Sample,59400,0,"guitar 001.ogg",100
+Sample,59400,0,"tamb3.ogg",100
+Sample,59500,0,"guitar 002.ogg",100
+Sample,59500,0,"tamb4.ogg",100
+Sample,59600,0,"tamb1.ogg",100
+Sample,59700,0,"guitar 003.ogg",100
+Sample,59700,0,"tamb2.ogg",100
+Sample,59800,0,"guitar 004.ogg",100
+Sample,59800,0,"tamb3.ogg",100
+Sample,59900,0,"tamb4.ogg",100
+Sample,60000,0,"2-ep-16.ogg",100
+Sample,60000,0,"guitar 005.ogg",100
+Sample,60000,0,"tamb1.ogg",100
+Sample,60100,0,"tamb2.ogg",100
+Sample,60200,0,"tamb3.ogg",100
+Sample,60300,0,"tamb4.ogg",100
+Sample,60400,0,"tamb1.ogg",100
+Sample,60500,0,"tamb2.ogg",100
+Sample,60600,0,"tamb3.ogg",100
+Sample,60700,0,"tamb4.ogg",100
+Sample,60800,0,"bell-E.ogg",100
+Sample,60800,0,"hat.ogg",100
+Sample,60900,0,"hat.ogg",100
+Sample,61000,0,"hat.ogg",100
+Sample,61100,0,"hat.ogg",100
+Sample,61200,0,"hat.ogg",100
+Sample,61300,0,"hat.ogg",100
+Sample,61400,0,"hat.ogg",100
+Sample,61500,0,"hat.ogg",100
+Sample,61600,0,"hat.ogg",100
+Sample,61700,0,"hat.ogg",100
+Sample,61800,0,"hat.ogg",100
+Sample,61900,0,"hat.ogg",100
+Sample,62000,0,"hat.ogg",100
+Sample,62100,0,"hat.ogg",100
+Sample,62200,0,"hat.ogg",100
+Sample,62300,0,"hat.ogg",100
+Sample,62400,0,"hat.ogg",100
+Sample,62400,0,"bell-E.ogg",100
+Sample,62500,0,"hat.ogg",100
+Sample,62600,0,"hat.ogg",100
+Sample,62700,0,"hat.ogg",100
+Sample,62800,0,"hat.ogg",100
+Sample,62900,0,"hat.ogg",100
+Sample,63000,0,"hat.ogg",100
+Sample,63100,0,"hat.ogg",100
+Sample,63200,0,"hat.ogg",100
+Sample,63200,0,"bell-E.ogg",100
+Sample,63300,0,"hat.ogg",100
+Sample,63400,0,"hat.ogg",100
+Sample,63500,0,"bell-G#.ogg",100
+Sample,63500,0,"hat.ogg",100
+Sample,63600,0,"hat.ogg",100
+Sample,63700,0,"hat.ogg",100
+Sample,63800,0,"hat.ogg",100
+Sample,63900,0,"hat.ogg",100
+Sample,64000,0,"hat.ogg",100
+Sample,64100,0,"hat.ogg",100
+Sample,64200,0,"hat.ogg",100
+Sample,64300,0,"hat.ogg",100
+Sample,64400,0,"hat.ogg",100
+Sample,64500,0,"hat.ogg",100
+Sample,64600,0,"hat.ogg",100
+Sample,64700,0,"hat.ogg",100
+Sample,64800,0,"hat.ogg",100
+Sample,64900,0,"hat.ogg",100
+Sample,65000,0,"hat.ogg",100
+Sample,65100,0,"hat.ogg",100
+Sample,65200,0,"hat.ogg",100
+Sample,65300,0,"hat.ogg",100
+Sample,65400,0,"hat.ogg",100
+Sample,65500,0,"hat.ogg",100
+Sample,65600,0,"bell-E.ogg",100
+Sample,65600,0,"hat.ogg",100
+Sample,65700,0,"hat.ogg",100
+Sample,65800,0,"hat.ogg",100
+Sample,65900,0,"hat.ogg",100
+Sample,65900,0,"bell-E.ogg",100
+Sample,66000,0,"hat.ogg",100
+Sample,66100,0,"hat.ogg",100
+Sample,66100,0,"bell-E.ogg",100
+Sample,66200,0,"bell-C#2.ogg",100
+Sample,66200,0,"hat.ogg",100
+Sample,66300,0,"hat.ogg",100
+Sample,66400,0,"bell-G#.ogg",100
+Sample,66400,0,"hat.ogg",100
+Sample,66500,0,"hat.ogg",100
+Sample,66600,0,"hat.ogg",100
+Sample,66700,0,"hat.ogg",100
+Sample,66800,0,"hat.ogg",100
+Sample,66900,0,"hat.ogg",100
+Sample,67000,0,"hat.ogg",100
+Sample,67100,0,"hat.ogg",100
+Sample,67200,0,"hat.ogg",100
+Sample,67200,0,"bell-E.ogg",100
+Sample,67300,0,"hat.ogg",100
+Sample,67400,0,"hat.ogg",100
+Sample,67500,0,"hat.ogg",100
+Sample,67600,0,"hat.ogg",100
+Sample,67700,0,"hat.ogg",100
+Sample,67800,0,"hat.ogg",100
+Sample,67900,0,"hat.ogg",100
+Sample,68000,0,"hat.ogg",100
+Sample,68000,0,"bell-E.ogg",100
+Sample,68100,0,"hat.ogg",100
+Sample,68200,0,"hat.ogg",100
+Sample,68300,0,"bell-E.ogg",100
+Sample,68300,0,"hat.ogg",100
+Sample,68400,0,"hat.ogg",100
+Sample,68500,0,"hat.ogg",100
+Sample,68600,0,"hat.ogg",100
+Sample,68700,0,"hat.ogg",100
+Sample,68800,0,"bell-E.ogg",100
+Sample,68800,0,"hat.ogg",100
+Sample,68900,0,"hat.ogg",100
+Sample,69000,0,"hat.ogg",100
+Sample,69100,0,"hat.ogg",100
+Sample,69200,0,"hat.ogg",100
+Sample,69300,0,"hat.ogg",100
+Sample,69400,0,"hat.ogg",100
+Sample,69500,0,"hat.ogg",100
+Sample,69600,0,"bell-G#.ogg",100
+Sample,69600,0,"hat.ogg",100
+Sample,69700,0,"hat.ogg",100
+Sample,69800,0,"hat.ogg",100
+Sample,69900,0,"hat.ogg",100
+Sample,69900,0,"bell-E.ogg",100
+Sample,70000,0,"hat.ogg",100
+Sample,70100,0,"hat.ogg",100
+Sample,70200,0,"hat.ogg",100
+Sample,70300,0,"hat.ogg",100
+Sample,70400,0,"hat.ogg",100
+Sample,70400,0,"bell-E.ogg",100
+Sample,70500,0,"hat.ogg",100
+Sample,70600,0,"hat.ogg",100
+Sample,70700,0,"hat.ogg",100
+Sample,70800,0,"hat.ogg",100
+Sample,70900,0,"hat.ogg",100
+Sample,71000,0,"hat.ogg",100
+Sample,71100,0,"hat.ogg",100
+Sample,71200,0,"hat.ogg",100
+Sample,71300,0,"hat.ogg",100
+Sample,71400,0,"hat.ogg",100
+Sample,71500,0,"hat.ogg",100
+Sample,71600,0,"hat.ogg",100
+Sample,71700,0,"hat.ogg",100
+Sample,71800,0,"hat.ogg",100
+Sample,71900,0,"hat.ogg",100
+Sample,72000,0,"bell-E.ogg",100
+
+[TimingPoints]
+0,400.000000000003,4,2,0,100,1,0
+
+
+[HitObjects]
+281,192,2275,128,0,2775:0:0:0:0:1-01.ogg
+435,192,2775,1,0,0:0:0:0:1-02.ogg
+384,192,2975,1,0,0:0:0:0:1-03.ogg
+332,192,3075,1,0,0:0:0:0:1-04.ogg
+25,192,3200,5,0,0:0:0:0:2-ep-01.ogg
+128,192,3200,1,0,0:0:0:0:bell-E.ogg
+281,192,3200,1,0,0:0:0:0:hat.ogg
+435,192,3200,1,0,0:0:0:0:5-vc-01.ogg
+179,192,3400,1,0,0:0:0:0:guitar 001.ogg
+332,192,3400,1,0,0:0:0:0:hat.ogg
+230,192,3500,1,0,0:0:0:0:guitar 002.ogg
+435,192,3500,1,0,0:0:0:0:5-vc-02.ogg
+281,192,3600,1,0,0:0:0:0:hat.ogg
+230,192,3700,1,0,0:0:0:0:guitar 003.ogg
+384,192,3750,1,0,0:0:0:0:5-vc-03.ogg
+179,192,3800,1,0,0:0:0:0:guitar 004.ogg
+332,192,3800,1,0,0:0:0:0:hat.ogg
+486,192,3975,128,0,4200:0:0:0:0:5-vc-04.ogg
+76,192,4000,1,0,0:0:0:0:2-ep-02.ogg
+128,192,4000,1,0,0:0:0:0:bell-E.ogg
+230,192,4000,1,0,0:0:0:0:guitar 005.ogg
+281,192,4000,1,0,0:0:0:0:hat.ogg
+179,192,4200,1,0,0:0:0:0:guitar 002.ogg
+332,192,4200,1,0,0:0:0:0:hat.ogg
+76,192,4300,1,0,0:0:0:0:bell-E.ogg
+128,192,4300,1,0,0:0:0:0:2-ep-03.ogg
+486,192,4300,1,0,0:0:0:0:5-vc-05.ogg
+230,192,4400,1,0,0:0:0:0:guitar 003.ogg
+281,192,4400,1,0,0:0:0:0:hat.ogg
+179,192,4500,1,0,0:0:0:0:guitar 004.ogg
+332,192,4600,1,0,0:0:0:0:hat.ogg
+435,192,4600,1,0,0:0:0:0:5-vc-06.ogg
+384,192,4725,1,0,0:0:0:0:5-vc-07.ogg
+25,192,4800,1,0,0:0:0:0:bell-E.ogg
+76,192,4800,1,0,0:0:0:0:2-ep-04.ogg
+281,192,4800,1,0,0:0:0:0:hat.ogg
+435,192,4800,1,0,0:0:0:0:5-vc-08.ogg
+128,192,5000,1,0,0:0:0:0:guitar 001.ogg
+332,192,5000,1,0,0:0:0:0:hat.ogg
+179,192,5100,1,0,0:0:0:0:guitar 002.ogg
+435,192,5100,1,0,0:0:0:0:5-vc-09.ogg
+281,192,5200,1,0,0:0:0:0:hat.ogg
+179,192,5300,1,0,0:0:0:0:guitar 003.ogg
+384,192,5375,1,0,0:0:0:0:5-vc-10.ogg
+128,192,5400,1,0,0:0:0:0:guitar 004.ogg
+332,192,5400,1,0,0:0:0:0:hat.ogg
+25,192,5600,1,0,0:0:0:0:bell-E.ogg
+179,192,5600,1,0,0:0:0:0:guitar 005.ogg
+230,192,5600,1,0,0:0:0:0:2-ep-05.ogg
+281,192,5600,1,0,0:0:0:0:hat.ogg
+435,192,5600,128,0,5900:0:0:0:0:5-vc-11.ogg
+128,192,5800,1,0,0:0:0:0:guitar 002.ogg
+332,192,5800,1,0,0:0:0:0:hat.ogg
+25,192,5900,1,0,0:0:0:0:bell-G#.ogg
+230,192,5900,1,0,0:0:0:0:2-ep-06.ogg
+486,192,5900,1,0,0:0:0:0:5-vc-12.ogg
+179,192,6000,1,0,0:0:0:0:guitar 003.ogg
+281,192,6000,1,0,0:0:0:0:hat.ogg
+128,192,6100,1,0,0:0:0:0:guitar 004.ogg
+435,192,6175,1,0,0:0:0:0:5-vc-13.ogg
+332,192,6200,1,0,0:0:0:0:hat.ogg
+384,192,6300,1,0,0:0:0:0:5-vc-14.ogg
+25,192,6400,1,0,0:0:0:0:2-ep-07.ogg
+128,192,6400,1,0,0:0:0:0:bell-E.ogg
+281,192,6400,1,0,0:0:0:0:hat.ogg
+435,192,6425,1,0,0:0:0:0:5-vc-15.ogg
+179,192,6600,1,0,0:0:0:0:guitar 001.ogg
+332,192,6600,1,0,0:0:0:0:hat.ogg
+230,192,6700,1,0,0:0:0:0:guitar 002.ogg
+435,192,6700,1,0,0:0:0:0:5-vc-16.ogg
+281,192,6800,1,0,0:0:0:0:hat.ogg
+435,192,6850,1,0,0:0:0:0:5-vc-17.ogg
+230,192,6900,1,0,0:0:0:0:guitar 003.ogg
+384,192,6975,1,0,0:0:0:0:5-vc-18.ogg
+179,192,7000,1,0,0:0:0:0:guitar 004.ogg
+332,192,7000,1,0,0:0:0:0:hat.ogg
+25,192,7200,1,0,0:0:0:0:bell-E.ogg
+76,192,7200,1,0,0:0:0:0:2-ep-08.ogg
+230,192,7200,1,0,0:0:0:0:guitar 005.ogg
+281,192,7200,1,0,0:0:0:0:hat.ogg
+435,192,7200,1,0,0:0:0:0:5-vc-19.ogg
+179,192,7400,1,0,0:0:0:0:guitar 002.ogg
+332,192,7400,1,0,0:0:0:0:hat.ogg
+435,192,7400,1,0,0:0:0:0:5-vc-20.ogg
+25,192,7500,1,0,0:0:0:0:bell-E.ogg
+76,192,7500,1,0,0:0:0:0:2-ep-09.ogg
+230,192,7600,1,0,0:0:0:0:guitar 003.ogg
+281,192,7600,1,0,0:0:0:0:hat.ogg
+435,192,7600,1,0,0:0:0:0:5-vc-21.ogg
+179,192,7700,1,0,0:0:0:0:guitar 004.ogg
+435,192,7700,1,0,0:0:0:0:5-vc-22.ogg
+332,192,7800,1,0,0:0:0:0:hat.ogg
+486,192,7800,1,0,0:0:0:0:5-vc-23.ogg
+25,192,8000,1,0,0:0:0:0:bell-E.ogg
+76,192,8000,1,0,0:0:0:0:2-ep-10.ogg
+281,192,8000,1,0,0:0:0:0:hat.ogg
+384,192,8000,1,0,0:0:0:0:5-vc-24.ogg
+128,192,8200,1,0,0:0:0:0:guitar 001.ogg
+332,192,8200,1,0,0:0:0:0:hat.ogg
+179,192,8300,1,0,0:0:0:0:guitar 002.ogg
+384,192,8300,1,0,0:0:0:0:5-vc-25.ogg
+281,192,8400,1,0,0:0:0:0:hat.ogg
+179,192,8500,1,0,0:0:0:0:guitar 003.ogg
+128,192,8600,1,0,0:0:0:0:guitar 004.ogg
+332,192,8600,1,0,0:0:0:0:hat.ogg
+435,192,8600,1,0,0:0:0:0:5-vc-26.ogg
+25,192,8800,1,0,0:0:0:0:bell-G#.ogg
+76,192,8800,1,0,0:0:0:0:2-ep-11.ogg
+230,192,8800,1,0,0:0:0:0:guitar 005.ogg
+281,192,8800,1,0,0:0:0:0:hat.ogg
+384,192,8800,128,0,9200:0:0:0:0:5-vc-27.ogg
+332,192,9000,1,0,0:0:0:0:hat.ogg
+25,192,9200,1,0,0:0:0:0:snare.ogg
+25,192,9600,1,0,0:0:0:0:kick.ogg
+76,192,9600,1,0,0:0:0:0:hat.ogg
+230,192,9600,1,0,0:0:0:0:crash.ogg
+281,192,9600,1,0,0:0:0:0:bell-E.ogg
+332,192,9600,1,0,0:0:0:0:brass 001.ogg
+435,192,9600,1,0,0:0:0:0:bass-01.ogg
+486,192,9600,1,0,0:0:0:0:2-ep-01.ogg
+179,192,9700,1,0,0:0:0:0:hat.ogg
+128,192,9800,1,0,0:0:0:0:hat.ogg
+76,192,9900,1,0,0:0:0:0:hat.ogg
+332,192,9900,1,0,0:0:0:0:brass 002.ogg
+179,192,10000,1,0,0:0:0:0:hat.ogg
+230,192,10000,1,0,0:0:0:0:snare.ogg
+486,192,10000,1,0,0:0:0:0:bass-02.ogg
+76,192,10100,1,0,0:0:0:0:hat.ogg
+384,192,10100,1,0,0:0:0:0:brass 003.ogg
+128,192,10200,1,0,0:0:0:0:hat.ogg
+435,192,10200,1,0,0:0:0:0:brass 004.ogg
+25,192,10300,1,0,0:0:0:0:kick2.ogg
+179,192,10300,1,0,0:0:0:0:hat.ogg
+76,192,10400,1,0,0:0:0:0:hat.ogg
+230,192,10400,1,0,0:0:0:0:kick.ogg
+281,192,10400,1,0,0:0:0:0:bass-03.ogg
+332,192,10400,1,0,0:0:0:0:2-ep-02.ogg
+384,192,10400,1,0,0:0:0:0:bell-G#.ogg
+486,192,10400,128,0,10700:0:0:0:0:brass 005.ogg
+179,192,10500,1,0,0:0:0:0:hat.ogg
+25,192,10600,1,0,0:0:0:0:kick.ogg
+128,192,10600,1,0,0:0:0:0:hat.ogg
+76,192,10700,1,0,0:0:0:0:hat.ogg
+281,192,10700,1,0,0:0:0:0:2-ep-03.ogg
+435,192,10700,1,0,0:0:0:0:brass 006.ogg
+179,192,10800,1,0,0:0:0:0:hat.ogg
+230,192,10800,1,0,0:0:0:0:snare.ogg
+384,192,10800,1,0,0:0:0:0:bass-04.ogg
+76,192,10900,1,0,0:0:0:0:hat.ogg
+128,192,11000,1,0,0:0:0:0:hat.ogg
+332,192,11000,1,0,0:0:0:0:brass 007.ogg
+179,192,11100,1,0,0:0:0:0:hat.ogg
+384,192,11100,1,0,0:0:0:0:brass 008.ogg
+25,192,11200,1,0,0:0:0:0:kick.ogg
+76,192,11200,1,0,0:0:0:0:hat.ogg
+281,192,11200,1,0,0:0:0:0:bass-05.ogg
+332,192,11200,1,0,0:0:0:0:bell-B.ogg
+435,192,11200,1,0,0:0:0:0:brass 009.ogg
+486,192,11200,1,0,0:0:0:0:2-ep-12.ogg
+179,192,11300,1,0,0:0:0:0:hat.ogg
+128,192,11400,1,0,0:0:0:0:hat.ogg
+76,192,11500,1,0,0:0:0:0:hat.ogg
+435,192,11500,1,0,0:0:0:0:brass 010.ogg
+179,192,11600,1,0,0:0:0:0:hat.ogg
+230,192,11600,1,0,0:0:0:0:snare.ogg
+281,192,11600,1,0,0:0:0:0:bass-02.ogg
+76,192,11700,1,0,0:0:0:0:hat.ogg
+384,192,11700,1,0,0:0:0:0:brass 011.ogg
+128,192,11800,1,0,0:0:0:0:hat.ogg
+435,192,11800,1,0,0:0:0:0:brass 012.ogg
+25,192,11900,1,0,0:0:0:0:kick2.ogg
+179,192,11900,1,0,0:0:0:0:hat.ogg
+76,192,12000,1,0,0:0:0:0:hat.ogg
+230,192,12000,1,0,0:0:0:0:kick.ogg
+281,192,12000,1,0,0:0:0:0:2-ep-05.ogg
+332,192,12000,1,0,0:0:0:0:bass-07.ogg
+384,192,12000,1,0,0:0:0:0:bell-E.ogg
+486,192,12000,128,0,12300:0:0:0:0:brass 013.ogg
+179,192,12100,1,0,0:0:0:0:hat.ogg
+25,192,12200,1,0,0:0:0:0:kick.ogg
+128,192,12200,1,0,0:0:0:0:hat.ogg
+76,192,12300,1,0,0:0:0:0:hat.ogg
+281,192,12300,1,0,0:0:0:0:2-ep-06.ogg
+384,192,12300,1,0,0:0:0:0:brass 014.ogg
+179,192,12400,1,0,0:0:0:0:hat.ogg
+230,192,12400,1,0,0:0:0:0:snare.ogg
+435,192,12400,1,0,0:0:0:0:bass-06.ogg
+76,192,12500,1,0,0:0:0:0:hat.ogg
+128,192,12600,1,0,0:0:0:0:hat.ogg
+332,192,12600,1,0,0:0:0:0:brass 015.ogg
+179,192,12700,1,0,0:0:0:0:hat.ogg
+25,192,12800,1,0,0:0:0:0:kick.ogg
+76,192,12800,1,0,0:0:0:0:hat.ogg
+281,192,12800,1,0,0:0:0:0:2-ep-13.ogg
+384,192,12800,1,0,0:0:0:0:brass 016.ogg
+435,192,12800,1,0,0:0:0:0:bell-E.ogg
+486,192,12800,1,0,0:0:0:0:bass-01.ogg
+128,192,12900,1,0,0:0:0:0:hat.ogg
+179,192,13000,1,0,0:0:0:0:hat.ogg
+332,192,13000,1,0,0:0:0:0:brass 017.ogg
+128,192,13100,1,0,0:0:0:0:hat.ogg
+384,192,13100,1,0,0:0:0:0:brass 018.ogg
+76,192,13200,1,0,0:0:0:0:hat.ogg
+230,192,13200,1,0,0:0:0:0:snare.ogg
+281,192,13200,1,0,0:0:0:0:bass-02.ogg
+179,192,13300,1,0,0:0:0:0:hat.ogg
+128,192,13400,1,0,0:0:0:0:hat.ogg
+332,192,13400,1,0,0:0:0:0:brass 019.ogg
+25,192,13500,1,0,0:0:0:0:kick2.ogg
+76,192,13500,1,0,0:0:0:0:hat.ogg
+179,192,13600,1,0,0:0:0:0:hat.ogg
+230,192,13600,1,0,0:0:0:0:kick.ogg
+281,192,13600,1,0,0:0:0:0:bell-B.ogg
+384,192,13600,1,0,0:0:0:0:brass 020.ogg
+435,192,13600,1,0,0:0:0:0:bass-03.ogg
+486,192,13600,1,0,0:0:0:0:2-ep-14.ogg
+128,192,13700,1,0,0:0:0:0:hat.ogg
+25,192,13800,1,0,0:0:0:0:kick.ogg
+76,192,13800,1,0,0:0:0:0:hat.ogg
+332,192,13800,1,0,0:0:0:0:brass 021.ogg
+128,192,13900,1,0,0:0:0:0:hat.ogg
+384,192,13900,1,0,0:0:0:0:brass 022.ogg
+179,192,14000,1,0,0:0:0:0:hat.ogg
+230,192,14000,1,0,0:0:0:0:snare.ogg
+281,192,14000,1,0,0:0:0:0:bass-04.ogg
+76,192,14100,1,0,0:0:0:0:hat.ogg
+128,192,14200,1,0,0:0:0:0:hat.ogg
+384,192,14200,1,0,0:0:0:0:brass 023.ogg
+179,192,14300,1,0,0:0:0:0:hat.ogg
+25,192,14400,1,0,0:0:0:0:kick.ogg
+76,192,14400,1,0,0:0:0:0:hat.ogg
+281,192,14400,1,0,0:0:0:0:bass-05.ogg
+332,192,14400,1,0,0:0:0:0:2-ep-12.ogg
+384,192,14400,1,0,0:0:0:0:bell-E.ogg
+486,192,14400,1,0,0:0:0:0:brass 024.ogg
+179,192,14500,1,0,0:0:0:0:hat.ogg
+435,192,14500,1,0,0:0:0:0:brass 025.ogg
+76,192,14600,1,0,0:0:0:0:hat.ogg
+128,192,14700,1,0,0:0:0:0:hat.ogg
+332,192,14700,1,0,0:0:0:0:brass 026.ogg
+179,192,14800,1,0,0:0:0:0:hat.ogg
+230,192,14800,1,0,0:0:0:0:snare.ogg
+384,192,14800,1,0,0:0:0:0:bass-02.ogg
+76,192,14900,1,0,0:0:0:0:hat.ogg
+128,192,15000,1,0,0:0:0:0:hat.ogg
+281,192,15000,1,0,0:0:0:0:brass 027.ogg
+25,192,15100,1,0,0:0:0:0:kick2.ogg
+179,192,15100,1,0,0:0:0:0:hat.ogg
+76,192,15200,1,0,0:0:0:0:hat.ogg
+230,192,15200,1,0,0:0:0:0:kick.ogg
+281,192,15200,1,0,0:0:0:0:bell-G#.ogg
+384,192,15200,1,0,0:0:0:0:bass-07.ogg
+435,192,15200,1,0,0:0:0:0:2-ep-11.ogg
+486,192,15200,128,0,15600:0:0:0:0:brass 028.ogg
+179,192,15300,1,0,0:0:0:0:hat.ogg
+25,192,15400,1,0,0:0:0:0:kick.ogg
+76,192,15400,1,0,0:0:0:0:hat.ogg
+332,192,15400,1,0,0:0:0:0:clap.ogg
+128,192,15500,1,0,0:0:0:0:hat.ogg
+179,192,15600,1,0,0:0:0:0:hat.ogg
+230,192,15600,1,0,0:0:0:0:snare.ogg
+332,192,15600,1,0,0:0:0:0:clap.ogg
+384,192,15600,1,0,0:0:0:0:2-ep-15.ogg
+435,192,15600,1,0,0:0:0:0:bass-08.ogg
+76,192,15700,1,0,0:0:0:0:hat.ogg
+128,192,15800,1,0,0:0:0:0:hat.ogg
+179,192,15900,1,0,0:0:0:0:hat.ogg
+25,192,16000,1,0,0:0:0:0:bell-E.ogg
+76,192,16000,1,0,0:0:0:0:2-ep-01.ogg
+128,192,16000,1,0,0:0:0:0:brass 001.ogg
+230,192,16000,1,0,0:0:0:0:bass-01.ogg
+486,192,16000,1,0,0:0:0:0:kick.ogg
+332,192,16000,1,0,0:0:0:0:hat.ogg
+281,192,16000,1,0,0:0:0:0:crash.ogg
+435,192,16100,1,0,0:0:0:0:hat.ogg
+384,192,16200,1,0,0:0:0:0:hat.ogg
+76,192,16300,1,0,0:0:0:0:brass 002.ogg
+332,192,16300,1,0,0:0:0:0:hat.ogg
+230,192,16400,1,0,0:0:0:0:bass-02.ogg
+435,192,16400,1,0,0:0:0:0:hat.ogg
+281,192,16400,1,0,0:0:0:0:snare.ogg
+128,192,16500,1,0,0:0:0:0:brass 003.ogg
+332,192,16500,1,0,0:0:0:0:hat.ogg
+179,192,16600,1,0,0:0:0:0:brass 004.ogg
+384,192,16600,1,0,0:0:0:0:hat.ogg
+486,192,16700,1,0,0:0:0:0:kick2.ogg
+435,192,16700,1,0,0:0:0:0:hat.ogg
+25,192,16800,1,0,0:0:0:0:2-ep-02.ogg
+76,192,16800,1,0,0:0:0:0:bass-03.ogg
+332,192,16800,1,0,0:0:0:0:hat.ogg
+281,192,16800,1,0,0:0:0:0:kick.ogg
+230,192,16800,128,0,17100:0:0:0:0:brass 005.ogg
+435,192,16900,1,0,0:0:0:0:hat.ogg
+486,192,17000,1,0,0:0:0:0:kick.ogg
+384,192,17000,1,0,0:0:0:0:hat.ogg
+25,192,17100,1,0,0:0:0:0:2-ep-03.ogg
+128,192,17100,1,0,0:0:0:0:brass 006.ogg
+332,192,17100,1,0,0:0:0:0:hat.ogg
+179,192,17200,1,0,0:0:0:0:bass-04.ogg
+435,192,17200,1,0,0:0:0:0:hat.ogg
+281,192,17200,1,0,0:0:0:0:snare.ogg
+332,192,17300,1,0,0:0:0:0:hat.ogg
+76,192,17400,1,0,0:0:0:0:brass 007.ogg
+384,192,17400,1,0,0:0:0:0:hat.ogg
+128,192,17500,1,0,0:0:0:0:brass 008.ogg
+435,192,17500,1,0,0:0:0:0:hat.ogg
+25,192,17600,1,0,0:0:0:0:2-ep-12.ogg
+76,192,17600,1,0,0:0:0:0:bell-B.ogg
+179,192,17600,1,0,0:0:0:0:brass 009.ogg
+230,192,17600,1,0,0:0:0:0:bass-05.ogg
+486,192,17600,1,0,0:0:0:0:kick.ogg
+332,192,17600,1,0,0:0:0:0:hat.ogg
+435,192,17700,1,0,0:0:0:0:hat.ogg
+384,192,17800,1,0,0:0:0:0:hat.ogg
+179,192,17900,1,0,0:0:0:0:brass 010.ogg
+332,192,17900,1,0,0:0:0:0:hat.ogg
+25,192,18000,1,0,0:0:0:0:bass-02.ogg
+435,192,18000,1,0,0:0:0:0:hat.ogg
+281,192,18000,1,0,0:0:0:0:snare.ogg
+128,192,18100,1,0,0:0:0:0:brass 011.ogg
+332,192,18100,1,0,0:0:0:0:hat.ogg
+179,192,18200,1,0,0:0:0:0:brass 012.ogg
+384,192,18200,1,0,0:0:0:0:hat.ogg
+486,192,18300,1,0,0:0:0:0:kick2.ogg
+435,192,18300,1,0,0:0:0:0:hat.ogg
+25,192,18400,1,0,0:0:0:0:2-ep-05.ogg
+76,192,18400,1,0,0:0:0:0:bass-07.ogg
+332,192,18400,1,0,0:0:0:0:hat.ogg
+281,192,18400,1,0,0:0:0:0:kick.ogg
+230,192,18400,128,0,18700:0:0:0:0:brass 013.ogg
+435,192,18500,1,0,0:0:0:0:hat.ogg
+486,192,18600,1,0,0:0:0:0:kick.ogg
+384,192,18600,1,0,0:0:0:0:hat.ogg
+25,192,18700,1,0,0:0:0:0:2-ep-06.ogg
+128,192,18700,1,0,0:0:0:0:brass 014.ogg
+332,192,18700,1,0,0:0:0:0:hat.ogg
+179,192,18800,1,0,0:0:0:0:bass-06.ogg
+435,192,18800,1,0,0:0:0:0:hat.ogg
+281,192,18800,1,0,0:0:0:0:snare.ogg
+332,192,18900,1,0,0:0:0:0:hat.ogg
+76,192,19000,1,0,0:0:0:0:brass 015.ogg
+384,192,19000,1,0,0:0:0:0:hat.ogg
+435,192,19100,1,0,0:0:0:0:hat.ogg
+25,192,19200,1,0,0:0:0:0:2-ep-13.ogg
+128,192,19200,1,0,0:0:0:0:brass 016.ogg
+179,192,19200,1,0,0:0:0:0:bass-01.ogg
+230,192,19200,1,0,0:0:0:0:bell-E.ogg
+486,192,19200,1,0,0:0:0:0:kick.ogg
+332,192,19200,1,0,0:0:0:0:hat.ogg
+384,192,19300,1,0,0:0:0:0:hat.ogg
+76,192,19400,1,0,0:0:0:0:brass 017.ogg
+435,192,19400,1,0,0:0:0:0:hat.ogg
+128,192,19500,1,0,0:0:0:0:brass 018.ogg
+384,192,19500,1,0,0:0:0:0:hat.ogg
+230,192,19600,1,0,0:0:0:0:bass-02.ogg
+332,192,19600,1,0,0:0:0:0:hat.ogg
+281,192,19600,1,0,0:0:0:0:snare.ogg
+435,192,19700,1,0,0:0:0:0:hat.ogg
+76,192,19800,1,0,0:0:0:0:brass 019.ogg
+384,192,19800,1,0,0:0:0:0:hat.ogg
+486,192,19900,1,0,0:0:0:0:kick2.ogg
+332,192,19900,1,0,0:0:0:0:hat.ogg
+25,192,20000,1,0,0:0:0:0:bass-03.ogg
+128,192,20000,1,0,0:0:0:0:brass 020.ogg
+179,192,20000,1,0,0:0:0:0:bell-B.ogg
+230,192,20000,1,0,0:0:0:0:2-ep-14.ogg
+435,192,20000,1,0,0:0:0:0:hat.ogg
+281,192,20000,1,0,0:0:0:0:kick.ogg
+384,192,20100,1,0,0:0:0:0:hat.ogg
+76,192,20200,1,0,0:0:0:0:brass 021.ogg
+486,192,20200,1,0,0:0:0:0:kick.ogg
+332,192,20200,1,0,0:0:0:0:hat.ogg
+128,192,20300,1,0,0:0:0:0:brass 022.ogg
+384,192,20300,1,0,0:0:0:0:hat.ogg
+230,192,20400,1,0,0:0:0:0:bass-04.ogg
+435,192,20400,1,0,0:0:0:0:hat.ogg
+281,192,20400,1,0,0:0:0:0:snare.ogg
+332,192,20500,1,0,0:0:0:0:hat.ogg
+128,192,20600,1,0,0:0:0:0:brass 023.ogg
+384,192,20600,1,0,0:0:0:0:hat.ogg
+435,192,20700,1,0,0:0:0:0:hat.ogg
+25,192,20800,1,0,0:0:0:0:bass-05.ogg
+76,192,20800,1,0,0:0:0:0:2-ep-12.ogg
+128,192,20800,1,0,0:0:0:0:bell-E.ogg
+230,192,20800,1,0,0:0:0:0:brass 029.ogg
+332,192,20800,1,0,0:0:0:0:hat.ogg
+486,192,20800,1,0,0:0:0:0:kick.ogg
+179,192,20900,1,0,0:0:0:0:brass 030.ogg
+435,192,20900,1,0,0:0:0:0:hat.ogg
+332,192,21000,1,0,0:0:0:0:hat.ogg
+76,192,21100,1,0,0:0:0:0:brass 031.ogg
+384,192,21100,1,0,0:0:0:0:hat.ogg
+230,192,21200,1,0,0:0:0:0:bass-02.ogg
+435,192,21200,1,0,0:0:0:0:hat.ogg
+281,192,21200,1,0,0:0:0:0:snare.ogg
+332,192,21300,1,0,0:0:0:0:hat.ogg
+128,192,21400,1,0,0:0:0:0:brass 032.ogg
+384,192,21400,1,0,0:0:0:0:hat.ogg
+486,192,21500,1,0,0:0:0:0:kick2.ogg
+435,192,21500,1,0,0:0:0:0:hat.ogg
+25,192,21600,1,0,0:0:0:0:2-ep-16.ogg
+179,192,21600,1,0,0:0:0:0:bass-05.ogg
+332,192,21600,1,0,0:0:0:0:hat.ogg
+281,192,21600,1,0,0:0:0:0:kick.ogg
+76,192,21600,128,0,22000:0:0:0:0:brass 033.ogg
+435,192,21700,1,0,0:0:0:0:hat.ogg
+486,192,21800,1,0,0:0:0:0:kick.ogg
+332,192,21800,1,0,0:0:0:0:hat.ogg
+384,192,21900,1,0,0:0:0:0:hat.ogg
+435,192,22000,1,0,0:0:0:0:hat.ogg
+281,192,22000,1,0,0:0:0:0:snare.ogg
+332,192,22100,1,0,0:0:0:0:hat.ogg
+179,192,22200,1,0,0:0:0:0:vc 001.ogg
+384,192,22200,1,0,0:0:0:0:hat.ogg
+230,192,22300,1,0,0:0:0:0:vc 002.ogg
+435,192,22300,1,0,0:0:0:0:hat.ogg
+25,192,22400,1,0,0:0:0:0:kick.ogg
+76,192,22400,1,0,0:0:0:0:crash.ogg
+128,192,22400,1,0,0:0:0:0:bell-E.ogg
+384,192,22400,1,0,0:0:0:0:vc 003.ogg
+486,192,22400,1,0,0:0:0:0:bass-01.ogg
+332,192,22500,1,0,0:0:0:0:vc 004.ogg
+179,192,22600,1,0,0:0:0:0:guitar 001.ogg
+435,192,22600,1,0,0:0:0:0:vc 005.ogg
+230,192,22700,1,0,0:0:0:0:guitar 002.ogg
+384,192,22700,1,0,0:0:0:0:vc 006.ogg
+128,192,22800,1,0,0:0:0:0:snare.ogg
+281,192,22800,1,0,0:0:0:0:bass-02.ogg
+332,192,22800,1,0,0:0:0:0:vc 007.ogg
+179,192,22900,1,0,0:0:0:0:guitar 003.ogg
+230,192,23000,1,0,0:0:0:0:guitar 004.ogg
+332,192,23000,1,0,0:0:0:0:vc 008.ogg
+25,192,23100,1,0,0:0:0:0:kick2.ogg
+384,192,23100,1,0,0:0:0:0:vc 009.ogg
+76,192,23200,1,0,0:0:0:0:kick.ogg
+128,192,23200,1,0,0:0:0:0:bell-F#.ogg
+230,192,23200,1,0,0:0:0:0:guitar 005.ogg
+332,192,23200,1,0,0:0:0:0:vc 010.ogg
+486,192,23200,1,0,0:0:0:0:bass-03.ogg
+25,192,23400,1,0,0:0:0:0:kick.ogg
+179,192,23400,1,0,0:0:0:0:guitar 006.ogg
+281,192,23400,1,0,0:0:0:0:vc 011.ogg
+384,192,23400,1,0,0:0:0:0:brass 034.ogg
+128,192,23600,1,0,0:0:0:0:snare.ogg
+179,192,23600,1,0,0:0:0:0:guitar 007.ogg
+281,192,23600,1,0,0:0:0:0:vc 012.ogg
+332,192,23600,1,0,0:0:0:0:bass-04.ogg
+486,192,23600,1,0,0:0:0:0:brass 035.ogg
+230,192,23700,1,0,0:0:0:0:guitar 008.ogg
+435,192,23800,1,0,0:0:0:0:vc 013.ogg
+435,192,23900,1,0,0:0:0:0:vc 014.ogg
+25,192,24000,1,0,0:0:0:0:kick.ogg
+76,192,24000,1,0,0:0:0:0:bell-G#.ogg
+332,192,24000,1,0,0:0:0:0:bass-05.ogg
+179,192,24200,1,0,0:0:0:0:guitar 001.ogg
+486,192,24200,1,0,0:0:0:0:vc 015.ogg
+230,192,24300,1,0,0:0:0:0:guitar 002.ogg
+384,192,24300,1,0,0:0:0:0:vc 016.ogg
+128,192,24400,1,0,0:0:0:0:snare.ogg
+281,192,24400,1,0,0:0:0:0:bass-02.ogg
+486,192,24400,1,0,0:0:0:0:vc 017.ogg
+179,192,24500,1,0,0:0:0:0:guitar 003.ogg
+384,192,24500,1,0,0:0:0:0:vc 018.ogg
+230,192,24600,1,0,0:0:0:0:guitar 004.ogg
+486,192,24600,1,0,0:0:0:0:vc 019.ogg
+25,192,24700,1,0,0:0:0:0:kick2.ogg
+384,192,24700,1,0,0:0:0:0:vc 020.ogg
+76,192,24800,1,0,0:0:0:0:kick.ogg
+128,192,24800,1,0,0:0:0:0:bell-E.ogg
+230,192,24800,1,0,0:0:0:0:guitar 005.ogg
+281,192,24800,1,0,0:0:0:0:bass-07.ogg
+332,192,24800,1,0,0:0:0:0:vc 021.ogg
+435,192,24900,1,0,0:0:0:0:vc 022.ogg
+25,192,25000,1,0,0:0:0:0:kick.ogg
+179,192,25000,1,0,0:0:0:0:guitar 002.ogg
+281,192,25000,1,0,0:0:0:0:vc 023.ogg
+332,192,25000,1,0,0:0:0:0:brass 036.ogg
+486,192,25100,1,0,0:0:0:0:vc 024.ogg
+128,192,25200,1,0,0:0:0:0:snare.ogg
+179,192,25200,1,0,0:0:0:0:guitar 003.ogg
+384,192,25200,1,0,0:0:0:0:bass-06.ogg
+435,192,25200,1,0,0:0:0:0:brass 037.ogg
+230,192,25300,1,0,0:0:0:0:guitar 004.ogg
+281,192,25300,1,0,0:0:0:0:vc 025.ogg
+332,192,25500,1,0,0:0:0:0:vc 026.ogg
+25,192,25600,1,0,0:0:0:0:kick.ogg
+76,192,25600,1,0,0:0:0:0:bell-E.ogg
+332,192,25600,1,0,0:0:0:0:vc 027.ogg
+435,192,25600,1,0,0:0:0:0:bass-01.ogg
+179,192,25800,1,0,0:0:0:0:guitar 001.ogg
+384,192,25800,1,0,0:0:0:0:vc 028.ogg
+230,192,25900,1,0,0:0:0:0:guitar 002.ogg
+486,192,25900,1,0,0:0:0:0:vc 029.ogg
+128,192,26000,1,0,0:0:0:0:snare.ogg
+332,192,26000,1,0,0:0:0:0:bass-02.ogg
+179,192,26100,1,0,0:0:0:0:guitar 003.ogg
+230,192,26200,1,0,0:0:0:0:guitar 004.ogg
+25,192,26300,1,0,0:0:0:0:kick2.ogg
+281,192,26300,1,0,0:0:0:0:vc 030.ogg
+76,192,26400,1,0,0:0:0:0:kick.ogg
+128,192,26400,1,0,0:0:0:0:bell-F#.ogg
+230,192,26400,1,0,0:0:0:0:guitar 005.ogg
+384,192,26400,1,0,0:0:0:0:vc 031.ogg
+486,192,26400,1,0,0:0:0:0:bass-03.ogg
+281,192,26500,1,0,0:0:0:0:vc 032.ogg
+25,192,26600,1,0,0:0:0:0:kick.ogg
+179,192,26600,1,0,0:0:0:0:guitar 006.ogg
+384,192,26600,1,0,0:0:0:0:brass 034.ogg
+435,192,26600,1,0,0:0:0:0:vc 033.ogg
+332,192,26700,1,0,0:0:0:0:vc 034.ogg
+128,192,26800,1,0,0:0:0:0:snare.ogg
+179,192,26800,1,0,0:0:0:0:guitar 007.ogg
+435,192,26800,1,0,0:0:0:0:bass-04.ogg
+486,192,26800,1,0,0:0:0:0:brass 035.ogg
+230,192,26900,1,0,0:0:0:0:guitar 008.ogg
+281,192,26900,1,0,0:0:0:0:vc 035.ogg
+332,192,27000,1,0,0:0:0:0:vc 036.ogg
+281,192,27100,1,0,0:0:0:0:vc 037.ogg
+25,192,27200,1,0,0:0:0:0:kick.ogg
+76,192,27200,1,0,0:0:0:0:bell-G#.ogg
+384,192,27200,1,0,0:0:0:0:vc 038.ogg
+435,192,27200,1,0,0:0:0:0:bass-05.ogg
+486,192,27300,1,0,0:0:0:0:vc 039.ogg
+179,192,27400,1,0,0:0:0:0:guitar 001.ogg
+230,192,27500,1,0,0:0:0:0:guitar 002.ogg
+128,192,27600,1,0,0:0:0:0:snare.ogg
+281,192,27600,1,0,0:0:0:0:bass-02.ogg
+384,192,27600,1,0,0:0:0:0:vc 040.ogg
+179,192,27700,1,0,0:0:0:0:guitar 003.ogg
+230,192,27800,1,0,0:0:0:0:guitar 004.ogg
+435,192,27800,1,0,0:0:0:0:vc 041.ogg
+25,192,27900,1,0,0:0:0:0:kick2.ogg
+281,192,27900,1,0,0:0:0:0:vc 042.ogg
+76,192,28000,1,0,0:0:0:0:kick.ogg
+128,192,28000,1,0,0:0:0:0:bell-E.ogg
+230,192,28000,1,0,0:0:0:0:guitar 005.ogg
+435,192,28000,1,0,0:0:0:0:vc 043.ogg
+486,192,28000,1,0,0:0:0:0:bass-07.ogg
+281,192,28100,1,0,0:0:0:0:vc 044.ogg
+25,192,28200,1,0,0:0:0:0:kick.ogg
+179,192,28200,1,0,0:0:0:0:guitar 002.ogg
+384,192,28200,1,0,0:0:0:0:brass 038.ogg
+435,192,28200,1,0,0:0:0:0:vc 045.ogg
+332,192,28300,1,0,0:0:0:0:vc 046.ogg
+128,192,28400,1,0,0:0:0:0:snare.ogg
+179,192,28400,1,0,0:0:0:0:guitar 003.ogg
+281,192,28400,1,0,0:0:0:0:brass 039.ogg
+486,192,28400,1,0,0:0:0:0:bass-08.ogg
+230,192,28500,1,0,0:0:0:0:guitar 004.ogg
+384,192,28600,1,0,0:0:0:0:vc 047.ogg
+25,192,28800,1,0,0:0:0:0:bass-01.ogg
+230,192,28800,1,0,0:0:0:0:vc 048.ogg
+435,192,28800,1,0,0:0:0:0:bell-E.ogg
+486,192,28800,1,0,0:0:0:0:kick.ogg
+76,192,28900,1,0,0:0:0:0:vc 049.ogg
+230,192,29000,1,0,0:0:0:0:vc 050.ogg
+332,192,29000,1,0,0:0:0:0:guitar 001.ogg
+76,192,29100,1,0,0:0:0:0:vc 051.ogg
+281,192,29100,1,0,0:0:0:0:guitar 002.ogg
+25,192,29200,1,0,0:0:0:0:vc 052.ogg
+179,192,29200,1,0,0:0:0:0:bass-02.ogg
+384,192,29200,1,0,0:0:0:0:snare.ogg
+332,192,29300,1,0,0:0:0:0:guitar 003.ogg
+230,192,29400,1,0,0:0:0:0:vc 053.ogg
+281,192,29400,1,0,0:0:0:0:guitar 004.ogg
+486,192,29500,1,0,0:0:0:0:kick2.ogg
+76,192,29600,1,0,0:0:0:0:bass-03.ogg
+230,192,29600,1,0,0:0:0:0:vc 054.ogg
+281,192,29600,1,0,0:0:0:0:guitar 005.ogg
+384,192,29600,1,0,0:0:0:0:bell-F#.ogg
+435,192,29600,1,0,0:0:0:0:kick.ogg
+179,192,29700,1,0,0:0:0:0:vc 055.ogg
+25,192,29800,1,0,0:0:0:0:vc 056.ogg
+128,192,29800,1,0,0:0:0:0:brass 034.ogg
+332,192,29800,1,0,0:0:0:0:guitar 006.ogg
+486,192,29800,1,0,0:0:0:0:kick.ogg
+179,192,30000,1,0,0:0:0:0:bass-04.ogg
+230,192,30000,1,0,0:0:0:0:brass 035.ogg
+332,192,30000,1,0,0:0:0:0:guitar 007.ogg
+384,192,30000,1,0,0:0:0:0:snare.ogg
+281,192,30100,1,0,0:0:0:0:guitar 008.ogg
+76,192,30200,1,0,0:0:0:0:vc 057.ogg
+128,192,30300,1,0,0:0:0:0:vc 058.ogg
+25,192,30400,1,0,0:0:0:0:bass-05.ogg
+179,192,30400,1,0,0:0:0:0:vc 059.ogg
+435,192,30400,1,0,0:0:0:0:bell-G#.ogg
+486,192,30400,1,0,0:0:0:0:kick.ogg
+230,192,30500,1,0,0:0:0:0:vc 060.ogg
+179,192,30600,1,0,0:0:0:0:vc 061.ogg
+332,192,30600,1,0,0:0:0:0:guitar 001.ogg
+128,192,30700,1,0,0:0:0:0:vc 062.ogg
+281,192,30700,1,0,0:0:0:0:guitar 002.ogg
+76,192,30800,1,0,0:0:0:0:vc 063.ogg
+230,192,30800,1,0,0:0:0:0:bass-02.ogg
+384,192,30800,1,0,0:0:0:0:snare.ogg
+332,192,30900,1,0,0:0:0:0:guitar 003.ogg
+25,192,30950,1,0,0:0:0:0:vc 064.ogg
+128,192,31000,1,0,0:0:0:0:vc 065.ogg
+281,192,31000,1,0,0:0:0:0:guitar 004.ogg
+230,192,31100,1,0,0:0:0:0:vc 066.ogg
+486,192,31100,1,0,0:0:0:0:kick2.ogg
+25,192,31200,1,0,0:0:0:0:vc 067.ogg
+128,192,31200,1,0,0:0:0:0:bass-07.ogg
+281,192,31200,1,0,0:0:0:0:guitar 005.ogg
+384,192,31200,1,0,0:0:0:0:bell-E.ogg
+435,192,31200,1,0,0:0:0:0:kick.ogg
+179,192,31300,1,0,0:0:0:0:vc 068.ogg
+25,192,31400,1,0,0:0:0:0:vc 069.ogg
+76,192,31400,1,0,0:0:0:0:brass 036.ogg
+332,192,31400,1,0,0:0:0:0:guitar 002.ogg
+486,192,31400,1,0,0:0:0:0:kick.ogg
+230,192,31500,1,0,0:0:0:0:vc 070.ogg
+76,192,31600,1,0,0:0:0:0:bass-06.ogg
+128,192,31600,1,0,0:0:0:0:vc 071.ogg
+179,192,31600,1,0,0:0:0:0:brass 037.ogg
+332,192,31600,1,0,0:0:0:0:guitar 003.ogg
+384,192,31600,1,0,0:0:0:0:snare.ogg
+281,192,31700,1,0,0:0:0:0:guitar 004.ogg
+25,192,32000,1,0,0:0:0:0:bass-01.ogg
+128,192,32000,1,0,0:0:0:0:vc 072.ogg
+435,192,32000,1,0,0:0:0:0:bell-E.ogg
+486,192,32000,1,0,0:0:0:0:kick.ogg
+230,192,32100,1,0,0:0:0:0:vc 073.ogg
+128,192,32200,1,0,0:0:0:0:vc 074.ogg
+332,192,32200,1,0,0:0:0:0:guitar 001.ogg
+179,192,32300,1,0,0:0:0:0:vc 075.ogg
+281,192,32300,1,0,0:0:0:0:guitar 002.ogg
+25,192,32400,1,0,0:0:0:0:vc 076.ogg
+76,192,32400,1,0,0:0:0:0:bass-02.ogg
+384,192,32400,1,0,0:0:0:0:snare.ogg
+230,192,32500,1,0,0:0:0:0:vc 077.ogg
+332,192,32500,1,0,0:0:0:0:guitar 003.ogg
+128,192,32600,1,0,0:0:0:0:vc 078.ogg
+281,192,32600,1,0,0:0:0:0:guitar 004.ogg
+76,192,32700,1,0,0:0:0:0:vc 079.ogg
+486,192,32700,1,0,0:0:0:0:kick2.ogg
+25,192,32800,1,0,0:0:0:0:bass-03.ogg
+179,192,32800,1,0,0:0:0:0:vc 080.ogg
+281,192,32800,1,0,0:0:0:0:guitar 005.ogg
+384,192,32800,1,0,0:0:0:0:bell-F#.ogg
+435,192,32800,1,0,0:0:0:0:kick.ogg
+230,192,32900,1,0,0:0:0:0:vc 081.ogg
+76,192,33000,1,0,0:0:0:0:vc 082.ogg
+128,192,33000,1,0,0:0:0:0:brass 034.ogg
+332,192,33000,1,0,0:0:0:0:guitar 006.ogg
+486,192,33000,1,0,0:0:0:0:kick.ogg
+25,192,33100,1,0,0:0:0:0:vc 083.ogg
+128,192,33200,1,0,0:0:0:0:bass-04.ogg
+179,192,33200,1,0,0:0:0:0:vc 084.ogg
+230,192,33200,1,0,0:0:0:0:brass 035.ogg
+332,192,33200,1,0,0:0:0:0:guitar 007.ogg
+384,192,33200,1,0,0:0:0:0:snare.ogg
+76,192,33300,1,0,0:0:0:0:vc 085.ogg
+281,192,33300,1,0,0:0:0:0:guitar 008.ogg
+25,192,33600,1,0,0:0:0:0:bass-05.ogg
+76,192,33600,1,0,0:0:0:0:vc 086.ogg
+435,192,33600,1,0,0:0:0:0:bell-G#.ogg
+486,192,33600,1,0,0:0:0:0:kick.ogg
+230,192,33800,1,0,0:0:0:0:vc 087.ogg
+332,192,33800,1,0,0:0:0:0:guitar 001.ogg
+128,192,33900,1,0,0:0:0:0:vc 088.ogg
+281,192,33900,1,0,0:0:0:0:guitar 002.ogg
+25,192,34000,1,0,0:0:0:0:vc 089.ogg
+179,192,34000,1,0,0:0:0:0:bass-03.ogg
+384,192,34000,1,0,0:0:0:0:snare.ogg
+332,192,34100,1,0,0:0:0:0:guitar 003.ogg
+128,192,34200,1,0,0:0:0:0:vc 090.ogg
+281,192,34200,1,0,0:0:0:0:guitar 004.ogg
+179,192,34300,1,0,0:0:0:0:vc 091.ogg
+486,192,34300,1,0,0:0:0:0:kick2.ogg
+25,192,34400,1,0,0:0:0:0:vc 092.ogg
+230,192,34400,1,0,0:0:0:0:bass-05.ogg
+281,192,34400,1,0,0:0:0:0:guitar 005.ogg
+384,192,34400,1,0,0:0:0:0:bell-E.ogg
+435,192,34400,1,0,0:0:0:0:kick.ogg
+76,192,34500,1,0,0:0:0:0:vc 093.ogg
+128,192,34600,1,0,0:0:0:0:brass 040.ogg
+179,192,34600,1,0,0:0:0:0:vc 094.ogg
+332,192,34600,1,0,0:0:0:0:guitar 002.ogg
+486,192,34600,1,0,0:0:0:0:kick.ogg
+230,192,34700,1,0,0:0:0:0:vc 095.ogg
+25,192,34800,1,0,0:0:0:0:brass 041.ogg
+332,192,34800,1,0,0:0:0:0:guitar 003.ogg
+384,192,34800,1,0,0:0:0:0:snare.ogg
+281,192,34900,1,0,0:0:0:0:guitar 004.ogg
+76,192,35150,128,0,35300:0:0:0:0:fuwafuwa 001.ogg
+179,192,35200,1,0,0:0:0:0:3-ep-01.ogg
+230,192,35200,1,0,0:0:0:0:bass-01.ogg
+281,192,35200,1,0,0:0:0:0:kick.ogg
+332,192,35200,1,0,0:0:0:0:bell-E.ogg
+486,192,35200,1,0,0:0:0:0:crash.ogg
+435,192,35400,1,0,0:0:0:0:guitar 001.ogg
+128,192,35400,128,0,35500:0:0:0:0:fuwafuwa 002.ogg
+486,192,35500,1,0,0:0:0:0:guitar 002.ogg
+230,192,35600,1,0,0:0:0:0:bass-02.ogg
+384,192,35600,1,0,0:0:0:0:snare.ogg
+76,192,35600,128,0,35700:0:0:0:0:fuwafuwa 003.ogg
+435,192,35700,1,0,0:0:0:0:guitar 003.ogg
+486,192,35800,1,0,0:0:0:0:guitar 004.ogg
+128,192,35800,128,0,35900:0:0:0:0:fuwafuwa 004.ogg
+281,192,35900,1,0,0:0:0:0:kick2.ogg
+76,192,36000,1,0,0:0:0:0:3-ep-02.ogg
+230,192,36000,1,0,0:0:0:0:bass-03.ogg
+332,192,36000,1,0,0:0:0:0:kick.ogg
+486,192,36000,1,0,0:0:0:0:guitar 005.ogg
+25,192,36000,128,0,36100:0:0:0:0:fuwafuwa 005.ogg
+281,192,36200,1,0,0:0:0:0:kick.ogg
+435,192,36200,1,0,0:0:0:0:guitar 006.ogg
+128,192,36350,128,0,36500:0:0:0:0:fuwafuwa 006.ogg
+25,192,36400,1,0,0:0:0:0:bass-04.ogg
+384,192,36400,1,0,0:0:0:0:snare.ogg
+435,192,36400,1,0,0:0:0:0:guitar 007.ogg
+486,192,36500,1,0,0:0:0:0:guitar 008.ogg
+179,192,36600,128,0,36700:0:0:0:0:fuwafuwa 007.ogg
+25,192,36800,1,0,0:0:0:0:bass-08.ogg
+76,192,36800,1,0,0:0:0:0:3-ep-03.ogg
+281,192,36800,1,0,0:0:0:0:kick.ogg
+128,192,36800,128,0,36900:0:0:0:0:fuwafuwa 008.ogg
+435,192,37000,1,0,0:0:0:0:guitar 007.ogg
+179,192,37000,128,0,37100:0:0:0:0:fuwafuwa 009.ogg
+486,192,37100,1,0,0:0:0:0:guitar 008.ogg
+128,192,37200,1,0,0:0:0:0:bass-21.ogg
+384,192,37200,1,0,0:0:0:0:snare.ogg
+230,192,37200,128,0,37300:0:0:0:0:fuwafuwa 010.ogg
+435,192,37300,1,0,0:0:0:0:guitar 007.ogg
+486,192,37400,1,0,0:0:0:0:guitar 006.ogg
+281,192,37500,1,0,0:0:0:0:kick2.ogg
+25,192,37600,1,0,0:0:0:0:bass-07.ogg
+179,192,37600,1,0,0:0:0:0:fuwafuwa 011.ogg
+230,192,37600,1,0,0:0:0:0:3-ep-04.ogg
+332,192,37600,1,0,0:0:0:0:kick.ogg
+486,192,37600,1,0,0:0:0:0:guitar 005.ogg
+128,192,37800,1,0,0:0:0:0:fuwafuwa 012.ogg
+281,192,37800,1,0,0:0:0:0:kick.ogg
+435,192,37800,1,0,0:0:0:0:guitar 001.ogg
+76,192,38000,1,0,0:0:0:0:fuwafuwa 013.ogg
+230,192,38000,1,0,0:0:0:0:bass-06.ogg
+384,192,38000,1,0,0:0:0:0:snare.ogg
+435,192,38000,1,0,0:0:0:0:guitar 003.ogg
+486,192,38100,1,0,0:0:0:0:guitar 002.ogg
+128,192,38200,1,0,0:0:0:0:fuwafuwa 014.ogg
+25,192,38400,1,0,0:0:0:0:3-ep-01.ogg
+179,192,38400,1,0,0:0:0:0:fuwafuwa 015.ogg
+230,192,38400,1,0,0:0:0:0:bass-01.ogg
+281,192,38400,1,0,0:0:0:0:kick.ogg
+332,192,38400,1,0,0:0:0:0:bell-E.ogg
+128,192,38500,1,0,0:0:0:0:fuwafuwa 016.ogg
+76,192,38600,1,0,0:0:0:0:fuwafuwa 017.ogg
+435,192,38600,1,0,0:0:0:0:guitar 001.ogg
+179,192,38700,1,0,0:0:0:0:fuwafuwa 018.ogg
+486,192,38700,1,0,0:0:0:0:guitar 002.ogg
+230,192,38800,1,0,0:0:0:0:bass-02.ogg
+384,192,38800,1,0,0:0:0:0:snare.ogg
+128,192,38900,1,0,0:0:0:0:fuwafuwa 019.ogg
+435,192,38900,1,0,0:0:0:0:guitar 003.ogg
+25,192,39000,1,0,0:0:0:0:fuwafuwa 020.ogg
+486,192,39000,1,0,0:0:0:0:guitar 004.ogg
+281,192,39100,1,0,0:0:0:0:kick2.ogg
+128,192,39200,1,0,0:0:0:0:3-ep-05.ogg
+179,192,39200,1,0,0:0:0:0:fuwafuwa 021.ogg
+230,192,39200,1,0,0:0:0:0:bass-03.ogg
+332,192,39200,1,0,0:0:0:0:kick.ogg
+486,192,39200,1,0,0:0:0:0:guitar 005.ogg
+76,192,39300,1,0,0:0:0:0:fuwafuwa 022.ogg
+281,192,39400,1,0,0:0:0:0:kick.ogg
+435,192,39400,1,0,0:0:0:0:guitar 002.ogg
+76,192,39500,1,0,0:0:0:0:fuwafuwa 023.ogg
+179,192,39600,1,0,0:0:0:0:bass-04.ogg
+384,192,39600,1,0,0:0:0:0:snare.ogg
+435,192,39600,1,0,0:0:0:0:guitar 003.ogg
+76,192,39700,1,0,0:0:0:0:fuwafuwa 024.ogg
+486,192,39700,1,0,0:0:0:0:guitar 004.ogg
+25,192,39800,1,0,0:0:0:0:fuwafuwa 025.ogg
+128,192,39950,1,0,0:0:0:0:fuwafuwa 026.ogg
+76,192,40000,1,0,0:0:0:0:bass-05.ogg
+230,192,40000,1,0,0:0:0:0:3-ep-06.ogg
+281,192,40000,1,0,0:0:0:0:kick.ogg
+435,192,40200,1,0,0:0:0:0:guitar 001.ogg
+128,192,40300,1,0,0:0:0:0:fuwafuwa 027.ogg
+486,192,40300,1,0,0:0:0:0:guitar 002.ogg
+230,192,40400,1,0,0:0:0:0:bass-02.ogg
+384,192,40400,1,0,0:0:0:0:snare.ogg
+128,192,40500,1,0,0:0:0:0:fuwafuwa 028.ogg
+435,192,40500,1,0,0:0:0:0:guitar 003.ogg
+76,192,40600,1,0,0:0:0:0:fuwafuwa 029.ogg
+486,192,40600,1,0,0:0:0:0:guitar 004.ogg
+281,192,40700,1,0,0:0:0:0:kick2.ogg
+25,192,40800,1,0,0:0:0:0:bass-07.ogg
+128,192,40800,1,0,0:0:0:0:3-ep-07.ogg
+179,192,40800,1,0,0:0:0:0:fuwafuwa 030.ogg
+332,192,40800,1,0,0:0:0:0:kick.ogg
+486,192,40800,1,0,0:0:0:0:guitar 005.ogg
+230,192,41000,1,0,0:0:0:0:clap.ogg
+281,192,41000,1,0,0:0:0:0:kick.ogg
+435,192,41000,1,0,0:0:0:0:guitar 002.ogg
+128,192,41200,1,0,0:0:0:0:bass-08.ogg
+230,192,41200,1,0,0:0:0:0:clap.ogg
+384,192,41200,1,0,0:0:0:0:snare.ogg
+435,192,41200,1,0,0:0:0:0:guitar 003.ogg
+76,192,41200,128,0,41500:0:0:0:0:brass 042.ogg
+486,192,41300,1,0,0:0:0:0:guitar 004.ogg
+332,192,41550,128,0,41700:0:0:0:0:fuwafuwa 031.ogg
+25,192,41600,1,0,0:0:0:0:crash.ogg
+179,192,41600,1,0,0:0:0:0:bell-E.ogg
+230,192,41600,1,0,0:0:0:0:kick.ogg
+435,192,41600,1,0,0:0:0:0:bass-01.ogg
+486,192,41600,1,0,0:0:0:0:3-ep-01.ogg
+76,192,41800,1,0,0:0:0:0:guitar 001.ogg
+384,192,41800,128,0,41900:0:0:0:0:fuwafuwa 032.ogg
+25,192,41900,1,0,0:0:0:0:guitar 002.ogg
+128,192,42000,1,0,0:0:0:0:snare.ogg
+486,192,42000,1,0,0:0:0:0:bass-02.ogg
+332,192,42000,128,0,42100:0:0:0:0:fuwafuwa 033.ogg
+76,192,42100,1,0,0:0:0:0:guitar 003.ogg
+25,192,42200,1,0,0:0:0:0:guitar 004.ogg
+384,192,42200,128,0,42300:0:0:0:0:fuwafuwa 034.ogg
+230,192,42300,1,0,0:0:0:0:kick2.ogg
+25,192,42400,1,0,0:0:0:0:guitar 005.ogg
+179,192,42400,1,0,0:0:0:0:kick.ogg
+332,192,42400,1,0,0:0:0:0:3-ep-02.ogg
+486,192,42400,1,0,0:0:0:0:bass-03.ogg
+281,192,42400,128,0,42500:0:0:0:0:fuwafuwa 035.ogg
+76,192,42600,1,0,0:0:0:0:guitar 006.ogg
+230,192,42600,1,0,0:0:0:0:kick.ogg
+76,192,42800,1,0,0:0:0:0:guitar 007.ogg
+128,192,42800,1,0,0:0:0:0:snare.ogg
+281,192,42800,1,0,0:0:0:0:bass-04.ogg
+384,192,42800,128,0,42900:0:0:0:0:fuwafuwa 036.ogg
+25,192,42900,1,0,0:0:0:0:guitar 008.ogg
+435,192,43000,128,0,43100:0:0:0:0:fuwafuwa 037.ogg
+179,192,43200,1,0,0:0:0:0:3-ep-03.ogg
+230,192,43200,1,0,0:0:0:0:kick.ogg
+332,192,43200,1,0,0:0:0:0:bass-08.ogg
+384,192,43200,128,0,43300:0:0:0:0:fuwafuwa 038.ogg
+281,192,43200,128,0,44000:0:0:0:0:brass-01 001.ogg
+76,192,43400,1,0,0:0:0:0:guitar 007.ogg
+435,192,43400,128,0,43500:0:0:0:0:fuwafuwa 039.ogg
+25,192,43500,1,0,0:0:0:0:guitar 008.ogg
+128,192,43600,1,0,0:0:0:0:snare.ogg
+384,192,43600,1,0,0:0:0:0:bass-21.ogg
+486,192,43600,128,0,43700:0:0:0:0:fuwafuwa 040.ogg
+76,192,43700,1,0,0:0:0:0:guitar 007.ogg
+25,192,43800,1,0,0:0:0:0:guitar 006.ogg
+230,192,43900,1,0,0:0:0:0:kick2.ogg
+25,192,44000,1,0,0:0:0:0:guitar 005.ogg
+128,192,44000,1,0,0:0:0:0:3-ep-04.ogg
+179,192,44000,1,0,0:0:0:0:kick.ogg
+384,192,44000,1,0,0:0:0:0:bass-07.ogg
+486,192,44000,1,0,0:0:0:0:fuwafuwa 041.ogg
+332,192,44000,128,0,44400:0:0:0:0:brass-01 002.ogg
+76,192,44200,1,0,0:0:0:0:guitar 001.ogg
+230,192,44200,1,0,0:0:0:0:kick.ogg
+435,192,44200,1,0,0:0:0:0:fuwafuwa 042.ogg
+76,192,44400,1,0,0:0:0:0:guitar 003.ogg
+128,192,44400,1,0,0:0:0:0:snare.ogg
+281,192,44400,1,0,0:0:0:0:bass-06.ogg
+384,192,44400,1,0,0:0:0:0:fuwafuwa 043.ogg
+486,192,44400,128,0,44800:0:0:0:0:brass-01 003.ogg
+25,192,44500,1,0,0:0:0:0:guitar 002.ogg
+332,192,44600,1,0,0:0:0:0:fuwafuwa 044.ogg
+25,192,44800,1,0,0:0:0:0:bell-E.ogg
+179,192,44800,1,0,0:0:0:0:fuwafuwa 045.ogg
+230,192,44800,1,0,0:0:0:0:3-ep-01.ogg
+281,192,44800,1,0,0:0:0:0:kick.ogg
+435,192,44800,1,0,0:0:0:0:bass-01.ogg
+384,192,44800,128,0,45600:0:0:0:0:brass-01 004.ogg
+332,192,44900,1,0,0:0:0:0:fuwafuwa 046.ogg
+76,192,45000,1,0,0:0:0:0:guitar 001.ogg
+25,192,45100,1,0,0:0:0:0:guitar 002.ogg
+332,192,45100,1,0,0:0:0:0:fuwafuwa 047.ogg
+128,192,45200,1,0,0:0:0:0:snare.ogg
+486,192,45200,1,0,0:0:0:0:bass-02.ogg
+76,192,45300,1,0,0:0:0:0:guitar 003.ogg
+332,192,45300,1,0,0:0:0:0:fuwafuwa 048.ogg
+25,192,45400,1,0,0:0:0:0:guitar 004.ogg
+281,192,45400,1,0,0:0:0:0:fuwafuwa 049.ogg
+230,192,45500,1,0,0:0:0:0:kick2.ogg
+25,192,45600,1,0,0:0:0:0:guitar 005.ogg
+128,192,45600,1,0,0:0:0:0:3-ep-05.ogg
+179,192,45600,1,0,0:0:0:0:kick.ogg
+281,192,45600,1,0,0:0:0:0:fuwafuwa 050.ogg
+486,192,45600,1,0,0:0:0:0:bass-03.ogg
+435,192,45600,128,0,46400:0:0:0:0:brass-01 005.ogg
+332,192,45700,1,0,0:0:0:0:fuwafuwa 051.ogg
+76,192,45800,1,0,0:0:0:0:guitar 002.ogg
+230,192,45800,1,0,0:0:0:0:kick.ogg
+332,192,45900,1,0,0:0:0:0:fuwafuwa 052.ogg
+76,192,46000,1,0,0:0:0:0:guitar 003.ogg
+128,192,46000,1,0,0:0:0:0:snare.ogg
+384,192,46000,1,0,0:0:0:0:bass-04.ogg
+25,192,46100,1,0,0:0:0:0:guitar 004.ogg
+281,192,46100,1,0,0:0:0:0:fuwafuwa 053.ogg
+332,192,46200,1,0,0:0:0:0:fuwafuwa 054.ogg
+25,192,46400,1,0,0:0:0:0:bell-E.ogg
+179,192,46400,1,0,0:0:0:0:3-ep-06.ogg
+230,192,46400,1,0,0:0:0:0:kick.ogg
+281,192,46400,1,0,0:0:0:0:bass-05.ogg
+384,192,46400,1,0,0:0:0:0:fuwafuwa 055.ogg
+486,192,46400,128,0,47600:0:0:0:0:brass-01 006.ogg
+384,192,46500,1,0,0:0:0:0:fuwafuwa 056.ogg
+76,192,46600,1,0,0:0:0:0:guitar 001.ogg
+25,192,46700,1,0,0:0:0:0:guitar 002.ogg
+384,192,46700,1,0,0:0:0:0:fuwafuwa 057.ogg
+128,192,46800,1,0,0:0:0:0:snare.ogg
+435,192,46800,1,0,0:0:0:0:bass-03.ogg
+76,192,46900,1,0,0:0:0:0:guitar 003.ogg
+281,192,46900,1,0,0:0:0:0:fuwafuwa 058.ogg
+25,192,47000,1,0,0:0:0:0:guitar 004.ogg
+384,192,47000,1,0,0:0:0:0:fuwafuwa 059.ogg
+230,192,47100,1,0,0:0:0:0:kick2.ogg
+25,192,47200,1,0,0:0:0:0:guitar 005.ogg
+179,192,47200,1,0,0:0:0:0:kick.ogg
+281,192,47200,1,0,0:0:0:0:fuwafuwa 060.ogg
+332,192,47200,1,0,0:0:0:0:bass-05.ogg
+230,192,47400,1,0,0:0:0:0:kick.ogg
+128,192,47600,1,0,0:0:0:0:snare.ogg
+332,192,47650,1,0,0:0:0:0:string 001.ogg
+435,192,47700,1,0,0:0:0:0:string 002.ogg
+281,192,47750,1,0,0:0:0:0:string 003.ogg
+384,192,47800,1,0,0:0:0:0:string 004.ogg
+486,192,47850,1,0,0:0:0:0:string 005.ogg
+332,192,47900,1,0,0:0:0:0:string 006.ogg
+435,192,47950,1,0,0:0:0:0:string 007.ogg
+25,192,48000,1,0,0:0:0:0:bell-B.ogg
+76,192,48000,1,0,0:0:0:0:bass-05.ogg
+179,192,48000,1,0,0:0:0:0:brass 043.ogg
+281,192,48000,1,0,0:0:0:0:kick.ogg
+384,192,48000,1,0,0:0:0:0:hat.ogg
+486,192,48000,1,0,0:0:0:0:crash.ogg
+332,192,48100,1,0,0:0:0:0:hat.ogg
+435,192,48200,1,0,0:0:0:0:hat.ogg
+179,192,48300,1,0,0:0:0:0:brass 044.ogg
+384,192,48300,1,0,0:0:0:0:hat.ogg
+25,192,48400,1,0,0:0:0:0:bell-G#.ogg
+76,192,48400,1,0,0:0:0:0:bass-02.ogg
+332,192,48400,1,0,0:0:0:0:hat.ogg
+486,192,48400,1,0,0:0:0:0:snare.ogg
+128,192,48500,1,0,0:0:0:0:brass 045.ogg
+435,192,48500,1,0,0:0:0:0:hat.ogg
+179,192,48600,1,0,0:0:0:0:brass 046.ogg
+384,192,48600,1,0,0:0:0:0:hat.ogg
+281,192,48700,1,0,0:0:0:0:kick2.ogg
+332,192,48700,1,0,0:0:0:0:hat.ogg
+76,192,48800,1,0,0:0:0:0:bell-F#.ogg
+128,192,48800,1,0,0:0:0:0:bass-03.ogg
+384,192,48800,1,0,0:0:0:0:hat.ogg
+486,192,48800,1,0,0:0:0:0:kick.ogg
+230,192,48800,128,0,49100:0:0:0:0:brass 047.ogg
+435,192,48900,1,0,0:0:0:0:hat.ogg
+281,192,49000,1,0,0:0:0:0:kick.ogg
+332,192,49000,1,0,0:0:0:0:hat.ogg
+128,192,49100,1,0,0:0:0:0:brass 048.ogg
+384,192,49100,1,0,0:0:0:0:hat.ogg
+25,192,49200,1,0,0:0:0:0:bell-G#.ogg
+179,192,49200,1,0,0:0:0:0:bass-02.ogg
+435,192,49200,1,0,0:0:0:0:hat.ogg
+486,192,49200,1,0,0:0:0:0:snare.ogg
+332,192,49300,1,0,0:0:0:0:hat.ogg
+76,192,49400,1,0,0:0:0:0:brass 049.ogg
+230,192,49400,1,0,0:0:0:0:bell-G#.ogg
+384,192,49400,1,0,0:0:0:0:hat.ogg
+128,192,49500,1,0,0:0:0:0:brass 050.ogg
+435,192,49500,1,0,0:0:0:0:hat.ogg
+25,192,49600,1,0,0:0:0:0:bell-F#.ogg
+76,192,49600,1,0,0:0:0:0:bass-07.ogg
+179,192,49600,1,0,0:0:0:0:brass 051.ogg
+281,192,49600,1,0,0:0:0:0:kick.ogg
+384,192,49600,1,0,0:0:0:0:hat.ogg
+332,192,49700,1,0,0:0:0:0:hat.ogg
+230,192,49800,1,0,0:0:0:0:bell-E.ogg
+435,192,49800,1,0,0:0:0:0:hat.ogg
+179,192,49900,1,0,0:0:0:0:brass 052.ogg
+384,192,49900,1,0,0:0:0:0:hat.ogg
+25,192,50000,1,0,0:0:0:0:bell-F#.ogg
+76,192,50000,1,0,0:0:0:0:bass-06.ogg
+332,192,50000,1,0,0:0:0:0:snare.ogg
+486,192,50000,1,0,0:0:0:0:hat.ogg
+128,192,50100,1,0,0:0:0:0:brass 053.ogg
+435,192,50100,1,0,0:0:0:0:hat.ogg
+76,192,50200,1,0,0:0:0:0:bell-G#.ogg
+179,192,50200,1,0,0:0:0:0:brass 054.ogg
+384,192,50200,1,0,0:0:0:0:hat.ogg
+281,192,50300,1,0,0:0:0:0:kick2.ogg
+332,192,50300,1,0,0:0:0:0:hat.ogg
+25,192,50400,1,0,0:0:0:0:bass-07.ogg
+384,192,50400,1,0,0:0:0:0:hat.ogg
+486,192,50400,1,0,0:0:0:0:kick.ogg
+230,192,50400,128,0,50700:0:0:0:0:brass 055.ogg
+435,192,50500,1,0,0:0:0:0:hat.ogg
+281,192,50600,1,0,0:0:0:0:kick.ogg
+332,192,50600,1,0,0:0:0:0:hat.ogg
+128,192,50700,1,0,0:0:0:0:brass 056.ogg
+384,192,50700,1,0,0:0:0:0:hat.ogg
+25,192,50800,1,0,0:0:0:0:bass-06.ogg
+435,192,50800,1,0,0:0:0:0:hat.ogg
+486,192,50800,1,0,0:0:0:0:snare.ogg
+332,192,50900,1,0,0:0:0:0:hat.ogg
+76,192,51000,1,0,0:0:0:0:brass 057.ogg
+230,192,51000,1,0,0:0:0:0:bell-G#.ogg
+384,192,51000,1,0,0:0:0:0:hat.ogg
+435,192,51100,1,0,0:0:0:0:hat.ogg
+25,192,51200,1,0,0:0:0:0:bass-01.ogg
+128,192,51200,1,0,0:0:0:0:brass 058.ogg
+230,192,51200,1,0,0:0:0:0:bell-C#.ogg
+281,192,51200,1,0,0:0:0:0:kick.ogg
+332,192,51200,1,0,0:0:0:0:hat.ogg
+384,192,51300,1,0,0:0:0:0:hat.ogg
+76,192,51400,1,0,0:0:0:0:brass 059.ogg
+435,192,51400,1,0,0:0:0:0:hat.ogg
+128,192,51500,1,0,0:0:0:0:brass 060.ogg
+384,192,51500,1,0,0:0:0:0:hat.ogg
+25,192,51600,1,0,0:0:0:0:bell-G#.ogg
+230,192,51600,1,0,0:0:0:0:bass-02.ogg
+332,192,51600,1,0,0:0:0:0:hat.ogg
+486,192,51600,1,0,0:0:0:0:snare.ogg
+384,192,51700,1,0,0:0:0:0:hat.ogg
+76,192,51800,1,0,0:0:0:0:brass 061.ogg
+435,192,51800,1,0,0:0:0:0:hat.ogg
+281,192,51900,1,0,0:0:0:0:kick2.ogg
+384,192,51900,1,0,0:0:0:0:hat.ogg
+25,192,52000,1,0,0:0:0:0:bass-01.ogg
+128,192,52000,1,0,0:0:0:0:brass 062.ogg
+179,192,52000,1,0,0:0:0:0:bell-F#.ogg
+435,192,52000,1,0,0:0:0:0:hat.ogg
+486,192,52000,1,0,0:0:0:0:kick.ogg
+384,192,52100,1,0,0:0:0:0:hat.ogg
+76,192,52200,1,0,0:0:0:0:brass 063.ogg
+281,192,52200,1,0,0:0:0:0:kick.ogg
+332,192,52200,1,0,0:0:0:0:hat.ogg
+128,192,52300,1,0,0:0:0:0:brass 064.ogg
+384,192,52300,1,0,0:0:0:0:hat.ogg
+25,192,52400,1,0,0:0:0:0:bell-E.ogg
+230,192,52400,1,0,0:0:0:0:bass-02.ogg
+435,192,52400,1,0,0:0:0:0:hat.ogg
+486,192,52400,1,0,0:0:0:0:snare.ogg
+384,192,52500,1,0,0:0:0:0:hat.ogg
+76,192,52600,1,0,0:0:0:0:bell-E.ogg
+128,192,52600,1,0,0:0:0:0:brass 065.ogg
+332,192,52600,1,0,0:0:0:0:hat.ogg
+384,192,52700,1,0,0:0:0:0:hat.ogg
+25,192,52800,1,0,0:0:0:0:bell-E.ogg
+76,192,52800,1,0,0:0:0:0:bass-03.ogg
+230,192,52800,1,0,0:0:0:0:brass 066.ogg
+281,192,52800,1,0,0:0:0:0:kick.ogg
+332,192,52800,1,0,0:0:0:0:hat.ogg
+179,192,52900,1,0,0:0:0:0:brass 067.ogg
+435,192,52900,1,0,0:0:0:0:hat.ogg
+25,192,53000,1,0,0:0:0:0:bell-F#.ogg
+384,192,53000,1,0,0:0:0:0:hat.ogg
+128,192,53100,1,0,0:0:0:0:brass 068.ogg
+332,192,53100,1,0,0:0:0:0:hat.ogg
+179,192,53200,1,0,0:0:0:0:bass-04.ogg
+230,192,53200,1,0,0:0:0:0:bell-G#.ogg
+435,192,53200,1,0,0:0:0:0:hat.ogg
+486,192,53200,1,0,0:0:0:0:snare.ogg
+384,192,53300,1,0,0:0:0:0:hat.ogg
+25,192,53400,1,0,0:0:0:0:brass 069.ogg
+128,192,53400,1,0,0:0:0:0:bell-F#.ogg
+332,192,53400,1,0,0:0:0:0:hat.ogg
+281,192,53500,1,0,0:0:0:0:kick2.ogg
+435,192,53500,1,0,0:0:0:0:hat.ogg
+25,192,53600,1,0,0:0:0:0:brass 070.ogg
+179,192,53600,1,0,0:0:0:0:bass-03.ogg
+384,192,53600,1,0,0:0:0:0:hat.ogg
+486,192,53600,1,0,0:0:0:0:kick.ogg
+128,192,53700,1,0,0:0:0:0:brass 071.ogg
+332,192,53700,1,0,0:0:0:0:hat.ogg
+230,192,53800,1,0,0:0:0:0:clap.ogg
+76,192,53800,1,0,0:0:0:0:kick.ogg
+435,192,53800,1,0,0:0:0:0:hat.ogg
+281,192,53800,128,0,53900:0:0:0:0:bbb.ogg
+128,192,53900,1,0,0:0:0:0:brass 072.ogg
+384,192,53900,1,0,0:0:0:0:hat.ogg
+25,192,54000,1,0,0:0:0:0:bass-04.ogg
+230,192,54000,1,0,0:0:0:0:clap.ogg
+332,192,54000,1,0,0:0:0:0:hat.ogg
+486,192,54000,1,0,0:0:0:0:snare.ogg
+281,192,54000,128,0,54100:0:0:0:0:bbb.ogg
+76,192,54050,1,0,0:0:0:0:string 013.ogg
+128,192,54100,1,0,0:0:0:0:string 014.ogg
+435,192,54100,1,0,0:0:0:0:hat.ogg
+179,192,54150,1,0,0:0:0:0:string 015.ogg
+76,192,54200,1,0,0:0:0:0:string 016.ogg
+384,192,54200,1,0,0:0:0:0:hat.ogg
+128,192,54250,1,0,0:0:0:0:string 017.ogg
+179,192,54300,1,0,0:0:0:0:string 018.ogg
+332,192,54300,1,0,0:0:0:0:hat.ogg
+230,192,54350,1,0,0:0:0:0:string 019.ogg
+25,192,54400,1,0,0:0:0:0:kick.ogg
+128,192,54400,1,0,0:0:0:0:hat.ogg
+281,192,54400,1,0,0:0:0:0:bell-B.ogg
+486,192,54400,1,0,0:0:0:0:bass-05.ogg
+435,192,54400,1,0,0:0:0:0:brass 043.ogg
+76,192,54500,1,0,0:0:0:0:hat.ogg
+179,192,54600,1,0,0:0:0:0:hat.ogg
+128,192,54700,1,0,0:0:0:0:hat.ogg
+435,192,54700,1,0,0:0:0:0:brass 044.ogg
+76,192,54800,1,0,0:0:0:0:hat.ogg
+230,192,54800,1,0,0:0:0:0:snare.ogg
+281,192,54800,1,0,0:0:0:0:bell-G#.ogg
+332,192,54800,1,0,0:0:0:0:bass-02.ogg
+179,192,54900,1,0,0:0:0:0:hat.ogg
+384,192,54900,1,0,0:0:0:0:brass 045.ogg
+128,192,55000,1,0,0:0:0:0:hat.ogg
+435,192,55000,1,0,0:0:0:0:brass 046.ogg
+25,192,55100,1,0,0:0:0:0:kick2.ogg
+76,192,55100,1,0,0:0:0:0:hat.ogg
+128,192,55200,1,0,0:0:0:0:hat.ogg
+230,192,55200,1,0,0:0:0:0:kick.ogg
+332,192,55200,1,0,0:0:0:0:bell-F#.ogg
+384,192,55200,1,0,0:0:0:0:bass-03.ogg
+486,192,55200,128,0,55500:0:0:0:0:brass 047.ogg
+179,192,55300,1,0,0:0:0:0:hat.ogg
+25,192,55400,1,0,0:0:0:0:kick.ogg
+76,192,55400,1,0,0:0:0:0:hat.ogg
+128,192,55500,1,0,0:0:0:0:hat.ogg
+384,192,55500,1,0,0:0:0:0:brass 048.ogg
+179,192,55600,1,0,0:0:0:0:hat.ogg
+230,192,55600,1,0,0:0:0:0:snare.ogg
+281,192,55600,1,0,0:0:0:0:bass-02.ogg
+435,192,55600,1,0,0:0:0:0:bell-G#.ogg
+76,192,55700,1,0,0:0:0:0:hat.ogg
+128,192,55800,1,0,0:0:0:0:hat.ogg
+332,192,55800,1,0,0:0:0:0:brass 049.ogg
+486,192,55800,1,0,0:0:0:0:bell-G#.ogg
+179,192,55900,1,0,0:0:0:0:hat.ogg
+384,192,55900,1,0,0:0:0:0:brass 050.ogg
+25,192,56000,1,0,0:0:0:0:kick.ogg
+128,192,56000,1,0,0:0:0:0:hat.ogg
+281,192,56000,1,0,0:0:0:0:bell-F#.ogg
+435,192,56000,1,0,0:0:0:0:brass 051.ogg
+486,192,56000,1,0,0:0:0:0:bass-07.ogg
+76,192,56100,1,0,0:0:0:0:hat.ogg
+179,192,56200,1,0,0:0:0:0:hat.ogg
+332,192,56200,1,0,0:0:0:0:bell-E.ogg
+128,192,56300,1,0,0:0:0:0:hat.ogg
+435,192,56300,1,0,0:0:0:0:brass 052.ogg
+76,192,56400,1,0,0:0:0:0:hat.ogg
+230,192,56400,1,0,0:0:0:0:snare.ogg
+281,192,56400,1,0,0:0:0:0:bell-F#.ogg
+486,192,56400,1,0,0:0:0:0:bass-06.ogg
+179,192,56500,1,0,0:0:0:0:hat.ogg
+384,192,56500,1,0,0:0:0:0:brass 053.ogg
+128,192,56600,1,0,0:0:0:0:hat.ogg
+332,192,56600,1,0,0:0:0:0:bell-G#.ogg
+435,192,56600,1,0,0:0:0:0:brass 054.ogg
+25,192,56700,1,0,0:0:0:0:kick2.ogg
+76,192,56700,1,0,0:0:0:0:hat.ogg
+128,192,56800,1,0,0:0:0:0:hat.ogg
+230,192,56800,1,0,0:0:0:0:kick.ogg
+281,192,56800,1,0,0:0:0:0:bass-07.ogg
+486,192,56800,128,0,57100:0:0:0:0:brass 055.ogg
+179,192,56900,1,0,0:0:0:0:hat.ogg
+25,192,57000,1,0,0:0:0:0:kick.ogg
+76,192,57000,1,0,0:0:0:0:hat.ogg
+128,192,57100,1,0,0:0:0:0:hat.ogg
+384,192,57100,1,0,0:0:0:0:brass 056.ogg
+179,192,57200,1,0,0:0:0:0:hat.ogg
+230,192,57200,1,0,0:0:0:0:snare.ogg
+281,192,57200,1,0,0:0:0:0:bass-06.ogg
+76,192,57300,1,0,0:0:0:0:hat.ogg
+128,192,57400,1,0,0:0:0:0:hat.ogg
+332,192,57400,1,0,0:0:0:0:brass 057.ogg
+435,192,57400,1,0,0:0:0:0:bell-G#.ogg
+179,192,57500,1,0,0:0:0:0:hat.ogg
+25,192,57600,1,0,0:0:0:0:kick.ogg
+76,192,57600,1,0,0:0:0:0:hat.ogg
+281,192,57600,1,0,0:0:0:0:bell-C#.ogg
+384,192,57600,1,0,0:0:0:0:brass 058.ogg
+486,192,57600,1,0,0:0:0:0:bass-01.ogg
+128,192,57700,1,0,0:0:0:0:hat.ogg
+179,192,57800,1,0,0:0:0:0:hat.ogg
+332,192,57800,1,0,0:0:0:0:brass 059.ogg
+128,192,57900,1,0,0:0:0:0:hat.ogg
+384,192,57900,1,0,0:0:0:0:brass 060.ogg
+76,192,58000,1,0,0:0:0:0:hat.ogg
+230,192,58000,1,0,0:0:0:0:snare.ogg
+281,192,58000,1,0,0:0:0:0:bell-G#.ogg
+486,192,58000,1,0,0:0:0:0:bass-07.ogg
+128,192,58100,1,0,0:0:0:0:hat.ogg
+179,192,58200,1,0,0:0:0:0:hat.ogg
+332,192,58200,1,0,0:0:0:0:brass 061.ogg
+25,192,58300,1,0,0:0:0:0:kick2.ogg
+128,192,58300,1,0,0:0:0:0:hat.ogg
+179,192,58400,1,0,0:0:0:0:hat.ogg
+230,192,58400,1,0,0:0:0:0:kick.ogg
+384,192,58400,1,0,0:0:0:0:brass 062.ogg
+435,192,58400,1,0,0:0:0:0:bell-E.ogg
+486,192,58400,1,0,0:0:0:0:bass-03.ogg
+128,192,58500,1,0,0:0:0:0:hat.ogg
+25,192,58600,1,0,0:0:0:0:kick.ogg
+76,192,58600,1,0,0:0:0:0:hat.ogg
+332,192,58600,1,0,0:0:0:0:brass 063.ogg
+128,192,58700,1,0,0:0:0:0:hat.ogg
+384,192,58700,1,0,0:0:0:0:brass 064.ogg
+179,192,58800,1,0,0:0:0:0:hat.ogg
+230,192,58800,1,0,0:0:0:0:snare.ogg
+281,192,58800,1,0,0:0:0:0:bell-G#.ogg
+486,192,58800,1,0,0:0:0:0:bass-04.ogg
+128,192,58900,1,0,0:0:0:0:hat.ogg
+76,192,59000,1,0,0:0:0:0:hat.ogg
+384,192,59000,1,0,0:0:0:0:brass 065.ogg
+128,192,59100,1,0,0:0:0:0:hat.ogg
+25,192,59200,1,0,0:0:0:0:kick.ogg
+76,192,59200,1,0,0:0:0:0:hat.ogg
+332,192,59200,1,0,0:0:0:0:bass-05.ogg
+281,192,59200,1,0,0:0:0:0:brass 073.ogg
+486,192,59200,128,0,60400:0:0:0:0:bell-E.ogg
+179,192,59300,1,0,0:0:0:0:hat.ogg
+435,192,59300,1,0,0:0:0:0:brass 074.ogg
+128,192,59400,1,0,0:0:0:0:hat.ogg
+76,192,59500,1,0,0:0:0:0:hat.ogg
+332,192,59500,1,0,0:0:0:0:brass 075.ogg
+179,192,59600,1,0,0:0:0:0:hat.ogg
+230,192,59600,1,0,0:0:0:0:snare.ogg
+435,192,59600,1,0,0:0:0:0:bass-03.ogg
+128,192,59700,1,0,0:0:0:0:hat.ogg
+76,192,59800,1,0,0:0:0:0:hat.ogg
+384,192,59800,1,0,0:0:0:0:brass 076.ogg
+25,192,59900,1,0,0:0:0:0:kick2.ogg
+179,192,59900,1,0,0:0:0:0:hat.ogg
+128,192,60000,1,0,0:0:0:0:hat.ogg
+230,192,60000,1,0,0:0:0:0:kick.ogg
+281,192,60000,1,0,0:0:0:0:bass-02.ogg
+332,192,60000,128,0,60400:0:0:0:0:brass 077.ogg
+76,192,60100,1,0,0:0:0:0:hat.ogg
+25,192,60200,1,0,0:0:0:0:kick.ogg
+179,192,60200,1,0,0:0:0:0:hat.ogg
+128,192,60300,1,0,0:0:0:0:hat.ogg
+76,192,60400,1,0,0:0:0:0:hat.ogg
+230,192,60400,1,0,0:0:0:0:snare.ogg
+435,192,60400,1,0,0:0:0:0:bass-05.ogg
+179,192,60500,1,0,0:0:0:0:hat.ogg
+128,192,60600,1,0,0:0:0:0:hat.ogg
+384,192,60600,1,0,0:0:0:0:1-03.ogg
+76,192,60700,1,0,0:0:0:0:hat.ogg
+332,192,60700,1,0,0:0:0:0:1-04.ogg
+25,192,60800,1,0,0:0:0:0:2-ep-01.ogg
+179,192,60800,1,0,0:0:0:0:5-vc-01.ogg
+230,192,60800,1,0,0:0:0:0:string 023.ogg
+281,192,60800,1,0,0:0:0:0:bass-09.ogg
+435,192,60800,1,0,0:0:0:0:kick.ogg
+486,192,60800,1,0,0:0:0:0:crash.ogg
+384,192,61000,1,0,0:0:0:0:guitar 001.ogg
+128,192,61100,1,0,0:0:0:0:5-vc-02.ogg
+332,192,61100,1,0,0:0:0:0:guitar 002.ogg
+230,192,61200,1,0,0:0:0:0:string 023.ogg
+281,192,61200,1,0,0:0:0:0:snare.ogg
+384,192,61300,1,0,0:0:0:0:guitar 003.ogg
+76,192,61350,1,0,0:0:0:0:5-vc-03.ogg
+332,192,61400,1,0,0:0:0:0:guitar 004.ogg
+486,192,61500,1,0,0:0:0:0:kick2.ogg
+179,192,61575,1,0,0:0:0:0:7-vc-01.ogg
+76,192,61600,1,0,0:0:0:0:brass 078.ogg
+128,192,61600,1,0,0:0:0:0:2-ep-02.ogg
+230,192,61600,1,0,0:0:0:0:string 023.ogg
+281,192,61600,1,0,0:0:0:0:bass-10.ogg
+332,192,61600,1,0,0:0:0:0:guitar 005.ogg
+435,192,61600,1,0,0:0:0:0:kick.ogg
+25,192,61800,1,0,0:0:0:0:clap.ogg
+384,192,61800,1,0,0:0:0:0:guitar 002.ogg
+179,192,61850,1,0,0:0:0:0:7-vc-02.ogg
+76,192,61900,1,0,0:0:0:0:brass 079.ogg
+128,192,61900,1,0,0:0:0:0:2-ep-03.ogg
+435,192,61900,1,0,0:0:0:0:bass-11.ogg
+486,192,61900,1,0,0:0:0:0:kick.ogg
+25,192,62000,1,0,0:0:0:0:clap.ogg
+230,192,62000,1,0,0:0:0:0:string 023.ogg
+281,192,62000,1,0,0:0:0:0:snare.ogg
+384,192,62000,1,0,0:0:0:0:guitar 003.ogg
+332,192,62100,1,0,0:0:0:0:guitar 004.ogg
+179,192,62200,1,0,0:0:0:0:5-vc-06.ogg
+128,192,62325,1,0,0:0:0:0:5-vc-07.ogg
+76,192,62400,1,0,0:0:0:0:5-vc-08.ogg
+179,192,62400,1,0,0:0:0:0:2-ep-04.ogg
+230,192,62400,1,0,0:0:0:0:string 023.ogg
+435,192,62400,1,0,0:0:0:0:bass-12.ogg
+486,192,62400,1,0,0:0:0:0:kick.ogg
+384,192,62600,1,0,0:0:0:0:guitar 001.ogg
+76,192,62700,1,0,0:0:0:0:5-vc-09.ogg
+332,192,62700,1,0,0:0:0:0:guitar 002.ogg
+230,192,62800,1,0,0:0:0:0:string 023.ogg
+281,192,62800,1,0,0:0:0:0:snare.ogg
+384,192,62900,1,0,0:0:0:0:guitar 003.ogg
+179,192,62975,1,0,0:0:0:0:5-vc-10.ogg
+332,192,63000,1,0,0:0:0:0:guitar 004.ogg
+486,192,63100,1,0,0:0:0:0:kick2.ogg
+128,192,63150,1,0,0:0:0:0:7-vc-03.ogg
+76,192,63200,1,0,0:0:0:0:2-ep-05.ogg
+179,192,63200,1,0,0:0:0:0:brass 078.ogg
+230,192,63200,1,0,0:0:0:0:string 023.ogg
+281,192,63200,1,0,0:0:0:0:bass-13.ogg
+332,192,63200,1,0,0:0:0:0:guitar 005.ogg
+435,192,63200,1,0,0:0:0:0:kick.ogg
+25,192,63400,1,0,0:0:0:0:clap.ogg
+384,192,63400,1,0,0:0:0:0:guitar 002.ogg
+76,192,63500,1,0,0:0:0:0:2-ep-06.ogg
+128,192,63500,1,0,0:0:0:0:7-vc-04.ogg
+179,192,63500,1,0,0:0:0:0:brass 079.ogg
+435,192,63500,1,0,0:0:0:0:bass-14.ogg
+486,192,63500,1,0,0:0:0:0:kick.ogg
+25,192,63600,1,0,0:0:0:0:clap.ogg
+230,192,63600,1,0,0:0:0:0:string 023.ogg
+281,192,63600,1,0,0:0:0:0:snare.ogg
+384,192,63600,1,0,0:0:0:0:guitar 003.ogg
+332,192,63700,1,0,0:0:0:0:guitar 004.ogg
+128,192,63775,1,0,0:0:0:0:5-vc-13.ogg
+76,192,63900,1,0,0:0:0:0:5-vc-14.ogg
+179,192,64000,1,0,0:0:0:0:2-ep-07.ogg
+230,192,64000,1,0,0:0:0:0:string 023.ogg
+435,192,64000,1,0,0:0:0:0:bass-15.ogg
+486,192,64000,1,0,0:0:0:0:kick.ogg
+128,192,64025,1,0,0:0:0:0:5-vc-15.ogg
+384,192,64200,1,0,0:0:0:0:guitar 001.ogg
+76,192,64300,1,0,0:0:0:0:5-vc-16.ogg
+332,192,64300,1,0,0:0:0:0:guitar 002.ogg
+230,192,64400,1,0,0:0:0:0:string 023.ogg
+281,192,64400,1,0,0:0:0:0:snare.ogg
+76,192,64450,1,0,0:0:0:0:5-vc-17.ogg
+384,192,64500,1,0,0:0:0:0:guitar 003.ogg
+25,192,64575,1,0,0:0:0:0:5-vc-18.ogg
+332,192,64600,1,0,0:0:0:0:guitar 004.ogg
+486,192,64700,1,0,0:0:0:0:kick2.ogg
+76,192,64800,1,0,0:0:0:0:5-vc-19.ogg
+128,192,64800,1,0,0:0:0:0:brass 078.ogg
+179,192,64800,1,0,0:0:0:0:2-ep-08.ogg
+230,192,64800,1,0,0:0:0:0:string 023.ogg
+281,192,64800,1,0,0:0:0:0:bass-16.ogg
+332,192,64800,1,0,0:0:0:0:guitar 005.ogg
+435,192,64800,1,0,0:0:0:0:kick.ogg
+76,192,65000,1,0,0:0:0:0:5-vc-20.ogg
+384,192,65000,1,0,0:0:0:0:guitar 002.ogg
+128,192,65100,1,0,0:0:0:0:brass 079.ogg
+179,192,65100,1,0,0:0:0:0:2-ep-09.ogg
+435,192,65100,1,0,0:0:0:0:bass-17.ogg
+486,192,65100,1,0,0:0:0:0:kick.ogg
+25,192,65200,1,0,0:0:0:0:5-vc-21.ogg
+230,192,65200,1,0,0:0:0:0:string 023.ogg
+281,192,65200,1,0,0:0:0:0:snare.ogg
+384,192,65200,1,0,0:0:0:0:guitar 003.ogg
+76,192,65300,1,0,0:0:0:0:5-vc-22.ogg
+332,192,65300,1,0,0:0:0:0:guitar 004.ogg
+128,192,65400,1,0,0:0:0:0:5-vc-23.ogg
+76,192,65550,1,0,0:0:0:0:7-vc-05.ogg
+25,192,65600,1,0,0:0:0:0:2-ep-10.ogg
+230,192,65600,1,0,0:0:0:0:string 023.ogg
+435,192,65600,1,0,0:0:0:0:bass-18.ogg
+486,192,65600,1,0,0:0:0:0:kick.ogg
+384,192,65800,1,0,0:0:0:0:guitar 001.ogg
+128,192,65900,1,0,0:0:0:0:7-vc-06.ogg
+332,192,65900,1,0,0:0:0:0:guitar 002.ogg
+230,192,66000,1,0,0:0:0:0:string 023.ogg
+281,192,66000,1,0,0:0:0:0:snare.ogg
+128,192,66100,1,0,0:0:0:0:7-vc-07.ogg
+384,192,66100,1,0,0:0:0:0:guitar 003.ogg
+76,192,66200,1,0,0:0:0:0:7-vc-08.ogg
+332,192,66200,1,0,0:0:0:0:guitar 004.ogg
+486,192,66300,1,0,0:0:0:0:kick2.ogg
+128,192,66400,1,0,0:0:0:0:7-vc-09.ogg
+179,192,66400,1,0,0:0:0:0:2-ep-11.ogg
+230,192,66400,1,0,0:0:0:0:string 023.ogg
+281,192,66400,1,0,0:0:0:0:bass-19.ogg
+332,192,66400,1,0,0:0:0:0:guitar 005.ogg
+435,192,66400,1,0,0:0:0:0:kick.ogg
+25,192,66600,1,0,0:0:0:0:clap.ogg
+384,192,66600,1,0,0:0:0:0:guitar 002.ogg
+486,192,66600,1,0,0:0:0:0:kick.ogg
+25,192,66800,1,0,0:0:0:0:clap.ogg
+128,192,66800,1,0,0:0:0:0:string 023.ogg
+281,192,66800,1,0,0:0:0:0:snare.ogg
+384,192,66800,1,0,0:0:0:0:guitar 003.ogg
+230,192,66800,128,0,67100:0:0:0:0:brass 042.ogg
+332,192,66900,1,0,0:0:0:0:guitar 004.ogg
+179,192,66975,1,0,0:0:0:0:7-vc-11.ogg
+128,192,67050,1,0,0:0:0:0:7-vc-12.ogg
+435,192,67175,1,0,0:0:0:0:7-vc-13.ogg
+25,192,67200,1,0,0:0:0:0:kick.ogg
+76,192,67200,1,0,0:0:0:0:bass-09.ogg
+281,192,67200,1,0,0:0:0:0:string 023.ogg
+332,192,67200,1,0,0:0:0:0:2-ep-01.ogg
+128,192,67400,1,0,0:0:0:0:guitar 001.ogg
+179,192,67500,1,0,0:0:0:0:guitar 002.ogg
+435,192,67500,1,0,0:0:0:0:7-vc-14.ogg
+230,192,67600,1,0,0:0:0:0:snare.ogg
+281,192,67600,1,0,0:0:0:0:string 023.ogg
+128,192,67700,1,0,0:0:0:0:guitar 003.ogg
+384,192,67750,1,0,0:0:0:0:7-vc-15.ogg
+179,192,67800,1,0,0:0:0:0:guitar 004.ogg
+25,192,67900,1,0,0:0:0:0:kick2.ogg
+435,192,67975,1,0,0:0:0:0:7-vc-16.ogg
+76,192,68000,1,0,0:0:0:0:kick.ogg
+179,192,68000,1,0,0:0:0:0:guitar 005.ogg
+230,192,68000,1,0,0:0:0:0:bass-10.ogg
+281,192,68000,1,0,0:0:0:0:string 023.ogg
+332,192,68000,1,0,0:0:0:0:brass 078.ogg
+384,192,68000,1,0,0:0:0:0:2-ep-02.ogg
+128,192,68200,1,0,0:0:0:0:guitar 002.ogg
+486,192,68200,1,0,0:0:0:0:clap.ogg
+435,192,68275,1,0,0:0:0:0:7-vc-17.ogg
+25,192,68300,1,0,0:0:0:0:kick.ogg
+76,192,68300,1,0,0:0:0:0:bass-11.ogg
+332,192,68300,1,0,0:0:0:0:brass 079.ogg
+384,192,68300,1,0,0:0:0:0:2-ep-03.ogg
+128,192,68400,1,0,0:0:0:0:guitar 003.ogg
+230,192,68400,1,0,0:0:0:0:snare.ogg
+281,192,68400,1,0,0:0:0:0:string 023.ogg
+486,192,68400,1,0,0:0:0:0:clap.ogg
+179,192,68500,1,0,0:0:0:0:guitar 004.ogg
+384,192,68600,1,0,0:0:0:0:7-vc-18.ogg
+332,192,68675,1,0,0:0:0:0:7-vc-19.ogg
+384,192,68775,1,0,0:0:0:0:7-vc-20.ogg
+25,192,68800,1,0,0:0:0:0:kick.ogg
+76,192,68800,1,0,0:0:0:0:bass-12.ogg
+281,192,68800,1,0,0:0:0:0:string 023.ogg
+435,192,68800,1,0,0:0:0:0:2-ep-04.ogg
+128,192,69000,1,0,0:0:0:0:guitar 001.ogg
+179,192,69100,1,0,0:0:0:0:guitar 002.ogg
+384,192,69125,1,0,0:0:0:0:7-vc-21.ogg
+230,192,69200,1,0,0:0:0:0:snare.ogg
+281,192,69200,1,0,0:0:0:0:string 023.ogg
+128,192,69300,1,0,0:0:0:0:guitar 003.ogg
+179,192,69400,1,0,0:0:0:0:guitar 004.ogg
+332,192,69400,1,0,0:0:0:0:7-vc-22.ogg
+25,192,69500,1,0,0:0:0:0:kick2.ogg
+384,192,69575,1,0,0:0:0:0:7-vc-23.ogg
+76,192,69600,1,0,0:0:0:0:kick.ogg
+179,192,69600,1,0,0:0:0:0:guitar 005.ogg
+230,192,69600,1,0,0:0:0:0:bass-13.ogg
+281,192,69600,1,0,0:0:0:0:string 023.ogg
+332,192,69600,1,0,0:0:0:0:brass 080.ogg
+435,192,69600,1,0,0:0:0:0:2-ep-05.ogg
+128,192,69800,1,0,0:0:0:0:guitar 002.ogg
+486,192,69800,1,0,0:0:0:0:clap.ogg
+332,192,69875,1,0,0:0:0:0:7-vc-24.ogg
+25,192,69900,1,0,0:0:0:0:kick.ogg
+76,192,69900,1,0,0:0:0:0:bass-14.ogg
+384,192,69900,1,0,0:0:0:0:brass 081.ogg
+435,192,69900,1,0,0:0:0:0:2-ep-06.ogg
+128,192,70000,1,0,0:0:0:0:guitar 003.ogg
+230,192,70000,1,0,0:0:0:0:snare.ogg
+281,192,70000,1,0,0:0:0:0:string 023.ogg
+486,192,70000,1,0,0:0:0:0:clap.ogg
+179,192,70100,1,0,0:0:0:0:guitar 004.ogg
+384,192,70200,1,0,0:0:0:0:7-vc-25.ogg
+332,192,70300,1,0,0:0:0:0:7-vc-26.ogg
+384,192,70375,1,0,0:0:0:0:7-vc-27.ogg
+25,192,70400,1,0,0:0:0:0:kick.ogg
+76,192,70400,1,0,0:0:0:0:bass-15.ogg
+281,192,70400,1,0,0:0:0:0:string 023.ogg
+435,192,70400,1,0,0:0:0:0:2-ep-07.ogg
+128,192,70600,1,0,0:0:0:0:guitar 001.ogg
+179,192,70700,1,0,0:0:0:0:guitar 002.ogg
+384,192,70700,1,0,0:0:0:0:7-vc-28.ogg
+230,192,70800,1,0,0:0:0:0:snare.ogg
+281,192,70800,1,0,0:0:0:0:string 023.ogg
+128,192,70900,1,0,0:0:0:0:guitar 003.ogg
+384,192,70900,1,0,0:0:0:0:7-vc-29.ogg
+179,192,71000,1,0,0:0:0:0:guitar 004.ogg
+332,192,71000,1,0,0:0:0:0:7-vc-30.ogg
+25,192,71100,1,0,0:0:0:0:kick2.ogg
+435,192,71125,1,0,0:0:0:0:7-vc-31.ogg
+76,192,71200,1,0,0:0:0:0:kick.ogg
+179,192,71200,1,0,0:0:0:0:guitar 005.ogg
+230,192,71200,1,0,0:0:0:0:bass-16.ogg
+281,192,71200,1,0,0:0:0:0:string 023.ogg
+384,192,71200,1,0,0:0:0:0:2-ep-08.ogg
+128,192,71400,1,0,0:0:0:0:guitar 002.ogg
+25,192,71500,1,0,0:0:0:0:kick.ogg
+76,192,71500,1,0,0:0:0:0:bass-17.ogg
+384,192,71500,1,0,0:0:0:0:2-ep-09.ogg
+435,192,71500,1,0,0:0:0:0:7-vc-32.ogg
+128,192,71600,1,0,0:0:0:0:guitar 003.ogg
+230,192,71600,1,0,0:0:0:0:snare.ogg
+281,192,71600,1,0,0:0:0:0:string 023.ogg
+179,192,71700,1,0,0:0:0:0:guitar 004.ogg
+435,192,71700,1,0,0:0:0:0:7-vc-33.ogg
+486,192,71800,1,0,0:0:0:0:7-vc-34.ogg
+25,192,72000,1,0,0:0:0:0:bass-20.ogg
+76,192,72000,1,0,0:0:0:0:guitar 001.ogg
+128,192,72000,1,0,0:0:0:0:kick.ogg
+230,192,72000,1,0,0:0:0:0:snare.ogg
+281,192,72000,1,0,0:0:0:0:string 023.ogg
+332,192,72000,1,0,0:0:0:0:2-ep-16.ogg
+384,192,72000,1,0,0:0:0:0:7-vc-35.ogg
+384,192,72300,1,0,0:0:0:0:7-vc-36.ogg
+435,192,72500,128,0,72825:0:0:0:0:7-vc-37.ogg
+384,192,72825,1,0,0:0:0:0:7-vc-38.ogg

@@ -1,0 +1,648 @@
+osu file format v14
+
+[General]
+AudioFilename: sayang.mp3
+AudioLeadIn: 0
+PreviewTime: 56074
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1.5
+
+[Metadata]
+Title:Mikansei Stride
+TitleUnicode:未完成ストライド
+Artist:Codama Saori
+ArtistUnicode:こだまさおり
+Creator:hikikuman
+Version:HD
+Source:氷菓
+Tags:Hyouka Opening 1 TV SIZE Chitanda Eru Oreki Houtarou yuleee
+BeatmapID:923006
+BeatmapSetID:427559
+
+[Difficulty]
+HPDrainRate:8
+CircleSize:4
+OverallDifficulty:8
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Mikansei Stride.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+1109,410.958904109589,4,2,1,50,1,0
+56999,-100,4,2,1,50,0,1
+68506,-100,4,2,1,50,0,0
+70150,-100,4,2,1,50,0,1
+83300,-100,4,2,1,50,0,0
+
+
+[HitObjects]
+320,192,1109,5,0,0:0:0:30:LR_Drum Click.wav
+64,192,1109,1,0,0:0:0:0:
+320,192,1314,1,0,0:0:0:30:LR_Drum Click.wav
+64,192,1314,1,0,0:0:0:0:
+320,192,1519,1,0,0:0:0:30:LR_Drum Click.wav
+64,192,1519,1,0,0:0:0:0:
+448,192,2136,1,0,0:0:0:30:LR_Drum Click.wav
+192,192,2136,1,0,0:0:0:0:
+448,192,2341,1,0,0:0:0:30:LR_Drum Click.wav
+192,192,2341,1,0,0:0:0:0:
+448,192,2547,1,0,0:0:0:30:LR_Drum Click.wav
+192,192,2547,1,0,0:0:0:0:
+64,192,3985,128,0,4396:0:0:0:60:LR_Drum EDge.wav
+448,192,4396,1,0,0:0:0:30:LR_Drum Click.wav
+320,192,4396,1,0,0:0:0:0:
+448,192,4602,1,0,0:0:0:30:LR_Drum Click.wav
+320,192,4602,1,0,0:0:0:0:
+448,192,4807,1,0,0:0:0:30:LR_Drum Click.wav
+320,192,4807,1,0,0:0:0:0:
+64,192,5424,1,0,0:0:0:30:LR_Drum Click.wav
+192,192,5424,1,0,0:0:0:0:
+64,192,5629,1,0,0:0:0:30:LR_Drum Click.wav
+192,192,5629,1,0,0:0:0:0:
+64,192,5835,1,0,0:0:0:30:LR_Drum Click.wav
+192,192,5835,1,0,0:0:0:0:
+320,192,6245,1,0,0:0:0:25:LR_Drum Kick Low.wav
+448,192,6245,1,0,0:0:0:0:
+64,192,6451,1,0,0:0:0:50:LR_Drum Finish.wav
+448,192,6451,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+192,192,6451,1,0,0:0:0:15:LR_Ride Fast.wav
+192,192,6759,1,0,0:0:0:45:LR_Drum Hit Clap Sn.wav
+448,192,6862,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+320,192,6862,1,0,0:0:0:0:
+64,192,6965,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+192,192,6965,1,0,0:0:0:0:
+448,192,7067,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+320,192,7067,1,0,0:0:0:0:
+64,192,7170,1,0,0:0:0:45:LR_Drum Hit Clap Sn.wav
+192,192,7273,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+320,192,7273,1,0,0:0:0:0:
+64,192,7376,1,0,0:0:0:30:LR_Drum Hit Drop High.wav
+448,192,7376,1,0,0:0:0:0:
+192,192,7478,1,0,0:0:0:50:LR_Drum Beat Low.wav
+448,192,7684,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,7684,1,0,0:0:0:60:LR_Drum Crush FInish.wav
+64,192,7684,128,0,7889:0:0:0:25:LR_Drum Fast Hit Click.wav
+320,192,7889,128,0,8095:0:0:0:25:LR_Drum Fast Hit Click.wav
+448,192,8095,128,0,8300:0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,8095,1,0,0:0:0:40:LR_Drum Rpd Fast .wav
+192,192,8095,1,0,0:0:0:0:
+192,192,8300,128,0,8506:0:0:0:25:LR_Drum Fast Hit Click.wav
+448,192,8506,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,8506,128,0,8711:0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,8711,128,0,8917:0:0:0:25:LR_Drum Fast Hit Click.wav
+192,192,8917,128,0,9122:0:0:0:25:LR_Drum Fast Hit Click.wav
+448,192,8917,1,0,0:0:0:40:LR_Drum Rpd Fast .wav
+320,192,8917,1,0,0:0:0:0:
+448,192,9122,128,0,9328:0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,9328,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,9328,128,0,9533:0:0:0:25:LR_Drum Fast Hit Click.wav
+192,192,9533,128,0,9739:0:0:0:25:LR_Drum Fast Hit Click.wav
+448,192,9739,1,0,0:0:0:40:LR_Drum Rpd Fast .wav
+64,192,9739,128,0,9944:0:0:0:25:LR_Drum Fast Hit Click.wav
+320,192,9739,1,0,0:0:0:0:
+320,192,9944,128,0,10355:0:0:0:25:LR_Drum Fast Hit Click.wav
+192,192,10150,1,0,0:0:0:20:LR_Drum Hit Beat Long.wav
+64,192,10355,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+192,192,10458,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,10561,1,0,0:0:0:20:LR_Drum Rpd Fast .wav
+448,192,10561,1,0,0:0:0:0:
+320,192,10561,128,0,10766:0:0:0:25:LR_Drum Fast Hit Click.wav
+192,192,10766,128,0,10972:0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,10972,128,0,11177:0:0:0:25:LR_Drum Fast Hit Click.wav
+448,192,10972,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,11177,128,0,11382:0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,11382,1,0,0:0:0:40:LR_Drum Rpd Fast .wav
+448,192,11382,128,0,11588:0:0:0:25:LR_Drum Fast Hit Click.wav
+192,192,11382,1,0,0:0:0:0:
+192,192,11588,128,0,11793:0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,11793,128,0,11999:0:0:0:25:LR_Drum Fast Hit Click.wav
+448,192,11793,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,11999,128,0,12204:0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,12204,1,0,0:0:0:40:LR_Drum Rpd Fast .wav
+192,192,12204,128,0,12410:0:0:0:25:LR_Drum Fast Hit Click.wav
+448,192,12204,1,0,0:0:0:0:
+448,192,12410,128,0,12615:0:0:0:25:LR_Drum Fast Hit Click.wav
+320,192,12615,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+64,192,12615,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+192,192,12718,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+320,192,12821,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+448,192,12924,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,13026,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+320,192,13026,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+192,192,13129,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+320,192,13232,128,0,13540:0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,13437,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+192,192,13643,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+448,192,13643,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,13745,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+320,192,13848,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+448,192,13848,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,14054,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+192,192,14054,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+320,192,14156,1,0,0:0:0:20:LR_Drum Hit Echo.wav
+448,192,14156,1,0,0:0:0:0:
+64,192,14259,1,0,0:0:0:25:LR_Drum Kick Low.wav
+192,192,14259,128,0,15903:0:0:0:0:
+448,192,14670,1,0,0:0:0:25:LR_Drum Kick Low.wav
+320,192,15081,1,0,0:0:0:25:LR_Drum Kick Low.wav
+64,192,15492,1,0,0:0:0:25:LR_Drum Kick Low.wav
+448,192,15903,1,0,0:0:0:0:
+320,192,15903,128,0,17547:0:0:0:0:
+64,192,16314,1,0,0:0:0:25:LR_Drum Kick Low.wav
+448,192,16725,1,0,0:0:0:25:LR_Drum Kick Low.wav
+192,192,17136,1,0,0:0:0:25:LR_Drum Kick Low.wav
+64,192,17547,1,0,0:0:0:12:LR_Drum Kick Low.wav
+448,192,17547,128,0,19191:0:0:0:0:
+192,192,17958,1,0,0:0:0:25:LR_Drum Kick Low.wav
+320,192,18369,1,0,0:0:0:25:LR_Drum Kick Low.wav
+64,192,18780,1,0,0:0:0:25:LR_Drum Kick Low.wav
+320,192,19191,1,0,0:0:0:12:LR_Drum Kick Low.wav
+192,192,19191,128,0,20835:0:0:0:0:
+448,192,19602,1,0,0:0:0:25:LR_Drum Kick Low.wav
+64,192,20013,1,0,0:0:0:25:LR_Drum Kick Low.wav
+320,192,20424,1,0,0:0:0:25:LR_Drum Kick Low.wav
+64,192,20835,1,0,0:0:0:12:LR_Drum Kick Low.wav
+448,192,20835,128,0,22478:0:0:0:0:
+320,192,21245,1,0,0:0:0:25:LR_Drum Kick Low.wav
+192,192,21656,1,0,0:0:0:25:LR_Drum Kick Low.wav
+64,192,22067,1,0,0:0:0:25:LR_Drum Kick Low.wav
+192,192,22478,1,0,0:0:0:12:LR_Drum Kick Low.wav
+320,192,22478,128,0,24122:0:0:0:0:
+448,192,22889,1,0,0:0:0:25:LR_Drum Kick Low.wav
+64,192,23300,1,0,0:0:0:25:LR_Drum Kick Low.wav
+192,192,23711,1,0,0:0:0:25:LR_Drum Kick Low.wav
+448,192,24122,1,0,0:0:0:12:LR_Drum Kick Low.wav
+64,192,24122,128,0,25766:0:0:0:0:
+192,192,24533,1,0,0:0:0:25:LR_Drum Kick Low.wav
+448,192,24944,1,0,0:0:0:25:LR_Drum Kick Low.wav
+320,192,25355,1,0,0:0:0:25:LR_Drum Kick Low.wav
+192,192,25766,1,0,0:0:0:12:LR_Drum Kick Low.wav
+448,192,25766,128,0,27410:0:0:0:0:
+320,192,26177,1,0,0:0:0:25:LR_Drum Kick Low.wav
+64,192,26382,128,0,26588:0:0:0:70:
+320,192,26588,128,0,26793:0:0:0:25:LR_Drum Kick Low.wav
+192,192,26793,128,0,26999:0:0:0:70:
+320,192,26999,128,0,27204:0:0:0:35:LR_Drum Rpd Fast .wav
+64,192,26999,1,0,0:0:0:35:LR_Drum Rpd Fast .wav
+64,192,27204,1,0,0:0:0:40:LR_Drum Hit Drop High.wav
+192,192,27307,1,0,0:0:0:40:LR_Drum Hit Drop High.wav
+320,192,27410,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+64,192,27410,128,0,27615:0:0:0:45:LR_Drum Crush FInish.wav
+320,192,27615,128,0,27821:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,27821,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+448,192,27821,1,0,0:0:0:0:
+192,192,28026,128,0,28232:0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,28232,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+320,192,28437,128,0,28643:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,28643,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+448,192,28643,1,0,0:0:0:0:
+192,192,28848,128,0,29054:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,29054,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+320,192,29054,128,0,29259:0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,29259,128,0,29465:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,29465,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+192,192,29465,1,0,0:0:0:0:
+320,192,29670,128,0,29876:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,29876,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+192,192,30081,128,0,30287:0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,30287,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+320,192,30287,1,0,0:0:0:0:
+64,192,30492,128,0,30698:0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,30698,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+192,192,30698,128,0,30903:0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,30903,128,0,31109:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,31109,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+448,192,31109,1,0,0:0:0:0:
+192,192,31314,128,0,31519:0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,31519,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+64,192,31725,128,0,31930:0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,31930,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+192,192,31930,1,0,0:0:0:0:
+448,192,32136,128,0,32341:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,32341,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+192,192,32341,128,0,32547:0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,32547,128,0,32752:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,32752,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+448,192,32752,1,0,0:0:0:0:
+192,192,32958,128,0,33163:0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,33163,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+64,192,33369,128,0,33574:0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,33574,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+320,192,33574,1,0,0:0:0:0:
+192,192,33780,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,33882,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,33985,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+320,192,33985,128,0,34191:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,34191,128,0,34396:0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,34396,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+192,192,34396,1,0,0:0:0:0:
+320,192,34602,128,0,34807:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,34807,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+192,192,35013,128,0,35218:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,35218,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+320,192,35218,1,0,0:0:0:0:
+448,192,35424,128,0,35629:0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,35629,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+192,192,35629,128,0,35835:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,35835,128,0,36040:0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,36040,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+192,192,36040,1,0,0:0:0:0:
+320,192,36245,128,0,36451:0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,36451,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+192,192,36656,128,0,36862:0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,36862,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+64,192,36862,1,0,0:0:0:0:
+448,192,37067,128,0,37273:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,37273,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+320,192,37273,128,0,37478:0:0:0:30:LR_Drum Fast Hit Click.wav
+192,192,37478,128,0,37684:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,37684,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+448,192,37684,1,0,0:0:0:0:
+320,192,37889,128,0,38095:0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,38095,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+192,192,38095,128,0,38300:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,38300,128,0,38506:0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,38506,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+320,192,38506,1,0,0:0:0:0:
+192,192,38711,128,0,38917:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,38917,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+448,192,38917,128,0,39122:0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,39122,128,0,39328:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,39328,1,0,0:0:0:40:LR_Drum Rim Fast.wav
+192,192,39328,1,0,0:0:0:0:
+448,192,39533,128,0,39944:0:0:0:15:LR_Ride Fast.wav
+320,192,39533,1,0,0:0:0:15:LR_Ride FInish.wav
+64,192,39739,1,0,0:0:0:30:LR_Drum Hit Beat Long.wav
+320,192,39944,1,0,0:0:0:70:LR_Drum Hit Drop High.wav
+192,192,39944,1,0,0:0:0:0:
+448,192,40150,1,0,0:0:0:70:LR_Drum Hit Drop High.wav
+320,192,40150,1,0,0:0:0:0:
+64,192,40252,1,0,0:0:0:70:LR_Drum Hit Drop High.wav
+192,192,40252,1,0,0:0:0:0:
+320,192,40355,1,0,0:0:0:25:LR_Drum Beat Low.wav
+192,192,40561,1,0,0:0:0:15:LR_Ride Fast.wav
+64,192,40561,128,0,42204:0:0:0:25:LR_Drum Hit Beat Long.wav
+448,192,40561,1,0,0:0:0:30:LR_Drum Finish.wav
+448,192,40972,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,41177,1,0,0:0:0:70:LR_Tom Hit.wav
+192,192,41177,1,0,0:0:0:0:
+320,192,41588,1,0,0:0:0:25:LR_Drum Kick Low.wav
+448,192,41793,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+192,192,41793,1,0,0:0:0:0:
+320,192,41999,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,42204,1,0,0:0:0:30:LR_Drum Kick Low.wav
+192,192,42204,128,0,42410:0:0:0:0:
+64,192,42410,1,0,0:0:0:70:LR_Tom Hit.wav
+320,192,42410,128,0,42615:0:0:0:0:
+192,192,42615,1,0,0:0:0:30:LR_Drum Kick Low.wav
+448,192,42615,128,0,42821:0:0:0:0:
+64,192,42821,1,0,0:0:0:70:LR_Tom Hit.wav
+320,192,42821,128,0,43026:0:0:0:0:
+192,192,43026,128,0,43232:0:0:0:50:LR_Tom Hit 3.wav
+448,192,43232,1,0,0:0:0:30:LR_Tom Hit 3.wav
+320,192,43232,128,0,43437:0:0:0:50:LR_Tom Hit 3.wav
+64,192,43437,1,0,0:0:0:60:LR_Tom Hit 2.wav
+192,192,43848,1,0,0:0:0:25:LR_Drum Kick Low.wav
+448,192,43848,128,0,44465:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,44259,1,0,0:0:0:15:LR_Drum Fast Hit Click.wav
+192,192,44465,1,0,0:0:0:15:LR_Ride Fast.wav
+320,192,44465,128,0,45492:0:0:0:25:LR_Drum Crush FInish.wav
+192,192,44876,1,0,0:0:0:70:LR_Tom Hit.wav
+64,192,44876,1,0,0:0:0:0:
+448,192,45081,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+64,192,45081,1,0,0:0:0:0:
+448,192,45492,128,0,45698:0:0:0:30:LR_Drum Kick Low.wav
+64,192,45492,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+320,192,45698,128,0,45903:0:0:0:60:LR_Tom Hit 3.wav
+192,192,45698,1,0,0:0:0:0:
+64,192,45903,128,0,46108:0:0:0:60:LR_Tom Hit.wav
+448,192,45903,1,0,0:0:0:0:
+192,192,46108,128,0,47136:0:0:0:60:LR_Tom Hit 3.wav
+320,192,46108,1,0,0:0:0:0:
+320,192,46519,1,0,0:0:0:25:LR_Drum Kick Low.wav
+64,192,46725,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+448,192,46725,1,0,0:0:0:0:
+448,192,47136,128,0,48163:0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,47136,1,0,0:0:0:25:LR_Drum Kick Low.wav
+64,192,47752,1,0,0:0:0:60:LR_Tom Hit 3.wav
+320,192,48163,128,0,48780:0:0:0:30:LR_Tom Hit 2.wav
+192,192,48163,1,0,0:0:0:30:LR_Tom Hit 2.wav
+448,192,48369,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+64,192,48369,1,0,0:0:0:45:LR_Drum Finish.wav
+64,192,48780,128,0,48985:0:0:0:30:LR_Drum Kick Low.wav
+192,192,48780,1,0,0:0:0:0:
+448,192,48985,128,0,49191:0:0:0:70:LR_Tom Hit.wav
+320,192,48985,1,0,0:0:0:0:
+192,192,49191,128,0,49396:0:0:0:30:LR_Tom Hit.wav
+64,192,49396,128,0,49602:0:0:0:70:LR_Tom Hit.wav
+320,192,49396,1,0,0:0:0:0:
+192,192,49602,128,0,49807:0:0:0:45:LR_Tom Hit 3.wav
+448,192,49602,1,0,0:0:0:25:LR_Drum Kick Low.wav
+320,192,49807,128,0,50013:0:0:0:45:LR_Tom Hit 3.wav
+64,192,49807,1,0,0:0:0:25:LR_Drum Kick Low.wav
+192,192,50013,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+448,192,50013,1,0,0:0:0:0:
+448,192,50424,1,0,0:0:0:50:LR_Drum Finish.wav
+320,192,50424,1,0,0:0:0:30:LR_Drum Kick Low.wav
+64,192,50424,128,0,50835:0:0:0:25:LR_Drum Fast Hit Click.wav
+320,192,50835,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+192,192,51040,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+320,192,51245,1,0,0:0:0:30:LR_Drum Kick Low.wav
+448,192,51245,128,0,51656:0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,51656,1,0,0:0:0:20:LR_Drum Hit Soft Normal.wav
+192,192,51656,1,0,0:0:0:15:LR_Ride Fast.wav
+320,192,51862,128,0,52067:0:0:0:25:LR_Drum Fast Hit Click.wav
+448,192,52067,1,0,0:0:0:30:LR_Drum Kick Low.wav
+192,192,52273,128,0,52478:0:0:0:25:LR_Drum Fast Hit Click.wav
+448,192,52478,1,0,0:0:0:30:LR_Drum Kick Low.wav
+320,192,52684,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,52889,128,0,53300:0:0:0:25:LR_Drum Fast Hit Click.wav
+192,192,52889,1,0,0:0:0:30:LR_Drum Kick Low.wav
+320,192,53300,1,0,0:0:0:20:LR_Drum Hit Soft Normal.wav
+448,192,53300,1,0,0:0:0:15:LR_Ride Fast.wav
+192,192,53506,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+320,192,53608,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+64,192,53711,1,0,0:0:0:30:LR_Drum Kick Low.wav
+448,192,53711,128,0,55355:0:0:0:25:LR_Drum Fast Hit Click.wav
+320,192,54122,1,0,0:0:0:30:LR_Drum Kick Low.wav
+192,192,54533,1,0,0:0:0:30:LR_Drum Kick Low.wav
+64,192,54944,128,0,55355:0:0:0:50:LR_Drum Crush FInish.wav
+320,192,54944,1,0,0:0:0:50:LR_Drum Rpd Fast .wav
+192,192,55355,1,0,0:0:0:15:LR_Drum Kick Low.wav
+320,192,55355,1,0,0:0:0:25:LR_Drum Fast Hit Click.wav
+448,192,55766,1,0,0:0:0:15:LR_Drum Hit Echo.wav
+64,192,55766,1,0,0:0:0:45:LR_Drum Finish.wav
+320,192,55766,1,0,0:0:0:15:LR_Ride Fast.wav
+192,192,56074,1,0,0:0:0:15:LR_Drum Rim Fast.wav
+320,192,56126,1,0,0:0:0:15:LR_Drum Rim Fast.wav
+64,192,56177,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+448,192,56177,1,0,0:0:0:0:
+192,192,56280,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+320,192,56280,1,0,0:0:0:0:
+64,192,56382,1,0,0:0:0:80:LR_Tom Hit 3.wav
+448,192,56382,1,0,0:0:0:0:
+192,192,56588,1,0,0:0:0:60:LR_Drum Hit Drop High.wav
+320,192,56588,1,0,0:0:0:0:
+64,192,56793,1,0,0:0:0:60:LR_Drum Hit Drop High.wav
+192,192,56793,1,0,0:0:0:0:
+448,192,56896,1,0,0:0:0:60:LR_Drum Hit Drop High.wav
+320,192,56896,1,0,0:0:0:0:
+192,192,56999,1,0,0:0:0:15:LR_Ride Fast.wav
+64,192,56999,128,0,58643:0:0:0:45:LR_Drum Crush FInish.wav
+448,192,56999,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,57204,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,57410,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+320,192,57410,1,0,0:0:0:0:
+192,192,57615,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,57821,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+448,192,58026,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+192,192,58232,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+320,192,58232,1,0,0:0:0:0:
+448,192,58437,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+192,192,58643,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,58643,128,0,60287:0:0:0:0:
+448,192,58848,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,59054,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+192,192,59054,1,0,0:0:0:0:
+448,192,59259,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+192,192,59465,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+64,192,59670,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,59876,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+192,192,59876,1,0,0:0:0:0:
+64,192,60081,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+192,192,60287,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+448,192,60287,128,0,61725:0:0:0:0:
+320,192,60492,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,60698,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+192,192,60698,1,0,0:0:0:0:
+320,192,60903,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,61108,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+192,192,61314,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,61519,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+64,192,61519,1,0,0:0:0:0:
+192,192,61725,128,0,61930:0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,61930,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+64,192,61930,128,0,62136:0:0:0:0:
+448,192,62136,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+192,192,62136,128,0,62341:0:0:0:0:
+320,192,62341,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+64,192,62341,128,0,62547:0:0:0:0:
+192,192,62547,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,62650,1,0,0:0:0:50:LR_Drum Hit Clap Sn.wav
+64,192,62752,1,0,0:0:0:50:LR_Drum Hit Clap Sn.wav
+448,192,62752,128,0,62958:0:0:0:0:
+192,192,62855,1,0,0:0:0:50:LR_Drum Hit Clap Sn.wav
+320,192,62958,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,63163,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+64,192,63163,128,0,63369:0:0:0:0:
+192,192,63369,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,63574,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+448,192,63574,128,0,63780:0:0:0:15:LR_Ride Fast.wav
+64,192,63574,1,0,0:0:0:45:LR_Drum Crush FInish.wav
+192,192,63780,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,63780,128,0,63985:0:0:0:0:
+320,192,63985,128,0,65218:0:0:0:60:LR_Drum Rpd Fast .wav
+448,192,63985,1,0,0:0:0:0:
+64,192,64191,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,64396,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+192,192,64602,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,64807,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+192,192,64807,1,0,0:0:0:0:
+448,192,65013,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+192,192,65218,128,0,66862:0:0:0:35:LR_Drum Hit Beat Long.wav
+64,192,65218,1,0,0:0:0:0:
+448,192,65424,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,65629,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+448,192,65629,1,0,0:0:0:0:
+64,192,65835,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,66040,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,66245,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,66451,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+320,192,66451,1,0,0:0:0:0:
+448,192,66656,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+448,192,66862,128,0,67889:0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,66862,1,0,0:0:0:0:
+64,192,67067,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+192,192,67273,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+64,192,67273,1,0,0:0:0:0:
+320,192,67478,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+192,192,67684,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,67889,128,0,68095:0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,67889,1,0,0:0:0:0:
+192,192,68095,128,0,68300:0:0:0:60:LR_Drum Rpd Fast .wav
+448,192,68095,1,0,0:0:0:0:
+64,192,68300,128,0,68506:0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,68300,1,0,0:0:0:0:
+448,192,68506,128,0,68711:0:0:0:35:LR_Drum Hit Beat Long.wav
+192,192,68506,1,0,0:0:0:0:
+192,192,68711,128,0,68917:0:0:0:30:LR_Drum Fast Hit Click.wav
+320,192,68711,1,0,0:0:0:0:
+64,192,68917,128,0,69122:0:0:0:60:LR_Drum Rpd Fast .wav
+448,192,68917,1,0,0:0:0:0:
+320,192,69122,1,0,0:0:0:30:LR_Drum Fast Hit Click.wav
+64,192,69328,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+448,192,69328,1,0,0:0:0:0:
+192,192,69430,1,0,0:0:0:60:LR_Drum Hit Drop High.wav
+320,192,69430,1,0,0:0:0:0:
+64,192,69533,1,0,0:0:0:60:LR_Drum Hit Drop High.wav
+448,192,69533,1,0,0:0:0:0:
+192,192,69739,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+320,192,69739,1,0,0:0:0:0:
+448,192,69944,1,0,0:0:0:60:LR_Drum Hit Drop High.wav
+320,192,69944,1,0,0:0:0:0:
+64,192,70047,1,0,0:0:0:60:LR_Drum Hit Drop High.wav
+192,192,70047,1,0,0:0:0:0:
+64,192,70150,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+448,192,70150,128,0,71793:0:0:0:45:LR_Drum Crush FInish.wav
+320,192,70150,1,0,0:0:0:15:LR_Ride Fast.wav
+192,192,70355,1,0,0:0:0:50:LR_Drum Whistle.wav
+64,192,70561,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+192,192,70561,1,0,0:0:0:0:
+320,192,70766,1,0,0:0:0:50:LR_Drum Whistle.wav
+64,192,70972,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+192,192,71177,1,0,0:0:0:50:LR_Drum Whistle.wav
+320,192,71382,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+192,192,71382,1,0,0:0:0:0:
+64,192,71588,1,0,0:0:0:50:LR_Drum Whistle.wav
+320,192,71793,128,0,73437:0:0:0:35:LR_Drum Hit Beat Long.wav
+192,192,71793,1,0,0:0:0:0:
+64,192,71999,1,0,0:0:0:50:LR_Drum Whistle.wav
+448,192,72204,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+64,192,72204,1,0,0:0:0:0:
+192,192,72410,1,0,0:0:0:50:LR_Drum Whistle.wav
+448,192,72615,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+64,192,72821,1,0,0:0:0:50:LR_Drum Whistle.wav
+192,192,73026,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+64,192,73026,1,0,0:0:0:0:
+448,192,73232,1,0,0:0:0:50:LR_Drum Whistle.wav
+64,192,73437,128,0,74670:0:0:0:35:LR_Drum Hit Beat Long.wav
+192,192,73437,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+448,192,73643,1,0,0:0:0:50:LR_Drum Whistle.wav
+320,192,73848,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+448,192,73848,1,0,0:0:0:0:
+192,192,74054,1,0,0:0:0:50:LR_Drum Whistle.wav
+448,192,74259,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,74465,1,0,0:0:0:50:LR_Drum Whistle.wav
+192,192,74670,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+320,192,74670,1,0,0:0:0:0:
+448,192,74876,128,0,75287:0:0:0:50:LR_Drum Whistle.wav
+192,192,75081,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,75287,128,0,75492:0:0:0:50:LR_Drum Whistle.wav
+64,192,75492,128,0,75698:0:0:0:60:LR_Drum Rpd Fast .wav
+448,192,75492,1,0,0:0:0:0:
+192,192,75698,1,0,0:0:0:50:LR_Drum Whistle.wav
+320,192,75903,128,0,76109:0:0:0:35:LR_Drum Hit Beat Long.wav
+448,192,75903,1,0,0:0:0:0:
+192,192,76109,128,0,76314:0:0:0:50:LR_Drum Whistle.wav
+448,192,76314,128,0,76519:0:0:0:60:LR_Drum Rpd Fast .wav
+64,192,76314,1,0,0:0:0:0:
+320,192,76519,1,0,0:0:0:50:LR_Drum Whistle.wav
+448,192,76725,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+192,192,76725,1,0,0:0:0:15:LR_Ride Fast.wav
+64,192,76725,128,0,78369:0:0:0:45:LR_Drum Crush FInish.wav
+320,192,76930,1,0,0:0:0:50:LR_Drum Whistle.wav
+192,192,77136,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+320,192,77136,1,0,0:0:0:0:
+448,192,77341,1,0,0:0:0:50:LR_Drum Whistle.wav
+192,192,77547,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,77752,1,0,0:0:0:50:LR_Drum Whistle.wav
+448,192,77958,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+320,192,77958,1,0,0:0:0:0:
+192,192,78163,1,0,0:0:0:50:LR_Drum Whistle.wav
+192,192,78369,128,0,80013:0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,78369,1,0,0:0:0:0:
+448,192,78574,1,0,0:0:0:50:LR_Drum Whistle.wav
+64,192,78780,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+448,192,78780,1,0,0:0:0:0:
+320,192,78985,1,0,0:0:0:50:LR_Drum Whistle.wav
+448,192,79191,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+64,192,79396,1,0,0:0:0:50:LR_Drum Whistle.wav
+320,192,79602,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+64,192,79602,1,0,0:0:0:0:
+448,192,79807,1,0,0:0:0:50:LR_Drum Whistle.wav
+64,192,80013,128,0,80218:0:0:0:35:LR_Drum Hit Beat Long.wav
+320,192,80013,1,0,0:0:0:0:
+448,192,80218,128,0,80424:0:0:0:50:LR_Drum Whistle.wav
+192,192,80218,1,0,0:0:0:0:
+320,192,80424,128,0,81656:0:0:0:60:LR_Drum Rpd Fast .wav
+64,192,80424,1,0,0:0:0:0:
+192,192,80629,1,0,0:0:0:50:LR_Drum Whistle.wav
+448,192,80835,1,0,0:0:0:35:LR_Drum Hit Beat Long.wav
+64,192,81040,1,0,0:0:0:50:LR_Drum Whistle.wav
+192,192,81245,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+64,192,81245,1,0,0:0:0:0:
+448,192,81451,1,0,0:0:0:50:LR_Drum Whistle.wav
+448,192,81656,128,0,83300:0:0:0:35:LR_Drum Hit Beat Long.wav
+192,192,81656,1,0,0:0:0:0:
+64,192,81862,1,0,0:0:0:50:LR_Drum Whistle.wav
+192,192,82067,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+64,192,82067,1,0,0:0:0:0:
+320,192,82273,1,0,0:0:0:25:LR_Drum Hit Clap Sn.wav
+192,192,82376,1,0,0:0:0:25:LR_Drum Hit Clap Sn.wav
+64,192,82478,1,0,0:0:0:60:LR_Drum Hit Drop High.wav
+320,192,82478,1,0,0:0:0:0:
+192,192,82684,1,0,0:0:0:25:LR_Drum Hit Clap Sn.wav
+320,192,82787,1,0,0:0:0:25:LR_Drum Hit Clap Sn.wav
+64,192,82889,1,0,0:0:0:60:LR_Drum Hit Drop High.wav
+192,192,82889,1,0,0:0:0:0:
+320,192,83095,1,0,0:0:0:35:LR_Drum Hit Drop High.wav
+192,192,83198,1,0,0:0:0:35:LR_Drum Hit Drop High.wav
+64,192,83300,1,0,0:0:0:30:LR_Drum Kick Low.wav
+320,192,83300,128,0,83506:0:0:0:60:LR_Drum Crush FInish.wav
+64,192,83711,1,0,0:0:0:30:LR_Drum Rpd Fast .wav
+192,192,83711,1,0,0:0:0:0:
+448,192,83917,128,0,84122:0:0:0:80:LR_Drum EDge.wav
+320,192,84122,1,0,0:0:0:30:LR_Drum Kick Low.wav
+64,192,84533,1,0,0:0:0:30:LR_Drum Rpd Fast .wav
+192,192,84533,128,0,84739:0:0:0:80:LR_Drum EDge.wav
+448,192,84533,1,0,0:0:0:25:LR_Ride Fast.wav
+320,192,84944,1,0,0:0:0:30:LR_Drum Kick Low.wav
+448,192,85150,128,0,85355:0:0:0:80:LR_Drum EDge.wav
+64,192,85150,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+192,192,85355,1,0,0:0:0:30:LR_Drum Kick Low.wav
+320,192,85561,1,0,0:0:0:20:LR_Drum Kick Low.wav
+64,192,85766,128,0,85972:0:0:0:80:LR_Drum Click.wav
+448,192,85766,1,0,0:0:0:60:LR_Drum Rpd Fast .wav
+320,192,85972,1,0,0:0:0:35:LR_Drum Hit Clap Sn.wav
+192,192,86074,1,0,0:0:0:35:LR_Drum Hit Clap Sn.wav
+448,192,86177,128,0,86382:0:0:0:80:LR_Drum Click.wav
+320,192,86177,1,0,0:0:0:35:LR_Drum Hit Clap Sn.wav
+64,192,86280,1,0,0:0:0:35:LR_Drum Hit Clap Sn.wav
+192,192,86382,1,0,0:0:0:35:LR_Drum Hit Clap Sn.wav
+320,192,86485,1,0,0:0:0:35:LR_Drum Hit Clap Sn.wav
+64,192,86588,128,0,86793:0:0:0:80:LR_Drum EDge.wav
+448,192,86588,1,0,0:0:0:40:LR_Drum Hit HAT.wav
+192,192,86588,128,0,86793:0:0:0:0:
+64,192,87204,128,0,87410:0:0:0:80:LR_Drum Click.wav
+320,192,87204,1,0,0:0:0:40:LR_Drum Hit HAT.wav
+448,192,87204,128,0,87410:0:0:0:0:
+64,192,87821,1,0,0:0:0:40:LR_Drum Hit HAT.wav
+320,192,87821,128,0,88026:0:0:0:80:LR_Drum EDge.wav
+192,192,87821,128,0,88026:0:0:0:0:
+448,192,88437,128,0,88643:0:0:0:80:LR_Drum EDge.wav
+320,192,89054,128,0,89259:0:0:0:80:LR_Drum EDge.wav
+64,192,89465,128,0,89670:0:0:0:80:LR_Drum Click.wav
+320,192,89465,1,0,0:0:0:40:LR_Drum Finish.wav
+192,192,89465,1,0,0:0:0:25:LR_Ride Fast.wav
+448,192,89465,128,0,89670:0:0:0:0:

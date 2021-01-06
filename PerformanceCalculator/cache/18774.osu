@@ -1,0 +1,76 @@
+osu file format v5
+
+[General]
+AudioFilename: 2.06_-_akai_tsuki.mp3
+AudioLeadIn: 2000
+PreviewTime: -1
+Countdown: 1
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+EditorBookmarks: 135,6402,13087,26458,34814,40768
+
+[Metadata]
+Title:Akai Tsuki
+Artist:Disgaea OST
+Creator:Hitoshirenu Shourai
+Version:Normal
+Source:
+Tags:
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:4
+OverallDifficulty:4
+SliderMultiplier:2
+SliderTickRate:0.5
+
+[Events]
+//Background and Video events
+0,0,"prinnies.jpg"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Failing)
+//Storyboard Layer 2 (Passing)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+215,833.333333333333,4,2,0,100
+
+[Colours]
+Combo1 : 224,224,224
+Combo2 : 255,0,0
+
+[HitObjects]
+80,48,215,2,0,B|80:272,1,200
+176,48,1881,2,0,B|176:272,1,200
+392,296,3548,2,0,B|392:184,2,100
+304,224,4798,2,0,B|304:88,1,100
+72,56,6881,6,0,B|320:56,1,200
+72,144,8548,2,0,B|296:144,1,200
+392,328,10214,2,0,B|248:328,2,100
+320,240,11464,2,0,B|200:240,1,100
+104,136,13548,6,0,B|0:136|0:280|184:240,1,200
+104,352,14798,1,0
+216,352,15214,2,0,B|216:248|312:248|312:352,1,200
+336,128,16985,6,0,B|160:128|192:48,1,175
+56,40,18131,1,0
+48,152,18548,2,0,B|48:312|136:312,1,200
+256,128,20215,5,0
+256,344,21048,1,0
+96,192,21881,2,0,B|392:192,1,200
+256,192,23235,12,0,25319
+64,48,26881,2,0,B|64:320,1,200
+120,344,28131,1,0
+176,248,28548,2,0,B|176:0,1,200
+344,192,30215,2,0,B|480:192|480:312,1,200
+464,80,31881,2,0,B|344:80,2,100
+40,192,35215,6,0,B|176:192,2,100
+256,192,36881,2,0,B|472:192,1,200
+256,192,38548,12,0,40214
+432,48,41152,1,0
+208,48,41881,2,0,B|392:48|392:240,1,300
+408,344,43548,2,0,B|184:344,2,200

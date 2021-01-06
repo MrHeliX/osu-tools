@@ -1,0 +1,86 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 13
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1.2
+BeatDivisor: 1
+GridSize: 8
+TimelineZoom: 1
+
+[Metadata]
+Title:pi
+TitleUnicode:π
+Artist:Jinjin
+ArtistUnicode:Jinjin
+Creator:Sparxo
+Version:Easy
+Source:
+Tags:short math circumference calm music box iJinJin krfawy
+BeatmapID:1619748
+BeatmapSetID:770401
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3.5
+OverallDifficulty:2
+ApproachRate:3
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"tumblr_nsfpjigvXS1sxagvto4_1280.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+13,916.982516200024,3,2,1,20,1,0
+25688,1146.24128379024,3,2,1,20,1,0
+26834,1260.84855107487,3,2,1,20,1,0
+28095,-100,3,2,1,15,0,0
+31877,-100,3,2,1,5,0,0
+
+
+[Colours]
+Combo1 : 241,198,255
+Combo2 : 128,128,255
+Combo3 : 138,197,244
+Combo4 : 89,149,221
+
+[HitObjects]
+268,213,13,6,0,L|115:230,2,140,2|8|2,0:0|0:0|0:0,0:0:0:0:
+434,191,2763,2,0,P|458:257|445:346,2,140,4|8|2,0:0|0:0|0:0,0:0:0:0:
+309,77,5514,2,0,P|229:64|152:95,2,140,4|8|6,0:0|0:0|0:0,0:0:0:0:
+434,191,8265,2,0,L|421:344,1,140,8|2,0:0|0:0,0:0:0:0:
+268,262,10099,1,4,0:0:0:0:
+104,298,11016,6,0,P|126:216|192:187,1,140,10|4,0:0|0:0,0:0:0:0:
+295,78,12850,2,0,L|204:68,1,70,8|2,0:0|0:0,0:0:0:0:
+152,29,13767,2,0,L|61:39,1,70,4|2,0:0|0:0,0:0:0:0:
+16,88,14684,1,8,0:0:0:0:
+53,251,15601,1,2,0:0:0:0:
+184,146,16518,6,0,B|256:169|260:122|336:146,1,140,4|8,0:0|0:0,0:0:0:0:
+458,44,18352,1,8,0:0:0:0:
+442,211,19269,2,0,L|430:370,1,140,10|4,0:0|0:0,0:0:0:0:
+286,265,21103,2,0,L|281:195,1,70,8|2,0:0|0:0,0:0:0:0:
+198,186,22020,2,0,L|203:117,1,70,4|2,0:0|0:0,0:0:0:0:
+212,32,22937,5,8,0:0:0:0:
+74,2,23854,1,2,0:0:0:0:
+1,124,24771,1,8,0:0:0:0:
+95,226,25688,1,4,0:0:0:0:
+227,175,26834,1,8,0:0:0:0:
+118,114,28094,5,4,0:0:0:0:
+256,192,28410,12,0,31877,0:0:0:0:

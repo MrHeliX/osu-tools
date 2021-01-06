@@ -1,0 +1,58 @@
+osu file format v14
+
+[General]
+AudioFilename: .mp3
+AudioLeadIn: 0
+PreviewTime: 0
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 16
+GridSize: 8
+TimelineZoom: 3.599998
+
+[Metadata]
+Title:Dumpstream of Memes 1B
+TitleUnicode:Dumpstream of Memes 1B
+Artist:(Various Artists)
+ArtistUnicode:(Various Artists)
+Creator:Leo137
+Version:(Marathon) - Delete Upon Download
+Source:
+Tags:ryu* hommarju srav3r nanahira sanaas p*light jenny rom Kobaryo Epsilon BlackY lapix DJGenki DJKurara Seiryu hino-isuka itaojirou aaaa goreshit
+BeatmapID:1386069
+BeatmapSetID:653888
+
+[Difficulty]
+HPDrainRate:8
+CircleSize:4
+OverallDifficulty:8
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"jsof2 group.jpg",0,0
+//Break Periods
+2,200,1355000
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+0,300,4,2,0,5,1,0
+
+
+[HitObjects]
+64,192,0,5,0,0:0:0:0:
+448,192,1360000,5,0,0:0:0:0:

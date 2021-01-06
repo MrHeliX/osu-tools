@@ -1,0 +1,87 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 11161
+Countdown: 1
+SampleSet: None
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.8
+BeatDivisor: 3
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:D se Dab
+TitleUnicode:D se Dab
+Artist:Chotu (C.V: Saurav Chakraborty)
+ArtistUnicode:Chotu (C.V: সৌরভ চক্রবর্তী)
+Creator:Mismagius
+Version:Easy
+Source:
+Tags:commercial motu patlu nickelodeon india deetz
+BeatmapID:1557421
+BeatmapSetID:725103
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:4
+OverallDifficulty:2
+ApproachRate:3
+SliderMultiplier:0.8
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"h.png",0,0
+Video,0,"DAB.avi"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+2807,379.746835443038,4,3,0,40,1,0
+24058,379.746835443038,4,3,0,40,1,0
+
+
+[Colours]
+Combo1 : 255,185,238
+Combo2 : 179,255,102
+Combo3 : 255,255,0
+
+[HitObjects]
+256,192,433,12,4,2807,0:0:0:0:
+56,76,4325,6,0,P|132:64|196:112,1,160,0|2,0:0|0:0,0:0:0:0:
+308,224,5844,6,0,P|384:236|448:188,1,160,4|2,0:0|0:0,0:0:0:0:
+468,112,6984,1,0,0:0:0:0:
+412,52,7363,2,0,P|336:40|272:88,1,160,4|2,0:0|0:0,0:0:0:0:
+232,244,8882,6,0,L|68:216,1,160,4|2,0:0|0:0,0:0:0:0:
+32,64,10401,2,0,L|114:50,1,80,2|0,0:0|0:0,0:0:0:0:
+188,36,11161,1,2,0:0:0:0:
+256,180,11920,6,0,P|312:172|380:204,2,120,2|2|2,0:0|0:0|0:0,0:0:0:0:
+200,240,13439,2,0,B|120:252|120:252|52:204,1,160,2|0,0:0|0:0,0:0:0:0:
+55,46,14958,6,0,P|104:36|200:84,1,160,4|2,0:0|0:0,0:0:0:0:
+220,160,16098,1,4,0:0:0:0:
+284,208,16477,2,0,P|333:218|429:170,1,160,0|2,0:0|0:0,0:0:0:0:
+460,100,17617,1,0,0:0:0:0:
+396,52,17996,6,0,P|347:42|251:90,2,160,4|2|2,0:0|0:0|0:0,0:0:0:0:
+508,168,20275,2,0,L|496:248,1,80,2|2,0:0|0:0,0:0:0:0:
+476,324,21034,6,0,B|399:352|399:295|320:324,1,160,4|2,0:0|0:0,0:0:0:0:
+168,368,22553,2,0,L|84:356,1,80,2|0,0:0|0:0,0:0:0:0:
+100,276,23313,2,0,L|184:288,1,80,2|2,0:0|0:0,0:0:0:0:
+240,336,24058,5,4,0:0:0:0:
+308,192,24817,2,0,P|320:160|316:112,1,80,2|2,0:0|0:0,0:0:0:0:
+280,44,25576,2,0,B|356:15|356:72|434:44,1,160,4|2,0:0|0:0,0:0:0:0:
+488,196,27095,2,0,L|476:280,1,80,2|0,0:0|0:0,0:0:0:0:
+396,264,27855,2,0,L|408:180,1,80,2|0,0:0|0:0,0:0:0:0:
+456,120,28614,1,4,0:0:0:0:
+256,192,29374,12,2,34501,0:0:0:0:

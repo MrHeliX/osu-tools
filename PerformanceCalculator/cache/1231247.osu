@@ -1,0 +1,2614 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 144578
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 3.800004
+
+[Metadata]
+Title:cyanine
+TitleUnicode:cyanine
+Artist:jioyi
+ArtistUnicode:jioyi
+Creator:Rivals_7
+Version:Another
+Source:Lanota
+Tags:aste- 1164530434 noxy games fisica ritmo dance EDM boss song chapter 2 drum & bass hardcore bass drumstep dubstep arcaea
+BeatmapID:1231247
+BeatmapSetID:581729
+
+[Difficulty]
+HPDrainRate:8
+CircleSize:4
+OverallDifficulty:8
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"cyanine.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+Sample,14525,0,"B5S_s.wav",80
+Sample,17327,0,"LR_RevCyG.wav",30
+Sample,18975,0,"LR_HiHat Click2.wav",25
+Sample,19469,0,"Kick.wav",35
+Sample,19799,0,"Kick.wav",35
+Sample,20953,0,"LR_HiHat Click2.wav",25
+Sample,22931,0,"LR_HiHat Click2.wav",25
+Sample,23425,0,"Kick.wav",35
+Sample,23755,0,"Kick.wav",35
+Sample,24909,0,"LR_HiHat Click2.wav",25
+Sample,24991,0,"LR_HiHat Click.wav",50
+Sample,26063,0,"Kick.wav",35
+Sample,26887,0,"LR_HiHat Click2.wav",25
+Sample,27381,0,"LR4_SnareDropDwS.wav",70
+Sample,27711,0,"Kick.wav",35
+Sample,28865,0,"LR_HiHat Click2.wav",25
+Sample,30183,0,"LR4_ClapReverbDPS.wav",15
+Sample,30513,0,"LR4_ClapReverbDPS.wav",15
+Sample,30843,0,"LR4_ClapReverbDPS.wav",15
+Sample,31172,0,"LR4_ClapReverbDPS.wav",15
+Sample,31502,0,"LR4_ClapReverbDPS.wav",15
+Sample,31832,0,"LR4_ClapReverbDPS.wav",15
+Sample,32161,0,"LR4_ClapReverbDPS.wav",15
+Sample,32491,0,"LR4_ClapReverbDPS.wav",15
+Sample,32821,0,"LR4_ClapReverbDPS.wav",15
+Sample,33151,0,"LR4_ClapReverbDPS.wav",15
+Sample,33645,0,"ehco2.wav",30
+Sample,33975,0,"cymbol 2.wav",70
+Sample,34222,0,"LR_HiHat Click.wav",100
+Sample,34634,0,"Kick.wav",35
+Sample,35623,0,"Kick.wav",35
+Sample,35953,0,"LR_HiHat Click.wav",100
+Sample,36200,0,"LR_HiHat Click.wav",100
+Sample,36282,0,"LR_HiHat Click.wav",100
+Sample,36612,0,"Kick.wav",70
+Sample,37271,0,"A5S_s.wav",70
+Sample,37601,0,"Clap.wav",70
+Sample,37931,0,"LR_HiHat Click.wav",100
+Sample,37931,0,"C4S_s.wav",70
+Sample,38178,0,"LR_HiHat Click.wav",100
+Sample,38260,0,"LR_HiHat Click.wav",100
+Sample,38590,0,"Clap.wav",35
+Sample,38920,0,"D4S_s.wav",70
+Sample,39579,0,"Clap.wav",70
+Sample,39909,0,"A3S_s.wav",70
+Sample,39909,0,"LR_HiHat Click.wav",100
+Sample,40156,0,"LR_HiHat Click.wav",100
+Sample,40238,0,"LR_HiHat Click.wav",100
+Sample,40568,0,"Kick.wav",70
+Sample,40898,0,"LR_Hat Synth.wav",70
+Sample,40898,0,"B3S_s.wav",70
+Sample,41227,0,"LR_RevCyCCR.wav",70
+Sample,41227,0,"LR_Hat Synth.wav",70
+Sample,41557,0,"ehco.wav",30
+Sample,41887,0,"Kick.wav",70
+Sample,42134,0,"LR_HiHat Click.wav",100
+Sample,42546,0,"Clap.wav",35
+Sample,43535,0,"Kick.wav",70
+Sample,43865,0,"LR_HiHat Click.wav",100
+Sample,44112,0,"LR_HiHat Click.wav",100
+Sample,44174,0,"D7S_s.wav",70
+Sample,44194,0,"bell1.wav",70
+Sample,44194,0,"LR_HiHat Click.wav",100
+Sample,44524,0,"Clap.wav",70
+Sample,44689,0,"LR_HiHat Click.wav",100
+Sample,45348,0,"B5S_s.wav",50
+Sample,45513,0,"D6S_s.wav",50
+Sample,45678,0,"G6S_s.wav",50
+Sample,45843,0,"LR_HiHat Click.wav",100
+Sample,45843,0,"Kick.wav",70
+Sample,46008,0,"LR_HiHat Click.wav",100
+Sample,46090,0,"LR_HiHat Click.wav",100
+Sample,46502,0,"Kick.wav",35
+Sample,47491,0,"Kick.wav",35
+Sample,47821,0,"LR_HiHat Click.wav",100
+Sample,47821,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,47903,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,47986,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,48068,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,48068,0,"LR_HiHat Click.wav",70
+Sample,48151,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,48233,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,48315,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,48398,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,48480,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,48563,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,48727,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,48727,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,48810,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,48892,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,48975,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,49057,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,49140,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,49222,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,49304,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,49304,0,"D7S_s.wav",50
+Sample,49387,0,"LR_Drum Hit Clap Sn.wav",25
+Sample,49799,0,"Cymbal.wav",35
+Sample,49909,0,"LR_HiHat Click.wav",45
+Sample,50019,0,"LR_HiHat Click.wav",45
+Sample,50238,0,"LR_HiHat Click.wav",45
+Sample,50348,0,"LR_HiHat Click.wav",45
+Sample,50568,0,"LR_HiHat Click.wav",45
+Sample,50678,0,"LR_HiHat Click.wav",45
+Sample,50898,0,"LR_HiHat Click.wav",45
+Sample,51008,0,"LR_HiHat Click.wav",45
+Sample,51227,0,"LR_HiHat Click.wav",45
+Sample,51337,0,"LR_HiHat Click.wav",45
+Sample,51557,0,"LR_HiHat Click.wav",45
+Sample,51667,0,"LR_HiHat Click.wav",45
+Sample,51887,0,"LR_HiHat Click.wav",45
+Sample,51997,0,"LR_HiHat Click.wav",45
+Sample,52216,0,"LR_HiHat Click.wav",45
+Sample,52326,0,"LR_HiHat Click.wav",45
+Sample,52546,0,"LR_HiHat Click.wav",45
+Sample,52656,0,"LR_HiHat Click.wav",45
+Sample,52876,0,"LR_HiHat Click.wav",45
+Sample,52986,0,"LR_HiHat Click.wav",45
+Sample,53205,0,"LR_HiHat Click.wav",45
+Sample,53315,0,"LR_HiHat Click.wav",45
+Sample,53535,0,"LR_HiHat Click.wav",45
+Sample,53645,0,"LR_HiHat Click.wav",45
+Sample,53865,0,"LR_HiHat Click.wav",45
+Sample,53975,0,"LR_HiHat Click.wav",45
+Sample,54194,0,"LR_HiHat Click.wav",45
+Sample,54304,0,"LR_HiHat Click.wav",45
+Sample,54524,0,"LR_HiHat Click.wav",45
+Sample,54634,0,"LR_HiHat Click.wav",45
+Sample,54854,0,"LR_HiHat Click.wav",45
+Sample,54964,0,"LR_HiHat Click.wav",45
+Sample,55183,0,"LR_HiHat Click.wav",45
+Sample,55293,0,"LR_HiHat Click.wav",45
+Sample,55513,0,"LR_HiHat Click.wav",45
+Sample,55623,0,"LR_HiHat Click.wav",45
+Sample,55843,0,"LR_HiHat Click.wav",45
+Sample,56063,0,"Clap.wav",23
+Sample,56172,0,"LR_HiHat Click.wav",45
+Sample,56392,0,"Clap.wav",23
+Sample,56502,0,"LR_HiHat Click.wav",45
+Sample,56722,0,"cymbol 2.wav",70
+Sample,57875,0,"LR_HiHat Click.wav",8
+Sample,58205,0,"LR_HiHat Click.wav",8
+Sample,58535,0,"LR_HiHat Click.wav",8
+Sample,58700,0,"LR_HiHat Click2.wav",8
+Sample,58700,0,"A2S_s.wav",20
+Sample,58864,0,"LR_HiHat Click.wav",8
+Sample,59194,0,"LR_HiHat Click.wav",8
+Sample,59524,0,"LR_HiHat Click.wav",8
+Sample,59606,0,"LR_HiHat Click.wav",8
+Sample,59689,0,"click.wav",10
+Sample,59689,0,"LR_HiHat Click2.wav",8
+Sample,59853,0,"LR_HiHat Click.wav",8
+Sample,60183,0,"LR_HiHat Click.wav",8
+Sample,60348,0,"LR_HiHat Click2.wav",8
+Sample,60513,0,"LR_HiHat Click.wav",8
+Sample,60678,0,"click.wav",10
+Sample,60842,0,"F#3S_Gb3S_s.wav",20
+Sample,61172,0,"LR_HiHat Click.wav",8
+Sample,61337,0,"LR_HiHat Click2.wav",8
+Sample,61502,0,"LR_HiHat Click.wav",8
+Sample,61667,0,"click.wav",10
+Sample,61831,0,"LR_HiHat Click.wav",8
+Sample,62161,0,"LR_HiHat Click.wav",8
+Sample,62243,0,"LR_HiHat Click.wav",8
+Sample,62326,0,"LR_HiHat Click2.wav",8
+Sample,62491,0,"LR_HiHat Click.wav",8
+Sample,62656,0,"click.wav",10
+Sample,62820,0,"LR_HiHat Click.wav",8
+Sample,62985,0,"LR_HiHat Click2.wav",8
+Sample,63150,0,"LR_HiHat Click.wav",8
+Sample,63480,0,"LR_HiHat Click.wav",8
+Sample,63645,0,"click.wav",10
+Sample,63809,0,"LR_HiHat Click.wav",8
+Sample,63974,0,"LR_HiHat Click2.wav",8
+Sample,64139,0,"LR_HiHat Click.wav",8
+Sample,64469,0,"LR_HiHat Click.wav",8
+Sample,64634,0,"click.wav",10
+Sample,64798,0,"LR_HiHat Click.wav",8
+Sample,64881,0,"LR_HiHat Click.wav",8
+Sample,64963,0,"LR_HiHat Click2.wav",8
+Sample,65128,0,"LR_HiHat Click.wav",8
+Sample,65458,0,"LR_HiHat Click.wav",8
+Sample,65623,0,"click.wav",10
+Sample,65623,0,"LR_HiHat Click2.wav",8
+Sample,65787,0,"LR_HiHat Click.wav",8
+Sample,66117,0,"LR_HiHat Click.wav",8
+Sample,66447,0,"LR_HiHat Click.wav",8
+Sample,66612,0,"LR_HiHat Click2.wav",8
+Sample,66612,0,"click.wav",10
+Sample,66776,0,"LR_HiHat Click.wav",8
+Sample,67106,0,"LR_HiHat Click.wav",8
+Sample,67106,0,"LR_RevCyG.wav",70
+Sample,67930,0,"LR4_BassKickReverbXD.wav",35
+Sample,68260,0,"Bass.wav",35
+Sample,70897,0,"Bass.wav",23
+Sample,75513,0,"LR3_BassDrop.wav",70
+Sample,76337,0,"LR_HiHat Click.wav",30
+Sample,76502,0,"LR_HiHat Click2.wav",30
+Sample,76831,0,"LR_HiHat Click2.wav",30
+Sample,76996,0,"LR_HiHat Click.wav",30
+Sample,77326,0,"LR_HiHat Click.wav",30
+Sample,77656,0,"LR_HiHat Click.wav",30
+Sample,77985,0,"LR_HiHat Click.wav",30
+Sample,78315,0,"LR_HiHat Click.wav",30
+Sample,78645,0,"LR_HiHat Click.wav",30
+Sample,78809,0,"cymbol 2.wav",40
+Sample,79798,0,"LR_HiHat Click.wav",60
+Sample,81447,0,"LR_HiHat Click.wav",60
+Sample,81447,0,"Bass.wav",40
+Sample,81776,0,"LR_HiHat Click.wav",60
+Sample,81776,0,"LR_HiHat Click.wav",60
+Sample,82436,0,"LR_HiHat Click.wav",60
+Sample,84084,0,"LR_HiHat Click.wav",60
+Sample,85073,0,"LR_HiHat Click.wav",60
+Sample,86721,0,"LR_HiHat Click.wav",60
+Sample,87711,0,"LR_HiHat Click.wav",60
+Sample,89359,0,"LR2_ClapRRvLE.wav",30
+Sample,89359,0,"Whistle.wav",30
+Sample,89853,0,"Whistle.wav",30
+Sample,90018,0,"LR4_ClapLRV.wav",25
+Sample,90183,0,"Whistle.wav",15
+Sample,90348,0,"LR2_ClapRRvLE.wav",30
+Sample,91337,0,"Bass.wav",40
+Sample,91337,0,"Clap.wav",30
+Sample,91667,0,"LR2_ClapRRvLE.wav",30
+Sample,91996,0,"LR2_ClapRRvLE.wav",30
+Sample,92491,0,"Whistle.wav",30
+Sample,92656,0,"LR4_ClapLRV.wav",25
+Sample,92820,0,"Whistle.wav",15
+Sample,92985,0,"LR2_ClapRRvLE.wav",30
+Sample,93974,0,"LR2_ClapRRvLE.wav",30
+Sample,94139,0,"Whistle.wav",15
+Sample,94304,0,"LR2_ClapRRvLE.wav",30
+Sample,94469,0,"Whistle.wav",15
+Sample,94634,0,"LR2_ClapRRvLE.wav",30
+Sample,95128,0,"Whistle.wav",30
+Sample,95293,0,"LR4_ClapLRV.wav",25
+Sample,95458,0,"Whistle.wav",15
+Sample,95623,0,"LR2_ClapRRvLE.wav",30
+Sample,96612,0,"Bass.wav",40
+Sample,96612,0,"LR2_ClapRRvLE.wav",30
+Sample,97765,0,"Whistle.wav",30
+Sample,97930,0,"LR4_ClapLRV.wav",25
+Sample,98095,0,"Whistle.wav",15
+Sample,98260,0,"LR2_ClapRRvLE.wav",30
+Sample,99249,0,"LR2_ClapRRvLE.wav",30
+Sample,99496,0,"LR2_ClapRRvLE.wav",40
+Sample,99908,0,"LR2_ClapRRvLE.wav",30
+Sample,100403,0,"LR_Hat Normal.wav",60
+Sample,100732,0,"LR_Hat Normal.wav",60
+Sample,100897,0,"LR2_ClapRRvLE.wav",30
+Sample,102216,0,"LR2_ClapRRvLE.wav",30
+Sample,102381,0,"LR_Hat Normal.wav",30
+Sample,102546,0,"LR2_ClapRRvLE.wav",30
+Sample,102711,0,"LR_Hat Normal.wav",60
+Sample,103040,0,"Whistle.wav",50
+Sample,103370,0,"LR_Hat Normal.wav",60
+Sample,103535,0,"LR2_ClapRRvLE.wav",30
+Sample,103700,0,"LR_Hat Normal.wav",60
+Sample,104029,0,"LR_Hat Normal.wav",60
+Sample,104359,0,"LR_Hat Normal.wav",30
+Sample,104689,0,"Whistle.wav",50
+Sample,104853,0,"LR2_ClapRRvLE.wav",30
+Sample,105018,0,"Whistle.wav",50
+Sample,105183,0,"Whistle.wav",50
+Sample,105183,0,"LR2_ClapRRvLE.wav",30
+Sample,106502,0,"LR2_ClapRRvLE.wav",30
+Sample,107161,0,"LR2_ClapRRvLE.wav",30
+Sample,107820,0,"LR2_ClapRRvLE.wav",30
+Sample,109469,0,"LR2_ClapRRvLE.wav",30
+Sample,109469,0,"Bass.wav",20
+Sample,109798,0,"LR2_ClapRRvLE.wav",30
+Sample,110128,0,"LR2_ClapRRvLE.wav",40
+Sample,110458,0,"LR2_ClapRRvLE.wav",30
+Sample,118040,0,"ehco3.wav",25
+Sample,120987,0,"D7S_s.wav",70
+Sample,121007,0,"LR_Drum Hit Clap Sn.wav",50
+Sample,121502,0,"LR_Hat Normal.wav",70
+Sample,121996,0,"LR_Hat Normal.wav",70
+Sample,122326,0,"LR_Hat Normal.wav",70
+Sample,122656,0,"LR_Hat Normal.wav",70
+Sample,122820,0,"LR_Hat Normal.wav",35
+Sample,128260,0,"LR4_SnareBPDT.wav",23
+Sample,128590,0,"Kick.wav",23
+Sample,131557,0,"cymbol 2.wav",50
+Sample,133700,0,"Bass.wav",15
+Sample,133782,0,"Bass.wav",15
+Sample,133864,0,"Bass.wav",30
+Sample,134359,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,134771,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,135018,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,135265,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,135430,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,135760,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,136007,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,136254,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,136667,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,136831,0,"Drum Hit Hard.wav",35
+Sample,136996,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,137408,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,137656,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,137903,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,137985,0,"LR2_ClapRRvLE.wav",60
+Sample,138068,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,138397,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,138645,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,138892,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,139304,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,139634,0,"LR2_ClapRRvLE.wav",60
+Sample,139798,0,"LR_Drum Hit Clap Sn.wav",60
+Sample,139963,0,"LR_Drum Hit Clap Sn.wav",60
+Sample,140046,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,140128,0,"LR2_ClapRRvLE.wav",30
+Sample,140293,0,"LR2_ClapRRvLE.wav",60
+Sample,140458,0,"LR2_ClapRRvLE.wav",30
+Sample,140540,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,140623,0,"LR2_ClapRRvLE.wav",30
+Sample,140952,0,"LR_Drum Hit Clap Sn.wav",60
+Sample,141117,0,"LR_Drum Hit Clap Sn.wav",60
+Sample,141282,0,"LR2_ClapRRvLE.wav",60
+Sample,141364,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,141447,0,"LR2_ClapRRvLE.wav",30
+Sample,141612,0,"LR_RevCyLGLH.wav",70
+Sample,141612,0,"LR2_ClapRRvLE.wav",60
+Sample,141776,0,"LR2_ClapRRvLE.wav",30
+Sample,141859,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,141941,0,"LR2_ClapRRvLE.wav",30
+Sample,142024,0,"LR_Drum Hit Clap Sn.wav",30
+Sample,142106,0,"LR2_ClapRRvLE.wav",60
+Sample,142106,0,"Bass.wav",40
+Sample,142271,0,"LR_Drum Hit Clap Sn.wav",60
+Sample,142271,0,"LR2_ClapRRvLE.wav",60
+Sample,142436,0,"LR_Drum Hit Clap Sn.wav",60
+Sample,142436,0,"LR2_ClapRRvLE.wav",60
+Sample,142601,0,"LR_Drum Hit Clap Sn.wav",60
+Sample,142601,0,"LR2_ClapRRvLE.wav",60
+Sample,142683,0,"LR_Drum Hit Clap Sn.wav",60
+Sample,142765,0,"LR2_ClapRRvLE.wav",60
+Sample,142765,0,"Bass.wav",40
+Sample,142930,0,"LR_Drum Hit Clap Sn.wav",60
+Sample,142930,0,"LR2_ClapRRvLE.wav",60
+Sample,143095,0,"LR2_ClapRRvLE.wav",60
+Sample,143095,0,"LR_Drum Hit Clap Sn.wav",60
+Sample,143260,0,"LR2_ClapRRvLE.wav",60
+Sample,143260,0,"LR_Drum Hit Clap Sn.wav",60
+Sample,143342,0,"LR_Drum Hit Clap Sn.wav",60
+Sample,143425,0,"Kick.wav",70
+Sample,143754,0,"LR_RevCyCCR.wav",70
+Sample,144414,0,"Kick.wav",35
+Sample,144743,0,"cymbol 2.wav",70
+Sample,154963,0,"LR4_SnareBPDT.wav",27
+Sample,155128,0,"LR_Hit Med Click.wav",70
+Sample,162546,0,"LR_RevCyHLWX.wav",70
+Sample,164194,0,"LR_RevCyITV.wav",70
+Sample,164524,0,"cymbol 2.wav",20
+Sample,165513,0,"Drum Hit Hard.wav",90
+Sample,165842,0,"Kick.wav",70
+Sample,165842,0,"C3S_s.wav",100
+Sample,166172,0,"C3S_s.wav",100
+Sample,166667,0,"C3S_s.wav",100
+Sample,166667,0,"Kick.wav",70
+Sample,166996,0,"Whistle.wav",90
+Sample,167161,0,"Whistle.wav",90
+Sample,167161,0,"Kick.wav",70
+Sample,167985,0,"Whistle.wav",90
+Sample,168150,0,"LR4_SnareBPDT.wav",80
+Sample,168315,0,"Whistle.wav",90
+Sample,168480,0,"Kick.wav",70
+Sample,168809,0,"LR4_SnareBPDT.wav",80
+Sample,168974,0,"Whistle.wav",90
+Sample,169139,0,"Whistle.wav",90
+Sample,169139,0,"click.wav",100
+Sample,169469,0,"LR4_SnareBPDT.wav",80
+Sample,169551,0,"Whistle.wav",90
+Sample,169634,0,"Whistle.wav",90
+Sample,169963,0,"Whistle.wav",90
+Sample,170128,0,"LR4_SnareBPDT.wav",80
+Sample,170293,0,"A2S_s.wav",100
+Sample,170458,0,"B2S_s.wav",100
+Sample,170787,0,"LR4_SnareBPDT.wav",80
+Sample,170952,0,"B2S_s.wav",100
+Sample,171117,0,"Kick.wav",70
+Sample,171117,0,"C3S_s.wav",100
+Sample,171941,0,"Kick.wav",70
+Sample,172106,0,"LR4_SnareBPDT.wav",80
+Sample,172271,0,"C3S_s.wav",100
+Sample,172436,0,"Kick.wav",70
+Sample,173095,0,"D3S_s.wav",100
+Sample,173590,0,"D3S_s.wav",100
+Sample,173754,0,"Kick.wav",70
+Sample,174084,0,"LR4_SnareBPDT.wav",80
+Sample,174249,0,"E3S_s.wav",100
+Sample,174579,0,"Kick.wav",70
+Sample,175073,0,"Whistle.wav",90
+Sample,175073,0,"Kick.wav",70
+Sample,175238,0,"Whistle.wav",90
+Sample,175568,0,"Kick.wav",70
+Sample,175732,0,"Whistle.wav",90
+Sample,175897,0,"Kick.wav",70
+Sample,176062,0,"LR4_SnareBPDT.wav",80
+Sample,176145,0,"Kick.wav",70
+Sample,176227,0,"Whistle.wav",90
+Sample,176227,0,"Kick.wav",70
+Sample,176309,0,"Kick.wav",70
+Sample,176392,0,"Crash.wav",70
+Sample,176392,0,"Kick.wav",70
+Sample,176392,0,"cymbol 2.wav",70
+Sample,177051,0,"C3S_s.wav",100
+Sample,177216,0,"C3S_s.wav",100
+Sample,177216,0,"Kick.wav",70
+Sample,177546,0,"Whistle.wav",90
+Sample,177711,0,"Kick.wav",70
+Sample,178040,0,"LR4_SnareBPDT.wav",80
+Sample,178287,0,"Whistle.wav",45
+Sample,178535,0,"Kick.wav",70
+Sample,178864,0,"Whistle.wav",90
+Sample,179029,0,"Kick.wav",70
+Sample,179029,0,"Whistle.wav",90
+Sample,179359,0,"LR4_SnareBPDT.wav",80
+Sample,179524,0,"Whistle.wav",90
+Sample,179689,0,"Whistle.wav",90
+Sample,180018,0,"LR4_SnareBPDT.wav",80
+Sample,180018,0,"Whistle.wav",90
+Sample,180183,0,"Whistle.wav",90
+Sample,180348,0,"Whistle.wav",90
+Sample,180513,0,"Whistle.wav",90
+Sample,180842,0,"Whistle.wav",90
+Sample,181007,0,"Whistle.wav",90
+Sample,181007,0,"B2S_s.wav",100
+Sample,181337,0,"LR4_SnareBPDT.wav",80
+Sample,181502,0,"Whistle.wav",90
+Sample,181667,0,"cymbol 2.wav",70
+Sample,181667,0,"Kick.wav",70
+Sample,181831,0,"Snare1.wav",90
+Sample,181996,0,"C3S_s.wav",100
+Sample,181996,0,"Snare1.wav",90
+Sample,182161,0,"C3S_s.wav",100
+Sample,182326,0,"Snare1.wav",90
+Sample,182491,0,"Snare1.wav",90
+Sample,182656,0,"Snare1.wav",90
+Sample,182985,0,"Kick.wav",70
+Sample,182985,0,"cymbol 2.wav",70
+Sample,183150,0,"D3S_s.wav",100
+Sample,183315,0,"Snare1.wav",90
+Sample,183480,0,"Snare1.wav",90
+Sample,183645,0,"Snare1.wav",90
+Sample,183809,0,"Snare1.wav",90
+Sample,183974,0,"Snare1.wav",90
+Sample,183974,0,"D3S_s.wav",100
+Sample,184139,0,"D3S_s.wav",50
+Sample,184304,0,"Crash.wav",70
+Sample,184304,0,"E3S_s.wav",100
+Sample,184386,0,"Snare1.wav",35
+Sample,184469,0,"E3S_s.wav",100
+Sample,184551,0,"Snare1.wav",35
+Sample,184634,0,"E3S_s.wav",100
+Sample,184716,0,"Snare1.wav",35
+Sample,184798,0,"E3S_s.wav",100
+Sample,184963,0,"Snare1.wav",70
+Sample,184963,0,"E3S_s.wav",100
+Sample,184963,0,"Cymbal.wav",50
+Sample,184963,0,"LR4_SnareBPDT.wav",80
+Sample,185128,0,"E3S_s.wav",100
+Sample,185211,0,"Snare1.wav",35
+Sample,185293,0,"E3S_s.wav",100
+Sample,185375,0,"Snare1.wav",35
+Sample,185458,0,"Crash.wav",50
+Sample,185458,0,"Snare1.wav",70
+Sample,185458,0,"E3S_s.wav",100
+Sample,185540,0,"Snare1.wav",35
+Sample,185787,0,"snare2.wav",90
+Sample,185870,0,"Whistle.wav",90
+Sample,185952,0,"Snare1.wav",90
+Sample,185952,0,"Whistle.wav",90
+Sample,186035,0,"Whistle.wav",90
+Sample,186200,0,"Whistle.wav",90
+Sample,186282,0,"Whistle.wav",90
+Sample,186364,0,"Snare1.wav",90
+Sample,186447,0,"snare2.wav",90
+Sample,186529,0,"Whistle.wav",90
+Sample,186776,0,"LR_RevCyLGLH.wav",70
+
+[TimingPoints]
+1668,329.67032967033,3,2,1,25,1,0
+1668,-125,3,2,1,25,0,0
+17244,-200,3,2,1,25,0,0
+17327,-500,3,2,1,25,0,0
+17904,-133.333333333333,3,2,1,25,0,0
+17986,-80,3,2,1,25,0,0
+18069,-57.1428571428571,3,2,1,25,0,0
+18151,329.67032967033,3,2,1,40,1,0
+49799,-66.6666666666667,3,2,1,25,0,0
+49854,-200,3,2,1,25,0,0
+49909,-66.6666666666667,3,2,1,25,0,0
+49964,-200,3,2,1,25,0,0
+50019,-66.6666666666667,3,2,1,25,0,0
+50074,-200,3,2,1,25,0,0
+50129,-66.6666666666667,3,2,1,25,0,0
+50183,-200,3,2,1,25,0,0
+50238,-66.6666666666667,3,2,1,25,0,0
+50293,-200,3,2,1,25,0,0
+50348,-66.6666666666667,3,2,1,25,0,0
+50403,-200,3,2,1,25,0,0
+50458,-66.6666666666667,3,2,1,25,0,0
+50513,-200,3,2,1,25,0,0
+50568,-66.6666666666667,3,2,1,25,0,0
+50623,-200,3,2,1,25,0,0
+50678,-66.6666666666667,3,2,1,25,0,0
+50733,-200,3,2,1,25,0,0
+50788,-66.6666666666667,3,2,1,25,0,0
+50843,-200,3,2,1,25,0,0
+50898,-66.6666666666667,3,2,1,25,0,0
+50953,-200,3,2,1,25,0,0
+51008,-66.6666666666667,3,2,1,25,0,0
+51063,-200,3,2,1,25,0,0
+51118,-66.6666666666667,3,2,1,25,0,0
+51173,-200,3,2,1,25,0,0
+51228,-66.6666666666667,3,2,1,25,0,0
+51283,-200,3,2,1,25,0,0
+51338,-66.6666666666667,3,2,1,25,0,0
+51393,-200,3,2,1,25,0,0
+51448,-66.6666666666667,3,2,1,25,0,0
+51502,-200,3,2,1,25,0,0
+51557,-66.6666666666667,3,2,1,25,0,0
+51612,-200,3,2,1,25,0,0
+51667,-66.6666666666667,3,2,1,25,0,0
+51722,-200,3,2,1,25,0,0
+51777,-66.6666666666667,3,2,1,25,0,0
+51832,-200,3,2,1,25,0,0
+51887,-66.6666666666667,3,2,1,25,0,0
+51942,-200,3,2,1,25,0,0
+51997,-66.6666666666667,3,2,1,25,0,0
+52052,-200,3,2,1,25,0,0
+52107,-66.6666666666667,3,2,1,25,0,0
+52162,-200,3,2,1,25,0,0
+52217,-66.6666666666667,3,2,1,25,0,0
+52272,-200,3,2,1,25,0,0
+52327,-66.6666666666667,3,2,1,25,0,0
+52382,-200,3,2,1,25,0,0
+52437,-66.6666666666667,3,2,1,25,0,0
+52492,-200,3,2,1,25,0,0
+52547,-66.6666666666667,3,2,1,25,0,0
+52602,-200,3,2,1,25,0,0
+52657,-66.6666666666667,3,2,1,25,0,0
+52712,-200,3,2,1,25,0,0
+52767,-66.6666666666667,3,2,1,25,0,0
+52821,-200,3,2,1,25,0,0
+52876,-66.6666666666667,3,2,1,25,0,0
+52931,-200,3,2,1,25,0,0
+52986,-66.6666666666667,3,2,1,25,0,0
+53041,-200,3,2,1,25,0,0
+53096,-66.6666666666667,3,2,1,25,0,0
+53151,-200,3,2,1,25,0,0
+53206,-66.6666666666667,3,2,1,25,0,0
+53261,-200,3,2,1,25,0,0
+53316,-66.6666666666667,3,2,1,25,0,0
+53371,-200,3,2,1,25,0,0
+53426,-66.6666666666667,3,2,1,25,0,0
+53481,-200,3,2,1,25,0,0
+53536,-66.6666666666667,3,2,1,25,0,0
+53591,-200,3,2,1,25,0,0
+53646,-66.6666666666667,3,2,1,25,0,0
+53701,-200,3,2,1,25,0,0
+53756,-66.6666666666667,3,2,1,25,0,0
+53811,-200,3,2,1,25,0,0
+53866,-66.6666666666667,3,2,1,25,0,0
+53921,-200,3,2,1,25,0,0
+53976,-66.6666666666667,3,2,1,25,0,0
+54031,-200,3,2,1,25,0,0
+54086,-66.6666666666667,3,2,1,25,0,0
+54140,-200,3,2,1,25,0,0
+54195,-66.6666666666667,3,2,1,25,0,0
+54250,-200,3,2,1,25,0,0
+54305,-66.6666666666667,3,2,1,25,0,0
+54360,-200,3,2,1,25,0,0
+54415,-66.6666666666667,3,2,1,25,0,0
+54470,-200,3,2,1,25,0,0
+54525,-66.6666666666667,3,2,1,25,0,0
+54580,-200,3,2,1,25,0,0
+54635,-66.6666666666667,3,2,1,25,0,0
+54690,-200,3,2,1,25,0,0
+54745,-66.6666666666667,3,2,1,25,0,0
+54800,-200,3,2,1,25,0,0
+54855,-66.6666666666667,3,2,1,25,0,0
+54910,-200,3,2,1,25,0,0
+54965,-66.6666666666667,3,2,1,25,0,0
+55020,-200,3,2,1,25,0,0
+55075,-66.6666666666667,3,2,1,25,0,0
+55130,-200,3,2,1,25,0,0
+55183,-66.6666666666667,3,2,1,25,0,0
+55238,-200,3,2,1,25,0,0
+55293,-66.6666666666667,3,2,1,25,0,0
+55348,-200,3,2,1,25,0,0
+55403,-66.6666666666667,3,2,1,25,0,0
+55459,-200,3,2,1,25,0,0
+55514,-66.6666666666667,3,2,1,25,0,0
+55569,-200,3,2,1,25,0,0
+55624,-66.6666666666667,3,2,1,25,0,0
+55679,-200,3,2,1,25,0,0
+55734,-66.6666666666667,3,2,1,25,0,0
+55789,-200,3,2,1,25,0,0
+55844,-66.6666666666667,3,2,1,25,0,0
+55899,-200,3,2,1,25,0,0
+55954,-66.6666666666667,3,2,1,25,0,0
+56009,-200,3,2,1,25,0,0
+56064,-66.6666666666667,3,2,1,25,0,0
+56119,-200,3,2,1,25,0,0
+56172,-66.6666666666667,3,2,1,25,0,0
+56227,-200,3,2,1,25,0,0
+56282,-66.6666666666667,3,2,1,25,0,0
+56337,-200,3,2,1,25,0,0
+56392,-66.6666666666667,3,2,1,25,0,0
+56447,-200,3,2,1,25,0,0
+56502,-66.6666666666667,3,2,1,25,0,0
+56557,-200,3,2,1,25,0,0
+56612,-66.6666666666667,3,2,1,25,0,0
+56667,-200,3,2,1,25,0,0
+56722,-100,4,2,1,25,0,0
+57711,329.67032967033,4,2,1,25,1,0
+67436,-117.647058823529,4,2,1,25,0,0
+67519,-105.263157894737,4,2,1,25,0,0
+67601,-95.2380952380952,4,2,1,25,0,0
+67683,-86.9565217391304,4,2,1,25,0,0
+67766,-80,4,2,1,25,0,0
+67848,-74.0740740740741,4,2,1,25,0,0
+67931,-400,4,2,1,25,0,0
+68013,-133.333333333333,4,2,1,25,0,0
+68096,-80,4,2,1,25,0,0
+68178,-57.1428571428571,4,2,1,25,0,0
+68260,-100,4,2,1,25,0,0
+110458,-200,4,2,1,25,0,0
+112766,-52.6315789473684,4,2,1,25,0,0
+112807,-1000,4,2,1,25,0,0
+112848,-52.6315789473684,4,2,1,25,0,0
+112890,-1000,4,2,1,25,0,0
+112931,-52.6315789473684,4,2,1,25,0,0
+112972,-1000,4,2,1,25,0,0
+113013,-52.6315789473684,4,2,1,25,0,0
+113054,-1000,4,2,1,25,0,0
+113096,-100,4,2,1,55,0,0
+113754,-100,4,2,1,55,0,1
+115732,-66.6666666666667,4,2,1,55,0,0
+115773,-200,4,2,1,55,0,0
+115814,-66.6666666666667,4,2,1,55,0,0
+115856,-200,4,2,1,55,0,0
+115897,-66.6666666666667,4,2,1,55,0,0
+115938,-200,4,2,1,55,0,0
+115979,-66.6666666666667,4,2,1,55,0,0
+116020,-200,4,2,1,55,0,0
+116062,-66.6666666666667,4,2,1,55,0,0
+116103,-200,4,2,1,55,0,0
+116144,-66.6666666666667,4,2,1,55,0,0
+116185,-200,4,2,1,55,0,0
+116226,-66.6666666666667,4,2,1,55,0,0
+116268,-200,4,2,1,55,0,0
+116309,-66.6666666666667,4,2,1,55,0,0
+116350,-200,4,2,1,55,0,0
+116392,-100,4,2,1,55,0,1
+118370,-100,4,2,1,55,0,0
+119029,-100,4,2,1,55,0,1
+121007,-100,4,2,1,55,0,0
+124304,-100,4,2,1,55,0,1
+126282,-66.6666666666667,4,2,1,55,0,0
+126323,-200,4,2,1,55,0,0
+126364,-66.6666666666667,4,2,1,55,0,0
+126406,-200,4,2,1,55,0,0
+126447,-66.6666666666667,4,2,1,55,0,0
+126488,-200,4,2,1,55,0,0
+126529,-66.6666666666667,4,2,1,55,0,0
+126570,-200,4,2,1,55,0,0
+126612,-66.6666666666667,4,2,1,55,0,0
+126653,-200,4,2,1,55,0,0
+126694,-66.6666666666667,4,2,1,55,0,0
+126735,-200,4,2,1,55,0,0
+126776,-66.6666666666667,4,2,1,55,0,0
+126818,-200,4,2,1,55,0,0
+126859,-66.6666666666667,4,2,1,55,0,0
+126900,-200,4,2,1,55,0,0
+126941,-100,4,2,1,55,0,1
+128919,-100,4,2,1,55,0,0
+129579,-100,4,2,1,55,0,1
+131557,-100,4,2,1,55,0,0
+134194,-100,4,2,1,30,0,0
+144413,-400,4,2,1,25,0,0
+144496,-133.333333333333,4,2,1,25,0,0
+144578,-80,4,2,1,25,0,0
+144661,-57.1428571428571,4,2,1,25,0,0
+144743,-100,4,2,1,55,0,1
+163205,-100,4,2,1,55,0,0
+165513,-400,4,2,1,25,0,0
+165595,-133.333333333333,4,2,1,25,0,0
+165677,-80,4,2,1,25,0,0
+165678,-80,4,2,1,25,0,0
+165760,-57.1428571428571,4,2,1,25,0,0
+165842,-100,4,2,1,65,0,1
+181667,-100,4,2,1,65,0,0
+184304,-100,4,2,1,25,0,1
+186941,-100,4,2,1,25,0,0
+
+
+[HitObjects]
+320,192,1668,5,0,0:0:0:40:B5S_s.wav
+448,192,1668,1,0,0:0:0:40:B5S_s.wav
+192,192,2327,1,0,0:0:0:80:G5S_s.wav
+64,192,2657,1,0,0:0:0:40:B6S_s.wav
+448,192,2657,1,0,0:0:0:40:B6S_s.wav
+320,192,3316,1,0,0:0:0:40:A6S_s.wav
+448,192,3316,1,0,0:0:0:40:A6S_s.wav
+64,192,3646,1,0,0:0:0:40:G6S_s.wav
+192,192,3646,1,0,0:0:0:40:G6S_s.wav
+448,192,4305,1,0,0:0:0:80:D6S_s.wav
+64,192,4635,1,0,0:0:0:40:F#6S_Gb6S_s.wav
+320,192,4635,1,0,0:0:0:40:F#6S_Gb6S_s.wav
+192,192,4964,1,0,0:0:0:80:D5S_s.wav
+448,192,5294,1,0,0:0:0:80:B5S_s.wav
+192,192,5459,1,0,0:0:0:80:A5S_s.wav
+64,192,5624,1,0,0:0:0:40:B5S_s.wav
+448,192,5624,1,0,0:0:0:40:B5S_s.wav
+192,192,5953,1,0,0:0:0:80:E5S_s.wav
+320,192,6613,1,0,0:0:0:80:B5S_s.wav
+64,192,7602,1,0,0:0:0:40:D6S_s.wav
+448,192,7602,1,0,0:0:0:40:D6S_s.wav
+320,192,7931,1,0,0:0:0:80:E5S_s.wav
+64,192,8261,1,0,0:0:0:40:G5S_s.wav
+192,192,8261,1,0,0:0:0:40:G5S_s.wav
+320,192,8591,1,0,0:0:0:80:B4S_s.wav
+448,192,8920,1,0,0:0:0:80:G5S_s.wav
+192,192,9250,1,0,0:0:0:80:A5S_s.wav
+64,192,9580,1,0,0:0:0:40:B5S_s.wav
+448,192,9580,1,0,0:0:0:40:B5S_s.wav
+320,192,10239,1,0,0:0:0:80:G5S_s.wav
+192,192,10569,1,0,0:0:0:40:B6S_s.wav
+448,192,10569,1,0,0:0:0:40:B6S_s.wav
+320,192,11228,1,0,0:0:0:80:A6S_s.wav
+192,192,11393,1,0,0:0:0:80:G6S_s.wav
+64,192,11558,1,0,0:0:0:40:F#6S_Gb6S_s.wav
+448,192,11558,1,0,0:0:0:40:F#6S_Gb6S_s.wav
+320,192,12217,1,0,0:0:0:80:D6S_s.wav
+64,192,12547,1,0,0:0:0:40:D7S_s.wav
+448,192,12547,1,0,0:0:0:40:D7S_s.wav
+192,192,12876,1,0,0:0:0:80:D5S_s.wav
+64,192,13206,1,0,0:0:0:40:C7S_s.wav
+448,192,13206,1,0,0:0:0:40:C7S_s.wav
+192,192,13536,1,0,0:0:0:40:B6S_s.wav
+320,192,13536,1,0,0:0:0:40:B6S_s.wav
+64,192,14525,1,0,0:0:0:80:B6S_s.wav
+320,192,15514,1,0,0:0:0:40:E5S_s.wav
+448,192,15514,1,0,0:0:0:40:E5S_s.wav
+192,192,16173,1,0,0:0:0:40:E5S_s.wav
+320,192,16173,1,0,0:0:0:40:E5S_s.wav
+448,192,16393,1,0,0:0:0:80:E6S_s.wav
+320,192,16448,1,0,0:0:0:80:F#6S_Gb6S_s.wav
+64,192,16503,128,0,18151:0:0:0:40:D#5S_Eb5S_s.wav
+192,192,16503,1,0,0:0:0:40:D#5S_Eb5S_s.wav
+448,192,16832,1,0,0:0:0:30:ehco3.wav
+448,192,17162,1,0,0:0:0:30:ehco3.wav
+192,192,18151,1,0,0:0:0:70:Cymbal.wav
+320,192,18151,1,0,0:0:0:70:LR_CymbalFSU.wav
+448,192,18151,1,0,0:0:0:70:Kick.wav
+64,192,18315,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,18398,1,0,0:0:0:50:LR_HiHat Click.wav
+320,192,18480,1,0,0:0:0:35:Kick.wav
+448,192,18480,1,0,0:0:0:35:Kick.wav
+64,192,18645,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,18727,1,0,0:0:0:50:LR_HiHat Click.wav
+320,192,18810,1,0,0:0:0:35:Kick.wav
+448,192,18810,1,0,0:0:0:35:Kick.wav
+192,192,18975,1,0,0:0:0:25:LR_HiHat Click2.wav
+192,192,19140,1,0,0:0:0:35:Kick.wav
+448,192,19140,1,0,0:0:0:35:Kick.wav
+64,192,19304,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,19387,1,0,0:0:0:50:LR_HiHat Click.wav
+320,192,19469,1,0,0:0:0:70:LR4_SnareDropDwS.wav
+448,192,19469,128,0,19634:0:0:0:35:Kick.wav
+192,192,19634,1,0,0:0:0:50:LR_HiHat Click2.wav
+320,192,19716,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,19799,1,0,0:0:0:70:LR_Snare Wet.wav
+448,192,19799,128,0,19964:0:0:0:35:Kick.wav
+320,192,19964,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,20046,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,20129,1,0,0:0:0:35:Kick.wav
+448,192,20129,1,0,0:0:0:35:Kick.wav
+448,192,20293,1,0,0:0:0:50:LR_HiHat Click2.wav
+320,192,20376,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,20458,1,0,0:0:0:35:Kick.wav
+192,192,20458,1,0,0:0:0:35:Kick.wav
+448,192,20623,1,0,0:0:0:50:LR_HiHat Click2.wav
+320,192,20705,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,20788,1,0,0:0:0:35:Kick.wav
+192,192,20788,1,0,0:0:0:35:Kick.wav
+320,192,20953,1,0,0:0:0:25:LR_HiHat Click2.wav
+64,192,21118,1,0,0:0:0:35:Kick.wav
+320,192,21118,1,0,0:0:0:35:Kick.wav
+448,192,21282,1,0,0:0:0:50:LR_HiHat Click2.wav
+320,192,21365,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,21447,1,0,0:0:0:35:Kick.wav
+192,192,21447,1,0,0:0:0:35:Kick.wav
+448,192,21530,1,0,0:0:0:0:
+320,192,21612,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,21694,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,21777,128,0,22107:0:0:0:35:Kick.wav
+448,192,21777,1,0,0:0:0:35:Kick.wav
+192,192,21942,1,0,0:0:0:50:LR_HiHat Click2.wav
+320,192,22024,1,0,0:0:0:50:LR_HiHat Click.wav
+192,192,22107,1,0,0:0:0:35:Kick.wav
+448,192,22107,1,0,0:0:0:35:Kick.wav
+320,192,22271,1,0,0:0:0:50:LR_HiHat Click2.wav
+64,192,22354,1,0,0:0:0:50:LR_HiHat Click.wav
+192,192,22436,1,0,0:0:0:35:Kick.wav
+448,192,22436,1,0,0:0:0:35:Kick.wav
+320,192,22601,1,0,0:0:0:50:LR_HiHat Click2.wav
+64,192,22683,1,0,0:0:0:50:LR_HiHat Click.wav
+192,192,22766,1,0,0:0:0:35:Kick.wav
+448,192,22766,1,0,0:0:0:35:Kick.wav
+320,192,22931,1,0,0:0:0:25:LR_HiHat Click2.wav
+64,192,23096,1,0,0:0:0:35:Kick.wav
+320,192,23096,1,0,0:0:0:35:Kick.wav
+192,192,23260,1,0,0:0:0:50:LR_HiHat Click2.wav
+320,192,23343,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,23425,1,0,0:0:0:35:Kick.wav
+448,192,23425,128,0,23590:0:0:0:70:LR4_SnareDropDwS.wav
+320,192,23590,1,0,0:0:0:50:LR_HiHat Click2.wav
+64,192,23672,1,0,0:0:0:50:LR_HiHat Click.wav
+192,192,23755,1,0,0:0:0:70:LR_Snare Wet.wav
+448,192,23755,128,0,23920:0:0:0:35:Kick.wav
+64,192,23920,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,24002,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,24085,1,0,0:0:0:35:LR2_ClapRRvLE.wav
+320,192,24085,1,0,0:0:0:70:Kick.wav
+448,192,24085,1,0,0:0:0:35:LR2_ClapRRvLE.wav
+192,192,24249,1,0,0:0:0:50:LR_HiHat Click2.wav
+448,192,24332,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,24414,1,0,0:0:0:35:Kick.wav
+320,192,24414,1,0,0:0:0:35:Kick.wav
+192,192,24579,1,0,0:0:0:25:LR_HiHat Click2.wav
+448,192,24579,128,0,24826:0:0:0:25:LR_HiHat Click2.wav
+320,192,24661,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,24744,1,0,0:0:0:35:Kick.wav
+192,192,24744,1,0,0:0:0:35:Kick.wav
+448,192,24909,128,0,25074:0:0:0:25:LR_HiHat Click2.wav
+192,192,25074,1,0,0:0:0:35:Kick.wav
+320,192,25074,1,0,0:0:0:35:Kick.wav
+448,192,25238,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,25321,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,25403,1,0,0:0:0:35:Kick.wav
+320,192,25403,1,0,0:0:0:35:Kick.wav
+448,192,25486,1,0,0:0:0:50:LR_HiHat Click2.wav
+64,192,25568,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,25651,1,0,0:0:0:50:LR_HiHat Click.wav
+320,192,25733,1,0,0:0:0:35:Kick.wav
+448,192,25733,1,0,0:0:0:35:Kick.wav
+320,192,25898,1,0,0:0:0:70:Kick.wav
+448,192,25898,1,0,0:0:0:50:LR_HiHat Click2.wav
+64,192,26063,1,0,0:0:0:35:Kick.wav
+192,192,26063,1,0,0:0:0:35:cymbol 2.wav
+448,192,26063,1,0,0:0:0:35:cymbol 2.wav
+320,192,26227,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,26310,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,26392,1,0,0:0:0:35:Kick.wav
+448,192,26392,1,0,0:0:0:35:Kick.wav
+192,192,26557,1,0,0:0:0:50:LR_HiHat Click2.wav
+320,192,26640,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,26722,1,0,0:0:0:35:Kick.wav
+448,192,26722,1,0,0:0:0:35:Kick.wav
+320,192,26887,1,0,0:0:0:25:LR_HiHat Click2.wav
+64,192,27052,1,0,0:0:0:35:Kick.wav
+320,192,27052,1,0,0:0:0:35:Kick.wav
+192,192,27216,1,0,0:0:0:50:LR_HiHat Click2.wav
+320,192,27299,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,27381,128,0,27546:0:0:0:35:Kick.wav
+448,192,27381,1,0,0:0:0:35:Kick.wav
+320,192,27546,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,27629,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,27711,128,0,27876:0:0:0:70:LR_Snare Wet.wav
+448,192,27711,1,0,0:0:0:35:Kick.wav
+320,192,27876,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,27958,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,28041,1,0,0:0:0:35:Kick.wav
+320,192,28041,1,0,0:0:0:35:Kick.wav
+192,192,28205,1,0,0:0:0:50:LR_HiHat Click2.wav
+320,192,28288,1,0,0:0:0:50:LR_HiHat Click.wav
+192,192,28370,1,0,0:0:0:35:Kick.wav
+448,192,28370,1,0,0:0:0:35:Kick.wav
+320,192,28535,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,28618,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,28700,1,0,0:0:0:35:Kick.wav
+320,192,28700,1,0,0:0:0:35:Kick.wav
+192,192,28865,1,0,0:0:0:25:LR_HiHat Click2.wav
+192,192,29030,1,0,0:0:0:35:Kick.wav
+448,192,29030,1,0,0:0:0:35:Kick.wav
+64,192,29194,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,29277,1,0,0:0:0:50:LR_HiHat Click.wav
+320,192,29359,1,0,0:0:0:35:Kick.wav
+448,192,29359,1,0,0:0:0:35:Kick.wav
+64,192,29442,1,0,0:0:0:0:
+192,192,29524,1,0,0:0:0:50:LR_HiHat Click2.wav
+320,192,29607,1,0,0:0:0:50:LR_HiHat Click.wav
+64,192,29689,1,0,0:0:0:35:Kick.wav
+448,192,29689,128,0,30019:0:0:0:35:Kick.wav
+320,192,29854,1,0,0:0:0:50:LR_HiHat Click2.wav
+64,192,30019,1,0,0:0:0:10:LR4_ClapReverbDPS.wav
+192,192,30019,1,0,0:0:0:70:Kick.wav
+448,192,30101,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+320,192,30183,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,30266,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+64,192,30348,1,0,0:0:0:10:LR4_ClapReverbDPS.wav
+448,192,30348,1,0,0:0:0:70:Kick.wav
+320,192,30431,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+192,192,30513,1,0,0:0:0:50:LR_HiHat Click2.wav
+320,192,30596,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+64,192,30678,1,0,0:0:0:70:Kick.wav
+448,192,30678,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+192,192,30760,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+448,192,30843,1,0,0:0:0:50:LR_HiHat Click2.wav
+320,192,30925,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+64,192,31008,1,0,0:0:0:10:LR4_ClapReverbDPS.wav
+192,192,31008,1,0,0:0:0:70:Kick.wav
+448,192,31090,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+320,192,31172,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,31255,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+64,192,31337,1,0,0:0:0:70:Kick.wav
+320,192,31337,1,0,0:0:0:70:LR4_SnareDropDwS.wav
+448,192,31337,1,0,0:0:0:10:LR4_ClapReverbDPS.wav
+192,192,31420,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+448,192,31502,1,0,0:0:0:50:LR_HiHat Click2.wav
+320,192,31585,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+64,192,31667,1,0,0:0:0:10:LR4_ClapReverbDPS.wav
+192,192,31667,1,0,0:0:0:70:LR_Snare Wet.wav
+448,192,31667,1,0,0:0:0:70:Kick.wav
+320,192,31749,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+64,192,31832,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,31914,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+64,192,31997,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+320,192,31997,1,0,0:0:0:70:LR2_ClapRRvLE.wav
+448,192,31997,1,0,0:0:0:70:Kick.wav
+192,192,32079,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+448,192,32161,1,0,0:0:0:50:LR_HiHat Click2.wav
+320,192,32244,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+64,192,32326,1,0,0:0:0:70:Kick.wav
+192,192,32326,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+448,192,32409,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+320,192,32491,1,0,0:0:0:50:LR_HiHat Click2.wav
+64,192,32574,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+192,192,32656,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+448,192,32656,1,0,0:0:0:70:Kick.wav
+320,192,32738,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+64,192,32821,1,0,0:0:0:50:LR_HiHat Click2.wav
+192,192,32903,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+64,192,32986,1,0,0:0:0:15:LR4_ClapReverbDPS.wav
+320,192,32986,1,0,0:0:0:70:Kick.wav
+448,192,32986,1,0,0:0:0:70:LR_Hat Synth.wav
+64,192,33151,1,0,0:0:0:70:Kick.wav
+320,192,33151,1,0,0:0:0:70:Whistle 2.wav
+448,192,33151,1,0,0:0:0:70:LR_Hat Synth.wav
+192,192,33315,1,0,0:0:0:60:snare2.wav
+320,192,33398,1,0,0:0:0:0:
+448,192,33480,1,0,0:0:0:60:snare2.wav
+64,192,33563,1,0,0:0:0:30:snare2.wav
+192,192,33563,1,0,0:0:0:30:snare2.wav
+320,192,33645,1,0,0:0:0:70:B5S_s.wav
+448,192,33645,1,0,0:0:0:60:Snare1.wav
+192,192,33727,1,0,0:0:0:60:snare2.wav
+64,192,33810,1,0,0:0:0:60:snare2.wav
+320,192,33892,1,0,0:0:0:60:Snare1.wav
+64,192,33975,1,0,0:0:0:70:Kick.wav
+192,192,33975,1,0,0:0:0:70:B6S_s.wav
+448,192,33975,1,0,0:0:0:70:Crash.wav
+320,192,34140,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,34304,1,0,0:0:0:70:Kick.wav
+192,192,34304,1,0,0:0:0:100:LR_HiHat Click.wav
+320,192,34469,1,0,0:0:0:70:A6S_s.wav
+448,192,34469,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,34634,1,0,0:0:0:70:Clap.wav
+192,192,34634,1,0,0:0:0:35:Kick.wav
+320,192,34799,1,0,0:0:0:70:G6S_s.wav
+448,192,34799,1,0,0:0:0:100:LR_HiHat Click.wav
+192,192,34964,1,0,0:0:0:70:F#6S_Gb6S_s.wav
+320,192,34964,1,0,0:0:0:70:Kick.wav
+64,192,35129,1,0,0:0:0:100:LR_HiHat Click.wav
+320,192,35293,1,0,0:0:0:35:Kick.wav
+448,192,35293,1,0,0:0:0:35:Kick.wav
+192,192,35458,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,35623,1,0,0:0:0:70:Clap.wav
+448,192,35623,1,0,0:0:0:35:Kick.wav
+320,192,35788,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,35953,1,0,0:0:0:70:B3S_s.wav
+192,192,35953,1,0,0:0:0:70:Kick.wav
+320,192,36118,1,0,0:0:0:100:LR_HiHat Click.wav
+192,192,36282,1,0,0:0:0:70:Kick.wav
+448,192,36282,1,0,0:0:0:70:G6S_s.wav
+64,192,36447,1,0,0:0:0:100:LR_HiHat Click.wav
+192,192,36612,1,0,0:0:0:70:B5S_s.wav
+320,192,36612,1,0,0:0:0:70:Clap.wav
+448,192,36777,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,36942,1,0,0:0:0:70:Kick.wav
+192,192,36942,1,0,0:0:0:70:A5S_s.wav
+320,192,37107,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,37271,1,0,0:0:0:35:Kick.wav
+192,192,37271,1,0,0:0:0:35:Kick.wav
+448,192,37436,1,0,0:0:0:100:LR_HiHat Click.wav
+192,192,37601,1,0,0:0:0:70:Kick.wav
+320,192,37601,1,0,0:0:0:70:B5S_s.wav
+64,192,37766,1,0,0:0:0:100:LR_HiHat Click.wav
+192,192,37766,1,0,0:0:0:70:C6S_s.wav
+320,192,37931,1,0,0:0:0:70:B5S_s.wav
+448,192,37931,1,0,0:0:0:70:Kick.wav
+64,192,38096,1,0,0:0:0:100:LR_HiHat Click.wav
+192,192,38260,1,0,0:0:0:70:E5S_s.wav
+320,192,38260,1,0,0:0:0:70:Kick.wav
+448,192,38425,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,38590,1,0,0:0:0:35:Clap.wav
+192,192,38590,1,0,0:0:0:70:Kick.wav
+320,192,38755,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,38920,1,0,0:0:0:70:A5S_s.wav
+192,192,38920,1,0,0:0:0:70:Kick.wav
+448,192,39085,1,0,0:0:0:100:LR_HiHat Click.wav
+192,192,39249,1,0,0:0:0:70:Kick.wav
+320,192,39249,1,0,0:0:0:70:F#5S_Gb5S_s.wav
+64,192,39414,1,0,0:0:0:100:LR_HiHat Click.wav
+320,192,39579,1,0,0:0:0:35:Kick.wav
+448,192,39579,1,0,0:0:0:35:Kick.wav
+192,192,39744,1,0,0:0:0:100:LR_HiHat Click.wav
+320,192,39909,1,0,0:0:0:70:Kick.wav
+448,192,39909,1,0,0:0:0:70:G5S_s.wav
+64,192,40074,1,0,0:0:0:100:LR_HiHat Click.wav
+192,192,40238,1,0,0:0:0:70:B4S_s.wav
+320,192,40238,1,0,0:0:0:70:Kick.wav
+448,192,40403,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,40568,1,0,0:0:0:70:Clap.wav
+320,192,40568,1,0,0:0:0:70:E5S_s.wav
+192,192,40733,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,40898,128,0,40980:0:0:0:70:F#5S_Gb5S_s.wav
+448,192,40898,128,0,40980:0:0:0:70:Kick.wav
+64,192,41227,128,0,41310:0:0:0:70:Kick.wav
+448,192,41227,128,0,41310:0:0:0:70:Whistle 2.wav
+192,192,41557,1,0,0:0:0:70:B5S_s.wav
+320,192,41722,128,0,41887:0:0:0:70:C6S_s.wav
+64,192,41887,1,0,0:0:0:70:B6S_s.wav
+192,192,41887,1,0,0:0:0:70:cymbol 2.wav
+448,192,41887,1,0,0:0:0:70:Crash.wav
+320,192,42052,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,42216,1,0,0:0:0:70:Kick.wav
+192,192,42216,1,0,0:0:0:100:LR_HiHat Click.wav
+320,192,42381,1,0,0:0:0:70:A6S_s.wav
+448,192,42381,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,42546,1,0,0:0:0:35:Clap.wav
+192,192,42546,1,0,0:0:0:70:Kick.wav
+320,192,42711,1,0,0:0:0:100:LR_HiHat Click.wav
+448,192,42711,1,0,0:0:0:70:G6S_s.wav
+192,192,42876,1,0,0:0:0:70:F#6S_Gb6S_s.wav
+320,192,42876,1,0,0:0:0:70:Kick.wav
+448,192,43041,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,43205,1,0,0:0:0:35:Kick.wav
+192,192,43205,1,0,0:0:0:35:Kick.wav
+320,192,43370,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,43535,1,0,0:0:0:35:Clap.wav
+448,192,43535,1,0,0:0:0:35:Clap.wav
+192,192,43700,1,0,0:0:0:100:LR_HiHat Click.wav
+320,192,43865,1,0,0:0:0:70:Kick.wav
+448,192,43865,1,0,0:0:0:70:D3S_s.wav
+192,192,44030,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,44194,1,0,0:0:0:70:Kick.wav
+448,192,44194,1,0,0:0:0:70:F#7S_Gb7S_s.wav
+320,192,44359,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,44524,1,0,0:0:0:70:Kick.wav
+192,192,44524,1,0,0:0:0:70:F#7S_Gb7S_s.wav
+448,192,44689,1,0,0:0:0:70:B6S_s.wav
+192,192,44854,1,0,0:0:0:70:A6S_s.wav
+320,192,44854,1,0,0:0:0:70:Kick.wav
+64,192,45019,1,0,0:0:0:100:LR_HiHat Click.wav
+320,192,45183,1,0,0:0:0:70:A5S_s.wav
+448,192,45183,1,0,0:0:0:70:Kick.wav
+192,192,45348,1,0,0:0:0:100:LR_HiHat Click.wav
+320,192,45431,1,0,0:0:0:50:C6S_s.wav
+64,192,45513,1,0,0:0:0:70:Kick.wav
+448,192,45513,1,0,0:0:0:70:Clap.wav
+192,192,45568,1,0,0:0:0:50:E6S_s.wav
+320,192,45623,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+448,192,45678,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,45760,1,0,0:0:0:50:A6S_s.wav
+192,192,45843,1,0,0:0:0:70:C#4S_Db4S_s.wav
+320,192,45843,1,0,0:0:0:70:B6S_s.wav
+448,192,46008,1,0,0:0:0:70:LR_RevCyWWT.wav
+64,192,46172,1,0,0:0:0:70:Kick.wav
+192,192,46172,1,0,0:0:0:100:LR_HiHat Click.wav
+448,192,46337,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,46502,1,0,0:0:0:70:Clap.wav
+320,192,46502,1,0,0:0:0:35:Kick.wav
+192,192,46667,1,0,0:0:0:100:LR_HiHat Click.wav
+320,192,46832,1,0,0:0:0:35:Kick.wav
+448,192,46832,1,0,0:0:0:35:Kick.wav
+64,192,46997,1,0,0:0:0:100:LR_HiHat Click.wav
+192,192,47161,1,0,0:0:0:35:Kick.wav
+320,192,47161,1,0,0:0:0:35:Kick.wav
+448,192,47326,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,47491,1,0,0:0:0:35:Kick.wav
+320,192,47491,1,0,0:0:0:70:Clap.wav
+448,192,47656,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,47821,1,0,0:0:0:70:D7S_s.wav
+192,192,47821,1,0,0:0:0:70:Kick.wav
+448,192,47986,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,48151,1,0,0:0:0:70:Kick.wav
+320,192,48151,1,0,0:0:0:100:LR_HiHat Click.wav
+192,192,48315,1,0,0:0:0:100:LR_HiHat Click.wav
+448,192,48315,1,0,0:0:0:70:C7S_s.wav
+64,192,48480,1,0,0:0:0:70:Kick.wav
+320,192,48480,1,0,0:0:0:70:Clap.wav
+64,192,48645,1,0,0:0:0:70:G6S_s.wav
+192,192,48645,1,0,0:0:0:100:LR_HiHat Click.wav
+320,192,48810,1,0,0:0:0:70:Kick.wav
+448,192,48810,1,0,0:0:0:70:F#6S_Gb6S_s.wav
+192,192,48975,1,0,0:0:0:100:LR_HiHat Click.wav
+64,192,49140,1,0,0:0:0:70:Kick.wav
+448,192,49140,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+320,192,49222,1,0,0:0:0:50:B6S_s.wav
+64,192,49304,1,0,0:0:0:100:LR_HiHat Click.wav
+192,192,49387,1,0,0:0:0:50:F#7S_Gb7S_s.wav
+320,192,49469,128,0,49634:0:0:0:0:
+448,192,49469,128,0,49634:0:0:0:0:
+64,192,49799,1,0,0:0:0:35:Cymbal.wav
+192,192,49799,1,0,0:0:0:35:Kick.wav
+320,192,49799,1,0,0:0:0:35:Kick.wav
+448,192,49909,1,0,0:0:0:45:LR_HiHat Click.wav
+448,192,50019,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,50129,1,0,0:0:0:35:Kick.wav
+192,192,50129,1,0,0:0:0:35:Kick.wav
+448,192,50238,1,0,0:0:0:45:LR_HiHat Click.wav
+448,192,50348,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,50458,1,0,0:0:0:70:Clap.wav
+192,192,50458,1,0,0:0:0:70:Kick.wav
+448,192,50568,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,50678,1,0,0:0:0:45:LR_HiHat Click.wav
+320,192,50788,1,0,0:0:0:35:Kick.wav
+448,192,50788,1,0,0:0:0:35:Kick.wav
+64,192,50898,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,51008,1,0,0:0:0:45:LR_HiHat Click.wav
+320,192,51118,1,0,0:0:0:35:Kick.wav
+448,192,51118,1,0,0:0:0:35:Kick.wav
+64,192,51227,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,51337,1,0,0:0:0:45:LR_HiHat Click.wav
+320,192,51447,1,0,0:0:0:70:Clap.wav
+448,192,51447,1,0,0:0:0:70:Kick.wav
+64,192,51557,1,0,0:0:0:45:LR_HiHat Click.wav
+448,192,51667,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,51777,1,0,0:0:0:35:Kick.wav
+192,192,51777,1,0,0:0:0:35:Kick.wav
+320,192,51887,1,0,0:0:0:45:LR_HiHat Click.wav
+320,192,51997,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,52107,1,0,0:0:0:35:Kick.wav
+192,192,52107,1,0,0:0:0:35:Kick.wav
+320,192,52216,1,0,0:0:0:45:LR_HiHat Click.wav
+320,192,52326,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,52436,1,0,0:0:0:70:Clap.wav
+192,192,52436,1,0,0:0:0:70:Kick.wav
+320,192,52546,1,0,0:0:0:45:LR_HiHat Click.wav
+192,192,52656,1,0,0:0:0:45:LR_HiHat Click.wav
+320,192,52766,1,0,0:0:0:35:Kick.wav
+448,192,52766,1,0,0:0:0:35:Kick.wav
+192,192,52876,1,0,0:0:0:45:LR_HiHat Click.wav
+192,192,52986,1,0,0:0:0:45:LR_HiHat Click.wav
+320,192,53096,1,0,0:0:0:35:Kick.wav
+448,192,53096,1,0,0:0:0:35:Kick.wav
+192,192,53205,1,0,0:0:0:45:LR_HiHat Click.wav
+192,192,53315,1,0,0:0:0:45:LR_HiHat Click.wav
+320,192,53425,1,0,0:0:0:70:Clap.wav
+448,192,53425,1,0,0:0:0:70:Kick.wav
+64,192,53535,1,0,0:0:0:45:LR_HiHat Click.wav
+448,192,53645,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,53755,1,0,0:0:0:35:Kick.wav
+192,192,53755,1,0,0:0:0:35:Kick.wav
+448,192,53865,1,0,0:0:0:45:LR_HiHat Click.wav
+448,192,53975,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,54085,1,0,0:0:0:35:Kick.wav
+192,192,54085,1,0,0:0:0:35:Kick.wav
+448,192,54194,1,0,0:0:0:45:LR_HiHat Click.wav
+448,192,54304,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,54414,1,0,0:0:0:70:Clap.wav
+192,192,54414,1,0,0:0:0:70:Kick.wav
+448,192,54524,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,54634,1,0,0:0:0:45:LR_HiHat Click.wav
+320,192,54744,1,0,0:0:0:35:Kick.wav
+448,192,54744,1,0,0:0:0:35:Kick.wav
+64,192,54854,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,54964,1,0,0:0:0:45:LR_HiHat Click.wav
+320,192,55074,1,0,0:0:0:35:Kick.wav
+448,192,55074,1,0,0:0:0:35:Kick.wav
+64,192,55183,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,55293,1,0,0:0:0:45:LR_HiHat Click.wav
+320,192,55403,1,0,0:0:0:70:Kick.wav
+448,192,55403,1,0,0:0:0:70:Clap.wav
+64,192,55513,1,0,0:0:0:45:LR_HiHat Click.wav
+448,192,55623,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,55733,1,0,0:0:0:70:Clap.wav
+192,192,55733,1,0,0:0:0:70:Kick.wav
+320,192,55843,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,55953,1,0,0:0:0:70:Kick.wav
+192,192,55953,1,0,0:0:0:90:LR_HiHat Click.wav
+64,192,56063,1,0,0:0:0:23:Clap.wav
+192,192,56063,1,0,0:0:0:23:Clap.wav
+448,192,56172,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,56282,1,0,0:0:0:70:Kick.wav
+192,192,56282,1,0,0:0:0:90:LR_HiHat Click.wav
+64,192,56392,1,0,0:0:0:23:Clap.wav
+192,192,56392,1,0,0:0:0:23:Clap.wav
+448,192,56502,1,0,0:0:0:45:LR_HiHat Click.wav
+64,192,56612,1,0,0:0:0:90:LR_HiHat Click.wav
+192,192,56612,1,0,0:0:0:70:Kick.wav
+64,192,56722,1,0,0:0:0:70:L-Rhythm.wav
+192,192,56722,1,0,0:0:0:70:Kick.wav
+320,192,56777,1,0,0:0:0:0:
+448,192,56825,1,0,0:0:0:0:
+64,192,56887,1,0,0:0:0:0:
+192,192,56942,1,0,0:0:0:0:
+320,192,56997,1,0,0:0:0:0:
+448,192,57052,1,0,0:0:0:0:
+64,192,57107,1,0,0:0:0:0:
+192,192,57161,1,0,0:0:0:0:
+448,192,57216,1,0,0:0:0:0:
+320,192,57271,1,0,0:0:0:0:
+192,192,57326,1,0,0:0:0:0:
+64,192,57381,1,0,0:0:0:0:
+448,192,57436,1,0,0:0:0:0:
+320,192,57491,1,0,0:0:0:0:
+64,192,57546,1,0,0:0:0:0:
+192,192,57601,1,0,0:0:0:0:
+320,192,57656,1,0,0:0:0:0:
+64,192,57711,128,0,58205:0:0:0:10:C3S_s.wav
+448,192,57711,1,0,0:0:0:10:C3S_s.wav
+320,192,58205,128,0,58700:0:0:0:20:D3S_s.wav
+192,192,58700,128,0,59359:0:0:0:10:click.wav
+64,192,60348,128,0,60842:0:0:0:20:D3S_s.wav
+320,192,60842,128,0,61337:0:0:0:8:LR_HiHat Click.wav
+448,192,61337,128,0,61996:0:0:0:20:E3S_s.wav
+320,192,62985,128,0,63480:0:0:0:20:D#3S_Eb3S_s.wav
+448,192,63480,128,0,63974:0:0:0:20:E3S_s.wav
+192,192,63974,128,0,64634:0:0:0:20:B2S_s.wav
+320,192,65623,128,0,66117:0:0:0:20:C3S_s.wav
+448,192,66117,128,0,66612:0:0:0:20:D3S_s.wav
+64,192,66612,128,0,67930:0:0:0:20:E3S_s.wav
+192,192,67930,1,0,0:0:0:70:Bass.wav
+448,192,67930,1,0,0:0:0:35:LR4_BassKickReverbXD.wav
+64,192,68260,1,0,0:0:0:70:Crash.wav
+320,192,68260,128,0,68754:0:0:0:35:Bass.wav
+192,192,68754,128,0,69249:0:0:0:35:Bass.wav
+448,192,68754,1,0,0:0:0:35:Bass.wav
+64,192,69249,128,0,70568:0:0:0:35:Bass.wav
+320,192,69249,1,0,0:0:0:35:Bass.wav
+192,192,70568,1,0,0:0:0:70:Bass.wav
+448,192,70568,1,0,0:0:0:70:LR3_BassDrop.wav
+192,192,70897,1,0,0:0:0:23:Bass.wav
+320,192,70897,128,0,71392:0:0:0:23:Bass.wav
+64,192,71392,1,0,0:0:0:35:Bass.wav
+448,192,71392,128,0,71886:0:0:0:35:Bass.wav
+64,192,71886,1,0,0:0:0:35:Bass.wav
+192,192,71886,128,0,73205:0:0:0:35:Bass.wav
+448,192,73123,1,0,0:0:0:70:Bass.wav
+320,192,73205,128,0,73535:0:0:0:70:Bass.wav
+64,192,73452,1,0,0:0:0:70:Bass.wav
+192,192,73535,1,0,0:0:0:70:Crash.wav
+448,192,73535,128,0,74029:0:0:0:70:Bass.wav
+192,192,74029,128,0,74524:0:0:0:35:Bass.wav
+320,192,74029,1,0,0:0:0:35:Bass.wav
+64,192,74524,128,0,75513:0:0:0:35:Bass.wav
+320,192,74524,1,0,0:0:0:35:Bass.wav
+448,192,75513,1,0,0:0:0:70:Bass.wav
+320,192,75554,1,0,0:0:0:0:
+192,192,75595,1,0,0:0:0:0:
+64,192,75636,1,0,0:0:0:0:
+448,192,75678,1,0,0:0:0:0:
+320,192,75719,1,0,0:0:0:0:
+64,192,75760,1,0,0:0:0:0:
+192,192,75801,1,0,0:0:0:0:
+448,192,75842,1,0,0:0:0:0:
+320,192,75884,1,0,0:0:0:0:
+64,192,75925,1,0,0:0:0:0:
+192,192,75966,1,0,0:0:0:0:
+448,192,76007,128,0,76090:0:0:0:40:ehco.wav
+64,192,76090,128,0,76172:0:0:0:0:
+320,192,76172,1,0,0:0:0:70:Bass.wav
+448,192,76172,128,0,76667:0:0:0:15:LR_HiHat Click2.wav
+64,192,76667,128,0,77161:0:0:0:15:LR_HiHat Click.wav
+192,192,76667,1,0,0:0:0:70:Bass.wav
+320,192,77161,1,0,0:0:0:70:Bass.wav
+448,192,77161,128,0,78809:0:0:0:15:LR_HiHat Click2.wav
+192,192,77491,1,0,0:0:0:30:LR_HiHat Click2.wav
+192,192,77820,1,0,0:0:0:30:LR_HiHat Click2.wav
+192,192,78150,1,0,0:0:0:30:LR_HiHat Click2.wav
+192,192,78480,1,0,0:0:0:30:LR_HiHat Click2.wav
+64,192,78809,128,0,78974:0:0:0:40:Bass.wav
+320,192,78809,1,0,0:0:0:70:C3S_s.wav
+192,192,78974,128,0,79139:0:0:0:0:
+448,192,79139,1,0,0:0:0:60:LR_HiHat Click.wav
+64,192,79304,1,0,0:0:0:70:D3S_s.wav
+320,192,79304,128,0,79634:0:0:0:40:Bass.wav
+448,192,79469,1,0,0:0:0:60:LR_HiHat Click.wav
+64,192,79634,128,0,79798:0:0:0:0:
+320,192,79798,1,0,0:0:0:70:A2S_s.wav
+64,192,79963,1,0,0:0:0:20:Bass.wav
+448,192,79963,128,0,80293:0:0:0:20:Bass.wav
+192,192,80128,1,0,0:0:0:60:LR_HiHat Click.wav
+320,192,80293,128,0,80458:0:0:0:0:
+64,192,80458,128,0,80623:0:0:0:60:LR_HiHat Click.wav
+192,192,80623,128,0,80787:0:0:0:20:Bass.wav
+448,192,80623,1,0,0:0:0:20:Bass.wav
+320,192,80787,1,0,0:0:0:60:LR_HiHat Click.wav
+64,192,80952,1,0,0:0:0:20:Bass.wav
+448,192,80952,128,0,81117:0:0:0:20:Bass.wav
+192,192,81117,128,0,81282:0:0:0:60:LR_HiHat Click.wav
+64,192,81282,1,0,0:0:0:20:Bass.wav
+320,192,81282,128,0,81447:0:0:0:20:Bass.wav
+448,192,81447,1,0,0:0:0:70:B2S_s.wav
+192,192,81612,1,0,0:0:0:0:
+192,192,81776,128,0,81941:0:0:0:50:LR2_ClapRRvLE.wav
+64,192,81941,1,0,0:0:0:70:D3S_s.wav
+320,192,81941,128,0,82271:0:0:0:40:Bass.wav
+192,192,82106,1,0,0:0:0:60:LR_HiHat Click.wav
+448,192,82271,128,0,82436:0:0:0:0:
+64,192,82436,1,0,0:0:0:50:LR2_ClapRRvLE.wav
+192,192,82436,1,0,0:0:0:70:E3S_s.wav
+320,192,82601,128,0,82930:0:0:0:20:Bass.wav
+448,192,82601,1,0,0:0:0:20:Bass.wav
+64,192,82765,1,0,0:0:0:60:LR_HiHat Click.wav
+192,192,82930,128,0,83095:0:0:0:0:
+320,192,83095,1,0,0:0:0:60:LR_HiHat Click.wav
+448,192,83095,128,0,83260:0:0:0:70:LR2_ClapRRvLE.wav
+64,192,83260,128,0,83425:0:0:0:20:Bass.wav
+192,192,83260,1,0,0:0:0:20:Bass.wav
+448,192,83425,1,0,0:0:0:60:LR_HiHat Click.wav
+64,192,83590,1,0,0:0:0:20:Bass.wav
+192,192,83590,128,0,83754:0:0:0:20:Bass.wav
+320,192,83754,1,0,0:0:0:60:LR_HiHat Click.wav
+448,192,83754,128,0,83919:0:0:0:50:LR_Snare Hat 2.wav
+64,192,83919,128,0,84084:0:0:0:20:Bass.wav
+192,192,83919,1,0,0:0:0:20:Bass.wav
+320,192,84084,128,0,84249:0:0:0:40:Bass.wav
+448,192,84084,1,0,0:0:0:70:D#3S_Eb3S_s.wav
+192,192,84249,128,0,84414:0:0:0:0:
+64,192,84414,1,0,0:0:0:50:LR_Snare Hat 2.wav
+448,192,84414,1,0,0:0:0:60:LR_HiHat Click.wav
+192,192,84579,1,0,0:0:0:70:E3S_s.wav
+320,192,84579,128,0,84908:0:0:0:40:Bass.wav
+64,192,84743,1,0,0:0:0:60:LR_HiHat Click.wav
+448,192,84908,128,0,85073:0:0:0:0:
+64,192,85073,1,0,0:0:0:70:LR_Snare Hat 2.wav
+192,192,85073,1,0,0:0:0:70:B2S_s.wav
+320,192,85238,128,0,85568:0:0:0:20:Bass.wav
+448,192,85238,1,0,0:0:0:20:Bass.wav
+192,192,85403,1,0,0:0:0:60:LR_HiHat Click.wav
+64,192,85568,128,0,85732:0:0:0:0:
+192,192,85732,128,0,85897:0:0:0:60:LR_HiHat Click.wav
+320,192,85732,1,0,0:0:0:30:LR4_ClapLRV.wav
+64,192,85897,1,0,0:0:0:20:Bass.wav
+448,192,85897,128,0,86062:0:0:0:20:Bass.wav
+192,192,86062,1,0,0:0:0:60:LR_HiHat Click.wav
+64,192,86227,128,0,86392:0:0:0:20:Bass.wav
+448,192,86227,1,0,0:0:0:20:Bass.wav
+192,192,86392,1,0,0:0:0:60:LR_HiHat Click.wav
+320,192,86392,128,0,86721:0:0:0:30:LR4_ClapLRV.wav
+448,192,86557,1,0,0:0:0:40:Bass.wav
+64,192,86639,1,0,0:0:0:30:LR4_ClapLRV.wav
+192,192,86721,1,0,0:0:0:70:C3S_s.wav
+448,192,86721,1,0,0:0:0:40:Bass.wav
+64,192,86886,128,0,87051:0:0:0:0:
+192,192,87051,1,0,0:0:0:50:LR4_ClapLRV.wav
+448,192,87051,1,0,0:0:0:60:LR_HiHat Click.wav
+64,192,87216,1,0,0:0:0:70:D3S_s.wav
+320,192,87216,128,0,87546:0:0:0:40:Bass.wav
+448,192,87381,1,0,0:0:0:60:LR_HiHat Click.wav
+192,192,87546,1,0,0:0:0:0:
+64,192,87711,1,0,0:0:0:50:LR4_ClapLRV.wav
+448,192,87711,1,0,0:0:0:70:E3S_s.wav
+192,192,87875,1,0,0:0:0:20:Bass.wav
+320,192,87875,1,0,0:0:0:20:Bass.wav
+64,192,88040,1,0,0:0:0:35:cymbol 2.wav
+192,192,88040,1,0,0:0:0:40:Bass.wav
+448,192,88040,1,0,0:0:0:35:cymbol 2.wav
+320,192,88205,1,0,0:0:0:60:Snare1.wav
+64,192,88370,1,0,0:0:0:60:Snare1.wav
+320,192,88535,1,0,0:0:0:60:snare2.wav
+64,192,88700,1,0,0:0:0:60:snare2.wav
+320,192,88864,1,0,0:0:0:60:snare2.wav
+192,192,88947,1,0,0:0:0:60:snare2.wav
+448,192,89029,1,0,0:0:0:60:Snare1.wav
+64,192,89112,1,0,0:0:0:60:snare2.wav
+448,192,89194,1,0,0:0:0:60:Snare1.wav
+64,192,89276,1,0,0:0:0:40:Bass.wav
+192,192,89359,1,0,0:0:0:40:ehco2.wav
+320,192,89359,1,0,0:0:0:40:Bass.wav
+448,192,89524,1,0,0:0:0:0:
+64,192,89689,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+320,192,89689,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+192,192,89853,1,0,0:0:0:40:Bass.wav
+64,192,90018,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,90018,1,0,0:0:0:25:LR4_ClapLRV.wav
+320,192,90183,1,0,0:0:0:15:Whistle.wav
+64,192,90348,1,0,0:0:0:40:Bass.wav
+320,192,90348,1,0,0:0:0:30:Whistle.wav
+192,192,90513,1,0,0:0:0:0:
+320,192,90678,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+448,192,90678,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+64,192,90842,1,0,0:0:0:40:Bass.wav
+192,192,91007,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+448,192,91007,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+320,192,91172,1,0,0:0:0:0:
+64,192,91337,1,0,0:0:0:50:LR4_ClapLRV.wav
+192,192,91337,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,91502,1,0,0:0:0:0:
+64,192,91667,1,0,0:0:0:40:Bass.wav
+320,192,91667,1,0,0:0:0:30:Whistle.wav
+192,192,91831,1,0,0:0:0:0:
+320,192,91996,1,0,0:0:0:40:Bass.wav
+448,192,91996,1,0,0:0:0:30:Whistle.wav
+192,192,92161,1,0,0:0:0:0:
+64,192,92326,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+448,192,92326,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+320,192,92491,1,0,0:0:0:40:Bass.wav
+64,192,92656,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+192,192,92656,1,0,0:0:0:25:LR4_ClapLRV.wav
+448,192,92820,1,0,0:0:0:15:Whistle.wav
+192,192,92985,1,0,0:0:0:40:Bass.wav
+448,192,92985,1,0,0:0:0:30:Whistle.wav
+64,192,93150,1,0,0:0:0:0:
+320,192,93315,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+448,192,93315,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+192,192,93480,1,0,0:0:0:40:Bass.wav
+64,192,93645,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+320,192,93645,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+448,192,93809,1,0,0:0:0:0:
+64,192,93974,1,0,0:0:0:50:Clap.wav
+192,192,93974,1,0,0:0:0:50:LR4_ClapLRV.wav
+320,192,93974,1,0,0:0:0:40:Bass.wav
+448,192,94139,1,0,0:0:0:15:Whistle.wav
+64,192,94304,1,0,0:0:0:40:Bass.wav
+448,192,94304,1,0,0:0:0:30:Whistle.wav
+192,192,94469,1,0,0:0:0:15:Whistle.wav
+192,192,94634,1,0,0:0:0:40:Bass.wav
+448,192,94634,1,0,0:0:0:30:Whistle.wav
+64,192,94798,1,0,0:0:0:0:
+320,192,94963,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+448,192,94963,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+192,192,95128,1,0,0:0:0:40:Bass.wav
+64,192,95293,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,95293,1,0,0:0:0:25:LR4_ClapLRV.wav
+320,192,95458,1,0,0:0:0:15:Whistle.wav
+64,192,95623,1,0,0:0:0:30:Whistle.wav
+320,192,95623,1,0,0:0:0:40:Bass.wav
+192,192,95787,1,0,0:0:0:0:
+64,192,95952,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+448,192,95952,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+320,192,96117,1,0,0:0:0:40:Bass.wav
+64,192,96282,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+192,192,96282,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+448,192,96447,1,0,0:0:0:0:
+192,192,96612,1,0,0:0:0:30:Clap.wav
+320,192,96612,1,0,0:0:0:50:LR4_ClapLRV.wav
+64,192,96776,1,0,0:0:0:0:
+320,192,96941,1,0,0:0:0:40:Bass.wav
+448,192,96941,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+192,192,97106,1,0,0:0:0:0:
+64,192,97271,1,0,0:0:0:40:Bass.wav
+448,192,97271,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+320,192,97436,1,0,0:0:0:0:
+64,192,97601,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+448,192,97601,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+192,192,97765,1,0,0:0:0:40:Bass.wav
+320,192,97930,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,97930,1,0,0:0:0:25:LR4_ClapLRV.wav
+64,192,98095,1,0,0:0:0:15:Whistle.wav
+64,192,98260,1,0,0:0:0:30:Whistle.wav
+448,192,98260,1,0,0:0:0:40:Bass.wav
+192,192,98425,1,0,0:0:0:0:
+320,192,98590,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+448,192,98590,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+64,192,98754,1,0,0:0:0:40:Bass.wav
+320,192,98919,128,0,99084:0:0:0:15:LR2_ClapRRvLE.wav
+448,192,98919,1,0,0:0:0:15:LR2_ClapRRvLE.wav
+192,192,99084,128,0,99249:0:0:0:0:
+64,192,99249,128,0,99414:0:0:0:40:Bass.wav
+448,192,99249,1,0,0:0:0:50:LR4_ClapLRV.wav
+320,192,99414,128,0,99579:0:0:0:0:
+192,192,99579,128,0,99743:0:0:0:40:Bass.wav
+448,192,99579,1,0,0:0:0:70:LR3_BassDropPDG.wav
+448,192,99743,128,0,99908:0:0:0:0:
+64,192,99908,1,0,0:0:0:70:Crash.wav
+192,192,99908,1,0,0:0:0:50:Bass.wav
+320,192,99908,1,0,0:0:0:50:Whistle.wav
+448,192,100073,1,0,0:0:0:60:LR_Hat Normal.wav
+64,192,100238,1,0,0:0:0:50:Bass.wav
+320,192,100238,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+192,192,100403,1,0,0:0:0:50:Whistle.wav
+320,192,100568,1,0,0:0:0:50:Bass.wav
+448,192,100568,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+64,192,100732,1,0,0:0:0:50:Whistle.wav
+64,192,100897,1,0,0:0:0:50:Bass.wav
+448,192,100897,1,0,0:0:0:50:Whistle.wav
+320,192,101062,1,0,0:0:0:60:LR_Hat Normal.wav
+64,192,101227,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+192,192,101227,1,0,0:0:0:50:Bass.wav
+448,192,101392,1,0,0:0:0:60:LR_Hat Normal.wav
+64,192,101557,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+320,192,101557,1,0,0:0:0:50:Bass.wav
+192,192,101721,1,0,0:0:0:60:LR_Hat Normal.wav
+320,192,101886,1,0,0:0:0:50:Bass.wav
+448,192,101886,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+64,192,102051,1,0,0:0:0:60:LR_Hat Normal.wav
+192,192,102216,1,0,0:0:0:50:Whistle.wav
+448,192,102216,1,0,0:0:0:50:Bass.wav
+448,192,102381,1,0,0:0:0:30:LR_Hat Normal.wav
+64,192,102546,1,0,0:0:0:50:Bass.wav
+192,192,102546,1,0,0:0:0:50:Whistle.wav
+192,192,102711,1,0,0:0:0:20:LR_Hat Normal.wav
+64,192,102875,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,102875,1,0,0:0:0:50:Bass.wav
+320,192,103040,1,0,0:0:0:60:LR_Hat Normal.wav
+64,192,103205,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+320,192,103205,1,0,0:0:0:50:Bass.wav
+192,192,103370,1,0,0:0:0:50:Whistle.wav
+192,192,103535,1,0,0:0:0:50:Whistle.wav
+448,192,103535,1,0,0:0:0:50:Bass.wav
+320,192,103700,1,0,0:0:0:20:LR_Hat Normal.wav
+64,192,103864,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+192,192,103864,1,0,0:0:0:50:Bass.wav
+448,192,104029,1,0,0:0:0:20:LR_Hat Normal.wav
+64,192,104194,1,0,0:0:0:50:Bass.wav
+320,192,104194,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+192,192,104359,1,0,0:0:0:30:LR_Hat Normal.wav
+64,192,104524,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,104524,1,0,0:0:0:50:Bass.wav
+320,192,104689,1,0,0:0:0:60:LR_Hat Normal.wav
+192,192,104853,1,0,0:0:0:50:Whistle.wav
+64,192,104853,1,0,0:0:0:50:Bass.wav
+320,192,105018,1,0,0:0:0:60:LR_Hat Normal.wav
+192,192,105183,1,0,0:0:0:70:cymbol 2.wav
+448,192,105183,1,0,0:0:0:60:Bass.wav
+192,192,105348,1,0,0:0:0:30:Bass.wav
+448,192,105348,1,0,0:0:0:30:Bass.wav
+64,192,105513,1,0,0:0:0:60:Bass.wav
+320,192,105513,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+64,192,105678,1,0,0:0:0:30:Bass.wav
+320,192,105678,1,0,0:0:0:30:Bass.wav
+192,192,105842,1,0,0:0:0:60:Bass.wav
+448,192,105842,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+192,192,106007,1,0,0:0:0:30:Bass.wav
+448,192,106007,1,0,0:0:0:30:Bass.wav
+64,192,106172,1,0,0:0:0:60:Bass.wav
+320,192,106172,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+64,192,106337,1,0,0:0:0:30:Bass.wav
+320,192,106337,1,0,0:0:0:30:Bass.wav
+320,192,106502,1,0,0:0:0:70:cymbol 2.wav
+448,192,106502,1,0,0:0:0:60:Bass.wav
+320,192,106667,1,0,0:0:0:30:Bass.wav
+448,192,106667,1,0,0:0:0:30:Bass.wav
+64,192,106831,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+192,192,106831,1,0,0:0:0:60:Bass.wav
+64,192,106996,1,0,0:0:0:30:Bass.wav
+192,192,106996,1,0,0:0:0:30:Bass.wav
+320,192,107161,1,0,0:0:0:60:Bass.wav
+448,192,107161,1,0,0:0:0:70:Cymbal.wav
+320,192,107326,1,0,0:0:0:30:Bass.wav
+448,192,107326,1,0,0:0:0:30:Bass.wav
+64,192,107491,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+192,192,107491,1,0,0:0:0:60:Bass.wav
+64,192,107656,1,0,0:0:0:30:Bass.wav
+192,192,107656,1,0,0:0:0:30:Bass.wav
+320,192,107820,1,0,0:0:0:60:Bass.wav
+448,192,107820,1,0,0:0:0:70:Crash.wav
+64,192,107903,1,0,0:0:0:30:Bass.wav
+192,192,107903,1,0,0:0:0:30:Bass.wav
+320,192,107985,1,0,0:0:0:30:Bass.wav
+448,192,107985,1,0,0:0:0:30:Bass.wav
+64,192,108068,1,0,0:0:0:30:Bass.wav
+192,192,108068,1,0,0:0:0:30:Bass.wav
+320,192,108150,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,108150,1,0,0:0:0:60:Bass.wav
+64,192,108232,1,0,0:0:0:30:Bass.wav
+192,192,108232,1,0,0:0:0:30:Bass.wav
+320,192,108315,1,0,0:0:0:30:Bass.wav
+448,192,108315,1,0,0:0:0:30:Bass.wav
+64,192,108397,1,0,0:0:0:30:Bass.wav
+192,192,108397,1,0,0:0:0:30:Bass.wav
+320,192,108480,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,108480,1,0,0:0:0:60:Bass.wav
+64,192,108521,1,0,0:0:0:60:Bass.wav
+192,192,108562,1,0,0:0:0:60:Bass.wav
+320,192,108603,1,0,0:0:0:60:Bass.wav
+64,192,108645,1,0,0:0:0:30:Bass.wav
+448,192,108645,1,0,0:0:0:30:Bass.wav
+192,192,108727,1,0,0:0:0:30:Bass.wav
+320,192,108727,1,0,0:0:0:30:Bass.wav
+64,192,108809,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,108809,1,0,0:0:0:60:Bass.wav
+192,192,108892,1,0,0:0:0:30:Bass.wav
+320,192,108892,1,0,0:0:0:30:Bass.wav
+64,192,108974,1,0,0:0:0:30:Bass.wav
+448,192,108974,1,0,0:0:0:30:Bass.wav
+192,192,109057,1,0,0:0:0:30:Bass.wav
+320,192,109057,1,0,0:0:0:30:Bass.wav
+64,192,109139,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,109139,1,0,0:0:0:60:Bass.wav
+320,192,109180,1,0,0:0:0:60:Bass.wav
+192,192,109221,1,0,0:0:0:60:Bass.wav
+64,192,109263,1,0,0:0:0:60:Bass.wav
+448,192,109304,1,0,0:0:0:40:Bass.wav
+320,192,109345,1,0,0:0:0:30:Bass.wav
+192,192,109386,1,0,0:0:0:20:Bass.wav
+64,192,109428,1,0,0:0:0:20:Bass.wav
+448,192,109469,1,0,0:0:0:20:Bass.wav
+320,192,109510,1,0,0:0:0:20:Bass.wav
+192,192,109551,1,0,0:0:0:20:Bass.wav
+64,192,109592,1,0,0:0:0:30:Bass.wav
+448,192,109634,1,0,0:0:0:70:snare2.wav
+320,192,109675,1,0,0:0:0:70:snare2.wav
+192,192,109716,1,0,0:0:0:70:snare2.wav
+64,192,109757,1,0,0:0:0:70:snare2.wav
+320,192,109798,1,0,0:0:0:70:snare2.wav
+448,192,109840,1,0,0:0:0:70:snare2.wav
+64,192,109881,1,0,0:0:0:70:snare2.wav
+192,192,109922,1,0,0:0:0:70:snare2.wav
+320,192,109963,1,0,0:0:0:70:snare2.wav
+448,192,110004,1,0,0:0:0:70:snare2.wav
+64,192,110046,1,0,0:0:0:70:snare2.wav
+192,192,110087,1,0,0:0:0:70:snare2.wav
+320,192,110128,1,0,0:0:0:70:snare2.wav
+448,192,110169,1,0,0:0:0:70:snare2.wav
+64,192,110211,1,0,0:0:0:70:snare2.wav
+192,192,110252,1,0,0:0:0:70:snare2.wav
+320,192,110293,1,0,0:0:0:70:snare2.wav
+448,192,110334,1,0,0:0:0:70:snare2.wav
+64,192,110375,1,0,0:0:0:70:Snare1.wav
+192,192,110417,1,0,0:0:0:70:snare2.wav
+320,192,110458,1,0,0:0:0:60:Bass.wav
+448,192,110458,128,0,112765:0:0:0:50:LR4_BassKickReverbXD.wav
+64,192,111776,128,0,112765:0:0:0:70:LR_RevCyITV.wav
+320,192,112765,128,0,113095:0:0:0:0:
+64,192,113095,1,0,0:0:0:70:Kick.wav
+192,192,113095,1,0,0:0:0:70:LR3_BassDropPDG.wav
+320,192,113178,1,0,0:0:0:0:
+448,192,113260,1,0,0:0:0:0:
+64,192,113342,1,0,0:0:0:0:
+192,192,113425,1,0,0:0:0:0:
+320,192,113507,1,0,0:0:0:0:
+64,192,113590,1,0,0:0:0:0:
+192,192,113672,1,0,0:0:0:0:
+64,192,113754,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,113754,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,113754,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,113919,1,0,0:0:0:0:
+192,192,114084,1,0,0:0:0:35:Kick.wav
+320,192,114084,1,0,0:0:0:35:Kick.wav
+64,192,114249,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,114249,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,114249,1,0,0:0:0:23:LR4_SnareBPDT.wav
+64,192,114743,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,114743,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,114743,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,114743,1,0,0:0:0:0:
+64,192,115073,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,115073,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,115073,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,115238,1,0,0:0:0:35:Kick.wav
+448,192,115238,1,0,0:0:0:35:Kick.wav
+320,192,115403,1,0,0:0:0:35:Kick.wav
+448,192,115403,1,0,0:0:0:35:Kick.wav
+64,192,115485,128,0,115732:0:0:0:0:
+192,192,115732,1,0,0:0:0:70:LR3_BassDrop.wav
+448,192,115732,1,0,0:0:0:70:Kick.wav
+320,192,115815,1,0,0:0:0:0:
+192,192,115897,1,0,0:0:0:0:
+448,192,115980,1,0,0:0:0:0:
+64,192,116062,1,0,0:0:0:70:Kick.wav
+320,192,116062,1,0,0:0:0:70:LR3_BassDrop.wav
+192,192,116145,1,0,0:0:0:0:
+64,192,116227,1,0,0:0:0:0:
+448,192,116309,1,0,0:0:0:0:
+64,192,116392,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,116392,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,116392,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,116557,1,0,0:0:0:0:
+64,192,116721,1,0,0:0:0:35:Kick.wav
+448,192,116721,1,0,0:0:0:35:Kick.wav
+64,192,116886,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,116886,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,116886,1,0,0:0:0:23:LR4_SnareBPDT.wav
+64,192,117381,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,117381,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,117381,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,117381,1,0,0:0:0:0:
+192,192,117711,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,117711,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,117711,1,0,0:0:0:23:LR4_SnareBPDT.wav
+64,192,118040,128,0,118370:0:0:0:25:ehco3.wav
+320,192,118370,1,0,0:0:0:70:LR3_BassDropPDG.wav
+448,192,118370,1,0,0:0:0:70:Kick.wav
+192,192,118452,1,0,0:0:0:0:
+320,192,118535,1,0,0:0:0:0:
+448,192,118535,1,0,0:0:0:0:
+64,192,118617,1,0,0:0:0:0:
+192,192,118617,1,0,0:0:0:0:
+320,192,118700,1,0,0:0:0:0:
+448,192,118700,1,0,0:0:0:0:
+192,192,118782,1,0,0:0:0:0:
+64,192,118864,1,0,0:0:0:0:
+320,192,118947,1,0,0:0:0:0:
+64,192,119029,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,119029,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,119029,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,119194,1,0,0:0:0:0:
+320,192,119359,1,0,0:0:0:70:LR3_BassDrop.wav
+448,192,119359,1,0,0:0:0:70:Kick.wav
+64,192,119524,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,119524,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,119524,1,0,0:0:0:23:LR4_SnareBPDT.wav
+64,192,120018,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,120018,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,120018,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,120018,1,0,0:0:0:0:
+64,192,120348,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,120348,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,120348,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,120513,1,0,0:0:0:35:Kick.wav
+320,192,120513,1,0,0:0:0:35:Kick.wav
+192,192,120678,1,0,0:0:0:35:Kick.wav
+320,192,120678,1,0,0:0:0:35:Kick.wav
+64,192,120760,1,0,0:0:0:0:
+448,192,120842,1,0,0:0:0:0:
+320,192,120925,1,0,0:0:0:0:
+64,192,121007,1,0,0:0:0:70:LR_Hat Normal.wav
+192,192,121007,1,0,0:0:0:70:F#7S_Gb7S_s.wav
+320,192,121172,1,0,0:0:0:70:LR_Hat Normal.wav
+64,192,121254,1,0,0:0:0:35:Bass.wav
+192,192,121254,1,0,0:0:0:35:Bass.wav
+320,192,121337,1,0,0:0:0:25:LR_Drum Hit Clap Sn.wav
+448,192,121337,1,0,0:0:0:25:LR_Drum Hit Clap Sn.wav
+64,192,121502,1,0,0:0:0:70:D7S_s.wav
+192,192,121502,1,0,0:0:0:70:Bass.wav
+320,192,121584,1,0,0:0:0:0:
+64,192,121667,1,0,0:0:0:70:LR_Hat Normal.wav
+320,192,121749,1,0,0:0:0:35:Bass.wav
+448,192,121749,1,0,0:0:0:35:Bass.wav
+64,192,121831,1,0,0:0:0:25:LR_Drum Hit Clap Sn.wav
+192,192,121831,1,0,0:0:0:25:LR_Drum Hit Clap Sn.wav
+448,192,121996,1,0,0:0:0:70:E7S_s.wav
+320,192,122079,1,0,0:0:0:0:
+64,192,122161,1,0,0:0:0:35:LR_Hat Normal.wav
+192,192,122161,1,0,0:0:0:35:LR_Hat Normal.wav
+320,192,122243,1,0,0:0:0:25:LR_Drum Hit Clap Sn.wav
+448,192,122243,1,0,0:0:0:25:LR_Drum Hit Clap Sn.wav
+64,192,122326,128,0,122491:0:0:0:70:LR4_RevCyCV2.wav
+192,192,122408,1,0,0:0:0:70:Bass.wav
+320,192,122491,1,0,0:0:0:25:LR_Drum Hit Clap Sn.wav
+448,192,122491,128,0,122656:0:0:0:25:LR_Drum Hit Clap Sn.wav
+192,192,122656,128,0,122820:0:0:0:70:Bass.wav
+64,192,122820,128,0,122903:0:0:0:35:LR_Hat Normal.wav
+320,192,122903,1,0,0:0:0:35:Bass.wav
+448,192,122903,128,0,122985:0:0:0:35:Bass.wav
+64,192,122985,128,0,123150:0:0:0:25:LR_Drum Hit Clap Sn.wav
+192,192,122985,128,0,123150:0:0:0:25:LR_Drum Hit Clap Sn.wav
+320,192,123150,128,0,123315:0:0:0:70:LR4_RevCyCV5.wav
+64,192,123315,1,0,0:0:0:35:LR3_BassDrop.wav
+448,192,123315,128,0,123645:0:0:0:35:LR3_BassDrop.wav
+64,192,123645,1,0,0:0:0:70:Kick.wav
+192,192,123645,1,0,0:0:0:70:LR3_BassDropPDG.wav
+320,192,123727,1,0,0:0:0:0:
+448,192,123809,1,0,0:0:0:0:
+64,192,123892,1,0,0:0:0:0:
+192,192,123974,1,0,0:0:0:0:
+320,192,124057,1,0,0:0:0:0:
+64,192,124139,1,0,0:0:0:0:
+448,192,124221,1,0,0:0:0:0:
+64,192,124304,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,124304,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,124304,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,124469,1,0,0:0:0:0:
+320,192,124634,1,0,0:0:0:35:Kick.wav
+448,192,124634,1,0,0:0:0:35:Kick.wav
+64,192,124798,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,124798,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,124798,1,0,0:0:0:23:LR4_SnareBPDT.wav
+64,192,125293,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,125293,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,125293,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,125293,1,0,0:0:0:0:
+64,192,125623,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,125623,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,125623,1,0,0:0:0:23:LR4_SnareBPDT.wav
+64,192,125787,1,0,0:0:0:35:Kick.wav
+448,192,125787,1,0,0:0:0:35:Kick.wav
+64,192,125952,1,0,0:0:0:35:Kick.wav
+448,192,125952,1,0,0:0:0:35:Kick.wav
+192,192,126035,1,0,0:0:0:0:
+320,192,126117,1,0,0:0:0:0:
+192,192,126200,1,0,0:0:0:0:
+64,192,126282,1,0,0:0:0:35:Kick.wav
+448,192,126282,1,0,0:0:0:35:Kick.wav
+320,192,126364,1,0,0:0:0:0:
+192,192,126447,1,0,0:0:0:0:
+448,192,126529,1,0,0:0:0:0:
+64,192,126612,1,0,0:0:0:0:
+192,192,126694,1,0,0:0:0:0:
+320,192,126776,1,0,0:0:0:0:
+64,192,126859,1,0,0:0:0:35:Kick.wav
+448,192,126859,1,0,0:0:0:35:Kick.wav
+192,192,126941,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,126941,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,126941,1,0,0:0:0:23:LR4_SnareBPDT.wav
+64,192,127189,1,0,0:0:0:35:Kick.wav
+192,192,127189,1,0,0:0:0:35:Kick.wav
+64,192,127436,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,127436,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,127436,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,127683,1,0,0:0:0:35:Kick.wav
+320,192,127683,1,0,0:0:0:35:Kick.wav
+64,192,127930,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,127930,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,127930,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,128178,1,0,0:0:0:35:Kick.wav
+448,192,128178,1,0,0:0:0:35:Kick.wav
+64,192,128260,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,128260,1,0,0:0:0:23:LR4_SnareBPDT.wav
+64,192,128590,128,0,128837:0:0:0:23:Kick.wav
+448,192,128590,128,0,128837:0:0:0:23:Kick.wav
+320,192,128919,1,0,0:0:0:35:Kick.wav
+448,192,128919,1,0,0:0:0:35:Kick.wav
+64,192,129002,1,0,0:0:0:0:
+192,192,129084,1,0,0:0:0:0:
+448,192,129167,1,0,0:0:0:0:
+320,192,129249,1,0,0:0:0:0:
+192,192,129331,1,0,0:0:0:0:
+64,192,129414,1,0,0:0:0:35:Kick.wav
+448,192,129414,1,0,0:0:0:35:Kick.wav
+320,192,129496,1,0,0:0:0:0:
+64,192,129579,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,129579,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,129579,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,129661,1,0,0:0:0:0:
+64,192,129743,1,0,0:0:0:0:
+192,192,129826,1,0,0:0:0:0:
+320,192,129908,1,0,0:0:0:0:
+64,192,129991,1,0,0:0:0:0:
+320,192,130073,1,0,0:0:0:35:Kick.wav
+448,192,130073,1,0,0:0:0:35:Kick.wav
+320,192,130238,1,0,0:0:0:35:Kick.wav
+448,192,130238,1,0,0:0:0:35:Kick.wav
+64,192,130485,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,130485,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,130485,128,0,130650:0:0:0:23:LR4_SnareBPDT.wav
+192,192,130650,1,0,0:0:0:0:
+320,192,130732,1,0,0:0:0:35:Kick.wav
+448,192,130732,1,0,0:0:0:35:Kick.wav
+64,192,130815,1,0,0:0:0:35:Kick.wav
+192,192,130815,1,0,0:0:0:35:Kick.wav
+64,192,130897,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,130897,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,130897,1,0,0:0:0:23:LR4_SnareBPDT.wav
+192,192,131062,1,0,0:0:0:35:Kick.wav
+320,192,131062,1,0,0:0:0:35:Kick.wav
+448,192,131145,1,0,0:0:0:0:
+64,192,131227,1,0,0:0:0:0:
+192,192,131309,1,0,0:0:0:0:
+64,192,131392,1,0,0:0:0:23:LR4_SnareBPDT.wav
+320,192,131392,1,0,0:0:0:23:LR4_SnareBPDT.wav
+448,192,131392,1,0,0:0:0:23:LR4_SnareBPDT.wav
+64,192,131557,128,0,131721:0:0:0:70:Kick.wav
+192,192,131557,1,0,0:0:0:70:LR_CymbalQST.wav
+320,192,131721,128,0,131886:0:0:0:0:
+192,192,131886,1,0,0:0:0:0:
+64,192,132051,1,0,0:0:0:40:LR_CymbalSSD.wav
+320,192,132051,1,0,0:0:0:70:Kick.wav
+448,192,132051,128,0,132381:0:0:0:70:Cymbal.wav
+192,192,132381,128,0,132546:0:0:0:0:
+320,192,132546,1,0,0:0:0:0:
+64,192,132711,128,0,132958:0:0:0:70:LR_CymbalQST.wav
+192,192,132711,1,0,0:0:0:70:Kick.wav
+448,192,132711,1,0,0:0:0:40:LR_CymbalSSD.wav
+64,192,133040,1,0,0:0:0:35:Kick.wav
+320,192,133040,1,0,0:0:0:35:Kick.wav
+448,192,133040,128,0,133287:0:0:0:40:LR_CymbalSSD.wav
+64,192,133370,128,0,133535:0:0:0:35:Kick.wav
+192,192,133370,1,0,0:0:0:35:Kick.wav
+448,192,133370,1,0,0:0:0:40:LR_CymbalSSD.wav
+320,192,133535,1,0,0:0:0:70:Kick.wav
+448,192,133535,1,0,0:0:0:30:LR4_SnareBPDT.wav
+192,192,133617,1,0,0:0:0:30:Bass.wav
+64,192,133700,1,0,0:0:0:15:Bass.wav
+448,192,133782,1,0,0:0:0:15:Bass.wav
+320,192,133864,1,0,0:0:0:70:Kick.wav
+192,192,133947,1,0,0:0:0:30:Bass.wav
+64,192,134029,1,0,0:0:0:30:Bass.wav
+320,192,134112,1,0,0:0:0:30:Bass.wav
+64,192,134194,1,0,0:0:0:70:Crash.wav
+192,192,134194,1,0,0:0:0:70:Kick.wav
+448,192,134194,1,0,0:0:0:70:cymbol 2.wav
+320,192,134359,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+64,192,134524,1,0,0:0:0:60:LR2_ClapRRvLE.wav
+192,192,134524,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+448,192,134689,1,0,0:0:0:0:
+64,192,134771,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+192,192,134853,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+320,192,134853,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+64,192,135018,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+320,192,135183,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,135183,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+64,192,135265,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+448,192,135430,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+192,192,135513,1,0,0:0:0:60:LR2_ClapRRvLE.wav
+320,192,135513,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+448,192,135678,1,0,0:0:0:0:
+320,192,135760,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+64,192,135842,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+192,192,135842,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,136007,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+192,192,136172,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+320,192,136172,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+64,192,136254,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+320,192,136502,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+448,192,136502,1,0,0:0:0:60:LR2_ClapRRvLE.wav
+192,192,136667,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+320,192,136749,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+64,192,136831,1,0,0:0:0:60:LR2_ClapRRvLE.wav
+448,192,136831,1,0,0:0:0:35:Drum Hit Hard.wav
+192,192,136996,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+320,192,137161,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+448,192,137161,1,0,0:0:0:60:LR2_ClapRRvLE.wav
+64,192,137326,1,0,0:0:0:0:
+448,192,137408,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+192,192,137491,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+320,192,137491,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,137656,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+64,192,137820,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+192,192,137820,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,137903,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+64,192,138068,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+192,192,138150,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+320,192,138150,1,0,0:0:0:60:LR2_ClapRRvLE.wav
+64,192,138397,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+320,192,138480,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,138480,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+64,192,138645,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+192,192,138809,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+320,192,138809,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+448,192,138892,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+64,192,139139,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+192,192,139139,1,0,0:0:0:60:LR2_ClapRRvLE.wav
+320,192,139304,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+192,192,139386,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+64,192,139469,1,0,0:0:0:70:cymbol 2.wav
+320,192,139469,1,0,0:0:0:70:Kick.wav
+448,192,139469,1,0,0:0:0:60:LR2_ClapRRvLE.wav
+192,192,139551,1,0,0:0:0:0:
+64,192,139634,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+448,192,139716,1,0,0:0:0:0:
+320,192,139798,1,0,0:0:0:60:LR2_ClapRRvLE.wav
+64,192,139881,1,0,0:0:0:0:
+192,192,139963,1,0,0:0:0:60:LR2_ClapRRvLE.wav
+320,192,140046,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+448,192,140128,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+64,192,140211,1,0,0:0:0:0:
+192,192,140293,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+448,192,140375,1,0,0:0:0:0:
+320,192,140458,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+64,192,140540,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+192,192,140623,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+320,192,140705,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+64,192,140787,1,0,0:0:0:60:LR2_ClapRRvLE.wav
+192,192,140787,1,0,0:0:0:70:Kick.wav
+448,192,140787,1,0,0:0:0:70:cymbol 2.wav
+320,192,140870,1,0,0:0:0:0:
+448,192,140952,1,0,0:0:0:60:LR2_ClapRRvLE.wav
+64,192,141035,1,0,0:0:0:0:
+192,192,141117,1,0,0:0:0:60:LR2_ClapRRvLE.wav
+320,192,141200,1,0,0:0:0:0:
+192,192,141282,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+448,192,141364,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+64,192,141447,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+192,192,141529,1,0,0:0:0:0:
+448,192,141612,1,0,0:0:0:60:LR_Drum Hit Clap Sn.wav
+320,192,141694,1,0,0:0:0:0:
+192,192,141776,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+64,192,141859,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+448,192,141941,1,0,0:0:0:30:LR2_ClapRRvLE.wav
+320,192,142024,1,0,0:0:0:30:LR_Drum Hit Clap Sn.wav
+64,192,142106,1,0,0:0:0:70:Kick.wav
+192,192,142106,1,0,0:0:0:70:Cymbal.wav
+320,192,142147,1,0,0:0:0:40:Bass.wav
+448,192,142189,1,0,0:0:0:40:Bass.wav
+64,192,142230,1,0,0:0:0:40:Bass.wav
+192,192,142271,1,0,0:0:0:40:Bass.wav
+320,192,142312,1,0,0:0:0:40:Bass.wav
+448,192,142353,1,0,0:0:0:40:Bass.wav
+64,192,142395,1,0,0:0:0:40:Bass.wav
+192,192,142436,1,0,0:0:0:40:Bass.wav
+320,192,142477,1,0,0:0:0:40:Bass.wav
+448,192,142518,1,0,0:0:0:40:Bass.wav
+64,192,142559,1,0,0:0:0:40:Bass.wav
+192,192,142601,1,0,0:0:0:40:Bass.wav
+320,192,142642,1,0,0:0:0:40:Bass.wav
+448,192,142683,1,0,0:0:0:40:Bass.wav
+64,192,142724,1,0,0:0:0:40:Bass.wav
+192,192,142765,1,0,0:0:0:70:Crash.wav
+320,192,142765,1,0,0:0:0:70:Kick.wav
+448,192,142807,1,0,0:0:0:40:Bass.wav
+64,192,142848,1,0,0:0:0:40:Bass.wav
+192,192,142889,1,0,0:0:0:40:Bass.wav
+448,192,142930,1,0,0:0:0:40:Bass.wav
+320,192,142971,1,0,0:0:0:40:Bass.wav
+64,192,143013,1,0,0:0:0:40:Bass.wav
+192,192,143054,1,0,0:0:0:40:Bass.wav
+320,192,143095,1,0,0:0:0:40:Bass.wav
+448,192,143136,1,0,0:0:0:40:Bass.wav
+192,192,143178,1,0,0:0:0:40:Bass.wav
+64,192,143219,1,0,0:0:0:40:Bass.wav
+448,192,143260,1,0,0:0:0:40:Bass.wav
+320,192,143301,1,0,0:0:0:40:Bass.wav
+192,192,143342,1,0,0:0:0:40:Bass.wav
+64,192,143384,1,0,0:0:0:40:Bass.wav
+320,192,143425,1,0,0:0:0:40:Bass.wav
+448,192,143425,128,0,143590:0:0:0:70:LR_CymbalQST.wav
+64,192,143590,128,0,143919:0:0:0:0:
+320,192,143754,128,0,143919:0:0:0:100:LR_Hit Med Click.wav
+192,192,143919,128,0,144249:0:0:0:100:LR_Hit Med Click.wav
+448,192,144084,128,0,144249:0:0:0:100:LR_Hit Med Click.wav
+320,192,144249,128,0,144414:0:0:0:100:LR_Hit Med Click.wav
+64,192,144414,1,0,0:0:0:50:Drum Hit Hard.wav
+192,192,144414,1,0,0:0:0:35:Kick.wav
+64,192,144743,1,0,0:0:0:70:Crash.wav
+320,192,144743,1,0,0:0:0:35:Kick.wav
+448,192,144743,1,0,0:0:0:35:Kick.wav
+192,192,144908,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,145073,1,0,0:0:0:40:LR4_SnareBPDT.wav
+320,192,145073,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,145073,1,0,0:0:0:40:LR4_SnareBPDT.wav
+192,192,145238,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,145320,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,145485,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,145568,1,0,0:0:0:70:Kick.wav
+192,192,145568,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,145732,1,0,0:0:0:27:LR4_SnareBPDT.wav
+320,192,145732,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,145732,1,0,0:0:0:27:LR4_SnareBPDT.wav
+192,192,145897,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,146062,1,0,0:0:0:35:Kick.wav
+448,192,146062,1,0,0:0:0:35:Kick.wav
+64,192,146227,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,146392,1,0,0:0:0:40:LR4_SnareBPDT.wav
+320,192,146392,1,0,0:0:0:40:LR4_SnareBPDT.wav
+448,192,146392,1,0,0:0:0:40:LR_Hit Med Click.wav
+64,192,146557,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,146639,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,146804,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,146886,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,146886,1,0,0:0:0:70:Kick.wav
+192,192,147051,1,0,0:0:0:27:LR4_SnareBPDT.wav
+320,192,147051,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,147051,1,0,0:0:0:27:LR4_SnareBPDT.wav
+64,192,147216,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,147381,1,0,0:0:0:35:Kick.wav
+448,192,147381,1,0,0:0:0:35:Kick.wav
+192,192,147546,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,147628,1,0,0:0:0:0:
+64,192,147711,1,0,0:0:0:40:LR4_SnareBPDT.wav
+192,192,147711,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,147711,1,0,0:0:0:40:LR4_SnareBPDT.wav
+320,192,147875,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,147958,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,148040,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,148123,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,148205,1,0,0:0:0:70:Kick.wav
+320,192,148205,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,148287,1,0,0:0:0:0:
+64,192,148370,1,0,0:0:0:27:LR4_SnareBPDT.wav
+320,192,148370,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,148370,1,0,0:0:0:27:LR4_SnareBPDT.wav
+192,192,148535,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,148617,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,148700,1,0,0:0:0:35:Kick.wav
+448,192,148700,1,0,0:0:0:35:Kick.wav
+320,192,148782,1,0,0:0:0:0:
+192,192,148864,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,149029,1,0,0:0:0:40:LR4_SnareBPDT.wav
+320,192,149029,1,0,0:0:0:40:LR_Hit Med Click.wav
+448,192,149029,1,0,0:0:0:40:LR4_SnareBPDT.wav
+192,192,149194,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,149276,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,149359,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,149441,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,149524,1,0,0:0:0:70:Kick.wav
+448,192,149524,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,149606,1,0,0:0:0:0:
+64,192,149689,1,0,0:0:0:27:LR4_SnareBPDT.wav
+320,192,149689,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,149689,1,0,0:0:0:27:LR4_SnareBPDT.wav
+192,192,149853,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,150018,1,0,0:0:0:35:Kick.wav
+448,192,150018,1,0,0:0:0:35:Kick.wav
+320,192,150183,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,150348,1,0,0:0:0:40:LR4_SnareBPDT.wav
+192,192,150348,1,0,0:0:0:40:LR4_SnareBPDT.wav
+448,192,150348,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,150513,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,150595,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,150760,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,150842,1,0,0:0:0:70:Kick.wav
+448,192,150842,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,151007,1,0,0:0:0:27:LR4_SnareBPDT.wav
+192,192,151007,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,151007,1,0,0:0:0:27:LR4_SnareBPDT.wav
+320,192,151172,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,151337,1,0,0:0:0:35:Kick.wav
+192,192,151337,1,0,0:0:0:35:Kick.wav
+448,192,151502,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,151667,1,0,0:0:0:40:LR4_SnareBPDT.wav
+192,192,151667,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,151667,1,0,0:0:0:40:LR4_SnareBPDT.wav
+448,192,151831,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,151914,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,152079,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,152161,1,0,0:0:0:70:Kick.wav
+192,192,152161,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,152243,1,0,0:0:0:0:
+64,192,152326,1,0,0:0:0:27:LR4_SnareBPDT.wav
+192,192,152326,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,152326,1,0,0:0:0:27:LR4_SnareBPDT.wav
+320,192,152491,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,152656,1,0,0:0:0:35:Kick.wav
+448,192,152656,1,0,0:0:0:35:Kick.wav
+192,192,152820,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,152985,1,0,0:0:0:40:LR4_SnareBPDT.wav
+320,192,152985,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,152985,1,0,0:0:0:40:LR4_SnareBPDT.wav
+192,192,153150,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,153232,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,153315,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,153397,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,153480,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,153480,1,0,0:0:0:70:Kick.wav
+192,192,153645,1,0,0:0:0:27:LR4_SnareBPDT.wav
+320,192,153645,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,153645,1,0,0:0:0:27:LR4_SnareBPDT.wav
+64,192,153809,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,153892,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,153974,1,0,0:0:0:35:Kick.wav
+192,192,153974,1,0,0:0:0:35:Kick.wav
+320,192,154139,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,154304,1,0,0:0:0:40:LR4_SnareBPDT.wav
+192,192,154304,1,0,0:0:0:40:LR4_SnareBPDT.wav
+448,192,154304,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,154469,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,154469,1,0,0:0:0:70:Kick.wav
+192,192,154551,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,154634,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,154716,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,154798,1,0,0:0:0:70:Kick.wav
+448,192,154798,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,154963,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,154963,1,0,0:0:0:27:LR4_SnareBPDT.wav
+64,192,155046,1,0,0:0:0:70:Kick.wav
+192,192,155128,1,0,0:0:0:70:Kick.wav
+320,192,155211,1,0,0:0:0:70:Kick.wav
+64,192,155293,1,0,0:0:0:70:Crash.wav
+192,192,155293,1,0,0:0:0:70:Kick.wav
+448,192,155293,1,0,0:0:0:70:cymbol 2.wav
+320,192,155458,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,155623,1,0,0:0:0:27:LR4_SnareBPDT.wav
+192,192,155623,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,155623,1,0,0:0:0:40:LR_Hit Med Click.wav
+320,192,155787,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,155870,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,156035,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,156117,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,156117,1,0,0:0:0:70:Kick.wav
+192,192,156282,1,0,0:0:0:27:LR4_SnareBPDT.wav
+320,192,156282,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,156282,1,0,0:0:0:27:LR4_SnareBPDT.wav
+64,192,156447,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,156612,1,0,0:0:0:35:Kick.wav
+448,192,156612,1,0,0:0:0:35:Kick.wav
+320,192,156776,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,156941,1,0,0:0:0:40:LR4_SnareBPDT.wav
+192,192,156941,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,156941,1,0,0:0:0:40:LR4_SnareBPDT.wav
+320,192,157106,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,157189,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,157353,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,157436,1,0,0:0:0:70:Kick.wav
+448,192,157436,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,157601,1,0,0:0:0:27:LR4_SnareBPDT.wav
+192,192,157601,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,157601,1,0,0:0:0:27:LR4_SnareBPDT.wav
+320,192,157765,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,157930,1,0,0:0:0:35:Kick.wav
+192,192,157930,1,0,0:0:0:35:Kick.wav
+320,192,158095,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,158178,1,0,0:0:0:0:
+64,192,158260,1,0,0:0:0:40:LR4_SnareBPDT.wav
+320,192,158260,1,0,0:0:0:40:LR4_SnareBPDT.wav
+448,192,158260,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,158425,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,158507,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,158590,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,158672,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,158754,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,158754,1,0,0:0:0:70:Kick.wav
+320,192,158837,1,0,0:0:0:0:
+64,192,158919,1,0,0:0:0:27:LR4_SnareBPDT.wav
+192,192,158919,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,158919,1,0,0:0:0:27:LR4_SnareBPDT.wav
+320,192,159084,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,159167,1,0,0:0:0:0:
+64,192,159249,1,0,0:0:0:35:Kick.wav
+448,192,159249,1,0,0:0:0:35:Kick.wav
+192,192,159331,1,0,0:0:0:0:
+320,192,159414,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,159579,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,159579,1,0,0:0:0:40:LR4_SnareBPDT.wav
+448,192,159579,1,0,0:0:0:40:LR4_SnareBPDT.wav
+320,192,159743,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,159826,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,159908,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,159991,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,160073,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,160073,1,0,0:0:0:70:Kick.wav
+320,192,160156,1,0,0:0:0:0:
+64,192,160238,1,0,0:0:0:27:LR4_SnareBPDT.wav
+192,192,160238,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,160238,1,0,0:0:0:27:LR4_SnareBPDT.wav
+320,192,160403,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,160568,1,0,0:0:0:35:Kick.wav
+448,192,160568,1,0,0:0:0:35:Kick.wav
+192,192,160732,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,160897,1,0,0:0:0:40:LR4_SnareBPDT.wav
+320,192,160897,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,160897,1,0,0:0:0:40:LR4_SnareBPDT.wav
+192,192,161062,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,161145,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,161309,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,161392,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,161392,1,0,0:0:0:70:Kick.wav
+64,192,161557,1,0,0:0:0:27:LR4_SnareBPDT.wav
+320,192,161557,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,161557,1,0,0:0:0:27:LR4_SnareBPDT.wav
+192,192,161721,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,161886,1,0,0:0:0:35:Kick.wav
+448,192,161886,1,0,0:0:0:35:Kick.wav
+64,192,162051,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,162216,1,0,0:0:0:40:LR4_SnareBPDT.wav
+320,192,162216,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,162216,1,0,0:0:0:40:LR4_SnareBPDT.wav
+64,192,162381,1,0,0:0:0:70:LR_Hit Med Click.wav
+448,192,162463,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,162628,1,0,0:0:0:70:LR_Hit Med Click.wav
+320,192,162711,1,0,0:0:0:70:Kick.wav
+448,192,162711,1,0,0:0:0:70:LR_Hit Med Click.wav
+192,192,162793,1,0,0:0:0:0:
+64,192,162875,1,0,0:0:0:27:LR4_SnareBPDT.wav
+320,192,162875,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,162875,1,0,0:0:0:27:LR4_SnareBPDT.wav
+192,192,163040,1,0,0:0:0:70:LR_Hit Med Click.wav
+64,192,163123,1,0,0:0:0:40:LR4_SnareBPDT.wav
+320,192,163123,1,0,0:0:0:40:LR4_SnareBPDT.wav
+192,192,163205,1,0,0:0:0:50:Cymbal.wav
+448,192,163205,128,0,163700:0:0:0:70:Kick.wav
+64,192,163700,1,0,0:0:0:35:Kick.wav
+192,192,163700,1,0,0:0:0:35:Kick.wav
+64,192,163864,128,0,164359:0:0:0:27:LR4_SnareBPDT.wav
+320,192,163864,1,0,0:0:0:27:LR4_SnareBPDT.wav
+448,192,163864,1,0,0:0:0:27:LR4_SnareBPDT.wav
+320,192,164359,1,0,0:0:0:35:Kick.wav
+448,192,164359,1,0,0:0:0:35:Kick.wav
+64,192,164524,1,0,0:0:0:20:cymbol 2.wav
+192,192,164524,1,0,0:0:0:35:Kick.wav
+448,192,164524,1,0,0:0:0:35:Kick.wav
+320,192,164689,1,0,0:0:0:0:
+448,192,164771,1,0,0:0:0:0:
+192,192,164853,1,0,0:0:0:0:
+64,192,164936,1,0,0:0:0:0:
+320,192,165018,1,0,0:0:0:0:
+448,192,165101,1,0,0:0:0:0:
+192,192,165183,1,0,0:0:0:0:
+64,192,165265,1,0,0:0:0:0:
+320,192,165348,1,0,0:0:0:0:
+448,192,165430,1,0,0:0:0:0:
+64,192,165513,1,0,0:0:0:70:Whistle 2.wav
+192,192,165513,1,0,0:0:0:70:Kick.wav
+64,192,165842,128,0,166007:0:0:0:70:cymbol 2.wav
+320,192,165842,1,0,0:0:0:90:Whistle.wav
+448,192,165842,1,0,0:0:0:70:Crash.wav
+192,192,166007,1,0,0:0:0:100:C3S_s.wav
+64,192,166172,1,0,0:0:0:80:LR4_SnareBPDT.wav
+448,192,166172,1,0,0:0:0:100:click.wav
+320,192,166172,128,0,166337:0:0:0:90:Whistle.wav
+192,192,166337,1,0,0:0:0:100:C3S_s.wav
+448,192,166419,1,0,0:0:0:90:Whistle.wav
+64,192,166502,1,0,0:0:0:100:C3S_s.wav
+320,192,166584,1,0,0:0:0:90:Whistle.wav
+192,192,166667,1,0,0:0:0:90:Whistle.wav
+64,192,166831,1,0,0:0:0:100:C3S_s.wav
+320,192,166831,1,0,0:0:0:80:LR4_SnareBPDT.wav
+448,192,166831,128,0,166996:0:0:0:90:Whistle.wav
+192,192,166996,128,0,167161:0:0:0:70:C3S_s.wav
+64,192,167161,1,0,0:0:0:100:D3S_s.wav
+320,192,167161,128,0,167326:0:0:0:100:click.wav
+448,192,167326,1,0,0:0:0:100:D3S_s.wav
+64,192,167491,128,0,167656:0:0:0:100:D3S_s.wav
+192,192,167491,1,0,0:0:0:80:LR4_SnareBPDT.wav
+448,192,167491,1,0,0:0:0:90:Whistle.wav
+320,192,167656,1,0,0:0:0:100:D3S_s.wav
+192,192,167738,1,0,0:0:0:90:Whistle.wav
+448,192,167820,1,0,0:0:0:100:D3S_s.wav
+320,192,167903,1,0,0:0:0:90:Whistle.wav
+192,192,167985,1,0,0:0:0:70:Kick.wav
+64,192,167985,1,0,0:0:0:100:D3S_s.wav
+64,192,168150,1,0,0:0:0:100:D3S_s.wav
+320,192,168150,1,0,0:0:0:100:click.wav
+448,192,168150,128,0,168315:0:0:0:90:Whistle.wav
+192,192,168315,128,0,168480:0:0:0:100:D3S_s.wav
+320,192,168397,1,0,0:0:0:0:
+64,192,168480,1,0,0:0:0:100:A2S_s.wav
+448,192,168480,128,0,168645:0:0:0:90:Whistle.wav
+64,192,168645,1,0,0:0:0:100:A2S_s.wav
+192,192,168727,128,0,168892:0:0:0:90:Whistle.wav
+320,192,168809,1,0,0:0:0:100:A2S_s.wav
+448,192,168809,1,0,0:0:0:90:Whistle.wav
+448,192,168974,1,0,0:0:0:100:A2S_s.wav
+64,192,169057,1,0,0:0:0:90:Whistle.wav
+320,192,169139,1,0,0:0:0:100:A2S_s.wav
+192,192,169221,1,0,0:0:0:90:Whistle.wav
+64,192,169304,1,0,0:0:0:100:A2S_s.wav
+448,192,169304,1,0,0:0:0:70:Kick.wav
+320,192,169386,1,0,0:0:0:90:Whistle.wav
+64,192,169469,1,0,0:0:0:90:Whistle.wav
+192,192,169469,1,0,0:0:0:100:A2S_s.wav
+320,192,169634,1,0,0:0:0:100:A2S_s.wav
+192,192,169716,1,0,0:0:0:90:Whistle.wav
+64,192,169798,1,0,0:0:0:70:Kick.wav
+448,192,169798,1,0,0:0:0:100:A2S_s.wav
+192,192,169881,1,0,0:0:0:90:Whistle.wav
+320,192,169963,1,0,0:0:0:100:A2S_s.wav
+64,192,170128,1,0,0:0:0:100:A2S_s.wav
+192,192,170128,1,0,0:0:0:100:click.wav
+448,192,170128,1,0,0:0:0:90:Whistle.wav
+320,192,170293,1,0,0:0:0:90:Whistle.wav
+448,192,170375,1,0,0:0:0:90:Whistle.wav
+192,192,170458,1,0,0:0:0:90:Whistle.wav
+320,192,170540,1,0,0:0:0:90:Whistle.wav
+64,192,170623,1,0,0:0:0:70:Kick.wav
+448,192,170623,1,0,0:0:0:100:B2S_s.wav
+192,192,170705,1,0,0:0:0:90:Whistle.wav
+64,192,170787,1,0,0:0:0:100:B2S_s.wav
+320,192,170787,1,0,0:0:0:90:Whistle.wav
+448,192,170952,128,0,171117:0:0:0:90:Whistle.wav
+64,192,171117,128,0,171282:0:0:0:100:click.wav
+192,192,171117,1,0,0:0:0:90:Whistle.wav
+448,192,171282,1,0,0:0:0:100:C3S_s.wav
+192,192,171447,1,0,0:0:0:90:Whistle.wav
+320,192,171447,1,0,0:0:0:100:C3S_s.wav
+448,192,171447,128,0,171612:0:0:0:80:LR4_SnareBPDT.wav
+64,192,171612,1,0,0:0:0:100:C3S_s.wav
+192,192,171694,1,0,0:0:0:90:Whistle.wav
+448,192,171776,1,0,0:0:0:100:C3S_s.wav
+320,192,171859,1,0,0:0:0:90:Whistle.wav
+192,192,171941,1,0,0:0:0:90:Whistle.wav
+64,192,171941,1,0,0:0:0:100:Whistle.wav
+192,192,172106,1,0,0:0:0:100:click.wav
+448,192,172106,1,0,0:0:0:90:Whistle.wav
+320,192,172106,128,0,172271:0:0:0:100:C3S_s.wav
+64,192,172271,128,0,172436:0:0:0:90:Whistle.wav
+192,192,172436,1,0,0:0:0:90:Whistle.wav
+448,192,172436,128,0,172601:0:0:0:100:D3S_s.wav
+320,192,172601,1,0,0:0:0:100:D3S_s.wav
+64,192,172765,1,0,0:0:0:80:LR4_SnareBPDT.wav
+192,192,172765,128,0,172930:0:0:0:90:Whistle.wav
+448,192,172765,1,0,0:0:0:100:D3S_s.wav
+320,192,172930,1,0,0:0:0:100:D3S_s.wav
+64,192,173013,1,0,0:0:0:90:Whistle.wav
+448,192,173095,1,0,0:0:0:100:click.wav
+192,192,173178,1,0,0:0:0:90:Whistle.wav
+320,192,173260,1,0,0:0:0:70:Kick.wav
+448,192,173260,1,0,0:0:0:100:D3S_s.wav
+64,192,173342,1,0,0:0:0:90:Whistle.wav
+192,192,173425,1,0,0:0:0:90:Whistle.wav
+320,192,173425,1,0,0:0:0:100:D3S_s.wav
+448,192,173425,1,0,0:0:0:80:LR4_SnareBPDT.wav
+64,192,173590,128,0,173754:0:0:0:90:Whistle.wav
+320,192,173672,1,0,0:0:0:0:
+192,192,173754,1,0,0:0:0:90:Whistle.wav
+448,192,173754,128,0,173919:0:0:0:100:E3S_s.wav
+64,192,173919,1,0,0:0:0:100:E3S_s.wav
+192,192,174084,1,0,0:0:0:90:Whistle.wav
+320,192,174084,1,0,0:0:0:100:click.wav
+448,192,174084,1,0,0:0:0:100:E3S_s.wav
+64,192,174249,1,0,0:0:0:90:Whistle.wav
+448,192,174331,1,0,0:0:0:90:Whistle.wav
+192,192,174414,1,0,0:0:0:100:E3S_s.wav
+320,192,174496,1,0,0:0:0:90:Whistle.wav
+64,192,174579,1,0,0:0:0:100:E3S_s.wav
+448,192,174579,1,0,0:0:0:90:Whistle.wav
+64,192,174743,128,0,174908:0:0:0:100:E3S_s.wav
+192,192,174743,1,0,0:0:0:80:LR4_SnareBPDT.wav
+320,192,174743,1,0,0:0:0:90:Whistle.wav
+448,192,174908,1,0,0:0:0:100:E3S_s.wav
+192,192,174991,1,0,0:0:0:90:Whistle.wav
+448,192,175073,1,0,0:0:0:100:click.wav
+320,192,175073,1,0,0:0:0:100:E3S_s.wav
+64,192,175238,128,0,175403:0:0:0:100:E3S_s.wav
+192,192,175403,1,0,0:0:0:100:E3S_s.wav
+320,192,175403,1,0,0:0:0:80:LR4_SnareBPDT.wav
+448,192,175403,1,0,0:0:0:90:Whistle.wav
+320,192,175568,1,0,0:0:0:100:E3S_s.wav
+448,192,175568,1,0,0:0:0:90:Whistle.wav
+192,192,175650,1,0,0:0:0:90:Whistle.wav
+64,192,175732,128,0,175897:0:0:0:100:B2S_s.wav
+320,192,175897,128,0,176062:0:0:0:100:B2S_s.wav
+448,192,175897,1,0,0:0:0:90:Whistle.wav
+64,192,176062,1,0,0:0:0:100:B2S_s.wav
+192,192,176062,1,0,0:0:0:100:click.wav
+448,192,176062,128,0,176227:0:0:0:90:Whistle.wav
+192,192,176227,128,0,176392:0:0:0:100:B2S_s.wav
+64,192,176392,128,0,176557:0:0:0:90:Whistle.wav
+320,192,176392,1,0,0:0:0:100:C3S_s.wav
+448,192,176392,1,0,0:0:0:0:
+320,192,176557,1,0,0:0:0:100:C3S_s.wav
+64,192,176721,1,0,0:0:0:100:C3S_s.wav
+192,192,176721,1,0,0:0:0:90:Whistle.wav
+448,192,176721,1,0,0:0:0:80:LR4_SnareBPDT.wav
+320,192,176886,1,0,0:0:0:100:C3S_s.wav
+64,192,176969,1,0,0:0:0:90:Whistle.wav
+448,192,177051,1,0,0:0:0:100:click.wav
+192,192,177134,1,0,0:0:0:90:Whistle.wav
+320,192,177216,1,0,0:0:0:90:Whistle.wav
+64,192,177381,128,0,177546:0:0:0:100:C3S_s.wav
+192,192,177381,1,0,0:0:0:90:Whistle.wav
+448,192,177381,1,0,0:0:0:80:LR4_SnareBPDT.wav
+320,192,177546,128,0,177711:0:0:0:100:C3S_s.wav
+192,192,177711,128,0,177875:0:0:0:100:D3S_s.wav
+448,192,177711,1,0,0:0:0:90:Whistle.wav
+64,192,177875,1,0,0:0:0:100:D3S_s.wav
+64,192,178040,1,0,0:0:0:100:click.wav
+320,192,178040,1,0,0:0:0:90:Whistle.wav
+448,192,178040,128,0,178205:0:0:0:100:D3S_s.wav
+192,192,178205,1,0,0:0:0:100:D3S_s.wav
+64,192,178287,1,0,0:0:0:90:Whistle.wav
+320,192,178370,1,0,0:0:0:100:D3S_s.wav
+192,192,178452,1,0,0:0:0:90:Whistle.wav
+448,192,178535,1,0,0:0:0:90:Whistle.wav
+64,192,178535,1,0,0:0:0:100:D3S_s.wav
+64,192,178700,128,0,178864:0:0:0:90:Whistle.wav
+320,192,178700,1,0,0:0:0:80:LR4_SnareBPDT.wav
+448,192,178700,1,0,0:0:0:100:D3S_s.wav
+320,192,178864,128,0,179029:0:0:0:100:D3S_s.wav
+192,192,178947,1,0,0:0:0:0:
+64,192,179029,128,0,179194:0:0:0:100:A2S_s.wav
+448,192,179029,1,0,0:0:0:100:click.wav
+448,192,179194,1,0,0:0:0:100:A2S_s.wav
+320,192,179276,128,0,179441:0:0:0:90:Whistle.wav
+64,192,179359,1,0,0:0:0:100:A2S_s.wav
+192,192,179359,1,0,0:0:0:70:Whistle.wav
+64,192,179524,1,0,0:0:0:100:A2S_s.wav
+448,192,179606,1,0,0:0:0:90:Whistle.wav
+192,192,179689,1,0,0:0:0:100:A2S_s.wav
+320,192,179771,1,0,0:0:0:90:Whistle.wav
+64,192,179853,1,0,0:0:0:100:A2S_s.wav
+448,192,179853,1,0,0:0:0:70:Kick.wav
+192,192,179936,1,0,0:0:0:90:Whistle.wav
+320,192,180018,1,0,0:0:0:100:click.wav
+448,192,180018,1,0,0:0:0:100:A2S_s.wav
+64,192,180183,1,0,0:0:0:100:A2S_s.wav
+320,192,180265,1,0,0:0:0:90:Whistle.wav
+192,192,180348,1,0,0:0:0:70:Kick.wav
+448,192,180348,1,0,0:0:0:100:A2S_s.wav
+320,192,180430,1,0,0:0:0:90:Whistle.wav
+64,192,180513,1,0,0:0:0:100:A2S_s.wav
+192,192,180678,1,0,0:0:0:90:Whistle.wav
+320,192,180678,1,0,0:0:0:100:A2S_s.wav
+448,192,180678,1,0,0:0:0:80:LR4_SnareBPDT.wav
+64,192,180842,1,0,0:0:0:100:A2S_s.wav
+320,192,180925,1,0,0:0:0:90:Whistle.wav
+192,192,181007,1,0,0:0:0:100:click.wav
+320,192,181090,1,0,0:0:0:90:Whistle.wav
+64,192,181172,1,0,0:0:0:100:B2S_s.wav
+448,192,181172,1,0,0:0:0:70:Kick.wav
+192,192,181254,1,0,0:0:0:90:Whistle.wav
+320,192,181337,1,0,0:0:0:100:B2S_s.wav
+448,192,181337,1,0,0:0:0:90:Whistle.wav
+64,192,181502,1,0,0:0:0:100:B2S_s.wav
+320,192,181584,1,0,0:0:0:40:LR4_SnareBPDT.wav
+448,192,181584,1,0,0:0:0:40:LR4_SnareBPDT.wav
+64,192,181667,1,0,0:0:0:100:C3S_s.wav
+192,192,181667,1,0,0:0:0:90:Whistle.wav
+320,192,181749,1,0,0:0:0:0:
+448,192,181831,1,0,0:0:0:100:C3S_s.wav
+192,192,181914,1,0,0:0:0:0:
+448,192,181996,1,0,0:0:0:100:click.wav
+64,192,182079,1,0,0:0:0:0:
+448,192,182161,1,0,0:0:0:90:Snare1.wav
+192,192,182243,1,0,0:0:0:0:
+448,192,182326,1,0,0:0:0:100:C3S_s.wav
+320,192,182408,1,0,0:0:0:0:
+448,192,182491,1,0,0:0:0:100:C3S_s.wav
+192,192,182573,1,0,0:0:0:0:
+448,192,182656,1,0,0:0:0:100:C3S_s.wav
+64,192,182738,1,0,0:0:0:0:
+320,192,182820,1,0,0:0:0:100:C3S_s.wav
+448,192,182820,1,0,0:0:0:70:Kick.wav
+64,192,182903,1,0,0:0:0:35:Kick.wav
+192,192,182903,1,0,0:0:0:35:Kick.wav
+320,192,182985,1,0,0:0:0:100:D3S_s.wav
+448,192,182985,1,0,0:0:0:100:click.wav
+192,192,183068,1,0,0:0:0:0:
+64,192,183150,1,0,0:0:0:90:Snare1.wav
+320,192,183232,1,0,0:0:0:0:
+64,192,183315,1,0,0:0:0:100:D3S_s.wav
+448,192,183397,1,0,0:0:0:0:
+64,192,183480,1,0,0:0:0:100:D3S_s.wav
+320,192,183562,1,0,0:0:0:0:
+64,192,183645,1,0,0:0:0:100:D3S_s.wav
+192,192,183727,1,0,0:0:0:0:
+64,192,183809,1,0,0:0:0:100:D3S_s.wav
+320,192,183892,1,0,0:0:0:0:
+64,192,183974,1,0,0:0:0:100:click.wav
+448,192,184057,1,0,0:0:0:0:
+320,192,184139,128,0,184304:0:0:0:35:D3S_s.wav
+64,192,184304,1,0,0:0:0:70:Kick.wav
+448,192,184304,1,0,0:0:0:70:cymbol 2.wav
+192,192,184386,1,0,0:0:0:35:Snare1.wav
+320,192,184469,1,0,0:0:0:70:Kick.wav
+448,192,184469,1,0,0:0:0:70:Snare1.wav
+64,192,184551,1,0,0:0:0:35:Snare1.wav
+192,192,184634,1,0,0:0:0:70:Kick.wav
+448,192,184634,1,0,0:0:0:70:Snare1.wav
+320,192,184716,1,0,0:0:0:35:Snare1.wav
+64,192,184798,1,0,0:0:0:70:Kick.wav
+192,192,184798,1,0,0:0:0:70:Snare1.wav
+448,192,184881,1,0,0:0:0:70:Snare1.wav
+64,192,184963,1,0,0:0:0:100:click.wav
+192,192,184963,1,0,0:0:0:70:Kick.wav
+320,192,184963,1,0,0:0:0:0:
+448,192,185046,1,0,0:0:0:70:Snare1.wav
+64,192,185128,1,0,0:0:0:70:Snare1.wav
+192,192,185128,1,0,0:0:0:70:Kick.wav
+320,192,185211,1,0,0:0:0:35:Snare1.wav
+192,192,185293,1,0,0:0:0:70:Snare1.wav
+448,192,185293,1,0,0:0:0:70:Kick.wav
+64,192,185375,1,0,0:0:0:35:Snare1.wav
+320,192,185458,1,0,0:0:0:70:Kick.wav
+448,192,185458,1,0,0:0:0:50:Crash.wav
+192,192,185540,1,0,0:0:0:35:Snare1.wav
+64,192,185623,1,0,0:0:0:100:E3S_s.wav
+320,192,185623,1,0,0:0:0:70:Bass.wav
+192,192,185787,1,0,0:0:0:90:Whistle.wav
+320,192,185870,1,0,0:0:0:90:snare2.wav
+64,192,185952,1,0,0:0:0:100:click.wav
+448,192,185952,1,0,0:0:0:0:
+320,192,186035,1,0,0:0:0:90:snare2.wav
+192,192,186117,1,0,0:0:0:0:
+448,192,186200,1,0,0:0:0:90:snare2.wav
+320,192,186282,1,0,0:0:0:90:snare2.wav
+192,192,186364,1,0,0:0:0:90:Whistle.wav
+64,192,186447,1,0,0:0:0:90:Whistle.wav
+192,192,186529,1,0,0:0:0:90:snare2.wav
+320,192,186612,128,0,186859:0:0:0:70:Kick.wav
+448,192,186612,128,0,186859:0:0:0:70:LR3_BassDropPDG.wav
+64,192,186941,128,0,189579:0:0:0:70:Kick.wav
+192,192,186941,128,0,189579:0:0:0:70:cymbol 2.wav
+320,192,186941,1,0,0:0:0:50:click.wav
+448,192,186941,1,0,0:0:0:50:click.wav

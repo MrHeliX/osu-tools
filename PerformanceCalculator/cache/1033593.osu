@@ -1,0 +1,85 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 5918
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 2
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.56
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1
+
+[Metadata]
+Title:Quiet Water
+TitleUnicode:Quiet Water
+Artist:toby fox
+ArtistUnicode:toby fox
+Creator:- Magic Bomb -
+Version:Relaxing
+Source:UNDERTALE
+Tags:MBomb ost original soundtrack slow easy piano radiation 33 chiptune calming waterfall
+BeatmapID:1033593
+BeatmapSetID:469787
+
+[Difficulty]
+HPDrainRate:5
+CircleSize:5
+OverallDifficulty:5
+ApproachRate:5
+SliderMultiplier:1.7
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"rsz_bg1.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+168,1000,3,2,1,25,1,0
+6168,-100,3,2,1,15,0,0
+15168,-100,3,2,1,25,0,0
+16168,-100,3,2,1,15,0,0
+27168,-100,3,2,1,25,0,0
+27668,-100,3,2,1,10,0,0
+32168,-100,3,2,1,5,0,0
+
+
+[Colours]
+Combo1 : 0,255,255
+Combo2 : 0,0,160
+Combo3 : 128,128,255
+Combo4 : 0,128,64
+
+[HitObjects]
+216,192,418,5,4,0:0:0:0:
+496,192,3418,1,4,0:0:0:0:
+176,192,6168,6,0,L|368:192,1,170,8|0,0:0|0:0,0:0:0:0:
+72,192,8168,2,0,L|256:192,1,170,2|8,0:0|0:0,0:0:0:0:
+488,192,10168,1,2,0:0:0:0:
+368,192,10668,1,0,0:0:0:0:
+64,192,11168,1,2,0:0:0:0:
+216,192,11668,1,0,0:0:0:0:
+40,192,12168,5,4,0:0:0:0:
+384,192,15168,1,4,0:0:0:0:
+168,192,16168,1,2,0:0:0:0:
+24,192,16668,1,0,0:0:0:0:
+192,192,17168,1,2,0:0:0:0:
+480,192,17668,1,2,0:0:0:0:
+336,192,18168,6,0,L|160:192,2,170,8|0|0,0:0|0:0|0:0,0:0:0:0:
+80,192,21168,2,0,L|256:192,2,170,8|0|0,0:0|0:0|0:0,0:0:0:0:
+344,192,24168,5,4,0:0:0:0:
+72,192,27168,1,4,0:0:0:0:
+256,192,27668,12,0,32168,0:0:0:0:

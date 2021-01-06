@@ -1,0 +1,100 @@
+osu file format v14
+
+[General]
+AudioFilename: Megalovania (ft. Thunderscott).mp3
+AudioLeadIn: 0
+PreviewTime: 45975
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 60850
+DistanceSpacing: 0.6
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1.8
+
+[Metadata]
+Title:Megalovania
+TitleUnicode:Megalovania
+Artist:RichaadEB feat. Thunderscott
+ArtistUnicode:RichaadEB feat. Thunderscott
+Creator:Xexxar
+Version:Fort's 6.5*~ Extra
+Source:Undertale
+Tags:toby fox Sans boss fight BGM gitgud
+BeatmapID:827329
+BeatmapSetID:376887
+
+[Difficulty]
+HPDrainRate:4.2
+CircleSize:4
+OverallDifficulty:9.7
+ApproachRate:9.8
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"creepy sans.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+5972,250,4,2,0,59,1,0
+21975,250,4,1,0,69,1,0
+21975,-68.9655172413793,4,1,0,69,0,0
+22475,-68.9655172413793,4,1,0,69,0,0
+23350,-100,4,1,0,69,0,0
+23975,-68.9655172413793,4,1,0,69,0,0
+25350,-111.111111111111,4,1,0,69,0,0
+25850,-68.9655172413793,4,1,0,69,0,0
+26225,-68.9655172413793,4,1,0,69,0,0
+27350,-105.263157894737,4,1,0,69,0,0
+27975,-68.9655172413793,4,1,0,69,0,0
+37975,-75.7575757575758,4,1,0,69,0,0
+38850,-62.5,4,1,0,69,0,0
+39100,-75.7575757575758,4,1,0,69,0,0
+45975,-71.4285714285714,4,1,0,69,0,0
+53975,-58.8235294117647,4,1,0,69,0,1
+54225,-71.4285714285714,4,1,0,69,0,1
+61975,-74.0740740740741,4,1,0,69,0,0
+69975,-58.8235294117647,4,1,0,69,0,1
+70225,-71.4285714285714,4,1,0,69,0,1
+77975,-74.0740740740741,4,1,0,69,0,0
+85975,-90.9090909090909,4,1,0,69,0,0
+93350,-111.111111111111,4,1,0,69,0,0
+93975,-90.9090909090909,4,1,0,69,0,0
+101975,-80,4,1,0,69,0,0
+114225,-80,4,2,0,69,0,0
+115600,-80,4,1,0,69,0,0
+117975,-74.0740740740741,4,1,0,69,0,1
+125350,-74.0740740740741,4,1,0,69,0,0
+125975,-71.4285714285714,4,1,0,69,0,1
+133850,-105.263157894737,4,1,0,69,0,0
+133975,-71.4285714285714,4,1,0,69,0,1
+141975,-71.4285714285714,4,1,0,69,0,0
+145975,-71.4285714285714,4,1,0,69,0,1
+149975,-105.263157894737,4,1,0,69,0,0
+154475,-90.9090909090909,4,1,0,69,0,0
+154975,-80,4,1,0,69,0,0
+155975,-71.4285714285714,4,1,0,69,0,0
+157975,-71.4285714285714,4,1,0,69,0,0
+
+
+[Colours]
+Combo1 : 255,255,255
+Combo2 : 121,0,121
+Combo3 : 185,0,0
+Combo4 : 0,0,202
+
+[HitObjects]
+256,192,5972,5,0,0:0:0:0:

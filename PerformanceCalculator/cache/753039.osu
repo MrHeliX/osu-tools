@@ -1,0 +1,68 @@
+osu file format v14
+
+[General]
+AudioFilename: The Mp3.mp3
+AudioLeadIn: 0
+PreviewTime: 63738
+Countdown: 0
+SampleSet: None
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 7488,12488,23738,33738,43738,53738,58738,63738,81394,83738,93738,103738,108738,113738,123738,143738,153743
+DistanceSpacing: 1.05
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 2.999999
+
+[Metadata]
+Title:-Astraia-
+TitleUnicode:-Astraia-
+Artist:Azel
+ArtistUnicode:Azel
+Creator:Spaghetti
+Version:Easy (GD OPEN)
+Source:BMS
+Tags:Happy Anthem Core ktgster
+BeatmapID:753039
+BeatmapSetID:331309
+
+[Difficulty]
+HPDrainRate:3
+CircleSize:3
+OverallDifficulty:3
+ApproachRate:5
+SliderMultiplier:1.6
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+2488,312.5,4,2,0,40,1,0
+63738,-100,4,2,0,50,0,1
+83738,-100,4,2,0,50,0,0
+103738,-100,4,2,0,40,0,0
+123738,-100,4,2,0,50,0,1
+143738,312.662845231892,4,2,0,60,1,0
+143738,-200,4,2,0,30,0,0
+153744,-200,4,2,0,5,0,0
+
+
+[Colours]
+Combo1 : 174,20,106
+Combo2 : 65,119,254
+Combo3 : 255,215,161
+Combo4 : 58,144,157
+
+[HitObjects]

@@ -1,0 +1,74 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 1
+SampleSet: None
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 4
+GridSize: 16
+TimelineZoom: 2.4
+
+[Metadata]
+Title:BRING IT ON ft Rin & Len
+TitleUnicode:劣等上等 ft Rin & Len
+Artist:giga-P
+ArtistUnicode:giga-P
+Creator:TahliaTheCat
+Version:Newbie
+Source:
+Tags:VOCALOID Kagamine_Rin Gamine_Len Rin Len
+BeatmapID:1766967
+BeatmapSetID:830122
+
+[Difficulty]
+HPDrainRate:1
+CircleSize:2
+OverallDifficulty:0
+ApproachRate:2
+SliderMultiplier:0.50000000596046
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"heheh dey gae lol xddd.jpg",0,0
+Video,0,"Giga_-_劣等上等(BRING_IT_ON)_ft.鏡音リンレンMV[1].mp4"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+0,500,4,1,0,100,1,0
+
+
+[Colours]
+Combo1 : 13,255,249
+Combo2 : 163,153,82
+Combo3 : 13,13,13
+Combo4 : 181,164,40
+Combo5 : 56,56,56
+Combo6 : 13,128,255
+
+[HitObjects]
+74,264,875,6,0,L|52:241,6,31.2500003725287
+380,247,3812,2,0,L|396:215,10,31.2500003725287
+256,192,9062,12,0,12250,0:0:0:0:
+100,184,12687,6,0,L|71:137,3,50.000000596046
+161,114,14937,2,0,L|186:111,2,25.000000298023
+364,233,15875,2,0,L|392:179,2,56.2500006705517
+279,331,17875,2,0,L|218:331,2,50.000000596046
+203,242,19250,2,0,L|134:242,1,62.5000007450575
+128,168,20125,1,0,0:0:0:0:
+169,105,20250,6,0,B|195:72|195:72|226:86,1,75.000000894069
+256,192,21125,12,0,21625,0:0:0:0:

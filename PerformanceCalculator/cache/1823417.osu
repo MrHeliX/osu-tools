@@ -1,0 +1,95 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 10910
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1.4
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1
+
+[Metadata]
+Title:Happy birthday to You (M2U Version)
+TitleUnicode:Happy birthday to You (M2U Version)
+Artist:M2U
+ArtistUnicode:M2U
+Creator:Nelliel
+Version:Kantan
+Source:
+Tags:celebration upbeat swing carol
+BeatmapID:1823417
+BeatmapSetID:872517
+
+[Difficulty]
+HPDrainRate:10
+CircleSize:2
+OverallDifficulty:3
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"birth.png",0,35
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+-2180,545.454545454546,4,1,0,30,1,0
+0,-100,4,1,0,30,0,0
+1092,-100,4,1,0,50,0,0
+2183,-100,4,1,0,60,0,0
+19638,-100,4,1,0,60,0,1
+27820,-100,4,1,0,60,0,0
+30001,-100,4,1,0,5,0,0
+
+
+[HitObjects]
+256,192,1,5,0,0:0:0:0:
+256,192,1092,1,0,0:0:0:0:
+256,192,1638,1,8,0:0:0:0:
+256,192,2183,1,12,0:0:0:0:
+256,192,3274,1,8,0:0:0:0:
+256,192,3820,1,8,0:0:0:0:
+256,192,4365,1,0,0:0:0:0:
+256,192,6001,1,8,0:0:0:0:
+256,192,6547,1,0,0:0:0:0:
+256,192,7638,1,8,0:0:0:0:
+256,192,8729,1,0,0:0:0:0:
+256,192,9274,1,0,0:0:0:0:
+256,192,9820,1,8,0:0:0:0:
+256,192,10910,1,12,0:0:0:0:
+256,192,11456,1,0,0:0:0:0:
+256,192,12001,1,8,0:0:0:0:
+256,192,13092,1,8,0:0:0:0:
+256,192,14183,1,0,0:0:0:0:
+256,192,15274,1,12,0:0:0:0:
+256,192,15820,1,8,0:0:0:0:
+256,192,16365,1,0,0:0:0:0:
+256,192,17456,1,8,0:0:0:0:
+256,192,18001,1,0,0:0:0:0:
+256,192,19638,1,12,0:0:0:0:
+256,192,20183,1,0,0:0:0:0:
+256,192,20729,1,0,0:0:0:0:
+256,192,21820,1,8,0:0:0:0:
+256,192,22910,1,0,0:0:0:0:
+256,192,24001,1,12,0:0:0:0:
+256,192,24547,1,8,0:0:0:0:
+256,192,25092,1,0,0:0:0:0:
+256,192,26183,1,8,0:0:0:0:
+256,192,26729,1,0,0:0:0:0:
+256,192,27820,1,12,0:0:0:0:
+256,192,28092,12,0,30001,0:0:0:0:

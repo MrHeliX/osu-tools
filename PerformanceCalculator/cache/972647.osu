@@ -1,0 +1,74 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+Bookmarks: 1904
+DistanceSpacing: 0.5
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1
+
+[Metadata]
+Title:Dramophone
+TitleUnicode:Dramophone
+Artist:Caravan Palace
+ArtistUnicode:Caravan Palace
+Creator:ItsTrydamere
+Version:Silly Sweetness
+Source:Caravan Place
+Tags:Caravan Place
+BeatmapID:972647
+BeatmapSetID:453585
+
+[Difficulty]
+HPDrainRate:6
+CircleSize:4.2
+OverallDifficulty:7
+ApproachRate:9.3
+SliderMultiplier:2.7
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+0,476.190476190476,4,1,0,100,1,0
+
+
+[HitObjects]
+45,121,2619,6,0,P|113:70|153:78,1,67.5
+128,160,2857,2,0,P|226:103|229:75,1,135
+145,76,3214,2,0,P|198:20|220:15,1,67.5
+252,10,3452,1,0,0:0:0:0:
+319,17,3571,1,0,0:0:0:0:
+444,66,3809,5,0,0:0:0:0:
+481,195,4047,1,0,0:0:0:0:
+460,328,4285,2,0,P|408:385|331:386,1,135
+227,344,4761,5,0,0:0:0:0:
+113,271,4999,1,0,0:0:0:0:
+139,148,5238,1,0,0:0:0:0:
+26,77,5476,6,0,P|126:15|190:30,1,135
+139,148,5952,2,0,P|212:197|259:200,1,135
+240,70,6428,1,0,0:0:0:0:
+360,152,6666,6,0,P|400:184|416:216,1,67.5
+420,228,6904,1,0,0:0:0:0:
+427,260,7023,1,0,0:0:0:0:
+433,293,7142,1,0,0:0:0:0:
+441,325,7261,2,0,P|465:349|510:360,2,67.5
+410,309,7619,1,0,0:0:0:0:

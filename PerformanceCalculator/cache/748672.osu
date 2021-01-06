@@ -1,0 +1,101 @@
+osu file format v14
+
+[General]
+AudioFilename: Line Let's Get Rich Opening Bgm - Reworked Let's Get Beat.mp3
+AudioLeadIn: 2000
+PreviewTime: 24165
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+Bookmarks: 2595,4002,5877,7634,9627,17595,20877
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 0.6999998
+
+[Metadata]
+Title:Reworked (Let's get beat)
+TitleUnicode:Reworked (Let's get beat)
+Artist:#LitevLow
+ArtistUnicode:#LitevLow
+Creator:Surono
+Version:Kantan
+Source:Let's Get Rich
+Tags:line opening theme bgm game sound track disco farizgkz patzar genocide
+BeatmapID:748672
+BeatmapSetID:307594
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:2
+OverallDifficulty:4
+ApproachRate:0
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"LINE-Lets-Get-Rich-TVC2.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+259,468.75,4,1,0,50,1,0
+9634,468.75,4,1,0,50,1,0
+24634,-100,4,1,0,50,0,9
+35884,-100,4,1,0,50,0,8
+
+
+[HitObjects]
+256,192,259,5,0,0:0:0:0:
+256,192,2134,1,0,0:0:0:0:
+256,160,4009,1,0,0:0:0:0:
+256,160,4946,1,0,0:0:0:0:
+256,152,5884,1,0,0:0:0:0:
+248,152,6352,1,0,0:0:0:0:
+44,44,6821,2,0,L|256:204,1,245
+220,136,9634,5,4,0:0:0:0:
+216,132,10571,1,8,0:0:0:0:
+176,96,11509,1,0,0:0:0:0:
+176,96,12915,5,8,0:0:0:0:
+184,92,13384,1,0,0:0:0:0:
+176,96,14321,1,8,0:0:0:0:
+192,64,15259,1,0,0:0:0:0:
+220,136,17134,5,0,0:0:0:0:
+216,132,18071,1,8,0:0:0:0:
+176,96,19009,1,0,0:0:0:0:
+176,96,20415,5,8,0:0:0:0:
+184,92,20884,5,0,0:0:0:0:
+176,96,21821,1,8,0:0:0:0:
+192,64,23227,1,8,0:0:0:0:
+172,64,23696,1,0,0:0:0:0:
+220,136,24634,5,12,0:0:0:0:
+216,132,25571,1,8,0:0:0:0:
+176,96,26509,1,0,0:0:0:0:
+224,128,26977,1,8,0:0:0:0:
+184,92,27915,5,8,0:0:0:0:
+176,96,28384,1,0,0:0:0:0:
+176,96,29321,1,8,0:0:0:0:
+192,64,30259,1,0,0:0:0:0:
+220,136,31665,1,8,0:0:0:0:
+220,136,32134,5,0,0:0:0:0:
+216,132,33071,1,8,0:0:0:0:
+176,96,34009,1,0,0:0:0:0:
+224,128,34477,1,8,0:0:0:0:
+176,96,35415,5,8,0:0:0:0:
+184,92,35884,5,8,0:0:0:0:
+192,64,37759,1,0,0:0:0:0:
+192,96,38696,1,8,0:0:0:0:
+176,88,39634,1,0,0:0:0:0:
+172,80,40102,5,8,0:0:0:0:
+172,80,40571,1,0,0:0:0:0:
+172,80,41274,1,12,0:0:0:0:

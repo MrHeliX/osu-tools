@@ -1,0 +1,95 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 1971
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+Bookmarks: 2147,13441,24735
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 16
+TimelineZoom: 2.799999
+
+[Metadata]
+Title:Natsuzora Yell (TV Size)
+TitleUnicode:夏空エール (TVサイズ)
+Artist:Momohara Natsuki (CV: Murakawa Rie)
+ArtistUnicode:桃原奈月 (CV: 村川梨衣)
+Creator:yuki_momoiro722
+Version:Kantan
+Source:OneRoom
+Tags:taiko ワンルーム
+BeatmapID:1646513
+BeatmapSetID:782689
+
+[Difficulty]
+HPDrainRate:9
+CircleSize:5
+OverallDifficulty:3
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg.jpeg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+736,352.941176470588,4,1,0,90,1,0
+
+
+[HitObjects]
+256,192,1971,5,12,0:0:0:0:
+256,192,2853,1,0,0:0:0:0:
+256,192,3383,1,8,0:0:0:0:
+256,192,4265,1,0,0:0:0:0:
+256,192,4794,1,8,0:0:0:0:
+256,192,5677,1,8,0:0:0:0:
+256,192,6206,1,0,0:0:0:0:
+256,192,7618,1,0,0:0:0:0:
+256,192,8147,1,8,0:0:0:0:
+256,192,9030,1,8,0:0:0:0:
+256,192,9383,1,0,0:0:0:0:
+256,192,9735,1,0,0:0:0:0:
+256,192,10441,1,8,0:0:0:0:
+256,192,11147,1,8,0:0:0:0:
+256,192,11853,1,8,0:0:0:0:
+256,192,13265,1,12,0:0:0:0:
+256,192,14147,1,0,0:0:0:0:
+256,192,14677,1,8,0:0:0:0:
+256,192,15559,1,0,0:0:0:0:
+256,192,16088,1,8,0:0:0:0:
+256,192,16971,1,0,0:0:0:0:
+256,192,17500,1,8,0:0:0:0:
+256,192,18912,1,8,0:0:0:0:
+256,192,19794,1,0,0:0:0:0:
+256,192,20324,1,8,0:0:0:0:
+256,192,21030,1,8,0:0:0:0:
+256,192,21735,1,8,0:0:0:0:
+256,192,22618,1,0,0:0:0:0:
+256,192,23147,1,8,0:0:0:0:
+256,192,24559,1,4,0:0:0:0:
+256,192,25441,1,8,0:0:0:0:
+256,192,25971,1,0,0:0:0:0:
+256,192,27383,1,4,0:0:0:0:
+256,192,28265,1,0,0:0:0:0:
+256,192,28794,1,8,0:0:0:0:
+256,192,29677,1,8,0:0:0:0:
+256,192,30383,1,12,0:0:0:0:
+256,192,30912,1,4,0:0:0:0:
+256,192,31441,1,12,0:0:0:0:
+256,192,31794,12,0,33559,0:0:0:0:

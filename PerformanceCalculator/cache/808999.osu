@@ -1,0 +1,5061 @@
+osu file format v14
+
+[General]
+AudioFilename: GOODTEK - EBIMAYO.mp3
+AudioLeadIn: 0
+PreviewTime: 20253
+Countdown: 0
+SampleSet: None
+StackLeniency: 0.4
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 3.299999
+
+[Metadata]
+Title:GOODTEK
+TitleUnicode:GOODTEK
+Artist:EBIMAYO
+ArtistUnicode:EBIMAYO
+Creator:LeiN-
+Version:bbu2's 7K Another
+Source:BMS
+Tags:BOFU2015
+BeatmapID:808999
+BeatmapSetID:369069
+
+[Difficulty]
+HPDrainRate:7.7
+CircleSize:7
+OverallDifficulty:7.7
+ApproachRate:7
+SliderMultiplier:0.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg.jpg",0,0
+Video,-80,"bga.avi"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+Sample,1263,0,"picopico_fu (0).wav",70
+Sample,1263,0,"pad #1.wav",70
+Sample,2368,0,"pad #2.wav",70
+Sample,3789,0,"pad #3.wav",70
+Sample,4894,0,"pad #4.wav",70
+Sample,6315,0,"picopico_fu (1).wav",70
+Sample,6315,0,"pad #1.wav",70
+Sample,6394,0,"picopico_fu (2).wav",70
+Sample,6473,0,"picopico_fu (3).wav",70
+Sample,6552,0,"picopico_fu (4).wav",70
+Sample,6631,0,"picopico_fu (5).wav",70
+Sample,6710,0,"picopico_fu (6).wav",70
+Sample,6789,0,"picopico_fu (7).wav",70
+Sample,6868,0,"picopico_fu (8).wav",70
+Sample,6947,0,"picopico_fu (9).wav",70
+Sample,7026,0,"picopico_fu (10).wav",70
+Sample,7105,0,"picopico_fu (11).wav",70
+Sample,7184,0,"picopico_fu (12).wav",70
+Sample,7263,0,"picopico_fu (13).wav",70
+Sample,7342,0,"picopico_fu (14).wav",70
+Sample,7421,0,"picopico_fu (15).wav",70
+Sample,7421,0,"pad #5.wav",70
+Sample,7500,0,"picopico_fu (16).wav",70
+Sample,7578,0,"picopico_fu (17).wav",70
+Sample,7657,0,"picopico_fu (18).wav",70
+Sample,7736,0,"picopico_fu (19).wav",70
+Sample,7815,0,"picopico_fu (20).wav",70
+Sample,7894,0,"picopico_fu (21).wav",70
+Sample,7973,0,"picopico_fu (22).wav",70
+Sample,8052,0,"picopico_fu (23).wav",70
+Sample,8131,0,"picopico_fu (24).wav",70
+Sample,8210,0,"picopico_fu (25).wav",70
+Sample,8289,0,"picopico_fu (26).wav",70
+Sample,8368,0,"picopico_fu (27).wav",70
+Sample,8447,0,"picopico_fu (28).wav",70
+Sample,8526,0,"picopico_fu (29).wav",70
+Sample,8605,0,"picopico_fu (30).wav",70
+Sample,8684,0,"picopico_fu (31).wav",70
+Sample,8763,0,"picopico_fu (32).wav",70
+Sample,8842,0,"picopico_fu (33).wav",70
+Sample,8842,0,"pad #3.wav",70
+Sample,8921,0,"picopico_fu (34).wav",70
+Sample,9000,0,"picopico_fu (35).wav",70
+Sample,9078,0,"picopico_fu (36).wav",70
+Sample,9157,0,"picopico_fu (37).wav",70
+Sample,9236,0,"picopico_fu (38).wav",70
+Sample,9315,0,"picopico_fu (39).wav",70
+Sample,9394,0,"picopico_fu (40).wav",70
+Sample,9473,0,"picopico_fu (41).wav",70
+Sample,9552,0,"picopico_fu (42).wav",70
+Sample,9631,0,"picopico_fu (43).wav",70
+Sample,9710,0,"picopico_fu (44).wav",70
+Sample,9789,0,"picopico_fu (45).wav",70
+Sample,9868,0,"picopico_fu (46).wav",70
+Sample,9947,0,"picopico_fu (47).wav",70
+Sample,9947,0,"pad #4.wav",70
+Sample,10026,0,"picopico_fu (48).wav",70
+Sample,10105,0,"rev cymbal.wav",70
+Sample,10105,0,"picopico_fu (49).wav",70
+Sample,10184,0,"picopico_fu (50).wav",70
+Sample,10263,0,"picopico_fu (51).wav",70
+Sample,10342,0,"picopico_fu (52).wav",70
+Sample,10421,0,"picopico_fu (53).wav",70
+Sample,10500,0,"picopico_fu (54).wav",70
+Sample,10578,0,"picopico_fu (55).wav",70
+Sample,10657,0,"picopico_fu (56).wav",70
+Sample,10736,0,"picopico_fu (57).wav",70
+Sample,10815,0,"picopico_fu (58).wav",70
+Sample,10894,0,"picopico_fu (59).wav",70
+Sample,10973,0,"picopico_fu (60).wav",70
+Sample,11052,0,"picopico_fu (61).wav",70
+Sample,11131,0,"picopico_fu (62).wav",70
+Sample,11210,0,"picopico_fu (63).wav",70
+Sample,11289,0,"picopico_fu (64).wav",70
+Sample,11368,0,"sweep up #1.wav",70
+Sample,11368,0,"drum loop (1).wav",70
+Sample,11368,0,"8bit 1 #1.wav",70
+Sample,11368,0,"pad #1.wav",70
+Sample,11447,0,"8bit 1 #2.wav",70
+Sample,11447,0,"drum loop (2).wav",70
+Sample,11526,0,"drum loop (3).wav",70
+Sample,11526,0,"bass_f #1.wav",70
+Sample,11526,0,"8bit 1 #3.wav",70
+Sample,11605,0,"drum loop (4).wav",70
+Sample,11605,0,"8bit 1 #4.wav",70
+Sample,11684,0,"drum loop (5).wav",70
+Sample,11684,0,"8bit 1 #5.wav",70
+Sample,11763,0,"8bit 1 #6.wav",70
+Sample,11763,0,"drum loop (6).wav",70
+Sample,11842,0,"bass_f #2.wav",70
+Sample,11842,0,"8bit 1 #4.wav",70
+Sample,11842,0,"drum loop (7).wav",70
+Sample,11921,0,"8bit 1 #3.wav",70
+Sample,11921,0,"drum loop (8).wav",70
+Sample,12000,0,"drum loop (9).wav",70
+Sample,12000,0,"8bit 1 #1.wav",70
+Sample,12078,0,"drum loop (10).wav",70
+Sample,12078,0,"8bit 1 #2.wav",70
+Sample,12157,0,"drum loop (11).wav",70
+Sample,12157,0,"bass_f #3.wav",70
+Sample,12157,0,"8bit 1 #3.wav",70
+Sample,12236,0,"8bit 1 #4.wav",70
+Sample,12236,0,"drum loop (12).wav",70
+Sample,12315,0,"drum loop (13).wav",70
+Sample,12315,0,"8bit 1 #5.wav",70
+Sample,12394,0,"8bit 1 #6.wav",70
+Sample,12394,0,"drum loop (14).wav",70
+Sample,12473,0,"drum loop (15).wav",70
+Sample,12473,0,"pad #2.wav",70
+Sample,12473,0,"8bit 1 #4.wav",70
+Sample,12473,0,"bass_f #4.wav",70
+Sample,12552,0,"drum loop (16).wav",70
+Sample,12552,0,"8bit 1 #3.wav",70
+Sample,12631,0,"drum loop (1).wav",70
+Sample,12631,0,"8bit 1 #1.wav",70
+Sample,12710,0,"drum loop (2).wav",70
+Sample,12710,0,"8bit 1 #2.wav",70
+Sample,12789,0,"bass_f #5.wav",70
+Sample,12789,0,"drum loop (3).wav",70
+Sample,12789,0,"8bit 1 #3.wav",70
+Sample,12868,0,"drum loop (4).wav",70
+Sample,12868,0,"8bit 1 #4.wav",70
+Sample,12947,0,"drum loop (5).wav",70
+Sample,12947,0,"8bit 1 #5.wav",70
+Sample,13026,0,"8bit 1 #6.wav",70
+Sample,13026,0,"drum loop (6).wav",70
+Sample,13105,0,"8bit 1 #4.wav",70
+Sample,13105,0,"bass_f #6.wav",70
+Sample,13105,0,"drum loop (7).wav",70
+Sample,13184,0,"8bit 1 #3.wav",70
+Sample,13184,0,"drum loop (8).wav",70
+Sample,13263,0,"8bit 1 #1.wav",70
+Sample,13263,0,"drum loop (9).wav",70
+Sample,13342,0,"8bit 1 #2.wav",70
+Sample,13342,0,"drum loop (10).wav",70
+Sample,13421,0,"drum loop (11).wav",70
+Sample,13421,0,"bass_f #7.wav",70
+Sample,13421,0,"8bit 1 #3.wav",70
+Sample,13500,0,"8bit 1 #4.wav",70
+Sample,13500,0,"drum loop (12).wav",70
+Sample,13578,0,"8bit 1 #5.wav",70
+Sample,13578,0,"drum loop (13).wav",70
+Sample,13657,0,"drum loop (14).wav",70
+Sample,13657,0,"8bit 1 #6.wav",70
+Sample,13736,0,"drum loop (15).wav",70
+Sample,13736,0,"8bit 1 #4.wav",70
+Sample,13736,0,"bass_f #8.wav",70
+Sample,13815,0,"drum loop (16).wav",70
+Sample,13815,0,"8bit 1 #3.wav",70
+Sample,13894,0,"pad #3.wav",70
+Sample,13894,0,"drum loop (1).wav",70
+Sample,13894,0,"8bit 1 #1.wav",70
+Sample,13973,0,"drum loop (2).wav",70
+Sample,13973,0,"8bit 1 #2.wav",70
+Sample,14052,0,"8bit 1 #3.wav",70
+Sample,14052,0,"drum loop (3).wav",70
+Sample,14052,0,"bass_f #9.wav",70
+Sample,14131,0,"drum loop (4).wav",70
+Sample,14131,0,"8bit 1 #4.wav",70
+Sample,14210,0,"8bit 1 #5.wav",70
+Sample,14210,0,"drum loop (5).wav",70
+Sample,14289,0,"drum loop (6).wav",70
+Sample,14289,0,"8bit 1 #6.wav",70
+Sample,14368,0,"drum loop (7).wav",70
+Sample,14368,0,"bass_f #10.wav",70
+Sample,14368,0,"8bit 1 #4.wav",70
+Sample,14447,0,"drum loop (8).wav",70
+Sample,14447,0,"8bit 1 #3.wav",70
+Sample,14526,0,"8bit 1 #1.wav",70
+Sample,14526,0,"drum loop (9).wav",70
+Sample,14605,0,"drum loop (10).wav",70
+Sample,14605,0,"8bit 1 #2.wav",70
+Sample,14684,0,"drum loop (11).wav",70
+Sample,14684,0,"8bit 1 #3.wav",70
+Sample,14684,0,"bass_f #11.wav",70
+Sample,14763,0,"8bit 1 #4.wav",70
+Sample,14763,0,"drum loop (12).wav",70
+Sample,14842,0,"8bit 1 #5.wav",70
+Sample,14842,0,"drum loop (13).wav",70
+Sample,14921,0,"8bit 1 #6.wav",70
+Sample,14921,0,"drum loop (14).wav",70
+Sample,15000,0,"8bit 1 #4.wav",70
+Sample,15000,0,"pad #4.wav",70
+Sample,15000,0,"drum loop (15).wav",70
+Sample,15000,0,"bass_f #12.wav",70
+Sample,15078,0,"drum loop (16).wav",70
+Sample,15078,0,"8bit 1 #3.wav",70
+Sample,15157,0,"drum loop (1).wav",70
+Sample,15157,0,"8bit 1 #1.wav",70
+Sample,15236,0,"drum loop (2).wav",70
+Sample,15236,0,"8bit 1 #2.wav",70
+Sample,15315,0,"8bit 1 #3.wav",70
+Sample,15315,0,"bass_f #13.wav",70
+Sample,15315,0,"drum loop (3).wav",70
+Sample,15394,0,"8bit 1 #4.wav",70
+Sample,15394,0,"drum loop (4).wav",70
+Sample,15473,0,"8bit 1 #5.wav",70
+Sample,15473,0,"drum loop (5).wav",70
+Sample,15552,0,"drum loop (6).wav",70
+Sample,15552,0,"8bit 1 #6.wav",70
+Sample,15631,0,"bass_f #14.wav",70
+Sample,15631,0,"8bit 1 #4.wav",70
+Sample,15631,0,"drum loop (7).wav",70
+Sample,15710,0,"drum loop (8).wav",70
+Sample,15710,0,"8bit 1 #3.wav",70
+Sample,15789,0,"8bit 1 #1.wav",70
+Sample,15789,0,"drum loop (9).wav",70
+Sample,15868,0,"8bit 1 #2.wav",70
+Sample,15868,0,"drum loop (10).wav",70
+Sample,15947,0,"8bit 1 #3.wav",70
+Sample,15947,0,"bass_f #15.wav",70
+Sample,15947,0,"drum loop (11).wav",70
+Sample,16026,0,"8bit 1 #4.wav",70
+Sample,16026,0,"drum loop (12).wav",70
+Sample,16105,0,"8bit 1 #5.wav",70
+Sample,16105,0,"drum loop (13).wav",70
+Sample,16184,0,"8bit 1 #6.wav",70
+Sample,16184,0,"drum loop (14).wav",70
+Sample,16263,0,"drum loop (15).wav",70
+Sample,16263,0,"8bit 1 #4.wav",70
+Sample,16263,0,"bass_f #16.wav",70
+Sample,16342,0,"drum loop (16).wav",70
+Sample,16342,0,"8bit 1 #3.wav",70
+Sample,16421,0,"drum loop (1).wav",70
+Sample,16421,0,"pad #1.wav",70
+Sample,16421,0,"fade in snare (1).wav",70
+Sample,16421,0,"8bit 1 #1.wav",70
+Sample,16500,0,"drum loop (2).wav",70
+Sample,16500,0,"fade in snare (2).wav",70
+Sample,16500,0,"8bit 1 #2.wav",70
+Sample,16578,0,"bass_f #17.wav",70
+Sample,16578,0,"drum loop (3).wav",70
+Sample,16578,0,"fade in snare (3).wav",70
+Sample,16578,0,"8bit 1 #3.wav",70
+Sample,16657,0,"fade in snare (4).wav",70
+Sample,16657,0,"8bit 1 #4.wav",70
+Sample,16657,0,"drum loop (4).wav",70
+Sample,16736,0,"drum loop (5).wav",70
+Sample,16736,0,"fade in snare (5).wav",70
+Sample,16736,0,"8bit 1 #5.wav",70
+Sample,16815,0,"drum loop (6).wav",70
+Sample,16815,0,"8bit 1 #6.wav",70
+Sample,16815,0,"fade in snare (6).wav",70
+Sample,16894,0,"fade in snare (7).wav",70
+Sample,16894,0,"drum loop (7).wav",70
+Sample,16894,0,"8bit 1 #4.wav",70
+Sample,16894,0,"bass_f #18.wav",70
+Sample,16973,0,"drum loop (8).wav",70
+Sample,16973,0,"fade in snare (8).wav",70
+Sample,16973,0,"8bit 1 #3.wav",70
+Sample,17052,0,"drum loop (9).wav",70
+Sample,17052,0,"8bit 1 #1.wav",70
+Sample,17052,0,"fade in snare (9).wav",70
+Sample,17131,0,"drum loop (10).wav",70
+Sample,17131,0,"fade in snare (10).wav",70
+Sample,17131,0,"8bit 1 #2.wav",70
+Sample,17210,0,"8bit 1 #3.wav",70
+Sample,17210,0,"bass_f #19.wav",70
+Sample,17210,0,"drum loop (11).wav",70
+Sample,17210,0,"fade in snare (11).wav",70
+Sample,17289,0,"8bit 1 #4.wav",70
+Sample,17289,0,"fade in snare (12).wav",70
+Sample,17289,0,"drum loop (12).wav",70
+Sample,17368,0,"fade in snare (13).wav",70
+Sample,17368,0,"8bit 1 #5.wav",70
+Sample,17368,0,"drum loop (13).wav",70
+Sample,17447,0,"8bit 1 #6.wav",70
+Sample,17447,0,"fade in snare (14).wav",70
+Sample,17447,0,"drum loop (14).wav",70
+Sample,17526,0,"fade in snare (15).wav",70
+Sample,17526,0,"8bit 1 #4.wav",70
+Sample,17526,0,"bass_f #20.wav",70
+Sample,17526,0,"drum loop (15).wav",70
+Sample,17526,0,"pad #5.wav",70
+Sample,17605,0,"fade in snare (16).wav",70
+Sample,17605,0,"8bit 1 #3.wav",70
+Sample,17605,0,"drum loop (16).wav",70
+Sample,17684,0,"drum loop (1).wav",70
+Sample,17684,0,"fade in snare (17).wav",70
+Sample,17684,0,"8bit 1 #1.wav",70
+Sample,17763,0,"drum loop (2).wav",70
+Sample,17763,0,"8bit 1 #2.wav",70
+Sample,17763,0,"fade in snare (18).wav",70
+Sample,17842,0,"8bit 1 #3.wav",70
+Sample,17842,0,"drum loop (3).wav",70
+Sample,17842,0,"bass_f #21.wav",70
+Sample,17921,0,"8bit 1 #4.wav",70
+Sample,17921,0,"fade in snare (20).wav",70
+Sample,17921,0,"drum loop (4).wav",70
+Sample,18000,0,"drum loop (5).wav",70
+Sample,18000,0,"8bit 1 #5.wav",70
+Sample,18000,0,"fade in snare (21).wav",70
+Sample,18078,0,"drum loop (6).wav",70
+Sample,18078,0,"fade in snare (22).wav",70
+Sample,18078,0,"8bit 1 #6.wav",70
+Sample,18157,0,"8bit 1 #4.wav",70
+Sample,18157,0,"drum loop (7).wav",70
+Sample,18157,0,"bass_f #22.wav",70
+Sample,18157,0,"fade in snare (23).wav",70
+Sample,18236,0,"8bit 1 #3.wav",70
+Sample,18236,0,"drum loop (8).wav",70
+Sample,18236,0,"fade in snare (24).wav",70
+Sample,18315,0,"drum loop (9).wav",70
+Sample,18315,0,"8bit 1 #1.wav",70
+Sample,18315,0,"fade in snare (25).wav",70
+Sample,18394,0,"fade in snare (26).wav",70
+Sample,18394,0,"drum loop (10).wav",70
+Sample,18394,0,"8bit 1 #2.wav",70
+Sample,18473,0,"drum loop (11).wav",70
+Sample,18473,0,"bass_f #23.wav",70
+Sample,18473,0,"8bit 1 #3.wav",70
+Sample,18552,0,"8bit 1 #4.wav",70
+Sample,18552,0,"fade in snare (28).wav",70
+Sample,18552,0,"drum loop (12).wav",70
+Sample,18631,0,"8bit 1 #5.wav",70
+Sample,18631,0,"drum loop (13).wav",70
+Sample,18631,0,"fade in snare (29).wav",70
+Sample,18710,0,"fade in snare (30).wav",70
+Sample,18710,0,"drum loop (14).wav",70
+Sample,18710,0,"8bit 1 #6.wav",70
+Sample,18789,0,"fade in snare (31).wav",70
+Sample,18789,0,"bass_f #24.wav",70
+Sample,18789,0,"drum loop (15).wav",70
+Sample,18789,0,"8bit 1 #4.wav",70
+Sample,18868,0,"fade in snare (32).wav",70
+Sample,18868,0,"drum loop (16).wav",70
+Sample,18868,0,"8bit 1 #3.wav",70
+Sample,18947,0,"8bit 1 #1.wav",70
+Sample,18947,0,"pad #8.wav",70
+Sample,18947,0,"drum loop (1).wav",70
+Sample,18947,0,"fade in snare (33).wav",70
+Sample,19026,0,"drum loop (2).wav",70
+Sample,19026,0,"8bit 1 #2.wav",70
+Sample,19105,0,"8bit 1 #3.wav",70
+Sample,19105,0,"drum loop (3).wav",70
+Sample,19105,0,"hi hat.wav",70
+Sample,19105,0,"bass_f #25.wav",70
+Sample,19105,0,"fade in snare (35).wav",70
+Sample,19184,0,"drum loop (4).wav",70
+Sample,19184,0,"8bit 1 #4.wav",70
+Sample,19263,0,"drum loop (5).wav",70
+Sample,19263,0,"8bit 1 #5.wav",70
+Sample,19263,0,"fade in snare (37).wav",70
+Sample,19342,0,"8bit 1 #6.wav",70
+Sample,19342,0,"drum loop (6).wav",70
+Sample,19421,0,"bass_f #26.wav",70
+Sample,19421,0,"fade in snare (39).wav",70
+Sample,19421,0,"8bit 1 #4.wav",70
+Sample,19421,0,"drum loop (7).wav",70
+Sample,19421,0,"hi hat.wav",70
+Sample,19500,0,"drum loop (8).wav",70
+Sample,19500,0,"8bit 1 #3.wav",70
+Sample,19578,0,"fade in snare (41).wav",70
+Sample,19578,0,"8bit 1 #1.wav",70
+Sample,19578,0,"drum loop (9).wav",70
+Sample,19657,0,"8bit 1 #2.wav",70
+Sample,19657,0,"drum loop (10).wav",70
+Sample,19736,0,"drum loop (11).wav",70
+Sample,19736,0,"bass_f #27.wav",70
+Sample,19736,0,"8bit 1 #3.wav",70
+Sample,19736,0,"fade in snare (43).wav",70
+Sample,19736,0,"hi hat.wav",70
+Sample,19815,0,"8bit 1 #4.wav",70
+Sample,19815,0,"drum loop (12).wav",70
+Sample,19894,0,"fade in snare (45).wav",70
+Sample,19894,0,"drum loop (13).wav",70
+Sample,19894,0,"8bit 1 #5.wav",70
+Sample,19973,0,"drum loop (14).wav",70
+Sample,19973,0,"8bit 1 #6.wav",70
+Sample,20052,0,"drum loop (15).wav",70
+Sample,20052,0,"8bit 1 #4.wav",70
+Sample,20052,0,"bass_f #28.wav",70
+Sample,20052,0,"fade in snare (47).wav",70
+Sample,20052,0,"hi hat.wav",70
+Sample,20131,0,"drum loop (16).wav",70
+Sample,20131,0,"8bit 1 #3.wav",70
+Sample,21473,0,"drum loop (1).wav",70
+Sample,21473,0,"pad #6.wav",70
+Sample,21552,0,"drum loop (2).wav",70
+Sample,21631,0,"drum loop (3).wav",70
+Sample,21631,0,"hi hat.wav",70
+Sample,21631,0,"bass #1.wav",70
+Sample,21710,0,"drum loop (4).wav",70
+Sample,21789,0,"drum loop (5).wav",70
+Sample,21868,0,"drum loop (6).wav",70
+Sample,21947,0,"bass #1.wav",70
+Sample,21947,0,"hi hat.wav",70
+Sample,21947,0,"drum loop (7).wav",70
+Sample,22026,0,"drum loop (8).wav",70
+Sample,22105,0,"drum loop (9).wav",70
+Sample,22184,0,"drum loop (10).wav",70
+Sample,22263,0,"drum loop (11).wav",70
+Sample,22263,0,"hi hat.wav",70
+Sample,22263,0,"bass #1.wav",70
+Sample,22342,0,"drum loop (12).wav",70
+Sample,22421,0,"drum loop (13).wav",70
+Sample,22500,0,"drum loop (14).wav",70
+Sample,22578,0,"drum loop (15).wav",70
+Sample,22578,0,"hi hat.wav",70
+Sample,22578,0,"bass #1.wav",70
+Sample,22657,0,"drum loop (16).wav",70
+Sample,22736,0,"pad #7.wav",70
+Sample,22736,0,"drum loop (1).wav",70
+Sample,22815,0,"drum loop (2).wav",70
+Sample,22894,0,"hi hat.wav",70
+Sample,22894,0,"bass #1.wav",70
+Sample,22894,0,"drum loop (3).wav",70
+Sample,22973,0,"drum loop (4).wav",70
+Sample,23052,0,"drum loop (5).wav",70
+Sample,23131,0,"drum loop (6).wav",70
+Sample,23210,0,"drum loop (7).wav",70
+Sample,23210,0,"bass #1.wav",70
+Sample,23210,0,"hi hat.wav",70
+Sample,23289,0,"drum loop (8).wav",70
+Sample,23368,0,"drum loop (9).wav",70
+Sample,23447,0,"drum loop (10).wav",70
+Sample,23526,0,"drum loop (11).wav",70
+Sample,23526,0,"hi hat.wav",70
+Sample,23526,0,"bass #1.wav",70
+Sample,23605,0,"drum loop (12).wav",70
+Sample,24000,0,"pad #6.wav",70
+Sample,24000,0,"drum loop (1).wav",70
+Sample,24078,0,"drum loop (2).wav",70
+Sample,24157,0,"hi hat.wav",70
+Sample,24157,0,"bass #1.wav",70
+Sample,24157,0,"drum loop (3).wav",70
+Sample,24236,0,"drum loop (4).wav",70
+Sample,24315,0,"drum loop (5).wav",70
+Sample,24394,0,"drum loop (6).wav",70
+Sample,24473,0,"hi hat.wav",70
+Sample,24473,0,"drum loop (7).wav",70
+Sample,24473,0,"bass #1.wav",70
+Sample,24552,0,"drum loop (8).wav",70
+Sample,24631,0,"drum loop (9).wav",70
+Sample,24710,0,"drum loop (10).wav",70
+Sample,24789,0,"drum loop (11).wav",70
+Sample,24789,0,"bass #1.wav",70
+Sample,24789,0,"hi hat.wav",70
+Sample,24868,0,"drum loop (12).wav",70
+Sample,24947,0,"drum loop (13).wav",70
+Sample,25026,0,"drum loop (14).wav",70
+Sample,25105,0,"drum loop (15).wav",70
+Sample,25105,0,"bass #1.wav",70
+Sample,25105,0,"hi hat.wav",70
+Sample,25184,0,"drum loop (16).wav",70
+Sample,25263,0,"bass_growl #1.wav",70
+Sample,25263,0,"drum loop (1).wav",70
+Sample,25263,0,"pad #6.wav",70
+Sample,25342,0,"drum loop (2).wav",70
+Sample,25421,0,"hi hat.wav",70
+Sample,25421,0,"drum loop (3).wav",70
+Sample,25500,0,"drum loop (4).wav",70
+Sample,25578,0,"drum loop (5).wav",70
+Sample,25578,0,"snare #1.wav",70
+Sample,25578,0,"clap.wav",70
+Sample,25657,0,"drum loop (6).wav",70
+Sample,25736,0,"hi hat.wav",70
+Sample,25736,0,"drum loop (7).wav",70
+Sample,25815,0,"drum loop (8).wav",70
+Sample,25894,0,"clap.wav",70
+Sample,25894,0,"drum loop (9).wav",70
+Sample,25973,0,"drum loop (10).wav",70
+Sample,26052,0,"drum loop (11).wav",70
+Sample,26052,0,"hi hat.wav",70
+Sample,26131,0,"drum loop (12).wav",70
+Sample,26210,0,"drum loop (13).wav",70
+Sample,26210,0,"snare #1.wav",70
+Sample,26210,0,"clap.wav",70
+Sample,26289,0,"drum loop (14).wav",70
+Sample,26368,0,"drum loop (15).wav",70
+Sample,26368,0,"hi hat.wav",70
+Sample,26447,0,"drum loop (16).wav",70
+Sample,26526,0,"drum loop (1).wav",70
+Sample,26526,0,"pad #6.wav",70
+Sample,26605,0,"drum loop (2).wav",70
+Sample,26684,0,"hi hat.wav",70
+Sample,26684,0,"drum loop (3).wav",70
+Sample,26684,0,"bass #1.wav",70
+Sample,26763,0,"drum loop (4).wav",70
+Sample,26842,0,"drum loop (5).wav",70
+Sample,26921,0,"drum loop (6).wav",70
+Sample,27000,0,"bass #1.wav",70
+Sample,27000,0,"drum loop (7).wav",70
+Sample,27000,0,"hi hat.wav",70
+Sample,27078,0,"drum loop (8).wav",70
+Sample,27157,0,"drum loop (9).wav",70
+Sample,27236,0,"drum loop (10).wav",70
+Sample,27315,0,"drum loop (11).wav",70
+Sample,27315,0,"bass #1.wav",70
+Sample,27315,0,"hi hat.wav",70
+Sample,27394,0,"drum loop (12).wav",70
+Sample,27473,0,"drum loop (13).wav",70
+Sample,27552,0,"drum loop (14).wav",70
+Sample,27631,0,"drum loop (15).wav",70
+Sample,27631,0,"bass #1.wav",70
+Sample,27631,0,"hi hat.wav",70
+Sample,27710,0,"drum loop (16).wav",70
+Sample,27789,0,"pad #7.wav",70
+Sample,27789,0,"drum loop (1).wav",70
+Sample,27868,0,"drum loop (2).wav",70
+Sample,27947,0,"hi hat.wav",70
+Sample,27947,0,"drum loop (3).wav",70
+Sample,27947,0,"bass #1.wav",70
+Sample,28026,0,"drum loop (4).wav",70
+Sample,28105,0,"drum loop (5).wav",70
+Sample,28184,0,"drum loop (6).wav",70
+Sample,28263,0,"bass #1.wav",70
+Sample,28263,0,"drum loop (7).wav",70
+Sample,28263,0,"hi hat.wav",70
+Sample,28342,0,"drum loop (8).wav",70
+Sample,28421,0,"drum loop (9).wav",70
+Sample,28500,0,"drum loop (10).wav",70
+Sample,28578,0,"drum loop (11).wav",70
+Sample,28578,0,"bass #1.wav",70
+Sample,28578,0,"hi hat.wav",70
+Sample,28657,0,"drum loop (12).wav",70
+Sample,29052,0,"drum loop (1).wav",70
+Sample,29052,0,"pad #6.wav",70
+Sample,29131,0,"drum loop (2).wav",70
+Sample,29210,0,"drum loop (3).wav",70
+Sample,29210,0,"hi hat.wav",70
+Sample,29210,0,"bass #1.wav",70
+Sample,29289,0,"drum loop (4).wav",70
+Sample,29368,0,"drum loop (5).wav",70
+Sample,29447,0,"drum loop (6).wav",70
+Sample,29526,0,"drum loop (7).wav",70
+Sample,29526,0,"bass #1.wav",70
+Sample,29526,0,"hi hat.wav",70
+Sample,29605,0,"drum loop (8).wav",70
+Sample,29684,0,"drum loop (9).wav",70
+Sample,29763,0,"drum loop (10).wav",70
+Sample,29842,0,"drum loop (11).wav",70
+Sample,29842,0,"bass #1.wav",70
+Sample,29842,0,"hi hat.wav",70
+Sample,29921,0,"drum loop (12).wav",70
+Sample,30000,0,"drum loop (13).wav",70
+Sample,30000,0,"rev cymbal.wav",70
+Sample,30078,0,"drum loop (14).wav",70
+Sample,30157,0,"hi hat.wav",70
+Sample,30157,0,"drum loop (15).wav",70
+Sample,30157,0,"bass #1.wav",70
+Sample,30236,0,"drum loop (16).wav",70
+Sample,30315,0,"pad #7.wav",70
+Sample,30315,0,"drum loop (1).wav",70
+Sample,30315,0,"percussion #1.wav",70
+Sample,30394,0,"drum loop (2).wav",70
+Sample,30473,0,"drum loop (3).wav",70
+Sample,30552,0,"drum loop (4).wav",70
+Sample,30631,0,"drum loop (5).wav",70
+Sample,30631,0,"percussion #1.wav",70
+Sample,30710,0,"drum loop (6).wav",70
+Sample,30789,0,"drum loop (7).wav",70
+Sample,30868,0,"drum loop (8).wav",70
+Sample,30947,0,"drum loop (9).wav",70
+Sample,30947,0,"snare #2.wav",70
+Sample,31026,0,"drum loop (10).wav",70
+Sample,31026,0,"8bit 1 #2.wav",70
+Sample,31105,0,"snare #2.wav",70
+Sample,31105,0,"drum loop (11).wav",70
+Sample,31184,0,"drum loop (12).wav",70
+Sample,31184,0,"8bit 1 #4.wav",70
+Sample,31578,0,"impact.wav",70
+Sample,31578,0,"drum loop (1).wav",70
+Sample,31578,0,"pad #6.wav",70
+Sample,31578,0,"8bit 1 #1.wav",70
+Sample,31657,0,"8bit 1 #2.wav",70
+Sample,31657,0,"drum loop (2).wav",70
+Sample,31736,0,"8bit 1 #3.wav",70
+Sample,31736,0,"drum loop (3).wav",70
+Sample,31815,0,"8bit 1 #4.wav",70
+Sample,31815,0,"drum loop (4).wav",70
+Sample,31894,0,"8bit 1 #5.wav",70
+Sample,31894,0,"drum loop (5).wav",70
+Sample,31973,0,"drum loop (6).wav",70
+Sample,31973,0,"8bit 1 #6.wav",70
+Sample,32052,0,"8bit 1 #4.wav",70
+Sample,32052,0,"drum loop (7).wav",70
+Sample,32131,0,"8bit 1 #3.wav",70
+Sample,32131,0,"drum loop (8).wav",70
+Sample,32210,0,"drum loop (9).wav",70
+Sample,32210,0,"8bit 1 #1.wav",70
+Sample,32289,0,"drum loop (10).wav",70
+Sample,32289,0,"8bit 1 #2.wav",70
+Sample,32368,0,"drum loop (11).wav",70
+Sample,32368,0,"8bit 1 #3.wav",70
+Sample,32447,0,"drum loop (12).wav",70
+Sample,32447,0,"8bit 1 #4.wav",70
+Sample,32526,0,"8bit 1 #5.wav",70
+Sample,32526,0,"drum loop (13).wav",70
+Sample,32605,0,"8bit 1 #6.wav",70
+Sample,32605,0,"drum loop (14).wav",70
+Sample,32684,0,"8bit 1 #4.wav",70
+Sample,32684,0,"drum loop (15).wav",70
+Sample,32763,0,"drum loop (16).wav",70
+Sample,32763,0,"8bit 1 #3.wav",70
+Sample,32842,0,"pad #6.wav",70
+Sample,32842,0,"drum loop (1).wav",70
+Sample,32842,0,"8bit 1 #1.wav",70
+Sample,32921,0,"drum loop (2).wav",70
+Sample,32921,0,"8bit 1 #2.wav",70
+Sample,33000,0,"drum loop (3).wav",70
+Sample,33000,0,"8bit 1 #3.wav",70
+Sample,33078,0,"8bit 1 #4.wav",70
+Sample,33078,0,"drum loop (4).wav",70
+Sample,33157,0,"8bit 1 #5.wav",70
+Sample,33157,0,"drum loop (5).wav",70
+Sample,33236,0,"drum loop (6).wav",70
+Sample,33236,0,"8bit 1 #6.wav",70
+Sample,33315,0,"8bit 1 #4.wav",70
+Sample,33315,0,"drum loop (7).wav",70
+Sample,33394,0,"8bit 1 #3.wav",70
+Sample,33394,0,"drum loop (8).wav",70
+Sample,33473,0,"drum loop (9).wav",70
+Sample,33473,0,"8bit 1 #1.wav",70
+Sample,33552,0,"drum loop (10).wav",70
+Sample,33552,0,"8bit 1 #2.wav",70
+Sample,33631,0,"8bit 1 #3.wav",70
+Sample,33631,0,"drum loop (11).wav",70
+Sample,33710,0,"drum loop (12).wav",70
+Sample,33710,0,"8bit 1 #4.wav",70
+Sample,33789,0,"drum loop (13).wav",70
+Sample,33789,0,"8bit 1 #5.wav",70
+Sample,33868,0,"drum loop (14).wav",70
+Sample,33868,0,"8bit 1 #6.wav",70
+Sample,33947,0,"8bit 1 #4.wav",70
+Sample,33947,0,"bass #1.wav",70
+Sample,33947,0,"drum loop (15).wav",70
+Sample,33947,0,"snare #4.wav",70
+Sample,34026,0,"drum loop (16).wav",70
+Sample,34026,0,"8bit 1 #3.wav",70
+Sample,34026,0,"snare #4.wav",70
+Sample,34105,0,"pad #6.wav",70
+Sample,34105,0,"drum loop (1).wav",70
+Sample,34105,0,"8bit 1 #1.wav",70
+Sample,34184,0,"drum loop (2).wav",70
+Sample,34184,0,"8bit 1 #2.wav",70
+Sample,34263,0,"8bit 1 #3.wav",70
+Sample,34263,0,"drum loop (3).wav",70
+Sample,34342,0,"8bit 1 #4.wav",70
+Sample,34342,0,"drum loop (4).wav",70
+Sample,34421,0,"8bit 1 #5.wav",70
+Sample,34421,0,"drum loop (5).wav",70
+Sample,34500,0,"drum loop (6).wav",70
+Sample,34500,0,"8bit 1 #6.wav",70
+Sample,34578,0,"8bit 1 #4.wav",70
+Sample,34578,0,"drum loop (7).wav",70
+Sample,34657,0,"drum loop (8).wav",70
+Sample,34657,0,"8bit 1 #3.wav",70
+Sample,34736,0,"drum loop (9).wav",70
+Sample,34736,0,"8bit 1 #1.wav",70
+Sample,34815,0,"8bit 1 #2.wav",70
+Sample,34815,0,"drum loop (10).wav",70
+Sample,34894,0,"8bit 1 #3.wav",70
+Sample,34894,0,"drum loop (11).wav",70
+Sample,34973,0,"drum loop (12).wav",70
+Sample,34973,0,"8bit 1 #4.wav",70
+Sample,35052,0,"drum loop (13).wav",70
+Sample,35052,0,"8bit 1 #5.wav",70
+Sample,35131,0,"8bit 1 #6.wav",70
+Sample,35131,0,"drum loop (14).wav",70
+Sample,35210,0,"drum loop (15).wav",70
+Sample,35210,0,"8bit 1 #4.wav",70
+Sample,35289,0,"drum loop (16).wav",70
+Sample,35289,0,"8bit 1 #3.wav",70
+Sample,35368,0,"drum loop (1).wav",70
+Sample,35368,0,"8bit 1 #1.wav",70
+Sample,35368,0,"pad #6.wav",70
+Sample,35447,0,"8bit 1 #2.wav",70
+Sample,35447,0,"drum loop (2).wav",70
+Sample,35526,0,"drum loop (3).wav",70
+Sample,35526,0,"8bit 1 #3.wav",70
+Sample,35605,0,"drum loop (4).wav",70
+Sample,35605,0,"8bit 1 #4.wav",70
+Sample,35684,0,"drum loop (5).wav",70
+Sample,35684,0,"8bit 1 #5.wav",70
+Sample,35763,0,"8bit 1 #6.wav",70
+Sample,35763,0,"drum loop (6).wav",70
+Sample,35842,0,"8bit 1 #4.wav",70
+Sample,35842,0,"drum loop (7).wav",70
+Sample,35921,0,"drum loop (8).wav",70
+Sample,35921,0,"8bit 1 #3.wav",70
+Sample,36000,0,"drum loop (9).wav",70
+Sample,36000,0,"8bit 1 #1.wav",70
+Sample,36078,0,"8bit 1 #2.wav",70
+Sample,36078,0,"drum loop (10).wav",70
+Sample,36157,0,"drum loop (11).wav",70
+Sample,36157,0,"8bit 1 #3.wav",70
+Sample,36157,0,"snare #3.wav",70
+Sample,36236,0,"drum loop (12).wav",70
+Sample,36236,0,"8bit 1 #4.wav",70
+Sample,36315,0,"drum loop (13).wav",70
+Sample,36315,0,"8bit 1 #5.wav",70
+Sample,36394,0,"8bit 1 #6.wav",70
+Sample,36394,0,"drum loop (14).wav",70
+Sample,36473,0,"8bit 1 #4.wav",70
+Sample,36473,0,"drum loop (15).wav",70
+Sample,36473,0,"bass #1.wav",70
+Sample,36552,0,"drum loop (16).wav",70
+Sample,36552,0,"8bit 1 #3.wav",70
+Sample,36631,0,"8bit 1 #1.wav",70
+Sample,36631,0,"pad #6.wav",70
+Sample,36631,0,"drum loop (1).wav",70
+Sample,36631,0,"sweep up #2.wav",70
+Sample,36710,0,"8bit 1 #2.wav",70
+Sample,36710,0,"drum loop (2).wav",70
+Sample,36789,0,"hi hat.wav",70
+Sample,36789,0,"drum loop (3).wav",70
+Sample,36789,0,"8bit 1 #3.wav",70
+Sample,36868,0,"drum loop (4).wav",70
+Sample,36868,0,"8bit 1 #4.wav",70
+Sample,36947,0,"8bit 1 #5.wav",70
+Sample,36947,0,"drum loop (5).wav",70
+Sample,37026,0,"drum loop (6).wav",70
+Sample,37026,0,"8bit 1 #6.wav",70
+Sample,37105,0,"drum loop (7).wav",70
+Sample,37105,0,"hi hat.wav",70
+Sample,37105,0,"8bit 1 #4.wav",70
+Sample,37184,0,"8bit 1 #3.wav",70
+Sample,37184,0,"drum loop (8).wav",70
+Sample,37263,0,"drum loop (9).wav",70
+Sample,37263,0,"8bit 1 #1.wav",70
+Sample,37342,0,"drum loop (10).wav",70
+Sample,37342,0,"8bit 1 #2.wav",70
+Sample,37421,0,"drum loop (11).wav",70
+Sample,37421,0,"hi hat.wav",70
+Sample,37421,0,"8bit 1 #3.wav",70
+Sample,37500,0,"8bit 1 #4.wav",70
+Sample,37500,0,"drum loop (12).wav",70
+Sample,37578,0,"drum loop (13).wav",70
+Sample,37578,0,"8bit 1 #5.wav",70
+Sample,37657,0,"drum loop (14).wav",70
+Sample,37657,0,"8bit 1 #6.wav",70
+Sample,37736,0,"drum loop (15).wav",70
+Sample,37736,0,"hi hat.wav",70
+Sample,37736,0,"8bit 1 #4.wav",70
+Sample,37815,0,"8bit 1 #3.wav",70
+Sample,37815,0,"drum loop (16).wav",70
+Sample,37894,0,"8bit 1 #1.wav",70
+Sample,37894,0,"pad #6.wav",70
+Sample,37894,0,"drum loop (1).wav",70
+Sample,37973,0,"8bit 1 #2.wav",70
+Sample,37973,0,"drum loop (2).wav",70
+Sample,38052,0,"drum loop (3).wav",70
+Sample,38052,0,"hi hat.wav",70
+Sample,38052,0,"8bit 1 #3.wav",70
+Sample,38131,0,"drum loop (4).wav",70
+Sample,38131,0,"8bit 1 #4.wav",70
+Sample,38210,0,"drum loop (5).wav",70
+Sample,38210,0,"8bit 1 #5.wav",70
+Sample,38289,0,"8bit 1 #6.wav",70
+Sample,38289,0,"drum loop (6).wav",70
+Sample,38368,0,"drum loop (7).wav",70
+Sample,38368,0,"hi hat.wav",70
+Sample,38368,0,"8bit 1 #4.wav",70
+Sample,38447,0,"drum loop (8).wav",70
+Sample,38447,0,"8bit 1 #3.wav",70
+Sample,38526,0,"8bit 1 #1.wav",70
+Sample,38526,0,"drum loop (9).wav",70
+Sample,38605,0,"8bit 1 #2.wav",70
+Sample,38605,0,"drum loop (10).wav",70
+Sample,38684,0,"8bit 1 #3.wav",70
+Sample,38684,0,"hi hat.wav",70
+Sample,38684,0,"drum loop (11).wav",70
+Sample,38763,0,"8bit 1 #4.wav",70
+Sample,38763,0,"drum loop (12).wav",70
+Sample,38842,0,"8bit 1 #5.wav",70
+Sample,38842,0,"drum loop (13).wav",70
+Sample,38921,0,"8bit 1 #6.wav",70
+Sample,38921,0,"drum loop (14).wav",70
+Sample,39000,0,"drum loop (15).wav",70
+Sample,39000,0,"8bit 1 #4.wav",70
+Sample,39000,0,"hi hat.wav",70
+Sample,39078,0,"drum loop (16).wav",70
+Sample,39078,0,"8bit 1 #3.wav",70
+Sample,39157,0,"drum loop (1).wav",70
+Sample,39157,0,"pad #6.wav",70
+Sample,39157,0,"8bit 1 #1.wav",70
+Sample,39236,0,"s_fade in snare (2).wav",70
+Sample,39236,0,"drum loop (2).wav",70
+Sample,39236,0,"8bit 1 #2.wav",70
+Sample,39315,0,"8bit 1 #3.wav",70
+Sample,39315,0,"drum loop (3).wav",70
+Sample,39315,0,"s_fade in snare (3).wav",70
+Sample,39394,0,"8bit 1 #4.wav",70
+Sample,39394,0,"s_fade in snare (4).wav",70
+Sample,39394,0,"drum loop (4).wav",70
+Sample,39473,0,"8bit 1 #5.wav",70
+Sample,39473,0,"drum loop (5).wav",70
+Sample,39552,0,"s_fade in snare (6).wav",70
+Sample,39552,0,"drum loop (6).wav",70
+Sample,39552,0,"8bit 1 #6.wav",70
+Sample,39631,0,"s_fade in snare (7).wav",70
+Sample,39631,0,"drum loop (7).wav",70
+Sample,39631,0,"8bit 1 #4.wav",70
+Sample,39710,0,"8bit 1 #3.wav",70
+Sample,39710,0,"s_fade in snare (8).wav",70
+Sample,39710,0,"drum loop (8).wav",70
+Sample,39789,0,"drum loop (9).wav",70
+Sample,39789,0,"8bit 1 #1.wav",70
+Sample,39868,0,"8bit 1 #2.wav",70
+Sample,39868,0,"drum loop (10).wav",70
+Sample,39868,0,"s_fade in snare (10).wav",70
+Sample,39947,0,"8bit 1 #3.wav",70
+Sample,39947,0,"s_fade in snare (11).wav",70
+Sample,39947,0,"drum loop (11).wav",70
+Sample,40026,0,"drum loop (12).wav",70
+Sample,40026,0,"s_fade in snare (12).wav",70
+Sample,40026,0,"8bit 1 #4.wav",70
+Sample,40105,0,"drum loop (13).wav",70
+Sample,40105,0,"8bit 1 #5.wav",70
+Sample,40184,0,"drum loop (14).wav",70
+Sample,40184,0,"8bit 1 #6.wav",70
+Sample,40184,0,"s_fade in snare (14).wav",70
+Sample,40263,0,"8bit 1 #4.wav",70
+Sample,40263,0,"drum loop (15).wav",70
+Sample,40263,0,"s_fade in snare (15).wav",70
+Sample,40342,0,"drum loop (16).wav",70
+Sample,40342,0,"s_fade in snare (16).wav",70
+Sample,40342,0,"8bit 1 #3.wav",70
+Sample,40421,0,"8bit 1 #1.wav",70
+Sample,40421,0,"drum loop (1).wav",70
+Sample,40421,0,"pad #6.wav",70
+Sample,40421,0,"rev cymbal.wav",70
+Sample,40500,0,"drum loop (2).wav",70
+Sample,40500,0,"8bit 1 #2.wav",70
+Sample,40578,0,"drum loop (3).wav",70
+Sample,40578,0,"bass #1.wav",70
+Sample,40578,0,"8bit 1 #3.wav",70
+Sample,40578,0,"fx #1.wav",70
+Sample,40578,0,"percussion #1.wav",70
+Sample,40657,0,"drum loop (4).wav",70
+Sample,40657,0,"8bit 1 #4.wav",70
+Sample,40736,0,"drum loop (5).wav",70
+Sample,40736,0,"8bit 1 #5.wav",70
+Sample,40815,0,"drum loop (6).wav",70
+Sample,40815,0,"8bit 1 #6.wav",70
+Sample,40894,0,"drum loop (7).wav",70
+Sample,40894,0,"bass #1.wav",70
+Sample,40894,0,"fx #1.wav",70
+Sample,40894,0,"percussion #1.wav",70
+Sample,40894,0,"8bit 1 #4.wav",70
+Sample,40973,0,"drum loop (8).wav",70
+Sample,40973,0,"8bit 1 #3.wav",70
+Sample,41052,0,"drum loop (9).wav",70
+Sample,41052,0,"8bit 1 #1.wav",70
+Sample,41131,0,"drum loop (10).wav",70
+Sample,41131,0,"8bit 1 #2.wav",70
+Sample,41210,0,"percussion #1.wav",70
+Sample,41210,0,"drum loop (11).wav",70
+Sample,41210,0,"fx #1.wav",70
+Sample,41210,0,"8bit 1 #3.wav",70
+Sample,41210,0,"bass #1.wav",70
+Sample,41289,0,"drum loop (12).wav",70
+Sample,41289,0,"8bit 1 #4.wav",70
+Sample,41368,0,"drum loop (13).wav",70
+Sample,41368,0,"8bit 1 #5.wav",70
+Sample,41368,0,"fx #3.wav",70
+Sample,41447,0,"drum loop (14).wav",70
+Sample,41447,0,"8bit 1 #6.wav",70
+Sample,41526,0,"drum loop (15).wav",70
+Sample,41526,0,"bass #1.wav",70
+Sample,41526,0,"percussion #2.wav",70
+Sample,41526,0,"8bit 1 #4.wav",70
+Sample,41605,0,"drum loop (16).wav",70
+Sample,41605,0,"percussion #2.wav",70
+Sample,41605,0,"8bit 1 #3.wav",70
+Sample,41684,0,"impact.wav",70
+Sample,41684,0,"8bit_fu #1 (1).wav",70
+Sample,41684,0,"pad_b #1.wav",70
+Sample,41684,0,"lead2 C#6.wav",70
+Sample,41684,0,"pad #1.wav",70
+Sample,41684,0,"pluck2 #1.wav",70
+Sample,41842,0,"pluck2 #1.wav",70
+Sample,41842,0,"8bit_fu #1 (2).wav",70
+Sample,42000,0,"8bit_fu #1 (3).wav",70
+Sample,42000,0,"pluck2 #1.wav",70
+Sample,42157,0,"8bit_fu #1 (4).wav",70
+Sample,42157,0,"pluck2 #1.wav",70
+Sample,42315,0,"pluck2 #1.wav",70
+Sample,42315,0,"8bit_fu #1 (5).wav",70
+Sample,42473,0,"pluck2 #1.wav",70
+Sample,42473,0,"8bit_fu #1 (6).wav",70
+Sample,42631,0,"8bit_fu #1 (7).wav",70
+Sample,42631,0,"lead2 B5.wav",70
+Sample,42631,0,"pluck2 #1.wav",70
+Sample,42789,0,"8bit_fu #1 (8).wav",70
+Sample,42789,0,"lead2 E6.wav",70
+Sample,42789,0,"pluck2 #2.wav",70
+Sample,42789,0,"pad_b #2.wav",70
+Sample,42789,0,"pad #2.wav",70
+Sample,42947,0,"8bit_fu #1 (9).wav",70
+Sample,42947,0,"pluck2 #2.wav",70
+Sample,43105,0,"8bit_fu #1 (10).wav",70
+Sample,43105,0,"pluck2 #2.wav",70
+Sample,43263,0,"lead2 C#6.wav",70
+Sample,43263,0,"pluck2 #2.wav",70
+Sample,43263,0,"8bit_fu #1 (11).wav",70
+Sample,43421,0,"8bit_fu #1 (12).wav",70
+Sample,43421,0,"pluck2 #2.wav",70
+Sample,43578,0,"8bit_fu #1 (13).wav",70
+Sample,43578,0,"pluck2 #2.wav",70
+Sample,43578,0,"lead2 C#6.wav",70
+Sample,43736,0,"pluck2 #2.wav",70
+Sample,43736,0,"8bit_fu #1 (14).wav",70
+Sample,43894,0,"lead2 B5.wav",70
+Sample,43894,0,"pluck2 #2.wav",70
+Sample,43894,0,"8bit_fu #1 (15).wav",70
+Sample,44052,0,"8bit_fu #1 (16).wav",70
+Sample,44052,0,"lead2 C#6.wav",70
+Sample,44052,0,"pluck2 #2.wav",70
+Sample,44210,0,"pad #3.wav",70
+Sample,44210,0,"pad_b #3.wav",70
+Sample,44210,0,"8bit_fu #1 (17).wav",70
+Sample,44210,0,"pluck2 #3.wav",70
+Sample,44368,0,"pluck2 #3.wav",70
+Sample,44368,0,"8bit_fu #1 (18).wav",70
+Sample,44526,0,"pluck2 #3.wav",70
+Sample,44526,0,"8bit_fu #1 (19).wav",70
+Sample,44684,0,"8bit_fu #1 (20).wav",70
+Sample,44684,0,"pluck2 #3.wav",70
+Sample,44842,0,"pluck2 #3.wav",70
+Sample,44842,0,"8bit_fu #1 (21).wav",70
+Sample,45000,0,"pluck2 #3.wav",70
+Sample,45000,0,"8bit_fu #1 (22).wav",70
+Sample,45000,0,"lead2 B5.wav",70
+Sample,45157,0,"8bit_fu #1 (23).wav",70
+Sample,45157,0,"lead2 E6.wav",70
+Sample,45157,0,"pluck2 #3.wav",70
+Sample,45315,0,"8bit_fu #1 (24).wav",70
+Sample,45315,0,"pluck2 #3.wav",70
+Sample,45315,0,"pad_b #4.wav",70
+Sample,45315,0,"pad #4.wav",70
+Sample,45315,0,"lead2 C#6.wav",70
+Sample,45473,0,"8bit_fu #1 (25).wav",70
+Sample,45473,0,"pluck2 #3.wav",70
+Sample,45631,0,"8bit_fu #1 (26).wav",70
+Sample,45631,0,"pluck2 #3.wav",70
+Sample,45789,0,"8bit_fu #1 (27).wav",70
+Sample,45789,0,"pluck2 #3.wav",70
+Sample,45947,0,"pluck2 #3.wav",70
+Sample,45947,0,"8bit_fu #1 (28).wav",70
+Sample,46105,0,"8bit_fu #1 (29).wav",70
+Sample,46105,0,"pluck2 #3.wav",70
+Sample,46105,0,"lead2 B5.wav",70
+Sample,46263,0,"pluck2 #3.wav",70
+Sample,46263,0,"8bit_fu #1 (30).wav",70
+Sample,46421,0,"8bit_fu #1 (31).wav",70
+Sample,46421,0,"pluck2 #3.wav",70
+Sample,46578,0,"8bit_fu #1 (32).wav",70
+Sample,46578,0,"pluck2 #3.wav",70
+Sample,46736,0,"lead2 C#6.wav",70
+Sample,46736,0,"pad #1.wav",70
+Sample,46736,0,"pad_b #1.wav",70
+Sample,46736,0,"8bit_fu #1 (33).wav",70
+Sample,46736,0,"pluck2 #1.wav",70
+Sample,46894,0,"pluck2 #1.wav",70
+Sample,46894,0,"8bit_fu #1 (34).wav",70
+Sample,47052,0,"pluck2 #1.wav",70
+Sample,47052,0,"8bit_fu #1 (35).wav",70
+Sample,47210,0,"8bit_fu #1 (36).wav",70
+Sample,47210,0,"pluck2 #1.wav",70
+Sample,47368,0,"8bit_fu #1 (37).wav",70
+Sample,47368,0,"pluck2 #1.wav",70
+Sample,47526,0,"8bit_fu #1 (38).wav",70
+Sample,47526,0,"pluck2 #1.wav",70
+Sample,47684,0,"pluck2 #1.wav",70
+Sample,47684,0,"8bit_fu #1 (39).wav",70
+Sample,47684,0,"lead2 B5.wav",70
+Sample,47842,0,"8bit_fu #1 (40).wav",70
+Sample,47842,0,"lead2 E6.wav",70
+Sample,47842,0,"pad #5.wav",70
+Sample,47842,0,"pluck2 #4.wav",70
+Sample,47842,0,"pad_b #2.wav",70
+Sample,48000,0,"8bit_fu #1 (41).wav",70
+Sample,48000,0,"pluck2 #4.wav",70
+Sample,48157,0,"8bit_fu #1 (42).wav",70
+Sample,48157,0,"pluck2 #4.wav",70
+Sample,48315,0,"8bit_fu #1 (43).wav",70
+Sample,48315,0,"lead2 F#6.wav",70
+Sample,48315,0,"pluck2 #4.wav",70
+Sample,48473,0,"pluck2 #4.wav",70
+Sample,48473,0,"8bit_fu #1 (44).wav",70
+Sample,48631,0,"8bit_fu #1 (45).wav",70
+Sample,48631,0,"pluck2 #4.wav",70
+Sample,48631,0,"lead2 F#6.wav",70
+Sample,48789,0,"pluck2 #4.wav",70
+Sample,48789,0,"8bit_fu #1 (46).wav",70
+Sample,48947,0,"8bit_fu #1 (47).wav",70
+Sample,48947,0,"lead2 E6.wav",70
+Sample,48947,0,"pluck2 #4.wav",70
+Sample,49105,0,"8bit_fu #1 (48).wav",70
+Sample,49105,0,"pluck2 #4.wav",70
+Sample,49105,0,"lead2 F#6.wav",70
+Sample,49263,0,"8bit_fu #1 (49).wav",70
+Sample,49263,0,"pad_b #3.wav",70
+Sample,49263,0,"pad #3.wav",70
+Sample,49263,0,"pluck2 #3.wav",70
+Sample,49421,0,"pluck2 #3.wav",70
+Sample,49421,0,"8bit_fu #1 (50).wav",70
+Sample,49578,0,"pluck2 #3.wav",70
+Sample,49578,0,"8bit_fu #1 (51).wav",70
+Sample,49736,0,"pluck2 #3.wav",70
+Sample,49736,0,"8bit_fu #1 (52).wav",70
+Sample,49894,0,"8bit_fu #1 (53).wav",70
+Sample,49894,0,"pluck2 #3.wav",70
+Sample,50052,0,"pluck2 #3.wav",70
+Sample,50052,0,"lead2 E6.wav",70
+Sample,50052,0,"8bit_fu #1 (54).wav",70
+Sample,50210,0,"lead2 A6.wav",70
+Sample,50210,0,"pluck2 #3.wav",70
+Sample,50210,0,"8bit_fu #1 (55).wav",70
+Sample,50368,0,"8bit_fu #1 (56).wav",70
+Sample,50368,0,"lead2 F#6.wav",70
+Sample,50368,0,"pluck2 #3.wav",70
+Sample,50368,0,"pad_b #4.wav",70
+Sample,50368,0,"pad #4.wav",70
+Sample,50526,0,"rev cymbal.wav",70
+Sample,50526,0,"8bit_fu #1 (57).wav",70
+Sample,50526,0,"pluck2 #3.wav",70
+Sample,50684,0,"pluck2 #3.wav",70
+Sample,50684,0,"8bit_fu #1 (58).wav",70
+Sample,50842,0,"pluck2 #3.wav",70
+Sample,50842,0,"8bit_fu #1 (59).wav",70
+Sample,51000,0,"8bit_fu #1 (60).wav",70
+Sample,51000,0,"pluck2 #3.wav",70
+Sample,51157,0,"pluck2 #3.wav",70
+Sample,51157,0,"8bit_fu #1 (61).wav",70
+Sample,51157,0,"lead2 E6.wav",70
+Sample,51315,0,"8bit_fu #1 (62).wav",70
+Sample,51315,0,"pluck2 #3.wav",70
+Sample,51473,0,"8bit_fu #1 (63).wav",70
+Sample,51473,0,"pluck2 #3.wav",70
+Sample,51631,0,"8bit_fu #1 (64).wav",70
+Sample,51631,0,"pluck2 #3.wav",70
+Sample,51789,0,"cu2_pluck (1).wav",70
+Sample,51789,0,"impact.wav",70
+Sample,51789,0,"pad #1.wav",70
+Sample,51789,0,"lead C#6 (1).wav",70
+Sample,51789,0,"pad_b #1.wav",70
+Sample,51789,0,"lead2 C#6.wav",70
+Sample,51789,0,"sweep up #1.wav",70
+Sample,51947,0,"cu2_pluck (2).wav",70
+Sample,52105,0,"cu2_pluck (3).wav",70
+Sample,52263,0,"cu2_pluck (4).wav",70
+Sample,52421,0,"cu2_pluck (5).wav",70
+Sample,52578,0,"cu2_pluck (6).wav",70
+Sample,52736,0,"cu2_pluck (7).wav",70
+Sample,52736,0,"lead B5 (1).wav",70
+Sample,52736,0,"lead2 B5.wav",70
+Sample,52894,0,"pad_b #2.wav",70
+Sample,52894,0,"lead E6 (1).wav",70
+Sample,52894,0,"cu2_pluck (8).wav",70
+Sample,52894,0,"pad #2.wav",70
+Sample,52894,0,"lead2 E6.wav",70
+Sample,53052,0,"cu2_pluck (9).wav",70
+Sample,53210,0,"cu2_pluck (10).wav",70
+Sample,53368,0,"lead C#6 (2).wav",70
+Sample,53368,0,"lead2 C#6.wav",70
+Sample,53368,0,"cu2_pluck (11).wav",70
+Sample,53526,0,"cu2_pluck (12).wav",70
+Sample,53684,0,"cu2_pluck (13).wav",70
+Sample,53684,0,"lead C#6 (2).wav",70
+Sample,53684,0,"lead2 C#6.wav",70
+Sample,53842,0,"cu2_pluck (14).wav",70
+Sample,54000,0,"lead2 B5.wav",70
+Sample,54000,0,"cu2_pluck (15).wav",70
+Sample,54000,0,"lead B5 (1).wav",70
+Sample,54157,0,"lead2 C#6.wav",70
+Sample,54157,0,"lead C#6 (1).wav",70
+Sample,54157,0,"cu2_pluck (16).wav",70
+Sample,54315,0,"pad_b #3.wav",70
+Sample,54315,0,"pad #3.wav",70
+Sample,54315,0,"cu2_pluck (17).wav",70
+Sample,54473,0,"cu2_pluck (18).wav",70
+Sample,54631,0,"cu2_pluck (19).wav",70
+Sample,54789,0,"cu2_pluck (20).wav",70
+Sample,54947,0,"cu2_pluck (21).wav",70
+Sample,55105,0,"cu2_pluck (22).wav",70
+Sample,55105,0,"lead B5 (1).wav",70
+Sample,55105,0,"lead2 B5.wav",70
+Sample,55263,0,"lead2 E6.wav",70
+Sample,55263,0,"cu2_pluck (23).wav",70
+Sample,55263,0,"lead E6 (2).wav",70
+Sample,55421,0,"cu2_pluck (24).wav",70
+Sample,55421,0,"pad_b #4.wav",70
+Sample,55421,0,"pad #4.wav",70
+Sample,55421,0,"lead2 C#6.wav",70
+Sample,55421,0,"lead C#6 (3).wav",70
+Sample,55578,0,"cu2_pluck (25).wav",70
+Sample,55736,0,"cu2_pluck (26).wav",70
+Sample,55894,0,"cu2_pluck (27).wav",70
+Sample,56052,0,"cu2_pluck (28).wav",70
+Sample,56210,0,"lead2 B5.wav",70
+Sample,56210,0,"lead B5 (2).wav",70
+Sample,56210,0,"cu2_pluck (29).wav",70
+Sample,56368,0,"cu2_pluck (30).wav",70
+Sample,56526,0,"cu2_pluck (31).wav",70
+Sample,56684,0,"cu2_pluck (32).wav",70
+Sample,56842,0,"lead2 A5.wav",70
+Sample,56842,0,"lead A5.wav",70
+Sample,56842,0,"pad_b #1.wav",70
+Sample,56842,0,"pad #1.wav",70
+Sample,56842,0,"cu2_pluck (33).wav",70
+Sample,57000,0,"cu2_pluck (34).wav",70
+Sample,57157,0,"cu2_pluck (35).wav",70
+Sample,57315,0,"lead B5 (3).wav",70
+Sample,57315,0,"cu2_pluck (36).wav",70
+Sample,57315,0,"lead2 B5.wav",70
+Sample,57473,0,"cu2_pluck (37).wav",70
+Sample,57631,0,"cu2_pluck (38).wav",70
+Sample,57789,0,"lead2 C#6.wav",70
+Sample,57789,0,"cu2_pluck (39).wav",70
+Sample,57789,0,"lead C#6 (2).wav",70
+Sample,57947,0,"pad #5.wav",70
+Sample,57947,0,"pad_b #2.wav",70
+Sample,57947,0,"cu2_pluck (40).wav",70
+Sample,57947,0,"lead2 E6.wav",70
+Sample,57947,0,"lead E6 (2).wav",70
+Sample,58105,0,"cu2_pluck (41).wav",70
+Sample,58263,0,"lead F#6 (1).wav",70
+Sample,58263,0,"lead2 F#6.wav",70
+Sample,58263,0,"cu2_pluck (42).wav",70
+Sample,58421,0,"cu2_pluck (43).wav",70
+Sample,58578,0,"cu2_pluck (44).wav",70
+Sample,58578,0,"lead F#6 (4).wav",70
+Sample,58578,0,"lead2 F#6.wav",70
+Sample,58736,0,"cu2_pluck (45).wav",70
+Sample,58894,0,"cu2_pluck (46).wav",70
+Sample,59052,0,"lead2 E6.wav",70
+Sample,59052,0,"cu2_pluck (47).wav",70
+Sample,59052,0,"lead E6 (2).wav",70
+Sample,59210,0,"lead2 F#6.wav",70
+Sample,59210,0,"cu2_pluck (48).wav",70
+Sample,59210,0,"lead F#6 (5).wav",70
+Sample,59368,0,"pad_b #3.wav",70
+Sample,59368,0,"pad #3.wav",70
+Sample,60473,0,"pad_b #4.wav",70
+Sample,60473,0,"pad #4.wav",70
+Sample,60631,0,"rev cymbal.wav",70
+Sample,61894,0,"clap.wav",70
+Sample,61894,0,"pad #10.wav",70
+Sample,61894,0,"bass #2.wav",70
+Sample,62052,0,"percussion #1.wav",70
+Sample,62289,0,"drum loop (7).wav",70
+Sample,62368,0,"percussion #1.wav",70
+Sample,62368,0,"pad #10.wav",70
+Sample,62368,0,"bass #2.wav",70
+Sample,62526,0,"clap.wav",70
+Sample,62763,0,"drum loop (7).wav",70
+Sample,62842,0,"clap.wav",70
+Sample,62842,0,"bass #3.wav",70
+Sample,62842,0,"pad #10.wav",70
+Sample,63000,0,"percussion #2.wav",70
+Sample,63078,0,"percussion #2.wav",70
+Sample,63157,0,"drum loop 50%(1).wav",70
+Sample,63236,0,"drum loop 50%(2).wav",70
+Sample,63315,0,"drum loop 50%(3).wav",70
+Sample,63394,0,"drum loop 50%(4).wav",70
+Sample,63473,0,"drum loop 50%(5).wav",70
+Sample,63552,0,"drum loop 50%(6).wav",70
+Sample,63631,0,"drum loop 50%(7).wav",70
+Sample,63710,0,"drum loop 50%(8).wav",70
+Sample,63789,0,"drum loop 50%(9).wav",70
+Sample,63868,0,"drum loop 50%(10).wav",70
+Sample,63947,0,"drum loop 50%(11).wav",70
+Sample,64026,0,"drum loop 50%(12).wav",70
+Sample,64105,0,"drum loop 50%(13).wav",70
+Sample,64184,0,"drum loop 50%(14).wav",70
+Sample,64263,0,"drum loop 50%(15).wav",70
+Sample,64342,0,"drum loop 50%(16).wav",70
+Sample,64421,0,"clap.wav",70
+Sample,64421,0,"pad #10.wav",70
+Sample,64421,0,"bass #2.wav",70
+Sample,64578,0,"percussion #1.wav",70
+Sample,64815,0,"drum loop (7).wav",70
+Sample,64894,0,"pad #10.wav",70
+Sample,64894,0,"percussion #1.wav",70
+Sample,64894,0,"bass #2.wav",70
+Sample,65052,0,"clap.wav",70
+Sample,65289,0,"drum loop (7).wav",70
+Sample,65368,0,"bass #3.wav",70
+Sample,65368,0,"clap.wav",70
+Sample,65368,0,"pad #10.wav",70
+Sample,65526,0,"percussion #2.wav",70
+Sample,65605,0,"percussion #2.wav",70
+Sample,65684,0,"drum loop 50%(1).wav",70
+Sample,65763,0,"drum loop 50%(2).wav",70
+Sample,65842,0,"drum loop 50%(3).wav",70
+Sample,65921,0,"drum loop 50%(4).wav",70
+Sample,66000,0,"drum loop 50%(5).wav",70
+Sample,66078,0,"drum loop 50%(6).wav",70
+Sample,66157,0,"drum loop 50%(7).wav",70
+Sample,66236,0,"drum loop 50%(8).wav",70
+Sample,66315,0,"drum loop 50%(9).wav",70
+Sample,66394,0,"drum loop 50%(10).wav",70
+Sample,66473,0,"drum loop 50%(11).wav",70
+Sample,66552,0,"drum loop 50%(12).wav",70
+Sample,66947,0,"lead_pu.wav",70
+Sample,66947,0,"pad #9.wav",70
+Sample,66947,0,"8bit_pu (1).wav",70
+Sample,66947,0,"drum loop (1).wav",70
+Sample,67026,0,"8bit_pu (2).wav",70
+Sample,67026,0,"drum loop (2).wav",70
+Sample,67105,0,"8bit_pu (3).wav",70
+Sample,67105,0,"hi hat.wav",70
+Sample,67105,0,"bass_pu #1.wav",70
+Sample,67105,0,"drum loop (3).wav",70
+Sample,67184,0,"8bit_pu (4).wav",70
+Sample,67184,0,"drum loop (4).wav",70
+Sample,67263,0,"8bit_pu (5).wav",70
+Sample,67263,0,"drum loop (5).wav",70
+Sample,67342,0,"8bit_pu (6).wav",70
+Sample,67342,0,"drum loop (6).wav",70
+Sample,67421,0,"drum loop (7).wav",70
+Sample,67421,0,"8bit_pu (7).wav",70
+Sample,67421,0,"bass_pu #2.wav",70
+Sample,67421,0,"hi hat.wav",70
+Sample,67500,0,"drum loop (8).wav",70
+Sample,67500,0,"8bit_pu (8).wav",70
+Sample,67578,0,"drum loop (9).wav",70
+Sample,67578,0,"8bit_pu (9).wav",70
+Sample,67657,0,"drum loop (10).wav",70
+Sample,67657,0,"8bit_pu (10).wav",70
+Sample,67736,0,"drum loop (11).wav",70
+Sample,67736,0,"8bit_pu (11).wav",70
+Sample,67736,0,"bass_pu #3.wav",70
+Sample,67736,0,"hi hat.wav",70
+Sample,67815,0,"drum loop (12).wav",70
+Sample,67815,0,"8bit_pu (12).wav",70
+Sample,67894,0,"drum loop (13).wav",70
+Sample,67894,0,"8bit_pu (13).wav",70
+Sample,67973,0,"drum loop (14).wav",70
+Sample,67973,0,"8bit_pu (14).wav",70
+Sample,68052,0,"8bit_pu (15).wav",70
+Sample,68052,0,"bass_pu #4.wav",70
+Sample,68052,0,"hi hat.wav",70
+Sample,68052,0,"drum loop (15).wav",70
+Sample,68131,0,"drum loop (16).wav",70
+Sample,68131,0,"8bit_pu (16).wav",70
+Sample,68210,0,"drum loop (1).wav",70
+Sample,68210,0,"8bit_pu (17).wav",70
+Sample,68289,0,"drum loop (2).wav",70
+Sample,68289,0,"8bit_pu (18).wav",70
+Sample,68368,0,"8bit_pu (19).wav",70
+Sample,68368,0,"drum loop (3).wav",70
+Sample,68368,0,"bass_pu #5.wav",70
+Sample,68368,0,"hi hat.wav",70
+Sample,68447,0,"8bit_pu (20).wav",70
+Sample,68447,0,"drum loop (4).wav",70
+Sample,68526,0,"8bit_pu (21).wav",70
+Sample,68526,0,"drum loop (5).wav",70
+Sample,68605,0,"8bit_pu (22).wav",70
+Sample,68605,0,"drum loop (6).wav",70
+Sample,68684,0,"drum loop (7).wav",70
+Sample,68684,0,"bass_pu #6.wav",70
+Sample,68684,0,"8bit_pu (23).wav",70
+Sample,68684,0,"hi hat.wav",70
+Sample,68763,0,"drum loop (8).wav",70
+Sample,68763,0,"8bit_pu (24).wav",70
+Sample,68842,0,"8bit_pu (25).wav",70
+Sample,68842,0,"drum loop (9).wav",70
+Sample,68921,0,"drum loop (10).wav",70
+Sample,68921,0,"8bit_pu (26).wav",70
+Sample,69000,0,"hi hat.wav",70
+Sample,69000,0,"bass_pu #7.wav",70
+Sample,69000,0,"drum loop (11).wav",70
+Sample,69000,0,"8bit_pu (27).wav",70
+Sample,69078,0,"drum loop (12).wav",70
+Sample,69078,0,"8bit_pu (28).wav",70
+Sample,69157,0,"8bit_pu (29).wav",70
+Sample,69157,0,"drum loop (13).wav",70
+Sample,69236,0,"8bit_pu (30).wav",70
+Sample,69236,0,"drum loop (14).wav",70
+Sample,69315,0,"drum loop (15).wav",70
+Sample,69315,0,"bass_pu #8.wav",70
+Sample,69315,0,"hi hat.wav",70
+Sample,69315,0,"8bit_pu (31).wav",70
+Sample,69394,0,"drum loop (16).wav",70
+Sample,69394,0,"8bit_pu (32).wav",70
+Sample,69473,0,"drum loop (1).wav",70
+Sample,69473,0,"rev cymbal.wav",70
+Sample,69473,0,"8bit_pu (33).wav",70
+Sample,69473,0,"clap.wav",70
+Sample,69552,0,"8bit_pu (34).wav",70
+Sample,69552,0,"drum loop (2).wav",70
+Sample,69631,0,"drum loop (3).wav",70
+Sample,69631,0,"8bit_pu (35).wav",70
+Sample,69631,0,"bass_pu #9.wav",70
+Sample,69710,0,"8bit_pu (36).wav",70
+Sample,69710,0,"drum loop (4).wav",70
+Sample,69789,0,"clap.wav",70
+Sample,69789,0,"8bit_pu (37).wav",70
+Sample,69789,0,"drum loop (5).wav",70
+Sample,69868,0,"drum loop (6).wav",70
+Sample,69868,0,"8bit_pu (38).wav",70
+Sample,69947,0,"drum loop (7).wav",70
+Sample,69947,0,"bass_pu #10.wav",70
+Sample,69947,0,"8bit_pu (39).wav",70
+Sample,70026,0,"drum loop (8).wav",70
+Sample,70026,0,"8bit_pu (40).wav",70
+Sample,70105,0,"clap.wav",70
+Sample,70105,0,"drum loop (9).wav",70
+Sample,70105,0,"8bit_pu (41).wav",70
+Sample,70184,0,"drum loop (10).wav",70
+Sample,70184,0,"8bit_pu (42).wav",70
+Sample,70263,0,"bass_pu #11.wav",70
+Sample,70263,0,"8bit_pu (43).wav",70
+Sample,70263,0,"drum loop (11).wav",70
+Sample,70342,0,"drum loop (12).wav",70
+Sample,70342,0,"8bit_pu (44).wav",70
+Sample,70421,0,"8bit_pu (45).wav",70
+Sample,70421,0,"drum loop (13).wav",70
+Sample,70421,0,"clap.wav",70
+Sample,70500,0,"drum loop (14).wav",70
+Sample,70500,0,"8bit_pu (46).wav",70
+Sample,70578,0,"drum loop (15).wav",70
+Sample,70578,0,"bass_pu #12.wav",70
+Sample,70578,0,"8bit_pu (47).wav",70
+Sample,70657,0,"drum loop (16).wav",70
+Sample,70657,0,"percussion #2.wav",70
+Sample,70657,0,"8bit_pu (48).wav",70
+Sample,71210,0,"vc #4.wav",70
+Sample,72078,0,"drum loop (2).wav",70
+Sample,72157,0,"drum loop (3).wav",70
+Sample,72236,0,"drum loop (4).wav",70
+Sample,72315,0,"drum loop (5).wav",70
+Sample,72394,0,"drum loop (6).wav",70
+Sample,72473,0,"bass_drop 3.wav",70
+Sample,72473,0,"drum loop (7).wav",70
+Sample,72552,0,"drum loop (8).wav",70
+Sample,72631,0,"drum loop (9).wav",70
+Sample,72710,0,"drum loop (10).wav",70
+Sample,72789,0,"drum loop (11).wav",70
+Sample,72789,0,"bass_drop 3.wav",70
+Sample,72868,0,"drum loop (12).wav",70
+Sample,72947,0,"drum loop (13).wav",70
+Sample,73026,0,"drum loop (14).wav",70
+Sample,73105,0,"drum loop (15).wav",70
+Sample,73184,0,"drum loop (16).wav",70
+Sample,73263,0,"drum loop (1).wav",70
+Sample,73342,0,"drum loop (2).wav",70
+Sample,73421,0,"drum loop (3).wav",70
+Sample,73500,0,"drum loop (4).wav",70
+Sample,73578,0,"drum loop (5).wav",70
+Sample,73657,0,"drum loop (6).wav",70
+Sample,73736,0,"drum loop (7).wav",70
+Sample,73815,0,"drum loop (8).wav",70
+Sample,73894,0,"drum loop (9).wav",70
+Sample,73973,0,"drum loop (10).wav",70
+Sample,74052,0,"drum loop (11).wav",70
+Sample,74131,0,"drum loop (12).wav",70
+Sample,74210,0,"drum loop (13).wav",70
+Sample,74289,0,"drum loop (14).wav",70
+Sample,74368,0,"drum loop (15).wav",70
+Sample,74368,0,"bass_drop 3.wav",70
+Sample,74368,0,"percussion #2.wav",70
+Sample,74447,0,"drum loop (16).wav",70
+Sample,74526,0,"drum loop (1).wav",70
+Sample,74605,0,"drum loop (2).wav",70
+Sample,74684,0,"drum loop (3).wav",70
+Sample,74763,0,"drum loop (4).wav",70
+Sample,74842,0,"drum loop (5).wav",70
+Sample,74921,0,"drum loop (6).wav",70
+Sample,75000,0,"bass_drop 3.wav",70
+Sample,75000,0,"drum loop (7).wav",70
+Sample,75078,0,"drum loop (8).wav",70
+Sample,75157,0,"drum loop (9).wav",70
+Sample,75236,0,"drum loop (10).wav",70
+Sample,75315,0,"drum loop (11).wav",70
+Sample,75315,0,"bass_drop 3.wav",70
+Sample,75394,0,"drum loop (12).wav",70
+Sample,75473,0,"drum loop (13).wav",70
+Sample,75552,0,"drum loop (14).wav",70
+Sample,75631,0,"drum loop (15).wav",70
+Sample,75710,0,"drum loop (16).wav",70
+Sample,75789,0,"drum loop (1).wav",70
+Sample,75868,0,"drum loop (2).wav",70
+Sample,75947,0,"drum loop (3).wav",70
+Sample,76026,0,"drum loop (4).wav",70
+Sample,76105,0,"drum loop (5).wav",70
+Sample,76184,0,"drum loop (6).wav",70
+Sample,76263,0,"drum loop (7).wav",70
+Sample,76263,0,"bass_drop 3.wav",70
+Sample,76342,0,"drum loop (8).wav",70
+Sample,76421,0,"drum loop (9).wav",70
+Sample,76500,0,"drum loop (10).wav",70
+Sample,76578,0,"drum loop (11).wav",70
+Sample,76578,0,"bass_drop 3.wav",70
+Sample,76657,0,"drum loop (12).wav",70
+Sample,77131,0,"drum loop (2).wav",70
+Sample,77210,0,"drum loop (3).wav",70
+Sample,77289,0,"drum loop (4).wav",70
+Sample,77368,0,"drum loop (5).wav",70
+Sample,77447,0,"drum loop (6).wav",70
+Sample,77526,0,"drum loop (7).wav",70
+Sample,77526,0,"bass_drop 3.wav",70
+Sample,77605,0,"drum loop (8).wav",70
+Sample,77684,0,"drum loop (9).wav",70
+Sample,77763,0,"drum loop (10).wav",70
+Sample,77842,0,"drum loop (11).wav",70
+Sample,77842,0,"bass_drop 3.wav",70
+Sample,77921,0,"drum loop (12).wav",70
+Sample,78000,0,"drum loop (13).wav",70
+Sample,78078,0,"drum loop (14).wav",70
+Sample,78157,0,"drum loop (15).wav",70
+Sample,78236,0,"drum loop (16).wav",70
+Sample,78315,0,"drum loop (1).wav",70
+Sample,78394,0,"drum loop (2).wav",70
+Sample,78473,0,"drum loop (3).wav",70
+Sample,78552,0,"drum loop (4).wav",70
+Sample,78631,0,"drum loop (5).wav",70
+Sample,78710,0,"drum loop (6).wav",70
+Sample,78789,0,"drum loop (7).wav",70
+Sample,78868,0,"drum loop (8).wav",70
+Sample,78947,0,"drum loop (9).wav",70
+Sample,79026,0,"drum loop (10).wav",70
+Sample,79105,0,"drum loop (11).wav",70
+Sample,79184,0,"drum loop (12).wav",70
+Sample,79263,0,"drum loop (13).wav",70
+Sample,79342,0,"drum loop (14).wav",70
+Sample,79421,0,"drum loop (15).wav",70
+Sample,79421,0,"bass_drop 3.wav",70
+Sample,79421,0,"percussion #2.wav",70
+Sample,79500,0,"drum loop (16).wav",70
+Sample,79500,0,"percussion #2.wav",70
+Sample,79578,0,"drum loop (1).wav",70
+Sample,79578,0,"bass_drop 4.wav",70
+Sample,79657,0,"drum loop (2).wav",70
+Sample,79736,0,"drum loop (3).wav",70
+Sample,79815,0,"drum loop (4).wav",70
+Sample,79894,0,"drum loop (5).wav",70
+Sample,79973,0,"drum loop (6).wav",70
+Sample,80052,0,"bass_drop 3.wav",70
+Sample,80052,0,"drum loop (7).wav",70
+Sample,80131,0,"drum loop (8).wav",70
+Sample,80210,0,"drum loop (9).wav",70
+Sample,80289,0,"drum loop (10).wav",70
+Sample,80368,0,"drum loop (11).wav",70
+Sample,80368,0,"bass_drop 3.wav",70
+Sample,80447,0,"drum loop (12).wav",70
+Sample,80526,0,"rev cymbal.wav",70
+Sample,80526,0,"drum loop (13).wav",70
+Sample,80605,0,"drum loop (14).wav",70
+Sample,80684,0,"drum loop (15).wav",70
+Sample,80763,0,"drum loop (16).wav",70
+Sample,80842,0,"YOOOOO.wav",70
+Sample,82105,0,"drum loop (1).wav",70
+Sample,82105,0,"8bit 2 #1.wav",70
+Sample,82105,0,"bass_drop 4.wav",70
+Sample,82184,0,"drum loop (2).wav",70
+Sample,82184,0,"8bit 2 #1.wav",70
+Sample,82263,0,"8bit 2 #2.wav",70
+Sample,82263,0,"drum loop (3).wav",70
+Sample,82342,0,"drum loop (4).wav",70
+Sample,82421,0,"8bit 2 #1.wav",70
+Sample,82421,0,"clap.wav",70
+Sample,82421,0,"drum loop (5).wav",70
+Sample,82421,0,"snare #1.wav",70
+Sample,82500,0,"drum loop (6).wav",70
+Sample,82500,0,"8bit 2 #1.wav",70
+Sample,82578,0,"bass_drop 3.wav",70
+Sample,82578,0,"drum loop (7).wav",70
+Sample,82578,0,"8bit 2 #2.wav",70
+Sample,82578,0,"hi hat.wav",70
+Sample,82657,0,"drum loop (8).wav",70
+Sample,82736,0,"drum loop (9).wav",70
+Sample,82736,0,"8bit 2 #1.wav",70
+Sample,82736,0,"clap.wav",70
+Sample,82815,0,"8bit 2 #1.wav",70
+Sample,82815,0,"drum loop (10).wav",70
+Sample,82894,0,"8bit 2 #2.wav",70
+Sample,82894,0,"hi hat.wav",70
+Sample,82894,0,"bass_drop 3.wav",70
+Sample,82894,0,"drum loop (11).wav",70
+Sample,82973,0,"drum loop (12).wav",70
+Sample,83052,0,"clap.wav",70
+Sample,83052,0,"snare #1.wav",70
+Sample,83052,0,"8bit 2 #1.wav",70
+Sample,83052,0,"drum loop (13).wav",70
+Sample,83131,0,"8bit 2 #1.wav",70
+Sample,83131,0,"drum loop (14).wav",70
+Sample,83210,0,"drum loop (15).wav",70
+Sample,83210,0,"bass_drop 3.wav",70
+Sample,83210,0,"8bit 2 #2.wav",70
+Sample,83210,0,"hi hat.wav",70
+Sample,83289,0,"drum loop (16).wav",70
+Sample,83368,0,"clap.wav",70
+Sample,83368,0,"8bit 2 #1.wav",70
+Sample,83368,0,"bass_drop 4.wav",70
+Sample,83368,0,"drum loop (1).wav",70
+Sample,83447,0,"drum loop (2).wav",70
+Sample,83447,0,"8bit 2 #1.wav",70
+Sample,83526,0,"8bit 2 #2.wav",70
+Sample,83526,0,"drum loop (3).wav",70
+Sample,83605,0,"drum loop (4).wav",70
+Sample,83684,0,"clap.wav",70
+Sample,83684,0,"8bit 2 #1.wav",70
+Sample,83684,0,"snare #1.wav",70
+Sample,83684,0,"drum loop (5).wav",70
+Sample,83763,0,"drum loop (6).wav",70
+Sample,83763,0,"8bit 2 #1.wav",70
+Sample,83842,0,"drum loop (7).wav",70
+Sample,83842,0,"8bit 2 #2.wav",70
+Sample,83842,0,"bass_drop 3.wav",70
+Sample,83842,0,"hi hat.wav",70
+Sample,83921,0,"drum loop (8).wav",70
+Sample,84000,0,"kick.wav",70
+Sample,84000,0,"drum loop (9).wav",70
+Sample,84000,0,"clap.wav",70
+Sample,84000,0,"8bit 2 #1.wav",70
+Sample,84078,0,"drum loop (10).wav",70
+Sample,84078,0,"8bit 2 #1.wav",70
+Sample,84157,0,"8bit 2 #2.wav",70
+Sample,84157,0,"drum loop (11).wav",70
+Sample,84236,0,"drum loop (12).wav",70
+Sample,84315,0,"drum loop (13).wav",70
+Sample,84315,0,"snare #1.wav",70
+Sample,84315,0,"clap.wav",70
+Sample,84315,0,"kick.wav",70
+Sample,84315,0,"8bit 2 #1.wav",70
+Sample,84394,0,"drum loop (14).wav",70
+Sample,84394,0,"8bit 2 #1.wav",70
+Sample,84473,0,"hi hat.wav",70
+Sample,84473,0,"8bit 2 #1.wav",70
+Sample,84473,0,"bass_drop 3.wav",70
+Sample,84473,0,"drum loop (15).wav",70
+Sample,84552,0,"drum loop (16).wav",70
+Sample,84552,0,"8bit 2 #1.wav",70
+Sample,84552,0,"percussion #2.wav",70
+Sample,84631,0,"clap.wav",70
+Sample,84631,0,"8bit 2 #1.wav",70
+Sample,84631,0,"drum loop (1).wav",70
+Sample,84710,0,"8bit 2 #1.wav",70
+Sample,84710,0,"drum loop (2).wav",70
+Sample,84789,0,"8bit 2 #2.wav",70
+Sample,84789,0,"drum loop (3).wav",70
+Sample,84868,0,"drum loop (4).wav",70
+Sample,84947,0,"8bit 2 #1.wav",70
+Sample,84947,0,"drum loop (5).wav",70
+Sample,84947,0,"snare #1.wav",70
+Sample,84947,0,"clap.wav",70
+Sample,85026,0,"8bit 2 #1.wav",70
+Sample,85026,0,"drum loop (6).wav",70
+Sample,85105,0,"drum loop (7).wav",70
+Sample,85105,0,"8bit 2 #2.wav",70
+Sample,85105,0,"hi hat.wav",70
+Sample,85105,0,"bass_drop 3.wav",70
+Sample,85184,0,"drum loop (8).wav",70
+Sample,85263,0,"8bit 2 #1.wav",70
+Sample,85263,0,"drum loop (9).wav",70
+Sample,85263,0,"clap.wav",70
+Sample,85342,0,"drum loop (10).wav",70
+Sample,85342,0,"8bit 2 #1.wav",70
+Sample,85421,0,"drum loop (11).wav",70
+Sample,85421,0,"hi hat.wav",70
+Sample,85421,0,"bass_drop 3.wav",70
+Sample,85421,0,"8bit 2 #2.wav",70
+Sample,85500,0,"drum loop (12).wav",70
+Sample,85578,0,"snare #1.wav",70
+Sample,85578,0,"drum loop (13).wav",70
+Sample,85578,0,"clap.wav",70
+Sample,85578,0,"8bit 2 #1.wav",70
+Sample,85657,0,"8bit 2 #1.wav",70
+Sample,85657,0,"drum loop (14).wav",70
+Sample,85736,0,"drum loop (15).wav",70
+Sample,85736,0,"8bit 2 #2.wav",70
+Sample,85736,0,"bass_drop 3.wav",70
+Sample,85736,0,"hi hat.wav",70
+Sample,85815,0,"drum loop (16).wav",70
+Sample,85894,0,"clap.wav",70
+Sample,85894,0,"drum loop (1).wav",70
+Sample,85894,0,"8bit 2 #1.wav",70
+Sample,85973,0,"drum loop (2).wav",70
+Sample,85973,0,"8bit 2 #1.wav",70
+Sample,86052,0,"bass_drop 3.wav",70
+Sample,86052,0,"drum loop (3).wav",70
+Sample,86131,0,"drum loop (4).wav",70
+Sample,86210,0,"8bit 2 #1.wav",70
+Sample,86210,0,"drum loop (5).wav",70
+Sample,86210,0,"clap.wav",70
+Sample,86210,0,"snare #1.wav",70
+Sample,86289,0,"drum loop (6).wav",70
+Sample,86289,0,"8bit 2 #1.wav",70
+Sample,86368,0,"hi hat.wav",70
+Sample,86368,0,"bass_drop 3.wav",70
+Sample,86368,0,"8bit 2 #2.wav",70
+Sample,86368,0,"drum loop (7).wav",70
+Sample,86447,0,"drum loop (8).wav",70
+Sample,86526,0,"clap.wav",70
+Sample,86526,0,"8bit 2 #1.wav",70
+Sample,86526,0,"drum loop (9).wav",70
+Sample,86605,0,"drum loop (10).wav",70
+Sample,86605,0,"8bit 2 #1.wav",70
+Sample,86684,0,"drum loop (11).wav",70
+Sample,86684,0,"bass_drop 3.wav",70
+Sample,86684,0,"8bit 2 #2.wav",70
+Sample,86684,0,"hi hat.wav",70
+Sample,86763,0,"drum loop (12).wav",70
+Sample,87157,0,"drum loop (1).wav",70
+Sample,87157,0,"sweep up #2.wav",70
+Sample,87157,0,"snare #2.wav",70
+Sample,87157,0,"8bit 2 #1.wav",70
+Sample,87157,0,"bass_drop 4.wav",70
+Sample,87236,0,"drum loop (2).wav",70
+Sample,87236,0,"8bit 2 #1.wav",70
+Sample,87315,0,"8bit 2 #2.wav",70
+Sample,87315,0,"drum loop (3).wav",70
+Sample,87394,0,"drum loop (4).wav",70
+Sample,87473,0,"8bit 2 #1.wav",70
+Sample,87473,0,"drum loop (5).wav",70
+Sample,87473,0,"kick.wav",70
+Sample,87473,0,"clap.wav",70
+Sample,87552,0,"8bit 2 #1.wav",70
+Sample,87552,0,"drum loop (6).wav",70
+Sample,87631,0,"drum loop (7).wav",70
+Sample,87631,0,"8bit 2 #2.wav",70
+Sample,87631,0,"hi hat.wav",70
+Sample,87631,0,"bass_drop 3.wav",70
+Sample,87710,0,"drum loop (8).wav",70
+Sample,87789,0,"drum loop (9).wav",70
+Sample,87789,0,"clap.wav",70
+Sample,87789,0,"kick.wav",70
+Sample,87789,0,"8bit 2 #1.wav",70
+Sample,87868,0,"drum loop (10).wav",70
+Sample,87868,0,"8bit 2 #1.wav",70
+Sample,87947,0,"hi hat.wav",70
+Sample,87947,0,"bass_drop 3.wav",70
+Sample,87947,0,"drum loop (11).wav",70
+Sample,87947,0,"8bit 2 #2.wav",70
+Sample,88026,0,"drum loop (12).wav",70
+Sample,88105,0,"drum loop (13).wav",70
+Sample,88105,0,"kick.wav",70
+Sample,88105,0,"8bit 2 #1.wav",70
+Sample,88105,0,"clap.wav",70
+Sample,88184,0,"8bit 2 #1.wav",70
+Sample,88184,0,"drum loop (14).wav",70
+Sample,88263,0,"drum loop (15).wav",70
+Sample,88263,0,"hi hat.wav",70
+Sample,88263,0,"bass_drop 3.wav",70
+Sample,88263,0,"8bit 2 #2.wav",70
+Sample,88342,0,"drum loop (16).wav",70
+Sample,88421,0,"8bit 2 #1.wav",70
+Sample,88421,0,"clap.wav",70
+Sample,88421,0,"drum loop (1).wav",70
+Sample,88421,0,"kick.wav",70
+Sample,88500,0,"drum loop (2).wav",70
+Sample,88500,0,"8bit 2 #1.wav",70
+Sample,88578,0,"drum loop (3).wav",70
+Sample,88578,0,"8bit 2 #2.wav",70
+Sample,88657,0,"drum loop (4).wav",70
+Sample,88736,0,"8bit 2 #1.wav",70
+Sample,88736,0,"drum loop (5).wav",70
+Sample,88736,0,"kick.wav",70
+Sample,88736,0,"clap.wav",70
+Sample,88815,0,"8bit 2 #1.wav",70
+Sample,88815,0,"drum loop (6).wav",70
+Sample,88894,0,"8bit 2 #2.wav",70
+Sample,88894,0,"drum loop (7).wav",70
+Sample,88894,0,"hi hat.wav",70
+Sample,88894,0,"bass_drop 3.wav",70
+Sample,88973,0,"drum loop (8).wav",70
+Sample,89052,0,"clap.wav",70
+Sample,89052,0,"8bit 2 #1.wav",70
+Sample,89052,0,"drum loop (9).wav",70
+Sample,89131,0,"drum loop (10).wav",70
+Sample,89131,0,"8bit 2 #1.wav",70
+Sample,89210,0,"hi hat.wav",70
+Sample,89210,0,"drum loop (11).wav",70
+Sample,89289,0,"drum loop (12).wav",70
+Sample,89368,0,"kick.wav",70
+Sample,89368,0,"drum loop (13).wav",70
+Sample,89368,0,"8bit 2 #1.wav",70
+Sample,89368,0,"clap.wav",70
+Sample,89447,0,"drum loop (14).wav",70
+Sample,89447,0,"8bit 2 #1.wav",70
+Sample,89526,0,"drum loop (15).wav",70
+Sample,89526,0,"percussion #2.wav",70
+Sample,89526,0,"bass_drop 3.wav",70
+Sample,89526,0,"8bit 2 #1.wav",70
+Sample,89526,0,"hi hat.wav",70
+Sample,89605,0,"drum loop (16).wav",70
+Sample,89605,0,"8bit 2 #1.wav",70
+Sample,89605,0,"percussion #2.wav",70
+Sample,89684,0,"bass_drop 1 #1.wav",70
+Sample,89684,0,"clap.wav",70
+Sample,89684,0,"8bit 2 #1.wav",70
+Sample,89684,0,"drum loop (1).wav",70
+Sample,89684,0,"kick.wav",70
+Sample,89763,0,"drum loop (2).wav",70
+Sample,89763,0,"8bit 2 #1.wav",70
+Sample,89842,0,"hi hat.wav",70
+Sample,89842,0,"drum loop (3).wav",70
+Sample,89842,0,"8bit 2 #2.wav",70
+Sample,89842,0,"bass_drop 3.wav",70
+Sample,89921,0,"drum loop (4).wav",70
+Sample,90000,0,"kick.wav",70
+Sample,90000,0,"8bit 2 #1.wav",70
+Sample,90000,0,"clap.wav",70
+Sample,90000,0,"drum loop (5).wav",70
+Sample,90078,0,"drum loop (6).wav",70
+Sample,90078,0,"8bit 2 #1.wav",70
+Sample,90157,0,"drum loop (7).wav",70
+Sample,90157,0,"hi hat.wav",70
+Sample,90157,0,"bass_drop 3.wav",70
+Sample,90157,0,"8bit 2 #2.wav",70
+Sample,90236,0,"drum loop (8).wav",70
+Sample,90315,0,"drum loop (9).wav",70
+Sample,90315,0,"8bit 2 #1.wav",70
+Sample,90315,0,"clap.wav",70
+Sample,90315,0,"kick.wav",70
+Sample,90394,0,"drum loop (10).wav",70
+Sample,90394,0,"8bit 2 #1.wav",70
+Sample,90473,0,"8bit 2 #2.wav",70
+Sample,90473,0,"drum loop (11).wav",70
+Sample,90473,0,"bass_drop 3.wav",70
+Sample,90473,0,"hi hat.wav",70
+Sample,90552,0,"drum loop (12).wav",70
+Sample,90631,0,"kick.wav",70
+Sample,90631,0,"8bit 2 #1.wav",70
+Sample,90631,0,"drum loop (13).wav",70
+Sample,90631,0,"clap.wav",70
+Sample,90710,0,"8bit 2 #1.wav",70
+Sample,90710,0,"drum loop (14).wav",70
+Sample,90789,0,"drum loop (15).wav",70
+Sample,90789,0,"percussion #2.wav",70
+Sample,90789,0,"8bit 2 #2.wav",70
+Sample,90789,0,"bass_drop 3.wav",70
+Sample,90789,0,"hi hat.wav",70
+Sample,90868,0,"drum loop (16).wav",70
+Sample,90868,0,"percussion #2.wav",70
+Sample,90947,0,"drum loop (1).wav",70
+Sample,90947,0,"8bit 2 #1.wav",70
+Sample,90947,0,"clap.wav",70
+Sample,90947,0,"rev cymbal.wav",70
+Sample,90947,0,"kick.wav",70
+Sample,91026,0,"drum loop (2).wav",70
+Sample,91026,0,"8bit 2 #1.wav",70
+Sample,91105,0,"fx #1.wav",70
+Sample,91105,0,"8bit 2 #2.wav",70
+Sample,91105,0,"drum loop (3).wav",70
+Sample,91105,0,"bass_drop 3.wav",70
+Sample,91105,0,"hi hat.wav",70
+Sample,91184,0,"drum loop (4).wav",70
+Sample,91263,0,"8bit 2 #1.wav",70
+Sample,91263,0,"drum loop (5).wav",70
+Sample,91263,0,"kick.wav",70
+Sample,91263,0,"clap.wav",70
+Sample,91342,0,"8bit 2 #1.wav",70
+Sample,91342,0,"drum loop (6).wav",70
+Sample,91421,0,"drum loop (7).wav",70
+Sample,91421,0,"hi hat.wav",70
+Sample,91421,0,"bass_drop 3.wav",70
+Sample,91421,0,"fx #1.wav",70
+Sample,91421,0,"8bit 2 #2.wav",70
+Sample,91500,0,"drum loop (8).wav",70
+Sample,91578,0,"8bit 2 #1.wav",70
+Sample,91578,0,"clap.wav",70
+Sample,91578,0,"kick.wav",70
+Sample,91578,0,"drum loop (9).wav",70
+Sample,91578,0,"bass_drop 1 #8.wav",70
+Sample,91657,0,"8bit 2 #1.wav",70
+Sample,91736,0,"percussion #1.wav",70
+Sample,91736,0,"drum loop (11).wav",70
+Sample,91736,0,"hi hat.wav",70
+Sample,91736,0,"bass_drop 1 #8.wav",70
+Sample,91736,0,"8bit 2 #2.wav",70
+Sample,91736,0,"bass_drop 3.wav",70
+Sample,91736,0,"fx #1.wav",70
+Sample,91894,0,"fx #3.wav",70
+Sample,91894,0,"clap.wav",70
+Sample,91894,0,"kick.wav",70
+Sample,91894,0,"8bit 2 #1.wav",70
+Sample,91894,0,"drum loop (13).wav",70
+Sample,91973,0,"8bit 2 #1.wav",70
+Sample,92052,0,"drum loop (15).wav",70
+Sample,92052,0,"percussion #2.wav",70
+Sample,92052,0,"8bit 2 #1.wav",70
+Sample,92052,0,"bass_drop 3.wav",70
+Sample,92052,0,"hi hat.wav",70
+Sample,92131,0,"percussion #2.wav",70
+Sample,92131,0,"8bit 2 #1.wav",70
+Sample,92210,0,"lead 3 pt1.wav",70
+Sample,92210,0,"pad #1.wav",70
+Sample,92210,0,"lead C#6 (1).wav",70
+Sample,92210,0,"drum loop (1).wav",70
+Sample,92210,0,"lead2 C#6.wav",70
+Sample,92210,0,"clap.wav",70
+Sample,92210,0,"impact.wav",70
+Sample,92289,0,"drum loop (2).wav",70
+Sample,92368,0,"hi hat.wav",70
+Sample,92368,0,"drum loop (3).wav",70
+Sample,92368,0,"bass 2 #1.wav",70
+Sample,92447,0,"drum loop (4).wav",70
+Sample,92526,0,"drum loop (5).wav",70
+Sample,92526,0,"clap.wav",70
+Sample,92526,0,"snare #1.wav",70
+Sample,92605,0,"drum loop (6).wav",70
+Sample,92684,0,"bass 2 #1.wav",70
+Sample,92684,0,"hi hat.wav",70
+Sample,92684,0,"drum loop (7).wav",70
+Sample,92763,0,"drum loop (8).wav",70
+Sample,92842,0,"drum loop (9).wav",70
+Sample,92842,0,"clap.wav",70
+Sample,92921,0,"drum loop (10).wav",70
+Sample,93000,0,"bass 2 #1.wav",70
+Sample,93000,0,"hi hat.wav",70
+Sample,93000,0,"drum loop (11).wav",70
+Sample,93078,0,"drum loop (12).wav",70
+Sample,93157,0,"lead B5 (1).wav",70
+Sample,93157,0,"drum loop (13).wav",70
+Sample,93157,0,"clap.wav",70
+Sample,93157,0,"lead2 B5.wav",70
+Sample,93157,0,"snare #1.wav",70
+Sample,93236,0,"drum loop (14).wav",70
+Sample,93315,0,"drum loop (15).wav",70
+Sample,93315,0,"bass 2 #1.wav",70
+Sample,93315,0,"lead2 E6.wav",70
+Sample,93315,0,"pad #2.wav",70
+Sample,93315,0,"hi hat.wav",70
+Sample,93315,0,"lead E6 (1).wav",70
+Sample,93394,0,"drum loop (16).wav",70
+Sample,93473,0,"clap.wav",70
+Sample,93473,0,"drum loop (1).wav",70
+Sample,93552,0,"drum loop (2).wav",70
+Sample,93631,0,"drum loop (3).wav",70
+Sample,93631,0,"bass 2 #2.wav",70
+Sample,93631,0,"hi hat.wav",70
+Sample,93710,0,"drum loop (4).wav",70
+Sample,93789,0,"clap.wav",70
+Sample,93789,0,"lead C#6 (2).wav",70
+Sample,93789,0,"drum loop (5).wav",70
+Sample,93789,0,"lead2 C#6.wav",70
+Sample,93789,0,"snare #1.wav",70
+Sample,93868,0,"drum loop (6).wav",70
+Sample,93947,0,"bass 2 #2.wav",70
+Sample,93947,0,"drum loop (7).wav",70
+Sample,93947,0,"hi hat.wav",70
+Sample,94026,0,"drum loop (8).wav",70
+Sample,94105,0,"drum loop (9).wav",70
+Sample,94105,0,"lead2 C#6.wav",70
+Sample,94105,0,"clap.wav",70
+Sample,94105,0,"lead C#6 (2).wav",70
+Sample,94184,0,"drum loop (10).wav",70
+Sample,94263,0,"hi hat.wav",70
+Sample,94263,0,"drum loop (11).wav",70
+Sample,94263,0,"bass 2 #2.wav",70
+Sample,94342,0,"drum loop (12).wav",70
+Sample,94421,0,"lead2 B5.wav",70
+Sample,94421,0,"clap.wav",70
+Sample,94421,0,"snare #3.wav",70
+Sample,94421,0,"lead B5 (1).wav",70
+Sample,94421,0,"drum loop (13).wav",70
+Sample,94500,0,"drum loop (14).wav",70
+Sample,94578,0,"drum loop (15).wav",70
+Sample,94578,0,"bass 2 #2.wav",70
+Sample,94578,0,"lead C#6 (1).wav",70
+Sample,94578,0,"lead2 C#6.wav",70
+Sample,94578,0,"hi hat.wav",70
+Sample,94578,0,"snare #4.wav",70
+Sample,94657,0,"drum loop (16).wav",70
+Sample,94657,0,"snare #4.wav",70
+Sample,94736,0,"pad #3.wav",70
+Sample,94736,0,"clap.wav",70
+Sample,94736,0,"drum loop (1).wav",70
+Sample,94815,0,"drum loop (2).wav",70
+Sample,94894,0,"bass 2 #3.wav",70
+Sample,94894,0,"drum loop (3).wav",70
+Sample,94894,0,"hi hat.wav",70
+Sample,94973,0,"drum loop (4).wav",70
+Sample,95052,0,"drum loop (5).wav",70
+Sample,95052,0,"clap.wav",70
+Sample,95052,0,"snare #1.wav",70
+Sample,95131,0,"drum loop (6).wav",70
+Sample,95210,0,"hi hat.wav",70
+Sample,95210,0,"bass 2 #3.wav",70
+Sample,95210,0,"drum loop (7).wav",70
+Sample,95289,0,"drum loop (8).wav",70
+Sample,95368,0,"clap.wav",70
+Sample,95368,0,"drum loop (9).wav",70
+Sample,95447,0,"drum loop (10).wav",70
+Sample,95526,0,"drum loop (11).wav",70
+Sample,95526,0,"hi hat.wav",70
+Sample,95526,0,"lead B5 (1).wav",70
+Sample,95526,0,"lead2 B5.wav",70
+Sample,95526,0,"bass 2 #3.wav",70
+Sample,95605,0,"drum loop (12).wav",70
+Sample,95684,0,"drum loop (13).wav",70
+Sample,95684,0,"snare #1.wav",70
+Sample,95684,0,"lead2 E6.wav",70
+Sample,95684,0,"lead E6 (2).wav",70
+Sample,95684,0,"clap.wav",70
+Sample,95763,0,"drum loop (14).wav",70
+Sample,95842,0,"drum loop (15).wav",70
+Sample,95842,0,"hi hat.wav",70
+Sample,95842,0,"pad #4.wav",70
+Sample,95842,0,"bass 2 #3.wav",70
+Sample,95842,0,"lead C#6 (3).wav",70
+Sample,95842,0,"lead2 C#6.wav",70
+Sample,95921,0,"drum loop (16).wav",70
+Sample,96000,0,"clap.wav",70
+Sample,96000,0,"drum loop (1).wav",70
+Sample,96078,0,"drum loop (2).wav",70
+Sample,96157,0,"drum loop (3).wav",70
+Sample,96157,0,"bass 2 #3.wav",70
+Sample,96157,0,"hi hat.wav",70
+Sample,96236,0,"drum loop (4).wav",70
+Sample,96315,0,"clap.wav",70
+Sample,96315,0,"snare #1.wav",70
+Sample,96315,0,"drum loop (5).wav",70
+Sample,96394,0,"drum loop (6).wav",70
+Sample,96473,0,"bass 2 #3.wav",70
+Sample,96473,0,"drum loop (7).wav",70
+Sample,96473,0,"hi hat.wav",70
+Sample,96552,0,"drum loop (8).wav",70
+Sample,96631,0,"drum loop (9).wav",70
+Sample,96631,0,"clap.wav",70
+Sample,96631,0,"lead2 B5.wav",70
+Sample,96631,0,"lead B5 (2).wav",70
+Sample,96710,0,"drum loop (10).wav",70
+Sample,96789,0,"drum loop (11).wav",70
+Sample,96789,0,"hi hat.wav",70
+Sample,96789,0,"bass 2 #3.wav",70
+Sample,96789,0,"snare #3.wav",70
+Sample,96868,0,"drum loop (12).wav",70
+Sample,96947,0,"drum loop (13).wav",70
+Sample,96947,0,"snare #3.wav",70
+Sample,96947,0,"clap.wav",70
+Sample,97026,0,"drum loop (14).wav",70
+Sample,97105,0,"bass 2 #3.wav",70
+Sample,97105,0,"drum loop (15).wav",70
+Sample,97105,0,"hi hat.wav",70
+Sample,97105,0,"snare #4.wav",70
+Sample,97184,0,"drum loop (16).wav",70
+Sample,97184,0,"snare #4.wav",70
+Sample,97263,0,"lead2 C#6.wav",70
+Sample,97263,0,"lead C#6 (1).wav",70
+Sample,97263,0,"pad #1.wav",70
+Sample,97263,0,"drum loop (1).wav",70
+Sample,97263,0,"clap.wav",70
+Sample,97342,0,"drum loop (2).wav",70
+Sample,97421,0,"drum loop (3).wav",70
+Sample,97421,0,"hi hat.wav",70
+Sample,97421,0,"bass 2 #1.wav",70
+Sample,97500,0,"drum loop (4).wav",70
+Sample,97578,0,"snare #1.wav",70
+Sample,97578,0,"drum loop (5).wav",70
+Sample,97578,0,"clap.wav",70
+Sample,97657,0,"drum loop (6).wav",70
+Sample,97736,0,"bass 2 #1.wav",70
+Sample,97736,0,"hi hat.wav",70
+Sample,97736,0,"drum loop (7).wav",70
+Sample,97815,0,"drum loop (8).wav",70
+Sample,97894,0,"drum loop (9).wav",70
+Sample,97894,0,"clap.wav",70
+Sample,97973,0,"drum loop (10).wav",70
+Sample,98052,0,"drum loop (11).wav",70
+Sample,98052,0,"bass 2 #1.wav",70
+Sample,98052,0,"hi hat.wav",70
+Sample,98131,0,"drum loop (12).wav",70
+Sample,98210,0,"clap.wav",70
+Sample,98210,0,"snare #1.wav",70
+Sample,98210,0,"drum loop (13).wav",70
+Sample,98210,0,"lead2 B5.wav",70
+Sample,98210,0,"lead B5 (1).wav",70
+Sample,98289,0,"drum loop (14).wav",70
+Sample,98368,0,"drum loop (15).wav",70
+Sample,98368,0,"pad #5.wav",70
+Sample,98368,0,"bass 2 #1.wav",70
+Sample,98368,0,"lead2 E6.wav",70
+Sample,98368,0,"hi hat.wav",70
+Sample,98368,0,"lead E6 (1).wav",70
+Sample,98447,0,"drum loop (16).wav",70
+Sample,98526,0,"clap.wav",70
+Sample,98526,0,"drum loop (1).wav",70
+Sample,98605,0,"drum loop (2).wav",70
+Sample,98684,0,"bass 2 #2.wav",70
+Sample,98684,0,"hi hat.wav",70
+Sample,98684,0,"drum loop (3).wav",70
+Sample,98763,0,"drum loop (4).wav",70
+Sample,98842,0,"lead2 F#6.wav",70
+Sample,98842,0,"drum loop (5).wav",70
+Sample,98842,0,"lead F#6 (1).wav",70
+Sample,98842,0,"clap.wav",70
+Sample,98842,0,"snare #1.wav",70
+Sample,98921,0,"drum loop (6).wav",70
+Sample,99000,0,"bass 2 #2.wav",70
+Sample,99000,0,"drum loop (7).wav",70
+Sample,99000,0,"hi hat.wav",70
+Sample,99078,0,"drum loop (8).wav",70
+Sample,99157,0,"clap.wav",70
+Sample,99157,0,"lead F#6 (1).wav",70
+Sample,99157,0,"lead2 F#6.wav",70
+Sample,99157,0,"drum loop (9).wav",70
+Sample,99236,0,"drum loop (10).wav",70
+Sample,99315,0,"bass 2 #2.wav",70
+Sample,99315,0,"drum loop (11).wav",70
+Sample,99315,0,"hi hat.wav",70
+Sample,99394,0,"drum loop (12).wav",70
+Sample,99473,0,"clap.wav",70
+Sample,99473,0,"lead E6 (2).wav",70
+Sample,99473,0,"drum loop (13).wav",70
+Sample,99473,0,"snare #3.wav",70
+Sample,99473,0,"lead2 E6.wav",70
+Sample,99552,0,"drum loop (14).wav",70
+Sample,99631,0,"drum loop (15).wav",70
+Sample,99631,0,"hi hat.wav",70
+Sample,99631,0,"lead F#6 (2).wav",70
+Sample,99631,0,"lead2 F#6.wav",70
+Sample,99631,0,"snare #4.wav",70
+Sample,99631,0,"bass 2 #2.wav",70
+Sample,99710,0,"drum loop (16).wav",70
+Sample,99710,0,"snare #4.wav",70
+Sample,99789,0,"clap.wav",70
+Sample,99789,0,"drum loop (1).wav",70
+Sample,99789,0,"pad #3.wav",70
+Sample,99868,0,"drum loop (2).wav",70
+Sample,99947,0,"bass 2 #3.wav",70
+Sample,99947,0,"drum loop (3).wav",70
+Sample,99947,0,"hi hat.wav",70
+Sample,100026,0,"drum loop (4).wav",70
+Sample,100105,0,"snare #1.wav",70
+Sample,100105,0,"clap.wav",70
+Sample,100105,0,"drum loop (5).wav",70
+Sample,100184,0,"drum loop (6).wav",70
+Sample,100263,0,"bass 2 #3.wav",70
+Sample,100263,0,"hi hat.wav",70
+Sample,100263,0,"drum loop (7).wav",70
+Sample,100342,0,"drum loop (8).wav",70
+Sample,100421,0,"drum loop (9).wav",70
+Sample,100421,0,"clap.wav",70
+Sample,100500,0,"drum loop (10).wav",70
+Sample,100578,0,"drum loop (11).wav",70
+Sample,100578,0,"lead E6 (2).wav",70
+Sample,100578,0,"lead2 E6.wav",70
+Sample,100578,0,"bass 2 #3.wav",70
+Sample,100578,0,"hi hat.wav",70
+Sample,100657,0,"drum loop (12).wav",70
+Sample,100736,0,"clap.wav",70
+Sample,100736,0,"snare #1.wav",70
+Sample,100736,0,"leda A6 (1).wav",70
+Sample,100736,0,"lead2 A6.wav",70
+Sample,100736,0,"drum loop (13).wav",70
+Sample,100815,0,"drum loop (14).wav",70
+Sample,100894,0,"bass 2 #3.wav",70
+Sample,100894,0,"drum loop (15).wav",70
+Sample,100894,0,"lead2 F#6.wav",70
+Sample,100894,0,"pad #4.wav",70
+Sample,100894,0,"hi hat.wav",70
+Sample,100894,0,"lead F#6 (3).wav",70
+Sample,100973,0,"drum loop (16).wav",70
+Sample,101052,0,"clap.wav",70
+Sample,101052,0,"drum loop (1).wav",70
+Sample,101131,0,"drum loop (2).wav",70
+Sample,101210,0,"drum loop (3).wav",70
+Sample,101210,0,"hi hat.wav",70
+Sample,101210,0,"bass 2 #3.wav",70
+Sample,101289,0,"drum loop (4).wav",70
+Sample,101368,0,"drum loop (5).wav",70
+Sample,101368,0,"snare #1.wav",70
+Sample,101368,0,"clap.wav",70
+Sample,101447,0,"drum loop (6).wav",70
+Sample,101526,0,"drum loop (7).wav",70
+Sample,101526,0,"bass 2 #3.wav",70
+Sample,101526,0,"hi hat.wav",70
+Sample,101605,0,"drum loop (8).wav",70
+Sample,101684,0,"drum loop (9).wav",70
+Sample,101684,0,"clap.wav",70
+Sample,101684,0,"lead2 E6.wav",70
+Sample,101684,0,"lead E6 (3).wav",70
+Sample,101763,0,"drum loop (10).wav",70
+Sample,101842,0,"drum loop (11).wav",70
+Sample,101842,0,"hi hat.wav",70
+Sample,101842,0,"snare #3.wav",70
+Sample,101842,0,"bass 2 #3.wav",70
+Sample,101921,0,"drum loop (12).wav",70
+Sample,102000,0,"drum loop (13).wav",70
+Sample,102000,0,"clap.wav",70
+Sample,102000,0,"snare #3.wav",70
+Sample,102078,0,"drum loop (14).wav",70
+Sample,102157,0,"drum loop (15).wav",70
+Sample,102157,0,"hi hat.wav",70
+Sample,102157,0,"snare #4.wav",70
+Sample,102157,0,"bass 2 #3.wav",70
+Sample,102236,0,"drum loop (16).wav",70
+Sample,102236,0,"snare #4.wav",70
+Sample,102315,0,"pad #1.wav",70
+Sample,102315,0,"cu3_pluck (1).wav",70
+Sample,102315,0,"lead 3 pt2.wav",70
+Sample,102315,0,"clap.wav",70
+Sample,102315,0,"sweep up #1.wav",70
+Sample,102315,0,"lead C#6 (1).wav",70
+Sample,102315,0,"lead2 C#6.wav",70
+Sample,102315,0,"drum loop (1).wav",70
+Sample,102394,0,"drum loop (2).wav",70
+Sample,102473,0,"drum loop (3).wav",70
+Sample,102473,0,"fx #1.wav",70
+Sample,102473,0,"bass 2 #1.wav",70
+Sample,102473,0,"cu3_pluck (2).wav",70
+Sample,102473,0,"percussion #1.wav",70
+Sample,102473,0,"hi hat.wav",70
+Sample,102552,0,"drum loop (4).wav",70
+Sample,102631,0,"clap.wav",70
+Sample,102631,0,"drum loop (5).wav",70
+Sample,102631,0,"cu3_pluck (3).wav",70
+Sample,102631,0,"snare #2.wav",70
+Sample,102710,0,"drum loop (6).wav",70
+Sample,102789,0,"hi hat.wav",70
+Sample,102789,0,"fx #1.wav",70
+Sample,102789,0,"percussion #1.wav",70
+Sample,102789,0,"drum loop (7).wav",70
+Sample,102789,0,"cu3_pluck (4).wav",70
+Sample,102789,0,"bass 2 #1.wav",70
+Sample,102868,0,"drum loop (8).wav",70
+Sample,102947,0,"cu3_pluck (5).wav",70
+Sample,102947,0,"drum loop (9).wav",70
+Sample,102947,0,"snare #2.wav",70
+Sample,102947,0,"clap.wav",70
+Sample,103026,0,"drum loop (10).wav",70
+Sample,103105,0,"percussion #1.wav",70
+Sample,103105,0,"bass 2 #1.wav",70
+Sample,103105,0,"drum loop (11).wav",70
+Sample,103105,0,"cu3_pluck (6).wav",70
+Sample,103105,0,"hi hat.wav",70
+Sample,103105,0,"fx #1.wav",70
+Sample,103184,0,"drum loop (12).wav",70
+Sample,103263,0,"drum loop (13).wav",70
+Sample,103263,0,"clap.wav",70
+Sample,103263,0,"lead2 B5.wav",70
+Sample,103263,0,"snare #2.wav",70
+Sample,103263,0,"lead B5 (1).wav",70
+Sample,103263,0,"cu3_pluck (7).wav",70
+Sample,103342,0,"drum loop (14).wav",70
+Sample,103421,0,"percussion #2.wav",70
+Sample,103421,0,"fx #1.wav",70
+Sample,103421,0,"pad #2.wav",70
+Sample,103421,0,"bass 2 #1.wav",70
+Sample,103421,0,"lead2 E6.wav",70
+Sample,103421,0,"hi hat.wav",70
+Sample,103421,0,"lead E6 (1).wav",70
+Sample,103421,0,"drum loop (15).wav",70
+Sample,103421,0,"cu3_pluck (8).wav",70
+Sample,103500,0,"drum loop (16).wav",70
+Sample,103500,0,"percussion #2.wav",70
+Sample,103578,0,"clap.wav",70
+Sample,103578,0,"drum loop (1).wav",70
+Sample,103578,0,"cu3_pluck (9).wav",70
+Sample,103578,0,"snare #2.wav",70
+Sample,103657,0,"drum loop (2).wav",70
+Sample,103736,0,"bass 2 #2.wav",70
+Sample,103736,0,"cu3_pluck (10).wav",70
+Sample,103736,0,"fx #1.wav",70
+Sample,103736,0,"percussion #1.wav",70
+Sample,103736,0,"drum loop (3).wav",70
+Sample,103736,0,"hi hat.wav",70
+Sample,103815,0,"drum loop (4).wav",70
+Sample,103894,0,"lead2 C#6.wav",70
+Sample,103894,0,"drum loop (5).wav",70
+Sample,103894,0,"clap.wav",70
+Sample,103894,0,"snare #2.wav",70
+Sample,103894,0,"cu3_pluck (11).wav",70
+Sample,103894,0,"lead C#6 (2).wav",70
+Sample,103973,0,"drum loop (6).wav",70
+Sample,104052,0,"percussion #1.wav",70
+Sample,104052,0,"hi hat.wav",70
+Sample,104052,0,"bass 2 #2.wav",70
+Sample,104052,0,"drum loop (7).wav",70
+Sample,104052,0,"fx #1.wav",70
+Sample,104052,0,"cu3_pluck (12).wav",70
+Sample,104131,0,"drum loop (8).wav",70
+Sample,104210,0,"drum loop (9).wav",70
+Sample,104210,0,"cu3_pluck (13).wav",70
+Sample,104210,0,"lead C#6 (2).wav",70
+Sample,104210,0,"lead2 C#6.wav",70
+Sample,104210,0,"clap.wav",70
+Sample,104210,0,"snare #2.wav",70
+Sample,104289,0,"drum loop (10).wav",70
+Sample,104368,0,"fx #1.wav",70
+Sample,104368,0,"cu3_pluck (14).wav",70
+Sample,104368,0,"hi hat.wav",70
+Sample,104368,0,"bass 2 #2.wav",70
+Sample,104368,0,"percussion #1.wav",70
+Sample,104368,0,"drum loop (11).wav",70
+Sample,104447,0,"drum loop (12).wav",70
+Sample,104526,0,"drum loop (13).wav",70
+Sample,104526,0,"fx #2.wav",70
+Sample,104526,0,"clap.wav",70
+Sample,104526,0,"lead2 B5.wav",70
+Sample,104526,0,"cu3_pluck (15).wav",70
+Sample,104526,0,"snare #2.wav",70
+Sample,104526,0,"lead B5 (1).wav",70
+Sample,104605,0,"drum loop (14).wav",70
+Sample,104684,0,"percussion #2.wav",70
+Sample,104684,0,"lead C#6 (1).wav",70
+Sample,104684,0,"lead2 C#6.wav",70
+Sample,104684,0,"drum loop (15).wav",70
+Sample,104684,0,"cu3_pluck (16).wav",70
+Sample,104684,0,"hi hat.wav",70
+Sample,104684,0,"bass 2 #2.wav",70
+Sample,104763,0,"drum loop (16).wav",70
+Sample,104763,0,"percussion #2.wav",70
+Sample,104842,0,"snare #2.wav",70
+Sample,104842,0,"clap.wav",70
+Sample,104842,0,"cu3_pluck (17).wav",70
+Sample,104842,0,"drum loop (1).wav",70
+Sample,104842,0,"pad #3.wav",70
+Sample,104921,0,"drum loop (2).wav",70
+Sample,105000,0,"bass 2 #3.wav",70
+Sample,105000,0,"drum loop (3).wav",70
+Sample,105000,0,"fx #1.wav",70
+Sample,105000,0,"hi hat.wav",70
+Sample,105000,0,"percussion #1.wav",70
+Sample,105000,0,"cu3_pluck (18).wav",70
+Sample,105078,0,"drum loop (4).wav",70
+Sample,105157,0,"cu3_pluck (19).wav",70
+Sample,105157,0,"snare #2.wav",70
+Sample,105157,0,"clap.wav",70
+Sample,105157,0,"drum loop (5).wav",70
+Sample,105236,0,"drum loop (6).wav",70
+Sample,105315,0,"percussion #1.wav",70
+Sample,105315,0,"drum loop (7).wav",70
+Sample,105315,0,"fx #1.wav",70
+Sample,105315,0,"cu3_pluck (20).wav",70
+Sample,105315,0,"bass 2 #3.wav",70
+Sample,105315,0,"hi hat.wav",70
+Sample,105394,0,"drum loop (8).wav",70
+Sample,105473,0,"cu3_pluck (21).wav",70
+Sample,105473,0,"snare #2.wav",70
+Sample,105473,0,"drum loop (9).wav",70
+Sample,105473,0,"clap.wav",70
+Sample,105552,0,"drum loop (10).wav",70
+Sample,105631,0,"fx #1.wav",70
+Sample,105631,0,"hi hat.wav",70
+Sample,105631,0,"lead B5 (1).wav",70
+Sample,105631,0,"percussion #1.wav",70
+Sample,105631,0,"bass 2 #3.wav",70
+Sample,105631,0,"drum loop (11).wav",70
+Sample,105631,0,"cu3_pluck (22).wav",70
+Sample,105631,0,"lead2 B5.wav",70
+Sample,105710,0,"drum loop (12).wav",70
+Sample,105789,0,"lead E6 (2).wav",70
+Sample,105789,0,"drum loop (13).wav",70
+Sample,105789,0,"cu3_pluck (23).wav",70
+Sample,105789,0,"snare #2.wav",70
+Sample,105789,0,"lead2 E6.wav",70
+Sample,105789,0,"clap.wav",70
+Sample,105868,0,"drum loop (14).wav",70
+Sample,105947,0,"percussion #2.wav",70
+Sample,105947,0,"hi hat.wav",70
+Sample,105947,0,"fx #1.wav",70
+Sample,105947,0,"pad #4.wav",70
+Sample,105947,0,"lead C#6 (3).wav",70
+Sample,105947,0,"lead2 C#6.wav",70
+Sample,105947,0,"cu3_pluck (24).wav",70
+Sample,105947,0,"drum loop (15).wav",70
+Sample,105947,0,"bass 2 #3.wav",70
+Sample,106026,0,"percussion #2.wav",70
+Sample,106026,0,"drum loop (16).wav",70
+Sample,106105,0,"drum loop (1).wav",70
+Sample,106105,0,"clap.wav",70
+Sample,106105,0,"cu3_pluck (25).wav",70
+Sample,106105,0,"snare #2.wav",70
+Sample,106184,0,"drum loop (2).wav",70
+Sample,106263,0,"fx #1.wav",70
+Sample,106263,0,"bass 2 #3.wav",70
+Sample,106263,0,"drum loop (3).wav",70
+Sample,106263,0,"cu3_pluck (26).wav",70
+Sample,106263,0,"percussion #1.wav",70
+Sample,106263,0,"hi hat.wav",70
+Sample,106342,0,"drum loop (4).wav",70
+Sample,106421,0,"clap.wav",70
+Sample,106421,0,"cu3_pluck (27).wav",70
+Sample,106421,0,"snare #2.wav",70
+Sample,106421,0,"drum loop (5).wav",70
+Sample,106500,0,"drum loop (6).wav",70
+Sample,106578,0,"bass 2 #3.wav",70
+Sample,106578,0,"cu3_pluck (28).wav",70
+Sample,106578,0,"drum loop (7).wav",70
+Sample,106578,0,"fx #1.wav",70
+Sample,106578,0,"percussion #1.wav",70
+Sample,106578,0,"hi hat.wav",70
+Sample,106657,0,"drum loop (8).wav",70
+Sample,106736,0,"lead B5 (2).wav",70
+Sample,106736,0,"clap.wav",70
+Sample,106736,0,"lead2 B5.wav",70
+Sample,106736,0,"drum loop (9).wav",70
+Sample,106736,0,"kick.wav",70
+Sample,106736,0,"cu3_pluck (29).wav",70
+Sample,106815,0,"drum loop (10).wav",70
+Sample,106894,0,"percussion #1.wav",70
+Sample,106894,0,"fx #1.wav",70
+Sample,106894,0,"bass 2 #3.wav",70
+Sample,106894,0,"cu3_pluck (30).wav",70
+Sample,106894,0,"hi hat.wav",70
+Sample,106894,0,"drum loop (11).wav",70
+Sample,106973,0,"drum loop (12).wav",70
+Sample,107052,0,"kick.wav",70
+Sample,107052,0,"fx #3.wav",70
+Sample,107052,0,"clap.wav",70
+Sample,107052,0,"cu3_pluck (31).wav",70
+Sample,107052,0,"drum loop (13).wav",70
+Sample,107131,0,"drum loop (14).wav",70
+Sample,107210,0,"cu3_pluck (32).wav",70
+Sample,107210,0,"hi hat.wav",70
+Sample,107210,0,"bass 2 #3.wav",70
+Sample,107210,0,"percussion #2.wav",70
+Sample,107210,0,"drum loop (15).wav",70
+Sample,107289,0,"drum loop (16).wav",70
+Sample,107289,0,"percussion #2.wav",70
+Sample,107368,0,"clap.wav",70
+Sample,107368,0,"drum loop (1).wav",70
+Sample,107368,0,"pad #1.wav",70
+Sample,107368,0,"lead A5.wav",70
+Sample,107368,0,"lead2 A5.wav",70
+Sample,107368,0,"kick.wav",70
+Sample,107447,0,"drum loop (2).wav",70
+Sample,107447,0,"8bit 3 B5.wav",70
+Sample,107447,0,"8bit 4 F#5.wav",70
+Sample,107526,0,"fx #1.wav",70
+Sample,107526,0,"drum loop (3).wav",70
+Sample,107526,0,"percussion #1.wav",70
+Sample,107526,0,"bass 2 #1.wav",70
+Sample,107526,0,"hi hat.wav",70
+Sample,107605,0,"8bit 3 E6.wav",70
+Sample,107605,0,"8bit 4 B5.wav",70
+Sample,107605,0,"drum loop (4).wav",70
+Sample,107684,0,"kick.wav",70
+Sample,107684,0,"drum loop (5).wav",70
+Sample,107684,0,"clap.wav",70
+Sample,107763,0,"8bit 3 B6.wav",70
+Sample,107763,0,"drum loop (6).wav",70
+Sample,107763,0,"8bit 4 F#6.wav",70
+Sample,107842,0,"lead B5 (3).wav",70
+Sample,107842,0,"drum loop (7).wav",70
+Sample,107842,0,"percussion #1.wav",70
+Sample,107842,0,"hi hat.wav",70
+Sample,107842,0,"fx #1.wav",70
+Sample,107842,0,"lead2 B5.wav",70
+Sample,107842,0,"bass 2 #1.wav",70
+Sample,107921,0,"8bit 4 B6.wav",70
+Sample,107921,0,"8bit 3 E7.wav",70
+Sample,107921,0,"drum loop (8).wav",70
+Sample,108000,0,"clap.wav",70
+Sample,108000,0,"drum loop (9).wav",70
+Sample,108000,0,"kick.wav",70
+Sample,108078,0,"8bit 4 B6.wav",70
+Sample,108078,0,"8bit 3 E7.wav",70
+Sample,108078,0,"drum loop (10).wav",70
+Sample,108157,0,"bass 2 #1.wav",70
+Sample,108157,0,"drum loop (11).wav",70
+Sample,108157,0,"percussion #1.wav",70
+Sample,108157,0,"hi hat.wav",70
+Sample,108157,0,"fx #1.wav",70
+Sample,108236,0,"8bit 3 B6.wav",70
+Sample,108236,0,"drum loop (12).wav",70
+Sample,108236,0,"8bit 4 F#6.wav",70
+Sample,108315,0,"drum loop (13).wav",70
+Sample,108315,0,"clap.wav",70
+Sample,108315,0,"kick.wav",70
+Sample,108315,0,"lead2 C#6.wav",70
+Sample,108315,0,"lead C#6 (2).wav",70
+Sample,108394,0,"8bit 4 B5.wav",70
+Sample,108394,0,"drum loop (14).wav",70
+Sample,108394,0,"8bit 3 E6.wav",70
+Sample,108473,0,"fx #1.wav",70
+Sample,108473,0,"percussion #2.wav",70
+Sample,108473,0,"lead2 E6.wav",70
+Sample,108473,0,"drum loop (15).wav",70
+Sample,108473,0,"lead E6 (2).wav",70
+Sample,108473,0,"hi hat.wav",70
+Sample,108473,0,"pad #5.wav",70
+Sample,108473,0,"bass 2 #1.wav",70
+Sample,108552,0,"8bit 3 B5.wav",70
+Sample,108552,0,"drum loop (16).wav",70
+Sample,108552,0,"percussion #2.wav",70
+Sample,108552,0,"8bit 4 F#5.wav",70
+Sample,108631,0,"drum loop (1).wav",70
+Sample,108631,0,"clap.wav",70
+Sample,108631,0,"kick.wav",70
+Sample,108710,0,"8bit 4 D#5.wav",70
+Sample,108710,0,"8bit 3 G#5.wav",70
+Sample,108710,0,"drum loop (2).wav",70
+Sample,108789,0,"lead F#6 (1).wav",70
+Sample,108789,0,"lead2 F#6.wav",70
+Sample,108789,0,"percussion #1.wav",70
+Sample,108789,0,"drum loop (3).wav",70
+Sample,108789,0,"bass 2 #2.wav",70
+Sample,108789,0,"hi hat.wav",70
+Sample,108789,0,"fx #1.wav",70
+Sample,108868,0,"drum loop (4).wav",70
+Sample,108868,0,"8bit 4 G#5.wav",70
+Sample,108868,0,"8bit 3 C#6.wav",70
+Sample,108947,0,"kick.wav",70
+Sample,108947,0,"drum loop (5).wav",70
+Sample,108947,0,"clap.wav",70
+Sample,109026,0,"drum loop (6).wav",70
+Sample,109026,0,"8bit 4 D#6.wav",70
+Sample,109026,0,"8bit 3 G#6.wav",70
+Sample,109105,0,"hi hat.wav",70
+Sample,109105,0,"percussion #1.wav",70
+Sample,109105,0,"lead2 F#6.wav",70
+Sample,109105,0,"lead F#6 (4).wav",70
+Sample,109105,0,"bass 2 #2.wav",70
+Sample,109105,0,"fx #1.wav",70
+Sample,109105,0,"drum loop (7).wav",70
+Sample,109184,0,"drum loop (8).wav",70
+Sample,109184,0,"8bit 3 E7.wav",70
+Sample,109184,0,"8bit 4 B6.wav",70
+Sample,109263,0,"clap.wav",70
+Sample,109263,0,"drum loop (9).wav",70
+Sample,109263,0,"kick.wav",70
+Sample,109342,0,"8bit 4 B6.wav",70
+Sample,109342,0,"8bit 3 E7.wav",70
+Sample,109342,0,"drum loop (10).wav",70
+Sample,109421,0,"drum loop (11).wav",70
+Sample,109421,0,"bass 2 #2.wav",70
+Sample,109421,0,"percussion #1.wav",70
+Sample,109421,0,"hi hat.wav",70
+Sample,109421,0,"fx #1.wav",70
+Sample,109500,0,"8bit 3 G#6.wav",70
+Sample,109500,0,"drum loop (12).wav",70
+Sample,109500,0,"8bit 4 D#6.wav",70
+Sample,109578,0,"kick.wav",70
+Sample,109578,0,"drum loop (13).wav",70
+Sample,109578,0,"fx #2.wav",70
+Sample,109578,0,"lead2 E6.wav",70
+Sample,109578,0,"lead E6 (2).wav",70
+Sample,109578,0,"clap.wav",70
+Sample,109657,0,"8bit 4 G#5.wav",70
+Sample,109657,0,"drum loop (14).wav",70
+Sample,109657,0,"8bit 3 C#6.wav",70
+Sample,109736,0,"lead F#6 (6).wav",70
+Sample,109736,0,"percussion #2.wav",70
+Sample,109736,0,"drum loop (15).wav",70
+Sample,109736,0,"hi hat.wav",70
+Sample,109736,0,"lead2 F#6.wav",70
+Sample,109736,0,"bass 2 #2.wav",70
+Sample,109815,0,"8bit 4 D#5.wav",70
+Sample,109815,0,"8bit 3 G#5.wav",70
+Sample,109815,0,"percussion #2.wav",70
+Sample,109815,0,"drum loop (16).wav",70
+Sample,109894,0,"drum loop (1).wav",70
+Sample,109894,0,"s_fade in snare (1).wav",70
+Sample,109894,0,"pad #3.wav",70
+Sample,109894,0,"8bit 4 A#4.wav",70
+Sample,109894,0,"cu3_pluck (49).wav",70
+Sample,109973,0,"s_fade in snare (2).wav",70
+Sample,109973,0,"8bit 4 C#5.wav",70
+Sample,109973,0,"drum loop (2).wav",70
+Sample,110052,0,"cu3_pluck (50).wav",70
+Sample,110052,0,"8bit 4 E5.wav",70
+Sample,110052,0,"bass 2 #3.wav",70
+Sample,110052,0,"hi hat.wav",70
+Sample,110052,0,"fx #1.wav",70
+Sample,110052,0,"percussion #1.wav",70
+Sample,110052,0,"drum loop (3).wav",70
+Sample,110052,0,"s_fade in snare (3).wav",70
+Sample,110131,0,"8bit 4 G#5.wav",70
+Sample,110131,0,"s_fade in snare (4).wav",70
+Sample,110131,0,"drum loop (4).wav",70
+Sample,110210,0,"drum loop (5).wav",70
+Sample,110210,0,"cu3_pluck (51).wav",70
+Sample,110210,0,"clap.wav",70
+Sample,110210,0,"8bit 4 A#5.wav",70
+Sample,110210,0,"s_fade in snare (5).wav",70
+Sample,110289,0,"8bit 4 C#6.wav",70
+Sample,110289,0,"s_fade in snare (6).wav",70
+Sample,110289,0,"drum loop (6).wav",70
+Sample,110368,0,"percussion #1.wav",70
+Sample,110368,0,"drum loop (7).wav",70
+Sample,110368,0,"s_fade in snare (7).wav",70
+Sample,110368,0,"hi hat.wav",70
+Sample,110368,0,"8bit 4 E6.wav",70
+Sample,110368,0,"cu3_pluck (52).wav",70
+Sample,110368,0,"bass 2 #3.wav",70
+Sample,110368,0,"fx #1.wav",70
+Sample,110447,0,"s_fade in snare (8).wav",70
+Sample,110447,0,"drum loop (8).wav",70
+Sample,110447,0,"8bit 4 G#6.wav",70
+Sample,110526,0,"8bit 4 A#6.wav",70
+Sample,110526,0,"drum loop (9).wav",70
+Sample,110526,0,"s_fade in snare (9).wav",70
+Sample,110526,0,"cu3_pluck (53).wav",70
+Sample,110526,0,"clap.wav",70
+Sample,110605,0,"drum loop (10).wav",70
+Sample,110605,0,"8bit 4 G#6.wav",70
+Sample,110684,0,"8bit 4 E6.wav",70
+Sample,110684,0,"drum loop (11).wav",70
+Sample,110684,0,"bass 2 #3.wav",70
+Sample,110684,0,"cu3_pluck (54).wav",70
+Sample,110684,0,"fx #1.wav",70
+Sample,110684,0,"hi hat.wav",70
+Sample,110684,0,"percussion #1.wav",70
+Sample,110763,0,"8bit 4 C#6.wav",70
+Sample,110763,0,"drum loop (12).wav",70
+Sample,110842,0,"drum loop (13).wav",70
+Sample,110842,0,"s_fade in snare (13).wav",70
+Sample,110842,0,"clap.wav",70
+Sample,110842,0,"8bit 4 A#5.wav",70
+Sample,110842,0,"cu3_pluck (55).wav",70
+Sample,110921,0,"8bit 4 G#5.wav",70
+Sample,110921,0,"drum loop (14).wav",70
+Sample,111000,0,"fx #1.wav",70
+Sample,111000,0,"percussion #2.wav",70
+Sample,111000,0,"8bit 4 E5.wav",70
+Sample,111000,0,"pad #4.wav",70
+Sample,111000,0,"hi hat.wav",70
+Sample,111000,0,"drum loop (15).wav",70
+Sample,111000,0,"cu3_pluck (56).wav",70
+Sample,111000,0,"bass 2 #3.wav",70
+Sample,111078,0,"drum loop (16).wav",70
+Sample,111078,0,"percussion #2.wav",70
+Sample,111078,0,"8bit 4 C#5.wav",70
+Sample,111157,0,"8bit 3 D#5.wav",70
+Sample,111157,0,"lead2 F#6.wav",70
+Sample,111157,0,"drum loop (1).wav",70
+Sample,111157,0,"8bit 4 A#4.wav",70
+Sample,111157,0,"kick.wav",70
+Sample,111157,0,"clap.wav",70
+Sample,111157,0,"rev cymbal.wav",70
+Sample,111236,0,"8bit 4 C#5.wav",70
+Sample,111236,0,"drum loop (2).wav",70
+Sample,111315,0,"drum loop (3).wav",70
+Sample,111315,0,"fx #1.wav",70
+Sample,111315,0,"percussion #1.wav",70
+Sample,111315,0,"hi hat.wav",70
+Sample,111315,0,"8bit 3 A5.wav",70
+Sample,111315,0,"bass 2 #3.wav",70
+Sample,111315,0,"8bit 4 E5.wav",70
+Sample,111315,0,"lead2 F#6.wav",70
+Sample,111394,0,"8bit 4 G#5.wav",70
+Sample,111394,0,"drum loop (4).wav",70
+Sample,111473,0,"drum loop (5).wav",70
+Sample,111473,0,"clap.wav",70
+Sample,111473,0,"lead2 F#6.wav",70
+Sample,111473,0,"8bit 3 D#6.wav",70
+Sample,111473,0,"kick.wav",70
+Sample,111473,0,"8bit 4 A#5.wav",70
+Sample,111552,0,"drum loop (6).wav",70
+Sample,111552,0,"8bit 4 C#6.wav",70
+Sample,111631,0,"bass 2 #3.wav",70
+Sample,111631,0,"drum loop (7).wav",70
+Sample,111631,0,"hi hat.wav",70
+Sample,111631,0,"8bit 3 A6.wav",70
+Sample,111631,0,"fx #1.wav",70
+Sample,111631,0,"lead2 F#6.wav",70
+Sample,111631,0,"percussion #1.wav",70
+Sample,111631,0,"8bit 4 E6.wav",70
+Sample,111710,0,"8bit 4 G#6.wav",70
+Sample,111710,0,"drum loop (8).wav",70
+Sample,111789,0,"clap.wav",70
+Sample,111789,0,"drum loop (9).wav",70
+Sample,111789,0,"8bit 3 D#7.wav",70
+Sample,111789,0,"8bit 4 A#6.wav",70
+Sample,111868,0,"8bit 4 G#6.wav",70
+Sample,111868,0,"drum loop (10).wav",70
+Sample,111868,0,"8bit 3 C#7.wav",70
+Sample,111947,0,"drum loop (11).wav",70
+Sample,111947,0,"percussion #1.wav",70
+Sample,111947,0,"8bit 3 A6.wav",70
+Sample,111947,0,"8bit 4 E6.wav",70
+Sample,111947,0,"fx #1.wav",70
+Sample,112026,0,"8bit 3 F#6.wav",70
+Sample,112026,0,"8bit 4 C#6.wav",70
+Sample,112026,0,"drum loop (12).wav",70
+Sample,112105,0,"drum loop (13).wav",70
+Sample,112105,0,"clap.wav",70
+Sample,112105,0,"8bit 4 A#5.wav",70
+Sample,112105,0,"8bit 3 D#6.wav",70
+Sample,112105,0,"fx #3.wav",70
+Sample,112184,0,"8bit 3 C#6.wav",70
+Sample,112184,0,"drum loop (14).wav",70
+Sample,112184,0,"8bit 4 G#5.wav",70
+Sample,112263,0,"percussion #2.wav",70
+Sample,112263,0,"drum loop (15).wav",70
+Sample,112263,0,"8bit 3 A5.wav",70
+Sample,112263,0,"8bit 4 E5.wav",70
+Sample,112342,0,"8bit 4 C#5.wav",70
+Sample,112342,0,"drum loop (16).wav",70
+Sample,112342,0,"percussion #2.wav",70
+Sample,112342,0,"8bit 3 F#5.wav",70
+Sample,112421,0,"clap.wav",70
+Sample,112421,0,"pad #10.wav",70
+Sample,112421,0,"bass #2.wav",70
+Sample,112578,0,"percussion #1.wav",70
+Sample,112815,0,"drum loop (7).wav",70
+Sample,112894,0,"pad #10.wav",70
+Sample,112894,0,"bass #2.wav",70
+Sample,112894,0,"percussion #1.wav",70
+Sample,113052,0,"clap.wav",70
+Sample,113289,0,"drum loop (7).wav",70
+Sample,113368,0,"bass #3.wav",70
+Sample,113368,0,"pad #10.wav",70
+Sample,113368,0,"clap.wav",70
+Sample,113526,0,"percussion #2.wav",70
+Sample,113605,0,"percussion #2.wav",70
+Sample,113684,0,"drum loop 50%(1).wav",70
+Sample,113763,0,"drum loop 50%(2).wav",70
+Sample,113842,0,"drum loop 50%(3).wav",70
+Sample,113921,0,"drum loop 50%(4).wav",70
+Sample,114000,0,"drum loop 50%(5).wav",70
+Sample,114078,0,"drum loop 50%(6).wav",70
+Sample,114157,0,"drum loop 50%(7).wav",70
+Sample,114236,0,"drum loop 50%(8).wav",70
+Sample,114315,0,"drum loop 50%(9).wav",70
+Sample,114394,0,"drum loop 50%(10).wav",70
+Sample,114473,0,"drum loop 50%(11).wav",70
+Sample,114552,0,"drum loop 50%(12).wav",70
+Sample,114631,0,"drum loop 50%(13).wav",70
+Sample,114710,0,"drum loop 50%(14).wav",70
+Sample,114789,0,"drum loop 50%(15).wav",70
+Sample,114868,0,"drum loop 50%(16).wav",70
+Sample,114947,0,"clap.wav",70
+Sample,114947,0,"pad #10.wav",70
+Sample,114947,0,"bass #2.wav",70
+Sample,115105,0,"percussion #1.wav",70
+Sample,115342,0,"drum loop (7).wav",70
+Sample,115421,0,"pad #10.wav",70
+Sample,115421,0,"bass #2.wav",70
+Sample,115421,0,"percussion #1.wav",70
+Sample,115578,0,"clap.wav",70
+Sample,115815,0,"drum loop (7).wav",70
+Sample,115894,0,"bass #3.wav",70
+Sample,115894,0,"clap.wav",70
+Sample,115894,0,"pad #10.wav",70
+Sample,116052,0,"percussion #2.wav",70
+Sample,116131,0,"percussion #2.wav",70
+Sample,116210,0,"drum loop 50%(1).wav",70
+Sample,116289,0,"drum loop 50%(2).wav",70
+Sample,116368,0,"drum loop 50%(3).wav",70
+Sample,116447,0,"drum loop 50%(4).wav",70
+Sample,116526,0,"drum loop 50%(5).wav",70
+Sample,116605,0,"drum loop 50%(6).wav",70
+Sample,116684,0,"drum loop 50%(7).wav",70
+Sample,116763,0,"drum loop 50%(8).wav",70
+Sample,116842,0,"drum loop 50%(9).wav",70
+Sample,116921,0,"drum loop 50%(10).wav",70
+Sample,117000,0,"drum loop 50%(11).wav",70
+Sample,117078,0,"drum loop 50%(12).wav",70
+Sample,117473,0,"drum loop (1).wav",70
+Sample,117473,0,"8bit_pu (1).wav",70
+Sample,117473,0,"pad #9.wav",70
+Sample,117473,0,"lead_pu.wav",70
+Sample,117552,0,"drum loop (2).wav",70
+Sample,117552,0,"8bit_pu (2).wav",70
+Sample,117631,0,"8bit_pu (3).wav",70
+Sample,117631,0,"drum loop (3).wav",70
+Sample,117631,0,"bass_pu #1.wav",70
+Sample,117710,0,"drum loop (4).wav",70
+Sample,117710,0,"8bit_pu (4).wav",70
+Sample,117789,0,"drum loop (5).wav",70
+Sample,117789,0,"8bit_pu (5).wav",70
+Sample,117868,0,"drum loop (6).wav",70
+Sample,117868,0,"8bit_pu (6).wav",70
+Sample,117947,0,"8bit_pu (7).wav",70
+Sample,117947,0,"bass_pu #2.wav",70
+Sample,117947,0,"drum loop (7).wav",70
+Sample,118026,0,"8bit_pu (8).wav",70
+Sample,118026,0,"drum loop (8).wav",70
+Sample,118105,0,"8bit_pu (9).wav",70
+Sample,118105,0,"drum loop (9).wav",70
+Sample,118184,0,"8bit_pu (10).wav",70
+Sample,118184,0,"drum loop (10).wav",70
+Sample,118263,0,"8bit_pu (11).wav",70
+Sample,118263,0,"bass_pu #3.wav",70
+Sample,118263,0,"drum loop (11).wav",70
+Sample,118342,0,"8bit_pu (12).wav",70
+Sample,118342,0,"drum loop (12).wav",70
+Sample,118421,0,"drum loop (13).wav",70
+Sample,118421,0,"8bit_pu (13).wav",70
+Sample,118500,0,"8bit_pu (14).wav",70
+Sample,118500,0,"drum loop (14).wav",70
+Sample,118578,0,"drum loop (15).wav",70
+Sample,118578,0,"8bit_pu (15).wav",70
+Sample,118578,0,"bass_pu #4.wav",70
+Sample,118657,0,"drum loop (16).wav",70
+Sample,118657,0,"8bit_pu (16).wav",70
+Sample,118736,0,"8bit_pu (17).wav",70
+Sample,118736,0,"drum loop (1).wav",70
+Sample,118815,0,"8bit_pu (18).wav",70
+Sample,118815,0,"drum loop (2).wav",70
+Sample,118894,0,"8bit_pu (19).wav",70
+Sample,118894,0,"bass_pu #5.wav",70
+Sample,118894,0,"drum loop (3).wav",70
+Sample,118973,0,"8bit_pu (20).wav",70
+Sample,118973,0,"drum loop (4).wav",70
+Sample,119052,0,"drum loop (5).wav",70
+Sample,119052,0,"8bit_pu (21).wav",70
+Sample,119131,0,"8bit_pu (22).wav",70
+Sample,119131,0,"drum loop (6).wav",70
+Sample,119210,0,"drum loop (7).wav",70
+Sample,119210,0,"bass_pu #6.wav",70
+Sample,119210,0,"8bit_pu (23).wav",70
+Sample,119289,0,"drum loop (8).wav",70
+Sample,119289,0,"8bit_pu (24).wav",70
+Sample,119368,0,"drum loop (9).wav",70
+Sample,119368,0,"8bit_pu (25).wav",70
+Sample,119447,0,"drum loop (10).wav",70
+Sample,119447,0,"8bit_pu (26).wav",70
+Sample,119526,0,"drum loop (11).wav",70
+Sample,119526,0,"8bit_pu (27).wav",70
+Sample,119526,0,"bass_pu #7.wav",70
+Sample,119605,0,"8bit_pu (28).wav",70
+Sample,119605,0,"drum loop (12).wav",70
+Sample,119684,0,"drum loop (13).wav",70
+Sample,119684,0,"8bit_pu (29).wav",70
+Sample,119763,0,"8bit_pu (30).wav",70
+Sample,119763,0,"drum loop (14).wav",70
+Sample,119842,0,"drum loop (15).wav",70
+Sample,119842,0,"percussion #2.wav",70
+Sample,119842,0,"hi hat.wav",70
+Sample,119842,0,"8bit_pu (31).wav",70
+Sample,119842,0,"bass_pu #8.wav",70
+Sample,119921,0,"percussion #2.wav",70
+Sample,119921,0,"8bit_pu (32).wav",70
+Sample,119921,0,"drum loop (16).wav",70
+Sample,120000,0,"rev cymbal.wav",70
+Sample,120000,0,"drum loop (1).wav",70
+Sample,120000,0,"clap.wav",70
+Sample,120078,0,"drum loop (2).wav",70
+Sample,120157,0,"percussion #1.wav",70
+Sample,120157,0,"bass_pu #9.wav",70
+Sample,120157,0,"hi hat.wav",70
+Sample,120157,0,"drum loop (3).wav",70
+Sample,120236,0,"drum loop (4).wav",70
+Sample,120315,0,"clap.wav",70
+Sample,120315,0,"drum loop (5).wav",70
+Sample,120394,0,"drum loop (6).wav",70
+Sample,120473,0,"percussion #1.wav",70
+Sample,120473,0,"hi hat.wav",70
+Sample,120473,0,"bass_pu #10.wav",70
+Sample,120473,0,"drum loop (7).wav",70
+Sample,120552,0,"drum loop (8).wav",70
+Sample,120631,0,"drum loop (9).wav",70
+Sample,120631,0,"clap.wav",70
+Sample,120710,0,"drum loop (10).wav",70
+Sample,120789,0,"hi hat.wav",70
+Sample,120789,0,"percussion #1.wav",70
+Sample,120789,0,"drum loop (11).wav",70
+Sample,120789,0,"bass_pu #11.wav",70
+Sample,120868,0,"drum loop (12).wav",70
+Sample,120947,0,"clap.wav",70
+Sample,120947,0,"drum loop (13).wav",70
+Sample,121026,0,"drum loop (14).wav",70
+Sample,121105,0,"percussion #2.wav",70
+Sample,121105,0,"hi hat.wav",70
+Sample,121105,0,"drum loop (15).wav",70
+Sample,121105,0,"bass_pu #12.wav",70
+Sample,121184,0,"percussion #2.wav",70
+Sample,121184,0,"drum loop (16).wav",70
+Sample,121736,0,"vc #4.wav",70
+Sample,122210,0,"rev cymbal(short).wav",70
+
+[TimingPoints]
+43,315.789473684211,4,2,0,0,1,0
+
+
+[HitObjects]
+36,192,43,5,0,0:0:0:70:impact.wav
+402,192,43,1,0,0:0:0:70:cu_pluck (1).wav
+256,192,200,1,0,0:0:0:70:cu_pluck (2).wav
+402,192,358,1,0,0:0:0:70:cu_pluck (3).wav
+256,192,516,1,0,0:0:0:70:cu_pluck (4).wav
+402,192,674,1,0,0:0:0:70:cu_pluck (5).wav
+256,192,832,1,0,0:0:0:70:cu_pluck (6).wav
+402,192,990,1,0,0:0:0:70:cu_pluck (7).wav
+109,192,1148,1,0,0:0:0:0:
+256,192,1306,1,0,0:0:0:0:
+109,192,1464,1,0,0:0:0:0:
+256,192,1621,1,0,0:0:0:0:
+109,192,1779,1,0,0:0:0:0:
+256,192,1937,1,0,0:0:0:0:
+109,192,2095,1,0,0:0:0:0:
+256,192,2253,1,0,0:0:0:0:
+109,192,2411,1,0,0:0:0:0:
+36,192,2569,1,0,0:0:0:70:cu_pluck (17).wav
+182,192,2727,1,0,0:0:0:70:cu_pluck (18).wav
+36,192,2885,1,0,0:0:0:70:cu_pluck (19).wav
+182,192,3043,1,0,0:0:0:70:cu_pluck (20).wav
+36,192,3200,1,0,0:0:0:70:cu_pluck (21).wav
+182,192,3358,1,0,0:0:0:70:cu_pluck (22).wav
+36,192,3516,1,0,0:0:0:70:cu_pluck (23).wav
+182,192,3674,1,0,0:0:0:70:cu_pluck (24).wav
+36,192,3832,1,0,0:0:0:70:cu_pluck (25).wav
+182,192,3990,1,0,0:0:0:70:cu_pluck (26).wav
+36,192,4148,1,0,0:0:0:70:cu_pluck (27).wav
+182,192,4306,1,0,0:0:0:70:cu_pluck (28).wav
+36,192,4464,1,0,0:0:0:70:cu_pluck (29).wav
+182,192,4621,1,0,0:0:0:70:cu_pluck (30).wav
+36,192,4779,1,0,0:0:0:70:cu_pluck (31).wav
+182,192,4937,1,0,0:0:0:70:cu_pluck (32).wav
+256,192,5095,1,0,0:0:0:70:cu_pluck (33).wav
+402,192,5253,1,0,0:0:0:70:cu_pluck (34).wav
+256,192,5411,1,0,0:0:0:70:cu_pluck (35).wav
+402,192,5569,1,0,0:0:0:70:cu_pluck (36).wav
+256,192,5727,1,0,0:0:0:70:cu_pluck (37).wav
+402,192,5885,1,0,0:0:0:70:cu_pluck (38).wav
+256,192,6043,1,0,0:0:0:70:cu_pluck (39).wav
+475,192,6200,1,0,0:0:0:70:cu_pluck (40).wav
+329,192,6358,1,0,0:0:0:70:cu_pluck (41).wav
+475,192,6516,1,0,0:0:0:70:cu_pluck (42).wav
+329,192,6674,1,0,0:0:0:70:cu_pluck (43).wav
+475,192,6832,1,0,0:0:0:70:cu_pluck (44).wav
+329,192,6990,1,0,0:0:0:70:cu_pluck (45).wav
+475,192,7148,1,0,0:0:0:70:cu_pluck (46).wav
+329,192,7306,1,0,0:0:0:70:cu_pluck (47).wav
+475,192,7464,1,0,0:0:0:70:cu_pluck (48).wav
+36,192,7621,1,0,0:0:0:70:cu_pluck (49).wav
+256,192,7779,1,0,0:0:0:70:cu_pluck (50).wav
+36,192,7937,1,0,0:0:0:70:cu_pluck (51).wav
+256,192,8095,1,0,0:0:0:70:cu_pluck (52).wav
+36,192,8253,1,0,0:0:0:70:cu_pluck (53).wav
+256,192,8411,1,0,0:0:0:70:cu_pluck (54).wav
+36,192,8569,1,0,0:0:0:70:cu_pluck (55).wav
+256,192,8727,1,0,0:0:0:70:cu_pluck (56).wav
+109,192,8885,1,0,0:0:0:70:cu_pluck (57).wav
+402,192,9043,1,0,0:0:0:70:cu_pluck (58).wav
+109,192,9200,1,0,0:0:0:70:cu_pluck (59).wav
+402,192,9358,1,0,0:0:0:70:cu_pluck (60).wav
+109,192,9516,1,0,0:0:0:70:cu_pluck (61).wav
+402,192,9674,1,0,0:0:0:70:cu_pluck (62).wav
+109,192,9832,1,0,0:0:0:70:cu_pluck (63).wav
+402,192,9990,1,0,0:0:0:70:cu_pluck (64).wav
+36,192,10148,1,0,0:0:0:70:kick.wav
+109,192,10148,1,0,0:0:0:70:clap.wav
+329,192,10148,1,0,0:0:0:70:pluck #1.wav
+182,192,10306,1,0,0:0:0:70:hi hat.wav
+329,192,10306,1,0,0:0:0:70:pluck #1.wav
+475,192,10306,1,0,0:0:0:70:percussion #1.wav
+36,192,10464,1,0,0:0:0:70:kick.wav
+256,192,10464,1,0,0:0:0:70:clap.wav
+329,192,10464,1,0,0:0:0:70:pluck #1.wav
+182,192,10621,1,0,0:0:0:70:hi hat.wav
+329,192,10621,1,0,0:0:0:70:pluck #1.wav
+475,192,10621,1,0,0:0:0:70:percussion #1.wav
+36,192,10779,1,0,0:0:0:70:kick.wav
+256,192,10779,1,0,0:0:0:70:clap.wav
+329,192,10779,1,0,0:0:0:70:pluck #1.wav
+109,192,10937,1,0,0:0:0:70:hi hat.wav
+329,192,10937,1,0,0:0:0:70:pluck #1.wav
+475,192,10937,1,0,0:0:0:70:percussion #1.wav
+36,192,11095,1,0,0:0:0:70:kick.wav
+329,192,11095,1,0,0:0:0:70:pluck #1.wav
+402,192,11095,1,0,0:0:0:70:clap.wav
+109,192,11253,1,0,0:0:0:70:hi hat.wav
+182,192,11253,1,0,0:0:0:70:pluck #2.wav
+475,192,11253,1,0,0:0:0:70:percussion #2.wav
+256,192,11332,1,0,0:0:0:70:percussion #2.wav
+36,192,11411,1,0,0:0:0:70:kick.wav
+182,192,11411,1,0,0:0:0:70:pluck #2.wav
+329,192,11411,1,0,0:0:0:70:clap.wav
+182,192,11569,1,0,0:0:0:70:pluck #2.wav
+402,192,11569,1,0,0:0:0:70:hi hat.wav
+475,192,11569,1,0,0:0:0:70:percussion #1.wav
+36,192,11727,1,0,0:0:0:70:kick.wav
+182,192,11727,1,0,0:0:0:70:pluck #2.wav
+329,192,11727,1,0,0:0:0:70:clap.wav
+182,192,11885,1,0,0:0:0:70:pluck #2.wav
+402,192,11885,1,0,0:0:0:70:hi hat.wav
+475,192,11885,1,0,0:0:0:70:percussion #1.wav
+36,192,12043,1,0,0:0:0:70:kick.wav
+109,192,12043,1,0,0:0:0:70:clap.wav
+182,192,12043,1,0,0:0:0:70:pluck #2.wav
+182,192,12200,1,0,0:0:0:70:pluck #2.wav
+256,192,12200,1,0,0:0:0:70:hi hat.wav
+475,192,12200,1,0,0:0:0:70:percussion #1.wav
+36,192,12358,1,0,0:0:0:70:kick.wav
+182,192,12358,1,0,0:0:0:70:pluck #2.wav
+329,192,12358,1,0,0:0:0:70:clap.wav
+182,192,12516,1,0,0:0:0:70:pluck #2.wav
+256,192,12516,1,0,0:0:0:70:hi hat.wav
+475,192,12516,1,0,0:0:0:70:percussion #2.wav
+329,192,12595,1,0,0:0:0:70:percussion #2.wav
+36,192,12674,1,0,0:0:0:70:kick.wav
+109,192,12674,1,0,0:0:0:70:pluck #3.wav
+402,192,12674,1,0,0:0:0:70:clap.wav
+109,192,12832,1,0,0:0:0:70:pluck #3.wav
+329,192,12832,1,0,0:0:0:70:hi hat.wav
+475,192,12832,1,0,0:0:0:70:percussion #1.wav
+36,192,12990,1,0,0:0:0:70:kick.wav
+109,192,12990,1,0,0:0:0:70:pluck #3.wav
+182,192,12990,1,0,0:0:0:70:clap.wav
+109,192,13148,1,0,0:0:0:70:pluck #3.wav
+329,192,13148,1,0,0:0:0:70:hi hat.wav
+475,192,13148,1,0,0:0:0:70:percussion #1.wav
+36,192,13306,1,0,0:0:0:70:kick.wav
+109,192,13306,1,0,0:0:0:70:pluck #3.wav
+256,192,13306,1,0,0:0:0:70:clap.wav
+109,192,13464,1,0,0:0:0:70:pluck #3.wav
+402,192,13464,1,0,0:0:0:70:hi hat.wav
+475,192,13464,1,0,0:0:0:70:percussion #1.wav
+36,192,13621,1,0,0:0:0:70:kick.wav
+109,192,13621,1,0,0:0:0:70:pluck #3.wav
+329,192,13621,1,0,0:0:0:70:clap.wav
+109,192,13779,1,0,0:0:0:70:pluck #3.wav
+256,192,13779,1,0,0:0:0:70:hi hat.wav
+475,192,13779,1,0,0:0:0:70:percussion #2.wav
+329,192,13858,1,0,0:0:0:70:percussion #2.wav
+36,192,13937,1,0,0:0:0:70:kick.wav
+109,192,13937,1,0,0:0:0:70:pluck #3.wav
+402,192,13937,1,0,0:0:0:70:clap.wav
+109,192,14095,1,0,0:0:0:70:pluck #3.wav
+256,192,14095,1,0,0:0:0:70:hi hat.wav
+475,192,14095,1,0,0:0:0:70:percussion #1.wav
+36,192,14253,1,0,0:0:0:70:kick.wav
+109,192,14253,1,0,0:0:0:70:pluck #3.wav
+329,192,14253,1,0,0:0:0:70:clap.wav
+109,192,14411,1,0,0:0:0:70:pluck #3.wav
+256,192,14411,1,0,0:0:0:70:hi hat.wav
+475,192,14411,1,0,0:0:0:70:percussion #1.wav
+36,192,14569,1,0,0:0:0:70:kick.wav
+109,192,14569,1,0,0:0:0:70:pluck #3.wav
+402,192,14569,1,0,0:0:0:70:clap.wav
+109,192,14727,1,0,0:0:0:70:pluck #3.wav
+182,192,14727,1,0,0:0:0:70:hi hat.wav
+475,192,14727,1,0,0:0:0:70:percussion #1.wav
+36,192,14885,1,0,0:0:0:70:kick.wav
+109,192,14885,1,0,0:0:0:70:pluck #3.wav
+329,192,14885,1,0,0:0:0:70:clap.wav
+109,192,15043,1,0,0:0:0:70:pluck #3.wav
+182,192,15043,1,0,0:0:0:70:hi hat.wav
+475,192,15043,1,0,0:0:0:70:percussion #2.wav
+329,192,15121,1,0,0:0:0:70:percussion #2.wav
+36,192,15200,1,0,0:0:0:70:kick.wav
+256,192,15200,1,0,0:0:0:70:pluck #1.wav
+402,192,15200,1,0,0:0:0:70:clap.wav
+109,192,15358,1,0,0:0:0:70:hi hat.wav
+256,192,15358,1,0,0:0:0:70:pluck #1.wav
+475,192,15358,1,0,0:0:0:70:percussion #1.wav
+36,192,15516,1,0,0:0:0:70:kick.wav
+256,192,15516,1,0,0:0:0:70:pluck #1.wav
+329,192,15516,1,0,0:0:0:70:clap.wav
+109,192,15674,1,0,0:0:0:70:hi hat.wav
+256,192,15674,1,0,0:0:0:70:pluck #1.wav
+475,192,15674,1,0,0:0:0:70:percussion #1.wav
+36,192,15832,1,0,0:0:0:70:kick.wav
+256,192,15832,1,0,0:0:0:70:pluck #1.wav
+402,192,15832,1,0,0:0:0:70:clap.wav
+182,192,15990,1,0,0:0:0:70:hi hat.wav
+256,192,15990,1,0,0:0:0:70:pluck #1.wav
+475,192,15990,1,0,0:0:0:70:percussion #1.wav
+36,192,16148,1,0,0:0:0:70:kick.wav
+109,192,16148,1,0,0:0:0:70:clap.wav
+256,192,16148,1,0,0:0:0:70:pluck #1.wav
+182,192,16306,1,0,0:0:0:70:hi hat.wav
+329,192,16306,1,0,0:0:0:70:pluck #4.wav
+475,192,16306,1,0,0:0:0:70:percussion #2.wav
+109,192,16385,1,0,0:0:0:70:percussion #2.wav
+36,192,16464,1,0,0:0:0:70:kick.wav
+329,192,16464,1,0,0:0:0:70:clap.wav
+402,192,16464,1,0,0:0:0:70:pluck #4.wav
+109,192,16621,1,0,0:0:0:70:fade in snare (19).wav
+256,192,16621,1,0,0:0:0:70:hi hat.wav
+402,192,16621,1,0,0:0:0:70:pluck #4.wav
+475,192,16621,1,0,0:0:0:70:percussion #1.wav
+36,192,16779,1,0,0:0:0:70:kick.wav
+182,192,16779,1,0,0:0:0:70:clap.wav
+402,192,16779,1,0,0:0:0:70:pluck #4.wav
+256,192,16937,1,0,0:0:0:70:hi hat.wav
+402,192,16937,1,0,0:0:0:70:pluck #4.wav
+475,192,16937,1,0,0:0:0:70:percussion #1.wav
+36,192,17095,1,0,0:0:0:70:kick.wav
+109,192,17095,1,0,0:0:0:70:clap.wav
+402,192,17095,1,0,0:0:0:70:pluck #4.wav
+182,192,17253,1,0,0:0:0:70:hi hat.wav
+256,192,17253,1,0,0:0:0:70:fade in snare (27).wav
+402,192,17253,1,0,0:0:0:70:pluck #4.wav
+475,192,17253,1,0,0:0:0:70:percussion #1.wav
+36,192,17411,1,0,0:0:0:70:kick.wav
+329,192,17411,1,0,0:0:0:70:clap.wav
+402,192,17411,1,0,0:0:0:70:pluck #4.wav
+182,192,17569,1,0,0:0:0:70:hi hat.wav
+402,192,17569,1,0,0:0:0:70:pluck #4.wav
+475,192,17569,1,0,0:0:0:70:percussion #2.wav
+256,192,17648,1,0,0:0:0:70:percussion #2.wav
+36,192,17727,1,0,0:0:0:70:kick.wav
+109,192,17727,1,0,0:0:0:70:clap.wav
+329,192,17727,1,0,0:0:0:70:pluck #3.wav
+182,192,17806,1,0,0:0:0:70:fade in snare (34).wav
+329,192,17885,1,0,0:0:0:70:pluck #3.wav
+475,192,17885,1,0,0:0:0:70:percussion #1.wav
+182,192,17964,1,0,0:0:0:70:fade in snare (36).wav
+36,192,18043,1,0,0:0:0:70:kick.wav
+329,192,18043,1,0,0:0:0:70:pluck #3.wav
+402,192,18043,1,0,0:0:0:70:clap.wav
+182,192,18121,1,0,0:0:0:70:fade in snare (38).wav
+329,192,18200,1,0,0:0:0:70:pluck #3.wav
+475,192,18200,1,0,0:0:0:70:percussion #1.wav
+182,192,18279,1,0,0:0:0:70:fade in snare (40).wav
+36,192,18358,1,0,0:0:0:70:kick.wav
+256,192,18358,1,0,0:0:0:70:pluck #3.wav
+402,192,18358,1,0,0:0:0:70:clap.wav
+109,192,18437,1,0,0:0:0:70:fade in snare (42).wav
+256,192,18516,1,0,0:0:0:70:pluck #3.wav
+475,192,18516,1,0,0:0:0:70:percussion #1.wav
+109,192,18595,1,0,0:0:0:70:fade in snare (44).wav
+36,192,18674,1,0,0:0:0:70:kick.wav
+256,192,18674,1,0,0:0:0:70:pluck #3.wav
+329,192,18674,1,0,0:0:0:70:clap.wav
+109,192,18753,1,0,0:0:0:70:fade in snare (46).wav
+256,192,18832,1,0,0:0:0:70:pluck #3.wav
+475,192,18832,1,0,0:0:0:70:percussion #2.wav
+109,192,18911,1,0,0:0:0:70:fade in snare (48).wav
+402,192,18911,1,0,0:0:0:70:percussion #2.wav
+182,192,18990,1,0,0:0:0:70:vc2 #1.wav
+329,192,19148,1,0,0:0:0:70:vc2 #2.wav
+182,192,19227,1,0,0:0:0:70:vc2 #3.wav
+329,192,19385,1,0,0:0:0:70:vc2 #4.wav
+182,192,19464,1,0,0:0:0:70:vc2 #5.wav
+182,192,19621,1,0,0:0:0:70:vc2 #6.wav
+182,192,19740,1,0,0:0:0:0:
+182,192,19858,1,0,0:0:0:70:vc2 #7.wav
+109,192,19937,1,0,0:0:0:0:
+256,192,19937,1,0,0:0:0:70:impact.wav
+402,192,19937,1,0,0:0:0:0:
+36,192,20253,1,0,0:0:0:70:kick.wav
+182,192,20253,1,0,0:0:0:70:8bit 1 #1.wav
+475,192,20253,1,0,0:0:0:70:clap.wav
+256,192,20332,1,0,0:0:0:70:8bit 1 #2.wav
+109,192,20411,1,0,0:0:0:70:percussion #1.wav
+329,192,20411,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,20490,1,0,0:0:0:70:8bit 1 #4.wav
+36,192,20569,1,0,0:0:0:70:kick.wav
+182,192,20569,1,0,0:0:0:70:snare #1.wav
+256,192,20569,1,0,0:0:0:70:clap.wav
+475,192,20569,1,0,0:0:0:70:8bit 1 #5.wav
+402,192,20648,1,0,0:0:0:70:8bit 1 #6.wav
+109,192,20727,1,0,0:0:0:70:percussion #1.wav
+329,192,20727,1,0,0:0:0:70:8bit 1 #4.wav
+256,192,20806,1,0,0:0:0:70:8bit 1 #3.wav
+36,192,20885,1,0,0:0:0:70:kick.wav
+182,192,20885,1,0,0:0:0:70:8bit 1 #1.wav
+475,192,20885,1,0,0:0:0:70:clap.wav
+109,192,20964,1,0,0:0:0:70:8bit 1 #2.wav
+182,192,21043,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,21043,1,0,0:0:0:70:percussion #1.wav
+256,192,21121,1,0,0:0:0:70:8bit 1 #4.wav
+36,192,21200,1,0,0:0:0:70:kick.wav
+109,192,21200,1,0,0:0:0:70:snare #1.wav
+329,192,21200,1,0,0:0:0:70:8bit 1 #5.wav
+475,192,21200,1,0,0:0:0:70:clap.wav
+256,192,21279,1,0,0:0:0:70:8bit 1 #6.wav
+182,192,21358,1,0,0:0:0:70:8bit 1 #4.wav
+402,192,21358,1,0,0:0:0:70:percussion #2.wav
+109,192,21437,1,0,0:0:0:70:8bit 1 #3.wav
+329,192,21437,1,0,0:0:0:70:percussion #2.wav
+36,192,21516,1,0,0:0:0:70:kick.wav
+182,192,21516,1,0,0:0:0:70:8bit 1 #1.wav
+402,192,21516,1,0,0:0:0:70:clap.wav
+256,192,21595,1,0,0:0:0:70:8bit 1 #2.wav
+109,192,21674,1,0,0:0:0:70:percussion #1.wav
+329,192,21674,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,21753,1,0,0:0:0:70:8bit 1 #4.wav
+36,192,21832,1,0,0:0:0:70:kick.wav
+182,192,21832,1,0,0:0:0:70:snare #1.wav
+256,192,21832,1,0,0:0:0:70:clap.wav
+475,192,21832,1,0,0:0:0:70:8bit 1 #5.wav
+402,192,21911,1,0,0:0:0:70:8bit 1 #6.wav
+109,192,21990,1,0,0:0:0:70:percussion #1.wav
+329,192,21990,1,0,0:0:0:70:8bit 1 #4.wav
+256,192,22069,1,0,0:0:0:70:8bit 1 #3.wav
+36,192,22148,1,0,0:0:0:70:kick.wav
+182,192,22148,1,0,0:0:0:70:8bit 1 #1.wav
+402,192,22148,1,0,0:0:0:70:clap.wav
+109,192,22227,1,0,0:0:0:70:8bit 1 #2.wav
+329,192,22306,1,0,0:0:0:70:percussion #1.wav
+182,192,22306,1,0,0:0:0:70:8bit 1 #3.wav
+256,192,22385,1,0,0:0:0:70:8bit 1 #4.wav
+402,192,22464,1,0,0:0:0:70:m_pluck #1.wav
+475,192,22464,1,0,0:0:0:70:8bit 1 #5.wav
+182,192,22543,1,0,0:0:0:70:m_pluck #2.wav
+256,192,22543,1,0,0:0:0:70:8bit 1 #6.wav
+329,192,22621,1,0,0:0:0:70:m_pluck #3.wav
+402,192,22621,1,0,0:0:0:70:8bit 1 #4.wav
+109,192,22700,1,0,0:0:0:70:m_pluck #4.wav
+182,192,22700,1,0,0:0:0:70:8bit 1 #3.wav
+36,192,22779,1,0,0:0:0:70:8bit 1 #1.wav
+329,192,22779,1,0,0:0:0:70:clap.wav
+475,192,22779,1,0,0:0:0:70:kick.wav
+109,192,22858,1,0,0:0:0:70:8bit 1 #2.wav
+182,192,22937,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,22937,1,0,0:0:0:70:percussion #1.wav
+256,192,23016,1,0,0:0:0:70:8bit 1 #4.wav
+36,192,23095,1,0,0:0:0:70:clap.wav
+182,192,23095,1,0,0:0:0:70:snare #1.wav
+329,192,23095,1,0,0:0:0:70:8bit 1 #5.wav
+475,192,23095,1,0,0:0:0:70:kick.wav
+256,192,23174,1,0,0:0:0:70:8bit 1 #6.wav
+182,192,23253,1,0,0:0:0:70:8bit 1 #4.wav
+402,192,23253,1,0,0:0:0:70:percussion #1.wav
+109,192,23332,1,0,0:0:0:70:8bit 1 #3.wav
+36,192,23411,1,0,0:0:0:70:8bit 1 #1.wav
+329,192,23411,1,0,0:0:0:70:clap.wav
+475,192,23411,1,0,0:0:0:70:kick.wav
+109,192,23490,1,0,0:0:0:70:8bit 1 #2.wav
+182,192,23569,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,23569,1,0,0:0:0:70:percussion #1.wav
+256,192,23648,1,0,0:0:0:70:8bit 1 #4.wav
+36,192,23727,1,0,0:0:0:70:snare #1.wav
+109,192,23727,1,0,0:0:0:70:clap.wav
+329,192,23727,1,0,0:0:0:70:8bit 1 #5.wav
+475,192,23727,1,0,0:0:0:70:kick.wav
+256,192,23806,1,0,0:0:0:70:8bit 1 #6.wav
+182,192,23885,1,0,0:0:0:70:8bit 1 #4.wav
+402,192,23885,1,0,0:0:0:70:percussion #2.wav
+109,192,23964,1,0,0:0:0:70:8bit 1 #3.wav
+329,192,23964,1,0,0:0:0:70:percussion #2.wav
+36,192,24043,128,0,25148:0:0:0:0:
+182,192,24043,1,0,0:0:0:70:8bit 1 #1.wav
+475,192,24043,1,0,0:0:0:70:clap.wav
+329,192,24121,1,0,0:0:0:70:8bit 1 #2.wav
+256,192,24200,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,24279,1,0,0:0:0:70:8bit 1 #4.wav
+329,192,24358,1,0,0:0:0:70:8bit 1 #5.wav
+475,192,24437,1,0,0:0:0:70:8bit 1 #6.wav
+256,192,24516,1,0,0:0:0:70:8bit 1 #4.wav
+402,192,24595,1,0,0:0:0:70:8bit 1 #3.wav
+182,192,24674,1,0,0:0:0:0:
+329,192,24753,1,0,0:0:0:70:8bit 1 #2.wav
+256,192,24832,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,24911,1,0,0:0:0:70:8bit 1 #4.wav
+475,192,24990,1,0,0:0:0:70:8bit 1 #5.wav
+256,192,25069,1,0,0:0:0:70:8bit 1 #6.wav
+402,192,25148,1,0,0:0:0:70:8bit 1 #4.wav
+182,192,25227,1,0,0:0:0:70:8bit 1 #3.wav
+36,192,25306,1,0,0:0:0:70:clap.wav
+329,192,25306,1,0,0:0:0:70:8bit 1 #1.wav
+475,192,25306,1,0,0:0:0:70:kick.wav
+109,192,25385,1,0,0:0:0:70:8bit 1 #2.wav
+182,192,25464,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,25464,1,0,0:0:0:70:percussion #1.wav
+256,192,25543,1,0,0:0:0:70:8bit 1 #4.wav
+36,192,25621,1,0,0:0:0:70:8bit 1 #5.wav
+109,192,25621,1,0,0:0:0:70:clap.wav
+329,192,25621,1,0,0:0:0:70:snare #1.wav
+475,192,25621,1,0,0:0:0:70:kick.wav
+182,192,25700,1,0,0:0:0:70:8bit 1 #6.wav
+402,192,25779,1,0,0:0:0:70:8bit 1 #4.wav
+109,192,25779,1,0,0:0:0:70:percussion #1.wav
+256,192,25858,1,0,0:0:0:70:8bit 1 #3.wav
+36,192,25937,1,0,0:0:0:70:clap.wav
+329,192,25937,1,0,0:0:0:70:8bit 1 #1.wav
+475,192,25937,1,0,0:0:0:70:kick.wav
+109,192,26016,1,0,0:0:0:70:8bit 1 #2.wav
+402,192,26095,1,0,0:0:0:70:percussion #1.wav
+182,192,26095,1,0,0:0:0:70:8bit 1 #3.wav
+256,192,26174,1,0,0:0:0:70:8bit 1 #4.wav
+36,192,26253,1,0,0:0:0:70:snare #1.wav
+329,192,26253,1,0,0:0:0:70:8bit 1 #5.wav
+109,192,26253,1,0,0:0:0:70:clap.wav
+475,192,26253,1,0,0:0:0:70:kick.wav
+182,192,26332,1,0,0:0:0:70:8bit 1 #6.wav
+402,192,26411,1,0,0:0:0:70:percussion #2.wav
+109,192,26411,1,0,0:0:0:70:8bit 1 #4.wav
+256,192,26490,1,0,0:0:0:70:percussion #2.wav
+36,192,26569,1,0,0:0:0:70:clap.wav
+182,192,26569,1,0,0:0:0:70:8bit 1 #1.wav
+475,192,26569,1,0,0:0:0:70:kick.wav
+402,192,26648,1,0,0:0:0:70:8bit 1 #2.wav
+109,192,26727,1,0,0:0:0:70:8bit 1 #3.wav
+329,192,26727,1,0,0:0:0:70:percussion #1.wav
+256,192,26806,1,0,0:0:0:70:8bit 1 #4.wav
+36,192,26885,1,0,0:0:0:70:8bit 1 #5.wav
+182,192,26885,1,0,0:0:0:70:snare #1.wav
+329,192,26885,1,0,0:0:0:70:clap.wav
+475,192,26885,1,0,0:0:0:70:kick.wav
+109,192,26964,1,0,0:0:0:70:8bit 1 #6.wav
+256,192,27043,1,0,0:0:0:70:8bit 1 #4.wav
+402,192,27043,1,0,0:0:0:70:percussion #1.wav
+182,192,27121,1,0,0:0:0:70:8bit 1 #3.wav
+36,192,27200,1,0,0:0:0:70:clap.wav
+329,192,27200,1,0,0:0:0:70:8bit 1 #1.wav
+475,192,27200,1,0,0:0:0:70:kick.wav
+256,192,27279,1,0,0:0:0:70:8bit 1 #2.wav
+182,192,27358,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,27358,1,0,0:0:0:70:percussion #1.wav
+109,192,27437,1,0,0:0:0:70:8bit 1 #4.wav
+36,192,27516,1,0,0:0:0:0:
+329,192,27516,1,0,0:0:0:70:8bit 1 #5.wav
+475,192,27516,1,0,0:0:0:70:m_pluck #1.wav
+256,192,27595,1,0,0:0:0:70:8bit 1 #6.wav
+402,192,27595,1,0,0:0:0:70:m_pluck #2.wav
+182,192,27674,1,0,0:0:0:70:8bit 1 #4.wav
+329,192,27674,1,0,0:0:0:70:m_pluck #3.wav
+109,192,27753,1,0,0:0:0:70:m_pluck #4.wav
+256,192,27753,1,0,0:0:0:70:8bit 1 #3.wav
+36,192,27832,1,0,0:0:0:70:kick.wav
+329,192,27832,1,0,0:0:0:70:clap.wav
+475,192,27832,1,0,0:0:0:70:8bit 1 #1.wav
+402,192,27911,1,0,0:0:0:70:8bit 1 #2.wav
+109,192,27990,1,0,0:0:0:70:percussion #1.wav
+329,192,27990,1,0,0:0:0:70:8bit 1 #3.wav
+256,192,28069,1,0,0:0:0:70:8bit 1 #4.wav
+36,192,28148,1,0,0:0:0:70:kick.wav
+182,192,28148,1,0,0:0:0:70:8bit 1 #5.wav
+402,192,28148,1,0,0:0:0:70:clap.wav
+475,192,28148,1,0,0:0:0:70:snare #1.wav
+256,192,28227,1,0,0:0:0:70:8bit 1 #6.wav
+109,192,28306,1,0,0:0:0:70:percussion #1.wav
+329,192,28306,1,0,0:0:0:70:8bit 1 #4.wav
+402,192,28385,1,0,0:0:0:70:8bit 1 #3.wav
+36,192,28464,1,0,0:0:0:70:kick.wav
+256,192,28464,1,0,0:0:0:70:clap.wav
+475,192,28464,1,0,0:0:0:70:8bit 1 #1.wav
+402,192,28543,1,0,0:0:0:70:8bit 1 #2.wav
+109,192,28621,1,0,0:0:0:70:percussion #1.wav
+329,192,28621,1,0,0:0:0:70:8bit 1 #3.wav
+256,192,28700,1,0,0:0:0:70:8bit 1 #4.wav
+36,192,28779,1,0,0:0:0:70:kick.wav
+182,192,28779,1,0,0:0:0:70:8bit 1 #5.wav
+402,192,28779,1,0,0:0:0:70:clap.wav
+475,192,28779,1,0,0:0:0:70:snare #1.wav
+256,192,28858,1,0,0:0:0:70:8bit 1 #6.wav
+109,192,28937,1,0,0:0:0:70:percussion #2.wav
+402,192,28937,1,0,0:0:0:70:8bit 1 #4.wav
+182,192,29016,1,0,0:0:0:70:percussion #2.wav
+329,192,29016,1,0,0:0:0:70:8bit 1 #3.wav
+36,192,29095,1,0,0:0:0:70:dirty kick #1.wav
+109,192,29095,1,0,0:0:0:70:hi hat.wav
+256,192,29095,1,0,0:0:0:70:8bit 1 #1.wav
+402,192,29095,1,0,0:0:0:70:snare #1.wav
+475,192,29095,1,0,0:0:0:70:clap.wav
+182,192,29174,1,0,0:0:0:70:8bit 1 #2.wav
+329,192,29253,1,0,0:0:0:70:8bit 1 #3.wav
+182,192,29332,1,0,0:0:0:70:8bit 1 #4.wav
+36,192,29411,1,0,0:0:0:70:dirty kick #1.wav
+109,192,29411,1,0,0:0:0:70:hi hat.wav
+256,192,29411,1,0,0:0:0:70:8bit 1 #5.wav
+402,192,29411,1,0,0:0:0:70:snare #1.wav
+475,192,29411,1,0,0:0:0:70:clap.wav
+182,192,29490,1,0,0:0:0:70:8bit 1 #6.wav
+329,192,29569,1,0,0:0:0:70:8bit 1 #4.wav
+402,192,29648,1,0,0:0:0:70:8bit 1 #3.wav
+36,192,29727,1,0,0:0:0:70:dirty kick #2.wav
+109,192,29727,1,0,0:0:0:70:hi hat.wav
+182,192,29727,1,0,0:0:0:70:8bit 1 #1.wav
+329,192,29727,1,0,0:0:0:70:clap.wav
+475,192,29727,1,0,0:0:0:70:percussion #1.wav
+36,192,29885,1,0,0:0:0:70:percussion #1.wav
+109,192,29885,1,0,0:0:0:70:hi hat.wav
+182,192,29885,1,0,0:0:0:70:dirty kick #2.wav
+329,192,29885,1,0,0:0:0:70:8bit 1 #3.wav
+475,192,29885,1,0,0:0:0:70:clap.wav
+256,192,30043,1,0,0:0:0:70:hey.wav
+36,192,30358,1,0,0:0:0:70:kick.wav
+182,192,30358,1,0,0:0:0:70:clap.wav
+109,192,30516,1,0,0:0:0:70:fx #1.wav
+256,192,30516,1,0,0:0:0:70:hi hat.wav
+402,192,30516,1,0,0:0:0:70:bass #1.wav
+475,192,30516,1,0,0:0:0:70:percussion #1.wav
+36,192,30674,1,0,0:0:0:70:kick.wav
+182,192,30674,1,0,0:0:0:70:clap.wav
+329,192,30674,1,0,0:0:0:70:snare #1.wav
+109,192,30832,1,0,0:0:0:70:fx #1.wav
+256,192,30832,1,0,0:0:0:70:hi hat.wav
+402,192,30832,1,0,0:0:0:70:bass #1.wav
+475,192,30832,1,0,0:0:0:70:percussion #1.wav
+36,192,30990,1,0,0:0:0:70:kick.wav
+182,192,30990,1,0,0:0:0:70:clap.wav
+109,192,31148,1,0,0:0:0:70:fx #1.wav
+256,192,31148,1,0,0:0:0:70:hi hat.wav
+402,192,31148,1,0,0:0:0:70:bass #1.wav
+475,192,31148,1,0,0:0:0:70:percussion #1.wav
+36,192,31306,1,0,0:0:0:70:kick.wav
+182,192,31306,1,0,0:0:0:70:clap.wav
+329,192,31306,1,0,0:0:0:70:snare #1.wav
+109,192,31464,1,0,0:0:0:70:fx #1.wav
+256,192,31464,1,0,0:0:0:70:hi hat.wav
+402,192,31464,1,0,0:0:0:70:bass #1.wav
+475,192,31464,1,0,0:0:0:70:percussion #2.wav
+329,192,31543,1,0,0:0:0:70:percussion #2.wav
+36,192,31621,1,0,0:0:0:70:kick.wav
+182,192,31621,1,0,0:0:0:70:clap.wav
+109,192,31779,1,0,0:0:0:70:hi hat.wav
+182,192,31779,1,0,0:0:0:70:fx #1.wav
+329,192,31779,1,0,0:0:0:70:bass #1.wav
+475,192,31779,1,0,0:0:0:70:percussion #1.wav
+36,192,31937,1,0,0:0:0:70:kick.wav
+256,192,31937,1,0,0:0:0:70:clap.wav
+402,192,31937,1,0,0:0:0:70:snare #1.wav
+109,192,32095,1,0,0:0:0:70:hi hat.wav
+475,192,32095,1,0,0:0:0:70:percussion #1.wav
+182,192,32095,1,0,0:0:0:0:
+329,192,32095,1,0,0:0:0:0:
+36,192,32253,1,0,0:0:0:70:kick.wav
+182,192,32253,1,0,0:0:0:70:clap.wav
+109,192,32411,1,0,0:0:0:70:hi hat.wav
+256,192,32411,1,0,0:0:0:70:bass #1.wav
+402,192,32411,1,0,0:0:0:70:fx #1.wav
+475,192,32411,1,0,0:0:0:70:percussion #1.wav
+36,192,32569,1,0,0:0:0:70:kick.wav
+182,192,32569,1,0,0:0:0:70:clap.wav
+329,192,32569,1,0,0:0:0:70:fx #2.wav
+402,192,32569,1,0,0:0:0:70:snare #3.wav
+109,192,32727,1,0,0:0:0:70:hi hat.wav
+256,192,32727,1,0,0:0:0:70:percussion #2.wav
+182,192,32806,1,0,0:0:0:70:percussion #2.wav
+329,192,32885,1,0,0:0:0:70:clap.wav
+475,192,32885,1,0,0:0:0:70:kick.wav
+36,192,33043,1,0,0:0:0:70:percussion #1.wav
+109,192,33043,1,0,0:0:0:70:fx #1.wav
+182,192,33043,1,0,0:0:0:70:hi hat.wav
+402,192,33043,1,0,0:0:0:70:bass #1.wav
+329,192,33200,1,0,0:0:0:70:clap.wav
+256,192,33200,1,0,0:0:0:70:snare #1.wav
+475,192,33200,1,0,0:0:0:70:kick.wav
+36,192,33358,1,0,0:0:0:70:percussion #1.wav
+109,192,33358,1,0,0:0:0:70:hi hat.wav
+182,192,33358,1,0,0:0:0:70:fx #1.wav
+402,192,33358,1,0,0:0:0:70:bass #1.wav
+329,192,33516,1,0,0:0:0:70:clap.wav
+475,192,33516,1,0,0:0:0:70:kick.wav
+36,192,33674,1,0,0:0:0:70:percussion #1.wav
+109,192,33674,1,0,0:0:0:70:fx #1.wav
+182,192,33674,1,0,0:0:0:70:hi hat.wav
+402,192,33674,1,0,0:0:0:70:bass #1.wav
+329,192,33832,1,0,0:0:0:70:clap.wav
+256,192,33832,1,0,0:0:0:70:snare #1.wav
+475,192,33832,1,0,0:0:0:70:kick.wav
+36,192,33990,1,0,0:0:0:70:percussion #2.wav
+109,192,33990,1,0,0:0:0:70:hi hat.wav
+329,192,33990,1,0,0:0:0:70:bass #1.wav
+402,192,33990,1,0,0:0:0:70:fx #1.wav
+256,192,34069,1,0,0:0:0:70:percussion #2.wav
+182,192,34148,1,0,0:0:0:70:clap.wav
+475,192,34148,1,0,0:0:0:70:kick.wav
+36,192,34306,1,0,0:0:0:70:percussion #1.wav
+109,192,34306,1,0,0:0:0:70:fx #1.wav
+256,192,34306,1,0,0:0:0:70:hi hat.wav
+402,192,34306,1,0,0:0:0:70:bass #1.wav
+182,192,34464,1,0,0:0:0:70:clap.wav
+329,192,34464,1,0,0:0:0:70:snare #1.wav
+475,192,34464,1,0,0:0:0:70:kick.wav
+36,192,34621,1,0,0:0:0:70:percussion #1.wav
+109,192,34621,1,0,0:0:0:70:hi hat.wav
+256,192,34621,1,0,0:0:0:70:bass #1.wav
+402,192,34621,1,0,0:0:0:70:fx #1.wav
+182,192,34779,1,0,0:0:0:70:clap.wav
+475,192,34779,1,0,0:0:0:70:kick.wav
+36,192,34937,1,0,0:0:0:70:percussion #1.wav
+109,192,34937,1,0,0:0:0:70:fx #1.wav
+256,192,34937,1,0,0:0:0:70:hi hat.wav
+402,192,34937,1,0,0:0:0:70:bass #1.wav
+109,192,35095,1,0,0:0:0:70:clap.wav
+182,192,35095,1,0,0:0:0:70:fx #3.wav
+329,192,35095,1,0,0:0:0:70:snare #3.wav
+475,192,35095,1,0,0:0:0:70:kick.wav
+36,192,35253,1,0,0:0:0:70:snare #4.wav
+256,192,35253,1,0,0:0:0:70:percussion #2.wav
+402,192,35253,1,0,0:0:0:70:hi hat.wav
+109,192,35332,1,0,0:0:0:70:snare #4.wav
+329,192,35332,1,0,0:0:0:70:percussion #2.wav
+36,192,35411,1,0,0:0:0:70:snare #3.wav
+256,192,35411,1,0,0:0:0:70:clap.wav
+402,192,35411,1,0,0:0:0:70:kick.wav
+109,192,35569,1,0,0:0:0:70:snare #3.wav
+182,192,35569,1,0,0:0:0:70:bass #1.wav
+329,192,35569,1,0,0:0:0:70:fx #1.wav
+475,192,35569,1,0,0:0:0:70:percussion #1.wav
+36,192,35727,1,0,0:0:0:70:snare #3.wav
+256,192,35727,1,0,0:0:0:70:clap.wav
+402,192,35727,1,0,0:0:0:70:kick.wav
+109,192,35885,1,0,0:0:0:70:snare #3.wav
+182,192,35885,1,0,0:0:0:70:fx #1.wav
+329,192,35885,1,0,0:0:0:70:bass #1.wav
+475,192,35885,1,0,0:0:0:70:percussion #1.wav
+36,192,36043,1,0,0:0:0:70:snare #3.wav
+402,192,36043,1,0,0:0:0:70:kick.wav
+256,192,36043,1,0,0:0:0:0:
+109,192,36200,1,0,0:0:0:70:snare #3.wav
+329,192,36200,1,0,0:0:0:70:bass #1.wav
+475,192,36200,1,0,0:0:0:70:percussion #1.wav
+182,192,36200,1,0,0:0:0:0:
+36,192,36358,1,0,0:0:0:70:snare #3.wav
+402,192,36358,1,0,0:0:0:70:kick.wav
+256,192,36358,1,0,0:0:0:0:
+36,192,36516,1,0,0:0:0:70:snare #4.wav
+109,192,36516,1,0,0:0:0:70:fx #1.wav
+329,192,36516,1,0,0:0:0:70:bass #1.wav
+475,192,36516,1,0,0:0:0:70:percussion #2.wav
+256,192,36595,1,0,0:0:0:70:snare #4.wav
+402,192,36595,1,0,0:0:0:70:percussion #2.wav
+109,192,36674,1,0,0:0:0:70:snare #3.wav
+329,192,36674,1,0,0:0:0:70:clap.wav
+475,192,36674,1,0,0:0:0:70:kick.wav
+36,192,36832,1,0,0:0:0:70:snare #3.wav
+182,192,36832,1,0,0:0:0:70:bass #1.wav
+256,192,36832,1,0,0:0:0:70:fx #1.wav
+402,192,36832,1,0,0:0:0:70:percussion #1.wav
+109,192,36990,1,0,0:0:0:70:snare #3.wav
+329,192,36990,1,0,0:0:0:70:clap.wav
+475,192,36990,1,0,0:0:0:70:kick.wav
+36,192,37148,1,0,0:0:0:70:snare #3.wav
+182,192,37148,1,0,0:0:0:70:fx #1.wav
+256,192,37148,1,0,0:0:0:70:bass #1.wav
+402,192,37148,1,0,0:0:0:70:percussion #1.wav
+109,192,37306,1,0,0:0:0:70:snare #3.wav
+329,192,37306,1,0,0:0:0:70:clap.wav
+475,192,37306,1,0,0:0:0:70:kick.wav
+36,192,37464,1,0,0:0:0:70:snare #3.wav
+182,192,37464,1,0,0:0:0:70:fx #1.wav
+256,192,37464,1,0,0:0:0:70:bass #1.wav
+402,192,37464,1,0,0:0:0:70:percussion #1.wav
+109,192,37621,1,0,0:0:0:70:snare #3.wav
+182,192,37621,1,0,0:0:0:70:clap.wav
+329,192,37621,1,0,0:0:0:70:fx #2.wav
+475,192,37621,1,0,0:0:0:70:kick.wav
+36,192,37779,1,0,0:0:0:70:snare #4.wav
+256,192,37779,1,0,0:0:0:70:bass #1.wav
+402,192,37779,1,0,0:0:0:70:percussion #2.wav
+182,192,37858,1,0,0:0:0:70:snare #4.wav
+329,192,37858,1,0,0:0:0:70:percussion #2.wav
+109,192,37937,1,0,0:0:0:70:clap.wav
+256,192,37937,1,0,0:0:0:70:s_fade in snare (1).wav
+475,192,37937,1,0,0:0:0:70:kick.wav
+36,192,38095,1,0,0:0:0:70:hi hat.wav
+109,192,38095,1,0,0:0:0:70:percussion #1.wav
+182,192,38095,1,0,0:0:0:70:fx #1.wav
+329,192,38095,1,0,0:0:0:70:bass #1.wav
+109,192,38253,1,0,0:0:0:70:clap.wav
+256,192,38253,1,0,0:0:0:70:s_fade in snare (5).wav
+475,192,38253,1,0,0:0:0:70:kick.wav
+36,192,38411,1,0,0:0:0:70:hi hat.wav
+109,192,38411,1,0,0:0:0:70:percussion #1.wav
+182,192,38411,1,0,0:0:0:70:bass #1.wav
+329,192,38411,1,0,0:0:0:70:fx #1.wav
+109,192,38569,1,0,0:0:0:70:s_fade in snare (9).wav
+256,192,38569,1,0,0:0:0:70:clap.wav
+475,192,38569,1,0,0:0:0:70:kick.wav
+36,192,38727,1,0,0:0:0:70:hi hat.wav
+109,192,38727,1,0,0:0:0:70:bass #1.wav
+182,192,38727,1,0,0:0:0:70:fx #1.wav
+329,192,38727,1,0,0:0:0:70:percussion #1.wav
+109,192,38885,1,0,0:0:0:70:clap.wav
+256,192,38885,1,0,0:0:0:70:s_fade in snare (13).wav
+402,192,38885,1,0,0:0:0:70:kick.wav
+36,192,39043,1,0,0:0:0:70:hi hat.wav
+182,192,39043,1,0,0:0:0:70:bass #1.wav
+402,192,39043,1,0,0:0:0:70:fx #1.wav
+475,192,39043,1,0,0:0:0:70:percussion #2.wav
+329,192,39121,1,0,0:0:0:70:percussion #2.wav
+36,192,39200,1,0,0:0:0:70:s_fade in snare (17).wav
+256,192,39200,1,0,0:0:0:70:clap.wav
+475,192,39200,1,0,0:0:0:70:kick.wav
+182,192,39279,1,0,0:0:0:70:s_fade in snare (18).wav
+36,192,39358,1,0,0:0:0:70:s_fade in snare (19).wav
+402,192,39358,1,0,0:0:0:70:hi hat.wav
+182,192,39437,1,0,0:0:0:70:s_fade in snare (20).wav
+109,192,39516,1,0,0:0:0:70:s_fade in snare (21).wav
+329,192,39516,1,0,0:0:0:70:clap.wav
+475,192,39516,1,0,0:0:0:70:kick.wav
+256,192,39595,1,0,0:0:0:70:s_fade in snare (22).wav
+109,192,39674,1,0,0:0:0:70:s_fade in snare (23).wav
+402,192,39674,1,0,0:0:0:70:hi hat.wav
+256,192,39753,1,0,0:0:0:70:s_fade in snare (24).wav
+36,192,39832,1,0,0:0:0:70:clap.wav
+182,192,39832,1,0,0:0:0:70:s_fade in snare (25).wav
+475,192,39832,1,0,0:0:0:70:kick.wav
+329,192,39911,1,0,0:0:0:70:s_fade in snare (26).wav
+109,192,39990,1,0,0:0:0:70:hi hat.wav
+182,192,39990,1,0,0:0:0:70:s_fade in snare (27).wav
+329,192,40069,1,0,0:0:0:70:s_fade in snare (28).wav
+36,192,40148,1,0,0:0:0:70:clap.wav
+256,192,40148,1,0,0:0:0:70:s_fade in snare (29).wav
+475,192,40148,1,0,0:0:0:70:kick.wav
+402,192,40227,1,0,0:0:0:70:s_fade in snare (30).wav
+109,192,40306,1,0,0:0:0:70:hi hat.wav
+256,192,40306,1,0,0:0:0:70:s_fade in snare (31).wav
+402,192,40385,1,0,0:0:0:70:s_fade in snare (32).wav
+256,192,40464,128,0,41411:0:0:0:70:lead C#6 (1).wav
+109,192,41411,1,0,0:0:0:70:lead B5 (1).wav
+402,192,41569,128,0,42043:0:0:0:70:lead E6 (1).wav
+256,192,42043,1,0,0:0:0:70:lead C#6 (2).wav
+256,192,42358,1,0,0:0:0:70:lead C#6 (2).wav
+109,192,42674,1,0,0:0:0:70:lead B5 (1).wav
+256,192,42832,128,0,43779:0:0:0:70:lead C#6 (1).wav
+109,192,43779,1,0,0:0:0:70:lead B5 (1).wav
+402,192,43937,1,0,0:0:0:70:lead E6 (2).wav
+256,192,44095,128,0,44885:0:0:0:70:lead C#6 (3).wav
+109,192,44885,128,0,45516:0:0:0:70:lead B5 (2).wav
+256,192,45516,128,0,46464:0:0:0:70:lead C#6 (1).wav
+109,192,46464,1,0,0:0:0:70:lead B5 (1).wav
+182,192,46621,128,0,47095:0:0:0:70:lead E6 (1).wav
+402,192,47095,1,0,0:0:0:70:lead F#6 (1).wav
+402,192,47411,1,0,0:0:0:70:lead F#6 (1).wav
+182,192,47727,1,0,0:0:0:70:lead E6 (2).wav
+402,192,47885,128,0,48832:0:0:0:70:lead F#6 (2).wav
+182,192,48832,1,0,0:0:0:70:lead E6 (2).wav
+475,192,48990,1,0,0:0:0:70:leda A6 (1).wav
+329,192,49148,128,0,49937:0:0:0:70:lead F#6 (3).wav
+182,192,49937,128,0,50569:0:0:0:70:lead E6 (3).wav
+36,192,50569,1,0,0:0:0:70:8bit_fu #2 (1).wav
+109,192,50648,1,0,0:0:0:70:8bit_fu #2 (2).wav
+402,192,50727,1,0,0:0:0:70:8bit_fu #2 (3).wav
+182,192,50806,1,0,0:0:0:70:8bit_fu #2 (4).wav
+329,192,50885,1,0,0:0:0:70:8bit_fu #2 (5).wav
+109,192,50964,1,0,0:0:0:70:8bit_fu #2 (6).wav
+256,192,51043,1,0,0:0:0:70:8bit_fu #2 (7).wav
+36,192,51121,1,0,0:0:0:70:8bit_fu #2 (8).wav
+329,192,51200,1,0,0:0:0:70:8bit_fu #2 (9).wav
+182,192,51279,1,0,0:0:0:70:8bit_fu #2 (10).wav
+329,192,51358,1,0,0:0:0:70:8bit_fu #2 (11).wav
+182,192,51437,1,0,0:0:0:70:8bit_fu #2 (12).wav
+256,192,51516,1,0,0:0:0:70:8bit_fu #2 (13).wav
+109,192,51595,1,0,0:0:0:70:8bit_fu #2 (14).wav
+402,192,51674,1,0,0:0:0:70:8bit_fu #2 (15).wav
+475,192,51753,1,0,0:0:0:70:8bit_fu #2 (16).wav
+36,192,51832,1,0,0:0:0:70:8bit_fu #2 (17).wav
+109,192,51911,1,0,0:0:0:70:8bit_fu #2 (18).wav
+402,192,51990,1,0,0:0:0:70:8bit_fu #2 (19).wav
+182,192,52069,1,0,0:0:0:70:8bit_fu #2 (20).wav
+329,192,52148,1,0,0:0:0:70:8bit_fu #2 (21).wav
+109,192,52227,1,0,0:0:0:70:8bit_fu #2 (22).wav
+256,192,52306,1,0,0:0:0:70:8bit_fu #2 (23).wav
+36,192,52385,1,0,0:0:0:70:8bit_fu #2 (24).wav
+329,192,52464,1,0,0:0:0:70:8bit_fu #2 (25).wav
+182,192,52543,1,0,0:0:0:70:8bit_fu #2 (26).wav
+329,192,52621,1,0,0:0:0:70:8bit_fu #2 (27).wav
+182,192,52700,1,0,0:0:0:70:8bit_fu #2 (28).wav
+256,192,52779,1,0,0:0:0:70:8bit_fu #2 (29).wav
+109,192,52858,1,0,0:0:0:70:8bit_fu #2 (30).wav
+402,192,52937,1,0,0:0:0:70:8bit_fu #2 (31).wav
+475,192,53016,1,0,0:0:0:70:8bit_fu #2 (32).wav
+36,192,53095,1,0,0:0:0:70:8bit_fu #2 (33).wav
+109,192,53174,1,0,0:0:0:70:8bit_fu #2 (34).wav
+402,192,53253,1,0,0:0:0:70:8bit_fu #2 (35).wav
+182,192,53332,1,0,0:0:0:70:8bit_fu #2 (36).wav
+329,192,53411,1,0,0:0:0:70:8bit_fu #2 (37).wav
+109,192,53490,1,0,0:0:0:70:8bit_fu #2 (38).wav
+256,192,53569,1,0,0:0:0:70:8bit_fu #2 (39).wav
+36,192,53648,1,0,0:0:0:70:8bit_fu #2 (40).wav
+329,192,53727,1,0,0:0:0:70:8bit_fu #2 (41).wav
+182,192,53806,1,0,0:0:0:70:8bit_fu #2 (42).wav
+329,192,53885,1,0,0:0:0:70:8bit_fu #2 (43).wav
+182,192,53964,1,0,0:0:0:70:8bit_fu #2 (44).wav
+256,192,54043,1,0,0:0:0:70:8bit_fu #2 (45).wav
+109,192,54121,1,0,0:0:0:70:8bit_fu #2 (46).wav
+402,192,54200,1,0,0:0:0:70:8bit_fu #2 (47).wav
+475,192,54279,1,0,0:0:0:70:8bit_fu #2 (48).wav
+36,192,54358,1,0,0:0:0:70:8bit_fu #2 (49).wav
+109,192,54437,1,0,0:0:0:70:8bit_fu #2 (50).wav
+402,192,54516,1,0,0:0:0:70:8bit_fu #2 (51).wav
+182,192,54595,1,0,0:0:0:70:8bit_fu #2 (52).wav
+329,192,54674,1,0,0:0:0:70:8bit_fu #2 (53).wav
+109,192,54753,1,0,0:0:0:70:8bit_fu #2 (54).wav
+256,192,54832,1,0,0:0:0:70:8bit_fu #2 (55).wav
+36,192,54911,1,0,0:0:0:70:8bit_fu #2 (56).wav
+329,192,54990,1,0,0:0:0:70:8bit_fu #2 (57).wav
+182,192,55069,1,0,0:0:0:70:8bit_fu #2 (58).wav
+329,192,55148,1,0,0:0:0:70:8bit_fu #2 (59).wav
+182,192,55227,1,0,0:0:0:70:8bit_fu #2 (60).wav
+256,192,55306,1,0,0:0:0:70:8bit_fu #2 (61).wav
+109,192,55385,1,0,0:0:0:70:8bit_fu #2 (62).wav
+402,192,55464,1,0,0:0:0:70:8bit_fu #2 (63).wav
+475,192,55543,1,0,0:0:0:70:8bit_fu #2 (64).wav
+36,192,55621,1,0,0:0:0:70:8bit_fu #2 (65).wav
+109,192,55700,1,0,0:0:0:70:8bit_fu #2 (66).wav
+402,192,55779,1,0,0:0:0:70:8bit_fu #2 (67).wav
+182,192,55858,1,0,0:0:0:70:8bit_fu #2 (68).wav
+329,192,55937,1,0,0:0:0:70:8bit_fu #2 (69).wav
+109,192,56016,1,0,0:0:0:70:8bit_fu #2 (70).wav
+256,192,56095,1,0,0:0:0:70:8bit_fu #2 (71).wav
+36,192,56174,1,0,0:0:0:70:8bit_fu #2 (72).wav
+329,192,56253,1,0,0:0:0:70:8bit_fu #2 (73).wav
+182,192,56332,1,0,0:0:0:70:8bit_fu #2 (74).wav
+329,192,56411,1,0,0:0:0:70:8bit_fu #2 (75).wav
+182,192,56490,1,0,0:0:0:70:8bit_fu #2 (76).wav
+109,192,56569,1,0,0:0:0:70:8bit_fu #2 (77).wav
+256,192,56648,1,0,0:0:0:70:8bit_fu #2 (78).wav
+402,192,56727,1,0,0:0:0:70:8bit_fu #2 (79).wav
+475,192,56806,1,0,0:0:0:70:8bit_fu #2 (80).wav
+36,192,56885,1,0,0:0:0:70:8bit_fu #2 (81).wav
+109,192,56964,1,0,0:0:0:70:8bit_fu #2 (82).wav
+402,192,57043,1,0,0:0:0:70:8bit_fu #2 (83).wav
+182,192,57121,1,0,0:0:0:70:8bit_fu #2 (84).wav
+329,192,57200,1,0,0:0:0:70:8bit_fu #2 (85).wav
+109,192,57279,1,0,0:0:0:70:8bit_fu #2 (86).wav
+256,192,57358,1,0,0:0:0:70:8bit_fu #2 (87).wav
+36,192,57437,1,0,0:0:0:70:8bit_fu #2 (88).wav
+329,192,57516,1,0,0:0:0:70:8bit_fu #2 (89).wav
+182,192,57595,1,0,0:0:0:70:8bit_fu #2 (90).wav
+329,192,57674,1,0,0:0:0:70:8bit_fu #2 (91).wav
+182,192,57753,1,0,0:0:0:70:8bit_fu #2 (92).wav
+256,192,57832,1,0,0:0:0:70:8bit_fu #2 (93).wav
+109,192,57911,1,0,0:0:0:70:8bit_fu #2 (94).wav
+329,192,57990,1,0,0:0:0:70:8bit_fu #2 (95).wav
+402,192,58069,1,0,0:0:0:70:8bit_fu #2 (96).wav
+36,192,58148,1,0,0:0:0:70:8bit_fu #2 (97).wav
+475,192,58148,1,0,0:0:0:70:cu2_pluck (49).wav
+109,192,58227,1,0,0:0:0:70:8bit_fu #2 (98).wav
+402,192,58306,1,0,0:0:0:70:8bit_fu #2 (99).wav
+475,192,58306,1,0,0:0:0:70:cu2_pluck (50).wav
+182,192,58385,1,0,0:0:0:70:8bit_fu #2 (100).wav
+329,192,58464,1,0,0:0:0:70:8bit_fu #2 (101).wav
+475,192,58464,1,0,0:0:0:70:cu2_pluck (51).wav
+109,192,58543,1,0,0:0:0:70:8bit_fu #2 (102).wav
+256,192,58621,1,0,0:0:0:70:8bit_fu #2 (103).wav
+475,192,58621,1,0,0:0:0:70:cu2_pluck (52).wav
+36,192,58700,1,0,0:0:0:70:8bit_fu #2 (104).wav
+329,192,58779,1,0,0:0:0:70:8bit_fu #2 (105).wav
+475,192,58779,1,0,0:0:0:70:cu2_pluck (53).wav
+182,192,58858,1,0,0:0:0:70:8bit_fu #2 (106).wav
+329,192,58937,1,0,0:0:0:70:8bit_fu #2 (107).wav
+475,192,58937,1,0,0:0:0:70:cu2_pluck (54).wav
+182,192,59016,1,0,0:0:0:70:8bit_fu #2 (108).wav
+256,192,59095,1,0,0:0:0:70:8bit_fu #2 (109).wav
+475,192,59095,1,0,0:0:0:70:cu2_pluck (55).wav
+109,192,59174,1,0,0:0:0:70:8bit_fu #2 (110).wav
+256,192,59253,1,0,0:0:0:70:8bit_fu #2 (111).wav
+475,192,59253,1,0,0:0:0:70:cu2_pluck (56).wav
+402,192,59332,1,0,0:0:0:70:8bit_fu #2 (112).wav
+36,192,59411,1,0,0:0:0:70:8bit_fu #2 (113).wav
+475,192,59411,1,0,0:0:0:70:cu2_pluck (57).wav
+109,192,59490,1,0,0:0:0:70:8bit_fu #2 (114).wav
+402,192,59569,1,0,0:0:0:70:8bit_fu #2 (115).wav
+475,192,59569,1,0,0:0:0:70:cu2_pluck (58).wav
+182,192,59648,1,0,0:0:0:70:8bit_fu #2 (116).wav
+329,192,59727,1,0,0:0:0:70:8bit_fu #2 (117).wav
+475,192,59727,1,0,0:0:0:70:cu2_pluck (59).wav
+109,192,59806,1,0,0:0:0:70:8bit_fu #2 (118).wav
+256,192,59885,1,0,0:0:0:70:8bit_fu #2 (119).wav
+475,192,59885,1,0,0:0:0:70:cu2_pluck (60).wav
+36,192,59964,1,0,0:0:0:70:8bit_fu #2 (120).wav
+329,192,60043,1,0,0:0:0:70:8bit_fu #2 (121).wav
+475,192,60043,1,0,0:0:0:70:cu2_pluck (61).wav
+182,192,60121,1,0,0:0:0:70:8bit_fu #2 (122).wav
+329,192,60200,1,0,0:0:0:70:8bit_fu #2 (123).wav
+475,192,60200,1,0,0:0:0:70:cu2_pluck (62).wav
+182,192,60279,1,0,0:0:0:70:8bit_fu #2 (124).wav
+256,192,60358,1,0,0:0:0:70:8bit_fu #2 (125).wav
+475,192,60358,1,0,0:0:0:70:cu2_pluck (63).wav
+109,192,60437,1,0,0:0:0:70:8bit_fu #2 (126).wav
+256,192,60516,1,0,0:0:0:70:8bit_fu #2 (127).wav
+475,192,60516,1,0,0:0:0:70:cu2_pluck (64).wav
+329,192,60595,1,0,0:0:0:70:8bit_fu #2 (128).wav
+36,192,60674,1,0,0:0:0:70:8bit 1 #1.wav
+182,192,60674,1,0,0:0:0:70:drum loop (1).wav
+402,192,60674,1,0,0:0:0:70:snare #1.wav
+475,192,60674,1,0,0:0:0:70:dirty kick #3.wav
+109,192,60753,1,0,0:0:0:70:8bit 1 #2.wav
+256,192,60753,1,0,0:0:0:70:drum loop (2).wav
+182,192,60832,1,0,0:0:0:70:8bit 1 #3.wav
+329,192,60832,1,0,0:0:0:70:drum loop (3).wav
+256,192,60911,1,0,0:0:0:70:8bit 1 #4.wav
+402,192,60911,1,0,0:0:0:70:drum loop (4).wav
+109,192,60990,1,0,0:0:0:70:snare #5.wav
+36,192,61148,1,0,0:0:0:70:dirty kick #3.wav
+109,192,61148,1,0,0:0:0:70:snare #1.wav
+329,192,61148,1,0,0:0:0:70:drum loop (1).wav
+475,192,61148,1,0,0:0:0:70:8bit 1 #5.wav
+256,192,61227,1,0,0:0:0:70:drum loop (2).wav
+402,192,61227,1,0,0:0:0:70:8bit 1 #6.wav
+182,192,61306,1,0,0:0:0:70:drum loop (3).wav
+329,192,61306,1,0,0:0:0:70:8bit 1 #4.wav
+109,192,61385,1,0,0:0:0:70:drum loop (4).wav
+256,192,61385,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,61464,1,0,0:0:0:70:snare #5.wav
+36,192,61621,1,0,0:0:0:70:8bit 1 #1.wav
+182,192,61621,1,0,0:0:0:70:drum loop (1).wav
+402,192,61621,1,0,0:0:0:70:snare #1.wav
+475,192,61621,1,0,0:0:0:70:dirty kick #3.wav
+109,192,61700,1,0,0:0:0:70:8bit 1 #2.wav
+256,192,61700,1,0,0:0:0:70:drum loop (2).wav
+182,192,61779,1,0,0:0:0:70:8bit 1 #3.wav
+329,192,61779,1,0,0:0:0:70:drum loop (3).wav
+256,192,61858,1,0,0:0:0:70:8bit 1 #4.wav
+402,192,61858,1,0,0:0:0:70:drum loop (4).wav
+36,192,61937,1,0,0:0:0:70:amen - Marker #1.wav
+36,192,62095,1,0,0:0:0:70:amen - Marker #2.wav
+329,192,62253,1,0,0:0:0:70:amen - Marker #3.wav
+109,192,62411,1,0,0:0:0:70:amen - Marker #4.wav
+256,192,62490,1,0,0:0:0:70:amen - Marker #5.wav
+109,192,62569,1,0,0:0:0:70:amen - Marker #6.wav
+256,192,62648,1,0,0:0:0:70:amen - Marker #7.wav
+36,192,62727,1,0,0:0:0:70:amen - Marker #8.wav
+182,192,62885,1,0,0:0:0:70:amen - Marker #9.wav
+256,192,63043,1,0,0:0:0:70:amen - Marker #10.wav
+329,192,63121,1,0,0:0:0:70:amen - Marker #11.wav
+36,192,63200,1,0,0:0:0:70:8bit 1 #1.wav
+109,192,63200,1,0,0:0:0:70:drum loop (1).wav
+402,192,63200,1,0,0:0:0:70:snare #1.wav
+475,192,63200,1,0,0:0:0:70:dirty kick #3.wav
+329,192,63279,1,0,0:0:0:70:8bit 1 #2.wav
+256,192,63279,1,0,0:0:0:70:drum loop (2).wav
+182,192,63358,1,0,0:0:0:70:8bit 1 #3.wav
+109,192,63358,1,0,0:0:0:70:drum loop (3).wav
+329,192,63437,1,0,0:0:0:70:8bit 1 #4.wav
+402,192,63437,1,0,0:0:0:70:drum loop (4).wav
+109,192,63516,1,0,0:0:0:70:snare #5.wav
+36,192,63674,1,0,0:0:0:70:dirty kick #3.wav
+109,192,63674,1,0,0:0:0:70:snare #1.wav
+402,192,63674,1,0,0:0:0:70:drum loop (1).wav
+475,192,63674,1,0,0:0:0:70:8bit 1 #5.wav
+256,192,63753,1,0,0:0:0:70:drum loop (2).wav
+182,192,63753,1,0,0:0:0:70:8bit 1 #6.wav
+402,192,63832,1,0,0:0:0:70:drum loop (3).wav
+329,192,63832,1,0,0:0:0:70:8bit 1 #4.wav
+109,192,63911,1,0,0:0:0:70:drum loop (4).wav
+182,192,63911,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,63990,1,0,0:0:0:70:snare #5.wav
+36,192,64148,1,0,0:0:0:70:8bit 1 #1.wav
+182,192,64148,1,0,0:0:0:70:drum loop (1).wav
+402,192,64148,1,0,0:0:0:70:snare #1.wav
+475,192,64148,1,0,0:0:0:70:dirty kick #3.wav
+329,192,64227,1,0,0:0:0:70:8bit 1 #2.wav
+256,192,64227,1,0,0:0:0:70:drum loop (2).wav
+182,192,64306,1,0,0:0:0:70:8bit 1 #3.wav
+109,192,64306,1,0,0:0:0:70:drum loop (3).wav
+329,192,64385,1,0,0:0:0:70:8bit 1 #4.wav
+402,192,64385,1,0,0:0:0:70:drum loop (4).wav
+36,192,64464,1,0,0:0:0:70:amen - Marker #1.wav
+36,192,64621,1,0,0:0:0:70:amen - Marker #2.wav
+329,192,64779,1,0,0:0:0:70:amen - Marker #3.wav
+256,192,64937,1,0,0:0:0:70:amen - Marker #4.wav
+109,192,65016,1,0,0:0:0:70:amen - Marker #5.wav
+329,192,65095,1,0,0:0:0:70:amen - Marker #12.wav
+329,192,65174,1,0,0:0:0:70:amen - Marker #12.wav
+182,192,65253,1,0,0:0:0:70:amen - Marker #12.wav
+182,192,65332,1,0,0:0:0:70:amen - Marker #12.wav
+475,192,65411,1,0,0:0:0:70:impact.wav
+36,192,65727,1,0,0:0:0:70:kick.wav
+256,192,65727,1,0,0:0:0:70:pu_snare (1).wav
+402,192,65727,1,0,0:0:0:70:clap.wav
+109,192,65885,1,0,0:0:0:70:percussion #1.wav
+256,192,65885,1,0,0:0:0:70:pu_snare (2).wav
+36,192,66043,1,0,0:0:0:70:kick.wav
+256,192,66043,1,0,0:0:0:70:pu_snare (3).wav
+402,192,66043,1,0,0:0:0:70:clap.wav
+109,192,66200,1,0,0:0:0:70:percussion #1.wav
+256,192,66200,1,0,0:0:0:70:pu_snare (4).wav
+36,192,66358,1,0,0:0:0:70:kick.wav
+256,192,66358,1,0,0:0:0:70:pu_snare (5).wav
+402,192,66358,1,0,0:0:0:70:clap.wav
+109,192,66516,1,0,0:0:0:70:percussion #1.wav
+256,192,66516,1,0,0:0:0:70:pu_snare (6).wav
+36,192,66674,1,0,0:0:0:70:kick.wav
+256,192,66674,1,0,0:0:0:70:pu_snare (7).wav
+402,192,66674,1,0,0:0:0:70:clap.wav
+109,192,66832,1,0,0:0:0:70:percussion #2.wav
+329,192,66832,1,0,0:0:0:70:pu_snare (8).wav
+182,192,66911,1,0,0:0:0:70:percussion #2.wav
+402,192,66911,1,0,0:0:0:70:pu_snare (9).wav
+36,192,66990,1,0,0:0:0:70:kick.wav
+256,192,66990,1,0,0:0:0:70:pu_snare (10).wav
+475,192,66990,1,0,0:0:0:70:clap.wav
+109,192,67148,1,0,0:0:0:70:percussion #1.wav
+256,192,67148,1,0,0:0:0:70:pu_snare (11).wav
+36,192,67306,1,0,0:0:0:70:kick.wav
+256,192,67306,1,0,0:0:0:70:pu_snare (12).wav
+475,192,67306,1,0,0:0:0:70:clap.wav
+109,192,67464,1,0,0:0:0:70:percussion #1.wav
+256,192,67464,1,0,0:0:0:70:pu_snare (13).wav
+36,192,67621,1,0,0:0:0:70:kick.wav
+256,192,67621,1,0,0:0:0:70:pu_snare (14).wav
+475,192,67621,1,0,0:0:0:70:clap.wav
+109,192,67779,1,0,0:0:0:70:percussion #1.wav
+256,192,67779,1,0,0:0:0:70:pu_snare (15).wav
+36,192,67937,1,0,0:0:0:70:kick.wav
+256,192,67937,1,0,0:0:0:70:pu_snare (16).wav
+475,192,67937,1,0,0:0:0:70:clap.wav
+109,192,68095,1,0,0:0:0:70:percussion #2.wav
+256,192,68095,1,0,0:0:0:70:pu_snare (17).wav
+182,192,68174,1,0,0:0:0:70:percussion #2.wav
+329,192,68174,1,0,0:0:0:70:pu_snare (18).wav
+256,192,68253,1,0,0:0:0:70:pu_snare (19).wav
+402,192,68253,1,0,0:0:0:70:kick.wav
+182,192,68332,1,0,0:0:0:70:pu_snare (20).wav
+36,192,68332,1,0,0:0:0:0:
+329,192,68411,1,0,0:0:0:70:hi hat.wav
+475,192,68411,1,0,0:0:0:70:percussion #1.wav
+256,192,68490,1,0,0:0:0:70:pu_snare (22).wav
+109,192,68490,1,0,0:0:0:0:
+402,192,68569,1,0,0:0:0:0:
+475,192,68569,1,0,0:0:0:0:
+329,192,68648,1,0,0:0:0:70:pu_snare (24).wav
+182,192,68648,1,0,0:0:0:0:
+109,192,68727,1,0,0:0:0:70:hi hat.wav
+36,192,68727,1,0,0:0:0:0:
+402,192,68806,1,0,0:0:0:70:pu_snare (26).wav
+256,192,68806,1,0,0:0:0:0:
+36,192,68885,1,0,0:0:0:70:kick.wav
+182,192,68885,1,0,0:0:0:0:
+329,192,68964,1,0,0:0:0:0:
+475,192,68964,1,0,0:0:0:0:
+256,192,69043,1,0,0:0:0:0:
+109,192,69043,1,0,0:0:0:0:
+402,192,69121,1,0,0:0:0:0:
+475,192,69121,1,0,0:0:0:0:
+329,192,69200,1,0,0:0:0:0:
+182,192,69200,1,0,0:0:0:0:
+109,192,69279,1,0,0:0:0:0:
+36,192,69279,1,0,0:0:0:0:
+402,192,69358,1,0,0:0:0:0:
+256,192,69358,1,0,0:0:0:0:
+182,192,69437,1,0,0:0:0:0:
+36,192,69437,1,0,0:0:0:0:
+329,192,69516,1,0,0:0:0:0:
+475,192,69516,1,0,0:0:0:0:
+329,192,69832,1,0,0:0:0:0:
+182,192,69832,1,0,0:0:0:0:
+36,192,70148,1,0,0:0:0:0:
+182,192,70148,1,0,0:0:0:0:
+256,192,70464,1,0,0:0:0:70:impact.wav
+36,192,70779,1,0,0:0:0:70:kick.wav
+109,192,70779,1,0,0:0:0:70:bass_drop 4.wav
+182,192,70779,1,0,0:0:0:70:bass_drop 1 #1.wav
+329,192,70779,1,0,0:0:0:0:
+182,192,70937,1,0,0:0:0:0:
+402,192,70937,1,0,0:0:0:0:
+36,192,71095,1,0,0:0:0:70:kick.wav
+109,192,71095,1,0,0:0:0:70:bass_drop 1 #2.wav
+256,192,71095,1,0,0:0:0:70:bass_drop 6 #1.wav
+475,192,71095,1,0,0:0:0:0:
+182,192,71253,1,0,0:0:0:70:bass_drop 6 #2.wav
+329,192,71253,1,0,0:0:0:70:bass_drop 1 #3.wav
+182,192,71332,1,0,0:0:0:70:bass_drop 6 #2.wav
+329,192,71332,1,0,0:0:0:70:bass_drop 1 #3.wav
+36,192,71411,1,0,0:0:0:70:kick.wav
+256,192,71411,1,0,0:0:0:70:bass_drop 2 #1.wav
+402,192,71411,1,0,0:0:0:70:bass_drop 1 #4.wav
+475,192,71411,1,0,0:0:0:0:
+182,192,71569,1,0,0:0:0:70:bass_drop 6 #3.wav
+329,192,71569,1,0,0:0:0:70:bass_drop 1 #5.wav
+402,192,71569,1,0,0:0:0:0:
+36,192,71727,1,0,0:0:0:70:kick.wav
+109,192,71727,1,0,0:0:0:70:bass_drop 6 #4.wav
+256,192,71727,1,0,0:0:0:70:bass_drop 1 #6.wav
+475,192,71727,1,0,0:0:0:0:
+182,192,71885,1,0,0:0:0:70:bass_drop 1 #5.wav
+329,192,71885,1,0,0:0:0:70:bass_drop 2 #2.wav
+402,192,71885,1,0,0:0:0:0:
+182,192,71964,1,0,0:0:0:0:
+36,192,72043,1,0,0:0:0:70:kick.wav
+475,192,72043,1,0,0:0:0:0:
+109,192,72043,1,0,0:0:0:0:
+256,192,72043,1,0,0:0:0:0:
+182,192,72200,1,0,0:0:0:0:
+329,192,72200,1,0,0:0:0:0:
+36,192,72358,1,0,0:0:0:70:kick.wav
+475,192,72358,1,0,0:0:0:70:bass_drop 6 #5.wav
+256,192,72358,1,0,0:0:0:0:
+402,192,72358,1,0,0:0:0:0:
+109,192,72516,1,0,0:0:0:70:bass_drop 3.wav
+329,192,72516,1,0,0:0:0:0:
+182,192,72516,1,0,0:0:0:0:
+36,192,72674,1,0,0:0:0:70:kick.wav
+475,192,72674,1,0,0:0:0:0:
+402,192,72674,1,0,0:0:0:0:
+182,192,72674,1,0,0:0:0:0:
+109,192,72832,1,0,0:0:0:70:bass_drop 3.wav
+329,192,72832,1,0,0:0:0:0:
+36,192,72990,1,0,0:0:0:70:kick.wav
+256,192,72990,1,0,0:0:0:70:bass_drop 5 #2.wav
+475,192,72990,1,0,0:0:0:70:bass_drop 6 #2.wav
+329,192,73069,1,0,0:0:0:70:bass_drop 5 #2.wav
+182,192,73069,1,0,0:0:0:70:bass_drop 6 #2.wav
+36,192,73148,1,0,0:0:0:70:bass_drop 5 #2.wav
+475,192,73148,1,0,0:0:0:70:bass_drop 6 #2.wav
+182,192,73227,1,0,0:0:0:70:percussion #2.wav
+329,192,73227,1,0,0:0:0:70:bass_drop 6 #2.wav
+36,192,73306,1,0,0:0:0:70:kick.wav
+109,192,73306,1,0,0:0:0:70:bass_drop 1 #1.wav
+256,192,73306,1,0,0:0:0:70:bass_drop 4.wav
+402,192,73306,1,0,0:0:0:0:
+329,192,73464,1,0,0:0:0:0:
+182,192,73464,1,0,0:0:0:0:
+36,192,73621,1,0,0:0:0:70:kick.wav
+182,192,73621,1,0,0:0:0:70:bass_drop 1 #2.wav
+329,192,73621,1,0,0:0:0:70:bass_drop 6 #1.wav
+475,192,73621,1,0,0:0:0:0:
+109,192,73779,1,0,0:0:0:70:bass_drop 1 #3.wav
+256,192,73779,1,0,0:0:0:70:bass_drop 6 #2.wav
+109,192,73858,1,0,0:0:0:70:bass_drop 1 #3.wav
+256,192,73858,1,0,0:0:0:70:bass_drop 6 #2.wav
+36,192,73937,1,0,0:0:0:70:kick.wav
+329,192,73937,1,0,0:0:0:70:bass_drop 1 #4.wav
+402,192,73937,1,0,0:0:0:70:bass_drop 2 #1.wav
+475,192,73937,1,0,0:0:0:0:
+182,192,74095,1,0,0:0:0:70:bass_drop 1 #5.wav
+329,192,74095,1,0,0:0:0:0:
+475,192,74095,1,0,0:0:0:0:
+36,192,74253,1,0,0:0:0:70:kick.wav
+109,192,74253,1,0,0:0:0:70:bass_drop 1 #6.wav
+256,192,74253,1,0,0:0:0:70:bass_drop 6 #4.wav
+402,192,74253,1,0,0:0:0:0:
+109,192,74411,1,0,0:0:0:70:bass_drop 3.wav
+182,192,74411,1,0,0:0:0:70:bass_drop 1 #5.wav
+329,192,74411,1,0,0:0:0:70:bass_drop 2 #2.wav
+475,192,74411,1,0,0:0:0:70:percussion #2.wav
+329,192,74490,1,0,0:0:0:0:
+36,192,74569,1,0,0:0:0:70:kick.wav
+182,192,74569,1,0,0:0:0:70:bass_drop 4.wav
+256,192,74569,1,0,0:0:0:70:bass_drop 1 #1.wav
+402,192,74569,1,0,0:0:0:0:
+182,192,74727,1,0,0:0:0:70:percussion #1.wav
+329,192,74727,1,0,0:0:0:0:
+109,192,74885,1,0,0:0:0:70:kick.wav
+256,192,74885,1,0,0:0:0:70:bass_drop 5 #1.wav
+402,192,74885,1,0,0:0:0:0:
+109,192,75043,1,0,0:0:0:70:percussion #1.wav
+256,192,75043,1,0,0:0:0:70:bass_drop 5 #1.wav
+402,192,75043,1,0,0:0:0:0:
+36,192,75200,1,0,0:0:0:70:dirty kick #2.wav
+182,192,75200,1,0,0:0:0:70:bass_drop 1 #8.wav
+329,192,75200,1,0,0:0:0:70:bass_drop 5 #1.wav
+475,192,75200,1,0,0:0:0:0:
+36,192,75358,1,0,0:0:0:70:dirty kick #2.wav
+182,192,75358,1,0,0:0:0:70:bass_drop 1 #8.wav
+329,192,75358,1,0,0:0:0:70:bass_drop 5 #1.wav
+475,192,75358,1,0,0:0:0:0:
+256,192,75516,1,0,0:0:0:70:hey.wav
+36,192,75832,1,0,0:0:0:70:kick.wav
+182,192,75832,1,0,0:0:0:70:drum loop (1).wav
+329,192,75832,1,0,0:0:0:70:bass_drop 1 #1.wav
+475,192,75832,1,0,0:0:0:70:bass_drop 4.wav
+109,192,75990,1,0,0:0:0:70:percussion #1.wav
+256,192,75990,1,0,0:0:0:70:bass_drop 3.wav
+36,192,76148,1,0,0:0:0:70:kick.wav
+402,192,76148,1,0,0:0:0:70:bass_drop 6 #1.wav
+475,192,76148,1,0,0:0:0:0:
+182,192,76148,1,0,0:0:0:0:
+256,192,76306,1,0,0:0:0:70:bass_drop 1 #3.wav
+402,192,76306,1,0,0:0:0:70:bass_drop 6 #2.wav
+256,192,76385,1,0,0:0:0:70:bass_drop 1 #3.wav
+402,192,76385,1,0,0:0:0:70:bass_drop 6 #2.wav
+36,192,76464,1,0,0:0:0:70:kick.wav
+182,192,76464,1,0,0:0:0:70:bass_drop 1 #4.wav
+475,192,76464,1,0,0:0:0:70:bass_drop 2 #1.wav
+329,192,76464,1,0,0:0:0:0:
+109,192,76621,1,0,0:0:0:70:percussion #1.wav
+256,192,76621,1,0,0:0:0:70:bass_drop 1 #5.wav
+329,192,76621,1,0,0:0:0:0:
+36,192,76779,1,0,0:0:0:70:kick.wav
+182,192,76779,1,0,0:0:0:70:bass_drop 1 #6.wav
+475,192,76779,1,0,0:0:0:0:
+402,192,76779,1,0,0:0:0:0:
+402,192,76937,1,0,0:0:0:0:
+329,192,76937,1,0,0:0:0:0:
+182,192,76937,1,0,0:0:0:0:
+329,192,77016,1,0,0:0:0:0:
+36,192,77095,1,0,0:0:0:70:kick.wav
+475,192,77095,1,0,0:0:0:0:
+256,192,77095,1,0,0:0:0:0:
+109,192,77095,1,0,0:0:0:0:
+402,192,77253,1,0,0:0:0:70:bass_drop 3.wav
+182,192,77253,1,0,0:0:0:0:
+329,192,77411,1,0,0:0:0:70:bass_drop 6 #5.wav
+475,192,77411,1,0,0:0:0:0:
+182,192,77411,1,0,0:0:0:0:
+109,192,77411,1,0,0:0:0:0:
+182,192,77569,1,0,0:0:0:70:bass_drop 5 #1.wav
+329,192,77569,1,0,0:0:0:70:bass_drop 6 #5.wav
+475,192,77569,1,0,0:0:0:70:percussion #1.wav
+109,192,77569,1,0,0:0:0:0:
+36,192,77727,1,0,0:0:0:70:kick.wav
+256,192,77727,1,0,0:0:0:70:bass_growl #2.wav
+402,192,77727,1,0,0:0:0:0:
+109,192,77727,1,0,0:0:0:0:
+475,192,77885,1,0,0:0:0:70:percussion #1.wav
+329,192,77885,1,0,0:0:0:0:
+36,192,78043,1,0,0:0:0:70:kick.wav
+402,192,78043,1,0,0:0:0:70:bass_drop 6 #2.wav
+475,192,78043,1,0,0:0:0:0:
+256,192,78043,1,0,0:0:0:0:
+182,192,78121,1,0,0:0:0:70:bass_drop 5 #2.wav
+329,192,78121,1,0,0:0:0:70:bass_drop 6 #2.wav
+256,192,78200,1,0,0:0:0:70:bass_drop 5 #2.wav
+402,192,78200,1,0,0:0:0:70:bass_drop 6 #2.wav
+182,192,78279,1,0,0:0:0:70:bass_drop 5 #2.wav
+329,192,78279,1,0,0:0:0:70:bass_drop 6 #2.wav
+36,192,78358,1,0,0:0:0:70:kick.wav
+475,192,78358,1,0,0:0:0:70:bass_drop 1 #1.wav
+402,192,78358,1,0,0:0:0:0:
+109,192,78358,1,0,0:0:0:0:
+109,192,78516,1,0,0:0:0:70:percussion #1.wav
+256,192,78516,1,0,0:0:0:70:bass_drop 3.wav
+36,192,78674,1,0,0:0:0:70:kick.wav
+402,192,78674,1,0,0:0:0:70:bass_drop 6 #1.wav
+182,192,78674,1,0,0:0:0:0:
+475,192,78674,1,0,0:0:0:0:
+182,192,78832,1,0,0:0:0:70:bass_drop 1 #3.wav
+329,192,78832,1,0,0:0:0:70:bass_drop 6 #2.wav
+182,192,78911,1,0,0:0:0:70:bass_drop 1 #3.wav
+329,192,78911,1,0,0:0:0:70:bass_drop 6 #2.wav
+256,192,78990,1,0,0:0:0:70:bass_drop 1 #4.wav
+475,192,78990,1,0,0:0:0:70:bass_drop 2 #1.wav
+402,192,78990,1,0,0:0:0:0:
+36,192,78990,1,0,0:0:0:0:
+109,192,79148,1,0,0:0:0:70:percussion #1.wav
+256,192,79148,1,0,0:0:0:70:bass_drop 1 #5.wav
+329,192,79148,1,0,0:0:0:0:
+36,192,79306,1,0,0:0:0:70:kick.wav
+182,192,79306,1,0,0:0:0:70:bass_drop 1 #6.wav
+329,192,79306,1,0,0:0:0:70:bass_drop 6 #4.wav
+402,192,79306,1,0,0:0:0:0:
+109,192,79464,1,0,0:0:0:70:bass_drop 3.wav
+256,192,79464,1,0,0:0:0:70:bass_drop 1 #5.wav
+475,192,79464,1,0,0:0:0:70:percussion #2.wav
+36,192,79621,1,0,0:0:0:70:snare_fade_in #2 (1).wav
+256,192,79621,128,0,80490:0:0:0:0:
+182,192,79700,1,0,0:0:0:70:snare_fade_in #2 (2).wav
+329,192,79779,1,0,0:0:0:70:snare_fade_in #2 (3).wav
+475,192,79858,1,0,0:0:0:70:snare_fade_in #2 (4).wav
+36,192,79937,1,0,0:0:0:70:snare_fade_in #2 (5).wav
+182,192,80016,1,0,0:0:0:70:snare_fade_in #2 (6).wav
+329,192,80095,1,0,0:0:0:70:snare_fade_in #2 (7).wav
+475,192,80174,1,0,0:0:0:70:snare_fade_in #2 (8).wav
+36,192,80253,1,0,0:0:0:70:snare_fade_in #2 (9).wav
+182,192,80332,1,0,0:0:0:70:snare_fade_in #2 (10).wav
+329,192,80411,1,0,0:0:0:70:snare_fade_in #2 (11).wav
+475,192,80490,1,0,0:0:0:70:snare_fade_in #2 (12).wav
+256,192,80569,1,0,0:0:0:70:impact.wav
+182,192,80885,1,0,0:0:0:70:kick.wav
+329,192,80885,1,0,0:0:0:70:clap.wav
+402,192,80885,1,0,0:0:0:70:bass_drop 1 #1.wav
+36,192,81043,1,0,0:0:0:70:bass_drop 3.wav
+109,192,81043,1,0,0:0:0:70:fx #1.wav
+256,192,81043,1,0,0:0:0:70:percussion #1.wav
+475,192,81043,1,0,0:0:0:70:hi hat.wav
+182,192,81200,1,0,0:0:0:70:bass_drop 1 #2.wav
+329,192,81200,1,0,0:0:0:70:bass_drop 6 #1.wav
+402,192,81200,1,0,0:0:0:70:kick.wav
+36,192,81358,1,0,0:0:0:70:percussion #1.wav
+109,192,81358,1,0,0:0:0:70:fx #1.wav
+256,192,81358,1,0,0:0:0:70:bass_drop 1 #3.wav
+475,192,81358,1,0,0:0:0:70:bass_drop 6 #2.wav
+256,192,81437,1,0,0:0:0:70:bass_drop 1 #3.wav
+109,192,81437,1,0,0:0:0:70:bass_drop 6 #2.wav
+182,192,81516,1,0,0:0:0:70:bass_drop 1 #4.wav
+329,192,81516,1,0,0:0:0:70:bass_drop 2 #1.wav
+402,192,81516,1,0,0:0:0:70:kick.wav
+36,192,81674,1,0,0:0:0:70:percussion #1.wav
+109,192,81674,1,0,0:0:0:70:fx #1.wav
+256,192,81674,1,0,0:0:0:70:bass_drop 1 #5.wav
+475,192,81674,1,0,0:0:0:70:bass_drop 6 #3.wav
+329,192,81832,1,0,0:0:0:70:bass_drop 6 #4.wav
+402,192,81832,1,0,0:0:0:70:bass_drop 1 #6.wav
+182,192,81832,1,0,0:0:0:70:kick.wav
+36,192,81990,1,0,0:0:0:70:fx #1.wav
+109,192,81990,1,0,0:0:0:70:bass_drop 1 #5.wav
+256,192,81990,1,0,0:0:0:70:bass_drop 2 #2.wav
+475,192,81990,1,0,0:0:0:70:percussion #2.wav
+329,192,82069,1,0,0:0:0:70:percussion #2.wav
+182,192,82069,1,0,0:0:0:0:
+36,192,82148,1,0,0:0:0:70:bass_drop 1 #1.wav
+402,192,82148,1,0,0:0:0:0:
+256,192,82148,1,0,0:0:0:0:
+109,192,82306,1,0,0:0:0:70:hi hat.wav
+182,192,82306,1,0,0:0:0:70:fx #1.wav
+329,192,82306,1,0,0:0:0:70:bass_drop 3.wav
+475,192,82306,1,0,0:0:0:70:percussion #1.wav
+36,192,82464,1,0,0:0:0:70:kick.wav
+402,192,82464,1,0,0:0:0:70:bass_drop 5 #1.wav
+256,192,82464,1,0,0:0:0:70:bass_drop 6 #5.wav
+109,192,82621,1,0,0:0:0:70:bass_drop 5 #1.wav
+182,192,82621,1,0,0:0:0:70:fx #1.wav
+475,192,82621,1,0,0:0:0:70:bass_drop 6 #5.wav
+329,192,82621,1,0,0:0:0:70:percussion #1.wav
+256,192,82779,128,0,82819:0:0:0:70:bass_growl #2.wav
+109,192,82937,1,0,0:0:0:70:bass_drop 3.wav
+329,192,82937,1,0,0:0:0:70:fx #1.wav
+182,192,82937,1,0,0:0:0:70:hi hat.wav
+475,192,82937,1,0,0:0:0:70:percussion #1.wav
+36,192,83095,1,0,0:0:0:70:bass_drop 6 #2.wav
+182,192,83095,1,0,0:0:0:70:bass_drop 5 #2.wav
+329,192,83174,1,0,0:0:0:70:bass_drop 5 #2.wav
+475,192,83174,1,0,0:0:0:70:bass_drop 6 #2.wav
+36,192,83253,1,0,0:0:0:70:bass_drop 6 #2.wav
+182,192,83253,1,0,0:0:0:70:bass_drop 5 #2.wav
+329,192,83332,1,0,0:0:0:70:bass_drop 5 #2.wav
+475,192,83332,1,0,0:0:0:70:bass_drop 6 #2.wav
+109,192,83411,1,0,0:0:0:70:bass_drop 1 #1.wav
+256,192,83411,1,0,0:0:0:70:kick.wav
+402,192,83411,1,0,0:0:0:70:bass_drop 4.wav
+36,192,83569,1,0,0:0:0:70:percussion #1.wav
+182,192,83569,1,0,0:0:0:70:bass_drop 3.wav
+329,192,83569,1,0,0:0:0:70:hi hat.wav
+475,192,83569,1,0,0:0:0:70:fx #1.wav
+256,192,83727,1,0,0:0:0:70:kick.wav
+109,192,83727,1,0,0:0:0:70:bass_drop 1 #2.wav
+329,192,83727,1,0,0:0:0:70:bass_drop 6 #1.wav
+36,192,83885,1,0,0:0:0:70:percussion #1.wav
+182,192,83885,1,0,0:0:0:70:bass_drop 1 #3.wav
+329,192,83885,1,0,0:0:0:70:bass_drop 6 #2.wav
+475,192,83885,1,0,0:0:0:70:fx #1.wav
+182,192,83964,1,0,0:0:0:70:bass_drop 1 #3.wav
+329,192,83964,1,0,0:0:0:70:bass_drop 6 #2.wav
+109,192,84043,1,0,0:0:0:70:kick.wav
+256,192,84043,1,0,0:0:0:70:bass_drop 1 #4.wav
+402,192,84043,1,0,0:0:0:70:bass_drop 2 #1.wav
+36,192,84200,1,0,0:0:0:70:percussion #1.wav
+182,192,84200,1,0,0:0:0:70:bass_drop 1 #5.wav
+329,192,84200,1,0,0:0:0:70:bass_drop 6 #3.wav
+475,192,84200,1,0,0:0:0:70:fx #1.wav
+182,192,84358,1,0,0:0:0:70:bass_drop 1 #6.wav
+256,192,84358,1,0,0:0:0:70:bass_drop 6 #4.wav
+402,192,84358,1,0,0:0:0:70:kick.wav
+36,192,84516,1,0,0:0:0:70:fx #1.wav
+182,192,84516,1,0,0:0:0:70:bass_drop 1 #5.wav
+329,192,84516,1,0,0:0:0:70:bass_drop 2 #2.wav
+475,192,84516,1,0,0:0:0:70:percussion #2.wav
+402,192,84595,1,0,0:0:0:70:percussion #2.wav
+256,192,84595,1,0,0:0:0:0:
+109,192,84674,1,0,0:0:0:70:bass_drop 1 #1.wav
+182,192,84674,1,0,0:0:0:70:bass_drop 4.wav
+329,192,84674,1,0,0:0:0:0:
+36,192,84832,1,0,0:0:0:70:fx #1.wav
+256,192,84832,1,0,0:0:0:70:8bit 2 #2.wav
+402,192,84832,1,0,0:0:0:70:hi hat.wav
+475,192,84832,1,0,0:0:0:70:percussion #1.wav
+109,192,84990,1,0,0:0:0:70:kick.wav
+182,192,84990,1,0,0:0:0:70:bass_drop 5 #1.wav
+329,192,84990,1,0,0:0:0:70:bass_drop 6 #5.wav
+36,192,85148,1,0,0:0:0:70:fx #1.wav
+256,192,85148,1,0,0:0:0:70:bass_drop 5 #1.wav
+402,192,85148,1,0,0:0:0:70:bass_drop 6 #5.wav
+475,192,85148,1,0,0:0:0:70:percussion #1.wav
+109,192,85306,1,0,0:0:0:70:dirty kick #2.wav
+182,192,85306,1,0,0:0:0:70:bass_drop 1 #8.wav
+329,192,85306,1,0,0:0:0:70:bass_drop 5 #1.wav
+36,192,85464,1,0,0:0:0:70:dirty kick #2.wav
+402,192,85464,1,0,0:0:0:70:bass_drop 5 #1.wav
+475,192,85464,1,0,0:0:0:70:percussion #1.wav
+256,192,85464,1,0,0:0:0:0:
+182,192,85621,1,0,0:0:0:0:
+329,192,85621,1,0,0:0:0:0:
+109,192,85621,1,0,0:0:0:0:
+256,192,85621,1,0,0:0:0:0:
+182,192,85937,1,0,0:0:0:70:bass_drop 1 #1.wav
+329,192,85937,1,0,0:0:0:70:kick.wav
+475,192,85937,1,0,0:0:0:0:
+109,192,86095,1,0,0:0:0:70:fx #1.wav
+256,192,86095,1,0,0:0:0:70:percussion #1.wav
+402,192,86095,1,0,0:0:0:70:bass_drop 3.wav
+36,192,86095,1,0,0:0:0:70:hi hat.wav
+475,192,86253,1,0,0:0:0:70:bass_drop 1 #2.wav
+182,192,86253,1,0,0:0:0:70:bass_drop 6 #1.wav
+329,192,86253,1,0,0:0:0:70:snare #2.wav
+109,192,86411,1,0,0:0:0:70:bass_drop 1 #3.wav
+256,192,86411,1,0,0:0:0:70:percussion #1.wav
+402,192,86411,1,0,0:0:0:70:bass_drop 6 #2.wav
+36,192,86411,1,0,0:0:0:70:fx #1.wav
+256,192,86490,1,0,0:0:0:0:
+402,192,86490,1,0,0:0:0:0:
+475,192,86569,1,0,0:0:0:70:bass_drop 2 #1.wav
+182,192,86569,1,0,0:0:0:0:
+329,192,86569,1,0,0:0:0:0:
+109,192,86727,1,0,0:0:0:70:bass_drop 1 #5.wav
+256,192,86727,1,0,0:0:0:70:percussion #1.wav
+402,192,86727,1,0,0:0:0:70:bass_drop 6 #3.wav
+36,192,86727,1,0,0:0:0:70:fx #1.wav
+475,192,86885,1,0,0:0:0:70:bass_drop 1 #6.wav
+182,192,86885,1,0,0:0:0:70:snare #2.wav
+329,192,86885,1,0,0:0:0:70:bass_drop 6 #4.wav
+109,192,87043,1,0,0:0:0:70:bass_drop 1 #5.wav
+256,192,87043,1,0,0:0:0:70:percussion #2.wav
+402,192,87043,1,0,0:0:0:70:bass_drop 2 #2.wav
+36,192,87043,1,0,0:0:0:70:fx #1.wav
+329,192,87121,1,0,0:0:0:70:percussion #2.wav
+475,192,87121,1,0,0:0:0:0:
+36,192,87200,1,0,0:0:0:70:snare #2.wav
+256,192,87200,1,0,0:0:0:70:bass_drop 1 #1.wav
+402,192,87200,1,0,0:0:0:0:
+109,192,87358,1,0,0:0:0:70:percussion #1.wav
+182,192,87358,1,0,0:0:0:70:bass_drop 3.wav
+329,192,87358,1,0,0:0:0:70:hi hat.wav
+475,192,87358,1,0,0:0:0:70:fx #1.wav
+36,192,87516,1,0,0:0:0:70:snare #2.wav
+256,192,87516,1,0,0:0:0:70:bass_drop 6 #5.wav
+402,192,87516,1,0,0:0:0:70:bass_drop 5 #1.wav
+109,192,87674,1,0,0:0:0:70:percussion #1.wav
+182,192,87674,1,0,0:0:0:70:bass_drop 6 #5.wav
+329,192,87674,1,0,0:0:0:70:bass_drop 5 #1.wav
+475,192,87674,1,0,0:0:0:70:fx #1.wav
+256,192,87832,128,0,87871:0:0:0:0:
+109,192,87990,1,0,0:0:0:70:bass_drop 3.wav
+182,192,87990,1,0,0:0:0:70:8bit 2 #2.wav
+329,192,87990,1,0,0:0:0:70:fx #1.wav
+475,192,87990,1,0,0:0:0:70:percussion #1.wav
+256,192,88148,1,0,0:0:0:70:snare #2.wav
+109,192,88148,1,0,0:0:0:0:
+329,192,88227,1,0,0:0:0:70:bass_drop 6 #2.wav
+475,192,88227,1,0,0:0:0:70:bass_drop 5 #2.wav
+109,192,88306,1,0,0:0:0:0:
+256,192,88306,1,0,0:0:0:0:
+329,192,88385,1,0,0:0:0:70:bass_drop 5 #2.wav
+475,192,88385,1,0,0:0:0:70:bass_drop 6 #2.wav
+36,192,88464,1,0,0:0:0:70:snare #5.wav
+182,192,88464,1,0,0:0:0:0:
+36,192,88621,1,0,0:0:0:70:snare #5.wav
+109,192,88621,1,0,0:0:0:70:fx #1.wav
+329,192,88621,1,0,0:0:0:70:percussion #1.wav
+475,192,88621,1,0,0:0:0:0:
+36,192,88779,1,0,0:0:0:70:snare #5.wav
+256,192,88779,1,0,0:0:0:70:bass_drop 1 #2.wav
+402,192,88779,1,0,0:0:0:70:bass_drop 6 #1.wav
+36,192,88937,1,0,0:0:0:70:snare #5.wav
+109,192,88937,1,0,0:0:0:70:percussion #1.wav
+475,192,88937,1,0,0:0:0:0:
+329,192,88937,1,0,0:0:0:0:
+402,192,89016,1,0,0:0:0:0:
+256,192,89016,1,0,0:0:0:0:
+36,192,89095,1,0,0:0:0:70:snare #5.wav
+329,192,89095,1,0,0:0:0:0:
+182,192,89095,1,0,0:0:0:0:
+36,192,89253,1,0,0:0:0:70:snare #5.wav
+109,192,89253,1,0,0:0:0:70:percussion #1.wav
+256,192,89253,1,0,0:0:0:70:bass_drop 1 #5.wav
+475,192,89253,1,0,0:0:0:0:
+36,192,89411,1,0,0:0:0:70:snare #5.wav
+182,192,89411,1,0,0:0:0:70:bass_drop 1 #6.wav
+329,192,89411,1,0,0:0:0:70:bass_drop 6 #4.wav
+36,192,89569,1,0,0:0:0:70:snare #4.wav
+109,192,89569,1,0,0:0:0:70:fx #1.wav
+256,192,89569,1,0,0:0:0:70:bass_drop 1 #5.wav
+475,192,89569,1,0,0:0:0:70:bass_drop 2 #2.wav
+402,192,89648,1,0,0:0:0:70:snare #4.wav
+36,192,89727,1,0,0:0:0:70:snare #4.wav
+182,192,89727,1,0,0:0:0:70:bass_drop 1 #1.wav
+475,192,89806,1,0,0:0:0:70:snare #4.wav
+329,192,89806,1,0,0:0:0:0:
+256,192,89885,1,0,0:0:0:0:
+109,192,89885,1,0,0:0:0:0:
+475,192,89964,1,0,0:0:0:70:snare #4.wav
+329,192,89964,1,0,0:0:0:0:
+36,192,90043,1,0,0:0:0:70:snare #4.wav
+182,192,90043,1,0,0:0:0:70:bass_drop 6 #6.wav
+402,192,90121,1,0,0:0:0:0:
+256,192,90121,1,0,0:0:0:0:
+36,192,90200,1,0,0:0:0:70:snare #4.wav
+182,192,90200,1,0,0:0:0:70:bass_drop 6 #6.wav
+475,192,90279,1,0,0:0:0:70:snare #4.wav
+329,192,90279,1,0,0:0:0:0:
+256,192,90358,1,0,0:0:0:0:
+109,192,90358,1,0,0:0:0:0:
+329,192,90437,1,0,0:0:0:70:drum loop (10).wav
+475,192,90437,1,0,0:0:0:70:snare #4.wav
+36,192,90516,1,0,0:0:0:70:snare #4.wav
+182,192,90516,1,0,0:0:0:70:bass_drop 6 #6.wav
+402,192,90595,1,0,0:0:0:0:
+256,192,90595,1,0,0:0:0:0:
+36,192,90674,1,0,0:0:0:70:snare #4.wav
+109,192,90674,1,0,0:0:0:70:bass_drop 1 #6.wav
+182,192,90674,1,0,0:0:0:0:
+329,192,90753,1,0,0:0:0:70:drum loop (14).wav
+475,192,90753,1,0,0:0:0:70:snare #4.wav
+402,192,90753,1,0,0:0:0:0:
+36,192,90832,1,0,0:0:0:70:snare #4.wav
+182,192,90832,1,0,0:0:0:70:bass_drop 6 #3.wav
+109,192,90832,1,0,0:0:0:0:
+329,192,90911,1,0,0:0:0:70:drum loop (16).wav
+475,192,90911,1,0,0:0:0:70:snare #4.wav
+402,192,90911,1,0,0:0:0:0:
+36,192,90990,1,0,0:0:0:70:8bit 3 F#5.wav
+256,192,90990,1,0,0:0:0:70:kick.wav
+109,192,91069,1,0,0:0:0:70:8bit 3 B5.wav
+36,192,91148,1,0,0:0:0:70:percussion #1.wav
+182,192,91148,1,0,0:0:0:70:8bit 3 C#6.wav
+402,192,91148,1,0,0:0:0:70:pluck3 #1.wav
+256,192,91227,1,0,0:0:0:70:8bit 3 E6.wav
+109,192,91306,1,0,0:0:0:70:8bit 3 F#6.wav
+402,192,91306,1,0,0:0:0:70:pluck3 #1.wav
+475,192,91306,1,0,0:0:0:70:kick.wav
+182,192,91385,1,0,0:0:0:70:8bit 3 B6.wav
+36,192,91464,1,0,0:0:0:70:percussion #1.wav
+256,192,91464,1,0,0:0:0:70:8bit 3 C#7.wav
+402,192,91464,1,0,0:0:0:70:pluck3 #1.wav
+329,192,91543,1,0,0:0:0:70:8bit 3 E7.wav
+182,192,91621,1,0,0:0:0:70:pluck3 #1.wav
+402,192,91621,1,0,0:0:0:70:8bit 3 F#7.wav
+475,192,91621,1,0,0:0:0:70:kick.wav
+329,192,91700,1,0,0:0:0:70:8bit 3 E7.wav
+36,192,91779,1,0,0:0:0:70:percussion #1.wav
+256,192,91779,1,0,0:0:0:70:8bit 3 C#7.wav
+402,192,91779,1,0,0:0:0:70:pluck3 #1.wav
+182,192,91858,1,0,0:0:0:70:8bit 3 B6.wav
+329,192,91937,1,0,0:0:0:70:8bit 3 F#6.wav
+402,192,91937,1,0,0:0:0:70:pluck3 #1.wav
+475,192,91937,1,0,0:0:0:70:kick.wav
+256,192,92016,1,0,0:0:0:70:8bit 3 E6.wav
+36,192,92095,1,0,0:0:0:70:pluck3 #2.wav
+182,192,92095,1,0,0:0:0:70:8bit 3 C#6.wav
+402,192,92095,1,0,0:0:0:70:percussion #2.wav
+109,192,92174,1,0,0:0:0:70:8bit 3 B5.wav
+329,192,92174,1,0,0:0:0:70:percussion #2.wav
+36,192,92253,1,0,0:0:0:70:8bit 3 E5.wav
+256,192,92253,1,0,0:0:0:70:pluck3 #2.wav
+402,192,92253,1,0,0:0:0:70:kick.wav
+109,192,92332,1,0,0:0:0:70:8bit 3 G#5.wav
+36,192,92411,1,0,0:0:0:70:pluck3 #2.wav
+182,192,92411,1,0,0:0:0:70:8bit 3 B5.wav
+475,192,92411,1,0,0:0:0:70:percussion #1.wav
+256,192,92490,1,0,0:0:0:70:8bit 3 C#6.wav
+36,192,92569,1,0,0:0:0:70:pluck3 #2.wav
+109,192,92569,1,0,0:0:0:70:8bit 3 E6.wav
+402,192,92569,1,0,0:0:0:70:kick.wav
+182,192,92648,1,0,0:0:0:70:8bit 3 G#6.wav
+36,192,92727,1,0,0:0:0:70:pluck3 #2.wav
+256,192,92727,1,0,0:0:0:70:8bit 3 B6.wav
+475,192,92727,1,0,0:0:0:70:percussion #1.wav
+329,192,92806,1,0,0:0:0:70:8bit 3 C#7.wav
+36,192,92885,1,0,0:0:0:70:pluck3 #2.wav
+109,192,92885,1,0,0:0:0:70:kick.wav
+402,192,92885,1,0,0:0:0:70:8bit 3 E7.wav
+329,192,92964,1,0,0:0:0:70:8bit 3 B6.wav
+36,192,93043,1,0,0:0:0:70:pluck3 #2.wav
+256,192,93043,1,0,0:0:0:70:8bit 3 G#6.wav
+475,192,93043,1,0,0:0:0:70:percussion #1.wav
+182,192,93121,1,0,0:0:0:70:8bit 3 E6.wav
+36,192,93200,1,0,0:0:0:70:pluck3 #2.wav
+109,192,93200,1,0,0:0:0:70:kick.wav
+329,192,93200,1,0,0:0:0:70:8bit 3 C#6.wav
+256,192,93279,1,0,0:0:0:70:8bit 3 B5.wav
+36,192,93358,1,0,0:0:0:70:pluck3 #2.wav
+182,192,93358,1,0,0:0:0:70:8bit 3 G#5.wav
+475,192,93358,1,0,0:0:0:70:percussion #2.wav
+109,192,93437,1,0,0:0:0:70:8bit 3 E5.wav
+329,192,93437,1,0,0:0:0:70:percussion #2.wav
+36,192,93516,1,0,0:0:0:70:8bit 3 D#5.wav
+402,192,93516,1,0,0:0:0:70:kick.wav
+475,192,93516,1,0,0:0:0:70:pluck3 #3.wav
+182,192,93595,1,0,0:0:0:70:8bit 3 F#5.wav
+109,192,93674,1,0,0:0:0:70:8bit 3 A5.wav
+329,192,93674,1,0,0:0:0:70:percussion #1.wav
+475,192,93674,1,0,0:0:0:70:pluck3 #3.wav
+256,192,93753,1,0,0:0:0:70:8bit 3 C#6.wav
+182,192,93832,1,0,0:0:0:70:8bit 3 D#6.wav
+402,192,93832,1,0,0:0:0:70:kick.wav
+475,192,93832,1,0,0:0:0:70:pluck3 #3.wav
+109,192,93911,1,0,0:0:0:70:8bit 3 F#6.wav
+182,192,93990,1,0,0:0:0:70:percussion #1.wav
+256,192,93990,1,0,0:0:0:70:8bit 3 A6.wav
+475,192,93990,1,0,0:0:0:70:pluck3 #3.wav
+329,192,94069,1,0,0:0:0:70:8bit 3 C#7.wav
+36,192,94148,1,0,0:0:0:70:kick.wav
+402,192,94148,1,0,0:0:0:70:8bit 3 D#7.wav
+475,192,94148,1,0,0:0:0:70:pluck3 #3.wav
+256,192,94227,1,0,0:0:0:70:8bit 3 C#7.wav
+109,192,94306,1,0,0:0:0:70:percussion #1.wav
+329,192,94306,1,0,0:0:0:70:8bit 3 A6.wav
+475,192,94306,1,0,0:0:0:70:pluck3 #3.wav
+182,192,94385,1,0,0:0:0:70:8bit 3 F#6.wav
+36,192,94464,1,0,0:0:0:70:kick.wav
+256,192,94464,1,0,0:0:0:70:8bit 3 D#6.wav
+475,192,94464,1,0,0:0:0:70:pluck3 #3.wav
+329,192,94543,1,0,0:0:0:70:8bit 3 C#6.wav
+182,192,94621,1,0,0:0:0:70:8bit 3 A5.wav
+256,192,94621,1,0,0:0:0:70:percussion #2.wav
+475,192,94621,1,0,0:0:0:70:pluck3 #3.wav
+109,192,94700,1,0,0:0:0:70:8bit 3 F#5.wav
+329,192,94700,1,0,0:0:0:70:percussion #2.wav
+36,192,94779,1,0,0:0:0:70:8bit 3 D#5.wav
+402,192,94779,1,0,0:0:0:70:kick.wav
+475,192,94779,1,0,0:0:0:70:pluck3 #3.wav
+182,192,94858,1,0,0:0:0:70:8bit 3 F#5.wav
+109,192,94937,1,0,0:0:0:70:8bit 3 A5.wav
+329,192,94937,1,0,0:0:0:70:percussion #1.wav
+475,192,94937,1,0,0:0:0:70:pluck3 #3.wav
+256,192,95016,1,0,0:0:0:70:8bit 3 C#6.wav
+182,192,95095,1,0,0:0:0:70:8bit 3 D#6.wav
+402,192,95095,1,0,0:0:0:70:kick.wav
+475,192,95095,1,0,0:0:0:70:pluck3 #3.wav
+109,192,95174,1,0,0:0:0:70:8bit 3 F#6.wav
+36,192,95253,1,0,0:0:0:70:percussion #1.wav
+256,192,95253,1,0,0:0:0:70:8bit 3 A6.wav
+475,192,95253,1,0,0:0:0:70:pluck3 #3.wav
+329,192,95332,1,0,0:0:0:70:8bit 3 C#7.wav
+109,192,95411,1,0,0:0:0:70:kick.wav
+402,192,95411,1,0,0:0:0:70:8bit 3 D#7.wav
+475,192,95411,1,0,0:0:0:70:pluck3 #3.wav
+256,192,95490,1,0,0:0:0:70:8bit 3 C#7.wav
+36,192,95569,1,0,0:0:0:70:percussion #1.wav
+329,192,95569,1,0,0:0:0:70:8bit 3 A6.wav
+475,192,95569,1,0,0:0:0:70:pluck3 #3.wav
+182,192,95648,1,0,0:0:0:70:8bit 3 F#6.wav
+109,192,95727,1,0,0:0:0:70:kick.wav
+256,192,95727,1,0,0:0:0:70:8bit 3 D#6.wav
+475,192,95727,1,0,0:0:0:70:pluck3 #3.wav
+329,192,95806,1,0,0:0:0:70:8bit 3 C#6.wav
+36,192,95885,1,0,0:0:0:70:percussion #2.wav
+182,192,95885,1,0,0:0:0:70:8bit 3 A5.wav
+475,192,95885,1,0,0:0:0:70:pluck3 #3.wav
+256,192,95964,1,0,0:0:0:70:percussion #2.wav
+402,192,95964,1,0,0:0:0:70:8bit 3 F#5.wav
+36,192,96043,1,0,0:0:0:70:kick.wav
+109,192,96043,1,0,0:0:0:70:pluck3 #1.wav
+475,192,96043,1,0,0:0:0:70:8bit 3 F#5.wav
+402,192,96121,1,0,0:0:0:70:8bit 3 B5.wav
+109,192,96200,1,0,0:0:0:70:pluck3 #1.wav
+329,192,96200,1,0,0:0:0:70:8bit 3 C#6.wav
+475,192,96200,1,0,0:0:0:70:percussion #1.wav
+256,192,96279,1,0,0:0:0:70:8bit 3 E6.wav
+36,192,96358,1,0,0:0:0:70:kick.wav
+109,192,96358,1,0,0:0:0:70:pluck3 #1.wav
+402,192,96358,1,0,0:0:0:70:8bit 3 F#6.wav
+329,192,96437,1,0,0:0:0:70:8bit 3 B6.wav
+109,192,96516,1,0,0:0:0:70:pluck3 #1.wav
+256,192,96516,1,0,0:0:0:70:8bit 3 C#7.wav
+475,192,96516,1,0,0:0:0:70:percussion #1.wav
+182,192,96595,1,0,0:0:0:70:8bit 3 E7.wav
+36,192,96674,1,0,0:0:0:70:kick.wav
+109,192,96674,1,0,0:0:0:70:8bit 3 F#7.wav
+402,192,96674,1,0,0:0:0:70:pluck3 #1.wav
+182,192,96753,1,0,0:0:0:70:8bit 3 E7.wav
+109,192,96832,1,0,0:0:0:70:pluck3 #1.wav
+256,192,96832,1,0,0:0:0:70:8bit 3 C#7.wav
+475,192,96832,1,0,0:0:0:70:percussion #1.wav
+329,192,96911,1,0,0:0:0:70:8bit 3 B6.wav
+36,192,96990,1,0,0:0:0:70:kick.wav
+109,192,96990,1,0,0:0:0:70:pluck3 #1.wav
+182,192,96990,1,0,0:0:0:70:8bit 3 F#6.wav
+256,192,97069,1,0,0:0:0:70:8bit 3 E6.wav
+109,192,97148,1,0,0:0:0:70:pluck3 #4.wav
+329,192,97148,1,0,0:0:0:70:8bit 3 C#6.wav
+475,192,97148,1,0,0:0:0:70:percussion #2.wav
+182,192,97227,1,0,0:0:0:70:percussion #2.wav
+402,192,97227,1,0,0:0:0:70:8bit 3 B5.wav
+109,192,97306,1,0,0:0:0:70:kick.wav
+256,192,97306,1,0,0:0:0:70:pluck3 #4.wav
+475,192,97306,1,0,0:0:0:70:8bit 3 E5.wav
+402,192,97385,1,0,0:0:0:70:8bit 3 G#5.wav
+36,192,97464,1,0,0:0:0:70:percussion #1.wav
+329,192,97464,1,0,0:0:0:70:8bit 3 B5.wav
+475,192,97464,1,0,0:0:0:70:pluck3 #4.wav
+256,192,97543,1,0,0:0:0:70:8bit 3 C#6.wav
+109,192,97621,1,0,0:0:0:70:kick.wav
+402,192,97621,1,0,0:0:0:70:8bit 3 F#6.wav
+475,192,97621,1,0,0:0:0:70:pluck3 #4.wav
+329,192,97700,1,0,0:0:0:70:8bit 3 G#6.wav
+36,192,97779,1,0,0:0:0:70:percussion #1.wav
+256,192,97779,1,0,0:0:0:70:8bit 3 C#7.wav
+475,192,97779,1,0,0:0:0:70:pluck3 #4.wav
+182,192,97858,1,0,0:0:0:70:8bit 3 E7.wav
+109,192,97937,1,0,0:0:0:70:8bit 3 F#7.wav
+402,192,97937,1,0,0:0:0:70:kick.wav
+475,192,97937,1,0,0:0:0:70:pluck3 #4.wav
+182,192,98016,1,0,0:0:0:70:8bit 3 E7.wav
+36,192,98095,1,0,0:0:0:70:percussion #1.wav
+256,192,98095,1,0,0:0:0:70:8bit 3 C#7.wav
+475,192,98095,1,0,0:0:0:70:pluck3 #4.wav
+329,192,98174,1,0,0:0:0:70:8bit 3 G#6.wav
+182,192,98253,1,0,0:0:0:70:8bit 3 F#6.wav
+402,192,98253,1,0,0:0:0:70:kick.wav
+475,192,98253,1,0,0:0:0:70:pluck3 #4.wav
+256,192,98332,1,0,0:0:0:70:8bit 3 C#6.wav
+109,192,98411,1,0,0:0:0:70:percussion #2.wav
+329,192,98411,1,0,0:0:0:70:8bit 3 B5.wav
+475,192,98411,1,0,0:0:0:70:pluck3 #4.wav
+256,192,98490,1,0,0:0:0:70:percussion #2.wav
+402,192,98490,1,0,0:0:0:70:8bit 3 G#5.wav
+36,192,98569,1,0,0:0:0:70:pluck3 #3.wav
+182,192,98569,1,0,0:0:0:70:kick.wav
+475,192,98569,1,0,0:0:0:70:8bit 3 D#5.wav
+329,192,98648,1,0,0:0:0:70:8bit 3 F#5.wav
+36,192,98727,1,0,0:0:0:70:pluck3 #3.wav
+109,192,98727,1,0,0:0:0:70:percussion #1.wav
+402,192,98727,1,0,0:0:0:70:8bit 3 A5.wav
+256,192,98806,1,0,0:0:0:70:8bit 3 C#6.wav
+36,192,98885,1,0,0:0:0:70:pluck3 #3.wav
+182,192,98885,1,0,0:0:0:70:kick.wav
+329,192,98885,1,0,0:0:0:70:8bit 3 D#6.wav
+402,192,98964,1,0,0:0:0:70:8bit 3 F#6.wav
+36,192,99043,1,0,0:0:0:70:pluck3 #3.wav
+256,192,99043,1,0,0:0:0:70:8bit 3 A6.wav
+475,192,99043,1,0,0:0:0:70:percussion #1.wav
+182,192,99121,1,0,0:0:0:70:8bit 3 C#7.wav
+36,192,99200,1,0,0:0:0:70:pluck3 #3.wav
+109,192,99200,1,0,0:0:0:70:8bit 3 D#7.wav
+475,192,99200,1,0,0:0:0:70:kick.wav
+256,192,99279,1,0,0:0:0:70:8bit 3 C#7.wav
+36,192,99358,1,0,0:0:0:70:pluck3 #3.wav
+182,192,99358,1,0,0:0:0:70:8bit 3 A6.wav
+402,192,99358,1,0,0:0:0:70:percussion #1.wav
+329,192,99437,1,0,0:0:0:70:8bit 3 F#6.wav
+36,192,99516,1,0,0:0:0:70:pluck3 #3.wav
+256,192,99516,1,0,0:0:0:70:8bit 3 D#6.wav
+475,192,99516,1,0,0:0:0:70:kick.wav
+182,192,99595,1,0,0:0:0:70:8bit 3 C#6.wav
+36,192,99674,1,0,0:0:0:70:pluck3 #3.wav
+256,192,99674,1,0,0:0:0:70:percussion #2.wav
+329,192,99674,1,0,0:0:0:70:8bit 3 A5.wav
+182,192,99753,1,0,0:0:0:70:percussion #2.wav
+402,192,99753,1,0,0:0:0:70:8bit 3 F#5.wav
+36,192,99832,1,0,0:0:0:70:pluck3 #3.wav
+109,192,99832,1,0,0:0:0:70:kick.wav
+475,192,99832,1,0,0:0:0:70:8bit 3 D#5.wav
+329,192,99911,1,0,0:0:0:70:8bit 3 F#5.wav
+36,192,99990,1,0,0:0:0:70:pluck3 #3.wav
+182,192,99990,1,0,0:0:0:70:percussion #1.wav
+402,192,99990,1,0,0:0:0:70:8bit 3 A5.wav
+256,192,100069,1,0,0:0:0:70:8bit 3 C#6.wav
+36,192,100148,1,0,0:0:0:70:pluck3 #3.wav
+109,192,100148,1,0,0:0:0:70:kick.wav
+329,192,100148,1,0,0:0:0:70:8bit 3 D#6.wav
+402,192,100227,1,0,0:0:0:70:8bit 3 F#6.wav
+36,192,100306,1,0,0:0:0:70:pluck3 #3.wav
+256,192,100306,1,0,0:0:0:70:8bit 3 A6.wav
+329,192,100306,1,0,0:0:0:70:percussion #1.wav
+182,192,100385,1,0,0:0:0:70:8bit 3 C#7.wav
+36,192,100464,1,0,0:0:0:70:pluck3 #3.wav
+109,192,100464,1,0,0:0:0:70:8bit 3 D#7.wav
+402,192,100464,1,0,0:0:0:70:kick.wav
+256,192,100543,1,0,0:0:0:70:8bit 3 C#7.wav
+36,192,100621,1,0,0:0:0:70:pluck3 #3.wav
+182,192,100621,1,0,0:0:0:70:8bit 3 A6.wav
+475,192,100621,1,0,0:0:0:70:percussion #1.wav
+329,192,100700,1,0,0:0:0:70:8bit 3 F#6.wav
+36,192,100779,1,0,0:0:0:70:pluck3 #3.wav
+256,192,100779,1,0,0:0:0:70:8bit 3 D#6.wav
+402,192,100779,1,0,0:0:0:70:kick.wav
+182,192,100858,1,0,0:0:0:70:8bit 3 C#6.wav
+36,192,100937,1,0,0:0:0:70:pluck3 #3.wav
+329,192,100937,1,0,0:0:0:70:8bit 3 A5.wav
+475,192,100937,1,0,0:0:0:70:percussion #2.wav
+256,192,101016,1,0,0:0:0:70:percussion #2.wav
+402,192,101016,1,0,0:0:0:70:8bit 3 F#5.wav
+36,192,101095,1,0,0:0:0:70:8bit 4 C#5.wav
+182,192,101095,1,0,0:0:0:70:8bit 3 F#5.wav
+475,192,101095,1,0,0:0:0:70:kick.wav
+109,192,101174,1,0,0:0:0:70:8bit 4 F#5.wav
+256,192,101174,1,0,0:0:0:70:8bit 3 B5.wav
+182,192,101253,1,0,0:0:0:70:8bit 4 G#5.wav
+329,192,101253,1,0,0:0:0:70:8bit 3 C#6.wav
+256,192,101332,1,0,0:0:0:70:8bit 4 B5.wav
+402,192,101332,1,0,0:0:0:70:8bit 3 E6.wav
+36,192,101411,1,0,0:0:0:70:8bit 4 C#6.wav
+182,192,101411,1,0,0:0:0:70:8bit 3 F#6.wav
+475,192,101411,1,0,0:0:0:70:kick.wav
+109,192,101490,1,0,0:0:0:70:8bit 4 F#6.wav
+256,192,101490,1,0,0:0:0:70:8bit 3 B6.wav
+182,192,101569,1,0,0:0:0:70:8bit 4 G#6.wav
+329,192,101569,1,0,0:0:0:70:8bit 3 C#7.wav
+256,192,101648,1,0,0:0:0:70:8bit 4 B6.wav
+402,192,101648,1,0,0:0:0:70:8bit 3 E7.wav
+36,192,101727,1,0,0:0:0:70:kick.wav
+329,192,101727,1,0,0:0:0:70:8bit 4 C#7.wav
+475,192,101727,1,0,0:0:0:70:8bit 3 F#7.wav
+256,192,101806,1,0,0:0:0:70:8bit 4 B6.wav
+402,192,101806,1,0,0:0:0:70:8bit 3 E7.wav
+182,192,101885,1,0,0:0:0:70:8bit 4 G#6.wav
+329,192,101885,1,0,0:0:0:70:8bit 3 C#7.wav
+109,192,101964,1,0,0:0:0:70:8bit 4 F#6.wav
+256,192,101964,1,0,0:0:0:70:8bit 3 B6.wav
+36,192,102043,1,0,0:0:0:70:kick.wav
+329,192,102043,1,0,0:0:0:70:8bit 4 C#6.wav
+475,192,102043,1,0,0:0:0:70:8bit 3 F#6.wav
+256,192,102121,1,0,0:0:0:70:8bit 4 B5.wav
+402,192,102121,1,0,0:0:0:70:8bit 3 E6.wav
+182,192,102200,1,0,0:0:0:70:8bit 4 G#5.wav
+329,192,102200,1,0,0:0:0:70:8bit 3 C#6.wav
+109,192,102279,1,0,0:0:0:70:8bit 4 F#5.wav
+256,192,102279,1,0,0:0:0:70:8bit 3 B5.wav
+36,192,102358,1,0,0:0:0:70:8bit 4 B4.wav
+182,192,102358,1,0,0:0:0:70:8bit 3 E5.wav
+475,192,102358,1,0,0:0:0:70:kick.wav
+109,192,102437,1,0,0:0:0:70:8bit 4 D#5.wav
+256,192,102437,1,0,0:0:0:70:8bit 3 G#5.wav
+182,192,102516,1,0,0:0:0:70:8bit 4 F#5.wav
+329,192,102516,1,0,0:0:0:70:8bit 3 B5.wav
+256,192,102595,1,0,0:0:0:70:8bit 4 G#5.wav
+402,192,102595,1,0,0:0:0:70:8bit 3 C#6.wav
+36,192,102674,1,0,0:0:0:70:8bit 4 B5.wav
+182,192,102674,1,0,0:0:0:70:8bit 3 E6.wav
+475,192,102674,1,0,0:0:0:70:kick.wav
+109,192,102753,1,0,0:0:0:70:8bit 4 D#6.wav
+256,192,102753,1,0,0:0:0:70:8bit 3 G#6.wav
+182,192,102832,1,0,0:0:0:70:8bit 4 F#6.wav
+329,192,102832,1,0,0:0:0:70:8bit 3 B6.wav
+256,192,102911,1,0,0:0:0:70:8bit 4 G#6.wav
+402,192,102911,1,0,0:0:0:70:8bit 3 C#7.wav
+36,192,102990,1,0,0:0:0:70:kick.wav
+329,192,102990,1,0,0:0:0:70:8bit 4 B6.wav
+475,192,102990,1,0,0:0:0:70:8bit 3 E7.wav
+256,192,103069,1,0,0:0:0:70:8bit 4 G#6.wav
+402,192,103069,1,0,0:0:0:70:8bit 3 B6.wav
+182,192,103148,1,0,0:0:0:70:8bit 4 F#6.wav
+329,192,103148,1,0,0:0:0:70:8bit 3 G#6.wav
+109,192,103227,1,0,0:0:0:70:8bit 4 D#6.wav
+256,192,103227,1,0,0:0:0:70:8bit 3 E6.wav
+36,192,103306,1,0,0:0:0:70:kick.wav
+329,192,103306,1,0,0:0:0:70:8bit 4 B5.wav
+475,192,103306,1,0,0:0:0:70:8bit 3 C#6.wav
+256,192,103385,1,0,0:0:0:70:8bit 4 G#5.wav
+402,192,103385,1,0,0:0:0:70:8bit 3 B5.wav
+182,192,103464,1,0,0:0:0:70:8bit 4 F#5.wav
+329,192,103464,1,0,0:0:0:70:8bit 3 G#5.wav
+256,192,103543,1,0,0:0:0:70:8bit 3 E5.wav
+402,192,103543,1,0,0:0:0:70:8bit 4 D#5.wav
+36,192,103621,1,0,0:0:0:70:8bit 4 A#4.wav
+109,192,103621,1,0,0:0:0:70:8bit 3 D#5.wav
+475,192,103621,1,0,0:0:0:70:kick.wav
+329,192,103700,1,0,0:0:0:70:8bit 4 C#5.wav
+402,192,103700,1,0,0:0:0:70:8bit 3 F#5.wav
+109,192,103779,1,0,0:0:0:70:8bit 4 E5.wav
+182,192,103779,1,0,0:0:0:70:8bit 3 A5.wav
+256,192,103858,1,0,0:0:0:70:8bit 4 G#5.wav
+329,192,103858,1,0,0:0:0:70:8bit 3 C#6.wav
+36,192,103937,1,0,0:0:0:70:8bit 4 A#5.wav
+109,192,103937,1,0,0:0:0:70:8bit 3 D#6.wav
+475,192,103937,1,0,0:0:0:70:kick.wav
+329,192,104016,1,0,0:0:0:70:8bit 4 C#6.wav
+402,192,104016,1,0,0:0:0:70:8bit 3 F#6.wav
+109,192,104095,1,0,0:0:0:70:8bit 4 E6.wav
+182,192,104095,1,0,0:0:0:70:8bit 3 A6.wav
+256,192,104174,1,0,0:0:0:70:8bit 4 G#6.wav
+329,192,104174,1,0,0:0:0:70:8bit 3 C#7.wav
+36,192,104253,1,0,0:0:0:70:kick.wav
+402,192,104253,1,0,0:0:0:70:8bit 4 A#6.wav
+475,192,104253,1,0,0:0:0:70:8bit 3 D#7.wav
+109,192,104332,1,0,0:0:0:70:8bit 4 G#6.wav
+182,192,104332,1,0,0:0:0:70:8bit 3 C#7.wav
+329,192,104411,1,0,0:0:0:70:8bit 4 E6.wav
+402,192,104411,1,0,0:0:0:70:8bit 3 A6.wav
+182,192,104490,1,0,0:0:0:70:8bit 4 C#6.wav
+256,192,104490,1,0,0:0:0:70:8bit 3 F#6.wav
+36,192,104569,1,0,0:0:0:70:kick.wav
+402,192,104569,1,0,0:0:0:70:8bit 4 A#5.wav
+475,192,104569,1,0,0:0:0:70:8bit 3 D#6.wav
+109,192,104648,1,0,0:0:0:70:8bit 4 G#5.wav
+182,192,104648,1,0,0:0:0:70:8bit 3 C#6.wav
+329,192,104727,1,0,0:0:0:70:8bit 3 A5.wav
+402,192,104727,1,0,0:0:0:70:8bit 4 E5.wav
+182,192,104806,1,0,0:0:0:70:8bit 4 C#5.wav
+256,192,104806,1,0,0:0:0:70:8bit 3 F#5.wav
+36,192,104885,1,0,0:0:0:70:8bit 4 A#4.wav
+109,192,104885,1,0,0:0:0:70:8bit 3 D#5.wav
+475,192,104885,1,0,0:0:0:70:kick.wav
+329,192,104964,1,0,0:0:0:70:8bit 4 C#5.wav
+402,192,104964,1,0,0:0:0:70:8bit 3 F#5.wav
+109,192,105043,1,0,0:0:0:70:8bit 4 E5.wav
+182,192,105043,1,0,0:0:0:70:8bit 3 A5.wav
+256,192,105121,1,0,0:0:0:70:8bit 4 G#5.wav
+329,192,105121,1,0,0:0:0:70:8bit 3 C#6.wav
+36,192,105200,1,0,0:0:0:70:8bit 4 A#5.wav
+109,192,105200,1,0,0:0:0:70:8bit 3 D#6.wav
+475,192,105200,1,0,0:0:0:70:kick.wav
+329,192,105279,1,0,0:0:0:70:8bit 4 C#6.wav
+402,192,105279,1,0,0:0:0:70:8bit 3 F#6.wav
+109,192,105358,1,0,0:0:0:70:8bit 4 E6.wav
+182,192,105358,1,0,0:0:0:70:8bit 3 A6.wav
+256,192,105437,1,0,0:0:0:70:8bit 4 G#6.wav
+329,192,105437,1,0,0:0:0:70:8bit 3 C#7.wav
+36,192,105516,1,0,0:0:0:70:snare #2.wav
+402,192,105516,1,0,0:0:0:70:8bit 4 A#6.wav
+475,192,105516,1,0,0:0:0:70:8bit 3 D#7.wav
+109,192,105595,1,0,0:0:0:70:8bit 4 G#6.wav
+182,192,105595,1,0,0:0:0:70:8bit 3 C#7.wav
+329,192,105674,1,0,0:0:0:70:8bit 4 E6.wav
+402,192,105674,1,0,0:0:0:70:8bit 3 A6.wav
+182,192,105753,1,0,0:0:0:70:8bit 4 C#6.wav
+256,192,105753,1,0,0:0:0:70:8bit 3 F#6.wav
+36,192,105832,1,0,0:0:0:70:snare #2.wav
+402,192,105832,1,0,0:0:0:70:8bit 4 A#5.wav
+475,192,105832,1,0,0:0:0:70:8bit 3 D#6.wav
+109,192,105911,1,0,0:0:0:70:8bit 4 G#5.wav
+182,192,105911,1,0,0:0:0:70:8bit 3 C#6.wav
+36,192,105990,1,0,0:0:0:70:snare #2.wav
+329,192,105990,1,0,0:0:0:70:8bit 4 E5.wav
+402,192,105990,1,0,0:0:0:70:8bit 3 A5.wav
+182,192,106069,1,0,0:0:0:70:8bit 3 F#5.wav
+256,192,106069,1,0,0:0:0:70:8bit 4 C#5.wav
+36,192,106148,1,0,0:0:0:70:snare #5.wav
+109,192,106148,1,0,0:0:0:70:cu3_pluck (33).wav
+402,192,106148,1,0,0:0:0:70:8bit 3 F#5.wav
+475,192,106148,1,0,0:0:0:70:8bit 4 C#5.wav
+36,192,106306,1,0,0:0:0:70:snare #5.wav
+109,192,106306,1,0,0:0:0:70:cu3_pluck (34).wav
+329,192,106306,1,0,0:0:0:70:8bit 3 C#6.wav
+402,192,106306,1,0,0:0:0:70:8bit 4 G#5.wav
+36,192,106464,1,0,0:0:0:70:snare #5.wav
+109,192,106464,1,0,0:0:0:70:cu3_pluck (35).wav
+256,192,106464,1,0,0:0:0:70:8bit 3 F#6.wav
+329,192,106464,1,0,0:0:0:70:8bit 4 C#6.wav
+36,192,106621,1,0,0:0:0:70:snare #5.wav
+109,192,106621,1,0,0:0:0:70:cu3_pluck (36).wav
+182,192,106621,1,0,0:0:0:70:8bit 3 C#7.wav
+256,192,106621,1,0,0:0:0:70:8bit 4 G#6.wav
+36,192,106779,1,0,0:0:0:70:snare #5.wav
+109,192,106779,1,0,0:0:0:70:cu3_pluck (37).wav
+329,192,106779,1,0,0:0:0:70:8bit 3 F#7.wav
+475,192,106779,1,0,0:0:0:70:8bit 4 C#7.wav
+36,192,106937,1,0,0:0:0:70:snare #5.wav
+109,192,106937,1,0,0:0:0:70:cu3_pluck (38).wav
+256,192,106937,1,0,0:0:0:70:8bit 3 C#7.wav
+402,192,106937,1,0,0:0:0:70:8bit 4 G#6.wav
+36,192,107095,1,0,0:0:0:70:snare #5.wav
+109,192,107095,1,0,0:0:0:70:cu3_pluck (39).wav
+182,192,107095,1,0,0:0:0:70:8bit 3 F#6.wav
+329,192,107095,1,0,0:0:0:70:8bit 4 C#6.wav
+36,192,107253,1,0,0:0:0:70:snare #4.wav
+109,192,107253,1,0,0:0:0:70:cu3_pluck (40).wav
+256,192,107253,1,0,0:0:0:70:8bit 3 C#6.wav
+402,192,107253,1,0,0:0:0:70:8bit 4 G#5.wav
+182,192,107332,1,0,0:0:0:70:snare #4.wav
+329,192,107332,1,0,0:0:0:0:
+36,192,107411,1,0,0:0:0:70:8bit 3 E5.wav
+109,192,107411,1,0,0:0:0:70:8bit 4 B4.wav
+402,192,107411,1,0,0:0:0:70:cu3_pluck (41).wav
+475,192,107411,1,0,0:0:0:70:snare #5.wav
+109,192,107569,1,0,0:0:0:70:8bit 3 B5.wav
+182,192,107569,1,0,0:0:0:70:8bit 4 F#5.wav
+402,192,107569,1,0,0:0:0:70:cu3_pluck (42).wav
+475,192,107569,1,0,0:0:0:70:snare #5.wav
+182,192,107727,1,0,0:0:0:70:8bit 3 F#6.wav
+256,192,107727,1,0,0:0:0:70:8bit 4 C#6.wav
+402,192,107727,1,0,0:0:0:70:cu3_pluck (43).wav
+475,192,107727,1,0,0:0:0:70:snare #5.wav
+256,192,107885,1,0,0:0:0:70:8bit 3 C#7.wav
+329,192,107885,1,0,0:0:0:70:8bit 4 G#6.wav
+402,192,107885,1,0,0:0:0:70:cu3_pluck (44).wav
+475,192,107885,1,0,0:0:0:70:snare #5.wav
+36,192,108043,1,0,0:0:0:70:8bit 3 F#7.wav
+182,192,108043,1,0,0:0:0:70:8bit 4 C#7.wav
+402,192,108043,1,0,0:0:0:70:cu3_pluck (45).wav
+475,192,108043,1,0,0:0:0:70:snare #5.wav
+109,192,108200,1,0,0:0:0:70:8bit 3 C#7.wav
+256,192,108200,1,0,0:0:0:70:8bit 4 G#6.wav
+402,192,108200,1,0,0:0:0:70:cu3_pluck (46).wav
+475,192,108200,1,0,0:0:0:70:snare #5.wav
+182,192,108358,1,0,0:0:0:70:8bit 3 F#6.wav
+329,192,108358,1,0,0:0:0:70:8bit 4 C#6.wav
+402,192,108358,1,0,0:0:0:70:cu3_pluck (47).wav
+475,192,108358,1,0,0:0:0:70:snare #5.wav
+256,192,108516,1,0,0:0:0:70:8bit 4 F#5.wav
+402,192,108516,1,0,0:0:0:70:cu3_pluck (48).wav
+475,192,108516,1,0,0:0:0:70:snare #4.wav
+36,192,108516,1,0,0:0:0:0:
+329,192,108595,1,0,0:0:0:70:snare #4.wav
+109,192,108595,1,0,0:0:0:0:
+36,192,108674,1,0,0:0:0:70:kick.wav
+182,192,108674,1,0,0:0:0:70:8bit 3 D#5.wav
+402,192,108674,1,0,0:0:0:70:clap.wav
+475,192,108674,1,0,0:0:0:0:
+256,192,108753,1,0,0:0:0:70:8bit 3 F#5.wav
+329,192,108832,1,0,0:0:0:70:8bit 3 A5.wav
+109,192,108832,1,0,0:0:0:0:
+402,192,108911,1,0,0:0:0:70:8bit 3 C#6.wav
+36,192,108990,1,0,0:0:0:70:lead F#6 (7).wav
+109,192,108990,1,0,0:0:0:70:8bit 3 D#6.wav
+329,192,108990,1,0,0:0:0:70:kick.wav
+475,192,108990,1,0,0:0:0:70:lead2 F#6.wav
+256,192,108990,1,0,0:0:0:0:
+182,192,109069,1,0,0:0:0:70:8bit 3 F#6.wav
+256,192,109148,1,0,0:0:0:70:8bit 3 A6.wav
+109,192,109148,1,0,0:0:0:0:
+329,192,109227,1,0,0:0:0:70:8bit 3 C#7.wav
+36,192,109306,1,0,0:0:0:70:lead F#6 (7).wav
+182,192,109306,1,0,0:0:0:70:kick.wav
+402,192,109306,1,0,0:0:0:70:8bit 3 D#7.wav
+475,192,109306,1,0,0:0:0:70:lead2 F#6.wav
+109,192,109306,1,0,0:0:0:0:
+329,192,109385,1,0,0:0:0:70:8bit 3 C#7.wav
+256,192,109464,1,0,0:0:0:70:8bit 3 A6.wav
+402,192,109464,1,0,0:0:0:0:
+182,192,109543,1,0,0:0:0:70:8bit 3 F#6.wav
+36,192,109621,1,0,0:0:0:70:lead F#6 (7).wav
+109,192,109621,1,0,0:0:0:70:kick.wav
+329,192,109621,1,0,0:0:0:70:8bit 3 D#6.wav
+475,192,109621,1,0,0:0:0:70:lead2 F#6.wav
+402,192,109700,1,0,0:0:0:70:s_fade in snare (14).wav
+256,192,109700,1,0,0:0:0:0:
+329,192,109779,1,0,0:0:0:70:s_fade in snare (15).wav
+182,192,109779,1,0,0:0:0:0:
+109,192,109858,1,0,0:0:0:0:
+256,192,109858,1,0,0:0:0:0:
+36,192,109937,1,0,0:0:0:70:s_fade in snare (17).wav
+329,192,109937,1,0,0:0:0:70:cu3_pluck (57).wav
+475,192,109937,1,0,0:0:0:70:lead F#6 (8).wav
+402,192,109937,1,0,0:0:0:0:
+182,192,110016,1,0,0:0:0:70:s_fade in snare (18).wav
+256,192,110016,1,0,0:0:0:70:8bit 3 F#5.wav
+36,192,110095,1,0,0:0:0:70:s_fade in snare (19).wav
+329,192,110095,1,0,0:0:0:70:cu3_pluck (58).wav
+475,192,110095,1,0,0:0:0:70:lead F#6 (8).wav
+402,192,110095,1,0,0:0:0:0:
+109,192,110174,1,0,0:0:0:70:8bit 3 C#6.wav
+182,192,110174,1,0,0:0:0:70:s_fade in snare (20).wav
+36,192,110253,1,0,0:0:0:70:s_fade in snare (21).wav
+329,192,110253,1,0,0:0:0:70:cu3_pluck (59).wav
+475,192,110253,1,0,0:0:0:70:lead F#6 (8).wav
+402,192,110253,1,0,0:0:0:0:
+182,192,110332,1,0,0:0:0:70:s_fade in snare (22).wav
+256,192,110332,1,0,0:0:0:70:8bit 3 F#6.wav
+36,192,110411,1,0,0:0:0:70:s_fade in snare (23).wav
+329,192,110411,1,0,0:0:0:70:cu3_pluck (60).wav
+475,192,110411,1,0,0:0:0:70:lead F#6 (8).wav
+402,192,110411,1,0,0:0:0:0:
+109,192,110490,1,0,0:0:0:70:8bit 3 C#7.wav
+182,192,110490,1,0,0:0:0:70:s_fade in snare (24).wav
+36,192,110569,1,0,0:0:0:70:snare #5.wav
+256,192,110569,1,0,0:0:0:70:lead2 F#6.wav
+329,192,110569,1,0,0:0:0:70:cu3_pluck (61).wav
+402,192,110569,1,0,0:0:0:70:kick.wav
+475,192,110569,1,0,0:0:0:70:lead F#6 (8).wav
+36,192,110727,1,0,0:0:0:70:snare #5.wav
+109,192,110727,1,0,0:0:0:70:hi hat.wav
+182,192,110727,1,0,0:0:0:70:bass 2 #3.wav
+329,192,110727,1,0,0:0:0:70:cu3_pluck (62).wav
+402,192,110727,1,0,0:0:0:70:lead2 F#6.wav
+475,192,110727,1,0,0:0:0:70:lead F#6 (8).wav
+36,192,110885,1,0,0:0:0:70:snare #5.wav
+182,192,110885,1,0,0:0:0:70:kick.wav
+256,192,110885,1,0,0:0:0:70:lead2 F#6.wav
+329,192,110885,1,0,0:0:0:70:cu3_pluck (63).wav
+475,192,110885,1,0,0:0:0:70:lead F#6 (8).wav
+36,192,111043,1,0,0:0:0:70:snare #5.wav
+109,192,111043,1,0,0:0:0:70:hi hat.wav
+182,192,111043,1,0,0:0:0:70:bass 2 #3.wav
+329,192,111043,1,0,0:0:0:70:cu3_pluck (64).wav
+402,192,111043,1,0,0:0:0:70:lead2 F#6.wav
+475,192,111043,1,0,0:0:0:70:lead F#6 (8).wav
+36,192,111200,1,0,0:0:0:70:8bit 1 #1.wav
+256,192,111200,1,0,0:0:0:70:drum loop (1).wav
+402,192,111200,1,0,0:0:0:70:snare #1.wav
+475,192,111200,1,0,0:0:0:70:dirty kick #3.wav
+109,192,111279,1,0,0:0:0:70:8bit 1 #2.wav
+329,192,111279,1,0,0:0:0:70:drum loop (2).wav
+182,192,111358,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,111358,1,0,0:0:0:70:drum loop (3).wav
+256,192,111437,1,0,0:0:0:70:8bit 1 #4.wav
+475,192,111437,1,0,0:0:0:70:drum loop (4).wav
+109,192,111516,1,0,0:0:0:70:snare #5.wav
+402,192,111516,1,0,0:0:0:0:
+36,192,111674,1,0,0:0:0:70:dirty kick #3.wav
+109,192,111674,1,0,0:0:0:70:snare #1.wav
+256,192,111674,1,0,0:0:0:70:drum loop (1).wav
+475,192,111674,1,0,0:0:0:70:8bit 1 #5.wav
+182,192,111753,1,0,0:0:0:70:drum loop (2).wav
+402,192,111753,1,0,0:0:0:70:8bit 1 #6.wav
+109,192,111832,1,0,0:0:0:70:drum loop (3).wav
+329,192,111832,1,0,0:0:0:70:8bit 1 #4.wav
+36,192,111911,1,0,0:0:0:70:drum loop (4).wav
+256,192,111911,1,0,0:0:0:70:8bit 1 #3.wav
+109,192,111990,1,0,0:0:0:70:drum loop (6).wav
+402,192,111990,1,0,0:0:0:70:snare #5.wav
+36,192,112148,1,0,0:0:0:70:8bit 1 #1.wav
+256,192,112148,1,0,0:0:0:70:drum loop (1).wav
+402,192,112148,1,0,0:0:0:70:snare #1.wav
+475,192,112148,1,0,0:0:0:70:dirty kick #3.wav
+109,192,112227,1,0,0:0:0:70:8bit 1 #2.wav
+329,192,112227,1,0,0:0:0:70:drum loop (2).wav
+182,192,112306,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,112306,1,0,0:0:0:70:drum loop (3).wav
+256,192,112385,1,0,0:0:0:70:8bit 1 #4.wav
+475,192,112385,1,0,0:0:0:70:drum loop (4).wav
+36,192,112464,1,0,0:0:0:70:amen - Marker #1.wav
+36,192,112621,1,0,0:0:0:70:amen - Marker #2.wav
+329,192,112779,1,0,0:0:0:70:amen - Marker #3.wav
+109,192,112937,1,0,0:0:0:70:amen - Marker #4.wav
+256,192,113016,1,0,0:0:0:70:amen - Marker #5.wav
+109,192,113095,1,0,0:0:0:70:amen - Marker #6.wav
+256,192,113174,1,0,0:0:0:70:amen - Marker #7.wav
+36,192,113253,1,0,0:0:0:70:amen - Marker #8.wav
+182,192,113411,1,0,0:0:0:70:amen - Marker #9.wav
+256,192,113569,1,0,0:0:0:70:amen - Marker #10.wav
+329,192,113648,1,0,0:0:0:70:amen - Marker #11.wav
+36,192,113727,1,0,0:0:0:70:8bit 1 #1.wav
+182,192,113727,1,0,0:0:0:70:drum loop (1).wav
+402,192,113727,1,0,0:0:0:70:snare #1.wav
+475,192,113727,1,0,0:0:0:70:dirty kick #3.wav
+109,192,113806,1,0,0:0:0:70:8bit 1 #2.wav
+329,192,113806,1,0,0:0:0:70:drum loop (2).wav
+182,192,113885,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,113885,1,0,0:0:0:70:drum loop (3).wav
+256,192,113964,1,0,0:0:0:70:8bit 1 #4.wav
+475,192,113964,1,0,0:0:0:70:drum loop (4).wav
+36,192,114043,1,0,0:0:0:70:snare #5.wav
+182,192,114043,1,0,0:0:0:70:drum loop (6).wav
+36,192,114200,1,0,0:0:0:70:dirty kick #3.wav
+109,192,114200,1,0,0:0:0:70:snare #1.wav
+329,192,114200,1,0,0:0:0:70:drum loop (1).wav
+475,192,114200,1,0,0:0:0:70:8bit 1 #5.wav
+182,192,114279,1,0,0:0:0:70:drum loop (2).wav
+402,192,114279,1,0,0:0:0:70:8bit 1 #6.wav
+109,192,114358,1,0,0:0:0:70:drum loop (3).wav
+329,192,114358,1,0,0:0:0:70:8bit 1 #4.wav
+36,192,114437,1,0,0:0:0:70:drum loop (4).wav
+256,192,114437,1,0,0:0:0:70:8bit 1 #3.wav
+329,192,114516,1,0,0:0:0:70:drum loop (6).wav
+475,192,114516,1,0,0:0:0:70:snare #5.wav
+36,192,114674,1,0,0:0:0:70:8bit 1 #1.wav
+182,192,114674,1,0,0:0:0:70:drum loop (1).wav
+402,192,114674,1,0,0:0:0:70:snare #1.wav
+475,192,114674,1,0,0:0:0:70:dirty kick #3.wav
+109,192,114753,1,0,0:0:0:70:8bit 1 #2.wav
+329,192,114753,1,0,0:0:0:70:drum loop (2).wav
+182,192,114832,1,0,0:0:0:70:8bit 1 #3.wav
+402,192,114832,1,0,0:0:0:70:drum loop (3).wav
+475,192,114911,1,0,0:0:0:70:8bit 1 #4.wav
+256,192,114911,1,0,0:0:0:70:drum loop (4).wav
+36,192,114990,1,0,0:0:0:70:amen - Marker #1.wav
+36,192,115148,1,0,0:0:0:70:amen - Marker #2.wav
+329,192,115306,1,0,0:0:0:70:amen - Marker #3.wav
+256,192,115464,1,0,0:0:0:70:amen - Marker #4.wav
+109,192,115543,1,0,0:0:0:70:amen - Marker #5.wav
+329,192,115621,1,0,0:0:0:70:amen - Marker #12.wav
+329,192,115700,1,0,0:0:0:70:amen - Marker #12.wav
+182,192,115779,1,0,0:0:0:70:amen - Marker #12.wav
+182,192,115858,1,0,0:0:0:70:amen - Marker #12.wav
+475,192,115937,1,0,0:0:0:70:impact.wav
+36,192,116253,1,0,0:0:0:70:kick.wav
+109,192,116253,1,0,0:0:0:70:clap.wav
+256,192,116253,1,0,0:0:0:70:pu_snare (1).wav
+329,192,116253,1,0,0:0:0:0:
+256,192,116411,1,0,0:0:0:70:pu_snare (2).wav
+475,192,116411,1,0,0:0:0:70:hi hat.wav
+402,192,116411,1,0,0:0:0:0:
+182,192,116411,1,0,0:0:0:0:
+36,192,116569,1,0,0:0:0:70:kick.wav
+109,192,116569,1,0,0:0:0:70:clap.wav
+256,192,116569,1,0,0:0:0:70:pu_snare (3).wav
+329,192,116569,1,0,0:0:0:0:
+256,192,116727,1,0,0:0:0:70:pu_snare (4).wav
+402,192,116727,1,0,0:0:0:70:percussion #1.wav
+475,192,116727,1,0,0:0:0:70:hi hat.wav
+182,192,116727,1,0,0:0:0:0:
+36,192,116885,1,0,0:0:0:70:kick.wav
+109,192,116885,1,0,0:0:0:70:clap.wav
+256,192,116885,1,0,0:0:0:70:pu_snare (5).wav
+329,192,116885,1,0,0:0:0:0:
+256,192,117043,1,0,0:0:0:70:pu_snare (6).wav
+402,192,117043,1,0,0:0:0:70:percussion #1.wav
+475,192,117043,1,0,0:0:0:70:hi hat.wav
+182,192,117043,1,0,0:0:0:0:
+36,192,117200,1,0,0:0:0:70:kick.wav
+109,192,117200,1,0,0:0:0:70:clap.wav
+256,192,117200,1,0,0:0:0:70:pu_snare (7).wav
+329,192,117200,1,0,0:0:0:0:
+402,192,117358,1,0,0:0:0:70:percussion #2.wav
+256,192,117358,1,0,0:0:0:0:
+109,192,117358,1,0,0:0:0:0:
+182,192,117358,1,0,0:0:0:0:
+329,192,117437,1,0,0:0:0:0:
+475,192,117437,1,0,0:0:0:0:
+36,192,117516,1,0,0:0:0:70:kick.wav
+256,192,117516,1,0,0:0:0:70:pu_snare (10).wav
+402,192,117516,1,0,0:0:0:0:
+182,192,117516,1,0,0:0:0:0:
+256,192,117674,1,0,0:0:0:70:pu_snare (11).wav
+475,192,117674,1,0,0:0:0:70:percussion #1.wav
+109,192,117674,1,0,0:0:0:0:
+329,192,117674,1,0,0:0:0:0:
+36,192,117832,1,0,0:0:0:70:kick.wav
+256,192,117832,1,0,0:0:0:70:pu_snare (12).wav
+402,192,117832,1,0,0:0:0:0:
+182,192,117832,1,0,0:0:0:0:
+256,192,117990,1,0,0:0:0:70:pu_snare (13).wav
+329,192,117990,1,0,0:0:0:70:hi hat.wav
+475,192,117990,1,0,0:0:0:70:percussion #1.wav
+109,192,117990,1,0,0:0:0:0:
+36,192,118148,1,0,0:0:0:70:kick.wav
+182,192,118148,1,0,0:0:0:70:clap.wav
+256,192,118148,1,0,0:0:0:70:pu_snare (14).wav
+402,192,118148,1,0,0:0:0:0:
+256,192,118306,1,0,0:0:0:70:pu_snare (15).wav
+329,192,118306,1,0,0:0:0:70:hi hat.wav
+475,192,118306,1,0,0:0:0:70:percussion #1.wav
+109,192,118306,1,0,0:0:0:0:
+36,192,118464,1,0,0:0:0:70:kick.wav
+182,192,118464,1,0,0:0:0:70:clap.wav
+256,192,118464,1,0,0:0:0:70:pu_snare (16).wav
+402,192,118464,1,0,0:0:0:0:
+109,192,118621,1,0,0:0:0:0:
+475,192,118621,1,0,0:0:0:0:
+182,192,118621,1,0,0:0:0:0:
+329,192,118621,1,0,0:0:0:0:
+402,192,118700,1,0,0:0:0:0:
+256,192,118700,1,0,0:0:0:0:
+36,192,118779,1,0,0:0:0:70:pu_snare (19).wav
+182,192,118779,1,0,0:0:0:70:kick.wav
+475,192,118779,1,0,0:0:0:70:8bit_pu (33).wav
+109,192,118858,1,0,0:0:0:70:pu_snare (20).wav
+329,192,118858,1,0,0:0:0:70:8bit_pu (34).wav
+182,192,118937,1,0,0:0:0:70:pu_snare (21).wav
+475,192,118937,1,0,0:0:0:70:8bit_pu (35).wav
+256,192,119016,1,0,0:0:0:70:pu_snare (22).wav
+329,192,119016,1,0,0:0:0:70:8bit_pu (36).wav
+36,192,119095,1,0,0:0:0:70:kick.wav
+109,192,119095,1,0,0:0:0:70:pu_snare (23).wav
+475,192,119095,1,0,0:0:0:70:8bit_pu (37).wav
+182,192,119174,1,0,0:0:0:70:pu_snare (24).wav
+402,192,119174,1,0,0:0:0:70:8bit_pu (38).wav
+256,192,119253,1,0,0:0:0:70:pu_snare (25).wav
+475,192,119253,1,0,0:0:0:70:8bit_pu (39).wav
+329,192,119332,1,0,0:0:0:70:pu_snare (26).wav
+402,192,119332,1,0,0:0:0:70:8bit_pu (40).wav
+36,192,119411,1,0,0:0:0:70:8bit_pu (41).wav
+182,192,119411,1,0,0:0:0:70:pu_snare (27).wav
+475,192,119411,1,0,0:0:0:70:kick.wav
+109,192,119490,1,0,0:0:0:70:8bit_pu (42).wav
+256,192,119490,1,0,0:0:0:70:pu_snare (28).wav
+36,192,119569,1,0,0:0:0:70:8bit_pu (43).wav
+329,192,119569,1,0,0:0:0:70:pu_snare (29).wav
+109,192,119648,1,0,0:0:0:70:8bit_pu (44).wav
+402,192,119648,1,0,0:0:0:70:pu_snare (30).wav
+36,192,119727,1,0,0:0:0:70:8bit_pu (45).wav
+256,192,119727,1,0,0:0:0:70:pu_snare (31).wav
+475,192,119727,1,0,0:0:0:70:kick.wav
+182,192,119806,1,0,0:0:0:70:8bit_pu (46).wav
+329,192,119806,1,0,0:0:0:70:pu_snare (32).wav
+36,192,119885,1,0,0:0:0:70:8bit_pu (47).wav
+402,192,119885,1,0,0:0:0:70:pu_snare (33).wav
+182,192,119964,1,0,0:0:0:70:8bit_pu (48).wav
+475,192,119964,1,0,0:0:0:70:pu_snare (34).wav
+256,192,120043,1,0,0:0:0:70:vc #2.wav
+256,192,120358,1,0,0:0:0:70:vc #3.wav
+256,192,120674,1,0,0:0:0:0:
+109,192,121306,1,0,0:0:0:70:dirty kick #3.wav
+182,192,121306,1,0,0:0:0:70:hi hat.wav
+256,192,121306,1,0,0:0:0:70:clap.wav
+329,192,121306,1,0,0:0:0:70:snare #1.wav
+402,192,121306,1,0,0:0:0:70:bass #1.wav

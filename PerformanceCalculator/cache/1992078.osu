@@ -1,0 +1,93 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 10808
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 0.9
+BeatDivisor: 2
+GridSize: 32
+TimelineZoom: 1.4
+
+[Metadata]
+Title:Koi no Hime Hime Pettanko (Karaoke)
+TitleUnicode:恋のヒメヒメぺったんこ (カラオケ)
+Artist:Tashiro Tomokazu
+ArtistUnicode:田代智一
+Creator:][ -GH- ][
+Version:Beginner
+Source:弱虫ペダル
+Tags:yowamushi pedal love*hime ラブ★ヒメ instrumental cut ver version Rhytoly
+BeatmapID:1992078
+BeatmapSetID:954154
+
+[Difficulty]
+HPDrainRate:9.5
+CircleSize:2
+OverallDifficulty:1
+ApproachRate:0
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"BG.jpg",0,30
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+166,335.195530726257,4,1,0,70,1,0
+166,-100,4,1,0,70,0,1
+10221,-100,4,1,0,70,0,0
+10892,-100,4,1,0,70,0,1
+24300,335.195530726257,4,1,0,70,1,9
+24307,335.195530726257,4,1,0,50,1,0
+32016,-100,4,1,0,30,0,0
+
+
+[HitObjects]
+256,192,166,5,4,0:0:0:0:
+256,192,1506,1,0,0:0:0:0:
+256,192,2177,1,8,0:0:0:0:
+256,192,2847,1,0,0:0:0:0:
+256,192,4188,1,8,0:0:0:0:
+256,192,4858,1,8,0:0:0:0:
+256,192,5529,1,4,0:0:0:0:
+256,192,6869,1,0,0:0:0:0:
+256,192,7540,1,0,0:0:0:0:
+256,192,8210,1,8,0:0:0:0:
+256,192,9383,1,4,0:0:0:0:
+256,192,10892,1,12,0:0:0:0:
+256,192,12233,1,0,0:0:0:0:
+256,192,12903,1,8,0:0:0:0:
+256,192,13573,1,0,0:0:0:0:
+256,192,14914,1,8,0:0:0:0:
+256,192,15584,1,8,0:0:0:0:
+256,192,16255,1,4,0:0:0:0:
+256,192,17596,1,0,0:0:0:0:
+256,192,18266,1,12,0:0:0:0:
+256,192,19272,1,8,0:0:0:0:
+256,192,19942,1,8,0:0:0:0:
+256,192,20948,1,8,0:0:0:0:
+256,192,21450,1,4,0:0:0:0:
+256,192,21786,8,0,23629,0:0:0:0:
+256,192,24307,5,0,0:0:0:0:
+256,192,25647,1,0,0:0:0:0:
+256,192,26988,1,0,0:0:0:0:
+256,192,28329,1,8,0:0:0:0:
+256,192,29670,1,8,0:0:0:0:
+256,192,30340,1,8,0:0:0:0:
+256,192,31010,1,8,0:0:0:0:
+256,192,32016,1,0,0:0:0:0:

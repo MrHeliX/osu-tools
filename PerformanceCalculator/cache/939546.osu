@@ -1,0 +1,84 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 112830
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.6
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 2.2
+
+[Metadata]
+Title:Energy Drink Girl Fein-chan!
+TitleUnicode:Energy Drink Girl Fein-chan!
+Artist:Camellia feat. Nanahira
+ArtistUnicode:Camellia feat. Nanahira
+Creator:- Hii -
+Version:Hard
+Source:
+Tags:
+BeatmapID:939546
+BeatmapSetID:436141
+
+[Difficulty]
+HPDrainRate:5
+CircleSize:3.5
+OverallDifficulty:6
+ApproachRate:7
+SliderMultiplier:1.80000000596046
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"a.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+2785,272.727272727273,4,1,0,100,1,0
+
+
+[HitObjects]
+256,192,603,12,0,2512,0:0:0:0:
+128,116,2785,6,0,P|144:224|216:232,1,180.000000596046
+288,188,3194,2,0,P|248:84|184:64,1,180.000000596046
+72,100,3603,1,0,0:0:0:0:
+92,208,3739,1,0,0:0:0:0:
+164,288,3875,1,0,0:0:0:0:
+292,304,4012,2,0,L|376:208,2,90.000000298023
+336,156,4421,6,0,L|212:72,1,135.000000447034
+132,28,4830,1,0,0:0:0:0:
+104,128,4966,2,0,L|72:224,2,90.000000298023
+192,152,5375,2,0,P|244:292|236:300,1,180.000000596046
+160,308,5785,2,0,B|112:256|112:256|44:260|44:260|44:200,1,180.000000596046
+72,120,6194,1,0,0:0:0:0:
+176,68,6330,1,0,0:0:0:0:
+280,84,6466,2,0,L|228:184,1,90.000000298023
+272,260,6875,2,0,L|376:92,1,180.000000596046
+416,40,7285,5,0,0:0:0:0:
+440,140,7421,1,0,0:0:0:0:
+444,236,7557,2,0,P|420:316|316:344,1,180.000000596046
+236,320,7966,1,0,0:0:0:0:
+168,236,8103,2,0,L|56:164,2,90.000000298023
+156,124,8580,2,0,L|196:148,1,45.0000001490115
+232,80,8853,2,0,L|292:100,1,45.0000001490115
+320,28,9125,1,0,0:0:0:0:
+348,36,9194,1,0,0:0:0:0:
+424,88,9398,2,0,P|436:176|396:232,2,135.000000447034
+368,280,9944,1,0,0:0:0:0:
+284,308,10148,2,0,P|164:300|96:256,1,180.000000596046
+84,204,10694,1,0,0:0:0:0:
+60,112,10898,2,0,L|152:56,1,90.000000298023

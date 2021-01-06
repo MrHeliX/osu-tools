@@ -1,0 +1,153 @@
+osu file format v14
+
+[General]
+AudioFilename: virtual
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1.2
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:Piano 7K BMS Pack
+TitleUnicode:Piano 7K BMS Pack
+Artist:Various Artists
+ArtistUnicode:
+Creator:silentch
+Version:Kan R. Gao - Mud Dash
+Source:
+Tags:MIDI Hitsound Hitsounded Piano Angel Beats Beatmania IIDX Chrono Trigger Sound Voltex Deemo To The Moon A bird story silent hill resident evil vocaloid hatsune miku kagamine rin skyrim undertale lazy town yuri on ice touhou kimi no nawa sonic the hedgehog toradora interstellar naruto fnaf five nights k-on katawa shoujo gravity falls kill la kill everlasting summer
+BeatmapID:1222532
+BeatmapSetID:577617
+
+[Difficulty]
+HPDrainRate:8
+CircleSize:7
+OverallDifficulty:8
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+0,500,4,1,0,100,1,0
+
+
+[HitObjects]
+448,192,395,5,0,0:0:0:50:E6S_s.wav
+10,192,592,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+156,192,789,1,0,0:0:0:50:D4S_s.wav
+375,192,789,1,0,0:0:0:50:C#7S_Db7S_s.wav
+302,192,1184,1,0,0:0:0:50:E6S_s.wav
+229,192,1382,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+83,192,1579,1,0,0:0:0:50:F#5S_Gb5S_s.wav
+448,192,1579,1,0,0:0:0:50:C#7S_Db7S_s.wav
+10,192,1776,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+375,192,1974,1,0,0:0:0:50:E6S_s.wav
+156,192,2171,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+229,192,2368,1,0,0:0:0:50:D5S_s.wav
+302,192,2368,1,0,0:0:0:50:C#7S_Db7S_s.wav
+448,192,2763,1,0,0:0:0:50:E6S_s.wav
+83,192,2961,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+10,192,3158,1,0,0:0:0:50:A4S_s.wav
+375,192,3158,1,0,0:0:0:50:C#7S_Db7S_s.wav
+156,192,3355,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+229,192,3553,1,0,0:0:0:50:E6S_s.wav
+302,192,3750,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+83,192,3947,1,0,0:0:0:50:G4S_s.wav
+448,192,3947,1,0,0:0:0:50:B6S_s.wav
+375,192,4342,1,0,0:0:0:50:E6S_s.wav
+10,192,4539,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+156,192,4737,1,0,0:0:0:50:F#5S_Gb5S_s.wav
+229,192,4737,1,0,0:0:0:50:B6S_s.wav
+302,192,4934,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+83,192,5132,1,0,0:0:0:50:E6S_s.wav
+448,192,5329,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+10,192,5526,1,0,0:0:0:50:F#5S_Gb5S_s.wav
+375,192,5526,1,0,0:0:0:50:B6S_s.wav
+156,192,5921,1,0,0:0:0:50:E6S_s.wav
+229,192,6118,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+83,192,6316,1,0,0:0:0:50:G4S_s.wav
+302,192,6316,1,0,0:0:0:50:B6S_s.wav
+448,192,6513,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+10,192,6711,1,0,0:0:0:50:E6S_s.wav
+375,192,6908,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+156,192,7105,1,0,0:0:0:50:D4S_s.wav
+229,192,7105,1,0,0:0:0:50:C#7S_Db7S_s.wav
+83,192,7500,1,0,0:0:0:50:E6S_s.wav
+302,192,7697,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+10,192,7895,1,0,0:0:0:50:F#5S_Gb5S_s.wav
+448,192,7895,1,0,0:0:0:50:C#7S_Db7S_s.wav
+375,192,8092,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+229,192,8289,1,0,0:0:0:50:E6S_s.wav
+156,192,8487,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+83,192,8684,1,0,0:0:0:50:D5S_s.wav
+302,192,8684,1,0,0:0:0:50:E7S_s.wav
+10,192,9079,1,0,0:0:0:50:E6S_s.wav
+448,192,9276,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+229,192,9474,1,0,0:0:0:50:A4S_s.wav
+375,192,9474,1,0,0:0:0:50:E7S_s.wav
+156,192,9868,1,0,0:0:0:50:E6S_s.wav
+302,192,10066,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+10,192,10263,1,0,0:0:0:50:G4S_s.wav
+83,192,10263,1,0,0:0:0:50:B6S_s.wav
+448,192,10658,1,0,0:0:0:50:E6S_s.wav
+229,192,10855,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+156,192,11053,1,0,0:0:0:50:F#5S_Gb5S_s.wav
+375,192,11053,1,0,0:0:0:50:B6S_s.wav
+302,192,11250,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+10,192,11447,1,0,0:0:0:50:E6S_s.wav
+83,192,11645,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+229,192,11842,1,0,0:0:0:50:F#5S_Gb5S_s.wav
+448,192,11842,1,0,0:0:0:50:B6S_s.wav
+156,192,12237,1,0,0:0:0:50:E6S_s.wav
+375,192,12434,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+10,192,12632,1,0,0:0:0:50:G4S_s.wav
+302,192,12632,1,0,0:0:0:50:B6S_s.wav
+83,192,12829,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+448,192,13026,1,0,0:0:0:50:E6S_s.wav
+229,192,13224,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+156,192,13421,1,0,0:0:0:50:C5S_s.wav
+375,192,13421,1,0,0:0:0:50:B6S_s.wav
+10,192,13838,1,0,0:0:0:50:E6S_s.wav
+302,192,14046,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+83,192,14254,1,0,0:0:0:50:B5S_s.wav
+448,192,14254,1,0,0:0:0:50:B6S_s.wav
+229,192,14488,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+156,192,14723,1,0,0:0:0:50:E6S_s.wav
+375,192,14957,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+10,192,15192,1,0,0:0:0:50:B5S_s.wav
+302,192,15192,1,0,0:0:0:50:B6S_s.wav
+83,192,15728,1,0,0:0:0:50:E6S_s.wav
+448,192,15996,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+156,192,16263,1,0,0:0:0:50:B5S_s.wav
+229,192,16263,1,0,0:0:0:50:B6S_s.wav
+375,192,16576,1,0,0:0:0:50:F#6S_Gb6S_s.wav
+10,192,16888,1,0,0:0:0:62:E6S_s.wav
+302,192,17201,1,0,0:0:0:62:F#6S_Gb6S_s.wav
+83,192,17951,1,0,0:0:0:50:C5S.wav
+448,192,17951,1,0,0:0:0:50:E6S.wav
+156,192,18085,1,0,0:0:0:50:G5S.wav
+229,192,18085,1,0,0:0:0:50:F#6S_Gb6S.wav
+10,192,18219,1,0,0:0:0:50:B5S.wav
+375,192,18219,1,0,0:0:0:50:B6S.wav
+302,192,18353,1,0,0:0:0:50:B7S.wav

@@ -1,0 +1,102 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 2383
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 1
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.7
+BeatDivisor: 1
+GridSize: 8
+TimelineZoom: 1.1
+
+[Metadata]
+Title:Lost Woods
+TitleUnicode:迷いの森
+Artist:Kondo Koji
+ArtistUnicode:近藤浩治
+Creator:Vaf
+Version:Kantan
+Source:ゼルダの伝説 時のオカリナ
+Tags:nintendo n64 oot legend of zelda ocarina of time zeruda no densetsu: toki no okarina video game instrumental ost original Mayoi no Mori
+BeatmapID:2332461
+BeatmapSetID:1116381
+
+[Difficulty]
+HPDrainRate:9
+CircleSize:5
+OverallDifficulty:3
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"thumb-1920-555236.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+669,428.571428571429,4,1,0,60,1,0
+
+
+[HitObjects]
+274,204,669,5,0,0:0:0:0:
+262,188,1097,1,8,0:0:0:0:
+266,195,1526,1,8,0:0:0:0:
+236,189,2383,1,0,0:0:0:0:
+219,169,2811,1,8,0:0:0:0:
+194,201,3240,1,0,0:0:0:0:
+185,269,4097,1,0,0:0:0:0:
+121,281,4954,1,8,0:0:0:0:
+172,182,5812,1,0,0:0:0:0:
+98,75,6239,1,8,0:0:0:0:
+136,138,7526,1,0,0:0:0:0:
+130,116,7953,1,8,0:0:0:0:
+185,171,9240,1,0,0:0:0:0:
+185,171,9669,1,8,0:0:0:0:
+151,161,10096,1,0,0:0:0:0:
+142,185,10954,1,0,0:0:0:0:
+156,152,11811,1,8,0:0:0:0:
+166,178,12668,1,0,0:0:0:0:
+151,160,13096,1,8,0:0:0:0:
+35,147,14382,1,8,0:0:0:0:
+186,152,14811,1,0,0:0:0:0:
+186,168,16096,1,0,0:0:0:0:
+153,162,16525,1,8,0:0:0:0:
+168,152,16953,1,8,0:0:0:0:
+201,140,17383,1,8,0:0:0:0:
+191,136,18240,1,0,0:0:0:0:
+202,174,19525,1,0,0:0:0:0:
+183,173,19953,1,8,0:0:0:0:
+186,202,20382,1,8,0:0:0:0:
+195,215,20812,1,8,0:0:0:0:
+79,144,21668,1,8,0:0:0:0:
+175,222,22953,1,0,0:0:0:0:
+151,207,23811,1,0,0:0:0:0:
+152,207,24239,1,8,0:0:0:0:
+194,176,24668,1,8,0:0:0:0:
+164,172,25097,1,0,0:0:0:0:
+246,181,26382,1,8,0:0:0:0:
+188,252,27239,1,8,0:0:0:0:
+188,200,28096,1,8,0:0:0:0:
+181,197,28953,1,8,0:0:0:0:
+200,190,29383,1,0,0:0:0:0:
+212,192,29811,1,8,0:0:0:0:
+201,137,30669,1,8,0:0:0:0:
+199,170,31526,1,0,0:0:0:0:
+184,162,31953,1,8,0:0:0:0:
+179,162,32382,1,8,0:0:0:0:
+211,167,32812,1,12,0:0:0:0:

@@ -1,0 +1,57 @@
+osu file format v12
+
+[General]
+AudioFilename: 03 artcore JINJA.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 0.7
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1
+
+[Metadata]
+Title:artcore JINJA (Spinner Map)
+TitleUnicode:artcore JINJA (Spinner Map)
+Artist:An
+ArtistUnicode:An
+Creator:[ Tao ]
+Version:20 Seconds Spin
+Source:Touhou
+Tags:warmup warm up spin
+BeatmapID:398040
+BeatmapSetID:163365
+
+[Difficulty]
+HPDrainRate:0
+CircleSize:2
+OverallDifficulty:0
+ApproachRate:0
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg590.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+0,315.789473684211,4,1,0,100,1,0
+
+
+[HitObjects]
+256,192,0,12,0,20052,0:0:0:0:
