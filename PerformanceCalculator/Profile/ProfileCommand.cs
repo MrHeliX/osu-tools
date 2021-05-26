@@ -4,6 +4,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using Alba.CsConsoleFormat;
@@ -83,10 +84,13 @@ namespace PerformanceCalculator.Profile
 
                 var score = new ProcessorScoreDecoder(working).Parse(scoreInfo);
 
+                var performanceCalculator = ruleset.CreatePerformanceCalculator(working, score.ScoreInfo);
+                Trace.Assert(performanceCalculator != null);
+
                 var thisPlay = new UserPlayInfo
                 {
                     Beatmap = working.BeatmapInfo,
-                    LocalPP = ruleset.CreatePerformanceCalculator(working, score.ScoreInfo).Calculate(),
+                    LocalPP = performanceCalculator.Calculate(),
                     LivePP = play.pp,
                     Mods = mods.Length > 0 ? mods.Select(m => m.Acronym).Aggregate((c, n) => $"{c}, {n}") : "None"
                 };
@@ -115,17 +119,21 @@ namespace PerformanceCalculator.Profile
                 new Span($"Local PP: {totalLocalPP:F1} ({totalDiffPP:+0.0;-0.0;-})"), "\n",
                 new Grid
                 {
-                    Columns = { GridLength.Auto, GridLength.Auto, GridLength.Auto, GridLength.Auto, GridLength.Auto },
+                    Columns = { GridLength.Auto, GridLength.Auto, GridLength.Auto, GridLength.Auto, GridLength.Auto, GridLength.Auto, GridLength.Auto },
                     Children =
                     {
+                        new Cell("#"),
                         new Cell("beatmap"),
+                        new Cell("mods"),
                         new Cell("live pp"),
                         new Cell("local pp"),
                         new Cell("pp change"),
                         new Cell("position change"),
                         localOrdered.Select(item => new[]
                         {
+                            new Cell($"{localOrdered.IndexOf(item) + 1}"),
                             new Cell($"{item.Beatmap.OnlineBeatmapID} - {item.Beatmap}"),
+                            new Cell($"{item.Mods}"),
                             new Cell($"{item.LivePP:F1}") { Align = Align.Right },
                             new Cell($"{item.LocalPP:F1}") { Align = Align.Right },
                             new Cell($"{item.LocalPP - item.LivePP:F1}") { Align = Align.Right },
