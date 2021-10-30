@@ -7,12 +7,16 @@ using System.Linq;
 using Alba.CsConsoleFormat;
 using JetBrains.Annotations;
 using McMaster.Extensions.CommandLineUtils;
+using osu.Framework.IO.Network;
 using osu.Game.Beatmaps;
+using osu.Game.Beatmaps.Legacy;
 using osu.Game.Rulesets;
 using osu.Game.Rulesets.Mods;
 using osu.Game.Rulesets.Osu;
 using osu.Game.Rulesets.Osu.Objects;
 using osu.Game.Rulesets.Scoring;
+using osu.Game.Rulesets.Taiko;
+using osu.Game.Rulesets.Taiko.Objects;
 using osu.Game.Scoring;
 
 namespace PerformanceCalculator.Simulate
@@ -25,28 +29,40 @@ namespace PerformanceCalculator.Simulate
         [Argument(0, Name = "scores", Description = "Required. The scores to recalculate (.txt).")]
         public string Scores { get; }
 
-        public string[] Mods { get; set; }
+        public int Mods { get; set; }
 
         public override void Execute()
         {
-            var ruleset = new OsuRuleset();
+            var osuRuleset = new OsuRuleset();
+            var taikoRuleset = new TaikoRuleset();
 
             var scoreLines = File.ReadAllLines(Scores);
+            var gamemode = int.Parse(scoreLines[0].Split('\\')[0]);
+            var ruleset = LegacyHelper.GetRulesetFromLegacyID(gamemode);
 
             var document = new Document();
 
             foreach (var line in scoreLines)
             {
                 var splitLine = line.Split('\\');
-                var map_id = splitLine[0];
-                Mods = splitLine[1] == "" ? null : splitLine[1].Split('.');
-                var mods = getMods(ruleset).ToArray();
-                var combo = int.Parse(splitLine[2]);
-                var count_good = int.Parse(splitLine[3]);
-                var count_meh = int.Parse(splitLine[4]);
-                var count_miss = int.Parse(splitLine[5]);
+                var map_id = splitLine[1];
+                Mods = int.Parse(splitLine[2]);
 
-                var workingBeatmap = new ProcessorWorkingBeatmap("./cache/" + map_id + ".osu");
+                Mod[] mods = ruleset.ConvertFromLegacyMods((LegacyMods)Mods).ToArray();
+
+                var combo = int.Parse(splitLine[3]);
+                var count_good = int.Parse(splitLine[4]);
+                var count_meh = int.Parse(splitLine[5]);
+                var count_miss = int.Parse(splitLine[6]);
+
+                var cachePath = "../xexxar-release/cache/" + map_id + ".osu";
+                if (!File.Exists(cachePath))
+                {
+                    Console.WriteLine($"Downloading {map_id}.osu...");
+                    new FileWebRequest(cachePath, $"https://osu.ppy.sh/osu/{map_id}").Perform();
+                }
+
+                var workingBeatmap = new ProcessorWorkingBeatmap(cachePath);
                 var beatmap = workingBeatmap.GetPlayableBeatmap(ruleset.RulesetInfo, mods);
 
                 var statistics = generateHitResults(beatmap, count_miss, count_meh, count_good);
@@ -109,6 +125,8 @@ namespace PerformanceCalculator.Simulate
         private List<Mod> getMods(Ruleset ruleset)
         {
             var mods = new List<Mod>();
+            return mods;
+            /*
             if (Mods == null)
                 return mods;
 
@@ -124,6 +142,7 @@ namespace PerformanceCalculator.Simulate
             }
 
             return mods;
+            */
         }
 
         private Dictionary<HitResult, int> generateHitResults(IBeatmap beatmap, int countMiss, int? countMeh, int? countGood)
