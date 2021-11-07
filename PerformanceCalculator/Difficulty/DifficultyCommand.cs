@@ -23,8 +23,8 @@ namespace PerformanceCalculator.Difficulty
     public class DifficultyCommand : ProcessorCommand
     {
         [UsedImplicitly]
-        [Required, FileOrDirectoryExists]
-        [Argument(0, Name = "path", Description = "Required. A beatmap file (.osu), or a folder containing .osu files to compute the difficulty for.")]
+        [Required]
+        [Argument(0, Name = "path", Description = "Required. A beatmap file (.osu), beatmap ID, or a folder containing .osu files to compute the difficulty for.")]
         public string Path { get; }
 
         [UsedImplicitly]
@@ -41,19 +41,33 @@ namespace PerformanceCalculator.Difficulty
         public override void Execute()
         {
             var results = new List<Result>();
+            var errors = new List<string>();
 
             if (Directory.Exists(Path))
             {
                 foreach (string file in Directory.GetFiles(Path, "*.osu", SearchOption.AllDirectories))
                 {
-                    var beatmap = new ProcessorWorkingBeatmap(file);
-                    results.Add(processBeatmap(beatmap));
+                    try
+                    {
+                        var beatmap = new ProcessorWorkingBeatmap(file);
+                        results.Add(processBeatmap(beatmap));
+                    }
+                    catch (Exception e)
+                    {
+                        errors.Add($"Processing beatmap \"{file}\" failed:\n{e.Message}");
+                    }
                 }
             }
             else
-                results.Add(processBeatmap(new ProcessorWorkingBeatmap(Path)));
+                results.Add(processBeatmap(ProcessorWorkingBeatmap.FromFileOrId(Path)));
 
             var document = new Document();
+
+            foreach (var error in errors)
+                document.Children.Add(new Span(error), "\n");
+
+            if (errors.Any())
+                document.Children.Add("\n");
 
             foreach (var group in results.GroupBy(r => r.RulesetId))
             {
@@ -91,7 +105,8 @@ namespace PerformanceCalculator.Difficulty
         {
             // Get the ruleset
             var ruleset = LegacyHelper.GetRulesetFromLegacyID(Ruleset ?? beatmap.BeatmapInfo.RulesetID);
-            var attributes = ruleset.CreateDifficultyCalculator(beatmap).Calculate(getMods(ruleset).ToArray());
+            var mods = LegacyHelper.TrimNonDifficultyAdjustmentMods(ruleset, getMods(ruleset).ToArray());
+            var attributes = ruleset.CreateDifficultyCalculator(beatmap).Calculate(mods);
 
             var result = new Result
             {
@@ -109,8 +124,11 @@ namespace PerformanceCalculator.Difficulty
                         ("speed rating", osu.SpeedStrain.ToString("N2")),
                         ("max combo", osu.MaxCombo),
                         ("approach rate", osu.ApproachRate.ToString("N2")),
-                        ("overall difficulty", osu.OverallDifficulty.ToString("N2"))
+                        ("overall difficulty", osu.OverallDifficulty.ToString("N2")),
                     };
+
+                    if (mods.Any(m => m is ModFlashlight))
+                        result.AttributeData.Add(("flashlight rating", osu.FlashlightRating.ToString("N2")));
 
                     break;
 

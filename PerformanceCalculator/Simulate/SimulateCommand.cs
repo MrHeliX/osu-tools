@@ -3,7 +3,7 @@
 
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
+using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -21,9 +21,12 @@ namespace PerformanceCalculator.Simulate
 {
     public abstract class SimulateCommand : ProcessorCommand
     {
-        public abstract string Beatmap { get; }
-
         public abstract Ruleset Ruleset { get; }
+
+        [UsedImplicitly]
+        [Required]
+        [Argument(0, Name = "beatmap", Description = "Required. Can be either a path to beatmap file (.osu) or beatmap ID.")]
+        public string Beatmap { get; }
 
         [UsedImplicitly]
         public virtual double Accuracy { get; }
@@ -57,10 +60,8 @@ namespace PerformanceCalculator.Simulate
         {
             var ruleset = Ruleset;
 
-            var mods = getMods(ruleset).ToArray();
-
-            var workingBeatmap = new ProcessorWorkingBeatmap(Beatmap);
-
+            var mods = GetMods(ruleset).ToArray();
+            var workingBeatmap = ProcessorWorkingBeatmap.FromFileOrId(Beatmap);
             var beatmap = workingBeatmap.GetPlayableBeatmap(ruleset.RulesetInfo, mods);
 
             var beatmapMaxCombo = GetMaxCombo(beatmap);
@@ -79,11 +80,11 @@ namespace PerformanceCalculator.Simulate
                 RulesetID = Ruleset.RulesetInfo.ID ?? 0
             };
 
+            var difficultyCalculator = ruleset.CreateDifficultyCalculator(workingBeatmap);
+            var difficultyAttributes = difficultyCalculator.Calculate(LegacyHelper.TrimNonDifficultyAdjustmentMods(ruleset, scoreInfo.Mods).ToArray());
+            var performanceCalculator = ruleset.CreatePerformanceCalculator(difficultyAttributes, scoreInfo);
+
             var categoryAttribs = new Dictionary<string, double>();
-
-            var performanceCalculator = ruleset.CreatePerformanceCalculator(workingBeatmap, scoreInfo);
-            Trace.Assert(performanceCalculator != null);
-
             double pp = performanceCalculator.Calculate(categoryAttribs);
 
             if (OutputJson)
@@ -93,13 +94,15 @@ namespace PerformanceCalculator.Simulate
                     { "Beatmap", workingBeatmap.BeatmapInfo.ToString() }
                 };
 
-                foreach (var info in getPlayValues(scoreInfo, beatmap))
-                    o[info.Key] = info.Value;
+                o["Statistics"] = new JObject();
 
-                o["Mods"] = mods.Length > 0 ? mods.Select(m => m.Acronym).Aggregate((c, n) => $"{c}, {n}") : "None";
+                foreach (var info in getPlayValues(scoreInfo, beatmap))
+                    o["Statistics"][info.Key] = info.Value;
 
                 foreach (var kvp in categoryAttribs)
                     o[kvp.Key] = kvp.Value;
+
+                o["Mods"] = mods.Length > 0 ? mods.Select(m => m.Acronym).Aggregate((c, n) => $"{c}, {n}") : "None";
 
                 o["pp"] = pp;
 
@@ -131,7 +134,7 @@ namespace PerformanceCalculator.Simulate
             }
         }
 
-        private List<Mod> getMods(Ruleset ruleset)
+        protected List<Mod> GetMods(Ruleset ruleset)
         {
             var mods = new List<Mod>();
             if (Mods == null)
