@@ -8,11 +8,8 @@ using osu.Game.Rulesets;
 using osu.Game.Rulesets.Catch;
 using osu.Game.Rulesets.Catch.Objects;
 using osu.Game.Rulesets.Scoring;
-using osu.Game.Scoring;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Globalization;
 using System.Linq;
 
 namespace PerformanceCalculator.Simulate
@@ -20,11 +17,6 @@ namespace PerformanceCalculator.Simulate
     [Command(Name = "catch", Description = "Computes the performance (pp) of a simulated osu!catch play.")]
     public class CatchSimulateCommand : SimulateCommand
     {
-        [UsedImplicitly]
-        [Required, FileExists]
-        [Argument(0, Name = "beatmap", Description = "Required. The beatmap file (.osu).")]
-        public override string Beatmap { get; }
-
         [UsedImplicitly]
         [Option(Template = "-a|--accuracy <accuracy>", Description = "Accuracy. Enter as decimal 0-100. Defaults to 100."
                                                                      + " Scales hit results as well and is rounded to the nearest possible value for the beatmap.")]
@@ -97,22 +89,6 @@ namespace PerformanceCalculator.Simulate
             double total = hits + statistics[HitResult.Miss] + statistics[HitResult.SmallTickMiss];
 
             return hits / total;
-        }
-
-        protected override string GetPlayInfo(ScoreInfo scoreInfo, IBeatmap beatmap)
-        {
-            var playInfo = new List<string>
-            {
-                GetAttribute("ApproachRate", FormattableString.Invariant($"{beatmap.BeatmapInfo.BaseDifficulty.ApproachRate}")),
-                GetAttribute("MaxCombo", FormattableString.Invariant($"{scoreInfo.MaxCombo}"))
-            };
-
-            foreach (var statistic in scoreInfo.Statistics)
-            {
-                playInfo.Add(GetAttribute(Enum.GetName(typeof(HitResult), statistic.Key), statistic.Value.ToString(CultureInfo.InvariantCulture)));
-            }
-
-            return string.Join("\n", playInfo);
         }
     }
 }

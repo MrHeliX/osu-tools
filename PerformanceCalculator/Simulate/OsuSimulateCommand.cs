@@ -3,8 +3,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Globalization;
 using System.Linq;
 using JetBrains.Annotations;
 using McMaster.Extensions.CommandLineUtils;
@@ -13,18 +11,12 @@ using osu.Game.Rulesets;
 using osu.Game.Rulesets.Osu;
 using osu.Game.Rulesets.Osu.Objects;
 using osu.Game.Rulesets.Scoring;
-using osu.Game.Scoring;
 
 namespace PerformanceCalculator.Simulate
 {
     [Command(Name = "osu", Description = "Computes the performance (pp) of a simulated osu! play.")]
     public class OsuSimulateCommand : SimulateCommand
     {
-        [UsedImplicitly]
-        [Required, FileExists]
-        [Argument(0, Name = "beatmap", Description = "Required. The beatmap file (.osu).")]
-        public override string Beatmap { get; }
-
         [UsedImplicitly]
         [Option(Template = "-a|--accuracy <accuracy>", Description = "Accuracy. Enter as decimal 0-100. Defaults to 100."
                                                                      + " Scales hit results as well and is rounded to the nearest possible value for the beatmap.")]
@@ -105,22 +97,6 @@ namespace PerformanceCalculator.Simulate
             var total = countGreat + countGood + countMeh + countMiss;
 
             return (double)((6 * countGreat) + (2 * countGood) + countMeh) / (6 * total);
-        }
-
-        protected override string GetPlayInfo(ScoreInfo scoreInfo, IBeatmap beatmap)
-        {
-            var playInfo = new List<string>
-            {
-                GetAttribute("Accuracy", (scoreInfo.Accuracy * 100).ToString(CultureInfo.InvariantCulture) + "%"),
-                GetAttribute("Combo", FormattableString.Invariant($"{scoreInfo.MaxCombo} ({Math.Round(100.0 * scoreInfo.MaxCombo / GetMaxCombo(beatmap), 2)}%)"))
-            };
-
-            foreach (var statistic in scoreInfo.Statistics)
-            {
-                playInfo.Add(GetAttribute(Enum.GetName(typeof(HitResult), statistic.Key), statistic.Value.ToString(CultureInfo.InvariantCulture)));
-            }
-
-            return string.Join("\n", playInfo);
         }
     }
 }

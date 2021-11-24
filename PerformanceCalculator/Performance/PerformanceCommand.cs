@@ -3,7 +3,6 @@
 
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -18,7 +17,7 @@ namespace PerformanceCalculator.Performance
     {
         [UsedImplicitly]
         [Required, FileExists]
-        [Argument(0, Name = "beatmap", Description = "Required. The beatmap file (.osu) corresponding to the replays.")]
+        [Argument(0, Name = "beatmap", Description = "Required. A beatmap file (.osu) or beatmap ID corresponding to the replays.")]
         public string Beatmap { get; }
 
         [UsedImplicitly]
@@ -28,7 +27,7 @@ namespace PerformanceCalculator.Performance
 
         public override void Execute()
         {
-            var workingBeatmap = new ProcessorWorkingBeatmap(Beatmap);
+            var workingBeatmap = ProcessorWorkingBeatmap.FromFileOrId(Beatmap);
             var scoreParser = new ProcessorScoreDecoder(workingBeatmap);
 
             foreach (var f in Replays)
@@ -37,12 +36,12 @@ namespace PerformanceCalculator.Performance
                 using (var stream = File.OpenRead(f))
                     score = scoreParser.Parse(stream);
 
-                // Convert + process beatmap
+                var ruleset = score.ScoreInfo.Ruleset.CreateInstance();
+                var difficultyCalculator = ruleset.CreateDifficultyCalculator(workingBeatmap);
+                var difficultyAttributes = difficultyCalculator.Calculate(LegacyHelper.TrimNonDifficultyAdjustmentMods(ruleset, score.ScoreInfo.Mods).ToArray());
+                var performanceCalculator = score.ScoreInfo.Ruleset.CreateInstance().CreatePerformanceCalculator(difficultyAttributes, score.ScoreInfo);
+
                 var categoryAttribs = new Dictionary<string, double>();
-
-                var performanceCalculator = score.ScoreInfo.Ruleset.CreateInstance().CreatePerformanceCalculator(workingBeatmap, score.ScoreInfo);
-                Trace.Assert(performanceCalculator != null);
-
                 double pp = performanceCalculator.Calculate(categoryAttribs);
 
                 Console.WriteLine(f);
