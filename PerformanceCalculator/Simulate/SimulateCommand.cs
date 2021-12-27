@@ -85,8 +85,7 @@ namespace PerformanceCalculator.Simulate
                 RulesetID = Ruleset.RulesetInfo.ID ?? 0,
             });
 
-            var categoryAttribs = new Dictionary<string, double>();
-            double pp = performanceCalculator?.Calculate(categoryAttribs) ?? 0;
+            var ppAttributes = performanceCalculator?.Calculate();
 
             var result = new Result
             {
@@ -101,8 +100,7 @@ namespace PerformanceCalculator.Simulate
                     Combo = maxCombo,
                     Statistics = statistics
                 },
-                Pp = pp,
-                PerformanceAttributes = categoryAttribs.ToDictionary(k => k.Key.ToLowerInvariant().Underscore(), k => k.Value),
+                PerformanceAttributes = ppAttributes,
                 DifficultyAttributes = difficultyAttributes
             };
 
@@ -119,7 +117,8 @@ namespace PerformanceCalculator.Simulate
             {
                 var document = new Document();
 
-                // Basic score info.
+                AddSectionHeader(document, "Basic score info");
+
                 document.Children.Add(
                     FormatDocumentLine("beatmap", $"{result.Score.BeatmapId} - {result.Score.Beatmap}"),
                     FormatDocumentLine("score", result.Score.Score.ToString(CultureInfo.InvariantCulture)),
@@ -128,32 +127,34 @@ namespace PerformanceCalculator.Simulate
                     FormatDocumentLine("mods", result.Score.Mods.Count > 0 ? result.Score.Mods.Select(m => m.ToString()).Aggregate((c, n) => $"{c}, {n}") : "None")
                 );
 
-                document.Children.Add("---\n");
+                AddSectionHeader(document, "Hit statistics");
 
-                // Hit statistics.
                 foreach (var stat in result.Score.Statistics)
                     document.Children.Add(FormatDocumentLine(stat.Key.ToString().ToLowerInvariant(), stat.Value.ToString(CultureInfo.InvariantCulture)));
 
-                document.Children.Add("---\n");
+                AddSectionHeader(document, "Performance attributes");
 
-                // Performance attributes.
-                document.Children.Add(FormatDocumentLine("pp", result.Pp.ToString("N2", CultureInfo.InvariantCulture)));
+                var ppAttributeValues = JsonConvert.DeserializeObject<Dictionary<string, object>>(JsonConvert.SerializeObject(result.PerformanceAttributes)) ?? new Dictionary<string, object>();
+                foreach (var attrib in ppAttributeValues)
+                    document.Children.Add(FormatDocumentLine(attrib.Key.Humanize().ToLower(), FormattableString.Invariant($"{attrib.Value:N2}")));
 
-                foreach (var attrib in result.PerformanceAttributes)
-                {
-                    // For the time being, we don't have explicitly defined storage for these attributes.
-                    document.Children.Add(FormatDocumentLine(attrib.Key.Humanize().ToLowerInvariant(), attrib.Value.ToString("N2")));
-                }
+                AddSectionHeader(document, "Difficulty attributes");
 
-                document.Children.Add("---\n");
-
-                // Difficulty attributes.
-                var attributeValues = JsonConvert.DeserializeObject<Dictionary<string, object>>(JsonConvert.SerializeObject(result.DifficultyAttributes)) ?? new Dictionary<string, object>();
-                foreach (var attrib in attributeValues)
-                    document.Children.Add(FormatDocumentLine(attrib.Key.Humanize(), $"{attrib.Value:N2}"));
+                var diffAttributeValues = JsonConvert.DeserializeObject<Dictionary<string, object>>(JsonConvert.SerializeObject(result.DifficultyAttributes)) ?? new Dictionary<string, object>();
+                foreach (var attrib in diffAttributeValues)
+                    document.Children.Add(FormatDocumentLine(attrib.Key.Humanize(), FormattableString.Invariant($"{attrib.Value:N2}")));
 
                 OutputDocument(document);
             }
+        }
+
+        protected void AddSectionHeader(Document document, string header)
+        {
+            if (document.Children.Any())
+                document.Children.Add(Environment.NewLine);
+
+            document.Children.Add(header);
+            document.Children.Add(new Separator());
         }
 
         protected List<Mod> GetMods(Ruleset ruleset)
@@ -189,11 +190,8 @@ namespace PerformanceCalculator.Simulate
             [JsonProperty("score")]
             public ScoreStatistics Score { get; set; }
 
-            [JsonProperty("pp")]
-            public double Pp { get; set; }
-
             [JsonProperty("performance_attributes")]
-            public IDictionary<string, double> PerformanceAttributes { get; set; }
+            public PerformanceAttributes PerformanceAttributes { get; set; }
 
             [JsonProperty("difficulty_attributes")]
             public DifficultyAttributes DifficultyAttributes { get; set; }
