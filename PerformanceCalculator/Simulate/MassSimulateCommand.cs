@@ -74,12 +74,20 @@ namespace PerformanceCalculator.Simulate
                     MaxCombo = combo,
                     Statistics = statistics,
                     Mods = mods,
-                    TotalScore = 0,
-                    RulesetID = ruleset.RulesetInfo.ID ?? 0
+                    TotalScore = 0
                 };
 
                 var categoryAttribs = new Dictionary<string, double>();
-                double pp = ruleset.CreatePerformanceCalculator(workingBeatmap, scoreInfo).Calculate(categoryAttribs);
+                var ppAttributes = ruleset.CreatePerformanceCalculator(workingBeatmap, new ScoreInfo(beatmap.BeatmapInfo, ruleset.RulesetInfo)
+                {
+                    Accuracy = accuracy,
+                    MaxCombo = combo,
+                    Statistics = statistics,
+                    Mods = mods,
+                    TotalScore = 0
+                })?.Calculate();
+
+                double pp = ppAttributes.Total;
 
                 /*
                 string filenameWithoutExtension = Scores.Split(".txt")[0];
