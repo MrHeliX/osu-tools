@@ -10,6 +10,7 @@ using Humanizer;
 using JetBrains.Annotations;
 using McMaster.Extensions.CommandLineUtils;
 using Newtonsoft.Json;
+using osu.Game.Rulesets.Mods;
 using osu.Game.Scoring;
 
 namespace PerformanceCalculator.Performance
@@ -40,10 +41,15 @@ namespace PerformanceCalculator.Performance
 
                 var ruleset = score.ScoreInfo.Ruleset.CreateInstance();
                 var difficultyCalculator = ruleset.CreateDifficultyCalculator(workingBeatmap);
-                var difficultyAttributes = difficultyCalculator.Calculate(LegacyHelper.TrimNonDifficultyAdjustmentMods(ruleset, score.ScoreInfo.Mods).ToArray());
-                var performanceCalculator = score.ScoreInfo.Ruleset.CreateInstance().CreatePerformanceCalculator(difficultyAttributes, score.ScoreInfo);
 
-                var ppAttributes = performanceCalculator?.Calculate();
+                Mod[] mods = score.ScoreInfo.Mods;
+                if (score.ScoreInfo.IsLegacyScore)
+                    mods = LegacyHelper.ConvertToLegacyDifficultyAdjustmentMods(ruleset, mods);
+
+                var difficultyAttributes = difficultyCalculator.Calculate(mods);
+                var performanceCalculator = score.ScoreInfo.Ruleset.CreateInstance().CreatePerformanceCalculator();
+
+                var ppAttributes = performanceCalculator?.Calculate(score.ScoreInfo, difficultyAttributes);
 
                 Console.WriteLine(f);
                 writeAttribute("Player", score.ScoreInfo.User.Username);
