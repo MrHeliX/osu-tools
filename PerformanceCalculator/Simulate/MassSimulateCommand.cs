@@ -76,7 +76,7 @@ namespace PerformanceCalculator.Simulate
                 var beatmap = workingBeatmap.GetPlayableBeatmap(ruleset.RulesetInfo, mods);
 
                 var statistics = generateHitResults(beatmap, count_miss, count_meh, count_good);
-                var accuracy = getAccuracy(statistics);
+                var accuracy = getAccuracy(statistics, gamemode);
 
                 var scoreInfo = new ScoreInfo(workingBeatmap.BeatmapInfo, ruleset.RulesetInfo)
                 {
@@ -249,29 +249,6 @@ namespace PerformanceCalculator.Simulate
 
         protected string FormatDocumentLine(string name, string value) => $"{name.PadRight(20)}: {value}\n";
 
-        private List<Mod> getMods(Ruleset ruleset)
-        {
-            var mods = new List<Mod>();
-            return mods;
-            /*
-            if (Mods == null)
-                return mods;
-
-            var availableMods = ruleset.GetAllMods().ToList();
-
-            foreach (var modString in Mods)
-            {
-                Mod newMod = availableMods.FirstOrDefault(m => string.Equals(m.Acronym, modString, StringComparison.CurrentCultureIgnoreCase));
-                if (newMod == null)
-                    throw new ArgumentException($"Invalid mod provided: {modString}");
-
-                mods.Add(newMod);
-            }
-
-            return mods;
-            */
-        }
-
         private class Result
         {
             [JsonProperty("score")]
@@ -325,7 +302,7 @@ namespace PerformanceCalculator.Simulate
             };
         }
 
-        private double getAccuracy(Dictionary<HitResult, int> statistics)
+        private double getAccuracy(Dictionary<HitResult, int> statistics, int gamemode)
         {
             var countGreat = statistics[HitResult.Great];
             var countGood = statistics[HitResult.Ok];
@@ -333,7 +310,11 @@ namespace PerformanceCalculator.Simulate
             var countMiss = statistics[HitResult.Miss];
             var total = countGreat + countGood + countMeh + countMiss;
 
-            return (double)((6 * countGreat) + (2 * countGood) + countMeh) / (6 * total);
+            if (gamemode == 0)
+                return (double)((6 * countGreat) + (2 * countGood) + countMeh) / (6 * total);
+            else if (gamemode == 1)
+                return (double)((2 * countGreat) + countGood) / (2 * total);
+            else return 0;
         }
 
         protected string GetAttribute(string name, string value) => $"{name.PadRight(15)}: {value}";
