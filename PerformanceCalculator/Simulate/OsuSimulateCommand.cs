@@ -50,7 +50,7 @@ namespace PerformanceCalculator.Simulate
 
         protected override int GetMaxCombo(IBeatmap beatmap) => beatmap.GetMaxCombo();
 
-        protected override Dictionary<HitResult, int> GenerateHitResults(double accuracy, IBeatmap beatmap, int countMiss, int? countMeh, int? countGood)
+        protected override Dictionary<HitResult, int> GenerateHitResults(double accuracy, IBeatmap beatmap, int countMiss, int? countMeh, int? countGood, int? _ , int? __)
         {
             int countGreat;
 

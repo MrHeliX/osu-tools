@@ -64,6 +64,8 @@ namespace PerformanceCalculator.Simulate
                 var count_good = int.Parse(splitLine[4]);
                 var count_meh = int.Parse(splitLine[5]);
                 var count_miss = int.Parse(splitLine[6]);
+                var count_ok = int.Parse(splitLine[7]);
+                var count_great = int.Parse(splitLine[8]);
 
                 var cachePath = "../xexxar-release/cache/" + map_id + ".osu";
                 if (!File.Exists(cachePath))
@@ -75,7 +77,7 @@ namespace PerformanceCalculator.Simulate
                 var workingBeatmap = new ProcessorWorkingBeatmap(cachePath);
                 var beatmap = workingBeatmap.GetPlayableBeatmap(ruleset.RulesetInfo, mods);
 
-                var statistics = generateHitResults(beatmap, count_miss, count_meh, count_good);
+                var statistics = generateHitResults(beatmap, gamemode, count_miss, count_meh, count_good, count_ok, count_great);
                 var accuracy = getAccuracy(statistics, gamemode);
 
                 var scoreInfo = new ScoreInfo(workingBeatmap.BeatmapInfo, ruleset.RulesetInfo)
@@ -288,32 +290,49 @@ namespace PerformanceCalculator.Simulate
             public Dictionary<HitResult, int> Statistics { get; set; }
         }
 
-        private Dictionary<HitResult, int> generateHitResults(IBeatmap beatmap, int countMiss, int? countMeh, int? countGood)
+        private Dictionary<HitResult, int> generateHitResults(IBeatmap beatmap, int gamemode, int countMiss, int? countMeh, int? countGood, int? countOk, int? countGreat)
         {
             var totalResultCount = beatmap.HitObjects.Count;
-            int countGreat = totalResultCount - (countGood ?? 0) - (countMeh ?? 0) - countMiss;
-
-            return new Dictionary<HitResult, int>
+            if (gamemode == 3)
             {
-                { HitResult.Great, countGreat },
-                { HitResult.Ok, countGood ?? 0 },
-                { HitResult.Meh, countMeh ?? 0 },
-                { HitResult.Miss, countMiss }
-            };
+                return new Dictionary<HitResult, int>
+                {
+                    { HitResult.Perfect, totalResultCount - (countGreat ?? 0) - (countGood ?? 0) - (countOk ?? 0) - (countMeh ?? 0) - countMiss },
+                    { HitResult.Great, countGreat ?? 0 },
+                    { HitResult.Ok, countOk ?? 0 },
+                    { HitResult.Good, countGood ?? 0 },
+                    { HitResult.Meh, countMeh ?? 0 },
+                    { HitResult.Miss, countMiss }
+                };
+            }
+            else
+            {
+                return new Dictionary<HitResult, int>
+                {
+                    { HitResult.Great, totalResultCount - (countGood ?? 0) - (countMeh ?? 0) - countMiss },
+                    { HitResult.Ok, countGood ?? 0 },
+                    { HitResult.Meh, countMeh ?? 0 },
+                    { HitResult.Miss, countMiss }
+                };
+            }
         }
 
         private double getAccuracy(Dictionary<HitResult, int> statistics, int gamemode)
         {
+            var countPerfect = statistics[HitResult.Perfect];
             var countGreat = statistics[HitResult.Great];
-            var countGood = statistics[HitResult.Ok];
+            var countGood = statistics[HitResult.Good];
+            var countOk = statistics[HitResult.Ok];
             var countMeh = statistics[HitResult.Meh];
             var countMiss = statistics[HitResult.Miss];
-            var total = countGreat + countGood + countMeh + countMiss;
+            var total = countGreat + countOk + countMeh + countMiss;
 
             if (gamemode == 0)
-                return (double)((6 * countGreat) + (2 * countGood) + countMeh) / (6 * total);
+                return (double)((6 * countGreat) + (2 * countOk) + countMeh) / (6 * total);
             else if (gamemode == 1)
-                return (double)((2 * countGreat) + countGood) / (2 * total);
+                return (double)((2 * countGreat) + countOk) / (2 * total);
+            else if (gamemode == 3)
+                return (double)(300 * (countPerfect + countGreat) + 200 * countGood + 100 * countOk + 50 * countMeh) / (300 * (countPerfect + countGreat + countGood + countOk + countMeh + countMiss));
             else return 0;
         }
 
