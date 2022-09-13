@@ -319,9 +319,9 @@ namespace PerformanceCalculator.Simulate
 
         private double getAccuracy(Dictionary<HitResult, int> statistics, int gamemode)
         {
-            var countPerfect = statistics[HitResult.Perfect];
+            var countPerfect = gamemode == 3 ? statistics[HitResult.Perfect] : 0;
             var countGreat = statistics[HitResult.Great];
-            var countGood = statistics[HitResult.Good];
+            var countGood = gamemode == 3 ? statistics[HitResult.Good] : 0;
             var countOk = statistics[HitResult.Ok];
             var countMeh = statistics[HitResult.Meh];
             var countMiss = statistics[HitResult.Miss];
