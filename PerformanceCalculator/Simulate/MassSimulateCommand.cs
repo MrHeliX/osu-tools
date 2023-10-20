@@ -33,10 +33,6 @@ namespace PerformanceCalculator.Simulate
         [Argument(0, Name = "scores", Description = "Required. The scores to recalculate (.txt).")]
         public string Scores { get; }
 
-        [UsedImplicitly]
-        [Option(Template = "-j|--json", Description = "Output results as JSON.")]
-        public bool OutputJson { get; }
-
         public int Mods { get; set; }
 
         public override void Execute()
@@ -98,7 +94,7 @@ namespace PerformanceCalculator.Simulate
 
                 var categoryAttribs = new Dictionary<string, double>();
                 var difficultyCalculator = ruleset.CreateDifficultyCalculator(workingBeatmap);
-                var difficultyAttributes = difficultyCalculator.Calculate(LegacyHelper.ConvertToLegacyDifficultyAdjustmentMods(ruleset, scoreInfo.Mods).ToArray());
+                var difficultyAttributes = difficultyCalculator.Calculate(LegacyHelper.ConvertToLegacyDifficultyAdjustmentMods(beatmap.BeatmapInfo, ruleset, scoreInfo.Mods).ToArray());
 
                 var performanceCalculator = ruleset.CreatePerformanceCalculator();
                 var ppAttributes = performanceCalculator?.Calculate(new ScoreInfo(workingBeatmap.BeatmapInfo, ruleset.RulesetInfo)
