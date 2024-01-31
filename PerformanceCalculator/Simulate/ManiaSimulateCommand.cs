@@ -43,14 +43,6 @@ namespace PerformanceCalculator.Simulate
         private int? greats { get; set; }
 
         [UsedImplicitly]
-        [Option(Template = "-O|--oks <oks>", Description = "Number of oks. Will override accuracy if used. Otherwise is automatically calculated.")]
-        public override int? Oks { get; }
-
-        [UsedImplicitly]
-        [Option(Template = "-GR|--greats <greats>", Description = "Number of greats. Will override accuracy if used. Otherwise is automatically calculated.")]
-        public override int? Greats { get; }
-
-        [UsedImplicitly]
         [Option(CommandOptionType.MultipleValue, Template = "-m|--mod <mod>", Description = "One for each mod. The mods to compute the performance with."
                                                                                             + " Values: hr, dt, fl, 4k, 5k, etc...")]
         public override string[] Mods { get; }
