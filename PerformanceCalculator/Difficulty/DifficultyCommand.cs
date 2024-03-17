@@ -3,7 +3,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
 using Alba.CsConsoleFormat;
@@ -23,7 +22,6 @@ namespace PerformanceCalculator.Difficulty
     public class DifficultyCommand : ProcessorCommand
     {
         [UsedImplicitly]
-        [Required]
         [Argument(0, Name = "path", Description = "Required. A beatmap file (.osu), beatmap ID, or a folder containing .osu files to compute the difficulty for.")]
         public string Path { get; }
 
@@ -126,7 +124,7 @@ namespace PerformanceCalculator.Difficulty
         {
             // Get the ruleset
             var ruleset = LegacyHelper.GetRulesetFromLegacyID(Ruleset ?? beatmap.BeatmapInfo.Ruleset.OnlineID);
-            var mods = NoClassicMod ? getMods(ruleset) : LegacyHelper.ConvertToLegacyDifficultyAdjustmentMods(beatmap.BeatmapInfo, ruleset, getMods(ruleset));
+            var mods = NoClassicMod ? getMods(ruleset) : LegacyHelper.FilterDifficultyAdjustmentMods(beatmap.BeatmapInfo, ruleset, getMods(ruleset));
             var attributes = ruleset.CreateDifficultyCalculator(beatmap).Calculate(mods);
 
             return new Result

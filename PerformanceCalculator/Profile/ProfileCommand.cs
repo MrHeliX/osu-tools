@@ -3,7 +3,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
 using Alba.CsConsoleFormat;
@@ -20,7 +19,6 @@ namespace PerformanceCalculator.Profile
     public class ProfileCommand : ApiCommand
     {
         [UsedImplicitly]
-        [Required]
         [Argument(0, Name = "user", Description = "User ID is preferred, but username should also work.")]
         public string ProfileName { get; }
 
@@ -49,10 +47,12 @@ namespace PerformanceCalculator.Profile
                 Mod[] mods = play.Mods.Select(x => x.ToMod(ruleset)).ToArray();
 
                 var scoreInfo = play.ToScoreInfo(mods);
+                scoreInfo.Ruleset = ruleset.RulesetInfo;
+
                 var score = new ProcessorScoreDecoder(working).Parse(scoreInfo);
 
                 var difficultyCalculator = ruleset.CreateDifficultyCalculator(working);
-                var difficultyAttributes = difficultyCalculator.Calculate(LegacyHelper.ConvertToLegacyDifficultyAdjustmentMods(working.BeatmapInfo, ruleset, scoreInfo.Mods).ToArray());
+                var difficultyAttributes = difficultyCalculator.Calculate(LegacyHelper.FilterDifficultyAdjustmentMods(working.BeatmapInfo, ruleset, scoreInfo.Mods).ToArray());
                 var performanceCalculator = ruleset.CreatePerformanceCalculator();
 
                 var ppAttributes = performanceCalculator?.Calculate(score.ScoreInfo, difficultyAttributes);
