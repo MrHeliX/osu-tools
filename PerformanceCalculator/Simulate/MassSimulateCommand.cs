@@ -33,7 +33,7 @@ namespace PerformanceCalculator.Simulate
         [Argument(0, Name = "scores", Description = "Required. The scores to recalculate (.txt).")]
         public string Scores { get; }
 
-        public int Mods { get; set; }
+        public string[] Mods { get; set; }
 
         public override void Execute()
         {
@@ -52,9 +52,9 @@ namespace PerformanceCalculator.Simulate
             {
                 var splitLine = line.Split('\\');
                 var map_id = splitLine[1];
-                Mods = int.Parse(splitLine[2]);
+                Mods = splitLine[2].Length > 0 ? splitLine[2].Split(',') : null;
 
-                Mod[] mods = ruleset.ConvertFromLegacyMods((LegacyMods)Mods).ToArray();
+                Mod[] mods = GetMods(ruleset);
 
                 var combo = int.Parse(splitLine[3]);
                 var count_good = int.Parse(splitLine[4]);
@@ -134,41 +134,7 @@ namespace PerformanceCalculator.Simulate
 
                 else
                 {
-                    /*
-                var ppAttributes = ruleset.CreatePerformanceCalculator(workingBeatmap, new ScoreInfo(beatmap.BeatmapInfo, ruleset.RulesetInfo)
-                {
-                    Accuracy = accuracy,
-                    MaxCombo = combo,
-                    Statistics = statistics,
-                    Mods = mods,
-                    TotalScore = 0
-                })?.Calculate();
-
-                */
-
                     double pp = ppAttributes.Total;
-
-                    /*
-                    string filenameWithoutExtension = Scores.Split(".txt")[0];
-
-                    List<string> newLines = new List<string>
-                    {
-                        "**********",
-                        workingBeatmap.BeatmapInfo.ToString(),
-                        getPlayInfo(scoreInfo, beatmap),
-                        GetAttribute("Mods", mods.Length > 0
-                        ? mods.Select(m => m.Acronym).Aggregate((c, n) => $"{c}, {n}")
-                        : "None")
-                    };
-
-                    foreach (var kvp in categoryAttribs)
-                        newLines.Add(GetAttribute(kvp.Key, kvp.Value.ToString(CultureInfo.InvariantCulture)));
-
-                    newLines.Add(GetAttribute("pp", pp.ToString(CultureInfo.InvariantCulture)));
-
-                    File.AppendAllLines(filenameWithoutExtension + "-result.txt", newLines.ToArray());
-                    */
-
 
                     document.Children.Add(new Span("**********"), "\n");
 
@@ -200,28 +166,6 @@ namespace PerformanceCalculator.Simulate
                         document.Children.Add(FormatDocumentLine(attrib.Key.Humanize(), FormattableString.Invariant($"{attrib.Value:N2}")));
 
                     OutputDocument(document);
-
-                    /*
-                    document.Children.Add(new Span(workingBeatmap.BeatmapInfo.ToString()), "\n");
-
-                    document.Children.Add(new Span(getPlayInfo(scoreInfo, beatmap)), "\n");
-
-                    document.Children.Add(new Span(GetAttribute("Mods", mods.Length > 0
-                        ? mods.Select(m => m.Acronym).Aggregate((c, n) => $"{c}, {n}")
-                        : "None")), "\n");
-
-                    foreach (var stat in result.Score.Statistics)
-                        document.Children.Add(FormatDocumentLine(stat.Key.ToString().ToLowerInvariant(), stat.Value.ToString(CultureInfo.InvariantCulture)));
-
-                    foreach (var kvp in categoryAttribs)
-                        document.Children.Add(new Span(GetAttribute(kvp.Key, kvp.Value.ToString(CultureInfo.InvariantCulture))), "\n");
-
-                    var ppAttributeValues = JsonConvert.DeserializeObject<Dictionary<string, object>>(JsonConvert.SerializeObject(ppAttributes)) ?? new Dictionary<string, object>();
-                    foreach (var ppa in ppAttributeValues)
-                        document.Children.Add(new Span(GetAttribute(ppa.Key, ppa.Value?.ToString())), "\n");
-
-                    document.Children.Add(new Span(GetAttribute("pp", pp.ToString(CultureInfo.InvariantCulture))), "\n");
-                    */
                 }
             }
 
@@ -234,6 +178,26 @@ namespace PerformanceCalculator.Simulate
             {
                 OutputDocument(document);
             }
+        }
+
+        private Mod[] GetMods(Ruleset ruleset)
+        {
+            if (Mods == null)
+                return Array.Empty<Mod>();
+
+            var availableMods = ruleset.CreateAllMods().ToList();
+            var mods = new List<Mod>();
+
+            foreach (var modString in Mods)
+            {
+                Mod newMod = availableMods.FirstOrDefault(m => string.Equals(m.Acronym, modString, StringComparison.CurrentCultureIgnoreCase));
+                if (newMod == null)
+                    throw new ArgumentException($"Invalid mod provided: {modString}");
+
+                mods.Add(newMod);
+            }
+
+            return mods.ToArray();
         }
 
         protected void AddSectionHeader(Document document, string header)
