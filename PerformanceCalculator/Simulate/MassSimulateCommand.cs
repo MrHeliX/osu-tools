@@ -90,6 +90,7 @@ namespace PerformanceCalculator.Simulate
                 var categoryAttribs = new Dictionary<string, double>();
                 double pp = ruleset.CreatePerformanceCalculator(workingBeatmap, scoreInfo).Calculate(categoryAttribs);
                 var difficultyAttributes = ruleset.CreateDifficultyCalculator(workingBeatmap).Calculate(LegacyHelper.TrimNonDifficultyAdjustmentMods(ruleset, mods).ToArray());
+                categoryAttribs.Add("pp", pp);
 
                 var result = new Result
                 {
