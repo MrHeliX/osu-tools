@@ -5,12 +5,16 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using Alba.CsConsoleFormat;
+using Humanizer;
 using JetBrains.Annotations;
 using McMaster.Extensions.CommandLineUtils;
+using Newtonsoft.Json;
 using osu.Framework.IO.Network;
 using osu.Game.Beatmaps;
 using osu.Game.Beatmaps.Legacy;
+using osu.Game.Online.API;
 using osu.Game.Rulesets;
+using osu.Game.Rulesets.Difficulty;
 using osu.Game.Rulesets.Mods;
 using osu.Game.Rulesets.Osu;
 using osu.Game.Rulesets.Osu.Objects;
@@ -29,6 +33,10 @@ namespace PerformanceCalculator.Simulate
         [Argument(0, Name = "scores", Description = "Required. The scores to recalculate (.txt).")]
         public string Scores { get; }
 
+        [UsedImplicitly]
+        [Option(Template = "-j|--json", Description = "Output results as JSON.")]
+        public bool OutputJson { get; }
+
         public int Mods { get; set; }
 
         public override void Execute()
@@ -41,6 +49,7 @@ namespace PerformanceCalculator.Simulate
             var ruleset = LegacyHelper.GetRulesetFromLegacyID(gamemode);
 
             var document = new Document();
+            var lines = new List<string>();
 
             foreach (var line in scoreLines)
             {
@@ -80,46 +89,61 @@ namespace PerformanceCalculator.Simulate
 
                 var categoryAttribs = new Dictionary<string, double>();
                 double pp = ruleset.CreatePerformanceCalculator(workingBeatmap, scoreInfo).Calculate(categoryAttribs);
+                var difficultyAttributes = ruleset.CreateDifficultyCalculator(workingBeatmap).Calculate(LegacyHelper.TrimNonDifficultyAdjustmentMods(ruleset, mods).ToArray());
 
-                /*
-                string filenameWithoutExtension = Scores.Split(".txt")[0];
-
-                List<string> newLines = new List<string>
+                var result = new Result
                 {
-                    "**********",
-                    workingBeatmap.BeatmapInfo.ToString(),
-                    getPlayInfo(scoreInfo, beatmap),
-                    GetAttribute("Mods", mods.Length > 0
-                    ? mods.Select(m => m.Acronym).Aggregate((c, n) => $"{c}, {n}")
-                    : "None")
+                    Score = new ScoreStatistics
+                    {
+                        RulesetId = ruleset.RulesetInfo.OnlineID,
+                        BeatmapId = workingBeatmap.BeatmapInfo.OnlineID ?? 0,
+                        Beatmap = workingBeatmap.BeatmapInfo.ToString(),
+                        Mods = mods.Select(m => new APIMod(m)).ToList(),
+                        Score = 0,
+                        Accuracy = accuracy * 100,
+                        Combo = combo,
+                        Statistics = statistics
+                    },
+                    Pp = pp,
+                    PerformanceAttributes = categoryAttribs.ToDictionary(k => k.Key.ToLowerInvariant().Underscore(), k => k.Value),
+                    DifficultyAttributes = difficultyAttributes
                 };
 
-                foreach (var kvp in categoryAttribs)
-                    newLines.Add(GetAttribute(kvp.Key, kvp.Value.ToString(CultureInfo.InvariantCulture)));
+                if (OutputJson)
+                {
+                    string json = JsonConvert.SerializeObject(result);
+                    lines.Add(json);
 
-                newLines.Add(GetAttribute("pp", pp.ToString(CultureInfo.InvariantCulture)));
+                    if (OutputFile != null)
+                        File.WriteAllText(OutputFile, json);
+                }
+                else
+                {
+                    document.Children.Add(new Span("**********"), "\n");
+                    document.Children.Add(new Span(workingBeatmap.BeatmapInfo.ToString()), "\n");
 
-                File.AppendAllLines(filenameWithoutExtension + "-result.txt", newLines.ToArray());
-                */
+                    document.Children.Add(new Span(getPlayInfo(scoreInfo, beatmap)), "\n");
 
-                
-                document.Children.Add(new Span("**********"), "\n");
-                document.Children.Add(new Span(workingBeatmap.BeatmapInfo.ToString()), "\n");
+                    document.Children.Add(new Span(GetAttribute("Mods", mods.Length > 0
+                        ? mods.Select(m => m.Acronym).Aggregate((c, n) => $"{c}, {n}")
+                        : "None")), "\n");
 
-                document.Children.Add(new Span(getPlayInfo(scoreInfo, beatmap)), "\n");
+                    foreach (var kvp in categoryAttribs)
+                        document.Children.Add(new Span(GetAttribute(kvp.Key, kvp.Value.ToString(CultureInfo.InvariantCulture))), "\n");
 
-                document.Children.Add(new Span(GetAttribute("Mods", mods.Length > 0
-                    ? mods.Select(m => m.Acronym).Aggregate((c, n) => $"{c}, {n}")
-                    : "None")), "\n");
-
-                foreach (var kvp in categoryAttribs)
-                    document.Children.Add(new Span(GetAttribute(kvp.Key, kvp.Value.ToString(CultureInfo.InvariantCulture))), "\n");
-
-                document.Children.Add(new Span(GetAttribute("pp", pp.ToString(CultureInfo.InvariantCulture))), "\n");
-                
+                    document.Children.Add(new Span(GetAttribute("pp", pp.ToString(CultureInfo.InvariantCulture))), "\n");
+                }                
             }
 
-            OutputDocument(document);
+            if (OutputJson)
+            {
+                var output = $"{{ \"response\": [{string.Join(",", lines)}] }}";
+                Console.WriteLine(output);
+            }
+            else
+            {
+                OutputDocument(document);
+            }
         }
 
         private List<Mod> getMods(Ruleset ruleset)
@@ -188,6 +212,51 @@ namespace PerformanceCalculator.Simulate
             }
 
             return string.Join("\n", playInfo);
+        }
+
+        private class Result
+        {
+            [JsonProperty("score")]
+            public ScoreStatistics Score { get; set; }
+
+            [JsonProperty("pp")]
+            public double Pp { get; set; }
+
+            [JsonProperty("performance_attributes")]
+            public IDictionary<string, double> PerformanceAttributes { get; set; }
+
+            [JsonProperty("difficulty_attributes")]
+            public DifficultyAttributes DifficultyAttributes { get; set; }
+        }
+
+        /// <summary>
+        /// A trimmed down score.
+        /// </summary>
+        private class ScoreStatistics
+        {
+            [JsonProperty("ruleset_id")]
+            public int RulesetId { get; set; }
+
+            [JsonProperty("beatmap_id")]
+            public int BeatmapId { get; set; }
+
+            [JsonProperty("beatmap")]
+            public string Beatmap { get; set; }
+
+            [JsonProperty("mods")]
+            public List<APIMod> Mods { get; set; }
+
+            [JsonProperty("total_score")]
+            public long Score { get; set; }
+
+            [JsonProperty("accuracy")]
+            public double Accuracy { get; set; }
+
+            [JsonProperty("combo")]
+            public int Combo { get; set; }
+
+            [JsonProperty("statistics")]
+            public Dictionary<HitResult, int> Statistics { get; set; }
         }
     }
 }
