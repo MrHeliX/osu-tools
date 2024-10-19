@@ -21,6 +21,7 @@ namespace PerformanceCalculator
     [Subcommand(typeof(PerformanceListingCommand))]
     [Subcommand(typeof(ProfileCommand))]
     [Subcommand(typeof(SimulateListingCommand))]
+    [Subcommand(typeof(MassSimulateCommand))]
     [Subcommand(typeof(LeaderboardCommand))]
     [Subcommand(typeof(LegacyScoreAttributesCommand))]
     [Subcommand(typeof(LegacyScoreConversionCommand))]
@@ -42,6 +43,9 @@ namespace PerformanceCalculator
         public int OnExecute(CommandLineApplication app, IConsole console)
         {
             console.WriteLine("You must specify a subcommand.");
+            // string[] args = { "masssimulate", "/home/helix/Documents/huismetbenen/pp-recalculations/releases/test-release/masssimulate/13480282.json", "/home/helix/Documents/huismetbenen/pp-recalculations/releases/xexxar-release/cache" };
+            // CommandLineApplication.Execute<Program>(args);
+            // return 1;
             app.ShowHelp();
             return 1;
         }

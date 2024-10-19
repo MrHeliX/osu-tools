@@ -13,7 +13,8 @@
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "Build (Debug)",
             "env": {},
-            "console": "internalConsole"
+            "console": "internalConsole",
+            "justMyCode": false
         },
         {
             "name": "Release (Performance Calculator)",
