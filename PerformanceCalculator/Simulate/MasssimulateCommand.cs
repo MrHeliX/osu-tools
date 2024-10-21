@@ -64,6 +64,15 @@ public class ScoreStatistics
     public Dictionary<HitResult, int> Statistics { get; set; }
 }
 
+public class InputMaximumStatistics
+{
+    [JsonProperty("slider_tail_hit")]
+    public int SliderTailHit { get; set; }
+
+    [JsonProperty("large_tick_hit")]
+    public int LargeTickHit { get; set; }
+}
+
 public class InputStatistics
 {
     [JsonProperty("perfect")]
@@ -87,8 +96,23 @@ public class InputStatistics
     [JsonProperty("large_tick_hit")]
     public int LargeTickHit { get; set; }
 
+    [JsonProperty("large_tick_miss")]
+    public int LargeTickMiss { get; set; }
+
     [JsonProperty("slider_tail_hit")]
     public int SliderTailHit { get; set; }
+
+    [JsonProperty("ignore_hit")]
+    public int IgnoreHit { get; set; }
+
+    [JsonProperty("ignore_miss")]
+    public int IgnoreMiss { get; set; }
+
+    [JsonProperty("large_bonus")]
+    public int LargeBonus { get; set; }
+
+    [JsonProperty("small_bonus")]
+    public int SmallBonus { get; set; }
 }
 
 public class InputScore
@@ -107,6 +131,9 @@ public class InputScore
 
     [JsonProperty("statistics")]
     public InputStatistics Statistics { get; set; }
+
+    [JsonProperty("maximum_statistics")]
+    public InputMaximumStatistics MaximumStatistics { get; set; }
 }
 
 namespace PerformanceCalculator.Simulate
@@ -147,7 +174,8 @@ namespace PerformanceCalculator.Simulate
                 return;
 
             int gamemode = scoresData[0].Gamemode;
-            Ruleset ruleset = GetRuleset(gamemode);
+            // Ruleset ruleset = GetRuleset(gamemode);
+            Ruleset ruleset = LegacyHelper.GetRulesetFromLegacyID(gamemode);
 
             var results = new List<string>();
 
@@ -162,7 +190,6 @@ namespace PerformanceCalculator.Simulate
                 var mods = GetMods(ruleset);
                 var beatmap = workingBeatmap.GetPlayableBeatmap(ruleset.RulesetInfo, mods);
 
-                var beatmapMaxCombo = GetMaxCombo(beatmap, gamemode);
                 Dictionary<HitResult, int> statistics = new Dictionary<HitResult, int>
                 {
                     { HitResult.Perfect, score.Statistics.Perfect },
@@ -172,12 +199,19 @@ namespace PerformanceCalculator.Simulate
                     { HitResult.Meh, score.Statistics.Meh },
                     { HitResult.Miss, score.Statistics.Miss },
                     { HitResult.LargeTickHit, score.Statistics.LargeTickHit },
-                    { HitResult.SliderTailHit, score.Statistics.SliderTailHit }
+                    { HitResult.SliderTailHit, score.Statistics.SliderTailHit },
+                    { HitResult.LargeTickMiss, score.Statistics.LargeTickMiss },
+                    { HitResult.IgnoreHit, score.Statistics.IgnoreHit },
+                    { HitResult.IgnoreMiss, score.Statistics.IgnoreMiss },
+                    { HitResult.LargeBonus, score.Statistics.LargeBonus },
+                    { HitResult.SmallBonus, score.Statistics.SmallBonus }
                 };
+
+                bool isLazerCalculation = !mods.Any(m => m.Acronym == "CL");
 
                 ScoreInfo scoreInfo = new ScoreInfo(beatmap.BeatmapInfo, ruleset.RulesetInfo)
                 {
-                    Accuracy = GetAccuracy(gamemode, score.Statistics),
+                    Accuracy = GetAccuracy(gamemode, score.Statistics, score.MaximumStatistics, isLazerCalculation),
                     MaxCombo = score.MaxCombo,
                     Statistics = statistics,
                     Mods = mods,
@@ -232,23 +266,17 @@ namespace PerformanceCalculator.Simulate
             return mods.ToArray();
         }
 
-        public int GetMaxCombo(IBeatmap beatmap, int gamemode)
-        {
-            switch (gamemode)
-            {
-                case 0: return beatmap.GetMaxCombo();
-                case 1: return beatmap.HitObjects.OfType<Hit>().Count();
-                case 2: return beatmap.HitObjects.Count(h => h is Fruit) + beatmap.HitObjects.OfType<JuiceStream>().SelectMany(j => j.NestedHitObjects).Count(h => !(h is TinyDroplet));
-                case 3: return 0;
-                default: return beatmap.GetMaxCombo();
-            }
-        }
-
-        public double GetAccuracy(int gamemode, InputStatistics statistics)
+        public double GetAccuracy(int gamemode, InputStatistics statistics, InputMaximumStatistics maximumStatistics, bool isLazerCalculation = false)
         {
             if (gamemode == 2 || gamemode == 3) return 0;
 
             int totalHits = statistics.Perfect + statistics.Great + statistics.Good + statistics.Ok + statistics.Meh + statistics.Miss;
+
+            if (isLazerCalculation && gamemode == 0)
+            {
+                return (double)(6 * statistics.Great + 2 * statistics.Ok + statistics.Meh + 3 * statistics.SliderTailHit + 0.6 * statistics.LargeTickHit) / (6 * totalHits + 3 * maximumStatistics.SliderTailHit + 0.6 * maximumStatistics.LargeTickHit);
+            }
+
             switch (gamemode)
             {
                 case 0: return (double)((6 * statistics.Great) + (2 * statistics.Ok) + statistics.Meh) / (6 * totalHits);
