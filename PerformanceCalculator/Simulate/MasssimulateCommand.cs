@@ -8,18 +8,11 @@ using JetBrains.Annotations;
 using McMaster.Extensions.CommandLineUtils;
 using Newtonsoft.Json;
 using osu.Framework.IO.Network;
-using osu.Game.Beatmaps;
 using osu.Game.Online.API;
 using osu.Game.Rulesets;
-using osu.Game.Rulesets.Catch;
-using osu.Game.Rulesets.Catch.Objects;
 using osu.Game.Rulesets.Difficulty;
-using osu.Game.Rulesets.Mania;
 using osu.Game.Rulesets.Mods;
-using osu.Game.Rulesets.Osu;
 using osu.Game.Rulesets.Scoring;
-using osu.Game.Rulesets.Taiko;
-using osu.Game.Rulesets.Taiko.Objects;
 using osu.Game.Scoring;
 
 public class Result
@@ -152,18 +145,6 @@ namespace PerformanceCalculator.Simulate
 
         public string[] Mods { get; set; }
 
-        public Ruleset GetRuleset(int gamemode)
-        {
-            switch (gamemode)
-            {
-                case 0: return new OsuRuleset();
-                case 1: return new TaikoRuleset();
-                case 2: return new CatchRuleset();
-                case 3: return new ManiaRuleset();
-                default: return new OsuRuleset();
-            }
-        }
-
         public override void Execute()
         {
             var sr = new StreamReader(Scores);
@@ -174,7 +155,6 @@ namespace PerformanceCalculator.Simulate
                 return;
 
             int gamemode = scoresData[0].Gamemode;
-            // Ruleset ruleset = GetRuleset(gamemode);
             Ruleset ruleset = LegacyHelper.GetRulesetFromLegacyID(gamemode);
 
             var results = new List<string>();
