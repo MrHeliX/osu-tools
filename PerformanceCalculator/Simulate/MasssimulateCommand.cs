@@ -248,19 +248,25 @@ namespace PerformanceCalculator.Simulate
 
         public double GetAccuracy(int gamemode, InputStatistics statistics, InputMaximumStatistics maximumStatistics, bool isLazerCalculation = false)
         {
-            if (gamemode == 2 || gamemode == 3) return 0;
+            if (gamemode == 2) return 0;
 
             int totalHits = statistics.Perfect + statistics.Great + statistics.Good + statistics.Ok + statistics.Meh + statistics.Miss;
 
-            if (isLazerCalculation && gamemode == 0)
+            if (isLazerCalculation)
             {
-                return (double)(6 * statistics.Great + 2 * statistics.Ok + statistics.Meh + 3 * statistics.SliderTailHit + 0.6 * statistics.LargeTickHit) / (6 * totalHits + 3 * maximumStatistics.SliderTailHit + 0.6 * maximumStatistics.LargeTickHit);
+                switch (gamemode)
+                {
+                    case 0: return (double)(6 * statistics.Great + 2 * statistics.Ok + statistics.Meh + 3 * statistics.SliderTailHit + 0.6 * statistics.LargeTickHit) / (6 * totalHits + 3 * maximumStatistics.SliderTailHit + 0.6 * maximumStatistics.LargeTickHit);
+                    case 3: return (double)(320 * statistics.Perfect + 300 * statistics.Great + 200 * statistics.Good + 100 * statistics.Ok + 50 * statistics.Meh) / (320 * totalHits);
+                    default: return 0;
+                }                    
             }
 
             switch (gamemode)
             {
                 case 0: return (double)((6 * statistics.Great) + (2 * statistics.Ok) + statistics.Meh) / (6 * totalHits);
                 case 1: return (double)((2 * statistics.Great) + statistics.Ok) / (2 * totalHits);
+                case 3: return (double)(300 * (statistics.Perfect + statistics.Great) + 200 * statistics.Good + 100 * statistics.Ok + 50 * statistics.Meh) / (300 * totalHits);
                 default: return 0;
             }
         }
