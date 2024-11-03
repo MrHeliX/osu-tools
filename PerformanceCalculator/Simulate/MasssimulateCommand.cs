@@ -257,6 +257,7 @@ namespace PerformanceCalculator.Simulate
                 switch (gamemode)
                 {
                     case 0: return (double)(6 * statistics.Great + 2 * statistics.Ok + statistics.Meh + 3 * statistics.SliderTailHit + 0.6 * statistics.LargeTickHit) / (6 * totalHits + 3 * maximumStatistics.SliderTailHit + 0.6 * maximumStatistics.LargeTickHit);
+                    case 1: return (double)(2 * statistics.Great + statistics.Ok) / (2 * totalHits);
                     case 3: return (double)(320 * statistics.Perfect + 300 * statistics.Great + 200 * statistics.Good + 100 * statistics.Ok + 50 * statistics.Meh) / (320 * totalHits);
                     default: return 0;
                 }                    
