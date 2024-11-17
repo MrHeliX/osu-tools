@@ -12,6 +12,7 @@ using PerformanceCalculator.Leaderboard;
 using PerformanceCalculator.Performance;
 using PerformanceCalculator.Profile;
 using PerformanceCalculator.Simulate;
+using PerformanceCalculator.StarRatings;
 
 namespace PerformanceCalculator
 {
@@ -25,6 +26,7 @@ namespace PerformanceCalculator
     [Subcommand(typeof(LeaderboardCommand))]
     [Subcommand(typeof(LegacyScoreAttributesCommand))]
     [Subcommand(typeof(LegacyScoreConversionCommand))]
+    [Subcommand(typeof(StarRatingsCommand))]
     [HelpOption("-?|-h|--help")]
     public class Program
     {
