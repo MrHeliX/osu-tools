@@ -2,14 +2,22 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using JetBrains.Annotations;
 using McMaster.Extensions.CommandLineUtils;
 using Newtonsoft.Json;
 using osu.Game.Beatmaps;
-using osu.Game.Online.API;
 using osu.Game.Rulesets;
-using osu.Game.Rulesets.Difficulty;
 using osu.Game.Rulesets.Mods;
+
+public class InputBeatmap
+{
+    [JsonProperty("beatmap_id")]
+    public int BeatmapID { get; set; }
+
+    [JsonProperty("hash")]
+    public string Hash { get; set; }
+}
 
 namespace PerformanceCalculator.StarRatings
 {
@@ -17,42 +25,41 @@ namespace PerformanceCalculator.StarRatings
     public class StarRatingsCommand : ProcessorCommand
     {
         [UsedImplicitly]
-        [Argument(0, Name = "path", Description = "Required. A beatmap file (.osu), beatmap ID, or a folder containing .osu files to compute the difficulty for.")]
-        public string Path { get; }
+        [Argument(0, Name = "beatmaps", Description = "Required. The beatmaps to calculate (.json)")]
+        public string Beatmaps { get; }
 
         public override void Execute()
         {
+            var sr = new StreamReader(Beatmaps);
+            var json = sr.ReadToEnd();
+            var beatmapsData = JsonConvert.DeserializeObject<List<InputBeatmap>>(json);
+
+            if (beatmapsData.Count == 0)
+                return;
+
             var resultSet = new ResultSet();
-
-            if (Directory.Exists(Path))
+            beatmapsData.ForEach(delegate (InputBeatmap inputBeatmap)
             {
-                foreach (string file in Directory.GetFiles(Path, "*.osu", SearchOption.AllDirectories))
+                try
                 {
-                    try
-                    {
-                        var beatmap = new ProcessorWorkingBeatmap(file);
-                        var results = processBeatmap(beatmap);
-                        foreach (var r in results)
-                            resultSet.Results.Add(r);
-                    }
-                    catch (Exception e)
-                    {
-                        resultSet.Errors.Add($"Processing beatmap \"{file}\" failed:\n{e.Message}");
-                    }
+                    var beatmap = ProcessorWorkingBeatmap.FromFileOrId(inputBeatmap.BeatmapID.ToString(), inputBeatmap.Hash);
+                    var results = processBeatmap(beatmap);
+                    resultSet.Results.Add(results);
                 }
-            }
-            else
-            {
-                var results = processBeatmap(ProcessorWorkingBeatmap.FromFileOrId(Path));
-                foreach (var r in results)
-                    resultSet.Results.Add(r);
-            }
+                catch (Exception e)
+                {
 
-            string json = JsonConvert.SerializeObject(resultSet);
-            Console.WriteLine(json);
+                }
+                finally {
+                    // File.Delete(Path.Combine("cache", $"{inputBeatmap.BeatmapID}.osu"));
+                }
+            });
+
+            string output = JsonConvert.SerializeObject(resultSet);
+            Console.WriteLine(output);
         }
 
-        private List<Result> processBeatmap(WorkingBeatmap beatmap)
+        private Result processBeatmap(WorkingBeatmap beatmap)
         {
             string[][] modsCombinations = [
                 [],
@@ -77,25 +84,38 @@ namespace PerformanceCalculator.StarRatings
 
             // Get the ruleset
             var ruleset = LegacyHelper.GetRulesetFromLegacyID(beatmap.BeatmapInfo.Ruleset.OnlineID);
-            List<Result> results = new List<Result>();
+            List<ResultModsStarRating> starRatingsResults = new List<ResultModsStarRating>();
 
             foreach (var modsInput in modsCombinations)
             {
                 var mods = getMods(ruleset, modsInput);
-                var attributes = ruleset.CreateDifficultyCalculator(beatmap).Calculate(mods);
-                var result = new Result
+
+                var task = Task.Run(() => {
+                    return ruleset.CreateDifficultyCalculator(beatmap).Calculate(mods);
+                });
+
+                if (!task.Wait(TimeSpan.FromSeconds(15)))
+                    throw new Exception("Timed out");
+                
+                var attributes = task.Result;
+
+                var starRatingResult = new ResultModsStarRating
                 {
-                    RulesetId = ruleset.RulesetInfo.OnlineID,
-                    BeatmapId = beatmap.BeatmapInfo.OnlineID,
-                    Beatmap = beatmap.BeatmapInfo.ToString(),
-                    Mods = mods.Select(m => new APIMod(m)).ToList(),
-                    Attributes = attributes
+                    Mods = modsInput.Length == 0 ? "NM" : string.Join("", modsInput),
+                    StarRating = attributes.StarRating
                 };
-                results.Add(result);
+
+                starRatingsResults.Add(starRatingResult);
             }
 
+            var result = new Result
+            {
+                RulesetId = ruleset.RulesetInfo.OnlineID,
+                BeatmapId = beatmap.BeatmapInfo.OnlineID,
+                StarRatings = starRatingsResults
+            };
 
-            return results;
+            return result;
         }
 
         private Mod[] getMods(Ruleset ruleset, string[] modsInput)
@@ -132,14 +152,17 @@ namespace PerformanceCalculator.StarRatings
             [JsonProperty("beatmap_id")]
             public int BeatmapId { get; set; }
 
-            [JsonProperty("beatmap")]
-            public string Beatmap { get; set; }
+            [JsonProperty("results")]
+            public List<ResultModsStarRating> StarRatings { get; set; }
+        }
 
+        private class ResultModsStarRating
+        {
             [JsonProperty("mods")]
-            public List<APIMod> Mods { get; set; }
+            public string Mods { get; set; }
 
-            [JsonProperty("attributes")]
-            public DifficultyAttributes Attributes { get; set; }
+            [JsonProperty("star_rating")]
+            public double StarRating { get; set; }
         }
     }
 }

@@ -44,11 +44,12 @@ namespace PerformanceCalculator
 
         public int OnExecute(CommandLineApplication app, IConsole console)
         {
-            console.WriteLine("You must specify a subcommand.");
+            // console.WriteLine("You must specify a subcommand.");
             // string[] args = { "masssimulate", "/home/helix/Documents/huismetbenen/pp-recalculations/releases/test-release/masssimulate/13480282.json", "/home/helix/Documents/huismetbenen/pp-recalculations/releases/xexxar-release/cache" };
-            // CommandLineApplication.Execute<Program>(args);
+            string [] args = { "starratings", "./sr_input/6d59dde6-0288-45b3-9f41-8208c6a0aa93.json" };
+            CommandLineApplication.Execute<Program>(args);
             // return 1;
-            app.ShowHelp();
+            // app.ShowHelp();
             return 1;
         }
     }

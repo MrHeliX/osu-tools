@@ -3,6 +3,7 @@
 
 using System;
 using System.IO;
+using System.Security.Cryptography;
 using osu.Framework.Audio.Track;
 using osu.Framework.Graphics.Textures;
 using osu.Framework.IO.Network;
@@ -48,7 +49,7 @@ namespace PerformanceCalculator
                 return Decoder.GetDecoder<Beatmap>(reader).Decode(reader);
         }
 
-        public static ProcessorWorkingBeatmap FromFileOrId(string fileOrId)
+        public static ProcessorWorkingBeatmap FromFileOrId(string fileOrId, string Hash = null)
         {
             if (fileOrId.EndsWith(".osu", StringComparison.Ordinal))
             {
@@ -63,9 +64,24 @@ namespace PerformanceCalculator
 
             string cachePath = Path.Combine("cache", $"{beatmapId}.osu");
 
-            if (!File.Exists(cachePath))
+            bool shouldDownloadMap = false;
+
+            if (Hash != null && File.Exists(cachePath))
             {
-                Console.WriteLine($"Downloading {beatmapId}.osu...");
+                var md5 = MD5.Create();
+                var stream = File.OpenRead(cachePath);
+                var hash = md5.ComputeHash(stream);
+                var convertedHash = BitConverter.ToString(hash).Replace("-", "").ToLowerInvariant();
+                if (convertedHash != Hash)
+                    shouldDownloadMap = true;
+            }
+
+            if (!shouldDownloadMap && !File.Exists(cachePath))
+                shouldDownloadMap = true;
+
+            if (shouldDownloadMap)
+            {
+                // Console.WriteLine($"Downloading {beatmapId}.osu...");
                 new FileWebRequest(cachePath, $"{Program.ENDPOINT_CONFIGURATION.WebsiteRootUrl}/osu/{beatmapId}").Perform();
             }
 
