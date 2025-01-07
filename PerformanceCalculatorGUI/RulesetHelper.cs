@@ -15,6 +15,7 @@ using osu.Game.Rulesets.Difficulty;
 using osu.Game.Rulesets.Mania;
 using osu.Game.Rulesets.Mods;
 using osu.Game.Rulesets.Osu;
+using osu.Game.Rulesets.Osu.Objects;
 using osu.Game.Rulesets.Scoring;
 using osu.Game.Rulesets.Taiko;
 using osu.Game.Rulesets.Taiko.Objects;
@@ -103,11 +104,11 @@ namespace PerformanceCalculatorGUI
             return (int)Math.Round(1000000 * scoreMultiplier);
         }
 
-        public static Dictionary<HitResult, int> GenerateHitResultsForRuleset(RulesetInfo ruleset, double accuracy, IBeatmap beatmap, int countMiss, int? countMeh, int? countGood, int? countLargeTickMisses)
+        public static Dictionary<HitResult, int> GenerateHitResultsForRuleset(RulesetInfo ruleset, double accuracy, IBeatmap beatmap, int countMiss, int? countMeh, int? countGood, int? countLargeTickMisses, int? countSliderTailMisses)
         {
             return ruleset.OnlineID switch
             {
-                0 => generateOsuHitResults(accuracy, beatmap, countMiss, countMeh, countGood, countLargeTickMisses),
+                0 => generateOsuHitResults(accuracy, beatmap, countMiss, countMeh, countGood, countLargeTickMisses, countSliderTailMisses),
                 1 => generateTaikoHitResults(accuracy, beatmap, countMiss, countGood),
                 2 => generateCatchHitResults(accuracy, beatmap, countMiss, countMeh, countGood),
                 3 => generateManiaHitResults(accuracy, beatmap, countMiss),
@@ -115,7 +116,7 @@ namespace PerformanceCalculatorGUI
             };
         }
 
-        private static Dictionary<HitResult, int> generateOsuHitResults(double accuracy, IBeatmap beatmap, int countMiss, int? countMeh, int? countGood, int? countLargeTickMisses)
+        private static Dictionary<HitResult, int> generateOsuHitResults(double accuracy, IBeatmap beatmap, int countMiss, int? countMeh, int? countGood, int? countLargeTickMisses, int? countSliderTailMisses)
         {
             int countGreat;
 
@@ -191,14 +192,21 @@ namespace PerformanceCalculatorGUI
                 countGreat = (int)(totalResultCount - countGood - countMeh - countMiss);
             }
 
-            return new Dictionary<HitResult, int>
+            var result = new Dictionary<HitResult, int>
             {
                 { HitResult.Great, countGreat },
                 { HitResult.Ok, countGood ?? 0 },
                 { HitResult.Meh, countMeh ?? 0 },
-                { HitResult.LargeTickMiss, countLargeTickMisses ?? 0 },
                 { HitResult.Miss, countMiss }
             };
+
+            if (countLargeTickMisses != null)
+                result[HitResult.LargeTickMiss] = countLargeTickMisses.Value;
+
+            if (countSliderTailMisses != null)
+                result[HitResult.SliderTailHit] = beatmap.HitObjects.Count(x => x is Slider) - countSliderTailMisses.Value;
+
+            return result;
         }
 
         private static Dictionary<HitResult, int> generateTaikoHitResults(double accuracy, IBeatmap beatmap, int countMiss, int? countGood)
@@ -289,11 +297,11 @@ namespace PerformanceCalculatorGUI
             };
         }
 
-        public static double GetAccuracyForRuleset(RulesetInfo ruleset, Dictionary<HitResult, int> statistics)
+        public static double GetAccuracyForRuleset(RulesetInfo ruleset, IBeatmap beatmap, Dictionary<HitResult, int> statistics)
         {
             return ruleset.OnlineID switch
             {
-                0 => getOsuAccuracy(statistics),
+                0 => getOsuAccuracy(beatmap, statistics),
                 1 => getTaikoAccuracy(statistics),
                 2 => getCatchAccuracy(statistics),
                 3 => getManiaAccuracy(statistics),
@@ -301,15 +309,35 @@ namespace PerformanceCalculatorGUI
             };
         }
 
-        private static double getOsuAccuracy(Dictionary<HitResult, int> statistics)
+        private static double getOsuAccuracy(IBeatmap beatmap, Dictionary<HitResult, int> statistics)
         {
             var countGreat = statistics[HitResult.Great];
             var countGood = statistics[HitResult.Ok];
             var countMeh = statistics[HitResult.Meh];
             var countMiss = statistics[HitResult.Miss];
-            var total = countGreat + countGood + countMeh + countMiss;
 
-            return (double)((6 * countGreat) + (2 * countGood) + countMeh) / (6 * total);
+            double total = 6 * countGreat + 2 * countGood + countMeh;
+            double max = 6 * (countGreat + countGood + countMeh + countMiss);
+
+            if (statistics.ContainsKey(HitResult.SliderTailHit))
+            {
+                var countSliders = beatmap.HitObjects.Count(x => x is Slider);
+                var countSliderTailHit = statistics[HitResult.SliderTailHit];
+
+                total += 3 * countSliderTailHit;
+                max += 3 * countSliders;
+            }
+
+            if (statistics.ContainsKey(HitResult.LargeTickMiss))
+            {
+                var countLargeTicks = beatmap.HitObjects.Sum(obj => obj.NestedHitObjects.Count(x => x is SliderTick or SliderRepeat));
+                var countLargeTickHit = countLargeTicks - statistics[HitResult.LargeTickMiss];
+
+                total += 0.6 * countLargeTickHit;
+                max += 0.6 * countLargeTicks;
+            }
+
+            return total / max;
         }
 
         private static double getTaikoAccuracy(Dictionary<HitResult, int> statistics)

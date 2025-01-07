@@ -3,11 +3,15 @@
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using JetBrains.Annotations;
 using McMaster.Extensions.CommandLineUtils;
 using osu.Game.Beatmaps;
 using osu.Game.Rulesets;
+using osu.Game.Rulesets.Mods;
 using osu.Game.Rulesets.Osu;
+using osu.Game.Rulesets.Osu.Mods;
+using osu.Game.Rulesets.Osu.Objects;
 using osu.Game.Rulesets.Scoring;
 
 namespace PerformanceCalculator.Simulate
@@ -16,29 +20,6 @@ namespace PerformanceCalculator.Simulate
     public class OsuSimulateCommand : SimulateCommand
     {
         [UsedImplicitly]
-        [Option(Template = "-a|--accuracy <accuracy>", Description = "Accuracy. Enter as decimal 0-100. Defaults to 100."
-                                                                     + " Scales hit results as well and is rounded to the nearest possible value for the beatmap.")]
-        public override double Accuracy { get; } = 100;
-
-        [UsedImplicitly]
-        [Option(Template = "-c|--combo <combo>", Description = "Maximum combo during play. Defaults to beatmap maximum.")]
-        public override int? Combo { get; }
-
-        [UsedImplicitly]
-        [Option(Template = "-C|--percent-combo <combo>", Description = "Percentage of beatmap maximum combo achieved. Alternative to combo option."
-                                                                       + " Enter as decimal 0-100.")]
-        public override double PercentCombo { get; } = 100;
-
-        [UsedImplicitly]
-        [Option(CommandOptionType.MultipleValue, Template = "-m|--mod <mod>", Description = "One for each mod. The mods to compute the performance with."
-                                                                                            + " Values: hr, dt, hd, fl, ez, etc...")]
-        public override string[] Mods { get; }
-
-        [UsedImplicitly]
-        [Option(Template = "-X|--misses <misses>", Description = "Number of misses. Defaults to 0.")]
-        public override int Misses { get; }
-
-        [UsedImplicitly]
         [Option(Template = "-M|--mehs <mehs>", Description = "Number of mehs. Will override accuracy if used. Otherwise is automatically calculated.")]
         public override int? Mehs { get; }
 
@@ -46,11 +27,38 @@ namespace PerformanceCalculator.Simulate
         [Option(Template = "-G|--goods <goods>", Description = "Number of goods. Will override accuracy if used. Otherwise is automatically calculated.")]
         public override int? Goods { get; }
 
+        [UsedImplicitly]
+        [Option(Template = "-c|--combo <combo>", Description = "Maximum combo during play. Defaults to beatmap maximum.")]
+        public override int? Combo { get; }
+
+        [UsedImplicitly]
+        [Option(Template = "-C|--percent-combo <combo>", Description = "Percentage of beatmap maximum combo achieved. Alternative to combo option. Enter as decimal 0-100.")]
+        public override double PercentCombo { get; } = 100;
+
+        [UsedImplicitly]
+        [Option(Template = "-L|--large-tick-misses <misses>", Description = "Number of large tick misses. Defaults to 0.")]
+        private int largeTickMisses { get; }
+
+        [UsedImplicitly]
+        [Option(Template = "-S|--slider-tail-misses <misses>", Description = "Number of slider tail misses. Defaults to 0.")]
+        private int sliderTailMisses { get; }
+
         public override Ruleset Ruleset => new OsuRuleset();
 
-        protected override int GetMaxCombo(IBeatmap beatmap) => beatmap.GetMaxCombo();
+        protected override Dictionary<HitResult, int> GenerateHitResults(IBeatmap beatmap, Mod[] mods)
+        {
+            // Use lazer info only if score has sliderhead accuracy
+            if (mods.OfType<OsuModClassic>().Any(m => m.NoSliderHeadAccuracy.Value))
+            {
+                return generateHitResults(beatmap, Accuracy / 100, Misses, Mehs, Goods, null, null);
+            }
+            else
+            {
+                return generateHitResults(beatmap, Accuracy / 100, Misses, Mehs, Goods, largeTickMisses, sliderTailMisses);
+            }
+        }
 
-        protected override Dictionary<HitResult, int> GenerateHitResults(double accuracy, IBeatmap beatmap, int countMiss, int? countMeh, int? countGood)
+        private static Dictionary<HitResult, int> generateHitResults(IBeatmap beatmap, double accuracy, int countMiss, int? countMeh, int? countGood, int? countLargeTickMisses, int? countSliderTailMisses)
         {
             int countGreat;
 
@@ -126,24 +134,52 @@ namespace PerformanceCalculator.Simulate
                 countGreat = (int)(totalResultCount - countGood - countMeh - countMiss);
             }
 
-            return new Dictionary<HitResult, int>
+            var result = new Dictionary<HitResult, int>
             {
                 { HitResult.Great, countGreat },
                 { HitResult.Ok, countGood ?? 0 },
                 { HitResult.Meh, countMeh ?? 0 },
                 { HitResult.Miss, countMiss }
             };
+
+            if (countLargeTickMisses != null)
+                result[HitResult.LargeTickMiss] = countLargeTickMisses.Value;
+
+            if (countSliderTailMisses != null)
+                result[HitResult.SliderTailHit] = beatmap.HitObjects.Count(x => x is Slider) - countSliderTailMisses.Value;
+
+            return result;
         }
 
-        protected override double GetAccuracy(Dictionary<HitResult, int> statistics)
+        protected override double GetAccuracy(IBeatmap beatmap, Dictionary<HitResult, int> statistics)
         {
             var countGreat = statistics[HitResult.Great];
             var countGood = statistics[HitResult.Ok];
             var countMeh = statistics[HitResult.Meh];
             var countMiss = statistics[HitResult.Miss];
-            var total = countGreat + countGood + countMeh + countMiss;
 
-            return (double)((6 * countGreat) + (2 * countGood) + countMeh) / (6 * total);
+            double total = 6 * countGreat + 2 * countGood + countMeh;
+            double max = 6 * (countGreat + countGood + countMeh + countMiss);
+
+            if (statistics.ContainsKey(HitResult.SliderTailHit))
+            {
+                var countSliders = beatmap.HitObjects.Count(x => x is Slider);
+                var countSliderTailHit = statistics[HitResult.SliderTailHit];
+
+                total += 3 * countSliderTailHit;
+                max += 3 * countSliders;
+            }
+
+            if (statistics.ContainsKey(HitResult.LargeTickMiss))
+            {
+                var countLargeTicks = beatmap.HitObjects.Sum(obj => obj.NestedHitObjects.Count(x => x is SliderTick or SliderRepeat));
+                var countLargeTickHit = countLargeTicks - statistics[HitResult.LargeTickMiss];
+
+                total += 0.6 * countLargeTickHit;
+                max += 0.6 * countLargeTicks;
+            }
+
+            return total / max;
         }
     }
 }

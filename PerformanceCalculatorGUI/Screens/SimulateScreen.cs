@@ -4,6 +4,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Humanizer;
 using osu.Framework;
 using osu.Framework.Allocation;
@@ -23,11 +24,13 @@ using osu.Game.Graphics;
 using osu.Game.Graphics.Containers;
 using osu.Game.Graphics.Sprites;
 using osu.Game.Graphics.UserInterfaceV2;
+using osu.Game.Online.API.Requests.Responses;
 using osu.Game.Overlays;
 using osu.Game.Rulesets;
 using osu.Game.Rulesets.Difficulty;
 using osu.Game.Rulesets.Difficulty.Skills;
 using osu.Game.Rulesets.Mods;
+using osu.Game.Rulesets.Osu.Mods;
 using osu.Game.Rulesets.Scoring;
 using osu.Game.Scoring;
 using osu.Game.Screens.Play.HUD;
@@ -51,10 +54,15 @@ namespace PerformanceCalculatorGUI.Screens
         private LabelledTextBox beatmapIdTextBox;
         private SwitchButton beatmapImportTypeSwitch;
 
+        private GridContainer missesContainer;
         private LimitedLabelledNumberBox missesTextBox;
         private LimitedLabelledNumberBox largeTickMissesTextBox;
+        private LimitedLabelledNumberBox sliderTailMissesTextBox;
         private LimitedLabelledNumberBox comboTextBox;
         private LimitedLabelledNumberBox scoreTextBox;
+
+        private LabelledNumberBox scoreIdTextBox;
+        private StatefulButton scoreIdPopulateButton;
 
         private GridContainer accuracyContainer;
         private LimitedLabelledFractionalNumberBox accuracyTextBox;
@@ -97,10 +105,16 @@ namespace PerformanceCalculatorGUI.Screens
         private Bindable<RulesetInfo> ruleset { get; set; }
 
         [Resolved]
+        private RulesetStore rulesets { get; set; }
+
+        [Resolved]
         private LargeTextureStore textures { get; set; }
 
         [Resolved]
         private SettingsManager configManager { get; set; }
+
+        [Resolved]
+        private APIManager apiManager { get; set; }
 
         [Cached]
         private OverlayColourProvider colourProvider = new OverlayColourProvider(OverlayColourScheme.Blue);
@@ -205,6 +219,38 @@ namespace PerformanceCalculatorGUI.Screens
                                                     Height = 20,
                                                     Text = "Score params"
                                                 },
+                                                new FillFlowContainer
+                                                {
+                                                    RelativeSizeAxes = Axes.X,
+                                                    AutoSizeAxes = Axes.Y,
+                                                    Direction = FillDirection.Horizontal,
+                                                    Children = new Drawable[]
+                                                    {
+                                                        scoreIdTextBox = new LabelledNumberBox
+                                                        {
+                                                            RelativeSizeAxes = Axes.X,
+                                                            Width = 0.7f,
+                                                            Label = "Score ID",
+                                                            PlaceholderText = "0",
+                                                        },
+                                                        scoreIdPopulateButton = new StatefulButton("Populate from score")
+                                                        {
+                                                            RelativeSizeAxes = Axes.X,
+                                                            Width = 0.3f,
+                                                            Action = () =>
+                                                            {
+                                                                if (!string.IsNullOrEmpty(scoreIdTextBox.Current.Value))
+                                                                {
+                                                                    populateSettingsFromScore(long.Parse(scoreIdTextBox.Current.Value));
+                                                                }
+                                                                else
+                                                                {
+                                                                    notificationDisplay.Display(new Notification("Incorrect score id"));
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
                                                 accuracyContainer = new GridContainer
                                                 {
                                                     RelativeSizeAxes = Axes.X,
@@ -263,12 +309,13 @@ namespace PerformanceCalculatorGUI.Screens
                                                     PlaceholderText = "0",
                                                     MinValue = 0
                                                 },
-                                                new GridContainer
+                                                missesContainer = new GridContainer
                                                 {
                                                     RelativeSizeAxes = Axes.X,
                                                     AutoSizeAxes = Axes.Y,
                                                     ColumnDimensions = new[]
                                                     {
+                                                        new Dimension(),
                                                         new Dimension(),
                                                         new Dimension()
                                                     },
@@ -290,6 +337,14 @@ namespace PerformanceCalculatorGUI.Screens
                                                                 RelativeSizeAxes = Axes.X,
                                                                 Anchor = Anchor.TopLeft,
                                                                 Label = "Large Tick Misses",
+                                                                PlaceholderText = "0",
+                                                                MinValue = 0
+                                                            },
+                                                            sliderTailMissesTextBox = new LimitedLabelledNumberBox
+                                                            {
+                                                                RelativeSizeAxes = Axes.X,
+                                                                Anchor = Anchor.TopLeft,
+                                                                Label = "Slider Tail Misses",
                                                                 PlaceholderText = "0",
                                                                 MinValue = 0
                                                             }
@@ -472,6 +527,7 @@ namespace PerformanceCalculatorGUI.Screens
             mehsTextBox.Value.BindValueChanged(_ => debouncedCalculatePerformance());
             missesTextBox.Value.BindValueChanged(_ => debouncedCalculatePerformance());
             largeTickMissesTextBox.Value.BindValueChanged(_ => debouncedCalculatePerformance());
+            sliderTailMissesTextBox.Value.BindValueChanged(_ => debouncedCalculatePerformance());
             comboTextBox.Value.BindValueChanged(_ => debouncedCalculatePerformance());
             scoreTextBox.Value.BindValueChanged(_ => debouncedCalculatePerformance());
 
@@ -511,14 +567,22 @@ namespace PerformanceCalculatorGUI.Screens
 
         private void modsChanged(ValueChangedEvent<IReadOnlyList<Mod>> mods)
         {
+            // Hotfix for preventing a difficulty and performance calculation from being trigger twice,
+            // as the mod overlay for some reason triggers a ValueChanged twice per mod change.
+            if (mods.OldValue.SequenceEqual(mods.NewValue))
+                return;
+
             modSettingChangeTracker?.Dispose();
 
             if (working is null)
                 return;
 
+            updateMissesTextboxes();
+
             modSettingChangeTracker = new ModSettingChangeTracker(mods.NewValue);
             modSettingChangeTracker.SettingChanged += m =>
             {
+                updateMissesTextboxes();
                 debouncedStatisticsUpdate?.Cancel();
                 debouncedStatisticsUpdate = Scheduler.AddDelayed(() =>
                 {
@@ -651,21 +715,30 @@ namespace PerformanceCalculatorGUI.Screens
                 countMeh = mehsTextBox.Value.Value;
             }
 
-            var score = RulesetHelper.AdjustManiaScore(scoreTextBox.Value.Value, appliedMods.Value);
+            int score = RulesetHelper.AdjustManiaScore(scoreTextBox.Value.Value, appliedMods.Value);
 
             try
             {
                 var beatmap = working.GetPlayableBeatmap(ruleset.Value, appliedMods.Value);
 
-                var accuracy = accuracyTextBox.Value.Value / 100.0;
+                double accuracy = accuracyTextBox.Value.Value / 100.0;
                 Dictionary<HitResult, int> statistics = new Dictionary<HitResult, int>();
 
                 if (ruleset.Value.OnlineID != -1)
                 {
                     // official rulesets can generate more precise hits from accuracy
-                    statistics = RulesetHelper.GenerateHitResultsForRuleset(ruleset.Value, accuracyTextBox.Value.Value / 100.0, beatmap, missesTextBox.Value.Value, countMeh, countGood, largeTickMissesTextBox.Value.Value);
+                    if (appliedMods.Value.OfType<OsuModClassic>().Any(m => m.NoSliderHeadAccuracy.Value))
+                    {
+                        statistics = RulesetHelper.GenerateHitResultsForRuleset(ruleset.Value, accuracyTextBox.Value.Value / 100.0, beatmap, missesTextBox.Value.Value, countMeh, countGood,
+                            null, null);
+                    }
+                    else
+                    {
+                        statistics = RulesetHelper.GenerateHitResultsForRuleset(ruleset.Value, accuracyTextBox.Value.Value / 100.0, beatmap, missesTextBox.Value.Value, countMeh, countGood,
+                            largeTickMissesTextBox.Value.Value, sliderTailMissesTextBox.Value.Value);
+                    }
 
-                    accuracy = RulesetHelper.GetAccuracyForRuleset(ruleset.Value, statistics);
+                    accuracy = RulesetHelper.GetAccuracyForRuleset(ruleset.Value, beatmap, statistics);
                 }
 
                 var ppAttributes = performanceCalculator?.Calculate(new ScoreInfo(beatmap.BeatmapInfo, ruleset.Value)
@@ -700,6 +773,7 @@ namespace PerformanceCalculatorGUI.Screens
             comboTextBox.Hide();
             missesTextBox.Hide();
             largeTickMissesTextBox.Hide();
+            sliderTailMissesTextBox.Hide();
             scoreTextBox.Hide();
 
             if (ruleset.Value.ShortName == "osu" || ruleset.Value.ShortName == "taiko" || ruleset.Value.ShortName == "fruits")
@@ -714,6 +788,7 @@ namespace PerformanceCalculatorGUI.Screens
                 if (ruleset.Value.ShortName == "osu")
                 {
                     largeTickMissesTextBox.Show();
+                    sliderTailMissesTextBox.Show();
                 }
             }
             else if (ruleset.Value.ShortName == "mania")
@@ -736,6 +811,7 @@ namespace PerformanceCalculatorGUI.Screens
                 comboTextBox.Show();
                 missesTextBox.Show();
                 largeTickMissesTextBox.Show();
+                sliderTailMissesTextBox.Show();
 
                 scoreTextBox.Text = string.Empty;
                 scoreTextBox.Show();
@@ -919,7 +995,7 @@ namespace PerformanceCalculatorGUI.Screens
         {
             Logger.Log(e.ToString(), level: LogLevel.Error);
 
-            var message = e is AggregateException aggregateException ? aggregateException.Flatten().Message : e.Message;
+            string message = e is AggregateException aggregateException ? aggregateException.Flatten().Message : e.Message;
             showError(message, false);
         }
 
@@ -929,6 +1005,117 @@ namespace PerformanceCalculatorGUI.Screens
                 Logger.Log(message, level: LogLevel.Error);
 
             notificationDisplay.Display(new Notification(message));
+        }
+
+        private void populateSettingsFromScore(long scoreId)
+        {
+            if (scoreIdPopulateButton.State.Value == ButtonState.Loading)
+                return;
+
+            scoreIdPopulateButton.State.Value = ButtonState.Loading;
+
+            Task.Run(async () =>
+            {
+                try
+                {
+                    var scoreInfo = await apiManager.GetJsonFromApi<SoloScoreInfo>($"scores/{scoreId}");
+
+                    Schedule(() =>
+                    {
+                        if (scoreInfo.BeatmapID != working.BeatmapInfo.OnlineID)
+                        {
+                            beatmapIdTextBox.Text = string.Empty;
+                            changeBeatmap(scoreInfo.BeatmapID.ToString());
+                        }
+
+                        ruleset.Value = rulesets.GetRuleset(scoreInfo.RulesetID);
+                        appliedMods.Value = scoreInfo.Mods.Select(x => x.ToMod(ruleset.Value.CreateInstance())).ToList();
+
+                        fullScoreDataSwitch.Current.Value = true;
+
+                        // TODO: this shouldn't be done in 2 lines
+                        comboTextBox.Value.Value = scoreInfo.MaxCombo;
+                        comboTextBox.Text = scoreInfo.MaxCombo.ToString();
+
+                        resetMisses();
+                        updateMissesTextboxes();
+
+                        if (scoreInfo.Statistics.TryGetValue(HitResult.Miss, out int misses))
+                        {
+                            missesTextBox.Value.Value = misses;
+                            missesTextBox.Text = misses.ToString();
+                        }
+
+                        if (scoreInfo.Statistics.TryGetValue(HitResult.Ok, out int oks))
+                        {
+                            goodsTextBox.Value.Value = oks;
+                            goodsTextBox.Text = oks.ToString();
+                        }
+
+                        if (scoreInfo.Statistics.TryGetValue(HitResult.Meh, out int mehs))
+                        {
+                            mehsTextBox.Value.Value = mehs;
+                            mehsTextBox.Text = mehs.ToString();
+                        }
+
+                        if (scoreInfo.Statistics.TryGetValue(HitResult.LargeTickMiss, out int largeTickMisses))
+                        {
+                            largeTickMissesTextBox.Value.Value = largeTickMisses;
+                            largeTickMissesTextBox.Text = largeTickMisses.ToString();
+                        }
+
+                        if (scoreInfo.Statistics.TryGetValue(HitResult.SliderTailHit, out int sliderTailHits))
+                        {
+                            int sliderTailMisses = scoreInfo.MaximumStatistics[HitResult.SliderTailHit] - sliderTailHits;
+                            sliderTailMissesTextBox.Value.Value = sliderTailMisses;
+                            sliderTailMissesTextBox.Text = sliderTailMisses.ToString();
+                        }
+
+                        calculateDifficulty();
+                        calculatePerformance();
+
+                        scoreIdPopulateButton.State.Value = ButtonState.Done;
+                    });
+                }
+                catch (Exception e)
+                {
+                    Schedule(() => showError(e));
+                }
+            });
+        }
+
+        private void resetMisses()
+        {
+            missesTextBox.Value.Value = 0;
+            missesTextBox.Text = string.Empty;
+
+            largeTickMissesTextBox.Value.Value = 0;
+            largeTickMissesTextBox.Text = string.Empty;
+
+            sliderTailMissesTextBox.Value.Value = 0;
+            sliderTailMissesTextBox.Text = string.Empty;
+        }
+
+        private void updateMissesTextboxes()
+        {
+            if (ruleset.Value.ShortName == "osu")
+            {
+                // Large tick misses and slider tail misses are only relevant in PP if slider head accuracy exists
+                if (appliedMods.Value.OfType<OsuModClassic>().Any(m => m.NoSliderHeadAccuracy.Value))
+                {
+                    missesContainer.Content = new[] { new[] { missesTextBox } };
+                    missesContainer.ColumnDimensions = [new Dimension()];
+                }
+                else
+                {
+                    missesContainer.Content = new[] { new[] { missesTextBox, largeTickMissesTextBox, sliderTailMissesTextBox } };
+                    missesContainer.ColumnDimensions = [new Dimension(), new Dimension(), new Dimension()];
+                    fixupTextBox(largeTickMissesTextBox);
+                    fixupTextBox(sliderTailMissesTextBox);
+                }
+
+                fixupTextBox(missesTextBox);
+            }
         }
     }
 }

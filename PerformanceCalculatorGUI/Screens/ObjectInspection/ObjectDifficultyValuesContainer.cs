@@ -17,6 +17,7 @@ using osu.Game.Rulesets.Mods;
 using osu.Game.Rulesets.Osu.Difficulty.Evaluators;
 using osu.Game.Rulesets.Osu.Difficulty.Preprocessing;
 using osu.Game.Rulesets.Osu.Objects;
+using osu.Game.Rulesets.Taiko.Difficulty.Evaluators;
 using osu.Game.Rulesets.Taiko.Difficulty.Preprocessing;
 using osuTK;
 
@@ -125,6 +126,7 @@ namespace PerformanceCalculatorGUI.Screens.ObjectInspection
                 new ObjectInspectorDifficultyValue("Position", (hitObject.BaseObject as OsuHitObject)!.StackedPosition),
                 new ObjectInspectorDifficultyValue("Strain Time", hitObject.StrainTime),
                 new ObjectInspectorDifficultyValue("Aim Difficulty", AimEvaluator.EvaluateDifficultyOf(hitObject, true)),
+                new ObjectInspectorDifficultyValue("Aim Difficulty (w/o sliders)", AimEvaluator.EvaluateDifficultyOf(hitObject, false)),
                 new ObjectInspectorDifficultyValue("Speed Difficulty", SpeedEvaluator.EvaluateDifficultyOf(hitObject)),
                 new ObjectInspectorDifficultyValue("Rhythm Diff", RhythmEvaluator.EvaluateDifficultyOf(hitObject)),
                 new ObjectInspectorDifficultyValue(hidden ? "FLHD Difficulty" : "Flashlight Diff", FlashlightEvaluator.EvaluateDifficultyOf(hitObject, hidden)),
@@ -132,6 +134,10 @@ namespace PerformanceCalculatorGUI.Screens.ObjectInspection
 
             if (hitObject.Angle is not null)
                 flowContainer.Add(new ObjectInspectorDifficultyValue("Angle", double.RadiansToDegrees(hitObject.Angle.Value)));
+
+            flowContainer.Add(new ObjectInspectorDifficultyValue("Lazy Jump Dist", hitObject.LazyJumpDistance));
+            flowContainer.Add(new ObjectInspectorDifficultyValue("Min Jump Dist", hitObject.MinimumJumpDistance));
+            flowContainer.Add(new ObjectInspectorDifficultyValue("Min Jump Time", hitObject.MinimumJumpTime));
 
             if (hitObject.BaseObject is Slider)
             {
@@ -146,8 +152,6 @@ namespace PerformanceCalculatorGUI.Screens.ObjectInspection
                     },
                     new ObjectInspectorDifficultyValue("Travel Time", hitObject.TravelTime),
                     new ObjectInspectorDifficultyValue("Travel Distance", hitObject.TravelDistance),
-                    new ObjectInspectorDifficultyValue("Min Jump Dist", hitObject.MinimumJumpDistance),
-                    new ObjectInspectorDifficultyValue("Min Jump Time", hitObject.MinimumJumpTime)
                 });
             }
         }
@@ -157,6 +161,8 @@ namespace PerformanceCalculatorGUI.Screens.ObjectInspection
             flowContainer.AddRange(new[]
             {
                 new ObjectInspectorDifficultyValue("Delta Time", hitObject.DeltaTime),
+                new ObjectInspectorDifficultyValue("Colour Difficulty", ColourEvaluator.EvaluateDifficultyOf(hitObject)),
+                new ObjectInspectorDifficultyValue("Stamina Difficulty", StaminaEvaluator.EvaluateDifficultyOf(hitObject)),
                 new ObjectInspectorDifficultyValue("Rhythm Difficulty", hitObject.Rhythm.Difficulty),
                 new ObjectInspectorDifficultyValue("Rhythm Ratio", hitObject.Rhythm.Ratio),
             });
