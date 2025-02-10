@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using JetBrains.Annotations;
 using McMaster.Extensions.CommandLineUtils;
 using Newtonsoft.Json;
+using osu.Framework.Extensions;
 using osu.Game.Beatmaps;
 using osu.Game.Rulesets;
 using osu.Game.Rulesets.Mods;
@@ -97,7 +98,7 @@ namespace PerformanceCalculator.StarRatings
                 if (!task.Wait(TimeSpan.FromSeconds(15)))
                     throw new Exception("Timed out");
                 
-                var attributes = task.Result;
+                var attributes = task.GetResultSafely();
 
                 var starRatingResult = new ResultModsStarRating
                 {
