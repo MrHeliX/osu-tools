@@ -82,7 +82,7 @@ namespace PerformanceCalculator
             if (shouldDownloadMap)
             {
                 // Console.WriteLine($"Downloading {beatmapId}.osu...");
-                new FileWebRequest(cachePath, $"{Program.ENDPOINT_CONFIGURATION.WebsiteRootUrl}/osu/{beatmapId}").Perform();
+                new FileWebRequest(cachePath, $"{Program.ENDPOINT_CONFIGURATION.WebsiteUrl}/osu/{beatmapId}").Perform();
             }
 
             return new ProcessorWorkingBeatmap(cachePath, beatmapId);
