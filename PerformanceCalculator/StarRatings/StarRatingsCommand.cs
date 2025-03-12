@@ -9,7 +9,12 @@ using Newtonsoft.Json;
 using osu.Framework.Extensions;
 using osu.Game.Beatmaps;
 using osu.Game.Rulesets;
+using osu.Game.Rulesets.Catch;
+using osu.Game.Rulesets.Mania;
 using osu.Game.Rulesets.Mods;
+using osu.Game.Rulesets.Osu;
+using osu.Game.Rulesets.Osu.Difficulty;
+using osu.Game.Rulesets.Taiko;
 
 public class InputBeatmap
 {
@@ -49,9 +54,9 @@ namespace PerformanceCalculator.StarRatings
                 }
                 catch (Exception e)
                 {
-
                 }
-                finally {
+                finally
+                {
                     // File.Delete(Path.Combine("cache", $"{inputBeatmap.BeatmapID}.osu"));
                 }
             });
@@ -62,51 +67,48 @@ namespace PerformanceCalculator.StarRatings
 
         private Result processBeatmap(WorkingBeatmap beatmap)
         {
-            string[][] modsCombinations = [
-                [],
-                ["EZ"],
-                ["HR"],
-                ["HT"],
-                ["DT"],
-                ["FL"],
-                ["EZ", "HT"],
-                ["EZ", "DT"],
-                ["EZ", "FL"],
-                ["EZ", "HT", "FL"],
-                ["EZ", "DT", "FL"],
-                ["HR", "HT"],
-                ["HR", "DT"],
-                ["HR", "FL"],
-                ["HR", "HT", "FL"],
-                ["HR", "DT", "FL"],
-                ["HT", "FL"],
-                ["DT", "FL"]
-            ];
-
             // Get the ruleset
             var ruleset = LegacyHelper.GetRulesetFromLegacyID(beatmap.BeatmapInfo.Ruleset.OnlineID);
             List<ResultModsStarRating> starRatingsResults = new List<ResultModsStarRating>();
 
+            string[][] modsCombinations = getModCombinations(ruleset);
             foreach (var modsInput in modsCombinations)
             {
                 var mods = getMods(ruleset, modsInput);
 
-                var task = Task.Run(() => {
+                var task = Task.Run(() =>
+                {
                     return ruleset.CreateDifficultyCalculator(beatmap).Calculate(mods);
                 });
 
                 if (!task.Wait(TimeSpan.FromSeconds(15)))
                     throw new Exception("Timed out");
-                
+
                 var attributes = task.GetResultSafely();
 
-                var starRatingResult = new ResultModsStarRating
+                if (!modsInput.Any(m => m == "HD"))
                 {
-                    Mods = modsInput.Length == 0 ? "NM" : string.Join("", modsInput),
-                    StarRating = attributes.StarRating
-                };
+                    var starRatingResult = new ResultModsStarRating
+                    {
+                        Mods = modsInput.Length == 0 ? "NM" : string.Join("", modsInput),
+                        StarRating = attributes.StarRating
+                    };
 
-                starRatingsResults.Add(starRatingResult);
+                    starRatingsResults.Add(starRatingResult);
+                }
+
+
+                if (ruleset is OsuRuleset && attributes is OsuDifficultyAttributes attributes1)
+                {
+                    var modsFlashlight = modsInput.Append("FL");
+                    var starRatingsResultWithFlashlight = new ResultModsStarRating
+                    {
+                        Mods = string.Join("", modsFlashlight),
+                        StarRating = attributes1.StarRatingWithFlashlight
+                    };
+
+                    starRatingsResults.Add(starRatingsResultWithFlashlight);
+                }
             }
 
             var result = new Result
@@ -117,6 +119,65 @@ namespace PerformanceCalculator.StarRatings
             };
 
             return result;
+        }
+
+        private string[][] getModCombinations(Ruleset ruleset)
+        {
+            switch (ruleset)
+            {
+                case OsuRuleset:
+                    return [
+                        [],
+                        ["EZ"],
+                        ["HR"],
+                        ["HT"],
+                        ["DT"],
+                        ["EZ", "HT"],
+                        ["EZ", "DT"],
+                        ["HR", "HT"],
+                        ["HR", "DT"],
+                        ["HD"],
+                        ["EZ", "HD"],
+                        ["EZ", "HD", "HT"],
+                        ["EZ", "HD", "DT"],
+                        ["HD", "HR"],
+                        ["HD", "HR", "HT"],
+                        ["HD", "HR", "DT"],
+                        ["HD", "DT"],
+                        ["HD", "HT"]
+                    ];
+                case TaikoRuleset:
+                    return [
+                        [],
+                        ["EZ"],
+                        ["HT"],
+                        ["HR"],
+                        ["DT"],
+                        ["EZ", "HT"],
+                        ["EZ", "DT"],
+                        ["HR", "HT"],
+                        ["HR", "DT"],
+                    ];
+                case CatchRuleset:
+                    return [
+                        [],
+                        ["EZ"],
+                        ["HT"],
+                        ["HR"],
+                        ["DT"],
+                        ["EZ", "HT"],
+                        ["EZ", "DT"],
+                        ["HR", "HT"],
+                        ["HR", "DT"]
+                    ];
+                case ManiaRuleset:
+                    return [
+                        [],
+                        ["HT"],
+                        ["DT"]
+                    ];
+                default: return [];
+            }
         }
 
         private Mod[] getMods(Ruleset ruleset, string[] modsInput)
