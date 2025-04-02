@@ -64,6 +64,9 @@ public class InputMaximumStatistics
 
     [JsonProperty("large_tick_hit")]
     public int LargeTickHit { get; set; }
+
+    [JsonProperty("small_tick_hit")]
+    public int SmallTickHit { get; set; }
 }
 
 public class InputStatistics
@@ -106,6 +109,9 @@ public class InputStatistics
 
     [JsonProperty("small_bonus")]
     public int SmallBonus { get; set; }
+
+    [JsonProperty("small_tick_hit")]
+    public int SmallTickHit { get; set; }
 }
 
 public class InputScore
@@ -184,7 +190,8 @@ namespace PerformanceCalculator.Simulate
                     { HitResult.IgnoreHit, score.Statistics.IgnoreHit },
                     { HitResult.IgnoreMiss, score.Statistics.IgnoreMiss },
                     { HitResult.LargeBonus, score.Statistics.LargeBonus },
-                    { HitResult.SmallBonus, score.Statistics.SmallBonus }
+                    { HitResult.SmallBonus, score.Statistics.SmallBonus },
+                    { HitResult.SmallTickHit, score.Statistics.SmallTickHit }
                 };
 
                 bool isLazerCalculation = !mods.Any(m => m.Acronym == "CL");
@@ -248,7 +255,12 @@ namespace PerformanceCalculator.Simulate
 
         public double GetAccuracy(int gamemode, InputStatistics statistics, InputMaximumStatistics maximumStatistics, bool isLazerCalculation = false)
         {
-            if (gamemode == 2) return 0;
+            if (gamemode == 2)
+            {
+                int hits = statistics.Great + statistics.LargeTickHit + statistics.SmallTickHit;
+                int total = hits + statistics.Miss + (maximumStatistics.SmallTickHit - statistics.SmallTickHit);
+                return hits / total;
+            }
 
             int totalHits = statistics.Perfect + statistics.Great + statistics.Good + statistics.Ok + statistics.Meh + statistics.Miss;
 
