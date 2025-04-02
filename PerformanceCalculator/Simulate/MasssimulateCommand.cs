@@ -191,7 +191,8 @@ namespace PerformanceCalculator.Simulate
                     { HitResult.IgnoreMiss, score.Statistics.IgnoreMiss },
                     { HitResult.LargeBonus, score.Statistics.LargeBonus },
                     { HitResult.SmallBonus, score.Statistics.SmallBonus },
-                    { HitResult.SmallTickHit, score.Statistics.SmallTickHit }
+                    { HitResult.SmallTickHit, score.Statistics.SmallTickHit },
+                    { HitResult.SmallTickMiss, score.MaximumStatistics.SmallTickHit - score.Statistics.SmallTickHit }
                 };
 
                 bool isLazerCalculation = !mods.Any(m => m.Acronym == "CL");
@@ -257,8 +258,8 @@ namespace PerformanceCalculator.Simulate
         {
             if (gamemode == 2)
             {
-                int hits = statistics.Great + statistics.LargeTickHit + statistics.SmallTickHit;
-                int total = hits + statistics.Miss + (maximumStatistics.SmallTickHit - statistics.SmallTickHit);
+                double hits = statistics.Great + statistics.LargeTickHit + statistics.SmallTickHit;
+                double total = hits + statistics.Miss + (maximumStatistics.SmallTickHit - statistics.SmallTickHit);
                 return hits / total;
             }
 
