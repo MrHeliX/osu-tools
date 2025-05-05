@@ -194,7 +194,8 @@ namespace PerformanceCalculator.Simulate
                     { HitResult.IgnoreMiss, score.Statistics.IgnoreMiss },
                     { HitResult.LargeBonus, score.Statistics.LargeBonus },
                     { HitResult.SmallBonus, score.Statistics.SmallBonus },
-                    { HitResult.SmallTickHit, score.Statistics.SmallTickHit }
+                    { HitResult.SmallTickHit, score.Statistics.SmallTickHit },
+                    { HitResult.SmallTickMiss, score.MaximumStatistics.SmallTickHit - score.Statistics.SmallTickHit }
                 };
 
                 bool isLazerCalculation = !mods.Any(m => m.Acronym == "CL");
