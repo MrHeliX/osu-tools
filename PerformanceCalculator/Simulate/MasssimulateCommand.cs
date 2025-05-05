@@ -133,6 +133,9 @@ public class InputScore
 
     [JsonProperty("maximum_statistics")]
     public InputMaximumStatistics MaximumStatistics { get; set; }
+
+    [JsonProperty("legacy_total_score")]
+    public int LegacyTotalScore { get; set; }
 }
 
 namespace PerformanceCalculator.Simulate
@@ -154,7 +157,7 @@ namespace PerformanceCalculator.Simulate
         public override void Execute()
         {
             var sr = new StreamReader(Scores);
-            var json = sr.ReadToEnd();
+            string json = sr.ReadToEnd();
             var scoresData = JsonConvert.DeserializeObject<List<InputScore>>(json);
 
             if (scoresData.Count == 0)
@@ -202,7 +205,8 @@ namespace PerformanceCalculator.Simulate
                     MaxCombo = score.MaxCombo,
                     Statistics = statistics,
                     Mods = mods,
-                    TotalScore = 0
+                    TotalScore = 0,
+                    LegacyTotalScore = score.LegacyTotalScore
                 };
 
                 var difficultyCalculator = ruleset.CreateDifficultyCalculator(workingBeatmap);
@@ -232,7 +236,7 @@ namespace PerformanceCalculator.Simulate
                 results.Add(json);
             });
 
-            var output = $"{{ \"response\": [{string.Join(",", results)}] }}";
+            string output = $"{{ \"response\": [{string.Join(",", results)}] }}";
             Console.WriteLine(output);
         }
 
@@ -244,7 +248,7 @@ namespace PerformanceCalculator.Simulate
             var availableMods = ruleset.CreateAllMods().ToList();
             var mods = new List<Mod>();
 
-            foreach (var modString in Mods)
+            foreach (string modString in Mods)
             {
                 Mod newMod = availableMods.FirstOrDefault(m => string.Equals(m.Acronym, modString, StringComparison.CurrentCultureIgnoreCase)) ?? throw new ArgumentException($"Invalid mod provided: {modString}");
                 mods.Add(newMod);
@@ -272,7 +276,7 @@ namespace PerformanceCalculator.Simulate
                     case 1: return (double)(2 * statistics.Great + statistics.Ok) / (2 * totalHits);
                     case 3: return (double)(320 * statistics.Perfect + 300 * statistics.Great + 200 * statistics.Good + 100 * statistics.Ok + 50 * statistics.Meh) / (320 * totalHits);
                     default: return 0;
-                }                    
+                }
             }
 
             switch (gamemode)
