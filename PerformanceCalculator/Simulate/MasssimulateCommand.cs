@@ -257,8 +257,8 @@ namespace PerformanceCalculator.Simulate
         {
             if (gamemode == 2)
             {
-                int hits = statistics.Great + statistics.LargeTickHit + statistics.SmallTickHit;
-                int total = hits + statistics.Miss + (maximumStatistics.SmallTickHit - statistics.SmallTickHit);
+                double hits = statistics.Great + statistics.LargeTickHit + statistics.SmallTickHit;
+                double total = hits + statistics.Miss + (maximumStatistics.SmallTickHit - statistics.SmallTickHit);
                 return hits / total;
             }
 
