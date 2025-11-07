@@ -14,8 +14,6 @@ using osu.Framework.Graphics.Containers;
 using osu.Framework.Graphics.Shapes;
 using osu.Framework.Graphics.Sprites;
 using osu.Framework.Graphics.Textures;
-using osu.Framework.Input.Events;
-using osu.Framework.Input.States;
 using osu.Framework.Logging;
 using osu.Framework.Threading;
 using osu.Game.Configuration;
@@ -503,8 +501,6 @@ namespace PerformanceCalculatorGUI.Screens
                         new Dimension(),
                         new Dimension(GridSizeMode.AutoSize)
                     };
-
-                    fixupTextBox(beatmapIdTextBox);
                 }
             });
 
@@ -851,9 +847,6 @@ namespace PerformanceCalculatorGUI.Screens
                         new Dimension(GridSizeMode.AutoSize)
                     }
                 };
-
-                fixupTextBox(goodsTextBox);
-                fixupTextBox(mehsTextBox);
             }
             else
             {
@@ -864,17 +857,7 @@ namespace PerformanceCalculatorGUI.Screens
                     new Dimension(GridSizeMode.Absolute),
                     new Dimension(GridSizeMode.AutoSize)
                 };
-
-                fixupTextBox(accuracyTextBox);
             }
-        }
-
-        private void fixupTextBox(LabelledTextBox textbox)
-        {
-            // This is a hack around TextBox's way of updating layout and positioning of text
-            // It can only be triggered by a couple of input events and there's no way to invalidate it from the outside
-            // See: https://github.com/ppy/osu-framework/blob/fd5615732033c5ea650aa5cabc8595883a2b63f5/osu.Framework/Graphics/UserInterface/TextBox.cs#L528
-            textbox.TriggerEvent(new FocusEvent(new InputState(), this));
         }
 
         private void resetMods()
@@ -1000,89 +983,91 @@ namespace PerformanceCalculatorGUI.Screens
 
             Task.Run(async () =>
             {
-                try
-                {
-                    var scoreInfo = await apiManager.GetJsonFromApi<SoloScoreInfo>($"scores/{scoreId}").ConfigureAwait(false);
+                var scoreInfo = await apiManager.GetJsonFromApi<SoloScoreInfo>($"scores/{scoreId}").ConfigureAwait(false);
 
-                    Schedule(() =>
+                Schedule(() =>
+                {
+                    if (scoreInfo.BeatmapID != working.BeatmapInfo.OnlineID)
                     {
-                        if (scoreInfo.BeatmapID != working.BeatmapInfo.OnlineID)
+                        beatmapIdTextBox.Text = string.Empty;
+                        changeBeatmap(scoreInfo.BeatmapID.ToString());
+                    }
+
+                    ruleset.Value = rulesets.GetRuleset(scoreInfo.RulesetID);
+                    appliedMods.Value = scoreInfo.Mods.Select(x => x.ToMod(ruleset.Value.CreateInstance())).ToList();
+
+                    legacyTotalScore = scoreInfo.LegacyTotalScore;
+
+                    fullScoreDataSwitch.Current.Value = true;
+
+                    // TODO: this shouldn't be done in 2 lines
+                    comboTextBox.Value.Value = scoreInfo.MaxCombo;
+                    comboTextBox.Text = scoreInfo.MaxCombo.ToString();
+
+                    resetMisses();
+                    updateMissesTextboxes();
+
+                    if (scoreInfo.Statistics.TryGetValue(HitResult.Miss, out int misses))
+                    {
+                        missesTextBox.Value.Value = misses;
+                        missesTextBox.Text = misses.ToString();
+                    }
+
+                    if (scoreInfo.Statistics.TryGetValue(HitResult.Ok, out int oks))
+                    {
+                        goodsTextBox.Value.Value = oks;
+                        goodsTextBox.Text = oks.ToString();
+                    }
+
+                    if (scoreInfo.Statistics.TryGetValue(HitResult.Meh, out int mehs))
+                    {
+                        mehsTextBox.Value.Value = mehs;
+                        mehsTextBox.Text = mehs.ToString();
+                    }
+
+                    if (ruleset.Value?.ShortName == "fruits")
+                    {
+                        if (scoreInfo.Statistics.TryGetValue(HitResult.LargeTickHit, out int largeTickHits))
                         {
-                            beatmapIdTextBox.Text = string.Empty;
-                            changeBeatmap(scoreInfo.BeatmapID.ToString());
+                            goodsTextBox.Value.Value = largeTickHits;
+                            goodsTextBox.Text = largeTickHits.ToString();
                         }
 
-                        ruleset.Value = rulesets.GetRuleset(scoreInfo.RulesetID);
-                        appliedMods.Value = scoreInfo.Mods.Select(x => x.ToMod(ruleset.Value.CreateInstance())).ToList();
-
-                        legacyTotalScore = scoreInfo.LegacyTotalScore;
-
-                        fullScoreDataSwitch.Current.Value = true;
-
-                        // TODO: this shouldn't be done in 2 lines
-                        comboTextBox.Value.Value = scoreInfo.MaxCombo;
-                        comboTextBox.Text = scoreInfo.MaxCombo.ToString();
-
-                        resetMisses();
-                        updateMissesTextboxes();
-
-                        if (scoreInfo.Statistics.TryGetValue(HitResult.Miss, out int misses))
+                        if (scoreInfo.Statistics.TryGetValue(HitResult.SmallTickHit, out int smallTickHits))
                         {
-                            missesTextBox.Value.Value = misses;
-                            missesTextBox.Text = misses.ToString();
+                            mehsTextBox.Value.Value = smallTickHits;
+                            mehsTextBox.Text = smallTickHits.ToString();
                         }
+                    }
 
-                        if (scoreInfo.Statistics.TryGetValue(HitResult.Ok, out int oks))
-                        {
-                            goodsTextBox.Value.Value = oks;
-                            goodsTextBox.Text = oks.ToString();
-                        }
+                    if (scoreInfo.Statistics.TryGetValue(HitResult.LargeTickMiss, out int largeTickMisses))
+                    {
+                        largeTickMissesTextBox.Value.Value = largeTickMisses;
+                        largeTickMissesTextBox.Text = largeTickMisses.ToString();
+                    }
 
-                        if (scoreInfo.Statistics.TryGetValue(HitResult.Meh, out int mehs))
-                        {
-                            mehsTextBox.Value.Value = mehs;
-                            mehsTextBox.Text = mehs.ToString();
-                        }
+                    if (scoreInfo.Statistics.TryGetValue(HitResult.SliderTailHit, out int sliderTailHits))
+                    {
+                        int sliderTailMisses = scoreInfo.MaximumStatistics[HitResult.SliderTailHit] - sliderTailHits;
+                        sliderTailMissesTextBox.Value.Value = sliderTailMisses;
+                        sliderTailMissesTextBox.Text = sliderTailMisses.ToString();
+                    }
 
-                        if (ruleset.Value?.ShortName == "fruits")
-                        {
-                            if (scoreInfo.Statistics.TryGetValue(HitResult.LargeTickHit, out int largeTickHits))
-                            {
-                                goodsTextBox.Value.Value = largeTickHits;
-                                goodsTextBox.Text = largeTickHits.ToString();
-                            }
+                    calculateDifficulty();
+                    calculatePerformance();
 
-                            if (scoreInfo.Statistics.TryGetValue(HitResult.SmallTickHit, out int smallTickHits))
-                            {
-                                mehsTextBox.Value.Value = smallTickHits;
-                                mehsTextBox.Text = smallTickHits.ToString();
-                            }
-                        }
-
-                        if (scoreInfo.Statistics.TryGetValue(HitResult.LargeTickMiss, out int largeTickMisses))
-                        {
-                            largeTickMissesTextBox.Value.Value = largeTickMisses;
-                            largeTickMissesTextBox.Text = largeTickMisses.ToString();
-                        }
-
-                        if (scoreInfo.Statistics.TryGetValue(HitResult.SliderTailHit, out int sliderTailHits))
-                        {
-                            int sliderTailMisses = scoreInfo.MaximumStatistics[HitResult.SliderTailHit] - sliderTailHits;
-                            sliderTailMissesTextBox.Value.Value = sliderTailMisses;
-                            sliderTailMissesTextBox.Text = sliderTailMisses.ToString();
-                        }
-
-                        calculateDifficulty();
-                        calculatePerformance();
-
-                        scoreIdPopulateButton.State.Value = ButtonState.Done;
-                    });
-                }
-                catch (Exception e)
+                    scoreIdPopulateButton.State.Value = ButtonState.Done;
+                });
+            }).ContinueWith(t =>
+            {
+                showError(t.Exception);
+            }, TaskContinuationOptions.OnlyOnFaulted).ContinueWith(t =>
+            {
+                Schedule(() =>
                 {
-                    Schedule(() => showError(e));
-                }
-            });
+                    scoreIdPopulateButton.State.Value = ButtonState.Done;
+                });
+            }, TaskContinuationOptions.None);
         }
 
         private void resetMisses()
@@ -1111,11 +1096,7 @@ namespace PerformanceCalculatorGUI.Screens
                 {
                     missesContainer.Content = new[] { new[] { missesTextBox, largeTickMissesTextBox, sliderTailMissesTextBox } };
                     missesContainer.ColumnDimensions = [new Dimension(), new Dimension(), new Dimension()];
-                    fixupTextBox(largeTickMissesTextBox);
-                    fixupTextBox(sliderTailMissesTextBox);
                 }
-
-                fixupTextBox(missesTextBox);
             }
         }
     }
