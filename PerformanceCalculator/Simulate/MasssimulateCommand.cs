@@ -152,8 +152,6 @@ namespace PerformanceCalculator.Simulate
         [Argument(1, Name = "cache", Description = "Path to the cache folder.")]
         public string CachePath { get; }
 
-        public string[] Mods { get; set; }
-
         public override void Execute()
         {
             var sr = new StreamReader(Scores);
@@ -175,8 +173,7 @@ namespace PerformanceCalculator.Simulate
                     new FileWebRequest(beatmapPath, $"https://osu.ppy.sh/osu/{score.BeatmapID}").Perform();
 
                 var workingBeatmap = ProcessorWorkingBeatmap.FromFileOrId(beatmapPath);
-                Mods = score.Mods.Select(mod => mod.Acronym).ToArray();
-                var mods = GetMods(ruleset);
+                var mods = GetMods(ruleset, score.Mods);
                 var beatmap = workingBeatmap.GetPlayableBeatmap(ruleset.RulesetInfo, mods);
 
                 Dictionary<HitResult, int> statistics = new Dictionary<HitResult, int>
@@ -241,18 +238,16 @@ namespace PerformanceCalculator.Simulate
             Console.WriteLine(output);
         }
 
-        protected Mod[] GetMods(Ruleset ruleset)
+        protected Mod[] GetMods(Ruleset ruleset, List<APIMod> _mods)
         {
-            if (Mods == null)
+            if (_mods.Count == 0)
                 return Array.Empty<Mod>();
 
-            var availableMods = ruleset.CreateAllMods().ToList();
             var mods = new List<Mod>();
 
-            foreach (string modString in Mods)
+            foreach (APIMod mod in _mods)
             {
-                Mod newMod = availableMods.FirstOrDefault(m => string.Equals(m.Acronym, modString, StringComparison.CurrentCultureIgnoreCase)) ?? throw new ArgumentException($"Invalid mod provided: {modString}");
-                mods.Add(newMod);
+                mods.Add(mod.ToMod(ruleset));
             }
 
             return mods.ToArray();
